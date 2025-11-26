@@ -1,0 +1,6 @@
+{
+  "_note": "V4. Giảm boost nhóm để tránh lock sai nhóm.",
+  "top1_boost": 0.5,
+  "top2_boost": 0.25,
+  "others_boost": 0.0
+}

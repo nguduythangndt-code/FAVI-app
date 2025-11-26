@@ -1,0 +1,123 @@
+{
+  "id": "lameness",
+  "name": "Đi khập khiễng",
+  "species": "cattle",
+  "group": "other",
+
+  "summary": "Đi khập khiễng là biểu hiện chung của nhiều vấn đề ở chân và móng như viêm móng, chấn thương, đau khớp hoặc nền chuồng xấu. Bò giảm ăn và giảm sữa nhanh nếu kéo dài.",
+
+  "causes": [
+    "Tổn thương móng hoặc chân",
+    "Nền chuồng trơn hoặc gồ ghề",
+    "Viêm khớp hoặc nhiễm trùng nhẹ",
+    "Đi lại quá nhiều"
+  ],
+
+  "risk_factors": [
+    "Chuồng ẩm, trơn trượt",
+    "Cắt móng không đúng kỹ thuật",
+    "Thiếu khoáng vi lượng",
+    "Bò nặng cân, bò sữa cao sản"
+  ],
+
+  "clinical_signs_detailed": [
+    "Đi lệch chân hoặc bước ngắn",
+    "Nằm nhiều, đứng dậy khó",
+    "Sưng nhẹ ở khớp hoặc móng",
+    "Giảm ăn và giảm sữa"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đi hơi lệch",
+      "Hoạt động bình thường"
+    ],
+    "moderate": [
+      "Đi khó",
+      "Nằm nhiều",
+      "Giảm ăn"
+    ],
+    "severe": [
+      "Không muốn đứng",
+      "Đau rõ",
+      "Giảm sữa mạnh"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "flunixin"
+    ],
+    "alternative_drugs": [
+      "meloxicam"
+    ],
+    "note_drugs": "Thuốc giảm đau giúp bò vận động lại. Nếu có sưng nóng vùng móng cần kết hợp kháng sinh theo chỉ định thú y.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Nền chuồng khô, không trơn",
+      "Giảm vận động",
+      "Kiểm tra móng và khớp",
+      "Bổ sung khoáng"
+    ],
+
+    "dose_policy": "Dùng thuốc theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đi hơi khó nhưng vẫn đứng được.",
+      "guideline": [
+        "Giảm đau",
+        "Nghỉ ngơi",
+        "Theo dõi móng"
+      ]
+    },
+    "case_type_2": {
+      "description": "Không đứng được hoặc đau nặng.",
+      "guideline": [
+        "Thú y kiểm tra trực tiếp",
+        "Không ép vận động",
+        "Xử lý theo nguyên nhân gốc"
+      ]
+    },
+    "note": "Lameness là nguyên nhân lớn gây giảm sữa ở bò sữa."
+  },
+
+  "prevention": [
+    "Nền chuồng sạch, không trơn",
+    "Cắt móng đúng kỹ thuật",
+    "Bổ sung khoáng thường xuyên",
+    "Không để bò đi lại quá nhiều trên nền xấu"
+  ],
+
+  "notes": [
+    "Quan sát dáng đi mỗi ngày giúp phát hiện sớm.",
+    "Bò sữa dễ mắc nhất.",
+    "Lameness kéo dài gây giảm năng suất mạnh."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

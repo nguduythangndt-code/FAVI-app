@@ -1,0 +1,124 @@
+{
+  "id": "milk_fever",
+  "name": "Sốt sữa",
+  "species": "cattle",
+  "group": "reproductive",
+
+  "summary": "Sốt sữa là tình trạng hạ canxi máu xảy ra sau đẻ, làm bò yếu, nằm nhiều, run cơ và không đứng dậy được. Cần xử lý sớm để tránh tử vong.",
+
+  "causes": [
+    "Giải phóng canxi quá nhanh vào sữa sau đẻ",
+    "Khẩu phần trước đẻ mất cân đối khoáng",
+    "Bò lớn tuổi hoặc năng suất cao"
+  ],
+
+  "risk_factors": [
+    "Bò đẻ nhiều lứa",
+    "Khẩu phần giàu canxi trước đẻ",
+    "Bò sữa năng suất cao",
+    "Ít vận động"
+  ],
+
+  "clinical_signs_detailed": [
+    "Run cơ, đứng không vững",
+    "Đi loạng choạng, nhanh mệt",
+    "Nằm nhiều, khó đứng dậy",
+    "Ăn rất kém hoặc bỏ ăn",
+    "Tai lạnh, mũi lạnh",
+    "Thở chậm, yếu"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Run nhẹ",
+      "Ăn giảm"
+    ],
+    "moderate": [
+      "Đi loạng choạng",
+      "Đầu cúi thấp",
+      "Tai lạnh"
+    ],
+    "severe": [
+      "Nằm bệt, khó thở",
+      "Không đứng nổi",
+      "Nguy cơ tử vong cao"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "electrolyte"
+    ],
+    "alternative_drugs": [
+      "vitamin_bc"
+    ],
+    "note_drugs": "Điều trị chính là bù khoáng và điện giải. Không cố lôi bò đứng dậy vì dễ ngã và tổn thương thêm.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Giữ bò nằm nơi khô và ấm",
+      "Trở mình cho bò nếu nằm lâu",
+      "Không ép đứng dậy",
+      "Theo dõi nhịp thở và mức tỉnh táo"
+    ],
+
+    "dose_policy": "Điện giải và khoáng dùng theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò yếu nhưng còn đứng.",
+      "guideline": [
+        "Bù điện giải sớm",
+        "Hỗ trợ vitamin",
+        "Theo dõi từng giờ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò nằm bệt, run cơ, rất yếu.",
+      "guideline": [
+        "Cần thú y hỗ trợ trực tiếp",
+        "Xử lý cấp cứu tránh suy hô hấp",
+        "Không vận chuyển hoặc xê dịch mạnh"
+      ]
+    },
+    "note": "Sốt sữa nếu hỗ trợ sớm sẽ hồi phục nhanh."
+  },
+
+  "prevention": [
+    "Khẩu phần trước đẻ cân đối khoáng",
+    "Không cho bò ăn quá giàu canxi",
+    "Bò vận động đủ hằng ngày",
+    "Theo dõi sát trong 72 giờ đầu sau đẻ"
+  ],
+
+  "notes": [
+    "Bò lớn tuổi rất dễ bị.",
+    "Không ép bò đứng khi còn yếu.",
+    "Ghi lại ca bệnh để điều chỉnh khẩu phần đàn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

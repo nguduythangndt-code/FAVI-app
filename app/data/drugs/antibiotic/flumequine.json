@@ -1,0 +1,41 @@
+{
+  "id": "flumequine",
+  "name": "Flumequine",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm quinolone, hỗ trợ kiểm soát tốt một số vi khuẩn Gram âm trong đường ruột. Thường được dùng khi tiêu chảy mới xuất hiện hoặc mức độ vừa.",
+  "clinical_uses": [
+    "Tiêu chảy nhẹ - trung bình ở dê, heo, bò con.",
+    "Rối loạn tiêu hóa sau cai sữa.",
+    "Hỗ trợ đường ruột khi nghi ngờ vi khuẩn Gram âm."
+  ],
+  "pros": [
+    "Tương đối an toàn và dễ dùng.",
+    "Phù hợp điều trị sớm khi bệnh chưa nặng.",
+    "Dạng uống tiện xử lý theo đàn."
+  ],
+  "cons": [
+    "Không phù hợp ca nặng hoặc mất nước nhiều.",
+    "Hiệu lực thấp hơn fluoroquinolone thế hệ mới.",
+    "Không dùng cho nhiễm khuẩn toàn thân."
+  ],
+  "mild_side_effects": [
+    "Phân mềm nhẹ.",
+    "Ăn giảm nhẹ.",
+    "Mệt tạm thời."
+  ],
+  "usage_recommendations": [
+    "Dùng sớm sẽ cho hiệu quả tốt nhất.",
+    "Kết hợp điện giải - men tiêu hóa để ổn định ruột.",
+    "Theo đúng liều hướng dẫn trên nhãn."
+  ],
+  "when_not_to_use": [
+    "Ca nặng, tiêu chảy nhiều nước.",
+    "Thú bỏ ăn, uống rất ít.",
+    "Không dùng để phòng bệnh dài ngày."
+  ],
+  "alternative_drugs": [
+    "Neomycin.",
+    "Sulfa TMP.",
+    "Oxytetracycline."
+  ]
+}

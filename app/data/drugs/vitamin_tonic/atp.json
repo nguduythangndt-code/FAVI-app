@@ -1,0 +1,48 @@
+{
+  "name": "ATP (tăng lực - phục hồi)",
+
+  "mechanism": [
+    "Hỗ trợ chuyển hoá năng lượng ở mức tế bào",
+    "Giúp cơ thể sử dụng năng lượng hiệu quả hơn",
+    "Cải thiện sức bền và vận động"
+  ],
+
+  "clinical_uses": [
+    "Dê kiệt sức sau bệnh",
+    "Dê vận động nhiều, phải leo dốc, chạy đàn",
+    "Đàn cần phục hồi nhanh sau stress"
+  ],
+
+  "advantages": [
+    "Giúp dê hồi sức nhanh hơn",
+    "Kết hợp tốt với B12 và thuốc bổ khác",
+    "Phù hợp cho dê giống, dê đực phối"
+  ],
+
+  "disadvantages": [
+    "Không giải quyết nguyên nhân bệnh",
+    "Tác dụng ngắn, cần kết hợp dinh dưỡng tốt"
+  ],
+
+  "side_effects": [
+    "Hiếm gặp tác dụng phụ rõ",
+    "Đôi khi tăng kích thích vận động nhẹ"
+  ],
+
+  "recommendations": [
+    "Dùng ngắn ngày trong giai đoạn kiệt sức",
+    "Không lạm dụng như giải pháp thay thế nuôi dưỡng",
+    "Theo dõi nhịp thở và vận động sau dùng"
+  ],
+
+  "contraindications": [
+    "Không dùng cho dê đang sốt rất cao chưa kiểm soát",
+    "Dê suy tim nặng nghi ngờ"
+  ],
+
+  "alternatives": [
+    "Butafosfan + B12",
+    "Electrolyte + Amino Premium",
+    "Vitamin BC"
+  ]
+}

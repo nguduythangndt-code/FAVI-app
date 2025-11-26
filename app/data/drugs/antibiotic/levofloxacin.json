@@ -1,0 +1,41 @@
+{
+  "id": "levofloxacin",
+  "name": "Levofloxacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh fluoroquinolone thế hệ mới hơn, hỗ trợ điều trị nhiều loại vi khuẩn Gram âm và Gram dương, phù hợp các ca nặng hơn.",
+  "clinical_uses": [
+    "Tiêu chảy nặng nghi nhiễm khuẩn Gram âm.",
+    "Nhiễm trùng toàn thân mức độ vừa - nặng.",
+    "Một số ca hô hấp tiềm ẩn yếu tố vi khuẩn mạnh."
+  ],
+  "pros": [
+    "Hiệu lực cao, tác dụng nhanh.",
+    "Phù hợp cho ca nặng cần can thiệp kháng sinh mạnh.",
+    "Bao phủ được nhiều chủng vi khuẩn hơn thế hệ cũ."
+  ],
+  "cons": [
+    "Chi phí cao.",
+    "Không phù hợp dùng kéo dài.",
+    "Nên được dùng dưới tư vấn thú y."
+  ],
+  "mild_side_effects": [
+    "Mệt nhẹ trong ngày đầu.",
+    "Ăn giảm nhẹ.",
+    "Đôi khi gây phân mềm."
+  ],
+  "usage_recommendations": [
+    "Phù hợp khi bệnh tiến triển nhanh hoặc nặng.",
+    "Cần kết hợp bù nước - điện giải, theo dõi nhiệt độ.",
+    "Dùng theo hướng dẫn chuyên môn để đảm bảo an toàn."
+  ],
+  "when_not_to_use": [
+    "Thú rất yếu hoặc mất nước chưa được xử lý.",
+    "Thú non nhỏ đang phát triển nhanh.",
+    "Không dùng trong thời gian dài để tránh giảm đáp ứng thuốc."
+  ],
+  "alternative_drugs": [
+    "Enrofloxacin.",
+    "Florfenicol.",
+    "Ceftiofur."
+  ]
+}

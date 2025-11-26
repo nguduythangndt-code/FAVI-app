@@ -1,0 +1,36 @@
+{
+  "name": "Praziquantel",
+  "mechanism": [
+    "Tác động lên màng tế bào sán",
+    "Làm tăng thấm ion → sán co cứng và chết"
+  ],
+  "clinical_uses": [
+    "Điều trị sán dây",
+    "Hữu ích trong ca nhiễm sán trưởng thành"
+  ],
+  "advantages": [
+    "Rất hiệu quả trên sán dây",
+    "An toàn cao"
+  ],
+  "disadvantages": [
+    "Không diệt được giun tròn",
+    "Không có tác dụng với sán lá gan"
+  ],
+  "side_effects": [
+    "Giảm ăn nhẹ",
+    "Tiêu phân sệt do sán rụng"
+  ],
+  "recommendations": [
+    "Dùng đúng hướng dẫn nhãn",
+    "Kết hợp quản lý phân để tránh tái nhiễm"
+  ],
+  "contraindications": [
+    "Không dùng khi dê quá yếu",
+    "Không dùng chung với nhiều thuốc tẩy giun khác"
+  ],
+  "alternatives": [
+    "Albendazole (mức độ nhẹ)",
+    "Fenbendazole (một phần hiệu lực)",
+    "Oxyclozanide (nếu nghi sán gan)"
+  ]
+}

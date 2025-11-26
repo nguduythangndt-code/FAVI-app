@@ -1,0 +1,41 @@
+{
+  "id": "danofloxacin",
+  "name": "Danofloxacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm fluoroquinolone, giúp ức chế khả năng sao chép DNA của vi khuẩn. Thường được dùng trong những ca hô hấp hoặc tiêu hóa mức độ nặng hơn.",
+  "clinical_uses": [
+    "Viêm phổi, thở nhanh, ho kéo dài ở dê, bò, heo.",
+    "Nhiễm khuẩn toàn thân mức độ vừa - nặng.",
+    "Một số ca tiêu chảy nặng nghi do vi khuẩn Gram âm."
+  ],
+  "pros": [
+    "Hiệu lực mạnh và khá nhanh.",
+    "Phù hợp cho các ca tiến triển nhanh, cần can thiệp sớm.",
+    "Bao phủ được nhiều chủng vi khuẩn Gram âm."
+  ],
+  "cons": [
+    "Không nên dùng kéo dài nhiều ngày.",
+    "Không phù hợp thú non rất nhỏ.",
+    "Chi phí thường cao hơn thuốc cơ bản."
+  ],
+  "mild_side_effects": [
+    "Con vật hơi mệt hoặc đứng riêng một lúc.",
+    "Giảm ăn nhẹ.",
+    "Đau nhẹ tại vị trí tiêm."
+  ],
+  "usage_recommendations": [
+    "Thường dùng trong ca nặng hoặc bệnh tiến triển nhanh.",
+    "Theo dõi nhịp thở, thân nhiệt và mức độ tỉnh táo trong 24-48 giờ.",
+    "Dùng theo hướng dẫn sản phẩm hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Thú mất nước nặng chưa can thiệp.",
+    "Thú quá yếu hoặc suy thận cần được đánh giá thêm.",
+    "Không dùng để phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Enrofloxacin.",
+    "Florfenicol.",
+    "Ceftiofur."
+  ]
+}

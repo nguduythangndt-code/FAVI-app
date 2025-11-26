@@ -1,0 +1,41 @@
+{
+  "id": "amoxiclav",
+  "name": "Amoxicillin + Clavulanic acid",
+  "group": "antibiotic",
+  "mechanism": "Kết hợp giữa amoxicillin và clavulanic acid giúp mở rộng phổ tác động, đặc biệt trên những vi khuẩn có khả năng kháng penicillin.",
+  "clinical_uses": [
+    "Nhiễm trùng da - mô mềm có mủ.",
+    "Viêm phổi mức độ nhẹ - trung bình.",
+    "Viêm tử cung nhẹ hoặc nhiễm trùng rốn ở gia súc non."
+  ],
+  "pros": [
+    "Mạnh hơn amoxicillin đơn thuần.",
+    "Phù hợp ca nhiễm trùng hỗn hợp hoặc đáp ứng kém với nhóm penicillin cơ bản.",
+    "Tương đối an toàn."
+  ],
+  "cons": [
+    "Giá cao hơn dạng đơn chất.",
+    "Không phải lựa chọn cho ca nặng toàn thân.",
+    "Hiệu quả phụ thuộc vào dùng đủ thời gian."
+  ],
+  "mild_side_effects": [
+    "Hơi mềm phân.",
+    "Con vật buồn ăn nhẹ.",
+    "Đau nhẹ khi tiêm."
+  ],
+  "usage_recommendations": [
+    "Phù hợp khi cần phổ rộng hơn amoxicillin thường.",
+    "Theo dõi tiến triển trong 24-48 giờ.",
+    "Tuân thủ hướng dẫn liều và thời gian trên nhãn."
+  ],
+  "when_not_to_use": [
+    "Thú từng dị ứng với penicillin.",
+    "Nhiễm Gram âm nặng (cần thuốc phổ rộng hơn).",
+    "Không dùng phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Ceftiofur.",
+    "Florfenicol.",
+    "Oxytetracycline."
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pasteurellosis",
+    "name": "Viêm phổi tụ huyết trùng",
+    "group": "respiratory"
+  },
+  {
+    "id": "mycoplasmosis",
+    "name": "Viêm phổi Mycoplasma",
+    "group": "respiratory"
+  },
+  {
+    "id": "pleuropneumonia",
+    "name": "Viêm phổi màng phổi",
+    "group": "respiratory"
+  },
+  {
+    "id": "bronchitis-tracheitis",
+    "name": "Viêm phế quản - khí quản",
+    "group": "respiratory"
+  },
+  {
+    "id": "environmental-pneumonia",
+    "name": "Viêm phổi do môi trường",
+    "group": "respiratory"
+  },
+  {
+    "id": "shipping-fever",
+    "name": "Viêm phổi do stress / vận chuyển",
+    "group": "respiratory"
+  },
+  {
+    "id": "verminous-pneumonia",
+    "name": "Viêm phổi do giun phổi",
+    "group": "respiratory"
+  },
+  {
+    "id": "aspergillosis",
+    "name": "Viêm phổi do nấm (Aspergillosis)",
+    "group": "respiratory"
+  },
+  {
+    "id": "rhinitis-sinusitis",
+    "name": "Viêm mũi - viêm xoang",
+    "group": "respiratory"
+  },
+  {
+    "id": "aspiration-pneumonia",
+    "name": "Viêm phổi do hít sặc",
+    "group": "respiratory"
+  },
+  {
+    "id": "toxic-gas-pneumonia",
+    "name": "Viêm phổi do khí độc (NH₃, H₂S)",
+    "group": "respiratory"
+  },
+  {
+    "id": "cold",
+    "name": "Cảm lạnh",
+    "group": "respiratory"
+  },
+  {
+    "id": "chronic-pneumonia",
+    "name": "Viêm phổi mạn tính",
+    "group": "respiratory"
+  }
+]

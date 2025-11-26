@@ -1,0 +1,35 @@
+{
+  "name": "Closantel",
+  "mechanism": [
+    "Làm gián đoạn chuyển hóa năng lượng của sán",
+    "Hiệu quả cao trên sán lá gan trưởng thành"
+  ],
+  "clinical_uses": [
+    "Sán lá gan (Fasciola spp.)",
+    "Ca mãn tính, kéo dài, gây gầy sút"
+  ],
+  "advantages": [
+    "Rất hiệu quả với sán trưởng thành",
+    "Thích hợp vùng có nhiều ốc trung gian"
+  ],
+  "disadvantages": [
+    "Không tác dụng với giun tròn",
+    "Không diệt sán gan non"
+  ],
+  "side_effects": [
+    "Mệt nhẹ",
+    "Giảm ăn 1 ngày"
+  ],
+  "recommendations": [
+    "Dùng đúng theo nhãn",
+    "Kết hợp cải thiện bãi chăn có nước đọng"
+  ],
+  "contraindications": [
+    "Không dùng cho dê suy gan nặng",
+    "Không dùng sai liều (nguy cơ độc)"
+  ],
+  "alternatives": [
+    "Triclabendazole - cho sán gan non + trưởng thành",
+    "Albendazole - hiệu lực thấp hơn"
+  ]
+}

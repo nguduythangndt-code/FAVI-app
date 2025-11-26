@@ -1,0 +1,44 @@
+[
+  {
+    "id": "metritis",
+    "name": "Viêm tử cung",
+    "group": "reproductive",
+    "searchText": "Âm hộ chảy dịch đục, vàng, nâu hoặc hôi. Sốt, ăn giảm, lờ đờ. Sữa giảm mạnh, dê mẹ đứng tách đàn. Tử cung căng, đau khi sờ. Trong trường hợp nặng có thể nhiễm trùng huyết. Dịch âm hộ đục, mùi nhẹ. Ăn giảm nhưng vẫn đứng nhiều. Dịch hôi rõ, sốt, bỏ ăn. Lờ đờ, giảm sữa. Dịch hôi nặng, màu nâu - đen. Sốt cao, mất nước, đứng khó. Nguy cơ nhiễm trùng huyết.",
+    "severityLevel": 3
+  },
+  {
+    "id": "mastitis",
+    "name": "Viêm vú",
+    "group": "reproductive",
+    "searchText": "Vú sưng, nóng, đỏ, rất đau khi chạm vào. Sữa loãng, vàng, lợn cợn hoặc có máu. Ăn giảm, sốt, lờ đờ. Dê mẹ đá con vì đau. Trường hợp nặng: áp-xe vú, mất sữa. Vú cứng nhẹ, đau nhẹ. Sữa hơi loãng. Vú sưng rõ, nóng đỏ. Sữa vón, đổi màu. Sốt nhẹ - vừa. Áp-xe vú, vú nóng đỏ toàn bộ. Dê bỏ ăn, sốt cao. Nguy cơ hoại tử vú.",
+    "severityLevel": 2
+  },
+  {
+    "id": "retained-placenta",
+    "name": "Sót nhau",
+    "group": "reproductive",
+    "searchText": "Nhau lòi ra nhưng không rơi, kéo dài nhiều giờ. Âm hộ có dịch trong - đục. Dê khó chịu, ăn giảm. Nếu để lâu → dịch hôi, sốt, viêm tử cung. Nhau treo, dê vẫn ăn. Không sốt. Nhau treo > 6 giờ. Ăn giảm, lờ đờ nhẹ. Dịch hôi, sốt, đau bụng. Chuyển sang viêm tử cung cấp.",
+    "severityLevel": 2
+  },
+  {
+    "id": "abortion",
+    "name": "Sảy thai truyền nhiễm",
+    "group": "reproductive",
+    "searchText": "Chảy dịch âm hộ trước khi sảy. Dê bỏ ăn, lờ đờ. Thai rơi ra trước hạn, nhau bẩn - hôi. Nhiều con trong đàn đẻ non liên tiếp. Có thể viêm vú, sốt, giảm sữa sau khi sảy. Bỏ ăn nhẹ, chảy dịch trong. Sảy thai lẻ tẻ. Sảy thai nhiều lứa liên tục. Dịch âm hộ đục - hôi. Dê yếu, giảm sữa. Sảy thai hàng loạt. Sốt, viêm tử cung kế phát. Nguy cơ vô sinh.",
+    "severityLevel": 3
+  },
+  {
+    "id": "milk-fever",
+    "name": "Hạ canxi sau đẻ",
+    "group": "reproductive",
+    "searchText": "Run cơ, chân yếu. Đi loạng choạng hoặc đứng không vững. Tai lạnh, thân nhiệt giảm. Nằm bệt, thở chậm. Có thể co giật nếu hạ canxi nặng. Run nhẹ, ăn giảm. Đi hơi siêu vẹo. Đứng không vững, tai lạnh. Nằm dậy khó khăn. Nằm lâu, co giật. Hôn mê, nguy cơ tử vong.",
+    "severityLevel": 3
+  },
+  {
+    "id": "prolapse",
+    "name": "Sa tử cung",
+    "group": "reproductive",
+    "searchText": "Khối mô đỏ hồng lòi ra ngoài âm hộ. Dê hoảng sợ, kêu, đứng không yên. Âm hộ chảy dịch, dễ nhiễm trùng. Nếu để lâu mô tím đen - hoại tử. Lòi nhẹ phần tử cung, chưa sưng nhiều. Lòi rõ, mô sưng đỏ, dê yếu. Khối tử cung to, phù tím, hoại tử. Dê nằm, suy kiệt.",
+    "severityLevel": 3
+  }
+]

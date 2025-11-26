@@ -1,0 +1,108 @@
+{
+  "name": "Listeriosis (viêm não xoay vòng)",
+
+  "summary": "Bệnh do Listeria gây viêm não, hay gặp khi ăn thức ăn ủ chua mốc. Dê có biểu hiện thần kinh rất đặc trưng.",
+
+  "causes": [
+    "Vi khuẩn Listeria monocytogenes",
+    "Thường nhiễm qua thức ăn ủ chua mốc, nước bẩn"
+  ],
+
+  "risk_factors": [
+    "Ăn cỏ ủ chua kém chất lượng",
+    "Mùa lạnh ẩm",
+    "Chuồng bẩn, nước uống nhiễm",
+    "Dê mang thai, dê con sức đề kháng yếu"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt nhẹ hoặc không sốt",
+    "Ăn giảm rồi bỏ ăn",
+    "Đi xoay vòng",
+    "Nghiêng đầu một bên",
+    "Mắt lác, chớp kém",
+    "Chảy nước dãi",
+    "Liệt nhẹ mặt, méo miệng",
+    "Đi loạng choạng",
+    "Nằm nghiêng, đạp chân",
+    "Có thể co giật và chết"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn giảm",
+      "Đi không vững nhẹ"
+    ],
+    "moderate": [
+      "Nghiêng đầu, đi vòng vòng",
+      "Chảy dãi, mắt lác"
+    ],
+    "severe": [
+      "Nằm nghiêng, co giật",
+      "Liệt, không đứng dậy",
+      "Chết do viêm não nặng"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Penicillin",
+      "Ampicillin"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline",
+      "Florfenicol"
+    ],
+"note_drugs": "Penicillin/Ampicillin hiệu quả nhất khi tiêm rất sớm. Trễ sau khi dê đã nằm nghiêng thì khả năng cứu giảm mạnh.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Meloxicam"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "B-1 tinh chất",
+        "alternative": ["vitamin ADE-bcomplex, Vitamin tổng hợp"]
+      }
+    },
+
+    "supportive_care": [
+      "Cách ly con bệnh",
+      "Giữ nền êm, tránh va đập",
+      "Loại bỏ ngay thức ăn nghi mốc",
+      "Bù nước và trợ sức"
+    ],
+
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": [
+      "Tiêm kháng sinh càng sớm càng tốt",
+      "Kết hợp giảm viêm - trợ sức",
+      "Theo dõi thần kinh mỗi ngày"
+    ],
+    "case_type_2": [
+      "Nếu co giật/nằm nghiêng: giữ yên, tránh chấn thương",
+      "Bù điện giải liên tục"
+    ],
+    "note": "Trễ điều trị sau khi đã nằm bệt thì rất khó cứu."
+  },
+
+  "prevention_list": [
+    "Không dùng cỏ ủ chua mốc",
+    "Kho dự trữ thức ăn khô sạch",
+    "Nước uống sạch",
+    "Vệ sinh nền chuồng thường xuyên"
+  ],
+
+  "notes": [
+    "Biểu hiện nghiêng đầu - xoay vòng rất đặc trưng."
+  ],
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+}

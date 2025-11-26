@@ -1,0 +1,114 @@
+{
+  "id": "trypanosoma",
+  "name": "Nhiễm Trypanosoma (Surra)",
+  "species": "pig",
+  "group": "blood_parasite",
+  "summary": "Trypanosoma gây bệnh kéo dài, heo gầy nhanh, thiếu máu, phù chân bụng và đi không vững. Nếu để lâu, nhiều con suy kiệt và chết.",
+  "causes": [
+    "Ký sinh trùng Trypanosoma spp.",
+    "Truyền qua côn trùng hút máu như ruồi trâu, ruồi cắn (Tabanus, Stomoxys)."
+  ],
+  "risk_factors": [
+    "Khu vực nhiều ruồi trâu, ruồi cắn quanh chuồng",
+    "Chuồng gần ao tù, đầm lầy, bãi chăn ẩm",
+    "Heo nuôi ngoài trời, ít che chắn",
+    "Heo yếu, stress kéo dài, dinh dưỡng kém"
+  ],
+  "clinical_signs_detailed": [
+    "Heo mệt kéo dài, ít vận động",
+    "Sút cân nhanh dù vẫn còn ăn ít",
+    "Sốt từng cơn, lúc cao lúc gần bình thường",
+    "Niêm mạc nhợt, một số con hơi vàng",
+    "Phù chân, phù bụng, có thể phù mí mắt",
+    "Đi loạng choạng, đứng không vững",
+    "Một số con nằm nhiều, chậm chạp, dễ bị dồn ngã"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Hơi mệt, kém linh hoạt",
+      "Ăn giảm nhẹ",
+      "Niêm mạc hơi nhạt"
+    ],
+    "moderate": [
+      "Sút cân nhìn thấy rõ",
+      "Sốt từng cơn",
+      "Phù nhẹ ở chân hoặc bụng",
+      "Đi lại chậm, hơi loạng choạng"
+    ],
+    "severe": [
+      "Phù rõ chân, bụng, có thể ở ngực",
+      "Đứng không vững, dễ ngã",
+      "Rất suy, nằm nhiều, phản xạ chậm",
+      "Nguy cơ suy kiệt và tử vong"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Diminazene",
+      "Isometamidium"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline LA"
+    ],
+    "note_drugs": "Ưu tiên chọn Diminazene hoặc Isometamidium làm thuốc chính. Oxytetracycline LA chỉ dùng hỗ trợ điều trị nhiễm khuẩn kế phát, không diệt được Trypanosoma.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Giảm vận động, hạn chế dồn đuổi heo bệnh",
+      "Giữ chuồng khô, sạch, tránh gió lùa",
+      "Bổ sung nước sạch thường xuyên",
+      "Ưu tiên thức ăn dễ tiêu, không đổi khẩu phần đột ngột"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo phù rõ chân hoặc bụng nhưng vẫn còn đứng được.",
+      "guideline": [
+        "Dùng ngay thuốc điều trị chính, không trì hoãn",
+        "Bổ sung điện giải và vitamin trong 2-3 ngày đầu",
+        "Theo dõi mức độ phù và nhịp thở mỗi ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo rất suy, nằm nhiều, phù toàn thân, đi không nổi.",
+      "guideline": [
+        "Giữ heo nằm nơi khô, ấm, không trơn trượt",
+        "Hạn chế di chuyển, không ép đi lại",
+        "Tập trung hồi sức: điện giải, vitamin, theo dõi sát phản ứng sau khi dùng thuốc chính"
+      ]
+    },
+    "note": "Những con quá suy kiệt, phản ứng chậm với điều trị thường hồi phục lâu, cần kiên nhẫn theo dõi."
+  },
+  "prevention": [
+    "Giảm nơi đọng nước quanh chuồng để hạn chế ruồi trâu, ruồi cắn",
+    "Dùng biện pháp xua đuổi hoặc bẫy ruồi nếu mật độ cao",
+    "Tăng cường dinh dưỡng, vitamin cho đàn trong thời điểm thời tiết khắc nghiệt",
+    "Kiểm tra kỹ heo mới nhập từ vùng có lưu hành bệnh"
+  ],
+  "notes": [
+    "Bệnh thường tiến triển kéo dài, heo yếu dần chứ không chết đột ngột như một số bệnh khác.",
+    "Nếu trong đàn có nhiều con gầy nhanh, phù chân bụng thì nên nghĩ tới nhóm bệnh ký sinh trùng máu."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

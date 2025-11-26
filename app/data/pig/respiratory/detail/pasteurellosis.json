@@ -1,0 +1,112 @@
+{
+  "id": "pasteurellosis",
+  "name": "Tụ huyết trùng (thể hô hấp)",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Tụ huyết trùng thể hô hấp làm heo sốt cao, thở nặng, tím tái và chết nhanh. Thường bùng phát đột ngột khi thời tiết thay đổi hoặc stress mạnh.",
+  "causes": [
+    "Vi khuẩn Pasteurella multocida độc lực cao",
+    "Lây nhanh qua không khí, nước uống, thức ăn nhiễm bẩn",
+    "Bùng phát mạnh khi heo suy hoặc vừa qua bệnh khác"
+  ],
+  "risk_factors": [
+    "Thời tiết thay đổi đột ngột",
+    "Chuồng ẩm, bẩn, nhiều khí độc",
+    "Nuôi dày, thông gió kém",
+    "Không tiêm phòng tụ huyết trùng"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao, bỏ ăn đột ngột",
+    "Thở khó, thở há mồm",
+    "Tai, mõm và da tím tái",
+    "Ho, chảy dịch mũi có bọt hoặc máu",
+    "Một số con chết rất nhanh, không kịp điều trị"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ, ăn giảm",
+      "Ho ít, thở nhanh nhẹ"
+    ],
+    "moderate": [
+      "Sốt cao rõ",
+      "Thở nặng, ho nhiều",
+      "Tai hơi tím"
+    ],
+    "severe": [
+      "Tím tai, tím mõm",
+      "Nằm bẹp, thở bụng mạnh",
+      "Nguy cơ chết đột ngột"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Florfenicol"
+    ],
+    "alternative_drugs": [
+      "Enrofloxacin",
+      "Amoxicillin",
+      "Oxytetracycline"
+    ],
+    "note_drugs": "Trong các đợt tụ huyết trùng cấp, cần dùng kháng sinh mạnh, thấm phổi tốt và tiêm sớm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoa",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Cách ly ô bệnh, giảm mật độ",
+      "Giữ chuồng ấm, không gió lùa",
+      "Bổ sung điện giải, đặc biệt với heo sốt cao",
+      "Không dồn đuổi, hạn chế tiếng ồn"
+    ],
+    "dose_policy": "Dùng đúng liều, đúng thời gian theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo sốt cao, thở nặng nhưng vẫn đứng được.",
+      "guideline": [
+        "Tiêm kháng sinh mạnh ngay",
+        "Giảm viêm và bù điện giải",
+        "Theo dõi sát trong 24 giờ đầu"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo tím tai, nằm bẹp, thở bụng rất mạnh.",
+      "guideline": [
+        "Điều trị cấp cứu bằng kháng sinh và giảm viêm",
+        "Giữ chuồng cực kỳ yên tĩnh và ấm",
+        "Đánh giá từng cá thể, có thể không cứu được hết"
+      ]
+    },
+    "note": "Tụ huyết trùng là bệnh cấp tính, tốc độ diễn biến rất nhanh, quan trọng là phát hiện sớm trong đàn."
+  },
+  "prevention": [
+    "Tiêm phòng tụ huyết trùng đầy đủ",
+    "Giảm stress khi thay đổi thời tiết hoặc chuyển chuồng",
+    "Giữ chuồng khô, sạch, thông thoáng",
+    "Kiểm soát tốt các bệnh nền hô hấp khác"
+  ],
+  "notes": [
+    "Các ca chết nhanh, tím tái mạnh thường nghĩ tới tụ huyết trùng hoặc ghép bệnh nặng khác.",
+    "Sau mỗi đợt bùng phát cần vệ sinh sát trùng toàn bộ trại."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

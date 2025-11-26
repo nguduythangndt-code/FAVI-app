@@ -1,0 +1,35 @@
+{
+  "name": "Triclabendazole",
+  "mechanism": [
+    "Tác động lên hệ chuyển hóa của sán",
+    "Diệt tốt cả sán lá gan non và trưởng thành"
+  ],
+  "clinical_uses": [
+    "Sán lá gan mọi giai đoạn",
+    "Đặc biệt ca cấp tính, nhiễm sán non"
+  ],
+  "advantages": [
+    "Rộng hơn closantel và oxyclozanide",
+    "Diệt được cả giai đoạn non"
+  ],
+  "disadvantages": [
+    "Một số vùng ghi nhận kháng",
+    "Không diệt giun tròn"
+  ],
+  "side_effects": [
+    "Mệt nhẹ",
+    "Giảm ăn"
+  ],
+  "recommendations": [
+    "Dùng đúng nhãn",
+    "Quan sát dấu hiệu đau bụng sau tẩy vì sán chết nhiều"
+  ],
+  "contraindications": [
+    "Không dùng liều cao liên tục",
+    "Dê suy kiệt cần hồi sức trước"
+  ],
+  "alternatives": [
+    "Closantel",
+    "Albendazole (hiệu lực thấp hơn)"
+  ]
+}

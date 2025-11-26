@@ -1,0 +1,30 @@
+[
+  {
+    "id": "babesiosis",
+    "name": "Nhiễm Babesia",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, mệt rõ, ăn rất kém Niêm nhạt, mắt tái, mũi nhợt do thiếu máu Nước tiểu đỏ hoặc màu rượu vang Thở nhanh, yếu, đứng không vững Bò nằm nhiều, phản ứng chậm Một số con có run cơ, lờ đờ Sốt nhẹ, giảm ăn Mệt nhưng vẫn đi lại Thiếu máu rõ, niêm nhạt Nước tiểu đỏ, thở nhanh Ăn rất ít, đứng tách đàn Nằm nhiều, yếu nặng, nước tiểu đỏ sẫm Niêm nhợt trắng, khó thở Nguy cơ chết cao nếu không điều trị kịp"
+  },
+  {
+    "id": "anaplasmosis",
+    "name": "Nhiễm Anaplasma",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Niêm trắng, mắt nhợt Thở nhanh, yếu, mệt Vàng mắt, vàng niêm trong nhiều ca Ăn kém, giảm sức kéo hoặc giảm sữa Gầy dần, phản ứng chậm Một số con sốt và nằm nhiều Giảm ăn nhẹ Niêm hơi nhạt Mệt nhẹ nhưng vẫn đi lại Thiếu máu rõ, niêm trắng Thở nhanh, mệt, giảm ăn nhiều Thể trạng xuống rõ Rất yếu, đứng không vững hoặc nằm nhiều Niêm trắng nhợt hoặc vàng đậm Có thể chết nếu không điều trị kịp"
+  },
+  {
+    "id": "theileriosis",
+    "name": "Nhiễm Theileria",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Sốt cao liên tục Hạch dưới hàm hoặc trước vai sưng rõ Niêm nhạt, thiếu máu Thở nhanh, yếu, ăn rất ít Gầy nhanh, lông xù, phản ứng chậm Trong ca nặng có thể nằm nhiều, khó đứng dậy Sốt nhẹ, hạch hơi to Ăn giảm nhẹ Hạch sưng rõ, thiếu máu Thở nhanh, mệt Thiếu máu nặng, nằm nhiều Hạch to, sốt cao kéo dài Có thể chết nếu không xử lý"
+  },
+  {
+    "id": "trypanosomiasis",
+    "name": "Nhiễm Trypanosoma",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Gầy nhanh, lông xù, nổi xương Ăn rất kém, mệt mỏi Niêm nhạt hoặc vàng Sốt từng cơn Giảm sức kéo hoặc giảm sữa Một số con đi loạng choạng, yếu chân Ăn kém nhẹ Gầy dần Niêm hơi nhạt Gầy nhiều, lông xù Giảm sức kéo rõ Niêm nhạt hoặc vàng Gầy trơ xương Nằm nhiều, yếu nặng Thiếu máu nặng, thở nhanh"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "oxytetracycline",
+  "name": "Oxytetracycline",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm tetracycline, gắn vào tiểu đơn vị 30S của ribosome, ức chế tổng hợp protein, làm vi khuẩn ngừng phát triển và dần bị cơ thể loại bỏ.",
+  "clinical_uses": [
+    "Viêm phổi, viêm khí quản mức độ nhẹ đến trung bình ở bò, dê, heo.",
+    "Nhiễm trùng hỗn hợp đường hô hấp - tiêu hoá ở gia súc.",
+    "Một số bệnh viêm da, viêm khớp, nhiễm trùng rốn ở thú non.",
+    "Ca nhiễm trùng không quá nặng nhưng cần một kháng sinh phổ rộng, dễ sử dụng."
+  ],
+  "pros": [
+    "Phổ tác dụng rộng, bao phủ được nhiều loại vi khuẩn khác nhau.",
+    "Dạng tiêm thuận tiện cho gia súc lớn, thích hợp dùng ngoài thực địa.",
+    "Giá thành thường dễ chịu, phù hợp cho các trại vừa và nhỏ."
+  ],
+  "cons": [
+    "Ít phù hợp cho ca rất nặng hoặc đã điều trị nhiều lần trước đó.",
+    "Có thể gây kích ứng nếu tiêm nhiều lần tại cùng một vị trí.",
+    "Dùng kéo dài có thể ảnh hưởng hệ vi khuẩn đường ruột."
+  ],
+  "mild_side_effects": [
+    "Chán ăn nhẹ, uể oải thoáng qua trong quá trình điều trị.",
+    "Tiêu phân có thể hơi lỏng ở một số con.",
+    "Đau hoặc sưng nhẹ tại chỗ tiêm, đặc biệt khi tiêm thể tích lớn."
+  ],
+  "usage_recommendations": [
+    "Phù hợp làm lựa chọn cho ca trung bình, cần thuốc phổ rộng nhưng chưa quá nặng.",
+    "Nên kết hợp theo dõi ăn uống, thân nhiệt, nhịp thở trong thời gian dùng.",
+    "Không nên dùng liên tục quá lâu mà không đánh giá lại hiệu quả.",
+    "Tuân thủ liều và thời gian theo nhãn hoặc theo hướng dẫn thú y."
+  ],
+  "when_not_to_use": [
+    "Thận trọng với thú non rất nhỏ hoặc đang trong giai đoạn phát triển xương mạnh.",
+    "Cẩn trọng ở con suy gan, suy thận, cần cân nhắc trước khi dùng.",
+    "Không kết hợp bừa bãi với nhiều sản phẩm khoáng/kim loại đường uống cùng lúc."
+  ],
+  "alternative_drugs": [
+    "Doxycycline trong các ca cần đường uống và hấp thu ổn định hơn.",
+    "Amoxicillin cho các ca nhẹ, ít nghi ngờ Gram âm.",
+    "Florfenicol khi ca bệnh nặng hơn, nhất là bệnh hô hấp."
+  ]
+}

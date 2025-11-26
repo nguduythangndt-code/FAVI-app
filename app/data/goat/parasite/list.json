@@ -1,0 +1,44 @@
+[
+  {
+    "id": "haemonchus",
+    "name": "Giun xoắn Haemonchus",
+    "group": "parasite",
+    "searchText": "Niêm mạc mắt - miệng trắng bệch. Lông xù, yếu, bỏ ăn. Bụng hóp nhưng không tiêu chảy. Suy kiệt nhanh, đôi khi chết đột ngột. Không phải lúc nào cũng tiêu chảy — đặc trưng của Haemonchus. Lông hơi xù, niêm mạc nhợt. Ăn giảm nhưng vẫn đi lại. Niêm mạc rất nhạt. Yếu, đi chậm, nằm nhiều. Bụng tóp, thiếu máu nặng. Niêm mạc trắng bệch như giấy. Suy tim do thiếu máu. Ngã quỵ - chết nhanh.",
+    "severityLevel": 3
+  },
+  {
+    "id": "strongyloides",
+    "name": "Giun lươn",
+    "group": "parasite",
+    "searchText": "Tiêu chảy lỏng kéo dài. Lông xù, chậm lớn. Bụng tóp, mất nước. Niêm mạc nhợt nhẹ. Có thể kế phát nhiễm khuẩn ruột. Phân sệt, con hơi còi. Lông xù nhẹ. Tiêu chảy lỏng, mất nước. Ăn kém, tăng trưởng chậm. Tiêu chảy liên tục nhiều ngày. Mất nước nặng, nằm nhiều. Dễ tử vong nếu không bù nước.",
+    "severityLevel": 2
+  },
+  {
+    "id": "lungworm",
+    "name": "Giun phổi",
+    "group": "parasite",
+    "searchText": "Ho khan kéo dài. Ho tăng khi vận động. Thở khó, thở bụng. Sút cân, lông xù. Có thể xuất hiện tiếng ran ẩm ở phổi. Ho nhẹ vài ngày. Ăn giảm chút ít. Ho kéo dài, thở nhanh. Dễ mệt khi vận động. Khó thở rõ, há miệng thở. Sút cân nặng. Nguy cơ viêm phổi nặng kế phát.",
+    "severityLevel": 2
+  },
+  {
+    "id": "liverfluke",
+    "name": "Sán lá gan",
+    "group": "parasite",
+    "searchText": "Phù hàm dưới (bướu nước). Sụt cân dù ăn vẫn bình thường. Lông xù, chậm lớn. Niêm mạc nhợt nhẹ. Tiêu chảy từng đợt. Gan sưng, ống mật viêm (trong ca nặng). Sụt cân nhẹ. Lông xù, chậm lớn. Phù hàm. Thiếu máu nhẹ - vừa. Tiêu chảy từng đợt. Phù toàn thân. Thiếu máu nặng. Suy kiệt, nằm nhiều.",
+    "severityLevel": 2
+  },
+  {
+    "id": "mites",
+    "name": "Ký sinh ngoài da (ve, bọ chét)",
+    "group": "parasite",
+    "searchText": "Ngứa mạnh, cọ sát vào tường. Rụng lông thành mảng. Da dày, đóng vảy ở tai, đầu, mình. Vết trầy xước dễ nhiễm trùng. Có thể thiếu máu nhẹ nếu nhiễm ve nặng. Ngứa nhẹ, rụng lông ít. Rụng lông nhiều, da dày. Ngứa liên tục. Giảm ăn, chậm lớn. Da nứt, đóng mảng dày. Dê gầy, thiếu máu. Viêm da thứ phát.",
+    "severityLevel": 1
+  },
+  {
+    "id": "lice",
+    "name": "Chí - rận",
+    "group": "parasite",
+    "searchText": "Ngứa liên tục. Rụng lông thành vệt. Da đỏ nhẹ. Nhiều con còi do stress kéo dài. Ngứa nhẹ, rụng ít. Ngứa nhiều, cọ liên tục. Rụng lông từng mảng. Viêm da kế phát. Gầy, giảm ăn. Da dày, nứt nhẹ.",
+    "severityLevel": 1
+  }
+]

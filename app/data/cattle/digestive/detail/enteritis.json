@@ -1,0 +1,134 @@
+{
+  "id": "enteritis",
+  "name": "Viêm ruột tiêu chảy",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Viêm ruột tiêu chảy ở bò có thể do thay đổi khẩu phần, nhiễm khuẩn, virus hoặc ký sinh trùng. Bò đi phân lỏng, mất nước, sụt cân, giảm sữa nếu không xử lý tốt.",
+
+  "causes": [
+    "Thay đổi thức ăn đột ngột, thức ăn ôi thiu, mốc",
+    "Nhiễm vi khuẩn đường ruột (E.coli, Salmonella...)",
+    "Nhiễm virus đường ruột ở bê",
+    "Ký sinh trùng đường ruột, cầu trùng",
+    "Nước uống bẩn, nhiễm phân"
+  ],
+
+  "risk_factors": [
+    "Không kiểm soát chất lượng thức ăn và nước uống",
+    "Chuồng ẩm ướt, bẩn, nhiều phân",
+    "Mật độ nuôi cao, bê non nuôi tập trung",
+    "Không tẩy ký sinh trùng định kỳ",
+    "Thay đổi khẩu phần nhanh, nhiều phụ phẩm khó tiêu"
+  ],
+
+  "clinical_signs_detailed": [
+    "Đi phân lỏng, phân sệt như cháo hoặc như nước",
+    "Phân có thể lẫn nhầy, bọt, đôi khi có mùi hôi nặng",
+    "Mông đuôi bám phân bẩn",
+    "Bò giảm ăn, uống nhiều hoặc ít tùy trường hợp",
+    "Mất nước: mắt trũng, da mất đàn hồi, niêm khô",
+    "Sụt cân nếu tiêu chảy kéo dài",
+    "Bê non dễ suy kiệt nhanh hơn bò trưởng thành"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đi ngoài phân lỏng 1-2 lần/ngày",
+      "Ăn uống giảm nhẹ",
+      "Thể trạng chưa thay đổi nhiều"
+    ],
+    "moderate": [
+      "Tiêu chảy nhiều lần trong ngày, phân loãng",
+      "Mất nước nhẹ đến vừa, mắt hơi trũng",
+      "Giảm ăn rõ, thể trạng xuống"
+    ],
+    "severe": [
+      "Tiêu chảy liên tục, phân nước, mùi rất hôi",
+      "Mất nước nặng, mắt trũng sâu, da nhăn",
+      "Bò mệt, nằm nhiều, đứng dậy khó, bê non có thể chết nhanh nếu không bù nước kịp"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline",
+      "amoxicillin"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin"
+    ],
+    "note_drugs": "Kháng sinh dùng khi nghi ngờ nguyên nhân vi khuẩn hoặc có biểu hiện toàn thân nặng. Với ca nhẹ do đổi thức ăn, chỉ cần điều chỉnh khẩu phần và bù nước là đủ.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Bù nước và điện giải là ưu tiên hàng đầu, đặc biệt ở bê non",
+      "Ngừng thức ăn khó tiêu, ôi mốc; cho ăn cỏ khô, thức ăn dễ tiêu",
+      "Giữ chuồng khô, sạch, thay chất độn lót thường xuyên",
+      "Tách bò tiêu chảy ra ô riêng để dễ theo dõi và giảm lây nhiễm",
+      "Theo dõi số lần tiêu chảy, tình trạng phân và mức độ ăn uống mỗi ngày"
+    ],
+
+    "dose_policy": "Dùng kháng sinh, điện giải, men tiêu hóa theo liều trên nhãn hoặc theo tư vấn của bác sĩ thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò tiêu chảy nhiều nhưng vẫn đứng được, vẫn uống nước.",
+      "guideline": [
+        "Bù điện giải tích cực, có thể cho uống nhiều lần trong ngày",
+        "Dùng kháng sinh nếu nghi do vi khuẩn hoặc có sốt, mệt nhiều",
+        "Điều chỉnh khẩu phần về thức ăn dễ tiêu, sạch",
+        "Theo dõi sát 2-3 ngày đầu, đánh giá cải thiện qua số lần tiêu và thể trạng"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bê hoặc bò mất nước nặng, tiêu chảy liên tục, rất mệt.",
+      "guideline": [
+        "Nếu có điều kiện, truyền dịch theo hướng dẫn thú y",
+        "Kết hợp kháng sinh và men tiêu hóa phù hợp",
+        "Giữ ấm cơ thể, chuồng khô, sạch",
+        "Tiên lượng thận trọng ở bê rất nhỏ hoặc con đã quá kiệt sức"
+      ]
+    },
+    "note": "Trong viêm ruột tiêu chảy, nước và điện giải nhiều khi quan trọng không kém kháng sinh."
+  },
+
+  "prevention": [
+    "Quản lý chất lượng thức ăn và nước uống chặt chẽ",
+    "Không cho ăn thức ăn mốc, ôi, lên men bất thường",
+    "Thay đổi khẩu phần từ từ, không đổi đột ngột",
+    "Giữ chuồng khô, sạch, hạn chế phân ướt tồn đọng",
+    "Tẩy ký sinh trùng đường ruột định kỳ"
+  ],
+
+  "notes": [
+    "Mỗi lần tiêu chảy là một lần bò mất nước và dinh dưỡng.",
+    "Ca tiêu chảy kéo dài vài ngày có thể kéo theo sụt sữa nhiều tuần.",
+    "Ghi lại nguyên nhân nghi ngờ (thức ăn, nguồn nước, đợt tẩy giun...) để tránh lặp lại."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

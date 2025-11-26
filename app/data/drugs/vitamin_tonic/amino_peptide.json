@@ -1,0 +1,48 @@
+{
+  "name": "Amino peptide phục hồi",
+
+  "mechanism": [
+    "Cung cấp acid amin dễ hấp thu",
+    "Hỗ trợ tái tạo cơ và mô",
+    "Giúp phục hồi thể trạng sau suy kiệt"
+  ],
+
+  "clinical_uses": [
+    "Dê gầy yếu sau bệnh dài ngày",
+    "Đàn suy nhược do nuôi dưỡng kém trước đó",
+    "Dê giống, dê đực cần phục hồi nhanh"
+  ],
+
+  "advantages": [
+    "Tập trung vào phục hồi cơ - thịt",
+    "Hiệu quả tốt khi kết hợp khẩu phần đủ năng lượng",
+    "Thích hợp cho giai đoạn hậu bệnh"
+  ],
+
+  "disadvantages": [
+    "Không giải quyết nguyên nhân bệnh",
+    "Nếu khẩu phần vẫn kém thì hiệu quả hạn chế"
+  ],
+
+  "side_effects": [
+    "Thỉnh thoảng tiêu hoá hơi lỏng",
+    "Hiếm gặp phản ứng bất lợi"
+  ],
+
+  "recommendations": [
+    "Dùng theo đợt 5-7 ngày trong giai đoạn phục hồi",
+    "Kết hợp tăng chất lượng khẩu phần",
+    "Theo dõi tăng cân và mức độ vận động"
+  ],
+
+  "contraindications": [
+    "Dê đang tiêu chảy nặng chưa kiểm soát",
+    "Dê suy gan thận rất nặng"
+  ],
+
+  "alternatives": [
+    "Sorbitol + Acid amin",
+    "Electrolyte + Amino Premium",
+    "Butafosfan + B12"
+  ]
+}

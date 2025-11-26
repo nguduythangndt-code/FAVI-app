@@ -1,0 +1,43 @@
+{
+  "name": "Cypermethrin",
+  "mechanism": [
+    "Pyrethroid tổng hợp, tác động lên kênh natri của ký sinh trùng ngoài",
+    "Gây kích thích thần kinh, tê liệt và chết ve, rận, bọ chét"
+  ],
+  "clinical_uses": [
+    "Phòng và điều trị ve, rận, bọ chét, bọ ve ngoài da dê",
+    "Có thể dùng phun toàn thân hoặc phun chuồng trại theo hướng dẫn từng sản phẩm",
+    "Giảm mật độ ký sinh trùng ngoài trong các đợt bùng phát mạnh"
+  ],
+  "advantages": [
+    "Phổ tác dụng rộng trên nhiều loại ký sinh trùng ngoài",
+    "Thường cho hiệu quả nhanh sau khi xử lý",
+    "Chi phí tương đối hợp lý, dễ tìm"
+  ],
+  "disadvantages": [
+    "Hiệu lực giảm nếu vật nuôi dính mưa, tắm ngay sau xử lý",
+    "Nguy cơ kháng thuốc nếu dùng lặp lại một hoạt chất quá nhiều năm",
+    "Có thể ảnh hưởng môi trường, sinh vật có ích nếu lạm dụng phun chuồng"
+  ],
+  "side_effects": [
+    "Kích ứng da, ngứa, gãi nhiều ở một số cá thể nhạy cảm",
+    "Nếu liếm nhiều có thể gây chảy dãi, mệt thoáng qua",
+    "Hiếm: phản ứng dị ứng toàn thân cần can thiệp thú y"
+  ],
+  "recommendations": [
+    "Pha và dùng đúng nồng độ theo nhãn, không tự ý tăng liều",
+    "Ưu tiên xử lý vào lúc mát, tránh nắng gắt, mưa chuẩn bị đến",
+    "Kết hợp dọn vệ sinh chuồng trại, thay chất độn để tăng hiệu quả",
+    "Luân chuyển hoạt chất với các nhóm khác (amitraz, fipronil…) để hạn chế kháng thuốc"
+  ],
+  "contraindications": [
+    "Không dùng quá liều cho dê suy kiệt, mất nước, ốm nặng",
+    "Tránh để thuốc chảy xuống ao hồ, nguồn nước uống",
+    "Thận trọng với khu vực có mèo, cá hoặc các loài nhạy cảm với pyrethroid"
+  ],
+  "alternatives": [
+    "Permethrin, Deltamethrin - cùng nhóm pyrethroid",
+    "Amitraz - tắm/nhúng ghẻ, ve theo hướng dẫn thú y",
+    "Fipronil, Fluralaner - ở các chế phẩm phù hợp nếu có"
+  ]
+}

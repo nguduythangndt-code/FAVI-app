@@ -1,0 +1,43 @@
+{
+  "name": "Deltamethrin",
+  "mechanism": [
+    "Pyrethroid tổng hợp, tác động lên hệ thần kinh ký sinh trùng ngoài",
+    "Gây mất điều hoà dẫn truyền thần kinh, tê liệt và chết ve, rận, bọ ve"
+  ],
+  "clinical_uses": [
+    "Phòng và điều trị ve, rận, bọ ve trên dê",
+    "Hay sử dụng dạng pour-on, phun hoặc tắm toàn thân tuỳ chế phẩm",
+    "Hỗ trợ kiểm soát ký sinh trùng ngoài trong đàn lớn"
+  ],
+  "advantages": [
+    "Tồn lưu tốt trên bề mặt lông và da khi dùng dạng pour-on",
+    "Hiệu quả rõ trên ve, rận, bọ ve nếu dùng đúng",
+    "Tiện lợi khi xử lý đàn số lượng lớn"
+  ],
+  "disadvantages": [
+    "Không tác động lên ký sinh trùng bên trong cơ thể",
+    "Nguy cơ kích ứng da hoặc liếm phải thuốc nếu không quản lý tốt",
+    "Môi trường có thể bị ảnh hưởng nếu lạm dụng phun rộng"
+  ],
+  "side_effects": [
+    "Ngứa, kích ứng da nhẹ",
+    "Liếm nhiều vùng mới xử lý có thể gây chảy dãi, run nhẹ",
+    "Hiếm: phản ứng quá mẫn, cần ngừng thuốc và gọi thú y"
+  ],
+  "recommendations": [
+    "Dùng đúng dạng bào chế và cách dùng mà nhãn yêu cầu (pour-on, phun, tắm…)",
+    "Không pha đặc hơn so với khuyến cáo để “diệt cho nhanh”",
+    "Kết hợp vệ sinh chuồng, cắt tỉa lông rối bẩn nếu cần",
+    "Lưu ý thời gian ngừng thuốc trước khi xuất bán thịt/sữa (theo nhãn hoặc thú y)"
+  ],
+  "contraindications": [
+    "Không dùng trên dê đang rất yếu, suy kiệt mà chưa hồi sức",
+    "Tránh để thuốc tiếp xúc trực tiếp với mắt, niêm mạc, vết thương lớn",
+    "Không dùng đồng thời với nhiều chế phẩm pyrethroid khác khi chưa có chỉ định"
+  ],
+  "alternatives": [
+    "Permethrin, Cypermethrin - các pyrethroid khác",
+    "Amitraz - đặc biệt trong ghẻ, ve nặng nếu được thú y chỉ định",
+    "Fipronil hoặc Fluralaner - một số chế phẩm có phổ rộng trên ve, bọ ve, bọ chét"
+  ]
+}

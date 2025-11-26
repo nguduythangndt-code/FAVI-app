@@ -1,0 +1,41 @@
+{
+  "id": "marbofloxacin",
+  "name": "Marbofloxacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh fluoroquinolone thế hệ mới, tác động mạnh lên nhiều vi khuẩn Gram âm và một phần Gram dương. Thường dùng trong các ca hô hấp và tiêu hóa nặng.",
+  "clinical_uses": [
+    "Viêm phổi nặng hoặc tiến triển nhanh.",
+    "Nhiễm trùng toàn thân mức độ vừa - nặng.",
+    "Tiêu chảy nặng nghi nhiễm Gram âm."
+  ],
+  "pros": [
+    "Hiệu lực cao hơn các quinolone thế hệ cũ.",
+    "Thường cải thiện triệu chứng rõ trong 24-48 giờ.",
+    "Phù hợp cho những ca nguy cơ cao."
+  ],
+  "cons": [
+    "Chi phí cao hơn mặt bằng chung.",
+    "Không phù hợp dùng rộng rãi cho thú non.",
+    "Không nên lạm dụng kéo dài."
+  ],
+  "mild_side_effects": [
+    "Mệt nhẹ.",
+    "Giảm ăn tạm thời.",
+    "Đau nhẹ tại vùng tiêm."
+  ],
+  "usage_recommendations": [
+    "Ưu tiên cho các ca nặng, cần can thiệp nhanh.",
+    "Theo dõi thân nhiệt và nhịp thở.",
+    "Luôn dùng đúng theo hướng dẫn sản phẩm hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Thú rất yếu hoặc mất nước nhiều.",
+    "Thú non đang phát triển mạnh.",
+    "Không dùng để phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Enrofloxacin.",
+    "Danofloxacin.",
+    "Florfenicol."
+  ]
+}

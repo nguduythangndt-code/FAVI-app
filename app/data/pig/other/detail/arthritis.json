@@ -1,0 +1,113 @@
+{
+  "id": "arthritis",
+  "name": "Viêm khớp",
+  "species": "pig",
+  "group": "other",
+  "summary": "Viêm khớp làm heo đi khập khiễng, sưng đau khớp, nằm nhiều, ăn kém và lớn chậm. Thường gặp ở heo con, heo cai sữa và heo thịt.",
+  "causes": [
+    "Nhiễm khuẩn vào khớp (Streptococcus, Staphylococcus, Mycoplasma, Erysipelothrix)",
+    "Vết thương ở chân, móng, da vùng khớp",
+    "Nhiễm trùng huyết từ ổ viêm khác trong cơ thể",
+    "Nền chuồng trơn trượt, heo ngã chấn thương khớp"
+  ],
+  "risk_factors": [
+    "Chuồng ẩm, trơn, nhiều phân và nước tiểu",
+    "Heo nuôi dày, chen lấn nhiều",
+    "Cai sữa, chuyển chuồng gây stress",
+    "Dụng cụ, kim tiêm không sát trùng tốt"
+  ],
+  "clinical_signs_detailed": [
+    "Heo đi khập khiễng, chống chân, bước không vững",
+    "Khớp sưng nóng, đau, heo không muốn đứng lâu",
+    "Nằm nhiều, khó chịu khi bị đụng vào chân",
+    "Ăn giảm, tăng trọng chậm",
+    "Một số con sốt nhẹ nếu viêm nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đi hơi khập khiễng",
+      "Ăn gần như bình thường",
+      "Khớp chỉ hơi sưng"
+    ],
+    "moderate": [
+      "Đi khó, chống chân rõ",
+      "Khớp sưng, ấm, đau khi sờ",
+      "Nằm nhiều, lớn chậm"
+    ],
+    "severe": [
+      "Không muốn đứng, chỉ nằm một chỗ",
+      "Khớp rất sưng, có thể biến dạng",
+      "Gầy nhanh do lâu ngày không đi lại được"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Amoxicillin"
+    ],
+    "alternative_drugs": [
+      "Florfenicol",
+      "Tylosin"
+    ],
+    "note_drugs": "Ceftiofur và Amoxicillin thường được ưu tiên trong các ca viêm khớp nhiễm khuẩn. Cần điều trị đủ thời gian, không ngưng thuốc quá sớm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Cho heo nằm trên nền khô, không trơn, có lót mềm nếu được",
+      "Giảm chạy nhảy, tránh dồn đuổi heo đau khớp",
+      "Dọn phân và nước tiểu thường xuyên để không nhiễm thêm",
+      "Theo dõi từng khớp, tránh để áp xe lớn"
+    ],
+    "dose_policy": "Dùng đúng liều và đủ ngày theo nhãn thuốc hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo đi khập khiễng nhưng vẫn ăn, vẫn đứng được.",
+      "guideline": [
+        "Dùng kháng sinh chính đều đặn",
+        "Kết hợp thuốc giảm viêm giảm đau",
+        "Cải thiện nền chuồng để hạn chế trượt ngã"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo không đứng được, khớp sưng lớn, gầy nhiều.",
+      "guideline": [
+        "Điều trị tích cực nhưng tiên lượng dè dặt",
+        "Tách nuôi riêng ở ô khô và yên tĩnh",
+        "Cân nhắc loại thải nếu khớp biến dạng và ít khả năng hồi phục"
+      ]
+    },
+    "note": "Viêm khớp mạn dễ để lại di chứng khập khiễng, ảnh hưởng tăng trọng lâu dài."
+  },
+  "prevention": [
+    "Giữ nền chuồng khô, không trơn, không đọng nước",
+    "Sát trùng kim tiêm và dụng cụ trước khi dùng",
+    "Giảm chen lấn, hạn chế đánh đập làm heo chấn thương",
+    "Giải quyết sớm các ổ nhiễm trùng khác trên cơ thể"
+  ],
+  "notes": [
+    "Heo viêm khớp dai dẳng thường không đạt chuẩn xuất bán như đàn khỏe.",
+    "Nên loại thải những con nhiều khớp bị nặng để giảm hao phí thức ăn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Bổ gan + thận tổng hợp",
+
+  "mechanism": [
+    "Hỗ trợ tế bào gan và thận đào thải độc",
+    "Cải thiện lọc máu và chuyển hoá chất thải",
+    "Giảm gánh nặng cho gan thận trong giai đoạn dùng nhiều thuốc"
+  ],
+
+  "clinical_uses": [
+    "Dê điều trị kháng sinh, thuốc mạnh kéo dài",
+    "Đàn có dấu hiệu suy nhược, ăn kém, lông xấu",
+    "Hỗ trợ phục hồi sau ngộ độc nhẹ"
+  ],
+
+  "advantages": [
+    "Bảo vệ cả gan và thận cùng lúc",
+    "Hữu ích trong phác đồ dài ngày",
+    "Cải thiện thể trạng chung từ từ"
+  ],
+
+  "disadvantages": [
+    "Không thay thế điều trị suy gan thận nặng",
+    "Cần dùng theo đợt, không lạm dụng vô hạn"
+  ],
+
+  "side_effects": [
+    "Thỉnh thoảng phân hơi lỏng",
+    "Hiếm gặp tác dụng phụ nghiêm trọng"
+  ],
+
+  "recommendations": [
+    "Dùng xen kẽ theo đợt khi phải dùng thuốc dài ngày",
+    "Kết hợp giảm bớt yếu tố gây hại gan thận (thức ăn mốc, nước bẩn)",
+    "Theo dõi tinh trạng ăn uống và tiểu tiện"
+  ],
+
+  "contraindications": [
+    "Dê suy gan thận cuối giai đoạn cần can thiệp chuyên sâu",
+    "Không dùng như giải pháp duy nhất trong ca ngộ độc nặng"
+  ],
+
+  "alternatives": [
+    "Hepetol",
+    "Sorbitol + Acid amin",
+    "Choline chloride"
+  ]
+}

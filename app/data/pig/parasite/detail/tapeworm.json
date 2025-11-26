@@ -1,0 +1,108 @@
+{
+  "id": "tapeworm",
+  "name": "Sán dây",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Sán dây ký sinh trong ruột non làm heo chậm lớn, phân sống, đôi khi thấy đốt sán trong phân.",
+  "causes": [
+    "Heo ăn phải trứng hoặc ấu trùng sán trong môi trường",
+    "Thức ăn, nước uống nhiễm bẩn",
+    "Ăn chất thải hoặc xác động vật nhiễm sán"
+  ],
+  "risk_factors": [
+    "Nuôi heo bán thả, tiếp xúc môi trường ngoài",
+    "Chuồng gần ao tù, rãnh bẩn",
+    "Không tẩy giun sán định kỳ",
+    "Thức ăn dự trữ không che chắn kỹ"
+  ],
+  "clinical_signs_detailed": [
+    "Chậm lớn kéo dài",
+    "Phân sống, có thể thấy đốt sán trắng",
+    "Heo ăn nhiều nhưng không tăng cân",
+    "Lông xỉu, da nhạt",
+    "Thiếu máu nhẹ nếu nhiễm nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Chậm lớn nhẹ",
+      "Phân đôi lúc hơi sống"
+    ],
+    "moderate": [
+      "Phân sống rõ, tăng trọng kém",
+      "Có thể thấy đốt sán theo phân"
+    ],
+    "severe": [
+      "Heo rất chậm lớn",
+      "Gầy, lông xấu",
+      "Thiếu máu nhẹ kéo dài"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Praziquantel"
+    ],
+    "alternative_drugs": [
+      "Niclosamide",
+      "Albendazole"
+    ],
+    "note_drugs": "Praziquantel là lựa chọn chính cho sán dây. Niclosamide và Albendazole có thể dùng thay thế theo tư vấn thú y.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Dọn phân hằng ngày để giảm trứng sán trong môi trường",
+      "Giữ chuồng khô và sạch",
+      "Ổn định khẩu phần để cải thiện tăng trưởng"
+    ],
+    "dose_policy": "Dùng theo liều trên nhãn hoặc hướng dẫn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo phân sống, chậm lớn nhưng còn ăn tốt.",
+      "guideline": [
+        "Dùng thuốc diệt sán dây",
+        "Bổ sung men tiêu hoá",
+        "Theo dõi phân 2-3 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo rất gầy, phân sống kéo dài.",
+      "guideline": [
+        "Tăng dinh dưỡng và vitamin",
+        "Tẩy sán đúng phác đồ nhắc lại",
+        "Đánh giá hiệu quả sau mỗi đợt điều trị"
+      ]
+    },
+    "note": "Cần xử lý cả môi trường để tránh tái nhiễm."
+  },
+  "prevention": [
+    "Không cho heo ăn chất thải chưa xử lý",
+    "Giữ nguồn nước uống sạch",
+    "Tẩy sán định kỳ theo lịch",
+    "Kiểm soát chuột và động vật hoang quanh trại"
+  ],
+  "notes": [
+    "Đốt sán có thể thấy như hạt gạo trắng trong phân.",
+    "Thường làm heo nuôi lâu không lên được trọng lượng chuẩn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

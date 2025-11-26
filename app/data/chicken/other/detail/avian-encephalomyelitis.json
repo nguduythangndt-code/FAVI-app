@@ -1,0 +1,57 @@
+{
+  "name": "Viêm não tuỷ truyền nhiễm (AE)",
+  "summary": "Bệnh virus gây run, liệt, đi không vững ở gà con; không có thuốc đặc trị.",
+  "causes": [
+    "Virus AE lây qua trứng hoặc phân",
+    "Bùng phát khi đàn chưa miễn dịch"
+  ],
+  "risk_factors": [
+    "Gà con 1-4 tuần tuổi",
+    "Mẹ chưa tiêm AE",
+    "Chuồng ẩm lạnh, stress"
+  ],
+  "clinical_signs_detailed": [
+    "Run đầu - cổ - toàn thân",
+    "Đi xiêu vẹo, dễ ngã",
+    "Nằm tụm, yếu nhanh",
+    "Một số con mù do đục thủy tinh thể"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Run nhẹ", "Ăn giảm"],
+    "moderate": ["Run rõ, đi không vững", "Yếu"],
+    "severe": ["Nằm liệt, không mổ được", "Chết do suy kiệt"]
+  },
+  "treatment": {
+    "primary_drugs": ["Vitamin E-Selenium", "B-complex"],
+    "alternative_drugs": ["ORS"],
+    "note_drugs": "AE không có thuốc đặc hiệu. Điều trị chỉ trợ sức và nuôi tách riêng con yếu.",
+    "symptomatic_treatment": {
+      "vitamin": { "main": "Vitamin E-Selenium", "alternative": ["B-complex"] },
+      "electrolyte": { "main": "ORS", "alternative": [] }
+    },
+    "supportive_care": [
+      "Nuôi riêng ổ úm nhỏ, tránh bị đè",
+      "Cho ăn dễ mổ, đủ ấm",
+      "Giảm tiếng động - stress"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Run nhiều nhưng còn ăn"],
+      "guideline": ["Trợ sức vitamin", "Ổ úm ấm và yên tĩnh"]
+    },
+    "case_type_2": {
+      "description": ["Liệt, mổ không được"],
+      "guideline": ["Nuôi tách riêng", "Chăm uống nước - điện giải"]
+    },
+    "note": "Qua được 3-5 ngày đầu thì khả năng hồi phục tốt hơn."
+  },
+  "prevention_list": [
+    "Tiêm vaccine AE cho gà giống",
+    "Giữ chuồng khô ấm",
+    "Không trộn lứa tuổi"
+  ],
+  "notes": ["Gà khỏi có thể còn run nhẹ hoặc chậm lớn."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

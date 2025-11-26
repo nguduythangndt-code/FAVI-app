@@ -1,0 +1,106 @@
+{
+  "id": "avian-malaria",
+  "name": "Sốt rét gà (avian malaria)",
+  "species": "chicken",
+  "group": "blood_parasite",
+  "summary": "Bệnh ký sinh trùng máu lây qua muỗi, làm gà sốt, xanh xao, gầy và giảm sức đề kháng, thường kéo dài âm ỉ nếu không xử lý.",
+  "causes": [
+    "Ký sinh trùng máu Plasmodium spp. lây qua muỗi hút máu",
+    "Muỗi hút máu gà bệnh rồi truyền sang gà khỏe",
+    "Môi trường quanh chuồng có nhiều ổ nước tù, cây rậm tạo điều kiện cho muỗi sinh sản"
+  ],
+  "risk_factors": [
+    "Chuồng gần ao, mương, nước tù, nhiều muỗi",
+    "Nuôi thả, gà ngủ ngoài hiên, dưới tán cây không có màn chắn côn trùng",
+    "Đàn đã suy dinh dưỡng, thiếu vitamin và khoáng",
+    "Không có biện pháp diệt muỗi định kỳ quanh khu chăn nuôi"
+  ],
+  "clinical_signs_detailed": [
+    "Gà sốt, ủ rũ, xù lông, đứng tụm một chỗ",
+    "Mào, tích nhạt màu, có biểu hiện thiếu máu",
+    "Giảm ăn, chậm lớn, gầy dần, hoạt động kém",
+    "Một số con thở nhanh, yếu, dễ mệt khi vận động",
+    "Đàn đẻ giảm sản lượng, trứng nhỏ, vỏ không đẹp",
+    "Bệnh thường kéo dài, tiến triển chậm nhưng làm đàn xuống sức rõ rệt"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà hơi ủ rũ, xù lông nhẹ, giảm ăn ít",
+      "Mào hơi nhạt màu hơn bình thường",
+      "Khó phát hiện nếu không để ý kỹ thể trạng đàn"
+    ],
+    "moderate": [
+      "Gà sốt, ủ rũ, giảm ăn, uống nước nhiều hơn",
+      "Mào, tích nhạt, gầy nhanh, lông xấu",
+      "Đàn đẻ giảm sản lượng rõ, trứng nhỏ và không đều"
+    ],
+    "severe": [
+      "Thiếu máu nặng, mào rất nhạt, gà suy, ít di chuyển",
+      "Thở nhanh, yếu, nằm nhiều, dễ chết nếu kèm bệnh khác",
+      "Đàn nhìn chung gầy rộc, đi lại chậm chạp"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "thuoc_ky_sinh_trung_mau_theo_tu_van_thu_y"
+    ],
+    "alternative_drugs": [
+      "doxycycline",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Điều trị ký sinh trùng máu ở gà cần thuốc chuyên biệt và phác đồ rõ ràng theo tư vấn thú y. Kháng sinh chỉ hỗ trợ kiểm soát nhiễm khuẩn kế phát, không thay thế được thuốc diệt ký sinh trùng máu.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước giúp gà bù nước và đỡ mệt",
+        "alternative": "điện giải kèm glucose cho đàn suy nhiều"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên vitamin nhóm B và khoáng",
+        "alternative": "vitamin C và các chế phẩm tăng sức đề kháng"
+      },
+      "digestive_support": {
+        "main": "men vi sinh, men tiêu hóa để gà ăn lại tốt hơn",
+        "alternative": "khẩu phần dễ tiêu, chất lượng tốt, tránh thức ăn mốc"
+      }
+    },
+    "supportive_care": [
+      "Giảm stress cho đàn, hạn chế bắt, rượt đuổi trong thời gian bệnh",
+      "Đảm bảo nước sạch, đủ máng uống để gà dễ tiếp cận thuốc",
+      "Cải thiện khẩu phần, tăng thêm dinh dưỡng cho đàn suy nhiều",
+      "Kết hợp các biện pháp diệt muỗi quanh khu chuồng",
+      "Theo dõi sát thể trạng và tỉ lệ chết trong quá trình điều trị"
+    ],
+    "dose_policy": "Bất kỳ thuốc ký sinh trùng máu hay kháng sinh nào cũng phải dùng theo liều trên nhãn hoặc hướng dẫn thú y. Không tự ý tăng liều mạnh hoặc kéo dài quá lâu."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà đẻ bị sốt rét gà, giảm đẻ mạnh, nhiều con xanh xao, gầy.",
+      "guideline": "Áp dụng phác đồ thuốc ký sinh trùng máu theo tư vấn thú y, kết hợp điện giải và vitamin cho cả đàn. Diệt muỗi quanh chuồng, che chắn bớt muỗi vào ban đêm. Chấp nhận thời gian phục hồi sản lượng chậm và theo dõi kỹ đàn sau điều trị."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc gà cảnh giá trị cao, có biểu hiện sốt rét gà nặng.",
+      "guideline": "Chia thành nhóm nhỏ để chăm sóc, theo dõi sát từng nhóm. Dùng thuốc ký sinh trùng máu, kết hợp dinh dưỡng và vitamin đầy đủ. Tăng cường biện pháp chống muỗi riêng cho khu nuôi này, hạn chế tối đa muỗi vào chuồng ban đêm."
+    },
+    "note": "Sốt rét gà gắn chặt với muỗi. Nếu không giảm được muỗi thì việc điều trị chỉ mang tính tạm thời."
+  },
+  "prevention": [
+    "Diệt bớt nơi muỗi đẻ như ao tù, thùng nước bỏ không, hố nước quanh chuồng",
+    "Dùng lưới chống muỗi hoặc che chắn khi gà ngủ ban đêm nếu có điều kiện",
+    "Giữ chuồng khô, thoáng, hạn chế góc tối ẩm cho muỗi trú",
+    "Bổ sung dinh dưỡng, vitamin để gà có sức đề kháng tốt",
+    "Theo dõi thể trạng đàn, phát hiện sớm các dấu hiệu gầy, xanh xao bất thường"
+  ],
+  "notes": [
+    "Sốt rét gà thường tiến triển âm ỉ, dễ bị bỏ qua nếu chỉ nhìn vào triệu chứng hô hấp.",
+    "Khi nghi ngờ, cần xem xét cả yếu tố muỗi và môi trường xung quanh chuồng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

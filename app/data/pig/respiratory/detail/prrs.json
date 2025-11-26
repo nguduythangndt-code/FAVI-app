@@ -1,0 +1,109 @@
+{
+  "id": "prrs",
+  "name": "Hội chứng rối loạn sinh sản và hô hấp (PRRS)",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "PRRS gây suy hô hấp ở heo con và gây rối loạn sinh sản ở nái. Bệnh lây rất nhanh và thường ghép với vi khuẩn khác làm nặng thêm.",
+  "causes": [
+    "Virus PRRS",
+    "Lây mạnh qua không khí và tiếp xúc",
+    "Nhập heo, nhập tinh từ nơi không kiểm soát"
+  ],
+  "risk_factors": [
+    "Không tiêm phòng đầy đủ",
+    "Trộn đàn",
+    "Không cách ly heo mới nhập",
+    "Chuồng bí khí, độ ẩm cao"
+  ],
+  "clinical_signs_detailed": [
+    "Heo con thở nhanh, yếu",
+    "Ho, mệt, nằm nhiều",
+    "Da tím tai, mũi",
+    "Sốt nhẹ hoặc dao động",
+    "Nái sảy thai, đẻ non",
+    "Heo con sinh ra yếu, run"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ",
+      "Ăn giảm ít"
+    ],
+    "moderate": [
+      "Thở nhanh, yếu",
+      "Nái rối loạn sinh sản"
+    ],
+    "severe": [
+      "Da tím",
+      "Nằm bẹp",
+      "Heo con chết cao"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Kháng sinh kiểm soát nhiễm ghép (Ceftiofur, Florfenicol)"
+    ],
+    "alternative_drugs": [
+      "Enrofloxacin",
+      "Amoxicillin"
+    ],
+    "note_drugs": "PRRS không có thuốc đặc trị. Điều trị chủ yếu là kiểm soát nhiễm ghép bằng kháng sinh thấm phổi mạnh.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Cách ly đàn bệnh",
+      "Tăng thông thoáng chuồng",
+      "Bổ sung điện giải cho heo sốt",
+      "Giảm stress tuyệt đối"
+    ],
+    "dose_policy": "Theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo thở nhanh nhưng còn đứng.",
+      "guideline": [
+        "Kháng sinh kiểm soát nhiễm ghép",
+        "Giảm viêm",
+        "Ổn định môi trường"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo tím tai, nằm bẹp.",
+      "guideline": [
+        "Điều trị mạnh liên tục",
+        "Giảm stress tối đa",
+        "Tách ô yên tĩnh"
+      ]
+    },
+    "note": "PRRS dễ gây chết ở heo con, cần kiểm soát đàn chặt chẽ."
+  },
+  "prevention": [
+    "Tiêm phòng PRRS",
+    "Cách ly heo mới nhập 21 ngày",
+    "Không chia sẻ dụng cụ giữa đàn"
+  ],
+  "notes": [
+    "PRRS dễ ghép với APP, Mycoplasma, PCV2.",
+    "Chuồng ẩm và bí khí làm bệnh nặng nhanh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

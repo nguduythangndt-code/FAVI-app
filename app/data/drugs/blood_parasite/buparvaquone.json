@@ -1,0 +1,47 @@
+{
+  "name": "Buparvaquone (trị Theileria)",
+
+  "mechanism": [
+    "Tác động lên ty thể của ký sinh trùng Theileria",
+    "Làm gián đoạn sản xuất năng lượng của ký sinh trùng"
+  ],
+
+  "clinical_uses": [
+    "Theileriosis ở dê, bò, trâu",
+    "Các ca nghi ngờ Theileria khi có triệu chứng đặc trưng"
+  ],
+
+  "advantages": [
+    "Hiệu lực đặc hiệu cao với Theileria",
+    "Cải thiện lâm sàng nhanh ở ca cấp"
+  ],
+
+  "disadvantages": [
+    "Giá thành cao",
+    "Không tác dụng trên Babesia hoặc Anaplasma"
+  ],
+
+  "side_effects": [
+    "Mệt nhẹ",
+    "Giảm ăn tạm thời",
+    "Kích ứng tại chỗ tiêm"
+  ],
+
+  "recommendations": [
+    "Chỉ dùng khi nghi ngờ rõ ràng hoặc có chẩn đoán",
+    "Theo dõi phản ứng 1-2 giờ sau tiêm",
+    "Kết hợp hỗ trợ nâng đỡ tuỳ tình trạng"
+  ],
+
+  "contraindications": [
+    "Suy gan thận nặng",
+    "Dê mất nước hoặc đang sốc",
+    "Con quá già hoặc quá yếu"
+  ],
+
+  "alternatives": [
+    "Imidocarb - xử lý Babesia/Anaplasma",
+    "Oxytetracycline LA - hỗ trợ ca nhiễm phối hợp",
+    "Hỗ trợ truyền dịch - chống viêm - hạ sốt"
+  ]
+}

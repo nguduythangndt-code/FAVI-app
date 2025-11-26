@@ -1,0 +1,107 @@
+[
+  {
+    "id": "pasteurellosis",
+    "name": "Viêm phổi tụ huyết trùng",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn Thở nhanh, thở bụng Ho khan hoặc ho ướt Chảy mũi loãng chuyển sang đục Tai lạnh, niêm mạc tím tái Dê đứng tách đàn, gục đầu Ho nhẹ, hắt hơi Ăn giảm nhưng vẫn còn sức Chảy mũi trong Thở nhanh rõ rệt Chảy mũi đục vàng Bỏ ăn nhiều Mệt, đứng một chỗ Thở bụng mạnh, lồng ngực căng Tai lạnh, tím tái đầu - môi Nằm nhiều, khó đứng Có thể chết đột ngột do suy hô hấp, và sốc nhiễm trùng"
+  },
+  {
+    "id": "mycoplasmosis",
+    "name": "Viêm phổi Mycoplasma",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho khan kéo dài, nhất là sáng sớm hoặc khi vận động. Thở nhanh khi chạy hoặc bị đuổi. Chảy mũi trong hoặc đục nhẹ. Ăn giảm, gầy từ từ, lông xấu. Có thể kèm khập khiễng, viêm khớp ở một số chủng Mycoplasma. Nếu ghép Pasteurella: sốt cao, khó thở, bệnh nặng hơn. Ho lẻ tẻ, chủ yếu sáng sớm. Thỉnh thoảng chảy nước mũi trong. Ăn giảm nhẹ. Ho nhiều lần trong ngày, từng tràng. Thở nhanh khi vận động nhẹ. Chảy mũi đục, ăn kém, gầy dần. Ho liên tục, thở khó ngay cả khi nghỉ. Gầy rõ, xương lộ, lông xù. Có thể sốt nhẹ - vừa kéo dài. Nếu ghép vi khuẩn khác sẽ có triệu chứng giống viêm phổi cấp."
+  },
+  {
+    "id": "pleuropneumonia",
+    "name": "Viêm phổi màng phổi",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Thở rất khó, thở nông, nhanh, có biểu hiện đau khi thở. Dê không muốn nằm vì khó thở, hoặc ngược lại nằm nhiều do kiệt sức. Có thể nghe tiếng cọ màng phổi (nếu có dụng cụ). Sốt cao hoặc sốt kéo dài. Chảy mũi đục, ho đau, ho ít do đau. Gầy sút nhanh, mắt trũng. Khó phân biệt với viêm phổi nặng giai đoạn sớm. Thở nhanh, ho ít, sốt vừa. Thở nông và nhanh, rõ biểu hiện đau khi thở sâu. Nằm - đứng thay đổi tư thế liên tục để đỡ đau. Chảy mũi đục, ăn giảm mạnh. Thở rất khó, vươn cổ, cánh mũi phập phồng. Đa số chỉ nằm, đứng lên rất khó. Suy kiệt, mất nước, chết nếu không can thiệp mạnh."
+  },
+  {
+    "id": "bronchitis-tracheitis",
+    "name": "Viêm phế quản - khí quản",
+    "group": "respiratory",
+    "severityLevel": 1,
+    "searchText": "Ho khan hoặc ho có tiếng khụt khịt, từng cơn. Ho nhiều khi vận động, khi trời lạnh hoặc lúc sáng sớm. Chảy nước mũi trong hoặc hơi đục. Thở nhanh nhẹ nhưng chưa khó thở rõ. Ăn giảm nhẹ, đa số vẫn đi lại bình thường. Ho ít, chủ yếu sáng sớm. Chảy chút nước mũi trong. Ăn và vận động gần như bình thường. Ho nhiều lần trong ngày. Nước mũi trong - đục nhẹ. Ăn giảm, dễ mệt khi vận động. Ho liên tục, có vẻ đau khi ho. Thở nhanh hơn bình thường. Nếu kéo dài không trị có thể chuyển thành viêm phổi."
+  },
+  {
+    "id": "environmental-pneumonia",
+    "name": "Viêm phổi do môi trường",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Nhiều con trong đàn ho cùng lúc. Thở nhanh, nhất là buổi sáng sớm hoặc đêm lạnh. Một số con sốt nhẹ - vừa, ăn giảm. Trường hợp nặng: khó thở, nằm, bỏ ăn. Có thể ghép tụ huyết trùng và Mycoplasma, làm bệnh đa dạng triệu chứng. Ho rải rác cả đàn. Thở nhanh nhẹ, ăn giảm ít. Ít con sốt rõ. Nhiều con ho, chảy mũi đục nhẹ. Một số con thở bụng, ăn giảm mạnh. Sốt vừa, lờ đờ, đứng tách đàn. Một số con khó thở, nằm nhiều. Có thể xuất hiện ca tụ huyết trùng cấp trong bối cảnh môi trường xấu. Tử vong rải rác nếu không xử lý kịp."
+  },
+  {
+    "id": "shipping-fever",
+    "name": "Viêm phổi do stress / vận chuyển",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt ngay sau ngày vận chuyển hoặc sau 24-48 giờ. Thở nhanh, thở bụng, ho từng cơn. Chảy mũi đục, ăn giảm mạnh. Lờ đờ, đứng tách đàn. Một số con trở nặng rất nhanh giống tụ huyết trùng cấp. Ho nhẹ, thở nhanh khi vận động. Ăn giảm nhưng vẫn còn đứng theo đàn. Ho nhiều, chảy mũi đục. Bỏ ăn, mắt lờ đờ. Thở bụng nhẹ - vừa. Khó thở, nằm nhiều, tím niêm mạc. Một số ca tiến triển như tụ huyết trùng cấp. Nguy cơ chết nếu không xử lý kịp."
+  },
+  {
+    "id": "verminous-pneumonia",
+    "name": "Viêm phổi do giun phổi",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho kéo dài, ho thành từng tràng. Thở nhanh khi chạy nhẹ. Chảy mũi trong hoặc đục nhẹ. Ăn giảm, gầy dần. Nặng: khó thở, thở rít, suy kiệt. Ho rải rác nhiều ngày. Ăn giảm nhẹ. Ho nhiều lần trong ngày, gầy nhanh. Thở nhanh, chảy mũi đục nhẹ. Khó thở, thở rít. Gầy rộc, lông xù. Dê non dễ chết."
+  },
+  {
+    "id": "aspergillosis",
+    "name": "Viêm phổi do nấm (Aspergillosis)",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho kéo dài, dai dẳng nhiều tuần. Thở nhanh, thở nặng khi bệnh tiến triển. Dê gầy từ từ, lông xù. Chảy mũi trắng đục hoặc vàng nhẹ. Ít đáp ứng với kháng sinh. Ho lặt vặt nhiều ngày. Chảy mũi ít. Ho kéo dài, thở nhanh. Gầy thấy rõ. Thở khó, nằm nhiều. Không đáp ứng với kháng sinh. Sút cân mạnh."
+  },
+  {
+    "id": "rhinitis-sinusitis",
+    "name": "Viêm mũi - viêm xoang",
+    "group": "respiratory",
+    "severityLevel": 1,
+    "searchText": "Chảy nước mũi trong hoặc đục. Nghẹt mũi, thở tiếng khụt khịt. Ho nhẹ - vừa. Hắt hơi, dụi mũi. Ăn giảm, lông xấu nếu kéo dài. Nước mũi trong. Hắt hơi ít. Ăn bình thường. Nghẹt mũi, thở tiếng. Nước mũi đục. Ho nhẹ - vừa. Thở khó do nghẹt nặng. Chảy mũi nhiều, mùi hôi. Dê ăn giảm mạnh."
+  },
+  {
+    "id": "aspiration-pneumonia",
+    "name": "Viêm phổi do hít sặc",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Ho mạnh ngay sau sặc. Thở rít hoặc thở khó. Chảy nước mũi có mùi sữa thức ăn. Sốt sau 2-12 giờ do viêm phổi hóa học. Nặng: nằm, thở ngáp, tử vong. Ho sau sặc nhưng thở bình thường trở lại. Ăn giảm nhẹ. Ho liên tục, thở nhanh. Chảy mũi đục, mùi thức ăn. Sốt nhẹ - vừa. Khó thở, tím niêm mạc. Nằm, phản xạ yếu. Nguy cơ tử vong cao."
+  },
+  {
+    "id": "toxic-gas-pneumonia",
+    "name": "Viêm phổi do khí độc (NH₃, H₂S)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Thở nhanh, thở nông, thở gấp. Ho khan, kích ứng, hắt hơi. Chảy nước mũi trong hoặc bọt, sau có thể đục. Đứng há mồm thở, cổ vươn dài. Một số con đột ngột nằm, co giật, chết nếu hít phải khí nồng độ cao. Các con nhẹ hơn có thể chuyển thành viêm phổi - phế quản do nhiễm khuẩn kế phát. Thở nhanh nhẹ, ho khan ít. Nước mũi trong, mắt hơi đỏ. Ăn giảm nhẹ. Thở gấp, thở nông, thỉnh thoảng há mồm thở. Ho nhiều hơn, chảy nước mũi trong - đục. Đứng tách đàn, lờ đờ, ăn giảm rõ. Khó thở cấp, vươn cổ, há mồm thở. Mắt đỏ, niêm mạc tím. Có thể ngã, co giật, chết đột ngột nếu nồng độ khí rất cao. Những con sống sót dễ bị viêm phổi nặng về sau."
+  },
+  {
+    "id": "cold",
+    "name": "Cảm lạnh",
+    "group": "respiratory",
+    "severityLevel": 1,
+    "searchText": "Chảy nước mũi trong, hắt hơi. Ho nhẹ, chủ yếu lúc sáng sớm hoặc tối. Ăn giảm nhẹ, lừ đừ hơn bình thường. Lông hơi xù, đứng co ro khi trời lạnh. Nếu không chăm sóc tốt có thể chuyển thành viêm phế quản - phổi. Nước mũi trong ít. Thỉnh thoảng ho khan. Ăn gần như bình thường. Chảy mũi trong - đục nhẹ. Ho nhiều hơn, lờ đờ. Ăn giảm, đứng co ro lúc lạnh. Cảm lạnh kéo dài nhiều ngày không xử lý, kèm theo ho tăng, thở nhanh. Có dấu hiệu chuyển sang viêm hô hấp dưới (cần xem xét theo hướng viêm phổi)."
+  },
+  {
+    "id": "chronic-pneumonia",
+    "name": "Viêm phổi mạn tính",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho kéo dài nhiều tuần, ho khan hoặc có đờm, hay tái đi tái lại. Thở nhanh hơn dê khoẻ, đặc biệt khi vận động. Gầy dần, xương sườn lộ, lông xù, xấu mã. Ăn không kém quá sâu nhưng tăng trọng rất kém. Một số con có giai đoạn sốt nhẹ - vừa tái phát từng đợt. Ho lặt vặt, nhất là sáng sớm. Ăn vẫn tương đối tốt. Thể trạng chỉ hơi kém so với đàn. Ho đều mỗi ngày, gầy rõ. Thở nhanh khi vận động nhẹ. Lông xù, xương nổi, kém lớn. Ho nhiều, thở khó ngay cả khi nghỉ. Rất gầy, suy kiệt. Dễ ghép các bệnh khác: ký sinh trùng, tiêu hoá, v.v."
+  },
+  {
+    "id": "ppr",
+    "name": "Dịch tả dê (PPR)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn đột ngột Lờ đờ, đứng tách đàn Chảy nước mắt nhiều Chảy mũi trong rồi đặc đục Ho, khò khè Thở nhanh, thở bụng Loét miệng, lợi, lưỡi Chảy dãi kéo sợi Miệng hôi Tiêu chảy nước thối Phân có thể lẫn nhầy hoặc máu Mất nước, mắt trũng Sút nhanh Đi loạng choạng do kiệt sức Nằm nhiều, khó đứng dậy Sốt nhẹ, hắt hơi Chảy mũi trong Ăn giảm Loét miệng rõ, chảy dãi Ho, thở nhanh Tiêu chảy bắt đầu Khó thở nặng, thở bụng mạnh Tiêu chảy dữ dội, mất nước Suy kiệt, nằm bệt Có thể chết nhanh do viêm phổi - sốc nhiễm trùng"
+  },
+  {
+    "id": "mannheimiosis_severe",
+    "name": "Viêm phổi Mannheimia nặng",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn nhanh Thở nhanh, thở bụng mạnh Ho khan rồi ho ướt Khò khè, rên Chảy mũi đục vàng/xanh Có mùi hôi ở mũi Niêm mạc tím tái Tai lạnh Đứng dạng chân, gục đầu Nằm nhiều, không muốn dậy Có thể chết đột ngột Ho nhẹ, hắt hơi Ăn giảm Chảy mũi trong Thở nhanh rõ Ho liên tục Chảy mũi đục Mệt, đứng một chỗ Thở rất khó, thở bụng dữ Khò khè, rên Tím môi, tai lạnh Nằm bệt, có thể chết nhanh do suy hô hấp"
+  }
+]

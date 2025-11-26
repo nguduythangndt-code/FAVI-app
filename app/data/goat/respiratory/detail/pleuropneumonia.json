@@ -1,0 +1,134 @@
+{
+  "id": "pleuropneumonia",
+  "name": "Viêm phổi màng phổi ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm phổi màng phổi là tình trạng phổi và màng phổi bị viêm nặng, thường do nhiễm khuẩn mạnh hoặc ghép nhiều tác nhân (Pasteurella, Mycoplasma, vi khuẩn cơ hội). Dê thở rất đau, dễ nằm, tiên lượng nặng.",
+
+  "causes": [
+    "Nhiễm khuẩn hô hấp nặng không điều trị kịp thời.",
+    "Ghép tụ huyết trùng, Mycoplasma và vi khuẩn cơ hội.",
+    "Chấn thương ngực, đâm vào lồng ngực (hiếm).",
+    "Biến chứng từ các đợt viêm phổi cấp kéo dài."
+  ],
+
+  "risk_factors": [
+    "Đàn từng bị viêm phổi nhưng điều trị không dứt.",
+    "Môi trường ẩm, lạnh, khí độc cao.",
+    "Dê suy, thể trạng kém.",
+    "Không có lịch phòng bệnh rõ ràng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Thở rất khó, thở nông, nhanh, có biểu hiện đau khi thở.",
+    "Dê không muốn nằm vì khó thở, hoặc ngược lại nằm nhiều do kiệt sức.",
+    "Có thể nghe tiếng cọ màng phổi (nếu có dụng cụ).",
+    "Sốt cao hoặc sốt kéo dài.",
+    "Chảy mũi đục, ho đau, ho ít do đau.",
+    "Gầy sút nhanh, mắt trũng."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Khó phân biệt với viêm phổi nặng giai đoạn sớm.",
+      "Thở nhanh, ho ít, sốt vừa."
+    ],
+    "moderate": [
+      "Thở nông và nhanh, rõ biểu hiện đau khi thở sâu.",
+      "Nằm - đứng thay đổi tư thế liên tục để đỡ đau.",
+      "Chảy mũi đục, ăn giảm mạnh."
+    ],
+    "severe": [
+      "Thở rất khó, vươn cổ, cánh mũi phập phồng.",
+      "Đa số chỉ nằm, đứng lên rất khó.",
+      "Suy kiệt, mất nước, chết nếu không can thiệp mạnh."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "tulathromycin",
+      "Florfenicol"
+    ],
+    "alternative_drugs": [
+      "Enrofloxacin",
+      "Amoxicillin (trường hợp nhẹ hơn hoặc sau giai đoạn cấp)",
+      "Kết hợp thêm thuốc hướng Mycoplasma nếu nghi ghép (doxycycline) theo thú y"
+    ],
+    "note_drugs": [
+      "Đây là thể nặng; dùng kháng sinh yếu hoặc sai cơ chế sẽ tốn thời gian mà ít hiệu quả."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Ketoprofen",
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "Gluco - điện giải",
+        "ORS"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho dê gầy, bỏ ăn.",
+        "Chế phẩm bảo vệ dạ cỏ khi dùng thuốc dài ngày."
+      ]
+    },
+    "supportive_care": [
+      "Chuồng yên tĩnh, ấm, không gió lùa.",
+      "Nền khô, mềm, giúp dê nằm không bị đau thêm.",
+      "Không ép đi lại nhiều; chỉ hỗ trợ đứng dậy khi cần.",
+      "Nước sạch, thức ăn dễ tiêu đặt gần tầm với."
+    ],
+    "dose_policy": [
+      "Kháng sinh mạnh phải dùng đúng chỉ định và thời gian theo nhãn hoặc thú y.",
+      "Không tự ý đổi thuốc liên tục khi chưa đủ thời gian đánh giá đáp ứng."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Thở rất khó nhưng dê còn đứng được, vẫn đổi tư thế.",
+      "guideline": [
+        "Dùng kháng sinh phổ mạnh (ceftiofur/cefquinome/florfenicol).",
+        "Chống viêm mạnh (flunixin/ketoprofen).",
+        "Thuốc hỗ trợ hô hấp (bromhexine, guaifenesin).",
+        "Điện giải, vitamin C, B-complex.",
+        "Theo dõi nhịp thở, tư thế nằm - đứng."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê chỉ nằm, thở nặng, không muốn đứng, rất suy.",
+      "guideline": [
+        "Cần bác sĩ thú y đánh giá trực tiếp, có thể phải điều trị tích cực, kéo dài.",
+        "Truyền dịch nếu cần, phối hợp kháng sinh mạnh và hỗ trợ đa hướng.",
+        "Chăm sóc nâng cao: xoay trở nhẹ, giữ ấm, tránh loét.",
+        "Tiên lượng thận trọng, tuỳ mức độ tổn thương phổi - màng phổi."
+      ]
+    },
+    "note": "Viêm phổi màng phổi thường là hậu quả của quá trình viêm phổi kéo dài hoặc điều trị không dứt điểm; phòng hơn chữa rất nhiều."
+  },
+
+  "prevention": [
+    "Phát hiện sớm và điều trị dứt điểm các ca viêm phổi nhẹ - vừa.",
+    "Cải thiện thông thoáng, giảm khí độc (NH₃, H₂S).",
+    "Không để đàn sống trong môi trường ẩm, lạnh kéo dài.",
+    "Giữ khẩu phần đủ dinh dưỡng, tránh để dê suy."
+  ],
+
+  "notes": [
+    "Khi đã vào giai đoạn viêm phổi màng phổi, thời gian điều trị thường kéo dài, tốn kém.",
+    "Lựa chọn loại nào điều trị sớm, loại nào loại thải cũng là một quyết định kinh tế trong đàn lớn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
+}

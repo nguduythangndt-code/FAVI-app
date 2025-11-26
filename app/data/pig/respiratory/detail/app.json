@@ -1,0 +1,113 @@
+{
+  "id": "app",
+  "name": "Viêm phổi - màng phổi (APP)",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "APP gây viêm phổi - màng phổi cấp tính, heo sốt cao, khó thở, nằm nhiều và chết nhanh nếu không xử lý sớm.",
+  "causes": [
+    "Vi khuẩn Actinobacillus pleuropneumoniae",
+    "Lây nhanh qua không khí, tiếp xúc gần",
+    "Chuồng lạnh, ẩm, gió lùa mạnh"
+  ],
+  "risk_factors": [
+    "Mật độ nuôi dày",
+    "Chuồng bí khí, độ ẩm cao",
+    "Trộn đàn, stress vận chuyển",
+    "Không tiêm phòng đầy đủ"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao đột ngột",
+    "Thở bụng, thở đứng, há miệng",
+    "Ho khan hoặc ho tiếng gắt",
+    "Nằm bẹp, bỏ ăn nhanh",
+    "Tai tím, đầu tím khi suy hô hấp",
+    "Một số con chết đột ngột"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ",
+      "Ho đôi lúc"
+    ],
+    "moderate": [
+      "Thở nhanh",
+      "Ho khan rõ",
+      "Ăn kém"
+    ],
+    "severe": [
+      "Thở bụng nặng, đứng chống chân",
+      "Tai tím, nằm bẹp",
+      "Nguy cơ chết cao"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Enrofloxacin"
+    ],
+    "alternative_drugs": [
+      "Florfenicol",
+      "Amoxicillin"
+    ],
+    "note_drugs": "APP diễn tiến rất nhanh. Ưu tiên Ceftiofur hoặc Enrofloxacin vì thấm phổi mạnh.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng ấm, không gió lùa",
+      "Tách những con nặng vào ô khô, thoáng",
+      "Bổ sung điện giải khi sốt cao",
+      "Giảm stress, không dồn đuổi"
+    ],
+    "dose_policy": "Sử dụng thuốc theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo sốt cao, thở mạnh nhưng còn đứng được.",
+      "guideline": [
+        "Dùng kháng sinh chính ngay",
+        "Giảm viêm bằng Flunixin",
+        "Theo dõi nhịp thở trong ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo nằm bẹp, thở bụng, tím tai.",
+      "guideline": [
+        "Điều trị mạnh và liên tục",
+        "Bù điện giải",
+        "Cách ly yên tĩnh",
+        "Đánh giá khả năng hồi phục"
+      ]
+    },
+    "note": "APP có thể giết heo trong vài giờ nếu không xử lý."
+  },
+  "prevention": [
+    "Tiêm phòng APP",
+    "Giữ chuồng ấm, không gió lùa",
+    "Giảm mật độ đàn",
+    "Không trộn đàn lung tung"
+  ],
+  "notes": [
+    "APP thường bùng phát khi trời lạnh và ẩm.",
+    "Xử lý càng sớm, sống càng cao."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,100 @@
+{
+  "id": "heat-stress",
+  "name": "Stress nhiệt (nóng)",
+  "species": "chicken",
+  "group": "other",
+  "summary": "Gà chịu nhiệt kém, khi quá nóng sẽ há mỏ thở, xòe cánh, giảm ăn, giảm đẻ, nặng có thể chết ngạt.",
+  "causes": [
+    "Nhiệt độ chuồng quá cao, thiếu thông gió",
+    "Mật độ nuôi dày, nhiều gà trong không gian nhỏ",
+    "Thiếu bóng mát, mái cách nhiệt kém, mái tôn thấp",
+    "Thiếu nước uống mát, máng nước ít, gà tranh nhau"
+  ],
+  "risk_factors": [
+    "Chuồng hướng nắng trực tiếp, mái tôn thấp",
+    "Nuôi dày, ít quạt, ít ô thoáng",
+    "Đàn gà nặng ký, gà đẻ cao sản rất nhạy với nóng",
+    "Thời điểm giao mùa nóng ẩm, biên độ nhiệt cao"
+  ],
+  "clinical_signs_detailed": [
+    "Gà há mỏ, thở gấp, thở bằng bụng",
+    "Xòe cánh, đứng xa nhau, tránh chen chúc",
+    "Giảm ăn rõ, uống nước nhiều",
+    "Đàn đẻ giảm sản lượng, vỏ trứng xấu tạm thời",
+    "Trường hợp nặng: gà lảo đảo, ngã, chết đột ngột lúc nóng cao điểm"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà há mỏ thở nhẹ khi trời nóng",
+      "Đứng xoè cánh, giảm ăn chút nhưng chưa ảnh hưởng nhiều"
+    ],
+    "moderate": [
+      "Thở gấp, há mỏ liên tục, cánh xoè rộng",
+      "Giảm ăn rõ, đàn đẻ giảm sản lượng",
+      "Tụ nhiều ở chỗ mát, bỏ những chỗ quá nóng"
+    ],
+    "severe": [
+      "Gà rất khó thở, lảo đảo, có thể nằm ngửa, co giật",
+      "Chết đột ngột trong những giờ nóng nhất",
+      "Tỉ lệ chết tăng nhiều nếu không giảm nóng kịp thời"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": "Stress nhiệt không có thuốc đặc hiệu. Trọng tâm là hạ nhiệt môi trường, bổ sung điện giải, vitamin và giảm mật độ. Thuốc chỉ đóng vai trò hỗ trợ.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": "electrolyte-glucose"
+      },
+      "vitamin": {
+        "main": "vitamin-c",
+        "alternative": "vitamin-complex"
+      },
+      "digestive_support": {
+        "main": "",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Mở hết cửa, ô thoáng, bật quạt, dùng phun sương hợp lý nếu có",
+      "Tăng số máng nước, đảm bảo nước luôn mát và đủ",
+      "Giảm mật độ nếu quá dày, tránh gà chồng đống",
+      "Cho ăn vào sáng sớm và chiều mát, giảm cho ăn vào giờ nóng",
+      "Nếu có thể, cải thiện mái che, thêm lớp cách nhiệt lâu dài"
+    ],
+    "dose_policy": "Các sản phẩm điện giải, vitamin dùng theo đúng hướng dẫn trên nhãn, không pha quá đậm để tránh phản tác dụng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thịt hoặc đẻ thương phẩm chết rải rác trong những ngày nóng đỉnh điểm.",
+      "guideline": "Ưu tiên xử lý môi trường: thông gió, giảm mật độ, tăng nước mát, điều chỉnh giờ cho ăn. Bổ sung điện giải, vitamin C trong thời gian ngắn. Xem lại thiết kế chuồng để tránh lặp lại năm sau."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc gà cảnh giá trị chịu nóng kém, nhiều con suy.",
+      "guideline": "Tập trung bố trí khu mát hơn cho đàn này, có thể dùng quạt, phun sương hợp lý. Theo dõi từng nhóm nhỏ, bổ sung điện giải, vitamin. Hạn chế mọi thao tác bắt bế trong thời điểm nóng nhất."
+    },
+    "note": "Stress nhiệt là bệnh của hệ thống, không phải bệnh của từng con. Giải bài toán chuồng, mật độ và nước sẽ hiệu quả hơn là tìm thuốc."
+  },
+  "prevention": [
+    "Thiết kế chuồng thoáng, mái cao, có ô thoáng và quạt",
+    "Trồng cây, làm mái che, cách nhiệt mái tôn nếu có điều kiện",
+    "Giữ mật độ hợp lý, không nhồi quá dày",
+    "Luôn đảm bảo đủ máng nước, nước sạch, mát",
+    "Điều chỉnh lịch cho ăn tránh giờ nóng nhất trong ngày"
+  ],
+  "notes": [
+    "Mỗi năm nên xem lại tình hình chết do nóng để điều chỉnh chuồng trại.",
+    "Đàn nặng ký và đàn đẻ luôn là nhóm bị stress nhiệt nặng nhất."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Vitamin B12",
+
+  "mechanism": [
+    "Hỗ trợ tạo máu và tái tạo tế bào",
+    "Tham gia chuyển hoá đạm và năng lượng",
+    "Giúp cải thiện sức bền và thể trạng"
+  ],
+
+  "clinical_uses": [
+    "Dê thiếu máu, gầy yếu kéo dài",
+    "Dê suy kiệt sau bệnh mạn",
+    "Hỗ trợ trong ca giảm ăn do thể trạng yếu"
+  ],
+
+  "advantages": [
+    "Giúp cải thiện thể trạng từ từ",
+    "Phối hợp tốt với thuốc bổ gan, tăng lực",
+    "Phù hợp dê phục hồi sau bệnh dài ngày"
+  ],
+
+  "disadvantages": [
+    "Tác dụng chậm, không phù hợp ca cấp",
+    "Không giải quyết được nguyên nhân chính nếu là bệnh nhiễm trùng chưa điều trị"
+  ],
+
+  "side_effects": [
+    "Hiếm gặp tác dụng phụ rõ",
+    "Đôi khi kích ứng nhẹ tại chỗ tiêm"
+  ],
+
+  "recommendations": [
+    "Dùng theo đợt vài ngày đến một tuần tuỳ thể trạng",
+    "Kết hợp dinh dưỡng tốt và khẩu phần cân đối",
+    "Theo dõi cân nặng và mức độ hoạt động"
+  ],
+
+  "contraindications": [
+    "Không có chống chỉ định rõ, chủ yếu tránh lạm dụng",
+    "Thận trọng ở dê suy gan thận rất nặng"
+  ],
+
+  "alternatives": [
+    "Butafosfan + B12",
+    "Amino peptide phục hồi",
+    "Electrolyte + Amino Premium"
+  ]
+}

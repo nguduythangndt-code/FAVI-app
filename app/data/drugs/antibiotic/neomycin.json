@@ -1,0 +1,41 @@
+{
+  "id": "neomycin",
+  "name": "Neomycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm aminoglycoside, thường dùng đường uống để giảm sự phát triển của vi khuẩn gây tiêu chảy tại ruột.",
+  "clinical_uses": [
+    "Tiêu chảy ở dê con, heo con, bê nghé.",
+    "Rối loạn tiêu hóa sau cai sữa.",
+    "Hỗ trợ trong các ca viêm ruột mức độ nhẹ - trung bình."
+  ],
+  "pros": [
+    "Hiệu quả rõ với tiêu chảy do vi khuẩn.",
+    "Phù hợp dùng cho thú non.",
+    "Ít hấp thu vào máu, an toàn khi dùng đúng hướng dẫn."
+  ],
+  "cons": [
+    "Không phải thuốc cho ca nặng.",
+    "Không phù hợp điều trị toàn thân.",
+    "Cần kết hợp điện giải."
+  ],
+  "mild_side_effects": [
+    "Phân mềm.",
+    "Giảm ăn nhẹ.",
+    "Hơi buồn nôn ở một số con."
+  ],
+  "usage_recommendations": [
+    "Thích hợp dùng sớm, khi tiêu chảy chưa kéo dài.",
+    "Duy trì nước - điện giải đầy đủ.",
+    "Không ngưng thuốc quá sớm khi phân vừa cải thiện."
+  ],
+  "when_not_to_use": [
+    "Ca tiêu chảy kèm mất nước nặng.",
+    "Bệnh kéo dài nhiều ngày cần kiểm tra thêm.",
+    "Không dùng như biện pháp phòng bệnh thường xuyên."
+  ],
+  "alternative_drugs": [
+    "Spectinomycin.",
+    "Sulfa TMP.",
+    "Oxytetracycline."
+  ]
+}

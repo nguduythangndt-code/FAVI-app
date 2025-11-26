@@ -1,0 +1,132 @@
+{
+  "id": "bloat",
+  "name": "Chướng hơi dạ cỏ",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Bò chướng hơi dạ cỏ là tình trạng hơi tích tụ quá mức trong dạ cỏ, làm bụng căng, khó thở, có thể chết nhanh do chèn ép hô hấp và tuần hoàn nếu không xử lý kịp.",
+
+  "causes": [
+    "Ăn nhiều cỏ non, đậu, lá non dễ sinh bọt khí trong dạ cỏ",
+    "Thay đổi khẩu phần đột ngột, ăn quá nhanh hoặc quá nhiều trong một bữa",
+    "Tắc nghẽn thực quản do dị vật làm hơi không thoát ra được",
+    "Rối loạn vận động dạ cỏ do bệnh nền hoặc suy nhược"
+  ],
+
+  "risk_factors": [
+    "Cho bò đói lâu rồi cho ăn nhiều thức ăn dễ lên men",
+    "Thả bò vào bãi cỏ non, nhiều lá đậu mà không tập cho ăn dần",
+    "Khẩu phần thiếu xơ, quá nhiều tinh bột",
+    "Bò tham ăn, ăn vội, tranh thức ăn",
+    "Bò ít vận động, nhốt chuồng quá lâu"
+  ],
+
+  "clinical_signs_detailed": [
+    "Bụng trái căng to nhanh, gõ vào nghe âm trống hoặc âm bì bõm",
+    "Bò khó thở, thở nhanh, thở bụng rõ, há mồm thở ở ca nặng",
+    "Con vật đứng dạng chân, lưng cong, biểu hiện khó chịu, bồn chồn",
+    "Có thể không nhai lại, giảm hoặc mất ợ hơi",
+    "Niêm mạc tím tái ở ca nặng do thiếu oxy",
+    "Nếu không can thiệp, bò có thể ngã vật, thở dốc và chết nhanh"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Bụng trái hơi căng, bò vẫn ăn và nhai lại",
+      "Thở hơi nhanh nhưng chưa rõ khó thở",
+      "Vẫn còn ợ hơi, có thể nghe tiếng ợ"
+    ],
+    "moderate": [
+      "Bụng trái căng rõ, đặc biệt vùng hõm hông",
+      "Thở nhanh, thở bụng, nhai lại giảm",
+      "Bò bồn chồn, đứng lên nằm xuống nhiều lần"
+    ],
+    "severe": [
+      "Bụng căng cực đại, da vùng bụng căng bóng",
+      "Thở rất khó, thở há mồm, niêm tím tái",
+      "Bò đứng không vững, dễ ngã vật, nguy cơ chết rất cao nếu không giải áp kịp"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "simethicone",
+      "poloxalene"
+    ],
+    "alternative_drugs": [
+      "magnesium_hydroxide"
+    ],
+    "note_drugs": "Mục tiêu là giảm bọt khí trong dạ cỏ và giúp hơi thoát ra. Trong ca nặng cần kết hợp can thiệp cơ học (thông ống, xả hơi) chứ không chỉ trông chờ vào thuốc.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Ngừng cho ăn ngay khi phát hiện chướng hơi",
+      "Dẫn bò đi lại nhẹ nhàng nếu tình trạng còn nhẹ để kích thích ợ hơi",
+      "Nếu bụng căng nhanh, khó thở, cần gọi thú y hỗ trợ thông ống dạ cỏ hoặc chọc xả hơi khi cần",
+      "Sau khi ổn định, điều chỉnh khẩu phần: tăng cỏ khô, giảm thức ăn dễ lên men",
+      "Theo dõi sát ít nhất 24 giờ sau xử lý vì có thể chướng lại"
+    ],
+
+    "dose_policy": "Thuốc dùng theo liều trên nhãn hoặc theo tư vấn thú y, đặc biệt với thuốc ảnh hưởng đến nhu động dạ cỏ."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Chướng vừa, bò vẫn còn đi lại được, thở nhanh nhưng chưa tím tái.",
+      "guideline": [
+        "Dùng thuốc tiêu bọt dạ cỏ phù hợp",
+        "Dẫn bò đi lại nhẹ nhàng nếu bò còn sức",
+        "Theo dõi mức độ căng bụng và nhịp thở sau mỗi 15-30 phút",
+        "Điều chỉnh khẩu phần ngay trong ngày hôm đó và những ngày sau"
+      ]
+    },
+    "case_type_2": {
+      "description": "Chướng rất nặng, bụng căng cực đại, bò thở há mồm, đứng không vững hoặc ngã vật.",
+      "guideline": [
+        "Coi như ca cấp cứu, ưu tiên gọi thú y tới trại nếu có điều kiện",
+        "Cân nhắc thông ống dạ cỏ hoặc chọc xả hơi theo kỹ thuật an toàn",
+        "Sau khi qua cơn nguy hiểm, ổn định dần rồi mới cho ăn ít một",
+        "Rút kinh nghiệm để không lặp lại tình huống khẩu phần và quản lý như cũ"
+      ]
+    },
+    "note": "Chướng hơi dạ cỏ nặng có thể làm bò chết rất nhanh. Phát hiện sớm và điều chỉnh thức ăn là chìa khóa."
+  },
+
+  "prevention": [
+    "Không để bò quá đói rồi cho ăn nhiều thức ăn dễ lên men trong một lần",
+    "Khi chuyển sang cỏ non, đậu… cần tập cho ăn tăng dần, không đổi đột ngột",
+    "Giữ khẩu phần có đủ xơ (cỏ khô, rơm) để dạ cỏ hoạt động ổn định",
+    "Theo dõi kỹ đàn trong những ngày đầu thay đổi khẩu phần",
+    "Ghi nhận các ca chướng hơi để điều chỉnh lại cách cho ăn"
+  ],
+
+  "notes": [
+    "Bò chướng hơi ngày hôm nay mà bỏ qua, ngày mai có thể là ca cấp cứu.",
+    "Thường lỗi nằm ở khẩu phần và cách cho ăn, không chỉ do “con bò yếu”.",
+    "Sau mỗi vụ chướng hơi, nên xem lại cả quy trình cho ăn của đàn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

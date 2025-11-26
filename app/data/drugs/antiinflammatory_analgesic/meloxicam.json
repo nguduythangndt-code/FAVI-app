@@ -1,0 +1,40 @@
+{
+  "name": "Meloxicam",
+  "mechanism": [
+    "NSAID ưu tiên ức chế COX-2 hơn COX-1",
+    "Giảm viêm, giảm đau, hạ sốt với nguy cơ kích ứng dạ dày thấp hơn một số NSAID cũ"
+  ],
+  "clinical_uses": [
+    "Giảm đau, giảm viêm trong bệnh xương khớp, chấn thương phần mềm",
+    "Hỗ trợ sau can thiệp thủ thuật, tiểu phẫu, cắt sừng, thiến",
+    "Có thể dùng nối tiếp sau các NSAID mạnh hơn theo chỉ định thú y"
+  ],
+  "advantages": [
+    "Tác dụng êm hơn trên hệ tiêu hoá so với một số NSAID cổ điển",
+    "Phù hợp các ca cần kiểm soát đau / viêm thêm vài ngày theo dõi"
+  ],
+  "disadvantages": [
+    "Vẫn có nguy cơ ảnh hưởng gan, thận nếu dùng sai hoặc kéo dài",
+    "Không nên dùng đơn độc trong các ca nhiễm trùng nặng chưa xử lý nguyên nhân"
+  ],
+  "side_effects": [
+    "Giảm ăn nhẹ, mệt thoáng qua",
+    "Hiếm: tiêu chảy, nôn (tuỳ cá thể)",
+    "Nguy cơ tổn thương gan, thận nếu lạm dụng"
+  ],
+  "recommendations": [
+    "Dùng theo liều và thời gian ghi trên nhãn hoặc theo hướng dẫn thú y",
+    "Không tự ý tăng số lần dùng trong ngày khi thấy thuốc “hiệu quả tốt”",
+    "Theo dõi nước tiểu, phân, thái độ ăn uống khi dùng nhiều ngày"
+  ],
+  "contraindications": [
+    "Không dùng cho dê suy gan, suy thận nặng hoặc mất nước chưa hồi sức",
+    "Thận trọng khi đang dùng hoặc vừa mới dùng NSAID khác",
+    "Không dùng cho dê đang sốc nặng mà chưa được bù dịch đầy đủ"
+  ],
+  "alternatives": [
+    "Ketoprofen - giảm đau / hạ sốt ngắn hạn",
+    "Flunixin - cho các ca đau, viêm nặng hơn nhưng cần theo dõi chặt",
+    "Paracetamol - hỗ trợ hạ sốt mức độ vừa, nhẹ"
+  ]
+}

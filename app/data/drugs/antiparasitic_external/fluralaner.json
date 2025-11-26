@@ -1,0 +1,44 @@
+{
+  "name": "Fluralaner",
+  "mechanism": [
+    "Thuốc thuộc nhóm isoxazoline",
+    "Tác động lên kênh GABA, glutamate của ký sinh trùng, gây liệt và chết ve, bọ chét",
+    "Thường có tác dụng kéo dài nhờ phân bố trong cơ thể vật nuôi (tuỳ dạng bào chế)"
+  ],
+  "clinical_uses": [
+    "Kiểm soát ve, bọ chét dài ngày trên thú cưng; một số nghiên cứu áp dụng trên gia súc",
+    "Có tiềm năng dùng trong đàn có áp lực ve, bọ chét rất cao (theo hướng dẫn, nếu có đăng ký)",
+    "Giảm mật độ ký sinh trùng ngoài, gián tiếp giảm nguy cơ bệnh truyền qua ve/bọ chét"
+  ],
+  "advantages": [
+    "Thời gian tác dụng kéo dài, giảm tần suất xử lý",
+    "Hiệu lực mạnh trên ve và bọ chét trưởng thành",
+    "Thuận tiện ở các hệ thống nuôi khó bắt từng con để tắm/phun thường xuyên"
+  ],
+  "disadvantages": [
+    "Không phải mọi chế phẩm fluralaner đều được phép dùng cho dê",
+    "Chi phí có thể cao hơn các thuốc ngoại ký sinh truyền thống",
+    "Cần tuân thủ chặt chẽ khuyến cáo về an toàn, thời gian ngừng thuốc"
+  ],
+  "side_effects": [
+    "Mệt nhẹ, giảm ăn thoáng qua sau khi dùng trên một số cá thể",
+    "Hiếm gặp: run cơ, co giật nếu quá liều hoặc mẫn cảm",
+    "Có thể có phản ứng tại chỗ nếu là dạng nhỏ ngoài da"
+  ],
+  "recommendations": [
+    "Chỉ dùng khi có chế phẩm, liều dùng và chỉ định rõ cho loài tương ứng",
+    "Tuyệt đối tuân thủ nhãn hoặc hướng dẫn thú y về cách dùng và thời gian ngừng thuốc",
+    "Kết hợp vệ sinh môi trường, chuồng trại để giảm tái nhiễm",
+    "Theo dõi kỹ sau khi dùng lần đầu cho đàn, đặc biệt những con yếu, bệnh nền"
+  ],
+  "contraindications": [
+    "Không tự ý dùng chế phẩm chỉ đăng ký cho chó/mèo lên dê",
+    "Tránh dùng cho dê có tiền sử co giật trừ khi bác sĩ thú y cho phép",
+    "Không dùng cùng lúc với nhiều thuốc ngoại ký sinh khác mà không có chỉ định"
+  ],
+  "alternatives": [
+    "Pyrethroid (Permethrin, Cypermethrin, Deltamethrin) - cho xử lý ngoài da, phun/tắm",
+    "Fipronil - cho ve/bọ chét nếu có chế phẩm phù hợp đối tượng",
+    "Chiến lược tổng hợp: vệ sinh chuồng, xử lý nội ký sinh, dinh dưỡng tốt"
+  ]
+}

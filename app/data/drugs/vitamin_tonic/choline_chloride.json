@@ -1,0 +1,48 @@
+{
+  "name": "Choline chloride",
+
+  "mechanism": [
+    "Hỗ trợ chuyển hoá mỡ tại gan",
+    "Giảm tích mỡ trong gan",
+    "Giúp cải thiện chức năng gan khi khẩu phần giàu năng lượng"
+  ],
+
+  "clinical_uses": [
+    "Dê nuôi vỗ béo, khẩu phần đậm đặc dễ tích mỡ gan",
+    "Hỗ trợ gan trong giai đoạn dùng nhiều thuốc",
+    "Đàn có dấu hiệu gan yếu, ăn kém, lông xấu"
+  ],
+
+  "advantages": [
+    "Giúp giảm gánh nặng cho gan",
+    "Phù hợp dùng cho dê vỗ béo, dê hậu bị",
+    "Kết hợp tốt với thuốc bổ gan khác"
+  ],
+
+  "disadvantages": [
+    "Không thay thế điều trị bệnh gan nặng",
+    "Tác dụng chậm, cần dùng theo đợt"
+  ],
+
+  "side_effects": [
+    "Hiếm gặp phản ứng rõ rệt",
+    "Có thể thay đổi mùi phân nhẹ"
+  ],
+
+  "recommendations": [
+    "Dùng theo đợt cho đàn ăn khẩu phần đậm đặc",
+    "Kết hợp quản lý thức ăn hợp lý",
+    "Theo dõi thể trạng, da lông và phân"
+  ],
+
+  "contraindications": [
+    "Không dùng như thuốc duy nhất trong bệnh gan nặng",
+    "Thận trọng với dê suy gan cuối giai đoạn"
+  ],
+
+  "alternatives": [
+    "Hepetol (bổ gan - giải độc)",
+    "Liver + kidney tonic",
+    "Sorbitol + Acid amin"
+  ]
+}

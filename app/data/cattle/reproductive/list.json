@@ -1,0 +1,58 @@
+[
+  {
+    "id": "metritis",
+    "name": "Viêm tử cung sau đẻ",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Sản dịch hôi, màu nâu hoặc đục Ăn kém, giảm sữa mạnh Sốt nhẹ hoặc sốt dao động Tử cung mềm, ấn đau Bò mệt, đứng tách đàn Ăn kém nhẹ Sản dịch hơi hôi Sản dịch rất hôi Giảm sữa rõ Mệt, đi lại chậm Sốt, mệt nặng Tử cung viêm sâu Tiên lượng xấu nếu kéo dài"
+  },
+  {
+    "id": "retained_placenta",
+    "name": "Sót nhau",
+    "group": "reproductive",
+    "severityLevel": 2,
+    "searchText": "Nhau thò ra ngoài nhiều giờ Âm hộ có mùi hôi nhẹ đến vừa Ăn giảm, giảm sữa Đi lại chậm, mệt Nhau chưa rụng sau 12 giờ Bò vẫn ăn Nhau hôi, bò ăn kém Giảm sữa rõ Nhau hôi thối, sốt Tiến triển sang viêm tử cung"
+  },
+  {
+    "id": "mastitis",
+    "name": "Viêm vú",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Bầu vú sưng, nóng, đau Sữa vón cục, vàng hoặc loãng Sữa có mùi lạ Giảm sữa rõ hoặc mất hẳn một phần vú Bò sợ vắt sữa, đá khi chạm vào Sữa hơi đổi màu Vú đau nhẹ Sữa vón cục Vú nóng, sưng rõ Giảm sữa nhiều Vú sưng to, rất đau Bò sốt và ăn kém Nguy cơ mất vú hoặc áp xe"
+  },
+  {
+    "id": "milk_fever",
+    "name": "Sốt sữa",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Run cơ, đứng không vững Đi loạng choạng, nhanh mệt Nằm nhiều, khó đứng dậy Ăn rất kém hoặc bỏ ăn Tai lạnh, mũi lạnh Thở chậm, yếu Run nhẹ Ăn giảm Đi loạng choạng Đầu cúi thấp Tai lạnh Nằm bệt, khó thở Không đứng nổi Nguy cơ tử vong cao"
+  },
+  {
+    "id": "abomasal_displacement",
+    "name": "Lệch dạ múi khế",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Ăn rất kém Giảm sữa mạnh Bụng hóp, gầy nhanh Nhai lại giảm Gõ vùng hông có tiếng kêu rỗng đặc trưng Ăn kém nhẹ Sản lượng sữa giảm Giảm ăn rõ Nhai lại giảm Gầy nhanh Ăn rất kém Gầy mạnh, ít đi lại Cần can thiệp kỹ thuật"
+  },
+  {
+    "id": "endometritis",
+    "name": "Viêm nội mạc tử cung",
+    "group": "reproductive",
+    "severityLevel": 2,
+    "searchText": "Sản dịch đục, ít hôi Âm hộ dính dịch Ăn giảm nhẹ Bò chậm động dục hoặc lặp lại giống nhiều lần Sản dịch ít Ăn vẫn bình thường Dịch đục hơn Giảm sữa nhẹ Chậm lên giống Hiếm khi nặng nhưng có thể kéo dài nhiều tuần Bò lặp giống nhiều lần"
+  },
+  {
+    "id": "ovarian_cyst",
+    "name": "Nang buồng trứng",
+    "group": "reproductive",
+    "severityLevel": 1,
+    "searchText": "Lên giống liên tục nhưng không đậu thai Hoặc chậm lên giống kéo dài Âm hộ hơi sưng nhẹ vào kỳ động dục Bò giảm sữa và thể trạng Một số con hiếu động bất thường Chậm lên giống Thể trạng bình thường Lên giống lặp lại nhiều lần Không đậu thai Không lên giống kéo dài Gầy dần, giảm sữa"
+  },
+  {
+    "id": "repeat_breeding",
+    "name": "Lặp lại phối nhiều lần",
+    "group": "reproductive",
+    "severityLevel": 1,
+    "searchText": "Lặp lại giống nhiều lần trong vài tháng Không đậu thai dù phối đúng lịch Âm hộ có thể dính dịch nhẹ Giảm sữa nhẹ hoặc chậm động dục 2 - 3 lần lặp giống Thể trạng bình thường Lặp giống nhiều lần trong 2 tháng Giảm sữa nhẹ Kéo dài nhiều tháng Giảm khả năng sinh sản rõ rệt"
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "id": "mastitis",
+  "name": "Viêm vú ở dê",
+  "species": "goat",
+  "group": "reproductive",
+
+  "summary": "Viêm vú là bệnh phổ biến ở dê mẹ nuôi con hoặc đang vắt sữa. Bầu vú sưng, nóng, đau, sữa đổi màu. Nếu không xử lý kịp có thể thành áp-xe hoặc mất khả năng tiết sữa.",
+
+  "causes": [
+    "Nhiễm khuẩn từ da, môi trường, vắt sữa không vệ sinh.",
+    "Chấn thương bầu vú do dê con bú mạnh hoặc vật cứng.",
+    "Đọng sữa lâu không vắt hết.",
+    "Nhiễm lạnh đột ngột."
+  ],
+
+  "risk_factors": [
+    "Dê sữa cho năng suất cao.",
+    "Chuồng ẩm, bẩn.",
+    "Vắt sữa không rửa sạch tay và núm vú.",
+    "Dê con cắn núm vú."
+  ],
+
+  "clinical_signs_detailed": [
+    "Vú sưng, nóng, đỏ, rất đau khi chạm vào.",
+    "Sữa loãng, vàng, lợn cợn hoặc có máu.",
+    "Ăn giảm, sốt, lờ đờ.",
+    "Dê mẹ đá con vì đau.",
+    "Trường hợp nặng: áp-xe vú, mất sữa."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Vú cứng nhẹ, đau nhẹ.",
+      "Sữa hơi loãng."
+    ],
+    "moderate": [
+      "Vú sưng rõ, nóng đỏ.",
+      "Sữa vón, đổi màu.",
+      "Sốt nhẹ - vừa."
+    ],
+    "severe": [
+      "Áp-xe vú, vú nóng đỏ toàn bộ.",
+      "Dê bỏ ăn, sốt cao.",
+      "Nguy cơ hoại tử vú."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Amoxicillin",
+      "Enrofloxacin (theo thú y)"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline",
+      "Tylosin",
+      "Doxycycline"
+    ],
+    "note_drugs": [
+      "Không bóp - nặn quá mạnh gây tổn thương thêm.",
+      "Không tiêm corticoid vào vú."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá (dê đang giảm ăn)."
+      ]
+    },
+    "supportive_care": [
+      "Vắt bỏ sữa viêm 2-3 lần/ngày để giảm áp lực.",
+      "Chườm ấm bầu vú.",
+      "Giữ bầu vú sạch, khô.",
+      "Tách dê con nếu bú gây đau."
+    ],
+    "dose_policy": [
+      "Dùng đúng liều thuốc theo nhãn hoặc thú y.",
+      "Không tự ý đổi thuốc trong 24 giờ đầu."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Vú sưng nóng, sữa đổi màu, dê còn ăn.",
+      "guideline": [
+        "Ceftiofur/amoxicillin.",
+        "Chống viêm + chườm ấm.",
+        "Vắt bỏ sữa viêm đều đặn."
+      ]
+    },
+    "case_type_2": {
+      "description": "Áp-xe, sưng to, dê đau nhiều, sốt.",
+      "guideline": [
+        "Kháng sinh phổ rộng + chống viêm mạnh.",
+        "Có thể cần rạch dẫn lưu áp-xe (thú y thực hiện).",
+        "Giữ vệ sinh tuyệt đối.",
+        "Tiên lượng mất 1 bên vú."
+      ]
+    },
+    "note": "Nếu viêm vú tái lặp → kiểm tra quy trình vệ sinh và điều kiện chuồng."
+  },
+
+  "prevention": [
+    "Vắt sữa sạch sẽ, tay - núm vú phải rửa trước khi vắt.",
+    "Giữ chuồng khô, lót nền sạch.",
+    "Không để dê con cắn núm vú.",
+    "Kiểm tra bầu vú mỗi ngày khi nuôi con."
+  ],
+
+  "notes": [
+    "Viêm vú nhẹ nếu xử lý sớm sẽ khỏi nhanh.",
+    "Áp-xe vú thường phải điều trị lâu hoặc mất hẳn khả năng tiết sữa."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

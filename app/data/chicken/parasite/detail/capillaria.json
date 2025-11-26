@@ -1,0 +1,105 @@
+{
+  "id": "capillaria",
+  "name": "Giun tóc (Capillaria)",
+  "species": "chicken",
+  "group": "parasite",
+  "summary": "Giun nhỏ, mảnh như sợi tóc ký sinh ở ruột hoặc diều, gây rối loạn tiêu hóa, gà gầy, suy nếu nhiễm nhiều.",
+  "causes": [
+    "Gà ăn phải trứng giun Capillaria từ phân, nền chuồng, thức ăn, nước uống",
+    "Một số loài sử dụng vật chủ trung gian như giun đất",
+    "Không tẩy giun định kỳ, môi trường bẩn tạo điều kiện tích tụ trứng giun"
+  ],
+  "risk_factors": [
+    "Nuôi nền đất, gà bới kiếm giun đất, côn trùng nhiều",
+    "Không có chương trình tẩy giun rõ ràng",
+    "Nền chuồng ẩm, phân không được dọn kịp thời",
+    "Đàn gà suy dinh dưỡng, sức đề kháng kém"
+  ],
+  "clinical_signs_detailed": [
+    "Gà chậm lớn, gầy, lông xấu",
+    "Tiêu chảy nhẹ đến vừa, phân nhầy, đôi khi có sợi nhầy",
+    "Ăn kém, kém linh hoạt, ít chạy nhảy",
+    "Một số trường hợp nhiễm ở diều gây rối loạn tiêu hóa, diều hoạt động kém",
+    "Mức độ nặng có thể làm đàn suy kiệt, dễ mắc thêm bệnh khác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà hơi chậm lớn, thể trạng không đều trong đàn",
+      "Tiêu hóa kém rõ nhưng không đặc hiệu"
+    ],
+    "moderate": [
+      "Chậm lớn rõ, xương to thịt ít, lông xơ",
+      "Phân nhầy, không ổn định, đôi khi lẫn sợi nhầy",
+      "Gà ít hoạt động, kém linh hoạt"
+    ],
+    "severe": [
+      "Gà rất gầy, yếu, tiêu chảy kéo dài",
+      "Nếu nhiễm cả ruột và diều, khả năng tiêu hóa thức ăn giảm mạnh",
+      "Dễ chết khi kèm thêm bệnh khác hoặc điều kiện nuôi kém"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "albendazole",
+      "fenbendazole"
+    ],
+    "alternative_drugs": [
+      "levamisole",
+      "ivermectin_internal"
+    ],
+    "note_drugs": "Điều trị giun tóc thường dùng chung phác đồ tẩy giun đường tiêu hóa. Cần đảm bảo dùng đủ liệu trình và xử lý môi trường để giun không nhanh chóng quay lại.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải hỗ trợ đàn suy yếu nhiều",
+        "alternative": "điện giải có vitamin C trong vài ngày đầu"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp giúp phục hồi thể trạng",
+        "alternative": "vitamin nhóm B kích thích ăn"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để ổn định đường ruột sau khi tẩy giun",
+        "alternative": "thức ăn mềm, dễ tiêu trong giai đoạn hồi phục"
+      }
+    },
+    "supportive_care": [
+      "Dọn phân, thay chất độn chuồng ẩm bẩn sau tẩy giun",
+      "Hạn chế cho gà bới ở nơi có nhiều giun đất, rác hữu cơ",
+      "Giữ nền khô, sạch, tránh đọng nước",
+      "Theo dõi tình trạng phân và thể trạng đàn trong vài tuần sau điều trị",
+      "Lên kế hoạch tẩy giun định kỳ, nhất là đàn thả vườn"
+    ],
+    "dose_policy": "Luôn tuân thủ liều và khoảng cách lặp lại ghi trên nhãn hoặc tư vấn thú y. Không tẩy giun quá dày khi không cần thiết."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thả vườn, giun tóc nhiều, gà chậm lớn hàng loạt.",
+      "guideline": "Tẩy giun toàn đàn, kết hợp cải thiện vệ sinh nền và hạn chế cho gà bới ở vùng ẩm bẩn. Bổ sung dinh dưỡng, vitamin, men vi sinh. Theo dõi tăng trưởng và cân nhắc điều chỉnh mật độ nếu quá dày."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc gà cảnh, giun tóc làm gà suy và kém đẹp.",
+      "guideline": "Tẩy giun đều, chăm từng nhóm nhỏ, điều chỉnh khẩu phần cho hợp lý. Giữ chuồng khô, sạch, kiểm soát côn trùng và giun đất quanh khu nuôi. Xây dựng lịch tẩy giun cố định theo chu kỳ."
+    },
+    "note": "Giun tóc thường bị bỏ qua vì khó thấy bằng mắt thường. Mổ kiểm tra là cách đáng tin cậy để xác định."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ, đặc biệt ở đàn thả vườn",
+    "Giữ nền chuồng khô, sạch, không để đọng nước",
+    "Hạn chế cho gà bới ở khu có nhiều rác hữu cơ, giun đất",
+    "Dọn phân, thay chất độn chuồng định kỳ",
+    "Sát trùng chuồng và khu vực xung quanh giữa các lứa nuôi"
+  ],
+  "notes": [
+    "Giun tóc có thể kết hợp với các vấn đề tiêu hóa khác, nên cần xem bệnh trong bối cảnh toàn đàn.",
+    "Theo dõi tăng trưởng và mổ kiểm tra định kỳ giúp đánh giá hiệu quả chương trình tẩy giun."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

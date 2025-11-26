@@ -1,0 +1,117 @@
+{
+  "id": "mites",
+  "name": "Ký sinh ngoài da (ve, bọ chét, ghẻ) ở dê",
+  "species": "goat",
+  "group": "parasite",
+
+  "summary": "Ký sinh ngoài da gây ngứa, rụng lông, viêm da và còi cọc. Bao gồm ve, bọ chét và ghẻ Sarcoptes/Chorioptes. Điều trị cần thuốc đặc trị ngoài da kết hợp vệ sinh chuồng trại.",
+
+  "causes": [
+    "Tiếp xúc dê bị ghẻ.",
+    "Chuồng bẩn, nền ẩm.",
+    "Không vệ sinh chuồng định kỳ.",
+    "Ổ ve - bọ chét trong chất độn."
+  ],
+
+  "risk_factors": [
+    "Dê con, dê suy dinh dưỡng.",
+    "Chuồng ẩm, thiếu nắng.",
+    "Nuôi quá dày."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ngứa mạnh, cọ sát vào tường.",
+    "Rụng lông thành mảng.",
+    "Da dày, đóng vảy ở tai, đầu, mình.",
+    "Vết trầy xước dễ nhiễm trùng.",
+    "Có thể thiếu máu nhẹ nếu nhiễm ve nặng."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ngứa nhẹ, rụng lông ít."
+    ],
+    "moderate": [
+      "Rụng lông nhiều, da dày.",
+      "Ngứa liên tục.",
+      "Giảm ăn, chậm lớn."
+    ],
+    "severe": [
+      "Da nứt, đóng mảng dày.",
+      "Dê gầy, thiếu máu.",
+      "Viêm da thứ phát."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin (tiêm toàn thân)",
+      "Doramectin",
+      "Permethrin (phun/xịt da)"
+    ],
+    "alternative_drugs": [
+      "Amitraz (phun/xịt)",
+      "Fipronil (xịt điểm)"
+    ],
+    "note_drugs": [
+      "Không dùng permethrin cho mèo trong khu vực.",
+      "Không tắm hóa chất khi dê đang yếu lạnh."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [],
+      "vitamin": [
+        "Vitamin B-complex",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Vệ sinh chuồng, thay chất độn.",
+      "Phơi nắng khu vực nằm của dê.",
+      "Tách dê bệnh để giảm lây lan."
+    ],
+    "dose_policy": [
+      "Ivermectin/doramectin dùng theo nhãn.",
+      "Thuốc xịt phải pha đúng hướng dẫn."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ghẻ vừa - dê còn ăn.",
+      "guideline": [
+        "Ivermectin + thuốc xịt.",
+        "Vệ sinh chuồng.",
+        "Bổ sung vitamin."
+      ]
+    },
+    "case_type_2": {
+      "description": "Da nứt dày, dê yếu.",
+      "guideline": [
+        "Thú y kiểm tra.",
+        "Ivermectin + thuốc xịt nhẹ.",
+        "Giữ ấm, vệ sinh da.",
+        "Theo dõi nhiễm trùng da."
+      ]
+    },
+    "note": "Ghẻ ngoài da cần điều trị cả dê + chuồng."
+  },
+
+  "prevention": [
+    "Vệ sinh chuồng định kỳ.",
+    "Tẩy giun ngoài da 2-3 tháng/lần.",
+    "Phơi nắng khu vực nuôi.",
+    "Không để nền ẩm."
+  ],
+
+  "notes": [
+    "Điều trị ghẻ = điều trị cả đàn.",
+    "Ve - bọ chét sống nhiều trong nền chuồng."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

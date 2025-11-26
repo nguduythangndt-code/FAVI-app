@@ -1,0 +1,48 @@
+{
+  "name": "Glucose (bổ năng lượng)",
+
+  "mechanism": [
+    "Cung cấp năng lượng nhanh",
+    "Giúp hạn chế tụt đường huyết",
+    "Hỗ trợ phục hồi sức khi dê mệt hoặc bỏ ăn"
+  ],
+
+  "clinical_uses": [
+    "Dê bỏ ăn, mệt, yếu",
+    "Sau bệnh nặng hoặc stress",
+    "Dê con cần bổ sung năng lượng nhanh"
+  ],
+
+  "advantages": [
+    "Hiệu quả gần như tức thời",
+    "Rất an toàn nếu dùng đúng",
+    "Giúp dê tỉnh táo và ăn trở lại nhanh hơn"
+  ],
+
+  "disadvantages": [
+    "Không giải quyết được mất nước",
+    "Không thay thế điện giải"
+  ],
+
+  "side_effects": [
+    "Có thể hơi đầy bụng nếu uống nhiều",
+    "Hiếm khi gây tiêu chảy nhẹ"
+  ],
+
+  "recommendations": [
+    "Dùng chung với điện giải để cân bằng",
+    "Chia thành nhiều lần nhỏ",
+    "Theo dõi mức độ tỉnh táo và vận động"
+  ],
+
+  "contraindications": [
+    "Dê bị đầy hơi nặng",
+    "Dê đang nôn"
+  ],
+
+  "alternatives": [
+    "Oresol",
+    "Electrolyte tổng hợp",
+    "Vitamin C điện giải"
+  ]
+}

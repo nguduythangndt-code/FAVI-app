@@ -1,0 +1,124 @@
+{
+  "id": "mastitis",
+  "name": "Viêm vú",
+  "species": "cattle",
+  "group": "reproductive",
+
+  "summary": "Viêm vú là bệnh viêm tuyến sữa, thường gặp ở bò sữa. Bầu vú sưng, nóng, đau, sữa vón cục hoặc đổi màu. Nếu không điều trị sớm dễ làm giảm sản lượng sữa lâu dài.",
+
+  "causes": [
+    "Vi khuẩn xâm nhập qua đầu vú",
+    "Vắt sữa không sạch",
+    "Máy vắt sữa hỏng hoặc lực hút không ổn định",
+    "Chuồng ẩm và bẩn"
+  ],
+
+  "risk_factors": [
+    "Bò sữa năng suất cao",
+    "Đầu vú dài hoặc tổn thương do máy vắt",
+    "Chuồng ẩm ướt",
+    "Không sát trùng đầu vú trước và sau khi vắt"
+  ],
+
+  "clinical_signs_detailed": [
+    "Bầu vú sưng, nóng, đau",
+    "Sữa vón cục, vàng hoặc loãng",
+    "Sữa có mùi lạ",
+    "Giảm sữa rõ hoặc mất hẳn một phần vú",
+    "Bò sợ vắt sữa, đá khi chạm vào"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sữa hơi đổi màu",
+      "Vú đau nhẹ"
+    ],
+    "moderate": [
+      "Sữa vón cục",
+      "Vú nóng, sưng rõ",
+      "Giảm sữa nhiều"
+    ],
+    "severe": [
+      "Vú sưng to, rất đau",
+      "Bò sốt và ăn kém",
+      "Nguy cơ mất vú hoặc áp xe"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "ceftiofur"
+    ],
+    "alternative_drugs": [
+      "oxytetracycline"
+    ],
+    "note_drugs": "Kháng sinh toàn thân kết hợp chăm sóc vú. Không vắt kiệt mạnh tay vì gây tổn thương thêm.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Chườm ấm bầu vú nhẹ nhàng",
+      "Giữ vú sạch, sát trùng đầu vú trước và sau khi vắt",
+      "Không để bê bú bên vú bệnh",
+      "Giảm stress và đảm bảo nước uống sạch"
+    ],
+
+    "dose_policy": "Dùng thuốc theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Sưng vú rõ nhưng bò vẫn ăn.",
+      "guideline": [
+        "Kháng sinh sớm",
+        "Chườm ấm vú",
+        "Theo dõi mức sữa mỗi lần vắt"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò sốt, đau nhiều, vú sưng to.",
+      "guideline": [
+        "Thú y kiểm tra trực tiếp nếu có điều kiện",
+        "Chăm sóc vú kỹ hơn",
+        "Theo dõi chặt vì dễ áp xe"
+      ]
+    },
+    "note": "Viêm vú nếu để lâu thường giảm sữa vĩnh viễn."
+  },
+
+  "prevention": [
+    "Sát trùng đầu vú trước và sau khi vắt",
+    "Giữ máy vắt sữa đúng áp lực",
+    "Giữ chuồng khô và sạch",
+    "Theo dõi đầu vú thường xuyên"
+  ],
+
+  "notes": [
+    "Vắt sữa sạch là chìa khóa phòng bệnh.",
+    "Đầu vú tổn thương làm tăng nguy cơ mạnh.",
+    "Bò năng suất cao dễ bị nhất."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

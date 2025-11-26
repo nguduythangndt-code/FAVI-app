@@ -1,0 +1,55 @@
+{
+  "name": "Viêm ruột xuất huyết (Hemorrhagic enteritis)",
+  "summary": "Bệnh virus adenovirus gây tổn thương ruột, xuất huyết và suy miễn dịch, hay gặp ở gà tơ.",
+  "causes": ["Adenovirus đường ruột"],
+  "risk_factors": [
+    "Chuồng nhiều lứa tuổi",
+    "Miễn dịch yếu, đồng nhiễm cầu trùng/vi khuẩn",
+    "Vệ sinh kém"
+  ],
+  "clinical_signs_detailed": [
+    "Ủ rũ, ăn giảm",
+    "Phân nâu đỏ hoặc có máu",
+    "Gà gầy nhanh",
+    "Chết rải rác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Ăn giảm", "Phân loãng"],
+    "moderate": ["Phân sẫm/máu nhẹ", "Gầy"],
+    "severe": ["Xuất huyết ruột mạnh", "Chết nhanh"]
+  },
+  "treatment": {
+    "primary_drugs": ["ORS", "Probiotic"],
+    "alternative_drugs": ["Amoxicillin", "Florfenicol"],
+    "note_drugs": "Không có thuốc diệt adenovirus ruột; điều trị chủ yếu trợ sức, kháng sinh để giữ bội nhiễm.",
+    "symptomatic_treatment": {
+      "electrolyte": { "main": "ORS", "alternative": [] },
+      "digestive_support": { "main": "Probiotic", "alternative": [] },
+      "vitamin": { "main": "Vitamin K", "alternative": ["B-complex"] }
+    },
+    "supportive_care": [
+      "Giữ nền khô, thay chất độn bẩn",
+      "Tách đàn yếu",
+      "Theo dõi mất nước"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Phân máu rõ, gà mất sức"],
+      "guideline": ["ORS mạnh", "Vitamin K hỗ trợ", "Kháng sinh chống bội nhiễm"]
+    },
+    "case_type_2": {
+      "description": ["Lan nhanh trong đàn"],
+      "guideline": ["Điều trị toàn ô", "Sát trùng chuồng triệt để"]
+    },
+    "note": "Bệnh vừa làm tiêu hoá nặng vừa sập miễn dịch, nên dễ kéo theo nhiều bệnh khác."
+  },
+  "prevention_list": [
+    "All-in/all-out",
+    "Vệ sinh và sát trùng nền chuồng",
+    "Kiểm soát cầu trùng nền"
+  ],
+  "notes": ["Khi có máu phân, ưu tiên chống mất nước trước."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

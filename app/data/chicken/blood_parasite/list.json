@@ -1,0 +1,30 @@
+[
+  {
+    "id": "avian-malaria",
+    "name": "Sốt rét gà (avian malaria)",
+    "group": "blood_parasite",
+    "level": 3,
+    "searchText": "Gà sốt, ủ rũ, xù lông, đứng tụm một chỗ Mào, tích nhạt màu, có biểu hiện thiếu máu Giảm ăn, chậm lớn, gầy dần, hoạt động kém Một số con thở nhanh, yếu, dễ mệt khi vận động Đàn đẻ giảm sản lượng, trứng nhỏ, vỏ không đẹp Bệnh thường kéo dài, tiến triển chậm nhưng làm đàn xuống sức rõ rệt Gà hơi ủ rũ, xù lông nhẹ, giảm ăn ít Mào hơi nhạt màu hơn bình thường Khó phát hiện nếu không để ý kỹ thể trạng đàn Gà sốt, ủ rũ, giảm ăn, uống nước nhiều hơn Mào, tích nhạt, gầy nhanh, lông xấu Đàn đẻ giảm sản lượng rõ, trứng nhỏ và không đều Thiếu máu nặng, mào rất nhạt, gà suy, ít di chuyển Thở nhanh, yếu, nằm nhiều, dễ chết nếu kèm bệnh khác Đàn nhìn chung gầy rộc, đi lại chậm chạp"
+  },
+  {
+    "id": "leucocytozoonosis",
+    "name": "Nhiễm Leucocytozoon",
+    "group": "blood_parasite",
+    "level": 3,
+    "searchText": "Gà sốt, ủ rũ, đứng tách đàn, lông xù Mào, tích nhạt màu, dấu hiệu thiếu máu rõ dần theo thời gian Giảm ăn, chậm lớn, gầy nhanh, hoạt động kém Thở nhanh, yếu, một số con có dấu hiệu thần kinh nhẹ nếu thiếu oxy nặng Đàn đẻ giảm sản lượng, trứng nhỏ, vỏ mỏng hơn Có thể chết rải rác nếu không phát hiện và xử lý kịp Một ít con ủ rũ, lông xấu, giảm ăn nhẹ Mào hơi nhạt màu nhưng khó nhận khi nhìn thoáng qua Gà sốt, ủ rũ rõ, giảm ăn, uống nước nhiều Thiếu máu vừa, mào nhạt, gầy đi nhanh Đàn đẻ giảm rõ, phải chú ý mới phát hiện sớm Thiếu máu nặng, mào nhợt, gà suy, nằm nhiều Thở nhanh, yếu, dễ chết nếu kèm thêm bệnh khác Đàn nhìn rất xấu mã, khung xương lộ rõ"
+  },
+  {
+    "id": "haemoproteus-infection",
+    "name": "Nhiễm Haemoproteus",
+    "group": "blood_parasite",
+    "level": 2,
+    "searchText": "Gà ủ rũ, ít vận động, lông xấu Mào, tích nhạt màu, dấu hiệu thiếu máu kéo dài Giảm ăn, chậm lớn, không đạt trọng lượng mong muốn Đàn đẻ giảm sản lượng, trứng nhỏ hơn bình thường Nếu nặng, gà yếu, dễ mắc bệnh hô hấp, tiêu hóa kế phát Gà kém sung, giảm hoạt động, khó phát hiện nếu không cân hoặc theo dõi kỹ Mào hơi nhạt, lông bớt bóng Thiếu máu vừa, mào nhạt, gà gầy, lông xấu Giảm ăn, giảm tăng trọng, đàn đẻ giảm sản lượng rõ Thiếu máu nặng, gà rất gầy, suy, nằm nhiều Dễ mắc nhiều bệnh khác cùng lúc do sức đề kháng giảm Chết rải rác nếu điều kiện nuôi không được cải thiện"
+  },
+  {
+    "id": "mixed-blood-parasites",
+    "name": "Hội chứng ký sinh trùng máu hỗn hợp",
+    "group": "blood_parasite",
+    "level": 3,
+    "searchText": "Đàn gà nhìn chung xanh xao, mào nhạt, gầy, tăng trọng kém Lông xấu, da khô, hoạt động kém, ít chạy nhảy Sản lượng trứng giảm kéo dài, khó phục hồi về mức cũ Dễ bùng các bệnh hô hấp, tiêu hóa, ký sinh trùng ngoài da do sức đề kháng thấp Chết rải rác trong thời gian dài, khó xác định một bệnh cấp rõ ràng Đàn kém sung, tăng trọng chậm, sản lượng trứng giảm nhẹ Khó nhận nếu không so với đàn khỏe khác làm chuẩn Thiếu máu vừa, mào nhạt, gà gầy, lông xấu Đàn đẻ giảm rõ, trứng nhỏ, vỏ không đẹp Bắt đầu xuất hiện các bệnh cơ hội khác trong đàn Đàn rất gầy, nhiều con suy, nằm nhiều, chết rải rác Khó hồi phục nhanh dù đã cải thiện một phần khẩu phần Tổng thể đàn nhìn xấu, khó đạt hiệu quả kinh tế"
+  }
+]

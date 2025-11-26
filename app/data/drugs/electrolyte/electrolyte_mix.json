@@ -1,0 +1,48 @@
+{
+  "name": "Electrolyte tổng hợp (Na/K/Cl)",
+
+  "mechanism": [
+    "Bù đồng thời nhiều loại ion thiết yếu",
+    "Ổn định pH máu và áp lực thẩm thấu",
+    "Hỗ trợ phục hồi nhanh khi mất nước vừa đến nặng"
+  ],
+
+  "clinical_uses": [
+    "Mất nước do tiêu chảy kéo dài",
+    "Sau sốt cao, kiệt sức",
+    "Dê con mất nước nhanh"
+  ],
+
+  "advantages": [
+    "Hiệu quả hơn oresol trong ca mất nước nặng",
+    "Bù được nhiều khoáng chất cùng lúc",
+    "Tác dụng nhanh"
+  ],
+
+  "disadvantages": [
+    "Có vị mặn - một số dê khó chịu uống",
+    "Không thay thế xử lý nguyên nhân bệnh"
+  ],
+
+  "side_effects": [
+    "Đầy bụng nhẹ lúc mới dùng",
+    "Hiếm: kém ăn tạm thời"
+  ],
+
+  "recommendations": [
+    "Pha đúng theo hướng dẫn trên nhãn",
+    "Cho uống từ từ, chia từng đợt",
+    "Kết hợp điều trị nguyên nhân tiêu chảy"
+  ],
+
+  "contraindications": [
+    "Dê đang nôn",
+    "Dê bị tắc ruột nghi ngờ"
+  ],
+
+  "alternatives": [
+    "Oresol",
+    "Vitamin C điện giải",
+    "B-complex + điện giải"
+  ]
+}

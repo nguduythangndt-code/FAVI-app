@@ -1,0 +1,41 @@
+{
+  "id": "lincomycin",
+  "name": "Lincomycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm lincosamide. Tác động tốt trên vi khuẩn Gram dương và Mycoplasma, hỗ trợ trong các bệnh hô hấp và nhiễm trùng mô mềm.",
+  "clinical_uses": [
+    "Viêm phổi nhẹ - trung bình.",
+    "Viêm mô mềm, áp xe nhỏ.",
+    "Hỗ trợ trong các ca viêm khớp do Mycoplasma."
+  ],
+  "pros": [
+    "Phù hợp thú non.",
+    "Hiệu quả tốt trong một số ca hô hấp kéo dài.",
+    "Ít gây tác dụng phụ mạnh."
+  ],
+  "cons": [
+    "Không phải lựa chọn cho Gram âm mạnh.",
+    "Không phù hợp các ca nhiễm trùng huyết nặng.",
+    "Hiệu quả phụ thuộc thời gian điều trị."
+  ],
+  "mild_side_effects": [
+    "Hơi mệt trong 1 ngày đầu.",
+    "Tiêu chảy nhẹ ở một vài cá thể.",
+    "Đau nhẹ khi tiêm."
+  ],
+  "usage_recommendations": [
+    "Nên dùng khi triệu chứng xuất hiện sớm.",
+    "Theo dõi mức độ ho, thở nhanh hoặc dịch mũi.",
+    "Dùng theo hướng dẫn ghi trên nhãn hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Các ca nặng cần thuốc phổ rộng hơn.",
+    "Thú suy gan hoặc mất nước nhiều.",
+    "Không dùng để phòng bệnh định kỳ."
+  ],
+  "alternative_drugs": [
+    "Tylosin.",
+    "Florfenicol.",
+    "Oxytetracycline."
+  ]
+}

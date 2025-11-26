@@ -1,0 +1,105 @@
+{
+  "id": "lice-infestation",
+  "name": "Chấy, rận lông",
+  "species": "chicken",
+  "group": "parasite",
+  "summary": "Ký sinh ngoài da sống trên lông và da gà, gây ngứa, rụng lông, gà khó chịu, giảm ăn và chậm lớn nếu nhiều.",
+  "causes": [
+    "Gà tiếp xúc trực tiếp với gà mang chấy rận",
+    "Máng đậu, ổ đẻ, chất độn chuồng, dụng cụ có chấy rận trú ngụ",
+    "Không vệ sinh chuồng trại và ổ đẻ thường xuyên"
+  ],
+  "risk_factors": [
+    "Chuồng bẩn, ổ đẻ không thay lót, khe kẽ gỗ nhiều",
+    "Mật độ nuôi dày, nhiều con nằm chen chúc",
+    "Nuôi chung gà mới nhập mà không cách ly",
+    "Không vệ sinh, sát trùng định kỳ"
+  ],
+  "clinical_signs_detailed": [
+    "Gà hay rỉa lông, gãi, đứng giũ lông liên tục",
+    "Lông xù, rối, rụng ở cổ, ngực, quanh hậu môn",
+    "Trên da và gốc lông có thể thấy côn trùng nhỏ, di chuyển nhanh",
+    "Gà ăn kém, kém linh hoạt, giảm tăng trưởng",
+    "Ở gà mái có thể giảm đẻ nếu ký sinh nhiều"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà gãi lông nhiều hơn bình thường",
+      "Lông hơi xấu nhưng khó nhận nếu không kiểm tra kỹ"
+    ],
+    "moderate": [
+      "Lông xù, rối, có vùng lông thưa",
+      "Thấy chấy rận khi vạch lông ở cổ, nách cánh, quanh hậu môn",
+      "Gà ăn kém, khó chịu, giảm tăng trưởng hoặc giảm đẻ"
+    ],
+    "severe": [
+      "Lông rụng nhiều, da dày, thô, gà rất hay gãi",
+      "Gà gầy, yếu, stress kéo dài",
+      "Nguy cơ cao cho các bệnh khác do sức đề kháng giảm"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "ectoparasiticide_spray",
+      "pyrethroid_spray"
+    ],
+    "alternative_drugs": [
+      "ivermectin_external",
+      "sulfur_powder"
+    ],
+    "note_drugs": "Dùng thuốc xịt hoặc bột diệt ký sinh ngoài da theo hướng dẫn, tránh xịt trực tiếp vào mắt, miệng và không lạm dụng quá dày. Có thể cần lặp lại sau một khoảng thời gian để diệt lứa mới nở.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp giúp đàn hồi sức sau khi giảm ký sinh trùng",
+        "alternative": "vitamin nhóm B để kích thích ăn nếu đàn suy"
+      },
+      "digestive_support": {
+        "main": "",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Thay toàn bộ chất độn chuồng, lót ổ đẻ, đốt hoặc xử lý đúng cách",
+      "Sát trùng ổ đẻ, máng đậu, khe kẽ gỗ, vách chuồng",
+      "Tránh để gà tiếp xúc với ổ cũ bị nhiễm mà chưa xử lý",
+      "Giảm mật độ nuôi để gà ít chen chúc, bớt lây cho nhau",
+      "Theo dõi và xử lý lặp lại nếu thấy chấy rận xuất hiện trở lại"
+    ],
+    "dose_policy": "Tuân thủ đúng hướng dẫn liều và cách dùng trên nhãn thuốc. Không dùng quá liều, không bôi hoặc xịt thuốc không phù hợp lên da gà."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà đẻ nhiều con bị chấy rận, giảm đẻ, lông xấu.",
+      "guideline": "Xử lý ký sinh trùng ngoài da cho cả đàn bằng thuốc phù hợp. Thay toàn bộ lót ổ đẻ và vệ sinh sạch sẽ khu vực chuồng. Bổ sung dinh dưỡng và vitamin sau xử lý để đàn nhanh phục hồi sản lượng trứng."
+    },
+    "case_type_2": {
+      "description": "Đàn thả vườn, gà nhiều tuổi, nhiễm chấy rận nặng, gà gầy.",
+      "guideline": "Kết hợp xử lý ký sinh trùng trên thân gà và vệ sinh nơi ngủ, ổ đậu. Giảm mật độ, tăng điểm đậu sạch, khô. Tách những con quá yếu để chăm riêng nếu cần."
+    },
+    "note": "Chấy rận lây lan nhanh trong đàn nếu môi trường và ổ đẻ không được xử lý đồng thời."
+  },
+  "prevention": [
+    "Vệ sinh và sát trùng ổ đẻ, máng đậu, khe kẽ định kỳ",
+    "Thay chất độn chuồng và lót ổ đẻ thường xuyên",
+    "Cách ly gà mới nhập một thời gian trước khi ghép đàn",
+    "Giữ chuồng khô, thoáng, hạn chế nơi trú ngụ của ký sinh trùng",
+    "Kiểm tra lông gà định kỳ, nhất là đàn đẻ và đàn giữ lâu"
+  ],
+  "notes": [
+    "Khi thấy gà gãi nhiều, nên vạch lông ở các vùng kín để kiểm tra chấy rận.",
+    "Xử lý đồng bộ cả gà và môi trường giúp giảm nguy cơ tái phát."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

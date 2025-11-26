@@ -1,0 +1,40 @@
+{
+  "name": "Ketoprofen",
+  "mechanism": [
+    "NSAID ức chế tổng hợp prostaglandin",
+    "Giảm viêm, giảm đau, hạ sốt mức độ vừa đến nặng"
+  ],
+  "clinical_uses": [
+    "Đau sau chấn thương, sưng khớp, viêm gân",
+    "Hỗ trợ giảm đau, hạ sốt trong viêm phổi, viêm tử cung, viêm vú",
+    "Các ca cần giảm đau tạm thời trong lúc xử lý nguyên nhân chính"
+  ],
+  "advantages": [
+    "Khởi phát tác dụng tương đối nhanh",
+    "Phổ ứng dụng rộng trong điều trị hỗ trợ nhiều bệnh khác nhau"
+  ],
+  "disadvantages": [
+    "Nguy cơ kích ứng tiêu hoá nếu dùng sai hoặc kéo dài",
+    "Có thể ảnh hưởng chức năng gan, thận trên con yếu sẵn"
+  ],
+  "side_effects": [
+    "Giảm ăn, mệt nhẹ",
+    "Có thể gây phân đen, đau bụng nếu kích ứng đường tiêu hoá",
+    "Hiếm gặp: rối loạn đông máu nhẹ"
+  ],
+  "recommendations": [
+    "Dùng trong thời gian ngắn, theo đúng hướng dẫn trên nhãn hoặc thú y",
+    "Không tự ý kéo dài số ngày dùng nếu triệu chứng không cải thiện",
+    "Kết hợp xử lý nguyên nhân chính (nhiễm trùng, ký sinh trùng, chăm sóc, nuôi dưỡng)"
+  ],
+  "contraindications": [
+    "Không dùng cho dê đang loét dạ dày - ruột hoặc nghi ngờ xuất huyết",
+    "Tránh dùng trên dê suy gan, suy thận nặng, mất nước chưa bù",
+    "Không phối hợp với nhiều NSAID khác cùng lúc"
+  ],
+  "alternatives": [
+    "Flunixin meglumine - đau, viêm, sốt nặng hơn",
+    "Meloxicam - êm hơn, phù hợp dùng thêm vài ngày nếu cần",
+    "Paracetamol - hỗ trợ hạ sốt nhẹ đến vừa"
+  ]
+}

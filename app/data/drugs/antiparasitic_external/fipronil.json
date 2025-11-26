@@ -1,0 +1,43 @@
+{
+  "name": "Fipronil",
+  "mechanism": [
+    "Tác động lên thụ thể GABA của ký sinh trùng ngoài, gây rối loạn dẫn truyền thần kinh",
+    "Dẫn đến tê liệt và chết ve, bọ chét, một số loài côn trùng khác"
+  ],
+  "clinical_uses": [
+    "Điều trị và phòng ve, bọ chét, một số côn trùng ngoài da",
+    "Thường gặp ở dạng xịt hoặc nhỏ gáy cho thú cưng, một số chế phẩm có thể dùng cho dê theo nhãn",
+    "Hữu ích trong đàn có nhiều chó mèo mang ve/bọ chét sống chung với dê"
+  ],
+  "advantages": [
+    "Hiệu lực tốt trên ve và bọ chét",
+    "Tồn lưu khá lâu tại vùng da đã xử lý (tuỳ dạng bào chế)",
+    "Không thuộc nhóm pyrethroid, giúp luân chuyển nhóm thuốc"
+  ],
+  "disadvantages": [
+    "Không phải mọi chế phẩm fipronil đều đăng ký cho dê, cần đọc kỹ nhãn",
+    "Có thể độc với cá và một số động vật thủy sinh",
+    "Nguy cơ kích ứng da hoặc liếm phải thuốc nếu dùng sai cách"
+  ],
+  "side_effects": [
+    "Kích ứng da nhẹ, đỏ, ngứa vùng nhỏ gáy",
+    "Liếm nhiều có thể gây chảy dãi, nôn, mệt",
+    "Hiếm gặp: phản ứng dị ứng mạnh cần can thiệp thú y"
+  ],
+  "recommendations": [
+    "Chỉ dùng các chế phẩm có ghi rõ đối tượng hoặc theo chỉ định thú y",
+    "Nhỏ đúng vị trí khó liếm, thường là vùng gáy giữa hai vai (tuỳ hướng dẫn nhãn)",
+    "Tránh tắm rửa ngay sau khi dùng nếu chế phẩm yêu cầu khô",
+    "Không dùng chung với các thuốc ngoài da khác lên cùng vị trí khi chưa được tư vấn"
+  ],
+  "contraindications": [
+    "Không dùng chế phẩm dành riêng cho chó/mèo lên dê nếu nhãn không cho phép",
+    "Tránh để thuốc chảy ra suối, ao hồ nuôi cá",
+    "Thận trọng với dê con nhỏ, dê suy kiệt, phải hỏi ý kiến thú y"
+  ],
+  "alternatives": [
+    "Pyrethroid (Permethrin, Cypermethrin, Deltamethrin) - dùng phun/tắm",
+    "Fluralaner - một số dạng đặc biệt có tác dụng kéo dài trên ve/bọ chét",
+    "Amitraz - khi chủ yếu là ghẻ, ve nặng cần tắm nhúng"
+  ]
+}

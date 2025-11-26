@@ -1,0 +1,41 @@
+{
+  "id": "spiramycin_tylo",
+  "name": "Spiramycin + Tylosin",
+  "group": "antibiotic",
+  "mechanism": "Sự kết hợp giữa hai macrolide giúp hỗ trợ kiểm soát vi khuẩn đường hô hấp tốt hơn, đặc biệt trong các ca ho - viêm khí quản lan rộng.",
+  "clinical_uses": [
+    "Ho, khò khè, viêm khí quản trong đàn.",
+    "Hỗ trợ Mycoplasma.",
+    "Giai đoạn đầu của bệnh hô hấp."
+  ],
+  "pros": [
+    "Phù hợp điều trị theo đàn bằng nước/ thức ăn.",
+    "Hiệu quả tốt trong ca hô hấp nhẹ - trung bình.",
+    "An toàn với đa số vật nuôi."
+  ],
+  "cons": [
+    "Không phù hợp cho ca viêm phổi nặng.",
+    "Cần theo dõi mức độ ăn uống của đàn.",
+    "Không dùng kéo dài liên tục."
+  ],
+  "mild_side_effects": [
+    "Ăn giảm nhẹ.",
+    "Phân mềm nhẹ.",
+    "Mệt tạm thời trong ngày đầu."
+  ],
+  "usage_recommendations": [
+    "Thích hợp cho những ca ho lan trong đàn.",
+    "Kết hợp cải thiện chuồng trại - thông thoáng - giảm ẩm.",
+    "Dùng theo nhãn hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Ca nặng cần thuốc tiêm mạnh.",
+    "Thú suy gan cần đánh giá kỹ.",
+    "Không dùng để phòng bệnh dài ngày."
+  ],
+  "alternative_drugs": [
+    "Tylosin.",
+    "Tulathromycin.",
+    "Florfenicol."
+  ]
+}

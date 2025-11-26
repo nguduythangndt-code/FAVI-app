@@ -1,0 +1,132 @@
+{
+  "id": "chronic-pneumonia",
+  "name": "Viêm phổi mạn tính ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm phổi mạn tính là hậu quả của các đợt viêm phổi cấp - bán cấp không điều trị dứt điểm, hoặc môi trường - dinh dưỡng kém kéo dài. Dê ho dai dẳng nhiều tuần - nhiều tháng, gầy dần, năng suất giảm, rất tốn kém nếu cố giữ bằng mọi giá.",
+
+  "causes": [
+    "Viêm phổi do Pasteurella, Mycoplasma… điều trị không đủ liều, ngắt thuốc sớm.",
+    "Chuồng ẩm, khí độc, thông thoáng kém kéo dài.",
+    "Dê suy dinh dưỡng, thiếu khoáng - vitamin.",
+    "Nhiễm lặp đi lặp lại nhiều đợt hô hấp."
+  ],
+
+  "risk_factors": [
+    "Đàn nuôi nhốt lâu, ít ánh nắng.",
+    "Không có chương trình phòng bệnh rõ ràng.",
+    "Thích “cầm chừng” bằng liều thuốc thấp, dùng ngắt quãng.",
+    "Mật độ cao, ít tách dê yếu ra riêng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho kéo dài nhiều tuần, ho khan hoặc có đờm, hay tái đi tái lại.",
+    "Thở nhanh hơn dê khoẻ, đặc biệt khi vận động.",
+    "Gầy dần, xương sườn lộ, lông xù, xấu mã.",
+    "Ăn không kém quá sâu nhưng tăng trọng rất kém.",
+    "Một số con có giai đoạn sốt nhẹ - vừa tái phát từng đợt."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho lặt vặt, nhất là sáng sớm.",
+      "Ăn vẫn tương đối tốt.",
+      "Thể trạng chỉ hơi kém so với đàn."
+    ],
+    "moderate": [
+      "Ho đều mỗi ngày, gầy rõ.",
+      "Thở nhanh khi vận động nhẹ.",
+      "Lông xù, xương nổi, kém lớn."
+    ],
+    "severe": [
+      "Ho nhiều, thở khó ngay cả khi nghỉ.",
+      "Rất gầy, suy kiệt.",
+      "Dễ ghép các bệnh khác: ký sinh trùng, tiêu hoá, v.v."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Florfenicol (liệu trình đủ dài theo nhãn/thú y).",
+      "Tulathromycin (được dùng trong một số phác đồ mạn theo hướng dẫn thú y).",
+      "Enrofloxacin (chỉ dùng khi lợi ích lớn hơn rủi ro, theo thú y)."
+    ],
+    "alternative_drugs": [
+      "Doxycycline kết hợp với cải thiện môi trường, dinh dưỡng.",
+      "Tylosin (trường hợp nghi Mycoplasma mạn)."
+    ],
+    "note_drugs": [
+      "Viêm phổi mạn tính khó có chuyện “dứt điểm 100%” với những con đã tổn thương phổi nặng.",
+      "Không nên quay vòng quá nhiều kháng sinh mạnh chỉ để giữ những con đã suy quá nặng; đôi khi loại thải kinh tế hơn."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam",
+        "Flunixin"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "Điện giải khi dê mệt, ăn kém."
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex",
+        "Vitamin tổng hợp",
+        "Khoáng vi lượng (Zn, Se, Cu…) nếu có sản phẩm phù hợp cho dê."
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho dê gầy, ăn kém.",
+        "Chế phẩm hỗ trợ gan - thận khi dùng thuốc dài ngày."
+      ]
+    },
+    "supportive_care": [
+      "CẢI TẠO CHUỒNG: thoáng khí, giảm ẩm, giảm khí độc.",
+      "Giảm mật độ, tách dê mạn sang ô riêng để chăm theo kiểu “phục hồi”.",
+      "Khẩu phần giàu dinh dưỡng nhưng dễ tiêu: cỏ khô tốt + tinh vừa phải + khoáng - vitamin.",
+      "Chiến lược đàn: chọn những con còn tiềm năng để điều trị tích cực; những con quá suy, phổi hư nặng thì cân nhắc loại thải."
+    ],
+    "dose_policy": [
+      "Nếu đã quyết định điều trị, phải dùng đủ liều - đủ ngày theo nhãn hoặc thú y, tránh kiểu “uống vài bữa thấy đỡ rồi thôi”.",
+      "Không tự ý pha phối nhiều kháng sinh mạnh cùng lúc."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Viêm phổi mạn mức trung bình: ho đều, gầy nhưng vẫn ăn, vẫn đi lại.",
+      "guideline": [
+        "Chọn một phác đồ kháng sinh hợp lý (ví dụ: florfenicol hoặc doxycycline/tulathromycin) theo thú y.",
+        "Hỗ trợ lâu dài bằng vitamin, khoáng, men tiêu hoá.",
+        "Cải thiện môi trường, tách chuồng, theo dõi đáp ứng sau 7-10 ngày.",
+        "Đánh giá lại sau liệu trình: nếu cải thiện tốt có thể giữ lại, nếu kém xem xét loại thải."
+      ]
+    },
+    "case_type_2": {
+      "description": "Viêm phổi mạn nặng: rất gầy, thở khó, ho nhiều, thể trạng tụt sâu.",
+      "guideline": [
+        "Trao đổi với thú y và cân nhắc kỹ về hiệu quả kinh tế khi điều trị tiếp.",
+        "Nếu vẫn quyết điều trị: dùng phác đồ kháng sinh mạnh, hỗ trợ đa hướng nhưng tiên lượng dè dặt.",
+        "Trong nhiều trường hợp, lựa chọn loại thải để bảo vệ mặt bằng sức khoẻ chung của đàn là hợp lý hơn."
+      ]
+    },
+    "note": "Viêm phổi mạn tính là câu chuyện về QUẢN LÝ đàn và CHIẾN LƯỢC KINH TẾ, không chỉ là chuyện chọn kháng sinh mạnh hay yếu."
+  },
+
+  "prevention": [
+    "Xử lý triệt để các ca viêm phổi cấp - bán cấp ngay từ đầu, không để “lửng lơ”.",
+    "Cải thiện hệ thống chuồng: ánh sáng, thông gió, nền khô, giảm khí độc.",
+    "Lập lịch phòng bệnh, tiêm phòng, tẩy ký sinh trùng, bổ sung khoáng - vitamin định kỳ.",
+    "Chọn lọc giống: loại dần những con quá mẫn cảm với bệnh hô hấp qua nhiều lứa vụ."
+  ],
+
+  "notes": [
+    "Đàn nào càng nhiều con viêm phổi mạn → càng chứng tỏ hệ thống quản lý - chuồng - khẩu phần đang có vấn đề gốc.",
+    "Không có phác đồ “phép màu” cho phổi đã hỏng nặng; cái cần sửa là cách chăn nuôi toàn hệ thống."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
+}

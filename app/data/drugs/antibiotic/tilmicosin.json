@@ -1,0 +1,42 @@
+{
+  "id": "tilmicosin",
+  "name": "Tilmicosin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh macrolide, tích lũy nhiều ở mô phổi, ức chế tổng hợp protein của vi khuẩn, đặc biệt hữu ích với Mycoplasma và một số vi khuẩn gây bệnh hô hấp ở gia súc.",
+  "clinical_uses": [
+    "Viêm phổi ở bò, dê, cừu, heo do Mycoplasma và vi khuẩn hô hấp thường gặp.",
+    "Các hội chứng hô hấp ở trại nuôi tập trung, nơi nhiều con cùng mắc.",
+    "Ca bệnh hô hấp trung bình - nặng, cần thuốc tập trung mạnh vào mô phổi."
+  ],
+  "pros": [
+    "Ái lực rất cao với mô phổi, phù hợp bệnh hô hấp.",
+    "Thời gian tác dụng kéo dài, giảm số lần tiêm.",
+    "Hiệu quả tốt trong các ổ dịch hô hấp tại đàn nuôi."
+  ],
+  "cons": [
+    "Tiêm sai đường hoặc dùng không đúng có thể ảnh hưởng tim mạch.",
+    "Không dùng cho người, nguy hiểm khi tự tiêm nhầm.",
+    "Không phải lựa chọn cho mọi loài, cần tuân thủ khuyến cáo sử dụng."
+  ],
+  "mild_side_effects": [
+    "Mệt, giảm ăn trong một vài ngày đầu.",
+    "Tiêm bắp có thể gây đau, sưng chỗ tiêm.",
+    "Một số con có thể tiêu phân hơi lỏng."
+  ],
+  "usage_recommendations": [
+    "Chỉ tiêm đúng đường và vị trí được ghi trên nhãn sản phẩm.",
+    "Thực hiện bởi người có kinh nghiệm, hạn chế thao tác tuỳ tiện.",
+    "Theo dõi nhịp thở, nhịp tim, thái độ con vật sau tiêm.",
+    "Luôn tuân thủ liều trên nhãn hoặc hướng dẫn thú y, không tự ý tăng liều."
+  ],
+  "when_not_to_use": [
+    "Không tiêm tĩnh mạch, không dùng cho người.",
+    "Cẩn trọng với con có vấn đề tim mạch hoặc quá suy kiệt.",
+    "Không dùng cho thú non rất nhỏ nếu không thật sự cần thiết."
+  ],
+  "alternative_drugs": [
+    "Tylosin cho ca nhẹ - trung bình.",
+    "Tulathromycin trong một số phác đồ hô hấp ở gia súc.",
+    "Florfenicol cho viêm phổi nặng, tiến triển nhanh."
+  ]
+}

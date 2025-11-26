@@ -1,0 +1,107 @@
+{
+  "id": "salmonellosis-pullorum",
+  "name": "Bạch lỵ gà con (Salmonella)",
+  "species": "chicken",
+  "group": "digestive",
+  "summary": "Bệnh do vi khuẩn Salmonella, thường gặp ở gà con, gây tiêu chảy trắng, chết cao nếu nhiễm nặng hoặc mang từ trứng.",
+  "causes": [
+    "Nhiễm Salmonella pullorum và các chủng Salmonella khác",
+    "Truyền dọc từ gà mẹ nhiễm sang trứng và gà con",
+    "Lây ngang qua phân, nền chuồng, thức ăn, nước uống nhiễm bẩn"
+  ],
+  "risk_factors": [
+    "Nguồn giống không được kiểm soát Salmonella",
+    "Máy ấp, khay ấp, khu nuôi úm không vệ sinh và sát trùng đúng cách",
+    "Nền ẩm, phân bết, máng ăn uống bẩn, nước thay không thường xuyên",
+    "Đàn con stress do lạnh, nóng, mật độ dày"
+  ],
+  "clinical_signs_detailed": [
+    "Gà con ủ rũ, tụm lại, run, kém ăn, kêu nhiều",
+    "Tiêu chảy phân trắng, vàng nhạt, dính quanh hậu môn, bết lông",
+    "bụng trướng, bẩn, hôi nhẹ",
+    "Gà còi, nhẹ cân, xương to, thịt ít",
+    "Tỷ lệ chết cao trong những ngày đầu nếu nhiễm nặng từ trứng",
+    "Gà sống sót có thể trở thành nguồn mang trùng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Một số gà con tiêu chảy nhẹ, phân nhạt màu hơn bình thường",
+      "Hậu môn hơi bẩn, nhưng đàn vẫn ăn uống tương đối",
+      "Khó nhận ra nếu không để ý kỹ từng con"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, phân trắng, vàng nhạt dính hậu môn",
+      "Gà con ủ rũ, tụm lại, kém ăn, kêu nhiều",
+      "Chết lác đác, đàn phát triển không đồng đều"
+    ],
+    "severe": [
+      "Nhiều gà con tiêu chảy trắng, bết hậu môn, phải vệ sinh tay",
+      "Bụng trướng, gầy, yếu, nằm nhiều",
+      "Tỷ lệ chết cao trong thời gian ngắn nếu không xử lý kịp"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "sulfonamide_systemic"
+    ],
+    "note_drugs": "Điều trị chỉ giúp giảm triệu chứng và tỉ lệ chết, không chắc chắn loại bỏ hoàn toàn Salmonella khỏi đàn. Cần tính đến việc loại thải đàn giống bị nhiễm nặng để tránh mang trùng lâu dài.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước cho đàn con bị tiêu chảy",
+        "alternative": "điện giải có thêm glucose giúp gà con đỡ mất sức"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp cho gà con",
+        "alternative": "vitamin nhóm B giúp kích thích ăn trở lại"
+      },
+      "digestive_support": {
+        "main": "men vi sinh chuyên cho gà con khi giai đoạn cấp giảm",
+        "alternative": "thức ăn dễ tiêu, chất lượng tốt, không mốc"
+      }
+    },
+    "supportive_care": [
+      "Vệ sinh hậu môn cho gà con bị bết phân để không tắc lỗ hậu môn",
+      "Giữ nền úm khô, ấm, thay chất độn bẩn thường xuyên",
+      "Rửa máng uống, máng ăn hằng ngày, đảm bảo nước sạch",
+      "Loại bỏ những con quá yếu, khó phục hồi, tránh kéo đàn đi xuống",
+      "Theo dõi sát số con bệnh và chết trong những ngày đầu úm"
+    ],
+    "dose_policy": "Tuân thủ đúng liều, không tự ý tăng liều kháng sinh ở gà con vì dễ gây hại gan thận và rối loạn ruột."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Lứa gà con mới nhập, tiêu chảy trắng và chết nhiều trong tuần đầu.",
+      "guideline": "Áp dụng phác đồ kháng sinh, điện giải và vitamin cho cả đàn con. Xem lại nguồn giống và điều kiện ấp nở. Nếu tỉ lệ chết quá cao và nghi ngờ mang trùng nặng, cần trao đổi với thú y về khả năng loại bỏ toàn lứa và làm lại từ nguồn giống an toàn hơn."
+    },
+    "case_type_2": {
+      "description": "Đàn giống nhỏ tự nhân, bạch lỵ kéo dài, nhiều gà còi.",
+      "guideline": "Điều trị giảm triệu chứng cho gà con, đồng thời xem xét loại thải gà mẹ nghi mang trùng. Kiểm tra quy trình ấp, sát trùng máy ấp, khay ấp và nền úm. Xây dựng lại chương trình vệ sinh và chọn giống để giảm dần áp lực Salmonella."
+    },
+    "note": "Salmonella là bệnh có ý nghĩa về an toàn thực phẩm. Quản lý nguồn giống và vệ sinh là yếu tố then chốt, không chỉ dựa vào thuốc."
+  },
+  "prevention": [
+    "Mua giống từ cơ sở có kiểm soát Salmonella",
+    "Vệ sinh và sát trùng máy ấp, khay ấp, phòng ấp và khu úm thường xuyên",
+    "Giữ nền úm khô, ấm, thay chất độn bẩn kịp thời",
+    "Đảm bảo nước uống sạch, thay mỗi ngày, không dùng nước ao hồ bẩn",
+    "Không để vật nuôi khác, chuột, chim hoang vào khu ấp và úm"
+  ],
+  "notes": [
+    "Một số con sống sót sau bạch lỵ có thể trở thành nguồn mang trùng, làm bệnh tái lại ở các lứa sau.",
+    "Cần nhìn bạch lỵ gà con như một vấn đề vừa về sức khoẻ đàn, vừa về an toàn thực phẩm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

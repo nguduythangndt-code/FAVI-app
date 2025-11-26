@@ -1,0 +1,104 @@
+{
+  "id": "mixed-blood-parasites",
+  "name": "Hội chứng ký sinh trùng máu hỗn hợp",
+  "species": "chicken",
+  "group": "blood_parasite",
+  "summary": "Tình trạng đàn gà bị nhiều loại ký sinh trùng máu hoặc khó phân biệt loại, gây thiếu máu kéo dài, gầy và dễ bùng các bệnh khác.",
+  "causes": [
+    "Nhiễm đồng thời hoặc luân phiên Plasmodium, Leucocytozoon, Haemoproteus và các tác nhân khác",
+    "Áp lực côn trùng hút máu cao trong thời gian dài",
+    "Đàn suy dinh dưỡng, thiếu vitamin, dễ nhiễm và bệnh kéo dài"
+  ],
+  "risk_factors": [
+    "Khu vực nuôi nhiều côn trùng hút máu quanh năm",
+    "Chuồng gần ao, hồ, rừng, bụi rậm, nơi có nhiều chim hoang",
+    "Không có biện pháp kiểm soát côn trùng và quản lý đàn chặt chẽ",
+    "Không ghi chép bệnh sử, việc điều trị rời rạc, không rõ phác đồ"
+  ],
+  "clinical_signs_detailed": [
+    "Đàn gà nhìn chung xanh xao, mào nhạt, gầy, tăng trọng kém",
+    "Lông xấu, da khô, hoạt động kém, ít chạy nhảy",
+    "Sản lượng trứng giảm kéo dài, khó phục hồi về mức cũ",
+    "Dễ bùng các bệnh hô hấp, tiêu hóa, ký sinh trùng ngoài da do sức đề kháng thấp",
+    "Chết rải rác trong thời gian dài, khó xác định một bệnh cấp rõ ràng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đàn kém sung, tăng trọng chậm, sản lượng trứng giảm nhẹ",
+      "Khó nhận nếu không so với đàn khỏe khác làm chuẩn"
+    ],
+    "moderate": [
+      "Thiếu máu vừa, mào nhạt, gà gầy, lông xấu",
+      "Đàn đẻ giảm rõ, trứng nhỏ, vỏ không đẹp",
+      "Bắt đầu xuất hiện các bệnh cơ hội khác trong đàn"
+    ],
+    "severe": [
+      "Đàn rất gầy, nhiều con suy, nằm nhiều, chết rải rác",
+      "Khó hồi phục nhanh dù đã cải thiện một phần khẩu phần",
+      "Tổng thể đàn nhìn xấu, khó đạt hiệu quả kinh tế"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "phac_do_ky_sinh_trung_mau_tong_quat_theo_tu_van_thu_y"
+    ],
+    "alternative_drugs": [
+      "doxycycline",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Trong thực tế, hội chứng ký sinh trùng máu hỗn hợp hiếm khi xác định chính xác từng loại tại trại nhỏ. Cần làm việc với thú y để chọn phác đồ hợp lý, không lạm dụng nhiều loại thuốc chồng lên nhau.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải cho cả đàn để giảm mệt và bù nước",
+        "alternative": "điện giải kèm glucose trong một số ngày đầu điều trị"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp và khoáng, ưu tiên các chất hỗ trợ tạo máu",
+        "alternative": "các chế phẩm tăng sức đề kháng dùng theo đợt"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để đàn ăn tốt hơn, đặc biệt sau khi dùng thuốc",
+        "alternative": "thức ăn dễ tiêu, ổn định, tránh thay đổi khẩu phần đột ngột"
+      }
+    },
+    "supportive_care": [
+      "Nhìn lại toàn bộ hệ thống: mật độ, thông gió, nền chuồng, nguồn nước, thức ăn",
+      "Thực hiện chương trình giảm côn trùng hút máu một cách liên tục, không làm nửa vời",
+      "Điều chỉnh khẩu phần tăng chất lượng, tránh thức ăn kém hoặc mốc",
+      "Theo dõi thể trạng, cân mẫu để đánh giá đàn có hồi lại hay không",
+      "Nếu cần, có thể chia đàn ra khu nuôi riêng cho nhóm gà suy nặng để chăm riêng"
+    ],
+    "dose_policy": "Với trường hợp phức tạp, càng cần tuân thủ đúng liều và hướng dẫn của thú y, tránh tự ý tăng liều hoặc phối hợp nhiều thuốc mạnh không có cơ sở."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thịt hoặc đàn đẻ trung bình, đã điều trị nhiều lần nhưng vẫn gầy, xanh xao và chết rải rác.",
+      "guideline": "Dừng các thử nghiệm thuốc rời rạc, làm việc với thú y để xây dựng lại phác đồ rõ ràng. Kết hợp chương trình giảm côn trùng hút máu, cải thiện môi trường và khẩu phần. Chấp nhận có thể phải kéo dài thời gian nuôi hoặc giảm bớt mục tiêu năng suất."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc đàn giữ lâu, suy toàn đàn do ký sinh trùng máu kéo dài.",
+      "guideline": "Đánh giá lại có nên giữ tiếp đàn này hay thay đàn mới. Nếu giữ, cần phác đồ điều trị và cải thiện môi trường rất chặt chẽ, đồng thời loại thải dần những con suy nặng. Xây dựng lại chương trình phòng ngay từ đàn sau để tránh lặp lại kịch bản cũ."
+    },
+    "note": "Khi đã ở mức hội chứng hỗn hợp kéo dài, điều quan trọng không chỉ là thuốc mà là thay đổi cách nuôi, môi trường và kế hoạch đàn."
+  },
+  "prevention": [
+    "Làm chương trình phòng ký sinh trùng máu dựa trên thực tế khu vực nuôi",
+    "Giảm côn trùng hút máu bằng vệ sinh, che chắn và các biện pháp cơ học khác",
+    "Giữ dinh dưỡng đàn cân đối, tránh để gà thiếu kéo dài",
+    "Theo dõi thể trạng đàn định kỳ, không chỉ nhìn vào mỗi trọng lượng xuất bán",
+    "Lưu lại bệnh sử và cách điều trị để rút kinh nghiệm cho các lứa sau"
+  ],
+  "notes": [
+    "Hội chứng ký sinh trùng máu hỗn hợp là cách nhìn thực tế cho các đàn suy kéo dài ở vùng nhiều muỗi, dĩn, côn trùng.",
+    "Khi đã đến giai đoạn này, thay đổi tư duy quản lý đàn và môi trường thường quan trọng hơn việc thêm một loại thuốc mới."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

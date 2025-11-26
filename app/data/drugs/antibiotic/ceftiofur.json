@@ -1,0 +1,43 @@
+{
+  "id": "ceftiofur",
+  "name": "Ceftiofur",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh cephalosporin thế hệ 3, ức chế tổng hợp vách tế bào vi khuẩn, có phổ rộng trên nhiều vi khuẩn Gram dương và Gram âm gây bệnh ở gia súc.",
+  "clinical_uses": [
+    "Viêm phổi nặng ở bê, nghé, heo, dê khi cần thuốc mạnh và an toàn.",
+    "Nhiễm trùng rốn, nhiễm trùng huyết ở thú non có sốt cao.",
+    "Viêm tử cung, viêm vú nặng tuỳ theo phác đồ của thú y.",
+    "Các ca nhiễm trùng toàn thân khi các kháng sinh phổ thông không còn hiệu quả."
+  ],
+  "pros": [
+    "Hiệu lực cao, phổ rộng, thường dễ dung nạp.",
+    "An toàn tương đối tốt trên nhiều loài nếu dùng đúng cách.",
+    "Phù hợp cho những ca bệnh nặng nhưng vẫn cần mức độ an toàn cao."
+  ],
+  "cons": [
+    "Giá thành cao hơn nhiều kháng sinh thông dụng.",
+    "Không nên dùng tràn lan, dễ gây áp lực kháng thuốc nhóm cephalosporin.",
+    "Cần dùng đúng phác đồ, không tự ý thay đổi thời gian điều trị."
+  ],
+  "mild_side_effects": [
+    "Đau, sưng nhẹ tại vị trí tiêm.",
+    "Một số con giảm ăn, mệt nhẹ trong 1-2 ngày đầu.",
+    "Thay đổi nhẹ về phân ở một số trường hợp."
+  ],
+  "usage_recommendations": [
+    "Ưu tiên dùng cho ca nặng, đã được thú y đánh giá kỹ.",
+    "Kết hợp theo dõi sát thân nhiệt, nhịp thở, tình trạng bú/ăn.",
+    "Không nên dùng như thuốc đầu tay cho ca nhẹ hoặc không rõ chẩn đoán.",
+    "Tuân thủ liều, thời gian, đường dùng ghi trên nhãn hoặc thú y chỉ định."
+  ],
+  "when_not_to_use": [
+    "Không dùng nếu con vật có tiền sử dị ứng với cephalosporin hoặc penicillin.",
+    "Cẩn trọng với con suy thận nặng, cần điều chỉnh theo tư vấn thú y.",
+    "Không dùng để phòng bệnh đại trà."
+  ],
+  "alternative_drugs": [
+    "Florfenicol cho nhiều ca viêm phổi nặng.",
+    "Enrofloxacin trong một số ca nhiễm Gram âm nặng theo đánh giá thú y.",
+    "Amoxicillin hoặc oxytetracycline cho ca nhẹ - trung bình."
+  ]
+}

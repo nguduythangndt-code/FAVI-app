@@ -1,0 +1,107 @@
+{
+  "id": "strongyloides",
+  "name": "Giun lươn",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Giun lươn gây tiêu chảy từng đợt, phân nhầy và heo chậm lớn. Ấu trùng có thể xuyên da làm heo ngứa và cọ sát nhiều.",
+  "causes": [
+    "Ấu trùng giun lươn trong phân hoặc nền chuồng",
+    "Lây qua da hoặc qua đường miệng",
+    "Heo con dễ nhiễm hơn heo lớn"
+  ],
+  "risk_factors": [
+    "Nền chuồng ẩm ướt",
+    "Không dọn phân đều",
+    "Heo con trong ô úm chật",
+    "Không tẩy giun định kỳ"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy từng đợt, phân nhầy",
+    "Heo ngứa nhẹ, hay cọ mình vào tường",
+    "Chậm lớn, bụng tóp",
+    "Lông dựng, ít chạy nhảy",
+    "Heo con uống sữa ít và hay nằm"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân hơi nhầy",
+      "Heo cọ nhẹ"
+    ],
+    "moderate": [
+      "Tiêu chảy nhầy kéo dài",
+      "Heo con lớn chậm rõ"
+    ],
+    "severe": [
+      "Tiêu chảy nhiều lần",
+      "Heo rất gầy, da nhăn",
+      "Mệt và ít bú (ở heo con)"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin"
+    ],
+    "alternative_drugs": [
+      "Levamisole",
+      "Albendazole"
+    ],
+    "note_drugs": "Ivermectin là lựa chọn ưu tiên vì hiệu quả trên giun lươn. Albendazole hoặc Levamisole có thể dùng khi không có thuốc chính.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ nền chuồng khô ráo",
+      "Dọn phân hằng ngày",
+      "Tách heo con yếu để chăm riêng"
+    ],
+    "dose_policy": "Dùng đúng theo nhãn."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo tiêu chảy nhầy nhưng còn ăn được.",
+      "guideline": [
+        "Dùng Ivermectin",
+        "Điện giải đều",
+        "Theo dõi 2-3 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo rất gầy, tiêu chảy kéo dài.",
+      "guideline": [
+        "Giữ heo ấm, giảm stress",
+        "Theo dõi dấu mất nước",
+        "Tách chăm riêng nếu quá yếu"
+      ]
+    },
+    "note": "Giun lươn dễ tái nhiễm nếu nền chuồng luôn ẩm."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ",
+    "Giữ nền chuồng khô",
+    "Vệ sinh ổ đẻ và ô úm thường xuyên"
+  ],
+  "notes": [
+    "Thường gặp ở heo con và heo úm.",
+    "Nền chuồng ẩm là yếu tố nguy cơ lớn nhất."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

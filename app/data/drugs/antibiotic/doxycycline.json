@@ -1,0 +1,42 @@
+{
+  "id": "doxycycline",
+  "name": "Doxycycline",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm tetracycline, gắn vào tiểu đơn vị 30S của ribosome, ức chế tổng hợp protein, có tác dụng trên nhiều vi khuẩn Gram dương, Gram âm và một số vi khuẩn nội bào.",
+  "clinical_uses": [
+    "Bệnh hô hấp mạn hoặc tái phát, viêm phổi mức độ nhẹ - trung bình.",
+    "Nhiễm trùng hỗn hợp đường hô hấp - tiêu hoá, sốt nhẹ đến trung bình.",
+    "Một số bệnh do vi khuẩn nội bào, tuỳ theo hướng dẫn của thú y."
+  ],
+  "pros": [
+    "Dễ dùng, có nhiều dạng uống, phù hợp điều trị theo đợt ngắn.",
+    "Thấm tốt vào mô, đặc biệt là mô hô hấp.",
+    "Thường dung nạp tốt nếu dùng đúng cách và đủ nước."
+  ],
+  "cons": [
+    "Có thể gây kích ứng đường tiêu hoá, đặc biệt nếu uống lúc đói.",
+    "Dùng kéo dài có thể ảnh hưởng men gan, rối loạn hệ vi khuẩn ruột.",
+    "Không phù hợp cho mọi đối tượng, cần tham khảo thú y khi dùng cho thú non."
+  ],
+  "mild_side_effects": [
+    "Chán ăn nhẹ, buồn nôn, tiêu phân hơi lỏng.",
+    "Có thể nhạy cảm ánh sáng ở một số con.",
+    "Thỉnh thoảng gây kích ứng thực quản nếu cho uống không đúng cách."
+  ],
+  "usage_recommendations": [
+    "Nên cho uống cùng thức ăn hoặc sau khi ăn để giảm kích ứng.",
+    "Bổ sung nước, điện giải để hạn chế tác dụng phụ trên đường tiêu hoá.",
+    "Không nên dùng kéo dài hơn thời gian khuyến cáo trên nhãn.",
+    "Luôn theo liều trên nhãn hoặc chỉ định thú y, tránh tự tăng liều."
+  ],
+  "when_not_to_use": [
+    "Thận trọng ở thú non đang phát triển xương, răng.",
+    "Không dùng cho con có tiền sử dị ứng với nhóm tetracycline.",
+    "Thận trọng ở con suy gan hoặc đang dùng nhiều thuốc khác cùng lúc."
+  ],
+  "alternative_drugs": [
+    "Oxytetracycline cho thú lớn cần tiêm.",
+    "Amoxicillin cho ca nhẹ hơn hoặc khi cần thuốc dễ dung nạp hơn.",
+    "Florfenicol hoặc ceftiofur cho ca nặng, đáp ứng kém với tetracycline."
+  ]
+}

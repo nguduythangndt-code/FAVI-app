@@ -1,0 +1,17 @@
+{
+  "khó thở": ["thở bụng", "thở giật giật", "thở há miệng", "thở hổn hển", "thở phập phồng"],
+  "thở nhanh": ["thở gấp", "thở dồn dập", "thở xốc", "thở xịt lia lịa"],
+  "tiêu chảy": ["phân lỏng", "ỉa chảy", "e chảy", "ị tuột", "đi tháo"],
+  "sốt": ["nóng người", "tai nóng", "sốt đỏ đỏ", "hâm hấp", "nóng ran"],
+  "lờ đờ": ["ủ rũ", "lụ đụ", "đuối đuối", "bơ phờ", "đứng thẫn thờ"],
+  "bỏ ăn": ["chán ăn", "ăn giảm", "hít mồi", "liếm mồi", "ăn thưa"],
+  "ho": ["ho khan", "ho liên tục", "ho gió", "ho húng hắng"],
+  "khò khè": ["khe khè", "khẹc khẹc", "khịt mũi", "rít rít", "sặc nhẹ"],
+  "bụng trái phình to": ["chướng hơi", "bụng phình", "bụng căng", "đầy hơi", "bụng phồng"],
+  "mất nước": ["da nhăn", "mắt trũng", "khô miệng", "khát nhiều"],
+  "yếu chân": ["đi siêu vẹo", "chân run", "đi cà nhắc", "yếu gối"],
+  "run": ["run rẩy", "lẩy bẩy", "co giật nhẹ", "run nhẹ"],
+  "nằm nhiều": ["nằm bệt", "nằm li bì", "nằm 1 chỗ", "không đứng nổi"],
+  "phù": ["phù hàm", "bèo mắt", "mặt sưng", "bọng nước"],
+  "thiếu máu": ["niêm mạc nhợt", "mắt trắng bệch", "môi tái", "miệng nhạt"]
+}

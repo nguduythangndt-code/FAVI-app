@@ -1,0 +1,113 @@
+{
+  "id": "ticks_infestation",
+  "name": "Ve ký sinh",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Ve ký sinh bám trên da hút máu, gây ngứa, viêm da, thiếu máu và làm bò dễ mắc thêm các bệnh truyền qua ve như ký sinh trùng máu.",
+  "causes": [
+    "Bò tiếp xúc với bãi chăn, chuồng trại có nhiều ve ký sinh",
+    "Không phun, tắm thuốc diệt ve định kỳ cho đàn",
+    "Chung bãi chăn với trâu, bò, chó mang nhiều ve",
+    "Chuồng trại ẩm, nhiều khe kẽ, góc tối là nơi ve trú ẩn"
+  ],
+  "risk_factors": [
+    "Chăn thả trên bãi cỏ rậm, ít dọn dẹp",
+    "Chuồng xây lâu năm, nhiều khe nứt, gỗ mục",
+    "Đàn đông, tiếp xúc gần nhau thường xuyên",
+    "Không có chương trình kiểm soát ve rõ ràng"
+  ],
+  "clinical_signs_detailed": [
+    "Xuất hiện ve bám quanh tai, cổ, nách, bẹn, gốc đuôi, đầu vú",
+    "Bò ngứa, hay cọ mình vào tường, cột, thân cây",
+    "Rụng lông từng mảng, da dày, sạm màu tại vùng bị ve bám nhiều",
+    "Vết cắn có thể viêm đỏ, đóng vảy, đôi khi chảy dịch",
+    "Ở đàn nặng: bò gầy, thiếu máu, niêm mạc nhợt",
+    "Có thể kèm sốt, mệt nếu nhiễm thêm bệnh do ve truyền"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Có ít ve rải rác trên cơ thể",
+      "Bò thỉnh thoảng gãi, quẫy đuôi nhiều hơn",
+      "Lông hơi xấu tại vài vùng nhỏ"
+    ],
+    "moderate": [
+      "Ve bám nhiều ở tai, cổ, bẹn, gốc đuôi",
+      "Ngứa rõ, bò cọ xát mạnh, da trầy xước",
+      "Lông rụng từng mảng, da dày lên tại vùng bị ký sinh"
+    ],
+    "severe": [
+      "Ve phủ dày ở nhiều vùng trên cơ thể",
+      "Bò gầy, thiếu máu, niêm mạc nhợt",
+      "Mệt, kém ăn, có thể sốt nếu kèm bệnh truyền qua ve",
+      "Giảm sữa, giảm tăng trọng rõ rệt"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "ivermectin",
+      "doramectin",
+      "moxidectin",
+      "amitraz dùng tắm hoặc phun ngoài da"
+    ],
+    "alternative_drugs": [
+      "deltamethrin dùng dạng pour-on hoặc phun",
+      "cypermethrin dùng dạng pour-on hoặc phun",
+      "các thuốc diệt ve khác theo khuyến cáo thú y địa phương"
+    ],
+    "note_drugs": "Điều trị ve cần xử lý đồng thời trên bò và môi trường chuồng. Không lạm dụng một loại thuốc duy nhất trong thời gian dài để tránh kháng thuốc. Với bò sữa, cần đọc kỹ thời gian ngưng thuốc trước khi vắt sữa bán.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin khi bò đau, sốt hoặc viêm da nặng",
+        "alternative": "meloxicam theo tư vấn thú y"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải uống khi bò mệt, ăn kém",
+        "alternative": "truyền dịch hỗ trợ do thú y thực hiện ở ca suy kiệt"
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "multivitamin kết hợp khoáng để hỗ trợ hồi phục"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa khi bò kém ăn, rối loạn tiêu hóa do suy nhược",
+        "alternative": "chế phẩm vi sinh đường ruột hỗ trợ tiêu hóa"
+      }
+    },
+    "supportive_care": [
+      "Bắt hoặc diệt ve trên cơ thể bò kết hợp phun, tắm thuốc toàn thân",
+      "Xử lý toàn bộ đàn, không chỉ điều trị riêng một vài con",
+      "Vệ sinh, phun thuốc diệt ve trong chuồng, khe kẽ, góc tối",
+      "Cắt cỏ quanh chuồng, hạn chế nơi ve trú ẩn",
+      "Bổ sung dinh dưỡng, khoáng, vitamin để bò nhanh hồi"
+    ],
+    "dose_policy": "Dùng thuốc diệt ve đúng hướng dẫn trên nhãn hoặc theo chỉ định thú y. Tuân thủ thời gian lặp lại và thời gian ngưng thuốc ghi trên nhãn, đặc biệt với bò sữa và bò thịt."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò có nhiều ve, ngứa nhiều, gầy nhưng vẫn đi lại và ăn được.",
+      "guideline": "Điều trị ve toàn thân kết hợp phun, tắm thuốc cho cả đàn. Bổ sung vitamin, khoáng và theo dõi thể trạng, niêm mạc. Lặp lại xử lý môi trường theo hướng dẫn thuốc sử dụng."
+    },
+    "case_type_2": {
+      "description": "Bò ve rất nhiều, thiếu máu, gầy rộc, mệt, có thể kèm sốt.",
+      "guideline": "Gọi thú y thăm khám để loại trừ bệnh ký sinh trùng máu đi kèm. Vừa điều trị ve, vừa hỗ trợ chống thiếu máu, bù dịch và điều trị bệnh phối hợp nếu có."
+    },
+    "note": "Ve không chỉ gây ngứa mà còn truyền nhiều bệnh nguy hiểm. Khi thấy bò gầy, sốt, niêm mạc nhợt kèm ve nhiều, nên nghĩ thêm tới bệnh ký sinh trùng máu."
+  },
+  "prevention": [
+    "Phun hoặc tắm thuốc diệt ve định kỳ cho đàn theo mùa",
+    "Vệ sinh chuồng trại, cắt cỏ quanh khu vực nuôi",
+    "Hạn chế nuôi chung, thả chung với đàn trâu bò lạ không rõ tình trạng ve",
+    "Theo dõi lông da, tai, gốc đuôi để phát hiện ve sớm",
+    "Kết hợp kiểm soát ve trên chó, vật nuôi khác trong khu vực"
+  ],
+  "notes": [
+    "Kiểm tra kỹ vùng tai, bẹn, gốc đuôi vì ve thường bám nhiều tại đây.",
+    "Điều trị nửa vời dễ làm ve kháng thuốc và tái bùng phát.",
+    "Luôn xử lý cả môi trường chứ không chỉ phun thuốc trên bò."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

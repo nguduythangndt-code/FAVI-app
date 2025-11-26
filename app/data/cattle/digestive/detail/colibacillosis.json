@@ -1,0 +1,120 @@
+{
+  "id": "colibacillosis",
+  "name": "Tiêu chảy do E.coli",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Tiêu chảy do E.coli thường gặp ở bê sơ sinh và bê nhỏ. Bệnh gây tiêu chảy nước, mất nước nhanh, nếu không bù dịch kịp thời có thể chết chỉ sau vài ngày.",
+  "causes": [
+    "Nhiễm E.coli gây bệnh từ môi trường chuồng, phân, dụng cụ chăm sóc",
+    "Bê bú sữa nhiễm khuẩn hoặc bú trên vú bẩn",
+    "Nhiễm qua nước uống, dụng cụ cho bú không vệ sinh",
+    "Miễn dịch kém do không được bú đủ sữa non trong 24 giờ đầu"
+  ],
+  "risk_factors": [
+    "Bê mới sinh đến vài tuần tuổi",
+    "Chuồng đẻ bẩn, vú bò mẹ không được lau sạch trước khi cho bú",
+    "Dụng cụ bình bú, xô sữa không được rửa sát trùng kỹ",
+    "Không quản lý tốt lượng sữa non ở bê mới sinh",
+    "Nhiều bê nuôi tập trung trong không gian hẹp"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy nước, phân bắn xa, mùi chua hôi",
+    "Mông đuôi dính đầy phân lỏng",
+    "Bê mất nước rất nhanh, mắt trũng sâu, da khô, mũi khô",
+    "Yếu, nằm nhiều, bú kém hoặc bỏ bú",
+    "Thân nhiệt có thể tăng hoặc giảm tùy giai đoạn",
+    "Nếu không điều trị, bê có thể chết trong thời gian ngắn do sốc mất nước"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tiêu chảy vài lần, phân lỏng nhưng bê vẫn bú được",
+      "Mất nước nhẹ, mắt hơi trũng",
+      "Bê hơi mệt nhưng vẫn còn đi lại"
+    ],
+    "moderate": [
+      "Tiêu chảy liên tục, phân nước, bắn xa",
+      "Mất nước rõ, da mất đàn hồi, mắt trũng",
+      "Bê nằm nhiều, bú rất ít"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, bê nằm bẹp, hầu như không bú",
+      "Mất nước rất nặng, tay sờ thấy lạnh, phản ứng chậm",
+      "Nguy cơ tử vong cao nếu không truyền dịch và chăm sóc tích cực"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin"
+    ],
+    "note_drugs": "Kháng sinh chỉ là một phần, quan trọng nhất vẫn là bù nước, điện giải và giữ ấm cho bê. Không lạm dụng kháng sinh nếu tiêu chảy rất nhẹ và bê vẫn khỏe.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Bù nước và điện giải bằng đường uống chia nhiều lần, nếu bê còn phản xạ bú",
+      "Giữ ấm thân nhiệt, tránh để bê nằm trên nền ẩm lạnh",
+      "Vệ sinh sạch mông, đuôi, vùng bụng dưới để tránh viêm da",
+      "Trong ca rất nặng nên truyền dịch theo hướng dẫn thú y",
+      "Không ép cho bú sữa quá nhiều trong một lần, chia nhỏ lượng sữa"
+    ],
+    "dose_policy": "Kháng sinh, điện giải và các thuốc hỗ trợ dùng theo liều trên nhãn hoặc theo tư vấn của bác sĩ thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bê tiêu chảy nặng nhưng vẫn còn bú ít và đứng được.",
+      "guideline": [
+        "Dùng kháng sinh phù hợp kết hợp bù điện giải tích cực",
+        "Giữ ấm, tránh gió lùa, lót chuồng khô",
+        "Theo dõi lượng phân, lượng sữa và biểu hiện mất nước hằng ngày",
+        "Tăng cường men tiêu hóa và vitamin để phục hồi ruột"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bê nằm nhiều, không bú, mất nước rất nặng, phản xạ yếu.",
+      "guideline": [
+        "Cần truyền dịch tích cực nếu có điều kiện và có thú y hỗ trợ",
+        "Tiếp tục điều trị kháng sinh theo phác đồ",
+        "Giữ ấm tối đa, hạn chế thao tác mạnh gây thêm stress",
+        "Tiên lượng dè dặt, tập trung phòng bệnh cho các bê khác trong đàn"
+      ]
+    },
+    "note": "Nhiều bê chết do mất nước hơn là do bản thân vi khuẩn. Bù nước đủ và sớm luôn là bước quan trọng nhất."
+  },
+  "prevention": [
+    "Đảm bảo bê được bú đủ sữa non trong 24 giờ đầu sau sinh",
+    "Giữ chuồng đẻ sạch, khô, lót chuồng thay thường xuyên",
+    "Vệ sinh vú bò mẹ trước khi cho bê bú",
+    "Rửa và sát trùng bình bú, xô sữa sau mỗi lần dùng",
+    "Không để bê nằm trong phân và nước tiểu ẩm"
+  ],
+  "notes": [
+    "Mỗi ca tiêu chảy E.coli ở bê là cảnh báo về vệ sinh chuồng đẻ và dụng cụ cho bú.",
+    "Phòng tốt bằng sữa non và vệ sinh thường rẻ hơn nhiều so với điều trị.",
+    "Ghi lại ngày tuổi, điều kiện chuồng và cách cho bú để cải thiện quy trình."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

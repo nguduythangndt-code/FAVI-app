@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pasteurellosis",
+    "name": "Viêm phổi - màng phổi do Pasteurella",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn hoặc ăn rất ít, mệt mỏi, lù rù Thở nhanh, thở gấp, dùng nhiều cơ bụng khi thở Ho khan lúc đầu, sau ho ướt, ho thành tràng khi vận động Chảy nước mũi đục, có thể đặc, dính quanh lỗ mũi Đầu và cổ vươn ra để dễ thở, thường đứng tách đàn Nghe phổi có tiếng ran ướt, ran nổ, vùng đáy phổi gõ đục Giảm sản lượng sữa rõ rệt ở bò sữa Trường hợp nặng có thể thở há mồm, tím niêm mạc, ngã vật và chết nhanh Sốt nhẹ, thân nhiệt hơi tăng Giảm ăn nhẹ, hoạt động chậm lại Ho lác đác, đôi khi sau vận động hoặc thay đổi thời tiết Thở nhanh hơn bình thường nhưng chưa rõ khó thở Sốt cao, mắt đỏ, kém linh hoạt Ho nhiều hơn, đặc biệt khi lùa đi lại hoặc đổi tư thế Thở gấp, dùng nhiều cơ bụng, đứng vươn cổ để thở Chảy nước mũi đục, nhớt, có thể dính quanh mũi Giảm sữa rõ rệt, xuống thể trạng nhanh Thở rất khó, thở há mồm, có thể nghe tiếng thở khò khè từ xa Niêm mạc miệng, mắt tím tái do thiếu oxy Con vật đứng không vững, hay nằm, khó chịu khi di chuyển Có thể vật vã, ngã vật, thở dốc rồi chết nhanh Một số trường hợp chết đột ngột mà chưa kịp thấy ho nhiều"
+  },
+  {
+    "id": "mannheimia",
+    "name": "Viêm phổi cấp do Mannheimia",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt rất cao, bỏ ăn hoàn toàn Thở cực nhanh, thở gấp, há mồm khi thở Ho dữ dội, ho thành tràng khi di chuyển Dịch mũi đục, nhớt, đôi khi có mủ Đầu và cổ vươn ra để dễ thở Nghe phổi có ran ướt, ran nổ; vùng đáy phổi gõ đục Nằm nhiều, kiệt sức nhanh, tụt thể trạng rõ rệt Có thể chết nhanh trong 12-48 giờ nếu không điều trị Sốt nhẹ, hoạt động chậm Ho ít, chủ yếu lúc thay đổi tư thế Thở nhanh hơn bình thường nhưng chưa rõ khó thở Sốt cao 40-41°C Ho nhiều, đặc biệt khi lùa đi Chảy nước mũi đục, khó thở rõ Giảm sữa mạnh ở bò sữa Thở há mồm, thở bụng mạnh Niêm mạc tím tái Mất sức, nằm nhiều, đứng dậy khó Có thể ngã vật và chết nhanh"
+  },
+  {
+    "id": "brsv",
+    "name": "Viêm phổi do virus hợp bào hô hấp (BRSV)",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Sốt, bỏ ăn, mệt mỏi, lù rù, tách đàn Thở nhanh, thở bụng rõ, hai bên hông phập phồng mạnh Có thể nghe tiếng rít, ran ẩm khi áp tai vào vùng phổi Chảy nước mũi trong lúc đầu, sau có thể đục hơn do bội nhiễm Ho, đặc biệt khi vận động hoặc lùa đi Một số con có bọt quanh mũi do dịch tiết nhiều Giảm tăng trọng rõ rệt ở bê, giảm sữa ở bò sữa Trường hợp nặng thở dốc, nằm nhiều, dễ suy hô hấp Sốt nhẹ, giảm ăn ít Ho lác đác, chảy nước mũi trong Thở nhanh hơn bình thường nhưng chưa rõ khó thở Sốt vừa đến cao, lù rù, tách đàn Thở bụng rõ, ran ẩm khi nghe phổi Chảy nước mũi đục hơn, ho nhiều hơn Giảm sữa rõ ở bò sữa, bê gầy nhanh Thở rất khó, thở bụng mạnh, có thể thở há mồm Nghe tiếng thở khò khè, cò cử Nằm nhiều, khó đứng dậy, kiệt sức Nguy cơ suy hô hấp và chết nếu không xử lý kịp"
+  },
+  {
+    "id": "ibr",
+    "name": "Viêm mũi - khí quản truyền nhiễm (IBR)",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Sốt, giảm ăn, lù rù Chảy nước mũi nhiều, lúc đầu trong sau đục dần Niêm mạc mũi đỏ, có thể loét, đóng vảy quanh lỗ mũi Ho, thở nhanh, có thể nghe ran ở khí quản Đỏ mắt, chảy nước mắt, mẫn cảm với ánh sáng ở một số con Giảm sản lượng sữa rõ rệt ở bò sữa Trong đàn có thể nhiều con ho, sổ mũi cùng lúc Sốt nhẹ, giảm ăn ít Chảy nước mũi trong, ho ít Mắt hơi đỏ, chảy ít nước mắt Sốt vừa, nước mũi đục hơn, dính quanh mũi Ho tăng, thở nhanh hơn Mắt đỏ, chảy nước mắt rõ, khó chịu với ánh sáng Giảm sữa nhìn thấy rõ Niêm mạc mũi loét, đóng vảy khô Thở khó, ran khí quản rõ, ho nhiều Con vật mệt, nằm nhiều, ăn rất ít Dễ bội nhiễm viêm phổi nặng nếu không điều trị kịp"
+  },
+  {
+    "id": "parainfluenza",
+    "name": "Viêm phổi do Parainfluenza-3",
+    "group": "respiratory",
+    "severityLevel": 1,
+    "searchText": "Sốt nhẹ đến vừa, giảm ăn Chảy nước mũi trong, sau có thể đục nhẹ Ho khan, ho thành tràng khi lùa đi Thở nhanh hơn bình thường, đôi khi nghe ran nhẹ Đàn có nhiều con cùng ho, sổ mũi trong khoảng thời gian ngắn Nếu bội nhiễm vi khuẩn có thể sốt cao hơn, khó thở rõ hơn Giảm tăng trọng, giảm sữa Sốt nhẹ, ăn giảm ít Chảy nước mũi trong, ho lác đác Thở nhanh nhẹ nhưng chưa rõ khó thở Sốt vừa, nước mũi nhiều hơn, có thể hơi đục Ho rõ, đặc biệt khi vận động Nghe phổi có ran nhẹ, con vật mệt, giảm hoạt động Giảm sữa và tăng trọng Thường do bội nhiễm: sốt cao, thở khó, ho nhiều Nước mũi đục, đặc, có thể lẫn mủ Con vật mệt, nằm nhiều, ăn rất kém Nguy cơ chuyển sang viêm phổi nặng nếu không điều trị"
+  },
+  {
+    "id": "mycoplasma",
+    "name": "Viêm phổi - khớp do Mycoplasma",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho kéo dài, ho dai dẳng, khó dứt Thở nhanh, đôi khi khó thở khi vận động Giảm ăn, gầy nhanh, lông xù Một số con có khớp sưng, khập khiễng, đi không vững Có thể sốt nhẹ đến vừa lúc đầu, sau có thể thành mạn tính ít sốt Giảm tăng trọng rõ rệt, đàn bê phát triển không đều Ho lác đác, sốt nhẹ hoặc không rõ sốt Thở nhanh hơn bình thường khi vận động Ăn giảm ít, vẫn đi lại bình thường Ho thường xuyên, nhất là lúc sáng sớm hoặc sau vận động Thở nhanh, nghe phổi có ran nhẹ Giảm ăn, sụt cân, lông xù Một số con bắt đầu có dấu hiệu đau khớp, đi không đều Ho kéo dài, thở khó, kiệt sức Khớp sưng, đi khập khiễng rõ, khó đứng dậy Gầy rộc, mất thể trạng, phát triển kém hẳn so với đàn Dễ bị bội nhiễm thêm các tác nhân khác"
+  },
+  {
+    "id": "lungworm",
+    "name": "Viêm phổi do giun phổi",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho kéo dài, ho thành cơn, ho nhiều khi vận động Thở nhanh, đôi khi thở khó, nghe phổi có ran khò khè Giảm ăn, sụt cân, lông xù, thể trạng xấu dần Trong đàn có nhiều con cùng ho trong mùa ẩm Ở ca nặng, bò thở khó, yếu, dễ kiệt sức Ho lác đác, nhất là sau vận động Thở nhanh nhẹ, chưa rõ khó thở Ăn giảm ít, thể trạng chưa thay đổi nhiều Ho thường xuyên, ho kéo dài, nghe phổi có ran Thở nhanh hơn rõ, bò mệt khi di chuyển Sụt cân, lông xù, thể trạng kém Trong đàn xuất hiện nhiều con có biểu hiện tương tự Ho liên tục, thở khó, đôi khi thở há mồm Kiệt sức, nằm nhiều, đứng dậy khó Gầy rộc, da bọc xương, tăng nguy cơ bội nhiễm vi khuẩn Có thể chết nếu không tẩy giun và hỗ trợ kịp thời"
+  },
+  {
+    "id": "aspiration_pneumonia",
+    "name": "Viêm phổi hít (sặc)",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho dữ dội ngay sau khi sặc Thở khó, thở khò khè, có thể nghe tiếng ran ướt Sốt sau đó một thời gian ngắn do viêm phổi Thở nhanh, dùng nhiều cơ bụng để thở Giảm ăn, mệt, nằm nhiều Trong vài ca nặng, có thể tím niêm mạc, suy hô hấp cấp Ho sau khi sặc, thở nhanh nhẹ Ăn giảm ít, vẫn còn đi lại được Thở nhanh, khó thở rõ hơn, ho nhiều Sốt, mệt, giảm ăn rõ Nghe phổi có ran ướt tại vùng tổn thương Thở rất khó, thở há mồm, ran ẩm dày Niêm mạc tím tái, bò đứng không vững hoặc nằm nhiều Có thể suy hô hấp và chết nếu không xử lý kịp thời"
+  }
+]

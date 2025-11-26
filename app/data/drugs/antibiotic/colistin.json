@@ -1,0 +1,42 @@
+{
+  "id": "colistin",
+  "name": "Colistin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm polymyxin, tác động trực tiếp lên màng tế bào vi khuẩn Gram âm, làm rò rỉ các thành phần bên trong và khiến vi khuẩn chết.",
+  "clinical_uses": [
+    "Tiêu chảy nặng nghi do vi khuẩn Gram âm ở heo con, bê con, dê con, gia cầm.",
+    "Các ca rối loạn tiêu hoá nặng, phân tanh, có thể lẫn nhầy hoặc máu.",
+    "Một số trường hợp nghi ngờ nhiễm vi khuẩn Gram âm kháng với nhiều kháng sinh khác, theo chỉ định thú y."
+  ],
+  "pros": [
+    "Hiệu quả mạnh với nhiều vi khuẩn Gram âm đường ruột.",
+    "Có thể cải thiện nhanh tình trạng tiêu chảy nặng nếu dùng đúng chỉ định.",
+    "Thường dùng dạng uống hoặc tiêm tuỳ chế phẩm, linh hoạt cho đường ruột."
+  ],
+  "cons": [
+    "Nguy cơ ảnh hưởng thận và thần kinh nếu lạm dụng hoặc dùng sai đối tượng.",
+    "Là kháng sinh được cảnh báo nhiều về nguy cơ kháng thuốc trên toàn cầu.",
+    "Không phù hợp làm thuốc “dự phòng” hay dùng cho mọi dạng tiêu chảy nhẹ."
+  ],
+  "mild_side_effects": [
+    "Chán ăn, mệt nhẹ trong thời gian dùng thuốc.",
+    "Phân có thể thay đổi mùi, màu trong quá trình điều trị.",
+    "Một số cá thể tỏ ra khó chịu đường tiêu hoá."
+  ],
+  "usage_recommendations": [
+    "Chỉ nên dùng khi có nghi ngờ rõ về vai trò vi khuẩn Gram âm đường ruột.",
+    "Kết hợp bù nước, điện giải và điều chỉnh khẩu phần hợp lý.",
+    "Không kéo dài thời gian sử dụng hơn khuyến cáo trên nhãn.",
+    "Tuân thủ liều lượng và cách dùng theo nhãn hoặc hướng dẫn thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con suy thận, mất nước nặng mà chưa được bù dịch đầy đủ.",
+    "Tránh dùng lặp đi lặp lại nhiều đợt chỉ vì quen tay.",
+    "Không sử dụng để phòng bệnh định kỳ cho đàn khoẻ."
+  ],
+  "alternative_drugs": [
+    "Sulfonamid kết hợp trimethoprim cho các ca tiêu chảy do vi khuẩn nhạy.",
+    "Amoxicillin hoặc oxytetracycline cho ca nhẹ - trung bình.",
+    "Florfenicol hoặc enrofloxacin cho ca nặng, có biểu hiện toàn thân."
+  ]
+}

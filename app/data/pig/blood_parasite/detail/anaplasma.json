@@ -1,0 +1,111 @@
+{
+  "id": "anaplasma",
+  "name": "Nhiễm Anaplasma",
+  "species": "pig",
+  "group": "blood_parasite",
+  "summary": "Anaplasma gây thiếu máu từ từ, heo ăn kém, lớn chậm, niêm mạc nhợt và vàng nhẹ. Bệnh tiến triển âm thầm, dễ bỏ sót.",
+  "causes": [
+    "Ký sinh trùng Anaplasma spp.",
+    "Lây qua ve hoặc côn trùng hút máu tiếp xúc giữa các con trong đàn."
+  ],
+  "risk_factors": [
+    "Chuồng ẩm, có ve hoặc côn trùng cắn",
+    "Heo con cai sữa, sức đề kháng yếu",
+    "Dinh dưỡng kém, stress kéo dài",
+    "Nuôi mật độ cao"
+  ],
+  "clinical_signs_detailed": [
+    "Ăn kém và lớn chậm kéo dài",
+    "Niêm mạc nhợt, đôi khi vàng nhẹ",
+    "Sốt nhẹ hoặc không sốt",
+    "Heo mệt âm ỉ, ít vận động",
+    "Gầy dần theo thời gian",
+    "Một số con da nhăn, lông xỉu"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn kém nhẹ",
+      "Niêm mạc hơi nhạt",
+      "Tăng trưởng chậm"
+    ],
+    "moderate": [
+      "Niêm mạc vàng nhẹ",
+      "Mệt rõ, ít vận động",
+      "Sút cân",
+      "Lông xỉu, da nhăn"
+    ],
+    "severe": [
+      "Thiếu máu nặng",
+      "Đứng lâu mỏi, nằm nhiều",
+      "Mệt nhiều",
+      "Nguy cơ nhiễm khuẩn kế phát"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Oxytetracycline LA"
+    ],
+    "alternative_drugs": [
+      "Doxycycline"
+    ],
+    "note_drugs": "Chọn 1 trong 2 thuốc để điều trị. Oxytetracycline LA ưu tiên vì tác dụng kéo dài và hiệu quả ổn định trên Anaplasma.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Giảm stress, không dồn đuổi heo yếu",
+      "Chuồng khô thoáng, sạch sẽ",
+      "Tăng cường dinh dưỡng, thêm rau xanh hoặc cám dễ tiêu"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo mệt nhiều, vàng rõ, vẫn còn đứng được.",
+      "guideline": [
+        "Dùng Oxytetracycline LA ngay",
+        "Điện giải và vitamin hằng ngày",
+        "Theo dõi sát mức ăn uống"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo suy nhiều, nằm nhiều, thiếu máu rõ.",
+      "guideline": [
+        "Hạn chế vận động, giữ ấm",
+        "Điện giải liên tục trong ngày",
+        "Tập trung hồi sức kết hợp điều trị chính"
+      ]
+    },
+    "note": "Anaplasma ít gây chết đột ngột nhưng hồi phục chậm, cần điều trị đều và theo dõi dài ngày."
+  },
+  "prevention": [
+    "Kiểm soát ve và côn trùng hút máu trong chuồng",
+    "Giữ chuồng khô thoáng, hạn chế ẩm thấp",
+    "Bổ sung vitamin định kỳ cho heo con",
+    "Kiểm tra heo mới nhập từ nơi có nguy cơ"
+  ],
+  "notes": [
+    "Bệnh tiến triển âm thầm, dễ bỏ sót.",
+    "Heo mang bệnh lâu ngày thường còi cọc, lớn chậm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

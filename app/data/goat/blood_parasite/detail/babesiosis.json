@@ -1,0 +1,123 @@
+{
+  "id": "babesiosis",
+  "name": "Nhiễm ký sinh trùng máu Babesia ở dê",
+  "species": "goat",
+  "group": "blood_parasite",
+
+  "summary": "Babesia ký sinh trong hồng cầu gây tan máu cấp, sốt cao, nước tiểu đỏ và suy kiệt rất nhanh. Đây là một trong những bệnh ký sinh trùng máu nguy hiểm nhất ở dê nếu không điều trị kịp thời.",
+
+  "causes": [
+    "Ký sinh trùng Babesia spp.",
+    "Truyền qua ve hút máu.",
+    "Chuồng ẩm, nhiều ký sinh ngoài da.",
+    "Thiếu tẩy ve định kỳ."
+  ],
+
+  "risk_factors": [
+    "Dê yếu hoặc thiếu máu sẵn.",
+    "Dê nuôi thả vùng có nhiều ve.",
+    "Thời tiết mưa ẩm.",
+    "Không vệ sinh chuồng trại."
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt cao.",
+    "Nước tiểu ra máu màu đỏ sẫm (tan máu).",
+    "Niêm mạc nhợt hoặc vàng.",
+    "Thở nhanh, mệt, đứng run.",
+    "Có thể sụp nhanh trong 24-48 giờ."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ.",
+      "Ăn giảm."
+    ],
+    "moderate": [
+      "Nước tiểu sẫm màu.",
+      "Niêm mạc nhợt - vàng.",
+      "Mệt rõ rệt."
+    ],
+    "severe": [
+      "Co giật, thở gấp.",
+      "Nằm bệt.",
+      "Thiếu máu cấp - tử vong nhanh."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Imidocarb",
+      "Azidin (Diminazene aceturate)"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline (dùng hỗ trợ)",
+      "Doxycycline"
+    ],
+    "note_drugs": [
+      "Không dùng thuốc tẩy giun khi đang tan máu — dễ làm bệnh nặng thêm.",
+      "Không dồn bắt - dễ khiến dê sốc."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin B12",
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Để dê nghỉ nơi mát - ít stress.",
+      "Bổ sung điện giải liên tục.",
+      "Không vận động mạnh.",
+      "Tẩy ve cho cả đàn."
+    ],
+    "dose_policy": [
+      "Thuốc đặc trị phải dùng theo hướng dẫn thú y.",
+      "Imidocarb cần theo dõi phản ứng sau tiêm."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nước tiểu đỏ - dê còn đứng.",
+      "guideline": [
+        "Imidocarb hoặc azidin.",
+        "Điện giải liên tục.",
+        "Vitamin B12 hỗ trợ tạo máu."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê nằm, thở gấp, nhợt nhạt.",
+      "guideline": [
+        "Thú y khẩn cấp.",
+        "Thuốc đặc trị + hồi sức.",
+        "Truyền dịch nếu cần.",
+        "Theo dõi sát 24 giờ."
+      ]
+    },
+    "note": "Babesia diễn biến rất nhanh — nhiều ca chết trong ngày nếu không xử lý."
+  },
+
+  "prevention": [
+    "Tẩy ve định kỳ.",
+    "Giữ chuồng khô.",
+    "Khử trùng dụng cụ tiêm.",
+    "Giám sát nước tiểu đàn vào mùa mưa."
+  ],
+
+  "notes": [
+    "Nước tiểu đỏ = Babesia cho đến khi chứng minh được ngược lại.",
+    "Vitamin B12 cực quan trọng trong giai đoạn hồi phục."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

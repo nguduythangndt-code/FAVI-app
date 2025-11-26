@@ -1,0 +1,123 @@
+{
+  "id": "aspergillosis",
+  "name": "Viêm phổi do nấm Aspergillus ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Aspergillosis là viêm phổi do nấm Aspergillus, gặp ở những chuồng ẩm mốc, thức ăn bị mốc hoặc dê suy miễn dịch. Bệnh kéo dài, điều trị khó, đáp ứng kém với kháng sinh.",
+
+  "causes": [
+    "Chuồng - cỏ - thức ăn bị mốc.",
+    "Nấm phát triển mạnh khi độ ẩm cao.",
+    "Dê suy dinh dưỡng hoặc bệnh kế phát.",
+    "Hít phải bào tử nấm từ rơm, cỏ ẩm."
+  ],
+
+  "risk_factors": [
+    "Chuồng ẩm và bí khí.",
+    "Thức ăn dự trữ lâu ngày.",
+    "Không phơi nắng cỏ - rơm.",
+    "Dê đang suy hoặc sau bệnh nặng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho kéo dài, dai dẳng nhiều tuần.",
+    "Thở nhanh, thở nặng khi bệnh tiến triển.",
+    "Dê gầy từ từ, lông xù.",
+    "Chảy mũi trắng đục hoặc vàng nhẹ.",
+    "Ít đáp ứng với kháng sinh."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho lặt vặt nhiều ngày.",
+      "Chảy mũi ít."
+    ],
+    "moderate": [
+      "Ho kéo dài, thở nhanh.",
+      "Gầy thấy rõ."
+    ],
+    "severe": [
+      "Thở khó, nằm nhiều.",
+      "Không đáp ứng với kháng sinh.",
+      "Sút cân mạnh."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Itraconazole (theo chỉ định thú y).",
+      "Ketoconazole (hiệu quả vừa, dùng khi không có thuốc tốt hơn)."
+    ],
+    "alternative_drugs": [
+      "Hỗ trợ miễn dịch, vitamin - khoáng.",
+      "Long đờm - giảm viêm hỗ trợ."
+    ],
+    "note_drugs": [
+      "Kháng sinh KHÔNG hiệu quả với viêm phổi do nấm.",
+      "Điều trị nấm thường kéo dài và tốn kém."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine"
+      ],
+      "electrolyte": [
+        "ORS"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá"
+      ]
+    },
+    "supportive_care": [
+      "Loại bỏ thức ăn mốc, rơm - cỏ ẩm.",
+      "Giữ chuồng cực thoáng, khô.",
+      "Bổ sung dưỡng chất tăng miễn dịch.",
+      "Tách dê bệnh vì dễ bị kế phát."
+    ],
+    "dose_policy": [
+      "Thuốc trị nấm phải dùng theo thú y.",
+      "Không tự tăng liều itraconazole."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho nhiều, thở nhanh nhưng còn đi lại.",
+      "guideline": [
+        "Itraconazole hoặc ketoconazole.",
+        "Long đờm, vitamin C.",
+        "Cải thiện môi trường."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê thở khó, rất gầy, không đáp ứng kháng sinh.",
+      "guideline": [
+        "Cần bác sĩ thú y đánh giá.",
+        "Thuốc trị nấm + hỗ trợ mạnh.",
+        "Tiên lượng dè dặt."
+      ]
+    },
+    "note": "Aspergillosis chủ yếu do môi trường ẩm mốc - sửa chuồng quan trọng hơn thuốc."
+  },
+
+  "prevention": [
+    "Phơi nắng cỏ, rơm trước khi cho ăn.",
+    "Không cho ăn thức ăn có mùi mốc.",
+    "Chuồng thoáng - khô - không bí.",
+    "Bổ sung vitamin - khoáng định kỳ."
+  ],
+
+  "notes": [
+    "Bệnh khó điều trị, phải nhấn mạnh phòng là chính.",
+    "Đa phần đàn nuôi ẩm mốc sẽ có ca lẻ tẻ kéo dài."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

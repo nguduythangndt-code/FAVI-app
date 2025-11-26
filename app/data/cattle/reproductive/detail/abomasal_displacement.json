@@ -1,0 +1,124 @@
+{
+  "id": "abomasal_displacement",
+  "name": "Lệch dạ múi khế",
+  "species": "cattle",
+  "group": "reproductive",
+
+  "summary": "Lệch dạ múi khế sau đẻ thường gặp ở bò sữa năng suất cao khi ăn giảm hoặc khẩu phần mất cân đối. Bò giảm sữa, ăn kém và gầy nhanh.",
+
+  "causes": [
+    "Ăn kém sau đẻ",
+    "Khẩu phần nhiều tinh, ít xơ",
+    "Dạ múi khế đầy hơi và di chuyển",
+    "Stress hoặc bệnh sau đẻ"
+  ],
+
+  "risk_factors": [
+    "Bò sữa cao sản",
+    "Khẩu phần nhiều tinh",
+    "Thiếu xơ thô",
+    "Bò ít vận động"
+  ],
+
+  "clinical_signs_detailed": [
+    "Ăn rất kém",
+    "Giảm sữa mạnh",
+    "Bụng hóp, gầy nhanh",
+    "Nhai lại giảm",
+    "Gõ vùng hông có tiếng kêu rỗng đặc trưng"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn kém nhẹ",
+      "Sản lượng sữa giảm"
+    ],
+    "moderate": [
+      "Giảm ăn rõ",
+      "Nhai lại giảm",
+      "Gầy nhanh"
+    ],
+    "severe": [
+      "Ăn rất kém",
+      "Gầy mạnh, ít đi lại",
+      "Cần can thiệp kỹ thuật"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "electrolyte"
+    ],
+    "alternative_drugs": [
+      "vitamin_bc"
+    ],
+    "note_drugs": "Chăm sóc hỗ trợ là chính. Lệch dạ nặng cần thú y xử lý chuyên môn, thuốc chỉ hỗ trợ năng lượng và tiêu hoá.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Điều chỉnh khẩu phần giàu xơ",
+      "Khuyến khích bò vận động nhẹ",
+      "Theo dõi sữa và mức ăn mỗi ngày",
+      "Không ép vận động mạnh"
+    ],
+
+    "dose_policy": "Điện giải và hỗ trợ dùng theo nhãn."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò ăn kém và giảm sữa nhưng còn đứng.",
+      "guideline": [
+        "Điều chỉnh khẩu phần",
+        "Bổ sung điện giải",
+        "Theo dõi mức ăn trong 2 - 3 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò gầy nhanh, ăn rất kém.",
+      "guideline": [
+        "Cần thú y kiểm tra trực tiếp",
+        "Khả năng cần can thiệp kỹ thuật",
+        "Không chậm trễ vì dễ nặng hơn"
+      ]
+    },
+    "note": "Lệch dạ sau đẻ thường liên quan khẩu phần và stress."
+  },
+
+  "prevention": [
+    "Khẩu phần đủ xơ và khoáng",
+    "Không để bò quá béo trước đẻ",
+    "Theo dõi mức ăn sát sau đẻ",
+    "Giảm stress chuồng trại"
+  ],
+
+  "notes": [
+    "Một trong những bệnh phổ biến sau đẻ.",
+    "Thể trạng trước đẻ quyết định nhiều.",
+    "Không để bò giảm ăn quá 2 ngày."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

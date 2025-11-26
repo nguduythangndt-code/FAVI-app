@@ -1,0 +1,111 @@
+{
+  "id": "bordetella",
+  "name": "Suyễn heo (Bordetella bronchiseptica)",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Bordetella gây ho, khò khè, thỉnh thoảng kèm biến dạng xoang mũi. Thường gây suyễn mạn, ít chết nhưng làm chậm lớn.",
+  "causes": [
+    "Vi khuẩn Bordetella bronchiseptica",
+    "Lây qua không khí, trực tiếp giữa heo với heo",
+    "Chuồng bụi, khí độc cao (amoniac)"
+  ],
+  "risk_factors": [
+    "Thông gió kém, khí độc tích tụ",
+    "Nền chuồng ẩm, nhiều phân",
+    "Nuôi dày, nhiều lứa tuổi chung",
+    "Không tiêm phòng suyễn heo"
+  ],
+  "clinical_signs_detailed": [
+    "Ho khan kéo dài",
+    "Thở khò khè, đặc biệt khi vận động",
+    "Heo hít mạnh, có tiếng khịt mũi",
+    "Tăng trưởng chậm, gầy dần",
+    "Một số con mặt hơi biến dạng do tổn thương xoang mũi"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho ít, đôi lúc khịt mũi",
+      "Ăn uống còn bình thường"
+    ],
+    "moderate": [
+      "Ho nhiều khi vận động, khi có bụi",
+      "Thở khò khè rõ",
+      "Lớn chậm"
+    ],
+    "severe": [
+      "Suyễn mạn, thở nặng",
+      "Heo gầy, tăng trọng rất kém",
+      "Có thể biến dạng mũi"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Tylosin",
+      "Doxycycline"
+    ],
+    "alternative_drugs": [
+      "Enrofloxacin",
+      "Florfenicol"
+    ],
+    "note_drugs": "Tylosin và Doxycycline thường dùng trong các ca suyễn mạn, giúp giảm ho và tổn thương đường hô hấp.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoa",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giảm bụi chuồng, tăng thông gió",
+      "Giảm mật độ đàn",
+      "Giữ nền chuồng khô, sạch",
+      "Tránh thay đổi nhiệt độ đột ngột"
+    ],
+    "dose_policy": "Dùng thuốc đúng liều theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho và khò khè nhưng heo vẫn hoạt động, ăn bình thường.",
+      "guideline": [
+        "Dùng kháng sinh chính cho suyễn",
+        "Điều chỉnh môi trường chuồng",
+        "Theo dõi đáp ứng trong vài tuần"
+      ]
+    },
+    "case_type_2": {
+      "description": "Suyễn nặng, heo gầy, tăng trọng kém.",
+      "guideline": [
+        "Điều trị lặp lại theo phác đồ",
+        "Cân nhắc tách nuôi riêng hoặc loại thải nếu hiệu quả thấp",
+        "Tập trung giữ những con khoẻ và thích nghi tốt"
+      ]
+    },
+    "note": "Bordetella thường gây thiệt hại âm thầm qua giảm tăng trọng, ít khi gây chết đột ngột."
+  },
+  "prevention": [
+    "Tiêm phòng suyễn heo nếu có điều kiện",
+    "Kiểm soát khí độc và bụi chuồng",
+    "Nuôi tách lứa tuổi, hạn chế trộn đàn",
+    "Giữ khu chuồng luôn thoáng khí"
+  ],
+  "notes": [
+    "Tiếng ho và khò khè kéo dài là đặc trưng của suyễn.",
+    "Khi kết hợp với Mycoplasma, thiệt hại nặng hơn nhiều."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

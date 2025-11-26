@@ -1,0 +1,86 @@
+[
+  {
+    "id": "newcastle-disease",
+    "name": "Newcastle (dịch tả gà)",
+    "group": "respiratory",
+    "level": 3,
+    "searchText": "Gà sốt, ủ rũ, xù lông, giảm ăn, tụm đám Thở nhanh, thở khò khè, há mỏ thở, chảy nước mũi Tiêu chảy phân xanh, mùi hôi, bết lông quanh hậu môn Giảm đẻ rõ rệt, trứng vỏ mỏng, méo, không đều Triệu chứng thần kinh: vẹo cổ, liệt chân, đi vòng tròn, co giật Tỷ lệ chết có thể rất cao trong thời gian ngắn Giảm ăn nhẹ, uống nước nhiều hơn Xù lông, tụm đám, chậm chạp Thỉnh thoảng ho, hắt hơi, chảy nước mũi trong Đàn vẫn còn đi lại, chưa thấy thần kinh rõ Thở khó, há mỏ, vươn cổ để thở Tiêu chảy phân xanh, mùi khó chịu Giảm đẻ đột ngột, trứng vỏ mỏng, xấu Một số con bắt đầu có dấu hiệu vẹo cổ, run rẩy Liệt, vẹo cổ nặng, mất thăng bằng, co giật Nằm bẹp, thở gấp, tím mào - tích Chết nhanh, chết đồng loạt nhiều con trong ngày Khó kiểm soát dù đã dùng thuốc hỗ trợ"
+  },
+  {
+    "id": "avian-influenza",
+    "name": "Cúm gia cầm",
+    "group": "respiratory",
+    "level": 3,
+    "searchText": "Gà ủ rũ, bỏ ăn đột ngột, chết nhanh Thở khó, há mỏ, khò khè, ho, hắt hơi Tím mào, tích, chân, xuất huyết da điểm đỏ Tiêu chảy phân xanh, loãng, mùi hôi Giảm đẻ mạnh, trứng biến dạng, vỏ mỏng hoặc không vỏ Có thể thấy phù đầu, mặt sưng, mắt chảy nước Giảm ăn, xù lông, tụm đám Thỉnh thoảng ho, hắt hơi, chảy nước mắt, nước mũi trong Giảm đẻ nhẹ, trứng hơi xấu hơn bình thường Thở khó, há mỏ, tím mào nhẹ Tiêu chảy phân xanh, loãng, dính hậu môn Giảm đẻ rõ, nhiều trứng vỏ mỏng, biến dạng Một số con sưng mặt, mắt lim dim Tím mào - tích rõ, khó thở nặng, nằm bẹp Chết đột ngột nhiều con, có thể chết cả con đang khỏe Tỷ lệ chết tăng rất nhanh chỉ trong vài ngày Khó kiểm soát, nghi ngờ cúm độc lực cao"
+  },
+  {
+    "id": "infectious-bronchitis",
+    "name": "Viêm phế quản truyền nhiễm (IB)",
+    "group": "respiratory",
+    "level": 2,
+    "searchText": "Ho, hắt hơi, thở khò khè, chảy nước mũi, sưng xoang nhẹ Gà con có thể khò khè rõ, kèm khó thở, tụm đám dưới nguồn nhiệt Gà đẻ: giảm đẻ rõ rệt, trứng vỏ mỏng, nhăn, méo, lòng trắng loãng Một số chủng gây tổn thương thận: uống nhiều nước, tiêu chảy trắng Tỷ lệ chết thường không cao như Newcastle, nhưng đàn suy yếu, chậm hồi phục Ho, hắt hơi lác đác, thỉnh thoảng khò khè Giảm ăn nhẹ, xù lông ít Gà đẻ giảm sản lượng không nhiều nhưng trứng hơi xấu Thở khò khè rõ, chảy nước mũi, sưng nhẹ quanh mắt - xoang Giảm ăn, giảm đẻ rõ rệt, nhiều trứng vỏ mỏng, méo Có thể thấy phân nhạt màu, ướt nếu tổn thương thận Gà con khó thở, tụ dưới nguồn nhiệt, còi cọc Đàn đẻ tụt sản lượng mạnh, khó quay lại mức ban đầu Một số con chết do suy kiệt hoặc bội nhiễm vi khuẩn"
+  },
+  {
+    "id": "mycoplasma-gallisepticum",
+    "name": "CRD - Mycoplasma",
+    "group": "respiratory",
+    "level": 1,
+    "searchText": "Ho kéo dài, khò khè, chảy nước mũi, hắt hơi Thở nặng, có tiếng rít, đặc biệt khi trời lạnh - ẩm Sưng nhẹ quanh mắt, xoang, có thể chảy bọt ở khoé mắt Gà chậm lớn, gầy, lông xấu, tiêu tốn thức ăn tăng Gà đẻ giảm sản lượng, trứng vỏ mỏng, chất lượng kém Khi bội nhiễm E. coli, bệnh nặng hơn, tỷ lệ chết tăng Ho, hắt hơi lác đác, nghe khò khè nhẹ khi lại gần Giảm ăn nhẹ nhưng đàn vẫn hoạt động Ít con sưng mắt, chảy nước mũi Khò khè rõ, thở nặng, kém linh hoạt Giảm ăn, giảm tăng trọng, gầy dần Đàn đẻ giảm sản lượng, trứng kém chất lượng Một số con sưng xoang, viêm mắt Thở khó, vươn cổ, há mỏ, nằm nhiều Gầy, suy kiệt, một số con chết do bội nhiễm Nếu không xử lý, đàn kéo dài bệnh, khó hồi phục năng suất"
+  },
+  {
+    "id": "infectious-coryza",
+    "name": "Viêm xoang truyền nhiễm (Coryza)",
+    "group": "respiratory",
+    "level": 1,
+    "searchText": "Chảy nước mũi đặc, hôi, bết quanh lỗ mũi Sưng đầu, sưng mặt, sưng xoang quanh mắt, có thể nhắm mắt Thở khò khè, tiếng thở nặng mùi, há mỏ thở khi nặng Giảm ăn, sút cân, gà đẻ giảm sản lượng rõ rệt Có thể nghe tiếng rít, khục khạc khi bắt gà lên Nếu không điều trị, bệnh kéo dài, nhiều con trở thành mang trùng Hắt hơi, chảy nước mũi trong, ít con sưng nhẹ quanh mắt Ăn uống giảm nhẹ, vẫn đi lại bình thường Chưa có mùi hôi rõ ở đầu - mũi Sưng mặt, sưng xoang rõ, mắt lim dim, chảy nước mắt - mũi đặc Thở khò khè, nghe tiếng rít, giảm ăn, giảm tăng trọng Đàn đẻ giảm sản lượng, trứng nhỏ hơn bình thường Đầu sưng to, mắt nhắm, mũi bịt kín bởi dịch đặc, hôi Thở rất khó, há mỏ, há cổ, nhiều con nằm một chỗ Gầy, suy kiệt, có thể chết do suy hô hấp hoặc bội nhiễm nặng"
+  },
+  {
+    "id": "infectious-laryngotracheitis",
+    "name": "Viêm thanh khí quản truyền nhiễm (ILT)",
+    "group": "respiratory",
+    "level": 2,
+    "searchText": "Ho khan, sau đó ho dữ dội, gà vươn cổ, há mỏ, ho ra máu hoặc dịch nhày Thở khó, há mỏ, vươn cổ để hít, nghe tiếng rít trong khí quản Gà tụm một chỗ, đầu chúi thấp, miệng há, thở bằng mỏ Có thể thấy máu dính quanh mỏ, ngực, nền chuồng Giảm ăn, giảm đẻ, nhiều con chết đột ngột do nghẹt đường thở Tỷ lệ chết thay đổi tùy độc lực và tình trạng đàn Ho, hắt hơi nhẹ, thỉnh thoảng nghe tiếng khục ở cổ Giảm ăn nhẹ, đàn vẫn đi lại bình thường Chưa thấy máu hoặc dịch nhày rõ quanh mỏ Ho nhiều, ho thành cơn, gà vươn cổ khi ho Thở khò khè, thở khó, một số con há mỏ thường xuyên Giảm ăn, giảm đẻ, mệt, tụm đám Ho ra máu, máu dính nền chuồng hoặc lông ngực Thở rất khó, gà đứng vươn cổ, miệng há, tím mào - tích Chết đột ngột, nhiều con chết trong thời gian ngắn do nghẹt đường thở"
+  },
+  {
+    "id": "respiratory-colibacillosis",
+    "name": "Colibacillosis hô hấp",
+    "group": "respiratory",
+    "level": 2,
+    "searchText": "Gà sốt, ủ rũ, xù lông, giảm ăn rõ rệt Thở khò khè, thở nhanh, vươn cổ, há mỏ khi nặng Một số con có bụng trướng nhẹ, sờ thấy đau, phân xấu Tỷ lệ chết tăng dần, nhất là ở đàn đã có bệnh hô hấp nền Mổ khám thường thấy viêm túi khí, fibrin bám, viêm màng bao tim - gan Đàn chậm lớn, hao cám, khó đạt trọng lượng như kế hoạch Giảm ăn nhẹ, xù lông, đứng riêng, thở nhanh hơn bình thường Chưa thấy khó thở rõ, tỷ lệ chết chưa tăng nhiều Thở khò khè, thở nặng, gà giảm ăn, uống nước nhiều hơn Gầy nhanh, phân ướt, bẩn quanh hậu môn Chết lác đác, nhất là những con suy từ các bệnh hô hấp trước Thở rất khó, vươn cổ, há mỏ liên tục, di chuyển ít Nhiều con nằm bẹp, phản xạ chậm, chết tăng từng ngày Sau mổ thấy viêm túi khí, fibrin bám dày ở nội tạng"
+  },
+  {
+    "id": "aspergillosis",
+    "name": "Nấm phổi (Aspergillosis)",
+    "group": "respiratory",
+    "level": 2,
+    "searchText": "Gà con thở khó, thở há mỏ, vươn cổ, thở nhanh Nghe tiếng thở rít, đôi khi như khò khè nhưng không nhiều dịch mũi Gà ủ rũ, tụm đám, kém ăn, chậm lớn Một số con có mắt mờ, sưng quanh mắt nếu tổn thương lan rộng Tỷ lệ chết rải rác nhưng kéo dài, ít đáp ứng với kháng sinh Mổ khám thường thấy các nốt trắng - vàng trên phổi, túi khí Một số gà con thở nhanh hơn, xù lông nhẹ, tách đàn Triệu chứng hô hấp không quá rõ, dễ nhầm với lạnh hoặc thông gió kém Thở khó, há mỏ, vươn cổ, nghe tiếng rít khi lại gần Kém ăn, chậm lớn, phân không đặc nhưng đàn không khoẻ Chết lác đác, dùng kháng sinh không cải thiện rõ Gà con thở rất khó, nằm nhiều, phản ứng chậm Tỷ lệ chết kéo dài, dù đã dùng nhiều phác đồ kháng sinh Mổ khám thấy nhiều nốt nấm trên phổi, túi khí, đôi khi trong xoang khí khác"
+  },
+  {
+    "id": "fowl-cholera",
+    "name": "Tụ huyết trùng gà (Fowl cholera)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt, bỏ ăn Thở nhanh, há miệng Mào tím, niêm mạc tái Tiêu chảy xanh nhớt Chết đột ngột Ăn giảm, sốt nhẹ Khó thở, tiêu chảy Mào tím Chết nhanh hàng loạt"
+  },
+  {
+    "id": "ecoli-septicemia",
+    "name": "E.coli nhiễm trùng huyết (Colisepticemia)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Khò khè, thở rít Gà tụm, xù lông Ăn giảm, gầy nhanh Tiêu chảy loãng Chết rải rác tăng dần Khò khè nhẹ Ăn giảm Thở khó rõ Ủ rũ, gầy Thở há miệng, tím tái Chết do nhiễm trùng huyết"
+  },
+  {
+    "id": "crd-complex-advanced",
+    "name": "CRD phức hợp nặng (Mycoplasma + bội nhiễm)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Khò khè, ho, hắt hơi Chảy mũi, mắt sưng Thở rít, vươn cổ Ăn giảm, chậm lớn Đàn kéo dài không dứt Khò khè nhẹ Hắt hơi Chảy mũi, mắt sưng Ăn giảm rõ Thở há miệng, tụm đàn Chết do viêm túi khí nặng"
+  },
+  {
+    "id": "brooder-pneumonia-severe",
+    "name": "Viêm phổi ổ úm nặng (Brooder pneumonia/Aspergillosis)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Thở gấp, thở há miệng Vươn cổ, khò khè Gà tụm, chết nhanh Nhiều con chết mà không kịp tiêu chảy Khò khè nhẹ Ăn giảm Thở gấp rõ Tụm đàn Thở há miệng, ngã lăn Chết nhanh"
+  }
+]

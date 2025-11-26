@@ -1,0 +1,41 @@
+{
+  "id": "oxolinic_acid_plus",
+  "name": "Oxolinic Acid (kết hợp)",
+  "group": "antibiotic",
+  "mechanism": "Kết hợp quinolone với một số thành phần hỗ trợ giúp tăng tác dụng trên đường ruột và cải thiện tình trạng nhiễm khuẩn nhẹ - trung bình.",
+  "clinical_uses": [
+    "Tiêu chảy ở heo con, dê con.",
+    "Rối loạn tiêu hóa sau cai sữa.",
+    "Các ca tiêu chảy mức độ vừa cần hỗ trợ nhanh."
+  ],
+  "pros": [
+    "Tác dụng nhanh hơn dạng đơn chất.",
+    "Dễ dùng theo đàn.",
+    "Phù hợp cho giai đoạn đầu bệnh."
+  ],
+  "cons": [
+    "Không phù hợp cho ca nặng.",
+    "Chỉ hữu ích trong bệnh lý đường ruột.",
+    "Cần bù nước song song để hồi phục tốt."
+  ],
+  "mild_side_effects": [
+    "Phân mềm nhẹ.",
+    "Giảm ăn nhẹ.",
+    "Mệt nhẹ."
+  ],
+  "usage_recommendations": [
+    "Nên dùng sớm để đạt hiệu quả tốt nhất.",
+    "Thích hợp cho thú còn uống nước, còn bú ăn.",
+    "Luôn theo hướng dẫn sản phẩm."
+  ],
+  "when_not_to_use": [
+    "Tiêu chảy nặng, mất nước mạnh.",
+    "Thú rất yếu hoặc bỏ ăn hoàn toàn.",
+    "Không dùng để phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Neomycin.",
+    "Sulfa TMP.",
+    "Spectinomycin."
+  ]
+}

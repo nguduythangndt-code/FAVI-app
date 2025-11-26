@@ -1,0 +1,48 @@
+{
+  "name": "B-complex + Điện giải",
+
+  "mechanism": [
+    "Bù điện giải",
+    "Vitamin nhóm B hỗ trợ chuyển hoá năng lượng",
+    "Giúp cải thiện sức ăn và vận động"
+  ],
+
+  "clinical_uses": [
+    "Dê mệt, chán ăn do rối loạn tiêu hoá",
+    "Sau khi khỏi bệnh nặng",
+    "Hỗ trợ dê con suy nhược"
+  ],
+
+  "advantages": [
+    "Vừa bù nước vừa bổ sung vitamin",
+    "Cải thiện sức ăn rõ rệt",
+    "Phù hợp dùng 2-3 ngày lúc dê yếu"
+  ],
+
+  "disadvantages": [
+    "Không thay thế oresol trong tiêu chảy nặng",
+    "Một số con không thích mùi vitamin B"
+  ],
+
+  "side_effects": [
+    "Nước tiểu vàng đậm hơn - bình thường",
+    "Tăng uống nước nhẹ"
+  ],
+
+  "recommendations": [
+    "Cho uống sau ăn để hấp thu tốt hơn",
+    "Kết hợp oresol nếu tiêu chảy",
+    "Theo dõi hoạt động và mức độ tỉnh táo"
+  ],
+
+  "contraindications": [
+    "Không dùng khi dê đang nôn",
+    "Tránh dùng nếu nghi tắc ruột"
+  ],
+
+  "alternatives": [
+    "Vitamin C điện giải",
+    "Oresol",
+    "Electrolyte tổng hợp"
+  ]
+}

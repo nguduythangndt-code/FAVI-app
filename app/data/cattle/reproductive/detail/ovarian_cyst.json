@@ -1,0 +1,122 @@
+{
+  "id": "ovarian_cyst",
+  "name": "Nang buồng trứng",
+  "species": "cattle",
+  "group": "reproductive",
+
+  "summary": "Nang buồng trứng làm rối loạn động dục, bò khó lên giống hoặc lên giống liên tục nhưng không đậu thai. Bệnh tiến triển âm thầm và thường gặp ở bò sữa năng suất cao.",
+
+  "causes": [
+    "Rối loạn hormone sau đẻ",
+    "Stress, dinh dưỡng kém",
+    "Viêm tử cung kéo dài",
+    "Mất cân bằng năng lượng"
+  ],
+
+  "risk_factors": [
+    "Bò sữa năng suất cao",
+    "Chu kỳ động dục thất thường",
+    "Thiếu khoáng và vi lượng",
+    "Viêm tử cung hoặc sót nhau trước đó"
+  ],
+
+  "clinical_signs_detailed": [
+    "Lên giống liên tục nhưng không đậu thai",
+    "Hoặc chậm lên giống kéo dài",
+    "Âm hộ hơi sưng nhẹ vào kỳ động dục",
+    "Bò giảm sữa và thể trạng",
+    "Một số con hiếu động bất thường"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Chậm lên giống",
+      "Thể trạng bình thường"
+    ],
+    "moderate": [
+      "Lên giống lặp lại nhiều lần",
+      "Không đậu thai"
+    ],
+    "severe": [
+      "Không lên giống kéo dài",
+      "Gầy dần, giảm sữa"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "vitamin_bc"
+    ],
+    "alternative_drugs": [
+      "electrolyte"
+    ],
+    "note_drugs": "Thuốc hỗ trợ giúp bò hồi phục thể trạng. Điều trị nang cần thú y kiểm tra và can thiệp đúng kỹ thuật nếu có điều kiện.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Cải thiện khẩu phần dinh dưỡng",
+      "Theo dõi chu kỳ động dục",
+      "Giảm stress và giữ chuồng yên tĩnh",
+      "Không ép phối giống liên tục"
+    ],
+
+    "dose_policy": "Vitamin và điện giải dùng theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Lên giống lặp lại nhưng thể trạng còn tốt.",
+      "guideline": [
+        "Hỗ trợ vitamin và dinh dưỡng",
+        "Theo dõi chu kỳ trong 2 - 3 kỳ tiếp",
+        "Có thể cần thú y xử lý nang nếu kéo dài"
+      ]
+    },
+    "case_type_2": {
+      "description": "Không lên giống lâu ngày, thể trạng giảm.",
+      "guideline": [
+        "Cần thú y kiểm tra trực tiếp",
+        "Điều chỉnh khẩu phần",
+        "Theo dõi sát để phục hồi hormon"
+      ]
+    },
+    "note": "Nang buồng trứng ít khi nguy hiểm nhưng gây thiệt hại lớn về sinh sản."
+  },
+
+  "prevention": [
+    "Khẩu phần đầy đủ khoáng và vitamin",
+    "Giảm stress cho bò sữa giai đoạn sau đẻ",
+    "Theo dõi động dục đều đặn",
+    "Xử lý tốt các bệnh sau đẻ để tránh ảnh hưởng buồng trứng"
+  ],
+
+  "notes": [
+    "Bò sữa năng suất cao dễ bị nhất.",
+    "Lên giống liên tục nhưng không đậu thai là dấu hiệu điển hình.",
+    "Điều trị nang cần đúng kỹ thuật."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

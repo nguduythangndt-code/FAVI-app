@@ -1,0 +1,43 @@
+{
+  "id": "tylosin",
+  "name": "Tylosin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm macrolide, ức chế tổng hợp protein tại tiểu đơn vị 50S của ribosome, đặc biệt hữu ích với Mycoplasma và một số vi khuẩn Gram dương đường hô hấp.",
+  "clinical_uses": [
+    "Ho, viêm khí quản, viêm phổi mức độ nhẹ - trung bình ở heo, bò, dê.",
+    "Các bệnh hô hấp nghi ngờ do Mycoplasma ở heo, gia cầm.",
+    "Một số ca viêm tai, viêm xoang, viêm đường hô hấp trên ở chó mèo.",
+    "Các ca bệnh hô hấp chưa quá nặng, chưa cần tới kháng sinh mạnh hơn."
+  ],
+  "pros": [
+    "Hiệu quả tốt với Mycoplasma và nhiều vi khuẩn hô hấp thường gặp.",
+    "Tương đối an toàn khi dùng đúng cách.",
+    "Dùng được cho khá nhiều loài vật nuôi."
+  ],
+  "cons": [
+    "Yếu hơn với các vi khuẩn Gram âm mạnh.",
+    "Không phù hợp cho ca hô hấp đã trở nên rất nặng, suy hô hấp rõ.",
+    "Lạm dụng dễ dẫn tới giảm hiệu quả về lâu dài."
+  ],
+  "mild_side_effects": [
+    "Tiêu phân hơi mềm, kém ăn trong thời gian ngắn.",
+    "Một số con có thể mệt nhẹ, nằm nhiều hơn.",
+    "Tiêm bắp có thể gây đau, sưng nhẹ tại chỗ."
+  ],
+  "usage_recommendations": [
+    "Thích hợp làm kháng sinh đầu tay trong các ca hô hấp nhẹ - trung bình có yếu tố Mycoplasma.",
+    "Kết hợp theo dõi nhịp thở, mức độ ho, thân nhiệt trong thời gian điều trị.",
+    "Không nên kéo dài thời gian dùng mà không đánh giá lại đáp ứng.",
+    "Dùng đúng liều và thời gian theo nhãn hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Không nên dùng khi nghi ngờ nhiễm Gram âm mạnh là nguyên nhân chính.",
+    "Cẩn trọng ở con suy gan, cần đánh giá trước khi dùng.",
+    "Không dùng làm thuốc ‘đa năng’ cho mọi dạng tiêu chảy hoặc bệnh không rõ nguyên nhân."
+  ],
+  "alternative_drugs": [
+    "Tilmicosin hoặc tulathromycin cho ca hô hấp nặng hơn.",
+    "Oxytetracycline cho ca hô hấp hỗn hợp nhẹ - trung bình.",
+    "Florfenicol cho các ca viêm phổi nặng, tiến triển nhanh."
+  ]
+}

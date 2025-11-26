@@ -1,0 +1,115 @@
+{
+  "id": "haemonchus",
+  "name": "Giun Haemonchus",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Giun Haemonchus ký sinh ở dạ múi khế, hút máu gây thiếu máu, phù hàm dưới và suy kiệt, thường nặng ở bò tơ và bò nuôi trên bãi chăn thả ẩm ướt.",
+  "causes": [
+    "Bò ăn phải ấu trùng giun Haemonchus trên cỏ ẩm, quanh máng nước, vũng đọng",
+    "Mật độ ký sinh trùng trong bãi chăn cao, không luân chuyển bãi",
+    "Không tẩy giun định kỳ hoặc tẩy giun không đúng cách",
+    "Bò suy dinh dưỡng, sức đề kháng kém"
+  ],
+  "risk_factors": [
+    "Chăn thả trên bãi cỏ ẩm, gần ao hồ, mương nước",
+    "Mật độ đàn cao, bãi chăn không được nghỉ luân phiên",
+    "Bò tơ, bê hậu bị chưa có miễn dịch tốt",
+    "Khẩu phần thiếu khoáng, vitamin, thể trạng gầy yếu"
+  ],
+  "clinical_signs_detailed": [
+    "Niêm mạc mắt, miệng nhợt nhạt do thiếu máu",
+    "Phù hàm dưới (bottle jaw) mềm, ấn lõm",
+    "Gầy sút cân nhanh, lông xù, kém bóng",
+    "Ăn kém, dễ mệt, đi lại chậm chạp",
+    "Phân thường thành khuôn, đôi khi hơi sệt, sẫm màu",
+    "Giảm sản lượng sữa ở bò đang cho sữa",
+    "Ở thể nặng: suy kiệt, nằm nhiều, có thể chết đột ngột do mất máu"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm tăng trọng, thân hình hơi gầy hơn bình thường",
+      "Lông kém bóng, thi thoảng ăn giảm nhẹ",
+      "Niêm mạc mắt hơi nhạt màu nhưng khó nhận ra nếu không để ý"
+    ],
+    "moderate": [
+      "Niêm mạc mắt nhợt rõ, bò thở nhanh khi vận động",
+      "Phù hàm dưới bắt đầu xuất hiện, ấn lõm",
+      "Gầy rõ, xương sườn nổi, sản lượng sữa giảm",
+      "Hoạt động chậm chạp, ít hăng ăn"
+    ],
+    "severe": [
+      "Thiếu máu nặng, niêm mạc trắng bệch",
+      "Phù hàm dưới to rõ, có thể phù thêm vùng ngực, bụng",
+      "Suy kiệt, đứng không vững hoặc nằm nhiều",
+      "Mạch nhanh, thở gấp, dễ chết nếu không can thiệp kịp"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "albendazole",
+      "fenbendazole",
+      "ivermectin",
+      "moxidectin"
+    ],
+    "alternative_drugs": [
+      "levamisole",
+      "closantel kết hợp tẩy giun hút máu",
+      "phác đồ phối hợp tẩy giun do bác sĩ thú y chỉ định"
+    ],
+    "note_drugs": "Ưu tiên dùng một loại tẩy giun có phổ tác dụng trên giun dạ múi khế và giun hút máu. Không lạm dụng tẩy giun liên tục, nên luân phiên nhóm thuốc để giảm nguy cơ kháng thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": "bromhexine khi có khó thở, yếu mệt kéo dài"
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải uống cho bò mất nước nhẹ",
+        "alternative": "dung dịch bù nước - điện giải truyền tĩnh mạch theo chỉ định thú y"
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "multivitamin kết hợp khoáng tổng hợp"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa cho bò",
+        "alternative": "chế phẩm vi sinh đường ruột giúp phục hồi tiêu hóa"
+      }
+    },
+    "supportive_care": [
+      "Cho bò nghỉ ngơi, hạn chế làm việc nặng trong giai đoạn điều trị",
+      "Bổ sung cỏ non, thức ăn dễ tiêu, đủ nước sạch",
+      "Bổ sung khoáng - vitamin để hỗ trợ tạo máu",
+      "Cách ly tương đối bò quá yếu để dễ chăm sóc",
+      "Theo dõi niêm mạc, nhịp thở, mức độ phù hàng ngày"
+    ],
+    "dose_policy": "Dùng thuốc tẩy giun đúng theo hướng dẫn trên nhãn hoặc chỉ định của bác sĩ thú y, đủ thời gian điều trị. Không tự ý giảm liều hoặc rút ngắn liệu trình. Tuân thủ thời gian ngưng thuốc trước khi giết mổ hoặc tiêu thụ sữa."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò thiếu máu nặng, phù hàm dưới rõ, vẫn còn đứng được nhưng rất yếu, ăn rất kém.",
+      "guideline": "Gọi thú y thăm khám. Điều trị tẩy giun kết hợp truyền dịch, điện giải, vitamin và hỗ trợ tạo máu. Theo dõi sát nhịp tim, nhịp thở, điều chỉnh phác đồ theo đáp ứng của con vật."
+    },
+    "case_type_2": {
+      "description": "Bò nằm nhiều, khó đứng dậy, niêm mạc trắng bệch, thở nhanh, lạnh tai chân.",
+      "guideline": "Xem là ca cấp cứu. Gọi thú y đến ngay để truyền dịch, hỗ trợ tuần hoàn và quyết định phác đồ điều trị. Chuẩn bị chuồng khô, ấm, lót đệm dày để hạn chế loét da và hỗ trợ bò lật trở."
+    },
+    "note": "Không tự ý dùng nhiều loại tẩy giun cùng lúc cho bò yếu nặng vì có thể làm tăng gánh nặng chuyển hóa. Mọi phác đồ truyền dịch và kết hợp thuốc nên do bác sĩ thú y quyết định."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ cho đàn theo khuyến cáo khu vực",
+    "Luân chuyển bãi chăn, tránh để bò ăn cỏ ở vùng ẩm ướt quanh năm",
+    "Không để mật độ bò quá cao trên một diện tích chăn thả",
+    "Bổ sung khoáng, vitamin, nâng thể trạng để tăng sức đề kháng",
+    "Quản lý phân, tránh ứ đọng trong bãi chăn và quanh chuồng"
+  ],
+  "notes": [
+    "Haemonchus là giun hút máu mạnh, có thể gây thiếu máu nhanh dù bò chưa gầy nhiều.",
+    "Nên kiểm tra niêm mạc mắt, miệng và vùng hàm dưới định kỳ để phát hiện sớm.",
+    "Phòng là chính bằng quản lý bãi chăn và tẩy giun hợp lý."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

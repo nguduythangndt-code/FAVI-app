@@ -1,0 +1,44 @@
+{
+  "name": "Albendazole",
+  "mechanism": [
+    "Thuốc nhóm benzimidazole",
+    "Ức chế quá trình tạo vi ống (microtubules) của giun ký sinh",
+    "Làm mất khả năng vận động và hấp thu dinh dưỡng của giun → chết"
+  ],
+  "clinical_uses": [
+    "Điều trị giun đường ruột (giun đũa, giun tóc, giun móc)",
+    "Hữu ích trong nhiễm sán dây giai đoạn nhẹ",
+    "Hỗ trợ kiểm soát giun trong đàn nuôi bán chăn thả"
+  ],
+  "advantages": [
+    "Phổ rộng, giá hợp lý, dễ tìm",
+    "An toàn nếu dùng đúng hướng dẫn nhãn",
+    "Thường là lựa chọn đầu tay trong kiểm soát giun"
+  ],
+  "disadvantages": [
+    "Giảm hiệu lực tại vùng đang kháng benzimidazole",
+    "Không diệt mạnh các loại sán gan (cần thuốc chuyên biệt)",
+    "Có thể cần lập lại tẩy giun trong đàn đông"
+  ],
+  "side_effects": [
+    "Mệt nhẹ, giảm ăn 1 ngày",
+    "Tiêu phân sệt nhẹ do giun chết",
+    "Hiếm gặp: kích ứng, dị ứng"
+  ],
+  "recommendations": [
+    "Dùng đúng liều theo nhãn",
+    "Không tẩy giun khi dê đang sốc, suy kiệt",
+    "Dọn phân bẩn sau tẩy để giảm tái nhiễm",
+    "Luân chuyển thuốc sau vài đợt để giảm kháng"
+  ],
+  "contraindications": [
+    "Không dùng cho dê sắp đẻ (theo cảnh báo nhãn từng hãng)",
+    "Không dùng cho dê bệnh nặng chưa hồi sức",
+    "Không trộn chung nhiều benzimidazole cùng lúc"
+  ],
+  "alternatives": [
+    "Fenbendazole",
+    "Levamisole",
+    "Ivermectin"
+  ]
+}

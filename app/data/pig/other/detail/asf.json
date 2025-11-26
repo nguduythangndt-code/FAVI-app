@@ -1,0 +1,63 @@
+{
+  "name": "Dịch tả heo châu Phi (ASF)",
+  "summary": "Bệnh virus cực nguy hiểm, lây nhanh, gây xuất huyết nội tạng và chết nhanh; không có thuốc đặc trị.",
+  "causes": [
+    "Virus ASFV lây qua tiếp xúc trực tiếp, thức ăn thừa, dụng cụ, xe cộ, người",
+    "Tồn tại lâu trong thịt, máu và môi trường bẩn"
+  ],
+  "risk_factors": [
+    "Nhập heo không cách ly",
+    "Cho ăn thức ăn thừa chưa xử lý",
+    "Chuồng trại ẩm bẩn, biosecurity kém",
+    "Vùng đang có dịch"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao đột ngột, bỏ ăn",
+    "Lờ đờ, nằm tụm, run",
+    "Da đỏ tím ở tai, bụng, đùi",
+    "Xuất huyết lấm tấm dưới da",
+    "Nôn, tiêu chảy có thể lẫn máu",
+    "Thở khó, chết nhanh trong vài ngày"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Sốt nhẹ, ăn giảm", "Lờ đờ thoáng qua"],
+    "moderate": ["Sốt cao liên tục", "Da đỏ tím", "Tiêu chảy/nôn"],
+    "severe": ["Xuất huyết rõ", "Thở khó, đi loạng choạng", "Chết nhanh, tỷ lệ chết cao"]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": ["Oxytetracycline"],
+    "note_drugs": "Không có thuốc chuyên trị ASFV. Chỉ trợ sức - hạ sốt; kháng sinh (như Oxytetracycline) chỉ để phòng bội nhiễm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {"main": "Meloxicam", "alternative": ["Flunixin"]},
+      "electrolyte": {"main": "ORS", "alternative": ["điện giải khoáng tổng hợp"]},
+      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+    },
+    "supportive_care": [
+      "Cách ly ngay con nghi bệnh",
+      "Giữ ấm, giảm stress",
+      "Vệ sinh sát trùng khu vực nuôi",
+      "Báo thú y địa phương để xử lý dịch"
+    ],
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo sốt cao, xuất huyết",
+      "guideline": ["Cách ly khẩn", "Trợ sức - điện giải", "Báo thú y xử lý dịch"]
+    },
+    "case_type_2": {
+      "description": "Heo nằm liệt, thở khó",
+      "guideline": ["Không vận chuyển bán chạy", "Tiêu hủy theo quy định", "Tổng vệ sinh sát trùng"]
+    },
+    "note": "ASF là bệnh bắt buộc báo cáo và xử lý theo quy định phòng dịch."
+  },
+  "prevention_list": [
+    "Biosecurity tuyệt đối, hạn chế người/xe vào trại",
+    "Không dùng thức ăn thừa chưa xử lý",
+    "Cách ly heo mới 2-3 tuần",
+    "Sát trùng định kỳ chuồng và dụng cụ"
+  ],
+  "notes": ["Không tự ý bán chạy heo nghi ASF.", "Phát hiện sớm giúp giảm thiệt hại đàn."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Xử lý dịch bắt buộc theo hướng dẫn thú y."
+}

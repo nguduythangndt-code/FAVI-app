@@ -1,0 +1,41 @@
+{
+  "id": "norfloxacin",
+  "name": "Norfloxacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh fluoroquinolone, ức chế enzyme liên quan tới quá trình sao chép DNA của vi khuẩn, hỗ trợ điều trị các vấn đề đường ruột mức độ trung bình.",
+  "clinical_uses": [
+    "Tiêu chảy ở dê, heo, bê nghé mức độ vừa.",
+    "Nhiễm khuẩn đường tiết niệu nhẹ.",
+    "Rối loạn tiêu hóa kéo dài nghi do vi khuẩn."
+  ],
+  "pros": [
+    "Hiệu lực tốt trên các vi khuẩn Gram âm.",
+    "Thích hợp khi các lựa chọn nhẹ như neomycin chưa đủ.",
+    "Hấp thu tương đối tốt."
+  ],
+  "cons": [
+    "Không phải lựa chọn cho ca quá nặng.",
+    "Không ưu tiên dùng cho thú non rất nhỏ.",
+    "Cần dùng đúng thời gian, tránh lạm dụng."
+  ],
+  "mild_side_effects": [
+    "Giảm ăn nhẹ.",
+    "Phân mềm.",
+    "Hơi mệt."
+  ],
+  "usage_recommendations": [
+    "Nên dùng khi tiêu chảy không cải thiện với thuốc nhẹ.",
+    "Kết hợp bù nước - điện giải để hồi phục nhanh hơn.",
+    "Dùng theo hướng dẫn sản phẩm hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Tiêu chảy nặng, mất nước cấp.",
+    "Bệnh kéo dài nhiều ngày không đáp ứng.",
+    "Không dùng để phòng bệnh theo đàn."
+  ],
+  "alternative_drugs": [
+    "Ciprofloxacin.",
+    "Enrofloxacin.",
+    "Sulfonamide TMP."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "allergy",
+  "name": "Dị ứng ở dê",
+  "species": "goat",
+  "group": "other",
+
+  "summary": "Dị ứng xảy ra khi dê phản ứng quá mức với thức ăn, thuốc, vắc xin hoặc côn trùng đốt. Biểu hiện từ nhẹ (nổi mẩn) đến nặng (phù mặt, khó thở).",
+
+  "causes": [
+    "Thức ăn lạ.",
+    "Thuốc hoặc vắc xin.",
+    "Côn trùng đốt.",
+    "Hóa chất trong chuồng."
+  ],
+
+  "risk_factors": [
+    "Dê con.",
+    "Dê mới thay khẩu phần.",
+    "Tiêm vắc xin lần đầu."
+  ],
+
+  "clinical_signs_detailed": [
+    "Mẩn đỏ, nổi cục nhỏ.",
+    "Ngứa, cọ xát.",
+    "Sưng môi - mặt.",
+    "Khó thở (phản vệ nặng)."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Mẩn đỏ nhẹ.",
+      "Ngứa."
+    ],
+    "moderate": [
+      "Sưng môi, sưng mặt.",
+      "Khó chịu, bỏ ăn."
+    ],
+    "severe": [
+      "Khó thở.",
+      "Phù thanh quản.",
+      "Nguy cơ tử vong."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Thuốc kháng dị ứng (dùng theo thú y)",
+      "Vitamin C"
+    ],
+    "alternative_drugs": [
+      "Điện giải",
+      "B-complex"
+    ],
+    "note_drugs": [
+      "Phản vệ nặng cần thú y ngay lập tức."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS"
+      ],
+      "vitamin": [
+        "Vitamin C"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Tách dê khỏi tác nhân gây dị ứng.",
+      "Giữ chuồng thông thoáng.",
+      "Theo dõi 2-3 giờ đầu."
+    ],
+    "dose_policy": [
+      "Thuốc dị ứng phải dùng đúng theo hướng dẫn thú y.",
+      "Không dùng quá liều."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dị ứng vừa - sưng mặt nhưng thở bình thường.",
+      "guideline": [
+        "Vitamin C.",
+        "Điện giải.",
+        "Theo dõi 2 giờ."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dấu hiệu sốc phản vệ.",
+      "guideline": [
+        "Thú y khẩn cấp.",
+        "Thuốc chống dị ứng + hỗ trợ hô hấp.",
+        "Hồi sức."
+      ]
+    },
+    "note": "Phản vệ diễn biến trong phút - xử lý càng nhanh càng tốt."
+  },
+
+  "prevention": [
+    "Thay khẩu phần từ từ.",
+    "Theo dõi sau tiêm vắc xin.",
+    "Giữ chuồng sạch, tránh hóa chất mạnh."
+  ],
+
+  "notes": [
+    "Dị ứng nhẹ khỏi nhanh.",
+    "Phản vệ nặng rất nguy hiểm."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

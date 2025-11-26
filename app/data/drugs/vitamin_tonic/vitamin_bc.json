@@ -1,0 +1,48 @@
+{
+  "name": "Vitamin BC (B-complex + C)",
+
+  "mechanism": [
+    "Vitamin nhóm B hỗ trợ chuyển hoá năng lượng",
+    "Vitamin C giúp tăng đề kháng và chống oxy hoá",
+    "Giúp cải thiện ăn uống và sức bền"
+  ],
+
+  "clinical_uses": [
+    "Dê mệt, kém ăn sau bệnh",
+    "Stress vận chuyển hoặc thay đổi thời tiết",
+    "Giai đoạn phục hồi sau tiêu chảy hoặc viêm phổi"
+  ],
+
+  "advantages": [
+    "Phủ được cả chuyển hoá và đề kháng",
+    "Phù hợp dùng hỗ trợ nhiều bệnh khác nhau",
+    "Tương đối an toàn nếu dùng đúng"
+  ],
+
+  "disadvantages": [
+    "Không thay thế thuốc điều trị chính",
+    "Hiệu quả chậm nếu chỉ dùng một mình"
+  ],
+
+  "side_effects": [
+    "Nước tiểu vàng đậm hơn - bình thường",
+    "Hiếm: tiêu hoá hơi lỏng lúc đầu"
+  ],
+
+  "recommendations": [
+    "Dùng theo đợt ngắn trong giai đoạn suy yếu",
+    "Kết hợp dinh dưỡng và nước uống đầy đủ",
+    "Theo dõi mức độ ăn uống và vận động"
+  ],
+
+  "contraindications": [
+    "Không dùng nếu dê đang sốc nặng chưa xử lý",
+    "Thận trọng ở dê suy gan thận nặng"
+  ],
+
+  "alternatives": [
+    "Multivitamin tổng hợp",
+    "Vitamin C",
+    "B-complex + điện giải"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "amoxicillin",
+  "name": "Amoxicillin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm beta-lactam, ức chế tổng hợp vách tế bào vi khuẩn Gram dương và một phần Gram âm, làm vi khuẩn bị vỡ và chết.",
+  "clinical_uses": [
+    "Nhiễm trùng hô hấp mức độ nhẹ đến trung bình ở dê, bò, heo, gia cầm.",
+    "Nhiễm trùng tiêu hoá, nhiễm khuẩn rốn, nhiễm trùng da - mô mềm ở thú non.",
+    "Hỗ trợ điều trị viêm tử cung, viêm vú thể nhẹ - trung bình khi vi khuẩn còn nhạy."
+  ],
+  "pros": [
+    "Phổ kháng khuẩn rộng, an toàn, quen thuộc, dễ tìm trên thị trường.",
+    "Phù hợp cho hộ chăn nuôi nhỏ vì ít tác dụng phụ nặng khi dùng đúng.",
+    "Có thể dùng cho nhiều loài: dê, bò, heo, gia cầm theo hướng dẫn thú y."
+  ],
+  "cons": [
+    "Dễ bị kháng nếu dùng lặp lại, kéo dài hoặc dùng liều không đủ.",
+    "Hiệu lực yếu hơn ở các ca nặng, nhiễm khuẩn huyết, viêm phổi nặng.",
+    "Không phải lựa chọn tối ưu khi nghi ngờ vi khuẩn Gram âm mạnh."
+  ],
+  "mild_side_effects": [
+    "Có thể gây chán ăn, tiêu phân hơi lỏng ở một số con mẫn cảm.",
+    "Đôi khi gây phản ứng dị ứng nhẹ: nổi mẩn, ngứa, khó chịu.",
+    "Tiêm bắp có thể hơi sưng, đau nhẹ tại chỗ tiêm."
+  ],
+  "usage_recommendations": [
+    "Ưu tiên dùng cho các ca nhiễm trùng nhẹ - trung bình, chưa điều trị kháng sinh trước đó.",
+    "Không tự ý kết hợp nhiều kháng sinh nếu không có tư vấn của thú y.",
+    "Theo dõi phân, ăn uống và nhiệt độ trong quá trình dùng thuốc.",
+    "Luôn dùng theo liều ghi trên nhãn sản phẩm hoặc theo hướng dẫn thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con có tiền sử dị ứng với penicillin hoặc beta-lactam.",
+    "Thận trọng ở con suy thận, suy gan hoặc mất nước nặng.",
+    "Không dùng kéo dài nhiều đợt liên tiếp chỉ vì ‘quen tay’, dễ tạo kháng thuốc."
+  ],
+  "alternative_drugs": [
+    "Ampicillin hoặc penicillin_strepto cho nhiễm trùng tương tự.",
+    "Ceftiofur hoặc florfenicol cho các ca nặng hơn hoặc đáp ứng kém.",
+    "Oxytetracycline khi cần phổ rộng hơn ở thú lớn."
+  ]
+}

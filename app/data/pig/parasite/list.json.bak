@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ascaris",
+    "name": "Giun đũa",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Heo ho khan từng cơn do ấu trùng di chuyển Ăn giảm, phân sống, có giun trong phân Gầy nhanh, bụng tóp, lông xỉu Chậm lớn kéo dài dù ăn khá Heo có thể nôn ra giun khi nhiễm nặng Ho nhẹ từng lúc Phân mềm, hơi sống Ho nhiều, ăn giảm Phân sống rõ, bụng tóp Nôn ra giun hoặc giun theo phân Gầy nhanh, chậm lớn kéo dài"
+  },
+  {
+    "id": "strongyloides",
+    "name": "Giun lươn",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy từng đợt, phân nhầy Heo ngứa nhẹ, hay cọ mình vào tường Chậm lớn, bụng tóp Lông dựng, ít chạy nhảy Heo con uống sữa ít và hay nằm Phân hơi nhầy Heo cọ nhẹ Tiêu chảy nhầy kéo dài Heo con lớn chậm rõ Tiêu chảy nhiều lần Heo rất gầy, da nhăn Mệt và ít bú (ở heo con)"
+  },
+  {
+    "id": "trichuris",
+    "name": "Giun tóc",
+    "group": "parasite",
+    "severityLevel": 1,
+    "searchText": "Tiêu chảy kéo dài, phân nhầy có máu Heo gầy nhanh, lông xỉu Chậm lớn, bụng tóp Heo nằm nhiều, ít chạy nhảy Mất nước nhẹ kéo dài Phân hơi nhầy Heo giảm ăn nhẹ Tiêu chảy nhầy máu Gầy rõ, lông xấu Tiêu chảy kéo dài nhiều ngày Phân có máu đỏ hoặc sẫm Heo rất gầy, mất nước"
+  },
+  {
+    "id": "lungworm",
+    "name": "Giun phổi",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Ho khan kéo dài Thở nặng, thở bụng Heo lớn chậm, ăn giảm Lông xỉu, mắt lờ đờ Có thể nghe ran khi ghép viêm phổi Ho nhẹ từng lúc Heo ăn giảm ít Ho kéo dài, thở mệt Gầy dần Thở khó rõ, nằm nhiều Heo rất yếu Dễ ghép viêm phổi và chết"
+  },
+  {
+    "id": "sarcoptes",
+    "name": "Ve, ghẻ Sarcoptes",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Heo ngứa nhiều, cọ mạnh vào tường Tai, cổ, vai có vảy trắng dày Da dày, nứt, sần sùi Heo giảm ăn, chậm lớn Heo nằm nhiều do mệt Ngứa nhẹ vùng tai và cổ Có vảy mỏng Ngứa nhiều, cọ liên tục Vảy trắng dày hơn Da dày, nứt, mảng lớn Heo rất mệt, chậm lớn rõ"
+  },
+  {
+    "id": "lice",
+    "name": "Chấy rận",
+    "group": "parasite",
+    "severityLevel": 1,
+    "searchText": "Heo ngứa, cọ liên tục vào tường hoặc nền Lông xơ, rối, dễ rụng Có thể nhìn thấy chấm nhỏ di chuyển trên da và lông Heo mệt, ăn kém, chậm lớn Heo thường khó chịu, ngủ không yên Ngứa nhẹ Heo cọ vài lần trong ngày Ngứa rõ, cọ nhiều Lông xấu, da xám Ngứa dữ dội, heo mất ngủ Lông rụng từng mảng Gầy, chậm lớn rõ rệt"
+  },
+  {
+    "id": "tapeworm",
+    "name": "Sán dây",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Chậm lớn kéo dài Phân sống, có thể thấy đốt sán trắng Heo ăn nhiều nhưng không tăng cân Lông xỉu, da nhạt Thiếu máu nhẹ nếu nhiễm nặng Chậm lớn nhẹ Phân đôi lúc hơi sống Phân sống rõ, tăng trọng kém Có thể thấy đốt sán theo phân Heo rất chậm lớn Gầy, lông xấu Thiếu máu nhẹ kéo dài"
+  },
+  {
+    "id": "liver_fluke",
+    "name": "Sán lá",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Gầy kéo dài, lông xấu Niêm mạc nhợt, có thể vàng nhẹ Ăn giảm, mệt nhiều Bụng hơi to, sờ vùng gan có thể đau Một số con tiêu chảy nhẹ từng đợt Ăn giảm nhẹ Lông bớt bóng Gầy rõ, lông xỉu Niêm mạc nhợt Yếu, mệt nhiều Có thể vàng da nhẹ Chậm lớn nặng"
+  },
+  {
+    "id": "myiasis",
+    "name": "Ấu trùng ruồi, côn trùng gây viêm da",
+    "group": "parasite",
+    "severityLevel": 1,
+    "searchText": "Vùng da viêm, ướt, có dịch hôi Thấy ấu trùng trắng nhỏ di chuyển trong vết thương Heo rất ngứa và đau, cắn hoặc cọ vào chỗ tổn thương Giảm ăn, mệt, nằm nhiều Có thể sốt nhẹ nếu nhiễm trùng nặng Vết viêm nhỏ, ít dịch Heo cọ nhẹ vào chỗ đau Vết loét có dịch hôi Có thể thấy vài ấu trùng Heo mệt, giảm ăn Vết loét rộng, nhiều ấu trùng Mùi hôi rõ, da quanh vùng tổn thương sưng Heo rất đau và yếu"
+  }
+]

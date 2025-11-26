@@ -1,0 +1,141 @@
+{
+  "id": "pasteurellosis",
+  "name": "Viêm phổi - màng phổi do Pasteurella",
+  "species": "cattle",
+  "group": "respiratory",
+
+  "summary": "Bệnh viêm phổi - màng phổi cấp do vi khuẩn Pasteurella multocida. Thường bùng phát sau khi đàn bò bị stress, vận chuyển xa, thay đổi thời tiết hoặc nhốt chuồng bí. Diễn tiến nhanh, nếu không xử lý sớm có thể chết đột ngột.",
+
+  "causes": [
+    "Nhiễm vi khuẩn Pasteurella multocida ở đường hô hấp",
+    "Stress do vận chuyển, thay đổi thời tiết, ghép đàn, thay khẩu phần đột ngột",
+    "Chuồng trại ẩm, bí khí, thông gió kém làm suy giảm sức đề kháng đường hô hấp",
+    "Bội nhiễm sau các bệnh virus hô hấp khác"
+  ],
+
+  "risk_factors": [
+    "Vận chuyển đường xa, nhốt xe lâu, không nghỉ",
+    "Mật độ nuôi dày, chuồng ẩm, gió lùa hoặc bí khí",
+    "Đàn bê cai sữa, sức đề kháng yếu",
+    "Chưa được tiêm phòng các bệnh hô hấp hoặc tiêm phòng không đều",
+    "Thay đổi khẩu phần đột ngột, thiếu khoáng - vitamin kéo dài"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt cao, bỏ ăn hoặc ăn rất ít, mệt mỏi, lù rù",
+    "Thở nhanh, thở gấp, dùng nhiều cơ bụng khi thở",
+    "Ho khan lúc đầu, sau ho ướt, ho thành tràng khi vận động",
+    "Chảy nước mũi đục, có thể đặc, dính quanh lỗ mũi",
+    "Đầu và cổ vươn ra để dễ thở, thường đứng tách đàn",
+    "Nghe phổi có tiếng ran ướt, ran nổ, vùng đáy phổi gõ đục",
+    "Giảm sản lượng sữa rõ rệt ở bò sữa",
+    "Trường hợp nặng có thể thở há mồm, tím niêm mạc, ngã vật và chết nhanh"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ, thân nhiệt hơi tăng",
+      "Giảm ăn nhẹ, hoạt động chậm lại",
+      "Ho lác đác, đôi khi sau vận động hoặc thay đổi thời tiết",
+      "Thở nhanh hơn bình thường nhưng chưa rõ khó thở"
+    ],
+    "moderate": [
+      "Sốt cao, mắt đỏ, kém linh hoạt",
+      "Ho nhiều hơn, đặc biệt khi lùa đi lại hoặc đổi tư thế",
+      "Thở gấp, dùng nhiều cơ bụng, đứng vươn cổ để thở",
+      "Chảy nước mũi đục, nhớt, có thể dính quanh mũi",
+      "Giảm sữa rõ rệt, xuống thể trạng nhanh"
+    ],
+    "severe": [
+      "Thở rất khó, thở há mồm, có thể nghe tiếng thở khò khè từ xa",
+      "Niêm mạc miệng, mắt tím tái do thiếu oxy",
+      "Con vật đứng không vững, hay nằm, khó chịu khi di chuyển",
+      "Có thể vật vã, ngã vật, thở dốc rồi chết nhanh",
+      "Một số trường hợp chết đột ngột mà chưa kịp thấy ho nhiều"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "ceftiofur"
+    ],
+    "note_drugs": "Ưu tiên chọn 1 kháng sinh chính và dùng đủ thời gian. Tránh phối nhiều loại kháng sinh mạnh cùng lúc để không làm nặng gan thận và khó đánh giá đáp ứng điều trị.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": "dung dịch bù nước - điện giải khác"
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": "chế phẩm hỗ trợ tiêu hóa khác"
+      }
+    },
+
+    "supportive_care": [
+      "Nhốt bò bệnh ở ô riêng, chuồng khô, sạch, thoáng nhưng tránh gió lùa trực tiếp",
+      "Chuẩn bị đủ nước sạch, có thể pha thêm điện giải để bò uống từng ít nhiều lần",
+      "Giảm di chuyển, không lùa chạy, không cho làm việc nặng trong thời gian bệnh",
+      "Giảm stress: hạn chế tiếng ồn, không đổi đàn, không vận chuyển bò đang sốt hoặc khó thở",
+      "Theo dõi thân nhiệt, nhịp thở, mức độ ăn uống mỗi ngày để đánh giá đáp ứng điều trị"
+    ],
+
+    "dose_policy": "Kháng sinh và các thuốc hỗ trợ dùng theo liều khuyến cáo trên nhãn hoặc theo hướng dẫn của bác sĩ thú y. Không tự ý tăng liều hoặc rút ngắn liệu trình khi chưa tham khảo ý kiến chuyên môn."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bê hoặc bò trẻ sốt cao, thở gấp nhưng vẫn còn đứng được, còn phản ứng với môi trường xung quanh.",
+      "guideline": [
+        "Bắt đầu kháng sinh phổ rộng (ví dụ oxytetracycline hoặc florfenicol) càng sớm càng tốt sau khi phát hiện",
+        "Kết hợp thuốc kháng viêm giảm đau (flunixin hoặc meloxicam) để giảm đau và dễ thở hơn",
+        "Bù dịch và điện giải bằng đường uống hoặc truyền chậm nếu con vật uống kém",
+        "Theo dõi sát nhịp thở, thân nhiệt, mức độ ăn uống trong 24-48 giờ đầu; nếu không cải thiện cần mời thú y thăm khám trực tiếp"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò thở rất khó, thở há mồm, tím niêm mạc, nằm nhiều, khó chịu khi cố gắng đứng dậy.",
+      "guideline": [
+        "Xử lý như trường hợp cấp cứu: ưu tiên liên hệ bác sĩ thú y tại chỗ để đánh giá phổi và tình trạng tuần hoàn",
+        "Không cố vận chuyển bò đang thở rất nặng vì dễ làm suy hô hấp và chết trên đường",
+        "Truyền dịch và điện giải chậm, theo dõi tim mạch nếu có điều kiện",
+        "Trong thực tế chăn nuôi, với con quá nặng, tiên lượng xấu, cần cân nhắc phương án loại thải sớm để giảm thiệt hại kéo dài"
+      ]
+    },
+    "note": "Bò bị viêm phổi nặng nếu không đáp ứng với kháng sinh sau 2-3 ngày điều trị tích cực thì tiên lượng thường xấu. Cần ghi chép lại ca bệnh, thuốc đã dùng và thời gian đáp ứng để rút kinh nghiệm cho đàn sau."
+  },
+
+  "prevention": [
+    "Quản lý tốt khâu vận chuyển: không nhốt quá dày, có nghỉ giữa chặng, cho uống nước đầy đủ",
+    "Giữ chuồng trại khô, thoáng, tránh ẩm lạnh, hạn chế gió lùa trực tiếp vào bò",
+    "Không nhốt quá đông trong cùng một ô, sắp xếp mật độ hợp lý",
+    "Bổ sung khoáng - vitamin cho bê, bò hậu bị, đặc biệt giai đoạn chuyển mùa",
+    "Xem xét chương trình tiêm phòng các bệnh hô hấp phù hợp điều kiện trại",
+    "Cách ly và theo dõi bò mới nhập đàn trước khi cho nhập chung"
+  ],
+
+  "notes": [
+    "Bệnh thường không đi một mình mà nằm trong hội chứng bệnh hô hấp phức hợp, có thể kèm tổn thương do virus khác.",
+    "Nếu thấy cả đàn ho đồng loạt, chảy nước mũi trong, mắt chảy nước, cần nghĩ thêm đến các bệnh virus hô hấp rồi đánh giá lại đường điều trị.",
+    "Kháng sinh chỉ kiểm soát phần nhiễm khuẩn, không thay thế được việc cải thiện chuồng trại và giảm stress cho đàn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Quyết định chẩn đoán và điều trị cần dựa trên khám thực tế và tư vấn của bác sĩ thú y."
+}

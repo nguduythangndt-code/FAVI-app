@@ -1,0 +1,108 @@
+{
+  "id": "brucella_abortion",
+  "name": "Sảy thai truyền nhiễm (Brucella)",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Brucella gây sảy thai cuối kỳ, thai chết lưu, dịch tiết hôi và nái suy kiệt dần. Bệnh rất dễ lây trong đàn.",
+  "causes": [
+    "Nhiễm vi khuẩn Brucella suis",
+    "Lây qua dịch tiết sinh dục, nhau thai, thai chết",
+    "Chuồng bẩn, không sát trùng sau các ca sảy thai"
+  ],
+  "risk_factors": [
+    "Đàn nái đông, giao phối không kiểm soát",
+    "Nhập heo giống không xét nghiệm",
+    "Chuồng ẩm bẩn, nhiều dịch tiết tồn đọng",
+    "Không sát trùng tai chuồng sau ca đẻ"
+  ],
+  "clinical_signs_detailed": [
+    "Sảy thai cuối kỳ, thai chết lưu",
+    "Dịch nhầy hôi từ âm hộ",
+    "Nái mệt, ăn giảm nhiều",
+    "Sốt nhẹ hoặc không rõ sốt",
+    "Sữa giảm, heo con yếu"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Hơi giảm ăn",
+      "Dịch nhầy ít"
+    ],
+    "moderate": [
+      "Sảy thai lẻ tẻ",
+      "Dịch hôi, nái mệt"
+    ],
+    "severe": [
+      "Sảy thai hàng loạt",
+      "Nái suy, bỏ ăn",
+      "Heo con theo mẹ yếu hoặc chết"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "Doxycycline",
+      "Amoxicillin"
+    ],
+    "note_drugs": "Kháng sinh chỉ hỗ trợ giảm nhiễm trùng. Brucella khó trị dứt điểm, cần loại thải heo nhiễm mạn.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Cách ly ngay nái sảy thai",
+      "Thu gom và xử lý thai, nhau đúng cách",
+      "Sát trùng chuồng nhiều lần",
+      "Theo dõi các nái khác trong ô"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nái sảy thai nhưng còn ăn và đứng vững.",
+      "guideline": [
+        "Kháng sinh hỗ trợ",
+        "Sát trùng tai chuồng",
+        "Theo dõi dịch tiết 3 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Nái sốt, bỏ ăn, dịch hôi nhiều.",
+      "guideline": [
+        "Điều trị hỗ trợ tích cực",
+        "Cách ly xa đàn",
+        "Cân nhắc loại thải nếu nghi nhiễm mạn"
+      ]
+    },
+    "note": "Brucella là bệnh nguy hiểm, cần báo thú y địa phương nếu bùng phát."
+  },
+  "prevention": [
+    "Nhập giống có xét nghiệm âm tính",
+    "Sát trùng chuồng đẻ thường xuyên",
+    "Không dùng chung dụng cụ sinh sản cho nhiều nái"
+  ],
+  "notes": [
+    "Bệnh có nguy cơ lây sang người, cần dùng đồ bảo hộ.",
+    "Nếu sảy thai lặp lại nhiều lần, nên loại nái."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

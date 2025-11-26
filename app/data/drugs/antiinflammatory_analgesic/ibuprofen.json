@@ -1,0 +1,40 @@
+{
+  "name": "Ibuprofen",
+  "mechanism": [
+    "NSAID ức chế tổng hợp prostaglandin",
+    "Giảm đau, hạ sốt, chống viêm"
+  ],
+  "clinical_uses": [
+    "Thường dùng cho người, ít dữ liệu chính thức trên dê và gia súc",
+    "Một số tài liệu có đề cập nhưng không phải lựa chọn chuẩn trong thú y sản xuất"
+  ],
+  "advantages": [
+    "Giảm đau, hạ sốt tốt trên người",
+    "Có thể được nhắc tới trong một số tình huống thiếu thuốc, nhưng không phải ưu tiên"
+  ],
+  "disadvantages": [
+    "Thiếu dữ liệu chuẩn về an toàn và tồn dư trên dê nuôi lấy thịt / sữa",
+    "Nguy cơ kích ứng tiêu hoá, ảnh hưởng gan, thận nếu dùng sai",
+    "Không được xem là lựa chọn thường quy trong thực hành thú y cho dê"
+  ],
+  "side_effects": [
+    "Giảm ăn, khó chịu đường tiêu hoá",
+    "Nguy cơ loét tiêu hoá, tổn thương thận nếu lạm dụng",
+    "Có thể làm nặng thêm tình trạng mất nước, suy thận tiềm ẩn"
+  ],
+  "recommendations": [
+    "Chỉ cân nhắc sử dụng khi có chỉ định rõ ràng của bác sĩ thú y và không còn lựa chọn phù hợp hơn",
+    "Ưu tiên các NSAID đã có dữ liệu rõ ràng trên gia súc như flunixin, ketoprofen, meloxicam",
+    "Luôn tuân thủ nhãn thuốc / tư vấn thú y, không tự ý dùng theo liều của người"
+  ],
+  "contraindications": [
+    "Không tự ý dùng cho dê chỉ dựa trên kinh nghiệm dùng người",
+    "Tránh dùng trên dê mất nước, suy thận, loét tiêu hoá",
+    "Không dùng kéo dài hoặc lặp lại nhiều đợt"
+  ],
+  "alternatives": [
+    "Flunixin, Ketoprofen, Meloxicam - NSAID được dùng phổ biến hơn trên gia súc",
+    "Paracetamol - hỗ trợ hạ sốt nhẹ hơn với quản lý an toàn",
+    "Bù nước - điện giải, cải thiện môi trường, xử lý nguyên nhân bệnh"
+  ]
+}

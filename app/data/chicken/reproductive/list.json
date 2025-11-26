@@ -1,0 +1,44 @@
+[
+  {
+    "id": "egg-peritonitis",
+    "name": "Viêm phúc mạc do trứng",
+    "group": "reproductive",
+    "level": 3,
+    "searchText": "Giảm đẻ hoặc bỏ đẻ, trước đó có thể đẻ trứng vỏ mỏng, méo Bụng to, chướng, sờ mềm, gà đi lại nặng nề Gà ủ rũ, lông xấu, giảm ăn, thở nhanh khi bệnh tiến triển Có thể thấy dáng ngồi xổm, ít leo lên máng đậu Trường hợp nặng có thể chết do nhiễm trùng toàn thân Giảm đẻ nhẹ, thỉnh thoảng có trứng vỏ mỏng hoặc méo Gà hơi nặng nề, nhưng vẫn ăn uống tương đối Bụng to rõ, gà đi nặng nề, ít hoạt động Giảm đẻ hoặc bỏ đẻ, lông xấu, kém linh hoạt Ăn kém, thở nhanh hơn khi vận động Bụng rất to, gà khó đi, ngồi nhiều, thở nặng Gà suy, gầy phần trên thân nhưng bụng lớn Có thể chết do viêm phúc mạc nặng và nhiễm trùng toàn thân"
+  },
+  {
+    "id": "salpingitis",
+    "name": "Viêm ống dẫn trứng",
+    "group": "reproductive",
+    "level": 2,
+    "searchText": "Giảm đẻ rõ, trứng méo, vỏ nhăn, mỏng hoặc không đều Lông vùng hậu môn bẩn, dính phân hoặc dịch Gà ủ rũ, kém linh hoạt, ăn giảm, gầy dần Có thể có trứng dị dạng, trứng không vỏ, trứng có máu Trường hợp nặng: bụng to nhẹ, có dịch, gà suy yếu Giảm đẻ nhẹ, một số trứng vỏ hơi xấu Gà vẫn ăn uống tương đối, khó nhận nếu không ghi chép sản lượng Giảm đẻ rõ, nhiều trứng méo, vỏ mỏng, trứng không vỏ Gà kém linh hoạt, lông vùng hậu môn bẩn hơn Gầy dần, thể trạng xấu Gần như bỏ đẻ, bụng có thể to nhẹ do dịch hoặc trứng bất thường Gà rất suy, ăn ít, đi lại chậm Có thể chết nếu nhiễm trùng lan rộng"
+  },
+  {
+    "id": "egg-binding",
+    "name": "Kẹt trứng (đẻ khó)",
+    "group": "reproductive",
+    "level": 3,
+    "searchText": "Gà tách đàn, ngồi xổm, rướn người như đang cố đẻ Đi lại khó khăn, ít di chuyển, đôi khi run hoặc thở nhanh Có thể sờ vùng bụng gần cloaca thấy khối cứng nghi trứng Không đẻ được, bỏ ăn, ủ rũ rõ Nếu kéo dài, gà suy nhanh, có thể tử vong Gà lâu ra trứng hơn bình thường, nhưng vẫn đẻ được sau đó Có biểu hiện hơi căng thẳng khi đẻ Gà ngồi xổm lâu, rướn liên tục, không ra trứng Ăn kém, ủ rũ, ít di chuyển, thở nhanh hơn Kẹt trứng kéo dài, gà rất yếu, nằm nhiều Có thể chảy dịch, nhiễm trùng khu vực cloaca Nguy cơ tử vong cao nếu không được can thiệp kịp thời"
+  },
+  {
+    "id": "prolapse-oviduct",
+    "name": "Sa ống dẫn trứng, sa huyệt",
+    "group": "reproductive",
+    "level": 3,
+    "searchText": "Thấy một khối đỏ, ướt, lòi ra ở vùng cloaca Gà đau, ít di chuyển, thường ngồi nhiều Các con khác có xu hướng mổ vào khối đỏ gây chảy máu Giảm hoặc bỏ đẻ Nếu không xử lý, dễ nhiễm trùng nặng, hoại tử và chết Vùng cloaca hơi phồng, đỏ, lồi nhẹ sau khi đẻ, rồi tự co lại Gà vẫn hoạt động tương đối bình thường Khối đỏ lòi ra rõ, co lại chậm hoặc không tự co hết Gà đau, đi lại khó, giảm ăn, giảm đẻ Khối lòi ra lớn, khô, bẩn hoặc có vết mổ, chảy máu Gà suy, rất yếu, có nguy cơ nhiễm trùng và chết Các con khác liên tục mổ vào vùng tổn thương"
+  },
+  {
+    "id": "egg-drop-syndrome",
+    "name": "Hội chứng giảm đẻ",
+    "group": "reproductive",
+    "level": 2,
+    "searchText": "Sản lượng trứng giảm nhanh hoặc giảm dần nhưng kéo dài Trứng nhỏ hơn, vỏ mỏng, vỏ nhăn, màu vỏ không đều Đàn có thể vẫn ăn bình thường hoặc hơi giảm ăn Một số con gầy dần nếu kèm bệnh sinh sản khác Không phải lúc nào cũng thấy dấu hiệu bệnh rõ ràng trên từng con Giảm đẻ nhẹ so với mức mong đợi theo tuổi đàn Trứng có vài quả vỏ hơi xấu, nhưng khó nhận nếu không ghi chép Giảm đẻ rõ, trứng nhỏ, vỏ mỏng, màu vỏ xấu Một số con lông xấu, thể trạng kém hơn Nếu do bệnh, có thể kèm dấu hiệu ủ rũ, giảm ăn Giảm đẻ mạnh, khó kéo đàn trở lại mức cũ Trứng xấu kéo dài, vỏ mỏng, dễ vỡ, tỉ lệ trứng loại nhiều Đàn gầy, lông xấu nếu kèm các bệnh sinh sản và dinh dưỡng"
+  },
+  {
+    "id": "reproductive-colibacillosis",
+    "name": "Nhiễm E. coli đường sinh sản",
+    "group": "reproductive",
+    "level": 3,
+    "searchText": "Giảm đẻ, trứng xấu, trứng méo, vỏ không đều, trứng không vỏ Gà ủ rũ, ăn kém, gầy dần, lông xấu Lông vùng hậu môn bẩn, có dịch, mùi hôi nhẹ Có thể kèm viêm phúc mạc, bụng to, gà đi nặng nề Chết rải rác nếu viêm lan rộng và không được xử lý Giảm đẻ nhẹ, một số trứng xấu hơn bình thường Khó nhận nếu không theo dõi kỹ sản lượng và chất lượng trứng Giảm đẻ rõ, nhiều trứng méo, vỏ mỏng, trứng không vỏ Gà kém linh hoạt, ăn giảm, lông vùng hậu môn bẩn Gầy dần, thể trạng kém hơn đàn khỏe Đàn giảm đẻ nặng, có thể bỏ đẻ ở nhiều con Bụng một số con to, nghi viêm phúc mạc kèm theo Chết rải rác, gà rất suy, khó hồi phục"
+  }
+]

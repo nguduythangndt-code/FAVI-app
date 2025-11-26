@@ -1,0 +1,41 @@
+{
+  "id": "cefaclor",
+  "name": "Cefaclor",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh cephalosporin thế hệ 2, mở rộng phổ trên vi khuẩn Gram âm tốt hơn cephalexin. Thường dùng trong các ca nhiễm trùng mô mềm hoặc hô hấp nhẹ - trung bình.",
+  "clinical_uses": [
+    "Viêm da - mô mềm lan rộng hơn mức nhẹ.",
+    "Một số ca hô hấp mức độ vừa.",
+    "Hỗ trợ nhiễm trùng đường tiết niệu."
+  ],
+  "pros": [
+    "Phổ rộng hơn cephalosporin thế hệ 1.",
+    "Thích hợp khi ca nhiễm trùng nhẹ - trung bình.",
+    "Tương đối an toàn cho đa số vật nuôi."
+  ],
+  "cons": [
+    "Không đủ mạnh cho ca nặng.",
+    "Chi phí cao hơn cephalexin.",
+    "Không hiệu quả với vi khuẩn không nhạy cảm."
+  ],
+  "mild_side_effects": [
+    "Ăn ít hơn trong thời gian đầu.",
+    "Phân mềm nhẹ.",
+    "Hơi mệt."
+  ],
+  "usage_recommendations": [
+    "Dùng khi cephalexin chưa đủ hoặc muốn phổ rộng hơn.",
+    "Theo dõi tiến triển vùng nhiễm trùng mỗi ngày.",
+    "Dùng đúng thời gian chỉ định."
+  ],
+  "when_not_to_use": [
+    "Ca nhiễm khuẩn toàn thân nặng.",
+    "Nghi ngờ Gram âm mạnh.",
+    "Không dùng để phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Amoxicillin kết hợp clavulanic.",
+    "Ceftiofur cho ca nặng hơn.",
+    "Oxytetracycline."
+  ]
+}

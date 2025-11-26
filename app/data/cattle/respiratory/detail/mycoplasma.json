@@ -1,0 +1,135 @@
+{
+  "id": "mycoplasma",
+  "name": "Viêm phổi - khớp do Mycoplasma",
+  "species": "cattle",
+  "group": "respiratory",
+
+  "summary": "Bệnh do Mycoplasma gây tổn thương phổi và có thể kèm viêm khớp, làm bò ho kéo dài, lặc khớp, giảm tăng trọng. Thường gặp ở bê, bò trẻ nuôi tập trung.",
+
+  "causes": [
+    "Nhiễm Mycoplasma bovis và các loài Mycoplasma khác qua đường hô hấp",
+    "Môi trường nuôi dày, thông gió kém, stress kéo dài",
+    "Bội nhiễm sau các bệnh virus hô hấp",
+    "Hệ miễn dịch yếu ở bê và bò trẻ"
+  ],
+
+  "risk_factors": [
+    "Trại nuôi bê tập trung mật độ cao",
+    "Chuồng ẩm, bí, ít ánh sáng",
+    "Không kiểm soát tốt các bệnh hô hấp khác",
+    "Thiếu chương trình tiêm phòng và bổ sung khoáng, vitamin",
+    "Nhập đàn giống từ nhiều nguồn khác nhau"
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho kéo dài, ho dai dẳng, khó dứt",
+    "Thở nhanh, đôi khi khó thở khi vận động",
+    "Giảm ăn, gầy nhanh, lông xù",
+    "Một số con có khớp sưng, khập khiễng, đi không vững",
+    "Có thể sốt nhẹ đến vừa lúc đầu, sau có thể thành mạn tính ít sốt",
+    "Giảm tăng trọng rõ rệt, đàn bê phát triển không đều"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho lác đác, sốt nhẹ hoặc không rõ sốt",
+      "Thở nhanh hơn bình thường khi vận động",
+      "Ăn giảm ít, vẫn đi lại bình thường"
+    ],
+    "moderate": [
+      "Ho thường xuyên, nhất là lúc sáng sớm hoặc sau vận động",
+      "Thở nhanh, nghe phổi có ran nhẹ",
+      "Giảm ăn, sụt cân, lông xù",
+      "Một số con bắt đầu có dấu hiệu đau khớp, đi không đều"
+    ],
+    "severe": [
+      "Ho kéo dài, thở khó, kiệt sức",
+      "Khớp sưng, đi khập khiễng rõ, khó đứng dậy",
+      "Gầy rộc, mất thể trạng, phát triển kém hẳn so với đàn",
+      "Dễ bị bội nhiễm thêm các tác nhân khác"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "florfenicol",
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "tylosin"
+    ],
+    "note_drugs": "Mycoplasma thường cần thời gian điều trị dài hơn viêm phổi thông thường. Nên chọn một phác đồ kháng sinh rõ ràng, theo sát đáp ứng lâm sàng và tránh đổi thuốc liên tục.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Tách những con bệnh rõ ra ô riêng để theo dõi",
+      "Giữ chuồng khô, sạch, thoáng, giảm ẩm tối đa",
+      "Bổ sung thức ăn dễ tiêu, giàu dinh dưỡng cho bê và bò bệnh",
+      "Không ép vận động hoặc làm việc nặng",
+      "Theo dõi lâu dài, ghi chép lại các ca mạn tính để cân nhắc loại thải"
+    ],
+
+    "dose_policy": "Tuân thủ liều trên nhãn hoặc theo thú y, đặc biệt với các kháng sinh dùng kéo dài."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bê ho kéo dài, gầy, nhưng vẫn còn đi lại được, ít sưng khớp.",
+      "guideline": [
+        "Áp dụng phác đồ kháng sinh kéo dài hơn bình thường",
+        "Kết hợp kháng viêm giảm đau để bò ăn uống, vận động dễ hơn",
+        "Tăng cường dinh dưỡng và vitamin, khoáng",
+        "Theo dõi từng con, đánh giá rõ mức độ cải thiện"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò ho mạn tính, gầy, kèm sưng khớp, đi khập khiễng, tiên lượng xấu.",
+      "guideline": [
+        "Tham khảo ý kiến thú y để đánh giá khả năng hồi phục thực tế",
+        "Nếu không đáp ứng sau nhiều đợt điều trị, cân nhắc loại thải để giảm thiệt hại",
+        "Tập trung nguồn lực điều trị cho bê và bò có khả năng hồi phục tốt hơn",
+        "Ghi chép đầy đủ ca mạn tính để điều chỉnh chiến lược đàn"
+      ]
+    },
+    "note": "Mycoplasma có xu hướng kéo dài, khó điều trị dứt điểm nếu điều kiện nuôi dưỡng và thông gió không được cải thiện."
+  },
+
+  "prevention": [
+    "Giảm mật độ nuôi trong chuồng bê và bò trẻ",
+    "Đảm bảo chuồng thoáng, khô, tránh ẩm lạnh kéo dài",
+    "Quản lý tốt các bệnh hô hấp khác để không tạo nền cho Mycoplasma bùng phát",
+    "Bổ sung khoáng, vitamin và dinh dưỡng đầy đủ giúp bê phát triển đều",
+    "Theo dõi sát đàn, loại thải những cá thể bệnh mạn tính quá nặng"
+  ],
+
+  "notes": [
+    "Khi trong đàn xuất hiện nhiều con ho kéo dài và chậm lớn, nên nghĩ đến Mycoplasma.",
+    "Thuốc chỉ là một phần, điều kiện chuồng trại và mật độ nuôi mới là gốc.",
+    "Không nên kỳ vọng những con quá gầy, viêm khớp nặng sẽ phục hồi hoàn toàn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

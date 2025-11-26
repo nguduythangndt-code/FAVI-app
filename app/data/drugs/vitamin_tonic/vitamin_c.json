@@ -1,0 +1,48 @@
+{
+  "name": "Vitamin C",
+
+  "mechanism": [
+    "Chống oxy hoá và bảo vệ tế bào",
+    "Hỗ trợ miễn dịch và tăng đề kháng",
+    "Giúp giảm stress và hỗ trợ giải nhiệt"
+  ],
+
+  "clinical_uses": [
+    "Sốt, mệt, giảm ăn",
+    "Stress do thời tiết, vận chuyển",
+    "Giai đoạn phục hồi sau viêm phổi hoặc tiêu chảy"
+  ],
+
+  "advantages": [
+    "An toàn, dễ phối hợp điều trị",
+    "Tốt cho giai đoạn phục hồi",
+    "Dùng được cho dê con và dê lớn"
+  ],
+
+  "disadvantages": [
+    "Không thay thế thuốc điều trị chính",
+    "Hiệu quả đơn lẻ không rõ trong ca bệnh nặng"
+  ],
+
+  "side_effects": [
+    "Có thể làm phân hơi lỏng",
+    "Tăng uống nước nhẹ"
+  ],
+
+  "recommendations": [
+    "Dùng trong các đợt stress hoặc sau bệnh",
+    "Kết hợp dinh dưỡng và nước uống đầy đủ",
+    "Theo dõi thể trạng và mức độ hoạt động"
+  ],
+
+  "contraindications": [
+    "Không có chống chỉ định rõ, chủ yếu tránh lạm dụng",
+    "Thận trọng ở dê tiêu chảy nặng chưa kiểm soát"
+  ],
+
+  "alternatives": [
+    "Vitamin BC",
+    "B-complex + điện giải",
+    "Electrolyte + Amino Premium"
+  ]
+}

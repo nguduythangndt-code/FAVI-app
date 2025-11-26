@@ -1,0 +1,40 @@
+{
+  "name": "Levamisole",
+  "mechanism": [
+    "Hoạt hóa quá mức hệ thần kinh của giun",
+    "Làm giun co giật, tê liệt và bị tống ra khỏi cơ thể"
+  ],
+  "clinical_uses": [
+    "Giun đường ruột, đặc biệt giun tròn",
+    "Thường dùng khi nghi ngờ giun kháng benzimidazole",
+    "Tẩy giun định kỳ đàn đông"
+  ],
+  "advantages": [
+    "Hiệu lực mạnh, giá rẻ",
+    "Hữu ích tại vùng kháng nhóm khác",
+    "Tác dụng nhanh"
+  ],
+  "disadvantages": [
+    "Biên độ an toàn hẹp hơn benzimidazole",
+    "Dễ gây tác dụng phụ nếu dùng quá liều"
+  ],
+  "side_effects": [
+    "Chảy dãi, run cơ nhẹ",
+    "Mệt vài giờ",
+    "Tiêu chảy nhẹ sau tẩy giun"
+  ],
+  "recommendations": [
+    "Không tự tăng liều",
+    "Đảm bảo dê không mất nước trước khi dùng",
+    "Quan sát 2-3 giờ đầu sau tẩy"
+  ],
+  "contraindications": [
+    "Không dùng cho dê yếu, suy gan",
+    "Không dùng đồng thời nhiều thuốc kích thích thần kinh khác"
+  ],
+  "alternatives": [
+    "Albendazole",
+    "Fenbendazole",
+    "Ivermectin"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Imidacloprid",
+  "mechanism": [
+    "Thuốc nhóm neonicotinoid",
+    "Gắn vào thụ thể nicotinic acetylcholine của côn trùng, gây kích thích rồi tê liệt",
+    "Hiệu quả tốt trên bọ chét, một số côn trùng hút máu ngoài da"
+  ],
+  "clinical_uses": [
+    "Chủ yếu dùng trên thú cưng để diệt bọ chét, một số chế phẩm có thể kết hợp với hoạt chất khác",
+    "Trong chăn nuôi, có thể được xem xét khi có chế phẩm phù hợp, theo chỉ định thú y",
+    "Hữu ích ở môi trường có nhiều bọ chét từ chó mèo lây sang dê"
+  ],
+  "advantages": [
+    "Tác dụng tập trung trên côn trùng, ít ảnh hưởng động vật máu nóng khi dùng đúng",
+    "Hiệu lực tốt trên bọ chét trưởng thành",
+    "Có thể phối hợp với hoạt chất khác để mở rộng phổ tác dụng"
+  ],
+  "disadvantages": [
+    "Không phải mọi chế phẩm imidacloprid đều dành cho dê",
+    "Hiệu lực trên ve, ghẻ có thể hạn chế tùy dạng sản phẩm",
+    "Lo ngại về tác động môi trường nếu lạm dụng"
+  ],
+  "side_effects": [
+    "Kích ứng da nhẹ tại chỗ nhỏ",
+    "Liếm phải có thể gây chảy dãi, nôn, mệt nhẹ",
+    "Hiếm: phản ứng dị ứng toàn thân cần can thiệp thú y"
+  ],
+  "recommendations": [
+    "Chỉ dùng khi có chế phẩm, liều và chỉ định rõ ràng cho đối tượng phù hợp",
+    "Nhỏ đúng vị trí khó liếm, tránh bôi lên vùng da tổn thương lớn",
+    "Kết hợp vệ sinh môi trường, ổ rơm, khu vực chó mèo ra vào để giảm nguồn bọ chét",
+    "Luôn tuân thủ hướng dẫn trên nhãn hoặc tư vấn thú y, không tự “chế liều” từ sản phẩm cho thú cưng"
+  ],
+  "contraindications": [
+    "Không tự dùng chế phẩm cho chó/mèo lên dê nếu không được hướng dẫn",
+    "Tránh dùng trên dê suy gan, suy thận nặng nếu chưa hỏi thú y",
+    "Không dùng đồng thời với nhiều sản phẩm diệt côn trùng ngoài da tại cùng vị trí"
+  ],
+  "alternatives": [
+    "Fipronil - cho ve/bọ chét nếu có chế phẩm phù hợp",
+    "Pyrethroid - phun/tắm chuồng trại và trên đàn theo chỉ dẫn",
+    "Fluralaner - cho kiểm soát ve/bọ chét dài ngày (tùy sản phẩm)"
+  ]
+}

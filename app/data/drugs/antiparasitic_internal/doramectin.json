@@ -1,0 +1,39 @@
+{
+  "name": "Doramectin",
+  "mechanism": [
+    "Tương tự ivermectin - tác động lên kênh chloride",
+    "Làm giun liệt mềm và chết"
+  ],
+  "clinical_uses": [
+    "Giun đường ruột",
+    "Hỗ trợ điều trị một số ngoại ký sinh tùy chế phẩm",
+    "Thường dùng ở trại nuôi nhiều cá thể"
+  ],
+  "advantages": [
+    "Thời gian tác dụng kéo dài hơn ivermectin",
+    "Tiện cho đàn lớn"
+  ],
+  "disadvantages": [
+    "Không hiệu quả với sán lá gan",
+    "Một số vùng kháng"
+  ],
+  "side_effects": [
+    "Giảm ăn nhẹ",
+    "Mệt",
+    "Hiếm: run cơ"
+  ],
+  "recommendations": [
+    "Luân phiên hoạt chất",
+    "Không dùng cho dê đang mất nước",
+    "Theo dõi phân sau tẩy"
+  ],
+  "contraindications": [
+    "Dê suy gan",
+    "Không dùng quá liều"
+  ],
+  "alternatives": [
+    "Ivermectin",
+    "Albendazole",
+    "Fenbendazole"
+  ]
+}

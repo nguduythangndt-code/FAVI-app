@@ -1,0 +1,41 @@
+{
+  "id": "ciprofloxacin",
+  "name": "Ciprofloxacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm fluoroquinolone, tác động lên DNA của vi khuẩn. Có hiệu lực trên nhiều vi khuẩn Gram âm gây bệnh đường ruột và hô hấp.",
+  "clinical_uses": [
+    "Một số ca tiêu chảy nặng hơn nghi vi khuẩn Gram âm.",
+    "Nhiễm trùng hỗn hợp tiêu hóa - toàn thân mức độ vừa.",
+    "Hỗ trợ một số ca hô hấp nếu không đáp ứng với thuốc nhẹ hơn."
+  ],
+  "pros": [
+    "Hiệu lực khá mạnh.",
+    "Tác động nhanh, cải thiện triệu chứng rõ rệt trong 1-2 ngày.",
+    "Dùng được cho nhiều loài nếu theo đúng nhãn."
+  ],
+  "cons": [
+    "Không ưu tiên dùng kéo dài.",
+    "Cần xem kỹ hướng dẫn vì mỗi loài có hạn chế riêng.",
+    "Không phải chọn đầu tay cho thú non rất nhỏ."
+  ],
+  "mild_side_effects": [
+    "Ăn uống giảm nhẹ.",
+    "Con vật hơi mệt.",
+    "Có thể gây phân mềm tạm thời."
+  ],
+  "usage_recommendations": [
+    "Nên dùng khi ca bệnh tiến triển nặng hơn mức kiềm chế bằng thuốc nhẹ.",
+    "Kết hợp chăm sóc: bù nước - điện giải.",
+    "Tuân thủ hướng dẫn ghi trên sản phẩm hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Thú đang mất nước nặng.",
+    "Thú rất yếu hoặc bỏ ăn nhiều ngày.",
+    "Không dùng để phòng bệnh thường xuyên."
+  ],
+  "alternative_drugs": [
+    "Enrofloxacin.",
+    "Florfenicol.",
+    "Ceftiofur."
+  ]
+}

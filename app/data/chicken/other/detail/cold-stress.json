@@ -1,0 +1,103 @@
+{
+  "id": "cold-stress",
+  "name": "Stress lạnh",
+  "species": "chicken",
+  "group": "other",
+  "summary": "Gà chịu rét kém, đặc biệt là gà con và gà đẻ. Lạnh kéo dài làm gà co cụm, giảm ăn, dễ bùng bệnh hô hấp và chết ghép.",
+  "causes": [
+    "Nhiệt độ chuồng thấp hơn ngưỡng chịu đựng của lứa tuổi",
+    "Gió lùa trực tiếp, chuồng không che chắn tốt",
+    "Đệm lót ẩm, gà nằm trên nền lạnh",
+    "Thay đổi thời tiết đột ngột, giảm nhiệt nhanh"
+  ],
+  "risk_factors": [
+    "Gà con, gà đẻ, gà suy dinh dưỡng là nhóm nhạy cảm nhất",
+    "Chuồng hở, không có rèm che, gió lùa mạnh",
+    "Không có đệm lót khô, nền ẩm, nước đọng",
+    "Cho ăn uống kém trong những ngày rét, gà thiếu năng lượng"
+  ],
+  "clinical_signs_detailed": [
+    "Gà co cụm, chen chúc vào góc chuồng, ít đi lại",
+    "Lông xù, run, phát tiếng kêu nhiều",
+    "Giảm ăn, uống nước ít, lệch đàn",
+    "Dễ bùng thêm bệnh hô hấp: ho, khò khè, sổ mũi",
+    "Đàn đẻ giảm sản lượng, trứng xấu tạm thời"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà tụ lại nhẹ về phía có nguồn ấm",
+      "Lông hơi xù, giảm ăn nhẹ trong những ngày lạnh"
+    ],
+    "moderate": [
+      "Gà co cụm chặt, chen nhau, nhiều con run",
+      "Giảm ăn rõ, dễ thấy phân lẫn thức ăn chưa tiêu tốt",
+      "Xuất hiện lẻ tẻ gà ho, khò khè"
+    ],
+    "severe": [
+      "Gà con chết rải rác nếu lạnh kéo dài",
+      "Đàn đẻ suy rõ, dễ bùng dịch hô hấp nặng",
+      "Tổn thất ghép: vừa mất do lạnh, vừa mất do bệnh kế phát"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "xu_ly_nhiet_do_va_ho_tro",
+      "khong_co_thuoc_dac_hieu_cho_lanh"
+    ],
+    "alternative_drugs": [],
+    "note_drugs": "Stress lạnh không có thuốc riêng. Trọng tâm là sưởi ấm vừa đủ, che gió, tăng dinh dưỡng và xử lý sớm các bệnh hô hấp kế phát nếu xuất hiện.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin-complex",
+        "alternative": "vitamin-c"
+      },
+      "digestive_support": {
+        "main": "",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Bịt bớt gió lùa, dùng rèm che hợp lý, không bịt kín khiến bí khí",
+      "Tăng đệm lót khô, dày hơn ở khu đàn ngủ",
+      "Bổ sung năng lượng khẩu phần (cám tốt, bắp, v.v.) trong những ngày rét",
+      "Cho ăn vào thời điểm ấm trong ngày, tránh cho ăn lúc lạnh nhất",
+      "Theo dõi sát để xử lý bệnh hô hấp nếu xuất hiện"
+    ],
+    "dose_policy": "Các chế phẩm vitamin dùng đúng liều trên nhãn, không kéo dài liên tục nhiều tuần nếu không có mục tiêu rõ."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà con chết rải rác những ngày lạnh do ủ sai nhiệt.",
+      "guideline": "Điều chỉnh lại hệ thống sưởi và nhiệt độ theo chuẩn từng tuần tuổi. Kiểm tra chỗ đặt nhiệt, độ dày đệm lót, gió lùa. Theo dõi hành vi gà để điều chỉnh kịp thời."
+    },
+    "case_type_2": {
+      "description": "Đàn đẻ lớn, gặp đợt rét kéo dài, bùng bệnh hô hấp.",
+      "guideline": "Sưởi nhẹ, che gió, cải thiện đệm lót. Làm việc với thú y để xây phác đồ hô hấp phù hợp. Điều chỉnh khẩu phần tăng năng lượng và vitamin trong giai đoạn này."
+    },
+    "note": "Stress lạnh thường đi kèm bệnh hô hấp, nên phải nhìn cả hai cùng lúc."
+  },
+  "prevention": [
+    "Thiết kế chuồng có thể che gió khi cần nhưng vẫn có ô thoáng cao",
+    "Chuẩn bị sẵn rèm che, đệm lót khô cho mùa lạnh",
+    "Tuân thủ quy trình ủ ấm gà con theo tuần tuổi",
+    "Không để gà nằm trực tiếp trên nền ẩm, lạnh",
+    "Theo dõi dự báo thời tiết để chủ động trước đợt lạnh mạnh"
+  ],
+  "notes": [
+    "Gà con chịu lạnh kém hơn nhiều so với gà lớn, đặc biệt là trong tuần đầu.",
+    "Biểu hiện co cụm là tín hiệu sớm nhất để điều chỉnh nhiệt trong chuồng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

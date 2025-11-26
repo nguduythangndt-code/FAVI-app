@@ -1,0 +1,112 @@
+{
+  "id": "delayed_estrus",
+  "name": "Chậm động dục",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Chậm động dục là tình trạng nái sau cai sữa hoặc heo hậu bị lâu không lên giống, không thấy biểu hiện chịu đực, kéo dài thời gian trống chuồng.",
+  "causes": [
+    "Thể trạng nái gầy hoặc quá béo",
+    "Thiếu dinh dưỡng, thiếu khoáng và vitamin sinh sản",
+    "Stress, thay đổi chuồng trại, thời tiết đột ngột",
+    "Chiếu sáng, thông thoáng kém",
+    "Bệnh nền mạn tính hoặc nhiễm trùng tử cung nhẹ"
+  ],
+  "risk_factors": [
+    "Cai sữa quá sớm hoặc quá muộn",
+    "Khẩu phần không cân đối năng lượng - đạm - khoáng",
+    "Mật độ nuôi dày, không vận động",
+    "Không có đực thăm bầy thường xuyên"
+  ],
+  "clinical_signs_detailed": [
+    "Sau cai sữa lâu không thấy lên giống",
+    "Không đứng yên khi có đực hoặc người cưỡi lưng",
+    "Không có biểu hiện đỏ âm hộ rõ",
+    "Gầy hoặc quá mập, dáng uể oải",
+    "Chu kỳ động dục không đều hoặc rất thưa"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Chậm lên giống vài ngày so với bình thường",
+      "Biểu hiện động dục mờ, khó nhận"
+    ],
+    "moderate": [
+      "Chậm động dục rõ, sau cai sữa hơn 10 ngày chưa lên giống",
+      "Thể trạng không phù hợp (gầy hoặc béo)"
+    ],
+    "severe": [
+      "Lâu không thấy động dục dù đã đủ tuổi và thể trọng",
+      "Chu kỳ kéo dài bất thường nhiều lần"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Vitamin E - Selenium",
+      "Khoáng tổng hợp cho sinh sản"
+    ],
+    "alternative_drugs": [
+      "Premix vitamin khoáng",
+      "Hormone kích động dục (dùng theo chỉ định thú y)"
+    ],
+    "note_drugs": "Ưu tiên chỉnh dinh dưỡng và bổ sung vitamin khoáng. Các thuốc hormone kích động dục chỉ nên dùng khi có thú y theo dõi, không tự ý dùng bừa.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Điều chỉnh khẩu phần để nái đạt thể trạng vừa phải (không quá gầy, không quá béo)",
+      "Tăng vận động: cho nái đi lại mỗi ngày",
+      "Tăng cường ánh sáng ban ngày trong chuồng",
+      "Cho tiếp xúc đực giống thăm bầy đều đặn",
+      "Kiểm tra và tẩy giun sán nếu thể trạng xấu"
+    ],
+    "dose_policy": "Dùng theo liều trên nhãn hoặc theo tư vấn thú y, nhất là với hormone."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nái chậm động dục sau cai sữa nhưng thể trạng còn khá, ăn tốt.",
+      "guideline": [
+        "Điều chỉnh khẩu phần và tăng vitamin khoáng sinh sản",
+        "Tăng tiếp xúc với đực thăm bầy",
+        "Theo dõi động dục trong 1-2 chu kỳ tiếp theo"
+      ]
+    },
+    "case_type_2": {
+      "description": "Nái lâu không động dục, thể trạng kém hoặc quá béo, nghi nền sinh sản yếu.",
+      "guideline": [
+        "Tham khảo thú y trước khi dùng phác đồ hormone",
+        "Cân nhắc loại thải nếu nhiều chu kỳ không cải thiện",
+        "Tập trung giữ lại nái có khả năng sinh sản tốt hơn"
+      ]
+    },
+    "note": "Chậm động dục kéo dài làm giảm hiệu quả sinh sản của cả đàn, cần xem lại toàn bộ khâu nuôi dưỡng và quản lý."
+  },
+  "prevention": [
+    "Giữ thể trạng nái ổn định trước và sau cai sữa",
+    "Bổ sung đầy đủ khoáng và vitamin sinh sản",
+    "Có đực giống thăm bầy mỗi ngày",
+    "Tránh stress mạnh khi chuyển chuồng, thay đổi thời tiết"
+  ],
+  "notes": [
+    "Một số nái có biểu hiện động dục rất mờ, cần quan sát kỹ sáng sớm và chiều mát.",
+    "Không nên giữ lại quá lâu những nái lặp lại tình trạng chậm động dục nhiều lần."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

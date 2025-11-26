@@ -1,0 +1,133 @@
+{
+  "id": "lungworm",
+  "name": "Viêm phổi do giun phổi",
+  "species": "cattle",
+  "group": "respiratory",
+
+  "summary": "Bệnh do giun phổi ký sinh ở đường hô hấp, gây ho kéo dài, khó thở, sụt cân. Thường gặp ở bò chăn thả trên bãi cỏ ẩm, có điều kiện cho ấu trùng phát triển.",
+
+  "causes": [
+    "Nhiễm giun phổi qua việc ăn phải ấu trùng trên cỏ hoặc nước uống",
+    "Chăn thả trên bãi cỏ ẩm, kém quản lý vòng đời ký sinh trùng",
+    "Không tẩy giun định kỳ cho đàn",
+    "Suy giảm miễn dịch khiến cơ thể khó kiểm soát ký sinh trùng"
+  ],
+
+  "risk_factors": [
+    "Bò chăn thả trên bãi cỏ ẩm, nhiều vùng trũng đọng nước",
+    "Không có chương trình tẩy giun định kỳ",
+    "Đàn nhiều lứa tuổi nuôi chung, khó kiểm soát nguồn lây",
+    "Mật độ chăn thả dày",
+    "Bê và bò trẻ dễ mẫn cảm hơn với giun phổi"
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho kéo dài, ho thành cơn, ho nhiều khi vận động",
+    "Thở nhanh, đôi khi thở khó, nghe phổi có ran khò khè",
+    "Giảm ăn, sụt cân, lông xù, thể trạng xấu dần",
+    "Trong đàn có nhiều con cùng ho trong mùa ẩm",
+    "Ở ca nặng, bò thở khó, yếu, dễ kiệt sức"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho lác đác, nhất là sau vận động",
+      "Thở nhanh nhẹ, chưa rõ khó thở",
+      "Ăn giảm ít, thể trạng chưa thay đổi nhiều"
+    ],
+    "moderate": [
+      "Ho thường xuyên, ho kéo dài, nghe phổi có ran",
+      "Thở nhanh hơn rõ, bò mệt khi di chuyển",
+      "Sụt cân, lông xù, thể trạng kém",
+      "Trong đàn xuất hiện nhiều con có biểu hiện tương tự"
+    ],
+    "severe": [
+      "Ho liên tục, thở khó, đôi khi thở há mồm",
+      "Kiệt sức, nằm nhiều, đứng dậy khó",
+      "Gầy rộc, da bọc xương, tăng nguy cơ bội nhiễm vi khuẩn",
+      "Có thể chết nếu không tẩy giun và hỗ trợ kịp thời"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "ivermectin",
+      "albendazole"
+    ],
+    "alternative_drugs": [
+      "fenbendazole"
+    ],
+    "note_drugs": "Tẩy giun cho cả nhóm hoặc cả đàn có nguy cơ, không chỉ điều trị cho từng con lẻ. Cần lặp lại tẩy giun theo khuyến cáo để cắt vòng đời ký sinh trùng.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Giảm cường độ vận động trong giai đoạn điều trị",
+      "Bổ sung thức ăn tốt, dễ tiêu, đủ năng lượng cho bò gầy",
+      "Đảm bảo nước uống sạch, không bị ô nhiễm phân",
+      "Theo dõi phân, ho và nhịp thở sau tẩy giun để đánh giá hiệu quả",
+      "Lên kế hoạch tẩy giun định kỳ cho đàn"
+    ],
+
+    "dose_policy": "Thuốc tẩy giun dùng theo liều trên nhãn hoặc theo tư vấn thú y, tránh lạm dụng."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò ho nhiều, gầy nhưng vẫn đi lại được.",
+      "guideline": [
+        "Tiến hành tẩy giun phổi cho cả nhóm có cùng nguy cơ",
+        "Hỗ trợ bằng kháng viêm, vitamin, dinh dưỡng tốt",
+        "Theo dõi sau tẩy giun, ghi nhận mức độ cải thiện",
+        "Xem xét điều chỉnh lịch tẩy giun của trại"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò rất gầy, thở khó, ho liên tục, kiệt sức.",
+      "guideline": [
+        "Tham khảo thú y để đánh giá khả năng cứu chữa thực tế",
+        "Nếu tiên lượng xấu, cân nhắc loại thải để giảm thiệt hại",
+        "Tập trung nguồn lực bảo vệ những con còn thể trạng tốt",
+        "Rút kinh nghiệm về quản lý bãi chăn, lịch tẩy giun"
+      ]
+    },
+    "note": "Lungworm là bệnh mang tính đàn, cần nhìn ở góc độ cả hệ thống chăn thả chứ không chỉ một vài cá thể."
+  },
+
+  "prevention": [
+    "Xây dựng lịch tẩy giun định kỳ rõ ràng cho đàn",
+    "Quản lý bãi chăn thả, tránh để cỏ quá ẩm, nước đọng",
+    "Tránh chăn quá dày trên diện tích nhỏ",
+    "Ưu tiên chăn thả luân phiên, để bãi nghỉ đủ thời gian",
+    "Theo dõi và ghi lại mùa, thời điểm dễ bùng phát bệnh để chủ động phòng"
+  ],
+
+  "notes": [
+    "Nếu thấy nhiều bò ho khi chăn ngoài đồng, cần nghĩ sớm đến giun phổi.",
+    "Tẩy giun đơn lẻ vài con thường không giải quyết được gốc vấn đề.",
+    "Quản lý cỏ, nước uống và lịch tẩy giun là chìa khóa."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

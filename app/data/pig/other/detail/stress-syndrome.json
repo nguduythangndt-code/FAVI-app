@@ -1,0 +1,113 @@
+{
+  "id": "stress-syndrome",
+  "name": "Hội chứng stress",
+  "species": "pig",
+  "group": "other",
+  "summary": "Hội chứng stress xảy ra khi heo bị kích thích hoặc thay đổi quá mạnh, làm thở dốc, run cơ, nằm bẹp và có thể chết đột ngột nếu không hạ stress kịp.",
+  "causes": [
+    "Vận chuyển xa, dồn đuổi gắt, đánh đập",
+    "Nhiệt độ môi trường quá cao, chuồng nóng bức",
+    "Tiêm, kẹp, thao tác mạnh liên tục",
+    "Gen nhạy cảm với stress ở một số dòng heo thịt"
+  ],
+  "risk_factors": [
+    "Chuồng chật, mật độ cao, hay tranh ăn",
+    "Không có chỗ mát, thiếu thông thoáng",
+    "Thao tác bắt heo, di chuyển heo quá gấp",
+    "Xử lý đàn vào buổi trưa nắng nóng"
+  ],
+  "clinical_signs_detailed": [
+    "Thở rất nhanh, há miệng, thở bụng mạnh",
+    "Run cơ, run toàn thân, loạng choạng",
+    "Da, tai có thể đỏ bừng hoặc tím dần",
+    "Nằm bẹp, không muốn đứng dậy",
+    "Có thể chết nhanh nếu không giảm stress và làm mát"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Thở nhanh hơn bình thường sau dồn đuổi",
+      "Mệt, nằm nghỉ nhưng vẫn đứng dậy được"
+    ],
+    "moderate": [
+      "Thở dốc rõ, run nhẹ",
+      "Nằm nhiều, khó đứng lên",
+      "Mạch nhanh, heo rất kích động hoặc lừ đừ bất thường"
+    ],
+    "severe": [
+      "Thở dữ dội, run mạnh",
+      "Nằm bẹp, gần như không nhúc nhích",
+      "Có thể chết đột ngột nếu không can thiệp"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Vitamin C",
+      "Vitamin B-complex"
+    ],
+    "alternative_drugs": [
+      "Điện giải uống",
+      "Thuốc trợ sức tổng hợp"
+    ],
+    "note_drugs": "Hội chứng stress chủ yếu xử lý bằng môi trường và giảm kích thích. Thuốc chỉ hỗ trợ, không thay thế việc hạ nhiệt và làm heo bình tĩnh.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": ["Vitamin B-complex"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Ngừng ngay mọi hoạt động dồn đuổi, bắt giữ",
+      "Đưa heo vào nơi mát, thoáng khí, tránh nắng trực tiếp",
+      "Lót nền khô, chống trơn, để heo nằm yên",
+      "Có thể dùng quạt gió, phun sương nhẹ để hạ nhiệt, tránh té nước lạnh dội mạnh",
+      "Bổ sung điện giải và vitamin khi heo tỉnh lại và uống được"
+    ],
+    "dose_policy": "Dùng vitamin và điện giải theo liều trên nhãn hoặc tư vấn thú y, không lạm dụng thuốc giảm đau khi chưa rõ tình trạng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo thở dốc, run nhưng vẫn còn phản ứng khi lại gần.",
+      "guideline": [
+        "Dừng mọi thao tác với heo đó",
+        "Đưa vào ô mát, yên tĩnh",
+        "Theo dõi nhịp thở đến khi ổn định mới cho uống điện giải"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo nằm bẹp, thở dữ dội hoặc thở rất yếu.",
+      "guideline": [
+        "Giữ heo ở nơi mát, không nắng, không gió lùa lạnh trực tiếp",
+        "Không lăn kéo, dồn đuổi thêm",
+        "Nếu heo quá yếu, tiên lượng dè dặt, tập trung bảo vệ đàn còn khỏe bằng cách giảm stress toàn trại"
+      ]
+    },
+    "note": "Hội chứng stress thường xảy ra theo đợt khi thao tác đàn, cần điều chỉnh lại toàn bộ quy trình bắt, vận chuyển, tiêm và xử lý heo."
+  },
+  "prevention": [
+    "Hạn chế dồn đuổi, đánh đập khi lùa heo",
+    "Chọn thời điểm xử lý đàn vào sáng sớm hoặc chiều mát",
+    "Chuồng phải thông thoáng, có chỗ mát vào ngày nóng",
+    "Giảm mật độ, tránh heo tranh ăn quá căng"
+  ],
+  "notes": [
+    "Một số dòng heo thịt nhạy cảm với stress hơn bình thường.",
+    "Quản lý tốt để heo ít bị sốc sẽ giảm nhiều rủi ro chết đột ngột."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

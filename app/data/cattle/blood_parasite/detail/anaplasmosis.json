@@ -1,0 +1,125 @@
+{
+  "id": "anaplasmosis",
+  "name": "Nhiễm Anaplasma",
+  "species": "cattle",
+  "group": "blood_parasite",
+
+  "summary": "Nhiễm Anaplasma gây thiếu máu, sốt, vàng mắt và yếu dần. Bệnh lây qua ve, muỗi và dụng cụ chăm sóc không sát trùng.",
+
+  "causes": [
+    "Ký sinh trùng máu Anaplasma",
+    "Truyền qua ve, ruồi chích, muỗi",
+    "Lây qua dụng cụ tiêm, castration, mổ xẻ không sát trùng"
+  ],
+
+  "risk_factors": [
+    "Khu vực có mật độ ve cao",
+    "Dụng cụ tiêm dùng chung nhiều con",
+    "Bò tơ chưa có miễn dịch",
+    "Mật độ nuôi cao, ít vệ sinh dụng cụ"
+  ],
+
+  "clinical_signs_detailed": [
+    "Niêm trắng, mắt nhợt",
+    "Thở nhanh, yếu, mệt",
+    "Vàng mắt, vàng niêm trong nhiều ca",
+    "Ăn kém, giảm sức kéo hoặc giảm sữa",
+    "Gầy dần, phản ứng chậm",
+    "Một số con sốt và nằm nhiều"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn nhẹ",
+      "Niêm hơi nhạt",
+      "Mệt nhẹ nhưng vẫn đi lại"
+    ],
+    "moderate": [
+      "Thiếu máu rõ, niêm trắng",
+      "Thở nhanh, mệt, giảm ăn nhiều",
+      "Thể trạng xuống rõ"
+    ],
+    "severe": [
+      "Rất yếu, đứng không vững hoặc nằm nhiều",
+      "Niêm trắng nhợt hoặc vàng đậm",
+      "Có thể chết nếu không điều trị kịp"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "imidocarb"
+    ],
+    "note_drugs": "Oxytetracycline là lựa chọn phổ biến cho Anaplasma. Kết hợp hỗ trợ máu và giảm ve để tránh tái nhiễm.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Nghỉ ngơi chuồng thoáng và yên tĩnh",
+      "Bù nước và điện giải",
+      "Không làm việc nặng hoặc vận chuyển",
+      "Hỗ trợ thêm vitamin và khoáng để phục hồi máu"
+    ],
+
+    "dose_policy": "Dùng theo liều trên nhãn hoặc theo tư vấn thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Thiếu máu rõ nhưng bò vẫn đứng được.",
+      "guideline": [
+        "Dùng thuốc đặc trị ngay trong ngày",
+        "Kết hợp vitamin nhóm B và điện giải",
+        "Theo dõi niêm mỗi ngày để đánh giá hồi phục"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò rất yếu, nằm nhiều, niêm trắng hoặc vàng đậm.",
+      "guideline": [
+        "Cần thú y hỗ trợ trực tiếp nếu có điều kiện",
+        "Điện giải chia nhiều lần",
+        "Tiên lượng thận trọng do thiếu máu kéo dài"
+      ]
+    },
+    "note": "Anaplasma tiến triển âm thầm nhưng gây thiếu máu rất nặng. Phát hiện sớm sẽ giảm thiệt hại."
+  },
+
+  "prevention": [
+    "Tắm ve định kỳ",
+    "Không dùng chung kim tiêm giữa các bò",
+    "Giữ dụng cụ sắc bén sạch và sát trùng thường xuyên",
+    "Theo dõi niêm và thể trạng đàn theo tuần"
+  ],
+
+  "notes": [
+    "Bò tơ và bò mới nhập đàn thường bị nặng nhất.",
+    "Kết hợp phòng ve và vệ sinh dụng cụ giảm mạnh nguy cơ.",
+    "Có thể lẫn với thiếu máu dinh dưỡng nên phải xem kỹ niêm và lịch nuôi."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

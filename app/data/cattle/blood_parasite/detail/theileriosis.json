@@ -1,0 +1,123 @@
+{
+  "id": "theileriosis",
+  "name": "Nhiễm Theileria",
+  "species": "cattle",
+  "group": "blood_parasite",
+
+  "summary": "Nhiễm Theileria gây sốt cao, hạch sưng, thiếu máu và yếu nhanh. Bệnh lây qua ve và có thể làm bò chết nếu không điều trị sớm.",
+
+  "causes": [
+    "Ký sinh trùng Theileria truyền qua ve",
+    "Mật độ ve cao trong mùa nóng ẩm",
+    "Bò yếu hoặc mới nhập đàn chưa có miễn dịch"
+  ],
+
+  "risk_factors": [
+    "Không tắm ve định kỳ",
+    "Chuồng trại ẩm, nhiều cỏ rậm",
+    "Dùng chung dụng cụ chăm sóc",
+    "Bò tơ hoặc bò mới nhập đàn"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt cao liên tục",
+    "Hạch dưới hàm hoặc trước vai sưng rõ",
+    "Niêm nhạt, thiếu máu",
+    "Thở nhanh, yếu, ăn rất ít",
+    "Gầy nhanh, lông xù, phản ứng chậm",
+    "Trong ca nặng có thể nằm nhiều, khó đứng dậy"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ, hạch hơi to",
+      "Ăn giảm nhẹ"
+    ],
+    "moderate": [
+      "Hạch sưng rõ, thiếu máu",
+      "Thở nhanh, mệt"
+    ],
+    "severe": [
+      "Thiếu máu nặng, nằm nhiều",
+      "Hạch to, sốt cao kéo dài",
+      "Có thể chết nếu không xử lý"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "buparvaquone"
+    ],
+    "alternative_drugs": [
+      "oxytetracycline"
+    ],
+    "note_drugs": "Buparvaquone là thuốc đặc trị phổ biến. Kết hợp phòng ve để tránh tái nhiễm.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Nghỉ ngơi chuồng thoáng và yên tĩnh",
+      "Bổ sung nước và điện giải",
+      "Theo dõi hạch và niêm từng ngày",
+      "Không vận chuyển hoặc làm việc nặng"
+    ],
+
+    "dose_policy": "Dùng thuốc theo chỉ dẫn nhãn hoặc thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò sốt cao, hạch to, yếu nhưng còn đứng.",
+      "guideline": [
+        "Dùng buparvaquone ngay",
+        "Vitamin nhóm B và điện giải",
+        "Theo dõi thiếu máu mỗi ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò nằm nhiều, rất yếu, thiếu máu nặng.",
+      "guideline": [
+        "Xử lý như ca nặng, cần thú y thăm khám nếu có điều kiện",
+        "Truyền dịch chậm và hỗ trợ vitamin",
+        "Tiên lượng thận trọng"
+      ]
+    },
+    "note": "Theileria gây hạch to và thiếu máu kéo dài. Điều trị sớm là yếu tố quyết định."
+  },
+
+  "prevention": [
+    "Tắm ve thường xuyên",
+    "Giữ chuồng sạch, cỏ thấp",
+    "Không dùng chung dụng cụ chăm sóc",
+    "Theo dõi hạch đàn theo tuần"
+  ],
+
+  "notes": [
+    "Hạch to là dấu hiệu gợi ý quan trọng.",
+    "Bò tơ thường nặng nhất.",
+    "Phòng ve tốt giảm phần lớn ca bệnh."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

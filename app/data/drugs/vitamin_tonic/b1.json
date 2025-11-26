@@ -1,0 +1,48 @@
+{
+  "name": "Vitamin B1",
+
+  "mechanism": [
+    "Tham gia chuyển hoá đường và năng lượng",
+    "Hỗ trợ dẫn truyền thần kinh",
+    "Giúp ổn định hoạt động hệ thần kinh trung ương"
+  ],
+
+  "clinical_uses": [
+    "Dê mệt, kém ăn do rối loạn chuyển hoá",
+    "Hỗ trợ trong ca nghi ngờ thiếu B1",
+    "Hỗ trợ thêm trong một số ca rối loạn thần kinh do rối loạn chuyển hoá"
+  ],
+
+  "advantages": [
+    "Giúp cải thiện ăn uống và tỉnh táo",
+    "An toàn nếu dùng đúng",
+    "Dùng được cho dê con và dê lớn"
+  ],
+
+  "disadvantages": [
+    "Không thay thế xử lý nguyên nhân bệnh chính",
+    "Lạm dụng không làm bệnh nặng tự khỏi"
+  ],
+
+  "side_effects": [
+    "Hiếm gặp tác dụng phụ rõ",
+    "Thỉnh thoảng kích ứng nhẹ tại chỗ tiêm (nếu dùng dạng tiêm)"
+  ],
+
+  "recommendations": [
+    "Dùng theo đợt ngắn khi dê mệt, kém ăn",
+    "Kết hợp với chế độ ăn hợp lý",
+    "Đánh giá hiệu quả qua mức độ ăn và vận động"
+  ],
+
+  "contraindications": [
+    "Không có chống chỉ định rõ ràng",
+    "Thận trọng nếu dê đang sốc nặng"
+  ],
+
+  "alternatives": [
+    "Vitamin BC",
+    "Butafosfan + B12",
+    "Amino peptide phục hồi"
+  ]
+}

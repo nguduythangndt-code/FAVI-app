@@ -1,0 +1,86 @@
+[
+  {
+    "id": "heat-stress",
+    "name": "Stress nhiệt (nóng)",
+    "group": "other",
+    "level": 2,
+    "searchText": "Gà há mỏ, thở gấp, thở bằng bụng Xòe cánh, đứng xa nhau, tránh chen chúc Giảm ăn rõ, uống nước nhiều Đàn đẻ giảm sản lượng, vỏ trứng xấu tạm thời Trường hợp nặng: gà lảo đảo, ngã, chết đột ngột lúc nóng cao điểm Gà há mỏ thở nhẹ khi trời nóng Đứng xoè cánh, giảm ăn chút nhưng chưa ảnh hưởng nhiều Thở gấp, há mỏ liên tục, cánh xoè rộng Giảm ăn rõ, đàn đẻ giảm sản lượng Tụ nhiều ở chỗ mát, bỏ những chỗ quá nóng Gà rất khó thở, lảo đảo, có thể nằm ngửa, co giật Chết đột ngột trong những giờ nóng nhất Tỉ lệ chết tăng nhiều nếu không giảm nóng kịp thời"
+  },
+  {
+    "id": "cold-stress",
+    "name": "Stress lạnh",
+    "group": "other",
+    "level": 2,
+    "searchText": "Gà co cụm, chen chúc vào góc chuồng, ít đi lại Lông xù, run, phát tiếng kêu nhiều Giảm ăn, uống nước ít, lệch đàn Dễ bùng thêm bệnh hô hấp: ho, khò khè, sổ mũi Đàn đẻ giảm sản lượng, trứng xấu tạm thời Gà tụ lại nhẹ về phía có nguồn ấm Lông hơi xù, giảm ăn nhẹ trong những ngày lạnh Gà co cụm chặt, chen nhau, nhiều con run Giảm ăn rõ, dễ thấy phân lẫn thức ăn chưa tiêu tốt Xuất hiện lẻ tẻ gà ho, khò khè Gà con chết rải rác nếu lạnh kéo dài Đàn đẻ suy rõ, dễ bùng dịch hô hấp nặng Tổn thất ghép: vừa mất do lạnh, vừa mất do bệnh kế phát"
+  },
+  {
+    "id": "rickets",
+    "name": "Còi xương, mềm xương",
+    "group": "other",
+    "level": 2,
+    "searchText": "Gà chậm lớn, khung xương to, thịt ít Chân yếu, đi loạng choạng, dễ ngồi nhiều Xương ức, cột sống, khớp có thể biến dạng, cong vẹo Ở đàn đẻ, vỏ trứng mỏng, dễ vỡ, sản lượng giảm Trong trường hợp nặng, gà không đứng nổi, nằm lâu, dễ bị đè Tăng trọng không đạt chuẩn, chân hơi yếu Khó nhận nếu không so với đàn chuẩn hoặc lịch cân Chân yếu rõ, gà đi khó, hay nằm Xương ức, khớp bắt đầu có hình dạng bất thường Đàn đẻ vỏ trứng mỏng, méo Biến dạng khung xương, chân cong, gà không đứng nổi Đàn rất khó đạt trọng lượng mong muốn Nhiều con bị loại thải sớm vì không đi lại được"
+  },
+  {
+    "id": "gout",
+    "name": "Gout, tích urat",
+    "group": "other",
+    "level": 3,
+    "searchText": "Thể cấp nội tạng: gà chết nhanh, khi mổ thấy nhiều mảng trắng như vôi bám trên tim, gan, thận, màng bao nội tạng Thể khớp: khớp chân, ngón chân sưng, nóng, gà đi khập khiễng Ăn kém, gầy, lông xấu, phân có thể trắng nhiều urat Đôi khi gà nằm nhiều do đau khớp, không muốn di chuyển Khó nhận, có thể chỉ thấy vài con đi hơi khập khiễng Phân trắng nhiều hơn bình thường ở một số con Nhiều con chân sưng, đi khó, khớp to Gà ăn kém, gầy dần, lông xấu Một số con chết, khi mổ thấy lấm tấm urat trắng trong nội tạng Chết rải rác hoặc hàng loạt với tổn thương urat nặng trong nội tạng Nhiều con không đứng nổi, nằm nhiều, chân sưng đau Đàn suy mạnh, hiệu quả nuôi rất kém"
+  },
+  {
+    "id": "fatty-liver-syndrome",
+    "name": "Hội chứng gan nhiễm mỡ ở gà đẻ",
+    "group": "other",
+    "level": 3,
+    "searchText": "Đàn đẻ giảm sản lượng từ từ, gà có vẻ béo, bụng to Một số con chết đột ngột, khi mổ gan to, vàng, dễ vỡ, có máu đông trong khoang bụng Gà ít hoạt động, thở nhanh hơn khi trời nóng Nếu kéo dài, đàn xuống sức, khó giữ đỉnh đẻ Khó nhận, chỉ thấy đàn hơi béo, đẻ có xu hướng chững lại Chưa có biểu hiện rõ ràng về chết đột ngột Đàn đẻ giảm dần, gà béo, bụng to, ít hoạt động Lác đác có con chết, mổ thấy gan lớn, màu vàng, mềm Tăng số gà chết đột ngột, trong bụng nhiều máu, gan vỡ Đàn mất phong độ, sản lượng đẻ khó kéo lại đỉnh ban đầu Chi phí nuôi cao, hiệu quả thấp"
+  },
+  {
+    "id": "leg-deformities",
+    "name": "Dị tật chân do nền và dinh dưỡng",
+    "group": "other",
+    "level": 2,
+    "searchText": "Chân cong, xoắn, khớp gối to, gà đi khập khiễng Một số con ngồi nhiều, không leo lên máng đậu Tăng trọng kém, xương to thịt ít, dáng xấu Nếu nặng, gà không đứng nổi, phải nằm lâu Vài con đi hơi lệch, khớp gối hơi to Khó nhận nếu không so với đàn chuẩn Nhiều con chân cong rõ, đi khập khiễng Gà chậm lớn, ít vận động, thịt ốm Có con không đứng nổi, chỉ ngồi hoặc nằm Tổn thương khớp nặng, khó hồi phục Đàn nhìn rất xấu mã, hiệu quả nuôi thấp"
+  },
+  {
+    "id": "general-stress-syndrome",
+    "name": "Hội chứng stress tổng hợp",
+    "group": "other",
+    "level": 2,
+    "searchText": "Đàn kém sung, hoạt động không đều, dễ hoảng loạn Giảm ăn, chậm lớn, tỷ lệ đồng đều kém Đàn đẻ giảm sản lượng hoặc sản lượng thất thường Dễ bùng thêm bệnh hô hấp, tiêu hóa, ký sinh trùng Một số con mổ cắn lông nhau, tăng hành vi xấu Đàn dễ giật mình, chạy tán loạn khi có tiếng động Tăng trưởng, đẻ có dao động nhẹ nhưng khó nhận nếu không ghi chép Giảm ăn, chậm lớn, sản lượng đẻ giảm rõ Dễ bùng một số bệnh cơ hội khi thời tiết xấu Tăng hành vi xấu như mổ lông, mổ cánh Đàn rất khó quản lý, hay dạt, hoảng loạn Nhiều bệnh chồng lên nhau, hiệu quả dùng thuốc kém Kinh tế đàn giảm mạnh, khó kéo trở lại ổn định"
+  },
+  {
+    "id": "gumboro-ibd",
+    "name": "Gumboro/IBD (viêm túi Fabricius)",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Ủ rũ, xù lông, đứng tụm Ăn giảm nhanh Tiêu chảy trắng loãng, dính hậu môn Uống nước nhiều Run nhẹ, mất sức Chết rải rác tăng nhanh Ăn giảm, xù lông Tiêu chảy nhẹ Ủ rũ rõ Tiêu chảy trắng nhiều Mất sức Nằm bệt, run Chết nhanh do suy kiệt/bội nhiễm"
+  },
+  {
+    "id": "mareks-disease",
+    "name": "Marek (liệt - u hạch)",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Liệt một hoặc hai chân, dạng xoạc Cánh rũ, cổ vẹo Gà gầy dần dù vẫn ăn Đồng tử méo, mù Chết rải rác kéo dài Đi đứng lảo đảo Gầy chậm Liệt rõ chân/cánh Gầy nhanh Nằm liệt, không ăn Chết do suy kiệt"
+  },
+  {
+    "id": "fowlpox",
+    "name": "Đậu gà (Fowl pox)",
+    "group": "other",
+    "severityLevel": 2,
+    "searchText": "Nốt sần ở mào, mí mắt, chân → đóng vảy đen Gà gãi nhiều, dễ bội nhiễm Dạng ướt: mảng trắng ở miệng/hầu, khó thở Ăn giảm, chậm lớn Vài nốt đậu rải rác Ăn giảm nhẹ Đậu dày, vảy đen Gãi nhiều Đậu miệng/hầu, khó thở Kiệt sức do không ăn"
+  },
+  {
+    "id": "avian-encephalomyelitis",
+    "name": "Viêm não tuỷ truyền nhiễm (AE)",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Run đầu - cổ - toàn thân Đi xiêu vẹo, dễ ngã Nằm tụm, yếu nhanh Một số con mù do đục thủy tinh thể Run nhẹ Ăn giảm Run rõ, đi không vững Yếu Nằm liệt, không mổ được Chết do suy kiệt"
+  },
+  {
+    "id": "mycoplasma-synoviae",
+    "name": "Mycoplasma synoviae (viêm khớp - viêm túi khí nhẹ)",
+    "group": "other",
+    "severityLevel": 2,
+    "searchText": "Khớp cổ chân/đầu gối sưng Đi cà nhắc, đứng một chỗ Ăn giảm, chậm lớn Có thể kèm ho nhẹ, khò khè Đi hơi cứng Ăn giảm nhẹ Khớp sưng rõ Đi khập khiễng Nằm nhiều, khớp đau nặng Gầy nhanh"
+  }
+]

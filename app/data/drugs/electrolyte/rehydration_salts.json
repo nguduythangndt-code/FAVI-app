@@ -1,0 +1,48 @@
+{
+  "name": "Rehydration salts (muối bù nước chuyên dụng)",
+
+  "mechanism": [
+    "Bù nước và khoáng nhanh",
+    "Ổn định cân bằng kiềm - toan",
+    "Giảm nguy cơ sốc mất nước ở dê con"
+  ],
+
+  "clinical_uses": [
+    "Tiêu chảy cấp mất nước nhiều",
+    "Dê con suy yếu, lả, nằm nhiều",
+    "Hỗ trợ hồi phục sau sốt cao"
+  ],
+
+  "advantages": [
+    "Tác dụng mạnh và nhanh",
+    "Thiết kế tối ưu cho ca mất nước nặng",
+    "Hiệu quả hơn oresol trong nhiều tình huống"
+  ],
+
+  "disadvantages": [
+    "Giá cao hơn oresol",
+    "Một số con khó chịu uống vì vị đặc"
+  ],
+
+  "side_effects": [
+    "Có thể đầy bụng thoáng qua",
+    "Nhu cầu uống nước tăng"
+  ],
+
+  "recommendations": [
+    "Dùng cho ca mất nước vừa - nặng",
+    "Kết hợp xử lý nguyên nhân tiêu chảy",
+    "Theo dõi da, mắt, và mức độ tỉnh táo"
+  ],
+
+  "contraindications": [
+    "Không dùng cho dê đang nôn liên tục",
+    "Không dùng khi nghi tắc ruột"
+  ],
+
+  "alternatives": [
+    "Electrolyte tổng hợp",
+    "Oresol",
+    "Vitamin C điện giải"
+  ]
+}

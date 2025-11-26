@@ -1,0 +1,103 @@
+{
+  "id": "avian-influenza",
+  "name": "Cúm gia cầm",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Bệnh virus rất nguy hiểm, lây lan nhanh, nhiều chủng có khả năng gây chết gần như toàn đàn trong thời gian ngắn, đồng thời là bệnh phải khai báo thú y.",
+  "causes": [
+    "Virus cúm gia cầm typ A nhiều subtype (H5, H7...)",
+    "Lây qua không khí, dịch tiết, phân, nước uống chung",
+    "Lây từ chim hoang dã, gia cầm mua về không rõ nguồn gốc"
+  ],
+  "risk_factors": [
+    "Nuôi gần khu vực có nhiều ao hồ, chim hoang cư trú",
+    "Nhập gà chợ, gà không rõ tiêm phòng, không cách ly trước khi nhập đàn",
+    "Chuồng trại ẩm, bẩn, nhiều phân, ít sát trùng",
+    "Không tiêm phòng hoặc tiêm vaccine không đúng chỉ dẫn"
+  ],
+  "clinical_signs_detailed": [
+    "Gà ủ rũ, bỏ ăn đột ngột, chết nhanh",
+    "Thở khó, há mỏ, khò khè, ho, hắt hơi",
+    "Tím mào, tích, chân, xuất huyết da điểm đỏ",
+    "Tiêu chảy phân xanh, loãng, mùi hôi",
+    "Giảm đẻ mạnh, trứng biến dạng, vỏ mỏng hoặc không vỏ",
+    "Có thể thấy phù đầu, mặt sưng, mắt chảy nước"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn, xù lông, tụm đám",
+      "Thỉnh thoảng ho, hắt hơi, chảy nước mắt, nước mũi trong",
+      "Giảm đẻ nhẹ, trứng hơi xấu hơn bình thường"
+    ],
+    "moderate": [
+      "Thở khó, há mỏ, tím mào nhẹ",
+      "Tiêu chảy phân xanh, loãng, dính hậu môn",
+      "Giảm đẻ rõ, nhiều trứng vỏ mỏng, biến dạng",
+      "Một số con sưng mặt, mắt lim dim"
+    ],
+    "severe": [
+      "Tím mào - tích rõ, khó thở nặng, nằm bẹp",
+      "Chết đột ngột nhiều con, có thể chết cả con đang khỏe",
+      "Tỷ lệ chết tăng rất nhanh chỉ trong vài ngày",
+      "Khó kiểm soát, nghi ngờ cúm độc lực cao"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": "Không có thuốc đặc hiệu điều trị cúm gia cầm. Chỉ có thể hỗ trợ giảm triệu chứng và kiểm soát nhiễm khuẩn kế phát theo tư vấn thú y khi cần thiết.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "thuốc long đờm - giãn phế quản dạng uống"
+      },
+      "electrolyte": {
+        "main": "điện giải - vitamin C pha nước liên tục",
+        "alternative": "điện giải có thêm chất trợ gan, giải độc"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên A, D, E, C",
+        "alternative": "chế phẩm tăng sức đề kháng tổng quát"
+      },
+      "digestive_support": {
+        "main": "men vi sinh hỗ trợ đường ruột",
+        "alternative": "chất hấp phụ độc tố trong thức ăn khi nghi ngờ thức ăn kém chất lượng"
+      }
+    },
+    "supportive_care": [
+      "Báo ngay cho thú y địa phương khi nghi cúm gia cầm, không tự giấu dịch",
+      "Cách ly khu vực nuôi, hạn chế người và phương tiện ra vào",
+      "Thu gom và xử lý xác chết đúng hướng dẫn (chôn, đốt, rắc vôi, sát trùng)",
+      "Tăng cường sát trùng chuồng trại, lối đi, khu vực xung quanh",
+      "Không bán chạy, không di chuyển gia cầm khỏi vùng dịch khi chưa được phép"
+    ],
+    "dose_policy": "Khi dùng bất kỳ thuốc hỗ trợ nào, cần tuân thủ đúng liều trên nhãn hoặc theo tư vấn thú y. Không tự ý dùng thuốc kháng virus cho người vào gia cầm."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ổ dịch nghi cúm gia cầm trên đàn lớn, tỷ lệ chết tăng rất nhanh.",
+      "guideline": "Dừng ngay việc xuất, nhập gia cầm. Thông báo cho thú y xã/huyện để được hướng dẫn xử lý theo quy định. Tập trung tiêu độc khử trùng, xử lý xác và chất thải đúng cách, không xả thải ra môi trường chung. Chuẩn bị phương án tiêu huỷ đàn nếu được yêu cầu."
+    },
+    "case_type_2": {
+      "description": "Đàn nhỏ, nuôi quanh nhà, có dấu hiệu nghi cúm nhưng chưa xác định.",
+      "guideline": "Cách ly đàn bệnh, không cho tiếp xúc với đàn khác hay gia cầm hàng xóm. Thông báo thú y để được kiểm tra, lấy mẫu nếu cần. Không mổ thịt, bán chạy hoặc di chuyển gà khi chưa có hướng dẫn rõ ràng."
+    },
+    "note": "Cúm gia cầm là bệnh có ý nghĩa về sức khoẻ cộng đồng, luôn ưu tiên báo cáo và xử lý theo hệ thống thú y, không điều trị theo kiểu tự phát."
+  },
+  "prevention": [
+    "Tiêm phòng cúm gia cầm theo khuyến cáo tại địa phương",
+    "Hạn chế tiếp xúc với gia cầm lạ, chim hoang, thuỷ cầm",
+    "Giữ khu vực nuôi sạch, khô, sát trùng định kỳ",
+    "Không mua giống trôi nổi, không rõ nguồn gốc và tình trạng vaccine",
+    "Quần áo, giày dép, dụng cụ chăn nuôi nên dùng riêng cho khu nuôi"
+  ],
+  "notes": [
+    "Cần phân biệt với Newcastle và một số bệnh hô hấp khác, nhiều trường hợp phải dựa vào xét nghiệm.",
+    "Không chủ quan khi thấy gà chết nhanh, đặc biệt nếu chết nhiều con đang khỏe."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

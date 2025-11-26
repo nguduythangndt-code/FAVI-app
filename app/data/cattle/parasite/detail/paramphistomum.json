@@ -1,0 +1,107 @@
+{
+  "id": "paramphistomum",
+  "name": "Sán dạ cỏ",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Sán dạ cỏ Paramphistomum ký sinh ở dạ cỏ và ruột non, có thể gây tiêu chảy, chậm lớn, giảm hiệu quả sử dụng thức ăn, nhất là ở bê và bò tơ.",
+  "causes": [
+    "Bò ăn phải ấu trùng sán trên cỏ ở bãi chăn ẩm, ngập nước",
+    "Uống nước ở ao, mương có ốc trung gian mang mầm bệnh",
+    "Chăn thả xen kẽ với vùng trũng, đầm lầy trong thời gian dài",
+    "Không tẩy sán đường tiêu hóa định kỳ"
+  ],
+  "risk_factors": [
+    "Bãi chăn ngập nước theo mùa, nhiều cỏ non quanh ao, mương",
+    "Đàn bò uống nước trực tiếp từ nguồn nước mặt",
+    "Không có chương trình tẩy sán rõ ràng",
+    "Bê và bò tơ với hệ tiêu hóa chưa hoàn thiện"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy từng đợt, phân lỏng, mùi hôi hơn bình thường",
+    "Bụng hóp, gầy chậm, tăng trọng kém",
+    "Ăn giảm nhẹ, nhai lại ít, đôi khi đầy hơi nhẹ",
+    "Lông kém bóng, nhìn con vật thiếu sức sống",
+    "Ở ca nặng: tiêu chảy kéo dài, mất nước, suy kiệt"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân không ổn định, lúc sệt lúc hơi lỏng",
+      "Tăng trọng chậm, khó nhận nếu không cân định kỳ",
+      "Lông bớt bóng nhưng không quá rõ"
+    ],
+    "moderate": [
+      "Tiêu chảy lỏng kéo dài hoặc tái đi tái lại",
+      "Gầy rõ, xương hông lộ, bắp đùi lép",
+      "Ăn giảm, nhai lại ít, hoạt động kém"
+    ],
+    "severe": [
+      "Tiêu chảy nhiều, mất nước, da nhăn",
+      "Suy kiệt, đứng không vững hoặc nằm nhiều",
+      "Dễ nhiễm thêm các bệnh tiêu hóa, hô hấp khác"
+    ]
+},
+  "treatment": {
+    "primary_drugs": [
+      "oxyclozanide",
+      "closantel"
+    ],
+    "alternative_drugs": [
+      "niclosamide",
+      "phác đồ tẩy sán do thú y lựa chọn phù hợp từng vùng"
+    ],
+    "note_drugs": "Tẩy sán dạ cỏ thường nên kết hợp trong chương trình tẩy sán tổng thể cho đàn. Cần tham khảo hướng dẫn cụ thể cho bò sữa và bò thịt về thời gian ngưng thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin khi bò đau bụng, khó chịu",
+        "alternative": "meloxicam theo chỉ định thú y"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải uống khi tiêu chảy và mất nước nhẹ",
+        "alternative": "truyền dịch hỗ trợ ở ca suy kiệt do thú y thực hiện"
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "multivitamin và khoáng tổng hợp"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa cho bò trong và sau điều trị",
+        "alternative": "chế phẩm vi sinh ổn định hệ tiêu hóa"
+      }
+    },
+    "supportive_care": [
+      "Cho ăn thức ăn dễ tiêu, chất lượng tốt, tránh cỏ mốc",
+      "Đảm bảo nước sạch, hạn chế dùng nước ao tù cho đàn",
+      "Giữ chuồng khô, sạch, giảm ẩm ướt quanh khu vực cho ăn",
+      "Theo dõi phân, thể trạng và mức ăn của bò trong suốt quá trình điều trị"
+    ],
+    "dose_policy": "Tuân thủ liều và thời gian dùng theo nhãn thuốc hoặc hướng dẫn thú y. Không tự ý kéo dài hoặc rút ngắn liệu trình tẩy sán."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò tiêu chảy, gầy rõ nhưng vẫn đi lại, ăn còn ít.",
+      "guideline": "Tẩy sán kết hợp bù nước, điện giải và men tiêu hóa. Theo dõi sát đáp ứng điều trị trong vài ngày đầu."
+    },
+    "case_type_2": {
+      "description": "Bò suy kiệt, tiêu chảy nhiều, mất nước nặng, ít đứng.",
+      "guideline": "Thú y thăm khám, quyết định phác đồ truyền dịch và hỗ trợ toàn thân. Đánh giá khả năng hồi phục và chi phí trước khi kéo dài điều trị."
+    },
+    "note": "Sán dạ cỏ thường đi kèm với các ký sinh trùng khác. Điều trị nên dựa trên đánh giá tổng thể đàn và ý kiến thú y."
+  },
+  "prevention": [
+    "Quản lý bãi chăn, hạn chế chăn trên vùng ngập nước lâu ngày",
+    "Tẩy sán định kỳ cho đàn theo lịch cố định",
+    "Cung cấp nguồn nước uống sạch, hạn chế nước ao tù",
+    "Theo dõi phân và tăng trọng, đặc biệt ở bê và bò tơ",
+    "Kết hợp kiểm soát sán lá gan và sán dạ cỏ trong cùng chương trình"
+  ],
+  "notes": [
+    "Sán dạ cỏ có thể làm giảm hiệu quả sử dụng thức ăn mà không gây biểu hiện rầm rộ.",
+    "Cân định kỳ giúp phát hiện sớm vấn đề tăng trọng kém.",
+    "Phòng bệnh bằng quản lý bãi chăn và nguồn nước là rất quan trọng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

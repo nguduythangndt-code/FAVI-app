@@ -1,0 +1,104 @@
+{
+  "id": "infectious-laryngotracheitis",
+  "name": "Viêm thanh khí quản truyền nhiễm (ILT)",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Bệnh virus gây tổn thương nặng đường hô hấp trên, gà ho dữ dội, ho ra máu, thở khó và chết nhanh nếu không phát hiện sớm.",
+  "causes": [
+    "Virus viêm thanh khí quản truyền nhiễm (ILT), thuộc nhóm herpesvirus",
+    "Lây qua không khí, dịch tiết, dụng cụ và người chăm sóc mang mầm bệnh",
+    "Gà mang trùng sau khi khỏi bệnh có thể tiếp tục thải virus"
+  ],
+  "risk_factors": [
+    "Chuồng bí, nhiều bụi, khí độc, thay đổi nhiệt độ đột ngột",
+    "Không có chương trình vaccine ILT ở vùng có dịch lưu hành",
+    "Nuôi nhiều lứa tuổi chung, khó tách đàn khi có bệnh",
+    "Đàn bị stress kéo dài: vận chuyển, ghép đàn, thay đổi khẩu phần"
+  ],
+  "clinical_signs_detailed": [
+    "Ho khan, sau đó ho dữ dội, gà vươn cổ, há mỏ, ho ra máu hoặc dịch nhày",
+    "Thở khó, há mỏ, vươn cổ để hít, nghe tiếng rít trong khí quản",
+    "Gà tụm một chỗ, đầu chúi thấp, miệng há, thở bằng mỏ",
+    "Có thể thấy máu dính quanh mỏ, ngực, nền chuồng",
+    "Giảm ăn, giảm đẻ, nhiều con chết đột ngột do nghẹt đường thở",
+    "Tỷ lệ chết thay đổi tùy độc lực và tình trạng đàn"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho, hắt hơi nhẹ, thỉnh thoảng nghe tiếng khục ở cổ",
+      "Giảm ăn nhẹ, đàn vẫn đi lại bình thường",
+      "Chưa thấy máu hoặc dịch nhày rõ quanh mỏ"
+    ],
+    "moderate": [
+      "Ho nhiều, ho thành cơn, gà vươn cổ khi ho",
+      "Thở khò khè, thở khó, một số con há mỏ thường xuyên",
+      "Giảm ăn, giảm đẻ, mệt, tụm đám"
+    ],
+    "severe": [
+      "Ho ra máu, máu dính nền chuồng hoặc lông ngực",
+      "Thở rất khó, gà đứng vươn cổ, miệng há, tím mào - tích",
+      "Chết đột ngột, nhiều con chết trong thời gian ngắn do nghẹt đường thở"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [
+      "doxycycline",
+      "tilmicosin"
+    ],
+    "note_drugs": "Không có thuốc đặc hiệu diệt virus ILT. Kháng sinh chỉ dùng để kiểm soát nhiễm khuẩn kế phát ở đường hô hấp. Cần chọn một phác đồ rõ ràng và kết hợp chăm sóc môi trường, không xem kháng sinh là giải pháp chính.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "chế phẩm long đờm - giãn phế quản dạng nước"
+      },
+      "electrolyte": {
+        "main": "điện giải + vitamin C pha nước liên tục trong những ngày đầu",
+        "alternative": "điện giải có kèm chất trợ gan, giải độc để giảm mệt"
+      },
+      "vitamin": {
+        "main": "vitamin ADE + B-complex",
+        "alternative": "chế phẩm tăng sức đề kháng tổng hợp"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để tránh rối loạn tiêu hoá khi dùng kháng sinh",
+        "alternative": "chế phẩm trợ tiêu hoá nếu đàn ăn kém, phân xấu"
+      }
+    },
+    "supportive_care": [
+      "Giảm tối đa bụi, khí độc trong chuồng, mở thông gió nhưng tránh gió lùa trực tiếp",
+      "Giữ nền chuồng khô, sạch, loại bỏ chất độn ẩm bẩn, sát trùng thường xuyên",
+      "Cho gà uống nước dễ tiếp cận, nhiều vị trí máng uống để tránh tranh chấp",
+      "Không dồn ép đàn, hạn chế bắt, đuổi, làm gà ho nhiều hơn",
+      "Theo dõi tỷ lệ chết hằng ngày và báo thú y nếu nghi dịch lớn"
+    ],
+    "dose_policy": "Bất kỳ thuốc nào dùng thêm đều phải tuân thủ liều hướng dẫn trên nhãn hoặc theo thú y. Không tự ý phối hợp nhiều loại thuốc tiêm hoặc uống nếu chưa rõ tương tác."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ổ dịch ILT nghiêm trọng, nhiều gà ho ra máu, chết nhanh.",
+      "guideline": "Cách ly khu vực nuôi, hạn chế người ra vào, thông báo thú y để được hỗ trợ chẩn đoán và hướng dẫn xử lý. Tập trung chăm sóc hỗ trợ đàn còn khả năng hồi phục, tăng điện giải, vitamin, giảm stress môi trường. Cân nhắc các biện pháp kiểm soát dịch chặt chẽ nếu tỷ lệ chết tăng nhanh."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc đàn quy mô nhỏ, giá trị cao, xuất hiện ILT.",
+      "guideline": "Chia đàn nhỏ để dễ chăm, tránh chen chúc. Điều chỉnh nhiệt độ, độ ẩm hợp lý, giảm tối đa bụi và khí độc. Dùng kháng sinh kiểm soát kế phát theo tư vấn thú y, kết hợp hỗ trợ hô hấp, điện giải, vitamin. Ghi chép đầy đủ lịch bệnh để xem xét chương trình vaccine ILT cho các lứa sau."
+    },
+    "note": "ILT có thể tồn tại dai dẳng qua gà mang trùng. Quản lý đàn giống và chương trình vaccine là chìa khoá giảm rủi ro lâu dài."
+  },
+  "prevention": [
+    "Cân nhắc vaccine ILT tại vùng có dịch lưu hành theo khuyến cáo thú y",
+    "Thiết kế chuồng giảm bụi, thông gió tốt, không nuôi quá dày",
+    "Áp dụng nguyên tắc cùng vào - cùng ra, không nuôi nhiều lứa trong một ô",
+    "Sát trùng định kỳ lối đi, chuồng, thiết bị ăn uống",
+    "Hạn chế người lạ, phương tiện từ vùng có dịch vào khu nuôi"
+  ],
+  "notes": [
+    "ILT dễ gây ấn tượng mạnh vì ho ra máu, cần phân biệt với các nguyên nhân chảy máu khác.",
+    "Bệnh có khuynh hướng lặp lại nếu đàn giống mang trùng không được quản lý tốt."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

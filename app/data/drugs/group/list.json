@@ -1,0 +1,12 @@
+[
+  { "id": "antibiotic",                "name": "Kháng sinh" },
+  { "id": "antiinflammatory_analgesic", "name": "Kháng viêm - giảm đau" },
+  { "id": "electrolyte",               "name": "Điện giải - bù nước" },
+  { "id": "vitamin_tonic",             "name": "Vitamin - khoáng - bổ trợ" },
+  { "id": "antiparasitic_internal",    "name": "Ký sinh trùng nội" },
+  { "id": "antiparasitic_external",    "name": "Ký sinh trùng ngoài" },
+  { "id": "respiratory_support",       "name": "Hỗ trợ hô hấp" },
+  { "id": "digestive_support",         "name": "Hỗ trợ tiêu hoá - đường ruột" },
+  { "id": "blood_parasite",            "name": "Ký sinh trùng máu" }
+  
+]

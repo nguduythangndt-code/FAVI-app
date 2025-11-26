@@ -1,0 +1,48 @@
+{
+  "name": "Dung dịch thông mũi - sát khuẩn nhẹ",
+
+  "mechanism": [
+    "Làm sạch niêm mạc mũi",
+    "Giảm nghẹt mũi và loại bỏ dịch bám",
+    "Sát khuẩn nhẹ giúp giảm kích ứng"
+  ],
+
+  "clinical_uses": [
+    "Nghẹt mũi kéo dài",
+    "Viêm mũi - viêm xoang nhẹ",
+    "Hỗ trợ trong cảm lạnh và thời tiết ẩm ướt"
+  ],
+
+  "advantages": [
+    "An toàn, dễ dùng",
+    "Hiệu quả tốt khi mũi nhiều dịch",
+    "Dùng được cho dê mọi lứa tuổi"
+  ],
+
+  "disadvantages": [
+    "Chỉ tác động đường mũi - không tác dụng lên phổi",
+    "Cần dùng nhiều lần nếu dịch nhiều"
+  ],
+
+  "side_effects": [
+    "Hắt hơi nhẹ sau khi dùng",
+    "Chảy nước mũi tăng trong 10-20 phút đầu"
+  ],
+
+  "recommendations": [
+    "Làm sạch mũi nhẹ nhàng trước khi nhỏ",
+    "Kết hợp giữ chuồng khô, ấm",
+    "Đánh giá lại nếu nghẹt mũi kéo dài > 48 giờ"
+  ],
+
+  "contraindications": [
+    "Không dùng cho dê chảy máu mũi",
+    "Tránh dùng khi nghi có dị vật trong mũi"
+  ],
+
+  "alternatives": [
+    "Eucalyptus",
+    "Menthol - Camphor",
+    "Bromhexine (khi có đờm sâu)"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "coccidiosis-intestinal",
+    "name": "Cầu trùng ruột",
+    "group": "digestive",
+    "level": 2,
+    "searchText": "Tiêu chảy, phân loãng, lẫn nhầy, đôi khi lẫn máu ít Lông xù, gà đứng ủ rũ, tụm đám, giảm ăn, uống nước nhiều hơn Chậm lớn, ngực nhọn, da nhăn, khung xương to nhưng thịt ít Một số con thiếu máu, mào nhạt màu Tỷ lệ chết không quá cao nếu không bội nhiễm, nhưng hao cám và kéo dài thời gian xuất bán Phân ướt hơn bình thường, có nhầy, gà hơi xù lông Giảm ăn nhẹ, đàn vẫn còn hoạt động tương đối Khó nhận ra nếu không quan sát kỹ phân và tốc độ tăng trọng Tiêu chảy rõ, phân nhầy, đôi khi có vệt máu Gà tụm đám, ít chạy nhảy, giảm ăn, uống nước nhiều Chậm lớn thấy rõ, ngực nhọn, lông xấu Tiêu chảy nhiều, phân lẫn máu hoặc màu nâu sẫm Gà gầy, thiếu máu, lờ đờ, nằm nhiều Tỷ lệ chết tăng, đặc biệt nếu bội nhiễm vi khuẩn khác"
+  },
+  {
+    "id": "coccidiosis-cecal",
+    "name": "Cầu trùng manh tràng",
+    "group": "digestive",
+    "level": 2,
+    "searchText": "Tiêu chảy máu, phân đỏ, nâu sẫm hoặc lẫn máu cục, rất điển hình Gà ủ rũ, xù lông, đứng một chỗ, mắt lim dim Thiếu máu: mào, tích nhạt màu, da trắng bệch Giảm ăn, uống nhiều nước, sụt cân nhanh Tỷ lệ chết có thể cao nếu bùng lên mạnh và không xử lý đúng Mổ khám: manh tràng sưng, chứa nhiều máu, thành dày Phân đôi lúc có vệt đỏ nhỏ, khó phân biệt với máu do lý do khác Gà hơi xù lông, giảm linh hoạt, nhưng còn ăn tương đối Phân máu rõ rệt, đỏ nâu hoặc lẫn máu cục, xảy ra ở nhiều con Gà ủ rũ, tụm lại, giảm ăn, uống nước nhiều Mào nhạt màu, thể trạng gầy đi nhanh Tiêu chảy máu nhiều, phân toàn máu hoặc cục máu Gà rất yếu, nằm nhiều, khó đứng dậy Tỷ lệ chết tăng rõ, nhất là ở gà con - gà dò"
+  },
+  {
+    "id": "necrotic-enteritis",
+    "name": "Viêm ruột hoại tử",
+    "group": "digestive",
+    "level": 3,
+    "searchText": "Tiêu chảy, phân sẫm màu, rất hôi, có thể lẫn màng nhầy Gà ủ rũ, xù lông, giảm hoặc bỏ ăn, uống nước nhiều Gầy nhanh, hốc hác, ngực nhọn, da nhăn Chết rải rác hoặc tăng nhanh, nhất là ở giai đoạn gà thịt đang lớn nhanh Mổ khám: ruột dày, có mảng hoại tử dính vào niêm mạc, mùi hôi đặc trưng Tiêu chảy nhẹ, phân sẫm màu hơn bình thường, hơi hôi Giảm ăn nhẹ, đàn vẫn còn linh hoạt Khó phân biệt nếu không để ý mùi và tốc độ lớn Tiêu chảy rõ, phân sẫm màu, mùi hôi khó chịu Gà xù lông, giảm ăn, uống nước nhiều, gầy nhanh Chết lác đác, nhất là những con tăng trưởng nhanh Tiêu chảy nặng, phân có mảng nhầy, mùi hôi nồng Gà rất yếu, ít di chuyển, nằm nhiều Tỷ lệ chết tăng, mổ khám thấy ruột hoại tử điển hình"
+  },
+  {
+    "id": "salmonellosis-pullorum",
+    "name": "Bạch lỵ gà con (Salmonella)",
+    "group": "digestive",
+    "level": 2,
+    "searchText": "Gà con ủ rũ, tụm lại, run, kém ăn, kêu nhiều Tiêu chảy phân trắng, vàng nhạt, dính quanh hậu môn, bết lông bụng trướng, bẩn, hôi nhẹ Gà còi, nhẹ cân, xương to, thịt ít Tỷ lệ chết cao trong những ngày đầu nếu nhiễm nặng từ trứng Gà sống sót có thể trở thành nguồn mang trùng Một số gà con tiêu chảy nhẹ, phân nhạt màu hơn bình thường Hậu môn hơi bẩn, nhưng đàn vẫn ăn uống tương đối Khó nhận ra nếu không để ý kỹ từng con Tiêu chảy rõ, phân trắng, vàng nhạt dính hậu môn Gà con ủ rũ, tụm lại, kém ăn, kêu nhiều Chết lác đác, đàn phát triển không đồng đều Nhiều gà con tiêu chảy trắng, bết hậu môn, phải vệ sinh tay Bụng trướng, gầy, yếu, nằm nhiều Tỷ lệ chết cao trong thời gian ngắn nếu không xử lý kịp"
+  },
+  {
+    "id": "enteric-colibacillosis",
+    "name": "Tiêu chảy do E. coli",
+    "group": "digestive",
+    "level": 1,
+    "searchText": "Tiêu chảy, phân loãng, màu vàng, xanh hoặc nâu nhạt, mùi hôi Bết phân quanh hậu môn, lông bụng bẩn Gà giảm ăn, uống nước nhiều, chậm lớn, nhẹ cân Lông xấu, da khô, ngực nhọn Nếu nặng, mất nước, mắt trũng, ủ rũ, chết rải rác Phân hơi lỏng, chuồng bẩn nhanh hơn bình thường Gà giảm ăn nhẹ nhưng vẫn đi lại được Khó nhận nếu không quan sát kỹ nền chuồng và hậu môn Tiêu chảy rõ, phân loãng, bết quanh hậu môn Gà xù lông, ít hoạt động, uống nước nhiều hơn ăn Chậm lớn, nhiều con còi hơn so với đàn cùng tuổi khỏe Tiêu chảy nặng, phân nước, mùi hôi rõ Gà gầy, mất nước, mắt trũng, lờ đờ, nằm nhiều Chết rải rác, nhất là những con đã yếu sẵn"
+  },
+  {
+    "id": "crop-impaction",
+    "name": "Tắc diều",
+    "group": "digestive",
+    "level": 1,
+    "searchText": "Diều phồng to, sờ cứng hoặc bột bột, buổi sáng sớm diều vẫn còn đầy Gà giảm ăn, gầy dần, lông xấu, hoạt động kém Có thể ợ ra mùi chua, hôi khi diều lên men Một số trường hợp gà khát nước nhiều nhưng ăn rất ít Nếu tắc nặng lâu ngày, gà suy kiệt, chết do kiệt sức Diều căng hơn bình thường sau ăn, nhưng vẫn xẹp bớt sau một đêm Gà hơi giảm ăn nhưng còn hoạt động tương đối Buổi sáng sờ diều vẫn còn đầy, có cảm giác cứng hoặc vón cục Gà ăn ít, chậm lớn, lông không bóng Có thể ợ ra mùi chua nhẹ Diều căng, cứng, kéo dài nhiều ngày không xẹp Gà rất gầy, yếu, ăn rất ít, uống nước nhiều Có mùi chua, hôi rõ từ miệng, nguy cơ suy kiệt và chết"
+  },
+  {
+    "id": "hemorrhagic-enteritis",
+    "name": "Viêm ruột xuất huyết (Hemorrhagic enteritis)",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Ủ rũ, ăn giảm Phân nâu đỏ hoặc có máu Gà gầy nhanh Chết rải rác Ăn giảm Phân loãng Phân sẫm/máu nhẹ Gầy Xuất huyết ruột mạnh Chết nhanh"
+  },
+  {
+    "id": "ibh-adenovirus",
+    "name": "Viêm gan thể vùi do Adenovirus (IBH)",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Chết đột ngột tăng nhanh Gà tụm, yếu, xù lông Ăn giảm Phân vàng loãng Ăn giảm, ủ rũ nhẹ Yếu rõ, chết rải rác tăng Chết nhanh từng lứa, tỷ lệ cao"
+  }
+]

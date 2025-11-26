@@ -1,0 +1,105 @@
+{
+  "id": "prolapse-oviduct",
+  "name": "Sa ống dẫn trứng, sa huyệt",
+  "species": "chicken",
+  "group": "reproductive",
+  "summary": "Một phần ống dẫn trứng hoặc cloaca bị lòi ra ngoài, thường sau khi đẻ trứng to, làm gà đau, dễ nhiễm trùng và bị các con khác mổ.",
+  "causes": [
+    "Đẻ trứng quá to, trứng méo hoặc đẻ dồn nhiều trứng liên tục",
+    "Co bóp quá mạnh, kết hợp với yếu cơ vùng hậu môn",
+    "Gà béo, áp lực trong ổ bụng cao",
+    "Viêm hoặc tổn thương trước đó ở cloaca và ống dẫn trứng"
+  ],
+  "risk_factors": [
+    "Gà đẻ nhiều, nuôi lâu năm, thường xuyên đẻ trứng to",
+    "Khẩu phần mất cân đối, gà quá béo",
+    "Chuồng chật, ít vận động, cơ yếu",
+    "Đàn có thói quen mổ cắn, nhất là khi thấy vùng đỏ lòi ra"
+  ],
+  "clinical_signs_detailed": [
+    "Thấy một khối đỏ, ướt, lòi ra ở vùng cloaca",
+    "Gà đau, ít di chuyển, thường ngồi nhiều",
+    "Các con khác có xu hướng mổ vào khối đỏ gây chảy máu",
+    "Giảm hoặc bỏ đẻ",
+    "Nếu không xử lý, dễ nhiễm trùng nặng, hoại tử và chết"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Vùng cloaca hơi phồng, đỏ, lồi nhẹ sau khi đẻ, rồi tự co lại",
+      "Gà vẫn hoạt động tương đối bình thường"
+    ],
+    "moderate": [
+      "Khối đỏ lòi ra rõ, co lại chậm hoặc không tự co hết",
+      "Gà đau, đi lại khó, giảm ăn, giảm đẻ"
+    ],
+    "severe": [
+      "Khối lòi ra lớn, khô, bẩn hoặc có vết mổ, chảy máu",
+      "Gà suy, rất yếu, có nguy cơ nhiễm trùng và chết",
+      "Các con khác liên tục mổ vào vùng tổn thương"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Điều trị sa huyệt cần kết hợp xử lý cơ học, vệ sinh và dùng kháng sinh phòng nhiễm trùng. Trường hợp nặng, hoại tử nhiều thường khó cứu, cần cân nhắc loại thải.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "meloxicam",
+        "alternative": "flunixin"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải hỗ trợ đàn suy và gà đau nhiều",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp giúp hồi phục",
+        "alternative": "vitamin nhóm B hỗ trợ ăn uống trở lại"
+      },
+      "digestive_support": {
+        "main": "khẩu phần mềm, dễ tiêu trong giai đoạn hồi phục",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Tách gà bị sa huyệt ra khu riêng, tránh bị những con khác mổ",
+      "Vệ sinh vùng lòi ra bằng dung dịch sát trùng nhẹ theo tư vấn thú y",
+      "Không cố nhét mạnh phần lòi vào nếu không được hướng dẫn rõ",
+      "Giảm cho đẻ tiếp nếu có thể, để gà nghỉ hồi phục",
+      "Theo dõi sát, nếu hoại tử nhiều, cân nhắc loại thải để tránh đau đớn kéo dài"
+    ],
+    "dose_policy": "Dùng kháng sinh và thuốc giảm đau, chống viêm theo đúng hướng dẫn trên nhãn hoặc tư vấn thú y. Không lạm dụng thuốc mạnh nhiều lần khi tình trạng không thể hồi phục."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn đẻ thương phẩm, một vài con bị sa huyệt do đẻ trứng to.",
+      "guideline": "Tách riêng các con bị nặng, xử lý vệ sinh và điều trị hỗ trợ. Điều chỉnh khẩu phần và chương trình chiếu sáng để giảm áp lực đẻ liên tục. Chấp nhận loại thải những con không có khả năng hồi phục."
+    },
+    "case_type_2": {
+      "description": "Gà cảnh hoặc gà giống giá trị cao bị sa huyệt.",
+      "guideline": "Nhờ thú y hỗ trợ xử lý cơ học và điều trị tích cực. Giảm cho đẻ tiếp, tập trung chăm để gà hồi sức. Về lâu dài, cân nhắc không khai thác đẻ nhiều ở con này để tránh tái phát."
+    },
+    "note": "Sa huyệt có tính chất vừa là tai nạn, vừa do nền đẻ quá căng. Phòng bằng quản lý tốt, tránh để gà quá béo và đẻ trứng quá to liên tục."
+  },
+  "prevention": [
+    "Kiểm soát trọng lượng cơ thể, tránh gà quá béo",
+    "Điều chỉnh khẩu phần và ánh sáng để không ép đẻ quá mức",
+    "Giữ đàn bình tĩnh, hạn chế stress và thói quen mổ cắn",
+    "Theo dõi chất lượng trứng, giảm những đợt trứng quá to kéo dài",
+    "Chuồng thoáng, đủ không gian để gà vận động"
+  ],
+  "notes": [
+    "Khi thấy một con sa huyệt, nên kiểm tra lại toàn bộ chương trình nuôi và đẻ của đàn.",
+    "Tách riêng sớm giúp giảm nguy cơ bị các con khác mổ gây nặng thêm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

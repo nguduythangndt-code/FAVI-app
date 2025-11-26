@@ -1,0 +1,102 @@
+{
+  "id": "heterakis-gallinarum",
+  "name": "Giun manh tràng (Heterakis)",
+  "species": "chicken",
+  "group": "parasite",
+  "summary": "Giun sống chủ yếu ở manh tràng, thường không gây triệu chứng rõ một mình nhưng là cầu nối cho một số bệnh khác trên gan và ruột.",
+  "causes": [
+    "Gà ăn phải trứng giun manh tràng từ phân và nền chuồng",
+    "Trứng giun tồn tại lâu trong môi trường, bền vững với điều kiện khắc nghiệt",
+    "Không tẩy giun định kỳ cho đàn"
+  ],
+  "risk_factors": [
+    "Nuôi nền đất hoặc nền trấu bẩn, ít thay hoặc đảo lớp độn",
+    "Gà thả vườn bới nền có nhiều phân cũ",
+    "Không có chương trình tẩy giun và sát trùng nền sau mỗi lứa",
+    "Nuôi chung nhiều loài gia cầm, khó quản lý phân"
+  ],
+  "clinical_signs_detailed": [
+    "Nhiễm nhẹ thường khó thấy triệu chứng rõ, chủ yếu làm đàn chậm lớn",
+    "Manh tràng có thể dày, chứa nhiều giun khi mổ khám",
+    "Nếu kèm bệnh khác, gà gầy, xấu mã, sức đề kháng giảm",
+    "Trong một số trường hợp, có thể tăng nguy cơ tổn thương gan, ruột do các tác nhân khác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Khó nhận qua quan sát ngoài, đàn chỉ hơi chậm lớn",
+      "Không có dấu hiệu tiêu hóa đặc biệt rõ ràng"
+    ],
+    "moderate": [
+      "Gà gầy hơn đàn chuẩn, lông xấu, thể trạng không đều",
+      "Phân đôi lúc nhầy, manh tràng dày khi mổ khám"
+    ],
+    "severe": [
+      "Giun manh tràng nhiều, gà suy, dễ mắc các bệnh kèm theo",
+      "Có thể thấy tổn thương manh tràng, ruột và gan khi mổ khám"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "albendazole",
+      "fenbendazole"
+    ],
+    "alternative_drugs": [
+      "levamisole",
+      "ivermectin_internal"
+    ],
+    "note_drugs": "Tẩy giun manh tràng thường dùng chung phác đồ với giun đũa. Chủ yếu là xử lý theo đàn, kết hợp dọn nền và phân để giảm tái nhiễm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải cho đàn suy yếu nhiều",
+        "alternative": "điện giải kèm vitamin C nếu gà stress sau tẩy giun"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp sau đợt tẩy giun",
+        "alternative": "vitamin nhóm B kích thích ăn"
+      },
+      "digestive_support": {
+        "main": "men vi sinh giúp cân bằng lại hệ vi sinh đường ruột",
+        "alternative": "thức ăn mềm, dễ tiêu trong vài ngày đầu"
+      }
+    },
+    "supportive_care": [
+      "Dọn phân ngay sau khi tẩy giun để giảm trứng thải ra môi trường",
+      "Thay hoặc đảo lớp độn chuồng, sát trùng nền",
+      "Không để gà bới trực tiếp trên lớp phân dày",
+      "Giảm mật độ đàn, tránh quá nhiều gà trong không gian nhỏ",
+      "Lập kế hoạch tẩy giun định kỳ theo chu kỳ nuôi"
+    ],
+    "dose_policy": "Dùng thuốc tẩy giun đúng liều, không lạm dụng hoặc tẩy quá sát nhau khi không cần thiết."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thương phẩm, giun manh tràng nhiều, đàn không đạt trọng lượng mong muốn.",
+      "guideline": "Tẩy giun toàn đàn theo phác đồ, kết hợp điều chỉnh mật độ, vệ sinh nền và chế độ ăn. Theo dõi tăng trọng trong vài tuần sau tẩy giun để đánh giá hiệu quả kinh tế."
+    },
+    "case_type_2": {
+      "description": "Đàn giống, giun manh tràng nhiều, có nguy cơ làm nền cho bệnh khác.",
+      "guideline": "Tẩy giun đều và ghi chép lịch. Tập trung cải thiện nền chuồng, cách ly các loài khác nếu có. Xem xét tần suất sát trùng và thay chất độn để giảm áp lực trứng giun."
+    },
+    "note": "Giun manh tràng hiếm khi gây bệnh cấp riêng rẽ, nhưng góp phần làm đàn yếu và dễ gặp vấn đề khác."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ, đặc biệt ở đàn giống, đàn thả vườn",
+    "Giữ nền khô, sạch, dọn phân thường xuyên",
+    "Không để gà bới trên lớp phân cũ tích tụ",
+    "Sát trùng nền và chuồng giữa các lứa nuôi",
+    "Hạn chế nuôi chung quá nhiều loài trong cùng khu chuồng"
+  ],
+  "notes": [
+    "Mổ khám một vài con trong đàn là cách tốt để đánh giá mức độ nhiễm giun manh tràng.",
+    "Gom kế hoạch tẩy giun cho nhiều loại giun sẽ giúp giảm chi phí và công chăm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

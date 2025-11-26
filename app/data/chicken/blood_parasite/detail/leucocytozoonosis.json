@@ -1,0 +1,105 @@
+{
+  "id": "leucocytozoonosis",
+  "name": "Nhiễm Leucocytozoon",
+  "species": "chicken",
+  "group": "blood_parasite",
+  "summary": "Bệnh ký sinh trùng máu lây qua côn trùng hút máu như dĩn, muỗi nhỏ, làm gà sốt, thiếu máu, suy và có thể chết rải rác.",
+  "causes": [
+    "Ký sinh trùng máu Leucocytozoon spp.",
+    "Truyền qua côn trùng hút máu như dĩn, muỗi nhỏ quanh khu chuồng",
+    "Đàn nuôi ở vùng trũng, ẩm, nhiều côn trùng hoạt động mạnh"
+  ],
+  "risk_factors": [
+    "Chuồng gần rừng cây, bụi rậm, suối, mương, ao tù",
+    "Không có biện pháp che chắn hay giảm côn trùng hút máu",
+    "Đàn nuôi ngoài trời nhiều, ngủ nơi thoáng nhưng không chống côn trùng",
+    "Gà suy dinh dưỡng, thiếu khoáng và vitamin, dễ nhiễm và bệnh nặng hơn"
+  ],
+  "clinical_signs_detailed": [
+    "Gà sốt, ủ rũ, đứng tách đàn, lông xù",
+    "Mào, tích nhạt màu, dấu hiệu thiếu máu rõ dần theo thời gian",
+    "Giảm ăn, chậm lớn, gầy nhanh, hoạt động kém",
+    "Thở nhanh, yếu, một số con có dấu hiệu thần kinh nhẹ nếu thiếu oxy nặng",
+    "Đàn đẻ giảm sản lượng, trứng nhỏ, vỏ mỏng hơn",
+    "Có thể chết rải rác nếu không phát hiện và xử lý kịp"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Một ít con ủ rũ, lông xấu, giảm ăn nhẹ",
+      "Mào hơi nhạt màu nhưng khó nhận khi nhìn thoáng qua"
+    ],
+    "moderate": [
+      "Gà sốt, ủ rũ rõ, giảm ăn, uống nước nhiều",
+      "Thiếu máu vừa, mào nhạt, gầy đi nhanh",
+      "Đàn đẻ giảm rõ, phải chú ý mới phát hiện sớm"
+    ],
+    "severe": [
+      "Thiếu máu nặng, mào nhợt, gà suy, nằm nhiều",
+      "Thở nhanh, yếu, dễ chết nếu kèm thêm bệnh khác",
+      "Đàn nhìn rất xấu mã, khung xương lộ rõ"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "thuoc_ky_sinh_trung_mau_theo_tu_van_thu_y"
+    ],
+    "alternative_drugs": [
+      "doxycycline",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Leucocytozoon là ký sinh trùng máu, cần thuốc chuyên biệt nếu có. Kháng sinh chỉ hỗ trợ kiểm soát nhiễm khuẩn kế phát và giảm áp lực các bệnh phụ kèm theo.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải bù nước và điện giải cho đàn suy",
+        "alternative": "điện giải có thêm glucose dùng vài ngày đầu"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên các vitamin nhóm B và khoáng",
+        "alternative": "vitamin C và chế phẩm tăng sức đề kháng"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để giúp gà ăn và tiêu hóa tốt hơn",
+        "alternative": "khẩu phần dễ tiêu, tăng chất lượng cám trong giai đoạn bệnh"
+      }
+    },
+    "supportive_care": [
+      "Giảm stress, hạn chế bắt gà, không vận chuyển trong giai đoạn bệnh",
+      "Giữ chuồng thoáng nhưng tránh gió lùa trực tiếp vào đàn suy",
+      "Đảm bảo nước uống sạch và luôn sẵn",
+      "Tăng chất lượng khẩu phần, đặc biệt đạm và năng lượng vừa phải, dễ tiêu",
+      "Áp dụng biện pháp giảm côn trùng hút máu quanh chuồng"
+    ],
+    "dose_policy": "Thuốc ký sinh trùng máu và kháng sinh phải dùng theo đúng khuyến cáo trên nhãn hoặc tư vấn thú y. Không tự trộn nhiều loại thuốc mạnh khi chưa rõ tương tác."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thịt nuôi ngoài trời, nhiều con xanh xao, gầy, chết rải rác nghi do ký sinh trùng máu.",
+      "guideline": "Điều trị ký sinh trùng máu theo tư vấn thú y, kết hợp điện giải, vitamin và dinh dưỡng tốt. Giảm thời gian thả ngoài vùng nhiều côn trùng, che chắn bớt nơi gà ngủ. Theo dõi sát tỉ lệ chết và thể trạng trong quá trình điều trị."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc gà cảnh giá trị, suy nhiều vì bệnh ký sinh trùng máu.",
+      "guideline": "Chăm từng nhóm nhỏ, đảm bảo mỗi con được tiếp cận thuốc và dinh dưỡng. Áp dụng thêm các biện pháp chống côn trùng cho khu nuôi, có thể dùng lưới, màn hoặc bẫy côn trùng. Ghi chép lại để đánh giá hiệu quả phòng ở các lứa sau."
+    },
+    "note": "Leucocytozoon và các ký sinh trùng máu khác thường khó nhận nếu chỉ dựa vào triệu chứng ngoài. Cần kết hợp yếu tố môi trường và kiểu chết kéo dài để nghi ngờ."
+  },
+  "prevention": [
+    "Giảm môi trường ẩm, nhiều côn trùng quanh chuồng",
+    "Xử lý các điểm nước tù, chỗ rác hữu cơ, bụi rậm gần khu nuôi",
+    "Nếu có điều kiện, lắp lưới chống côn trùng cho khu gà ngủ ban đêm",
+    "Giữ dinh dưỡng cân đối, bổ sung vitamin và khoáng trong giai đoạn thời tiết khắc nghiệt",
+    "Theo dõi thể trạng đàn định kỳ để phát hiện sớm tình trạng thiếu máu bất thường"
+  ],
+  "notes": [
+    "Ở nhiều trại nhỏ, bệnh ký sinh trùng máu thường bị gộp chung, ít phân biệt rõ Plasmodium hay Leucocytozoon.",
+    "Với người nuôi thực tế, điều quan trọng là nhận ra đàn xanh xao, gầy kéo dài và xem lại yếu tố côn trùng xung quanh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

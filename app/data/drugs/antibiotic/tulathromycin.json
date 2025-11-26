@@ -1,0 +1,41 @@
+{
+  "id": "tulathromycin",
+  "name": "Tulathromycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm macrolide thế hệ mới. Thuốc thấm sâu vào mô phổi, hỗ trợ cơ thể kiểm soát tốt Mycoplasma và các vi khuẩn liên quan đến bệnh hô hấp.",
+  "clinical_uses": [
+    "Các ca viêm phổi ở dê, bò, heo, bê nghé.",
+    "Những tình huống hô hấp trong đàn có chiều hướng nặng dần.",
+    "Các ca ho - khó thở kéo dài cần một thuốc tác dụng bền."
+  ],
+  "pros": [
+    "Thời gian tác dụng dài, phù hợp khi cần giảm số lần tiêm.",
+    "Hiệu quả tốt trong các ca hô hấp tiến triển.",
+    "Dùng được cho nhiều loài khi theo đúng hướng dẫn."
+  ],
+  "cons": [
+    "Chi phí cao hơn nhiều thuốc khác.",
+    "Không phải lựa chọn đầu tiên cho các ca viêm ruột.",
+    "Thường dùng khi đã xác định vấn đề liên quan tới mô phổi."
+  ],
+  "mild_side_effects": [
+    "Có thể hơi mệt trong 1 ngày đầu.",
+    "Ăn uống giảm nhẹ.",
+    "Đau nhẹ tại vị trí tiêm."
+  ],
+  "usage_recommendations": [
+    "Thường được dùng cho ca hô hấp trung bình - nặng.",
+    "Theo dõi nhịp thở và tình trạng sốt trong 24-48 giờ.",
+    "Luôn ưu tiên dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Thú đang điều trị bệnh gan cần được bác sĩ đánh giá thêm.",
+    "Các ca nghi ngờ nhiễm Gram âm mạnh có thể cần thuốc phổ rộng hơn.",
+    "Không nên dùng chỉ để phòng bệnh cho đàn khỏe mạnh."
+  ],
+  "alternative_drugs": [
+    "Tilmicosin.",
+    "Florfenicol.",
+    "Oxytetracycline."
+  ]
+}

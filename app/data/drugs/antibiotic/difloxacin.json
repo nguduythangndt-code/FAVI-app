@@ -1,0 +1,41 @@
+{
+  "id": "difloxacin",
+  "name": "Difloxacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm fluoroquinolone, giúp kiểm soát tốt các vi khuẩn Gram âm trong đường ruột và hô hấp. Phù hợp ca mức độ trung bình - nặng.",
+  "clinical_uses": [
+    "Tiêu chảy do vi khuẩn ở dê, heo, bê nghé.",
+    "Nhiễm trùng đường ruột kéo dài.",
+    "Một số ca hô hấp có yếu tố Gram âm."
+  ],
+  "pros": [
+    "Hấp thu tốt.",
+    "Hiệu lực khá mạnh.",
+    "Phù hợp dùng khi thuốc nhẹ chưa đủ."
+  ],
+  "cons": [
+    "Không phù hợp cho thú non rất nhỏ.",
+    "Không dùng kéo dài.",
+    "Không phải lựa chọn đầu tiên cho ca nhẹ."
+  ],
+  "mild_side_effects": [
+    "Phân mềm nhẹ.",
+    "Mệt trong ngày đầu.",
+    "Ăn giảm nhẹ."
+  ],
+  "usage_recommendations": [
+    "Phù hợp khi tiêu chảy kéo dài hơn 1-2 ngày.",
+    "Kết hợp bù nước - điện giải.",
+    "Dùng theo hướng dẫn của sản phẩm để đảm bảo an toàn."
+  ],
+  "when_not_to_use": [
+    "Tiêu chảy nặng kèm mất nước mạnh.",
+    "Thú suy thận cần đánh giá thêm.",
+    "Không dùng để phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Ciprofloxacin.",
+    "Marbofloxacin.",
+    "Enrofloxacin."
+  ]
+}

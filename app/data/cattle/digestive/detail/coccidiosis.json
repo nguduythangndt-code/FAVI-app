@@ -1,0 +1,122 @@
+{
+  "id": "coccidiosis",
+  "name": "Cầu trùng",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Bệnh cầu trùng ở bê và bò trẻ gây tiêu chảy, phân lẫn máu hoặc nhầy, gầy nhanh. Nếu không điều trị sớm dễ để lại đàn chậm lớn, sức đề kháng kém.",
+  "causes": [
+    "Nhiễm ký sinh trùng đơn bào Eimeria trong ruột non và ruột già",
+    "Môi trường chuồng ẩm bẩn, phân tồn đọng lâu",
+    "Mật độ nuôi cao, bê non nuôi tập trung",
+    "Nhiễm do liếm phân, ăn thức ăn và nước uống dính phân"
+  ],
+  "risk_factors": [
+    "Bê từ 1 đến 6 tháng tuổi nuôi tập trung",
+    "Chuồng nền ẩm, không thay lót chuồng thường xuyên",
+    "Máng ăn, máng uống bẩn, gần nơi đọng phân",
+    "Không tẩy ký sinh trùng định kỳ",
+    "Thời tiết ẩm, lạnh tạo điều kiện cầu trùng phát triển"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy, phân lỏng, có thể lẫn máu, nhầy hoặc từng cục niêm mạc",
+    "Mông và đuôi bám nhiều phân bẩn",
+    "Bê gầy nhanh, lông xù, bụng tóp, nhìn kém phát triển",
+    "Ăn kém, lờ đờ, ít vận động",
+    "Một số con có thể mất nước, mắt trũng, da khô",
+    "Trong đàn thường có nhiều bê cùng tiêu chảy trong một thời điểm"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tiêu chảy nhẹ, phân sệt, đôi khi có ít nhầy",
+      "Ăn giảm nhẹ, thể trạng chưa thay đổi nhiều",
+      "Hoạt động vẫn tương đối bình thường"
+    ],
+    "moderate": [
+      "Tiêu chảy nhiều lần trong ngày, phân lỏng, mùi hôi",
+      "Gầy nhanh, lông xù, bụng tóp",
+      "Mất nước nhẹ đến vừa, mắt hơi trũng",
+      "Bê nằm nhiều hơn, ít chơi, ít bú"
+    ],
+    "severe": [
+      "Tiêu chảy phân nước, có thể lẫn máu và mảng niêm mạc",
+      "Mất nước nặng, mắt trũng sâu, da mất đàn hồi",
+      "Bê rất mệt, nằm nhiều, đứng dậy khó",
+      "Nếu không điều trị kịp có thể chết do mất nước và suy kiệt"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "toltrazuril",
+      "sulfadimidine"
+    ],
+    "alternative_drugs": [
+      "amprolium"
+    ],
+    "note_drugs": "Điều trị nên áp dụng cho cả nhóm bê cùng lứa tuổi vì khả năng nhiễm lan rộng. Không kéo dài thuốc sulfonamide quá lâu để tránh ảnh hưởng thận và gan.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Bù nước và điện giải là ưu tiên đặc biệt ở bê nhỏ",
+      "Giữ chuồng khô, sạch, thay lót chuồng thường xuyên",
+      "Tách bê tiêu chảy nặng ra khu riêng để dễ chăm và giảm nhiễm chéo",
+      "Cho ăn thức ăn dễ tiêu, không ép ăn, tập trung giữ sức cho bê",
+      "Theo dõi số lần tiêu chảy, thể trạng và đáp ứng với điều trị mỗi ngày"
+    ],
+    "dose_policy": "Dùng thuốc cầu trùng và các thuốc hỗ trợ theo liều khuyến cáo trên nhãn hoặc theo chỉ định thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bê tiêu chảy rõ nhưng vẫn đứng được, vẫn bú hoặc ăn ít.",
+      "guideline": [
+        "Dùng thuốc đặc trị cầu trùng theo phác đồ",
+        "Bổ sung điện giải uống chia nhiều lần trong ngày",
+        "Tăng cường men tiêu hóa và vitamin để phục hồi ruột",
+        "Theo dõi sát 2 đến 3 ngày đầu, điều chỉnh nếu không cải thiện"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bê tiêu chảy nước, mất nước nặng, nằm nhiều, rất yếu.",
+      "guideline": [
+        "Nếu có điều kiện, truyền dịch theo hướng dẫn thú y",
+        "Tiếp tục điều trị cầu trùng và hỗ trợ tiêu hóa",
+        "Giữ ấm cơ thể, chuồng khô, tránh gió lùa",
+        "Tiên lượng thận trọng nếu bê quá nhỏ hoặc quá kiệt sức"
+      ]
+    },
+    "note": "Cầu trùng thường gây thiệt hại lớn về tăng trọng và sức đề kháng. Phòng tốt cho lứa bê sau sẽ hiệu quả hơn là chỉ tập trung cứu từng ca nặng."
+  },
+  "prevention": [
+    "Giữ chuồng bê luôn khô, sạch, thay lót thường xuyên",
+    "Không để phân ướt, nước bẩn tồn đọng quanh máng",
+    "Tẩy ký sinh trùng định kỳ theo kế hoạch trại",
+    "Có thể sử dụng thuốc phòng cầu trùng trong giai đoạn nguy cơ cao",
+    "Không nuôi bê quá dày trong không gian chật"
+  ],
+  "notes": [
+    "Nếu một bê bị cầu trùng thì các bê khác cùng khu gần như đều có nguy cơ.",
+    "Vệ sinh và quản lý nền chuồng là yếu tố quyết định trong phòng cầu trùng.",
+    "Ghi lại lứa, thời điểm, thời tiết lúc bùng phát bệnh để rút kinh nghiệm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

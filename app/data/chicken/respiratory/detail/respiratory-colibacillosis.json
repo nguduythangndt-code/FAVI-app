@@ -1,0 +1,106 @@
+{
+  "id": "respiratory-colibacillosis",
+  "name": "Colibacillosis hô hấp",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Nhiễm khuẩn E. coli ở đường hô hấp và túi khí, thường xuất hiện sau các bệnh virus hô hấp, làm gà khó thở, sốt, giảm ăn và chết rải rác.",
+  "causes": [
+    "Escherichia coli cơ hội xâm nhập khi niêm mạc hô hấp bị tổn thương",
+    "Môi trường chuồng bẩn, ẩm, nhiều phân, nhiều bụi",
+    "Thường xảy ra sau Newcastle, IB, Mycoplasma hoặc các bệnh làm suy hô hấp"
+  ],
+  "risk_factors": [
+    "Không kiểm soát tốt vệ sinh, phân tích tụ lâu ngày",
+    "Nước uống, thức ăn nhiễm bẩn, máng uống rêu bám",
+    "Đàn đã mắc bệnh hô hấp khác nhưng điều trị chưa dứt điểm",
+    "Mật độ nuôi dày, ít thông gió, nhiều khí độc"
+  ],
+  "clinical_signs_detailed": [
+    "Gà sốt, ủ rũ, xù lông, giảm ăn rõ rệt",
+    "Thở khò khè, thở nhanh, vươn cổ, há mỏ khi nặng",
+    "Một số con có bụng trướng nhẹ, sờ thấy đau, phân xấu",
+    "Tỷ lệ chết tăng dần, nhất là ở đàn đã có bệnh hô hấp nền",
+    "Mổ khám thường thấy viêm túi khí, fibrin bám, viêm màng bao tim - gan",
+    "Đàn chậm lớn, hao cám, khó đạt trọng lượng như kế hoạch"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn nhẹ, xù lông, đứng riêng, thở nhanh hơn bình thường",
+      "Chưa thấy khó thở rõ, tỷ lệ chết chưa tăng nhiều"
+    ],
+    "moderate": [
+      "Thở khò khè, thở nặng, gà giảm ăn, uống nước nhiều hơn",
+      "Gầy nhanh, phân ướt, bẩn quanh hậu môn",
+      "Chết lác đác, nhất là những con suy từ các bệnh hô hấp trước"
+    ],
+    "severe": [
+      "Thở rất khó, vươn cổ, há mỏ liên tục, di chuyển ít",
+      "Nhiều con nằm bẹp, phản xạ chậm, chết tăng từng ngày",
+      "Sau mổ thấy viêm túi khí, fibrin bám dày ở nội tạng"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "enrofloxacin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "amoxicillin",
+      "doxycycline"
+    ],
+    "note_drugs": "Chọn một kháng sinh phổ rộng có hiệu lực tốt trên E. coli và dùng đủ liệu trình. Không đổi thuốc liên tục trong vài ngày đầu vì khó đánh giá hiệu quả và dễ tạo kháng thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "chế phẩm thông khí quản - long đờm khác phù hợp cho gia cầm"
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước giúp bù nước, giảm mệt",
+        "alternative": "điện giải có thêm chất trợ gan thận khi nghi ngờ tổn thương nội tạng"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp cho cả đàn",
+        "alternative": "vitamin C hỗ trợ trong giai đoạn sốt và stress"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để hỗ trợ đường ruột trong thời gian dùng kháng sinh",
+        "alternative": "chế phẩm trợ tiêu hoá nếu đàn tiêu chảy, phân không định hình"
+      }
+    },
+    "supportive_care": [
+      "Làm sạch nền chuồng, giảm tối đa phân ướt, thay chất độn ẩm bẩn",
+      "Cải thiện thông gió, giảm khí độc, tránh gió lùa trực tiếp",
+      "Đảm bảo máng ăn, máng uống đủ số lượng, dễ tiếp cận",
+      "Kiểm tra lại chất lượng thức ăn, nước uống, tránh thức ăn mốc",
+      "Theo dõi sát tỷ lệ chết và phản ứng điều trị để điều chỉnh phác đồ kịp thời"
+    ],
+    "dose_policy": "Luôn xem kỹ hướng dẫn sử dụng trên nhãn thuốc và tuân thủ thời gian ngừng thuốc. Không tự ý pha liều đậm đặc ‘cho nhanh khỏi’ vì dễ gây hại gan thận và tăng chi phí vô ích."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt lớn sau đợt bệnh hô hấp, E. coli bùng lên, chết tăng.",
+      "guideline": "Áp dụng kháng sinh phổ rộng cho cả đàn theo đúng liệu trình, kết hợp vệ sinh nền chuồng và cải thiện thông gió thật quyết liệt. Ghi nhận số chết từng ngày: nếu sau vài ngày điều trị tỉ lệ chết không giảm, cần tham khảo thú y để xem xét đổi phác đồ hoặc kiểm tra thêm bệnh nền khác."
+    },
+    "case_type_2": {
+      "description": "Đàn giống, đàn nhỏ có giá trị, colibacillosis hô hấp kéo dài.",
+      "guideline": "Điều trị theo hướng tập trung vào nhóm bệnh, theo dõi sát đáp ứng từng ngày. Những con suy kiệt nặng, viêm túi khí nặng kéo dài nên loại thải để tránh ảnh hưởng chất lượng đàn giống. Sau giai đoạn bệnh, tăng cường dinh dưỡng, vitamin và quản lý môi trường để đàn hồi lại tốt hơn."
+    },
+    "note": "Colibacillosis thường là bệnh ‘kế phát’ trên nền quản lý môi trường kém. Nếu không xử lý gốc môi trường, việc dùng thuốc chỉ giúp tạm thời."
+  },
+  "prevention": [
+    "Giữ chuồng trại khô, sạch, dọn phân và thay chất độn định kỳ",
+    "Thiết kế hệ thống nước uống sạch, rửa máng thường xuyên",
+    "Không dùng lại thức ăn đã bị ẩm, mốc hoặc vương vãi lâu ngày",
+    "Phòng tốt các bệnh hô hấp khác để giảm cơ hội E. coli bùng phát",
+    "Sát trùng chuồng và dụng cụ đều đặn, đặc biệt giữa các lứa nuôi"
+  ],
+  "notes": [
+    "Khi đã có bệnh hô hấp virus trước đó, nguy cơ E. coli bùng lên rất cao.",
+    "Mổ khám một vài con bệnh - chết điển hình giúp xác định tổn thương túi khí, nội tạng để định hướng chẩn đoán."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

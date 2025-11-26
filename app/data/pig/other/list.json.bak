@@ -1,0 +1,58 @@
+[
+  {
+    "id": "arthritis",
+    "name": "Viêm khớp",
+    "group": "other",
+    "severityLevel": 2,
+    "searchText": "Heo đi khập khiễng, chống chân, bước không vững Khớp sưng nóng, đau, heo không muốn đứng lâu Nằm nhiều, khó chịu khi bị đụng vào chân Ăn giảm, tăng trọng chậm Một số con sốt nhẹ nếu viêm nặng Đi hơi khập khiễng Ăn gần như bình thường Khớp chỉ hơi sưng Đi khó, chống chân rõ Khớp sưng, ấm, đau khi sờ Nằm nhiều, lớn chậm Không muốn đứng, chỉ nằm một chỗ Khớp rất sưng, có thể biến dạng Gầy nhanh do lâu ngày không đi lại được"
+  },
+  {
+    "id": "stress-syndrome",
+    "name": "Hội chứng stress",
+    "group": "other",
+    "severityLevel": 2,
+    "searchText": "Thở rất nhanh, há miệng, thở bụng mạnh Run cơ, run toàn thân, loạng choạng Da, tai có thể đỏ bừng hoặc tím dần Nằm bẹp, không muốn đứng dậy Có thể chết nhanh nếu không giảm stress và làm mát Thở nhanh hơn bình thường sau dồn đuổi Mệt, nằm nghỉ nhưng vẫn đứng dậy được Thở dốc rõ, run nhẹ Nằm nhiều, khó đứng lên Mạch nhanh, heo rất kích động hoặc lừ đừ bất thường Thở dữ dội, run mạnh Nằm bẹp, gần như không nhúc nhích Có thể chết đột ngột nếu không can thiệp"
+  },
+  {
+    "id": "skin-infection",
+    "name": "Nhiễm trùng da",
+    "group": "other",
+    "severityLevel": 2,
+    "searchText": "Da đỏ, nóng, sưng vùng bị tổn thương Có thể chảy dịch vàng, dịch hôi hoặc mủ Heo đau, không thích bị chạm vào vùng đó Nằm nhiều, vận động ít Nếu nhiều ổ nhiễm, heo gầy và yếu dần Mảng da đỏ nhẹ, hơi sưng Heo vẫn ăn bình thường Da sưng nóng rõ, có dịch rỉ Heo đau, đi lại khó khăn nếu ở chân Ăn giảm nhẹ Ổ mủ lớn, da loét sâu, mùi hôi Heo rất đau, nằm nhiều Gầy nhanh nếu kéo dài"
+  },
+  {
+    "id": "asf",
+    "name": "Dịch tả heo châu Phi (ASF)",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Sốt cao đột ngột, bỏ ăn Lờ đờ, nằm tụm, run Da đỏ tím ở tai, bụng, đùi Xuất huyết lấm tấm dưới da Nôn, tiêu chảy có thể lẫn máu Thở khó, chết nhanh trong vài ngày Sốt nhẹ, ăn giảm Lờ đờ thoáng qua Sốt cao liên tục Da đỏ tím Tiêu chảy/nôn Xuất huyết rõ Thở khó, đi loạng choạng Chết nhanh, tỷ lệ chết cao"
+  },
+  {
+    "id": "csf",
+    "name": "Dịch tả heo cổ điển (CSF)",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn Da đỏ tím, xuất huyết điểm Tiêu chảy hôi, có thể lẫn máu Run, co giật, đi vòng Heo nái sảy thai, thai khô Chết rải rác hoặc bùng phát Sốt, ăn giảm Lờ đờ Tiêu chảy Xuất huyết da Run Co giật, liệt Tiêu chảy máu Chết nhanh"
+  },
+  {
+    "id": "fmd",
+    "name": "Lở mồm long móng (FMD)",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Sốt, bỏ ăn Chảy nước dãi, lở loét miệng Mụn nước ở kẽ móng, đi cà nhắc Nằm nhiều, đau chân Heo con có thể chết nhanh do viêm cơ tim Sốt nhẹ Ăn giảm, chảy dãi Loét miệng rõ Đi khập khiễng Nhiễm trùng vết loét Heo con chết nhanh"
+  },
+  {
+    "id": "streptococcus-suis",
+    "name": "Liên cầu khuẩn Streptococcus suis",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Sốt, bỏ ăn Run, đi vòng, nghiêng đầu Co giật, nằm chèo chân Khớp sưng đau, đi cà nhắc Có thể chết đột ngột Sốt, lờ đờ Ăn giảm Run, đi loạng choạng Khớp sưng Co giật, liệt Chết nhanh do nhiễm trùng huyết"
+  },
+  {
+    "id": "erysipelas",
+    "name": "Đóng dấu lợn (Erysipelas)",
+    "group": "other",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn Da đỏ tím từng mảng, hình thoi Heo đứng run, yếu Khớp đau, đi khập khiễng Có thể chết nhanh Sốt, ăn giảm Mảng đỏ da rõ Khớp đau Nằm liệt, khó thở Chết do nhiễm trùng huyết"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "id": "postpartum_metritis",
+  "name": "Viêm tử cung sau sinh",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Viêm tử cung sau sinh làm nái ra dịch hôi, sốt, bỏ ăn và giảm sữa. Nếu không xử lý sớm sẽ suy nhanh.",
+  "causes": [
+    "Nhiễm khuẩn sau đẻ hoặc sau can thiệp sản khoa",
+    "Nhau sót",
+    "Chuồng đẻ bẩn"
+  ],
+  "risk_factors": [
+    "Đỡ đẻ không vệ sinh",
+    "Dụng cụ không sát trùng",
+    "Nhiễm E.coli hoặc Streptococcus",
+    "Nái đẻ khó kéo dài"
+  ],
+  "clinical_signs_detailed": [
+    "Dịch tiết hôi tanh màu nâu hoặc xanh",
+    "Sốt, bỏ ăn",
+    "Nái mệt, nằm nhiều",
+    "Giảm sữa, heo con kêu đói",
+    "Có thể đau bụng, đứng lên nằm xuống liên tục"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Dịch hơi hôi",
+      "Giảm ăn nhẹ"
+    ],
+    "moderate": [
+      "Dịch hôi rõ",
+      "Nái sốt, mệt"
+    ],
+    "severe": [
+      "Dịch xanh nâu nhiều",
+      "Nái suy, bỏ ăn",
+      "Heo con suy theo"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Amoxicillin",
+      "Ceftiofur"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline",
+      "Ampicillin"
+    ],
+    "note_drugs": "Amoxicillin và Ceftiofur rất phù hợp cho viêm tử cung sau sinh.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Vệ sinh chuồng đẻ sạch",
+      "Bổ sung nước và điện giải",
+      "Hỗ trợ heo con nếu nái mất sữa"
+    ],
+    "dose_policy": "Theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nái có dịch hôi nhưng vẫn ăn ít.",
+      "guideline": [
+        "Kháng sinh chính",
+        "Giữ sạch chuồng",
+        "Theo dõi nhiệt độ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Nái bỏ ăn, dịch xanh nâu, heo con suy.",
+      "guideline": [
+        "Điều trị tích cực",
+        "Hỗ trợ điện giải liên tục",
+        "Cân nhắc can thiệp thú y"
+      ]
+    },
+    "note": "Viêm tử cung nặng có thể gây chết nếu không xử lý."
+  },
+  "prevention": [
+    "Chuồng đẻ phải khô sạch",
+    "Dụng cụ đỡ đẻ luôn sát trùng",
+    "Theo dõi sau đẻ 3 ngày đầu"
+  ],
+  "notes": [
+    "Nái viêm tử cung dễ mất sữa.",
+    "Xử lý sớm giúp hồi nhanh và nuôi con tốt."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

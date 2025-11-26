@@ -1,0 +1,48 @@
+{
+  "name": "Vitamin C điện giải",
+
+  "mechanism": [
+    "Bù điện giải cơ bản",
+    "Vitamin C giúp tăng sức đề kháng",
+    "Hỗ trợ giải nhiệt và giảm stress"
+  ],
+
+  "clinical_uses": [
+    "Dê bị sốt, mệt, mất nước nhẹ",
+    "Stress vận chuyển hoặc thay đổi thời tiết",
+    "Giai đoạn hồi phục sau bệnh"
+  ],
+
+  "advantages": [
+    "Dễ uống, mùi vị nhẹ",
+    "Phù hợp dê con, dê nhạy cảm",
+    "Hỗ trợ tăng sức đề kháng"
+  ],
+
+  "disadvantages": [
+    "Không đủ cho ca mất nước nặng",
+    "Tác dụng điện giải yếu hơn oresol"
+  ],
+
+  "side_effects": [
+    "Tiêu hoá hơi lỏng lúc đầu",
+    "Tăng uống nước nhẹ"
+  ],
+
+  "recommendations": [
+    "Dùng trong ca mất nước nhẹ",
+    "Kết hợp oresol nếu tiêu chảy kéo dài",
+    "Theo dõi độ đàn hồi da"
+  ],
+
+  "contraindications": [
+    "Không dùng khi tiêu chảy nặng mất nước nhiều",
+    "Dê đang nôn liên tục"
+  ],
+
+  "alternatives": [
+    "Oresol",
+    "B-complex + điện giải",
+    "Electrolyte tổng hợp"
+  ]
+}

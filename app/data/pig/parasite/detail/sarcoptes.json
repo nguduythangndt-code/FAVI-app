@@ -1,0 +1,105 @@
+{
+  "id": "sarcoptes",
+  "name": "Ve, ghẻ Sarcoptes",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Ghẻ Sarcoptes làm heo ngứa dữ dội, cọ nhiều, da dày lên và chậm lớn. Rất dễ lây lan trong đàn.",
+  "causes": [
+    "Ký sinh trùng Sarcoptes scabiei",
+    "Lây do tiếp xúc trực tiếp hoặc dụng cụ chăn nuôi",
+    "Trứng tồn tại lâu ngoài môi trường"
+  ],
+  "risk_factors": [
+    "Chuồng bẩn, độ ẩm cao",
+    "Mật độ nuôi dày",
+    "Không tẩy ký sinh trùng định kỳ",
+    "Heo hậu bị và heo nái"
+  ],
+  "clinical_signs_detailed": [
+    "Heo ngứa nhiều, cọ mạnh vào tường",
+    "Tai, cổ, vai có vảy trắng dày",
+    "Da dày, nứt, sần sùi",
+    "Heo giảm ăn, chậm lớn",
+    "Heo nằm nhiều do mệt"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ngứa nhẹ vùng tai và cổ",
+      "Có vảy mỏng"
+    ],
+    "moderate": [
+      "Ngứa nhiều, cọ liên tục",
+      "Vảy trắng dày hơn"
+    ],
+    "severe": [
+      "Da dày, nứt, mảng lớn",
+      "Heo rất mệt, chậm lớn rõ"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin"
+    ],
+    "alternative_drugs": [
+      "Doramectin"
+    ],
+    "note_drugs": "Ivermectin là thuốc chính cho ghẻ. Doramectin có thể dùng thay thế.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Vệ sinh chuồng, thay lót khô",
+      "Xông hoặc phun sát trùng dụng cụ",
+      "Tách heo bệnh nặng"
+    ],
+    "dose_policy": "Dùng đúng theo nhãn."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo ngứa nhiều nhưng còn ăn.",
+      "guideline": [
+        "Tiêm Ivermectin",
+        "Giữ chuồng khô",
+        "Theo dõi 1-2 tuần"
+      ]
+    },
+    "case_type_2": {
+      "description": "Da dày nứt, heo rất mệt.",
+      "guideline": [
+        "Tăng vitamin",
+        "Tẩy ký sinh trùng lặp lại theo hướng dẫn",
+        "Tách heo để chăm riêng"
+      ]
+    },
+    "note": "Ghẻ lây lan cực nhanh, phải điều trị cả đàn."
+  },
+  "prevention": [
+    "Tẩy ký sinh trùng định kỳ",
+    "Giữ chuồng sạch và khô",
+    "Khử trùng dụng cụ nuôi heo"
+  ],
+  "notes": [
+    "Ghẻ làm heo rất ngứa và chậm lớn.",
+    "Cần chú ý điều trị đồng loạt."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

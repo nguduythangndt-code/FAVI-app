@@ -1,0 +1,38 @@
+{
+  "_note": "Group map V6 - direction only",
+
+  "group_base": {
+    "respiratory": 3,
+    "digestive": 3,
+    "blood_parasite": 3,
+    "parasite": 3,
+    "other": 2
+  },
+
+  "group_phrases": {
+    "respiratory": [
+      "tho bung", "tho giat bung", "tho giat giat", "tho co keo",
+      "tho ha mieng", "tho nhanh", "tho kho", "kho khe",
+      "chay nuoc mui", "ho", "ho khan", "ho nhieu", "xanh tim tai"
+    ],
+
+    "digestive": [
+      "tieu chay", "tieu chay nuoc", "phan vang", "phan vang hoi",
+      "phan trang", "phan trang nuoc", "phan mau", "di tuoet",
+      "mat nuoc", "non oi", "chuong bung"
+    ],
+
+    "blood_parasite": [
+      "vang mat", "tai tim", "niem nhot", "niem tai",
+      "thieu mau", "xanh xao", "gay nhanh"
+    ],
+
+    "parasite": [
+      "phan mau", "di tuoet", "gay nhanh", "phan hoi", "phan long"
+    ],
+
+    "other": [
+      "sot cao", "do tai", "tai do", "bo an", "lan ra chet", "chet nhanh"
+    ]
+  }
+}

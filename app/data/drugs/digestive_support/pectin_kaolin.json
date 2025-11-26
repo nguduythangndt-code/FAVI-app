@@ -1,0 +1,48 @@
+{
+  "name": "Pectin - Kaolin",
+
+  "mechanism": [
+    "Pectin tạo màng bảo vệ niêm mạc ruột",
+    "Kaolin hấp phụ độc tố và dịch thừa trong ruột",
+    "Giảm tiêu chảy và làm phân đặc lại"
+  ],
+
+  "clinical_uses": [
+    "Tiêu chảy mức độ nhẹ đến vừa",
+    "Rối loạn tiêu hoá không do vi khuẩn nặng",
+    "Tiêu chảy sau stress, thay đổi thời tiết hoặc thay đổi thức ăn"
+  ],
+
+  "advantages": [
+    "An toàn, dùng được cho dê mọi lứa tuổi",
+    "Hiệu quả khá nhanh trong 12-24 giờ",
+    "Không ảnh hưởng đến hệ vi sinh"
+  ],
+
+  "disadvantages": [
+    "Không có tác dụng trong nhiễm khuẩn nặng",
+    "Không xử lý được nguyên nhân gốc"
+  ],
+
+  "side_effects": [
+    "Phân hơi táo tạm thời",
+    "Ít gặp tác dụng phụ nghiêm trọng"
+  ],
+
+  "recommendations": [
+    "Kết hợp điện giải để tránh mất nước",
+    "Theo dõi phân từng ngày",
+    "Nếu tiêu chảy kéo dài > 48 giờ cần đánh giá lại"
+  ],
+
+  "contraindications": [
+    "Không dùng nếu nghi ngờ tắc ruột",
+    "Tránh dùng trong tiêu chảy có máu"
+  ],
+
+  "alternatives": [
+    "Probiotic",
+    "Activated charcoal",
+    "Men tiêu hoá + vitamin"
+  ]
+}

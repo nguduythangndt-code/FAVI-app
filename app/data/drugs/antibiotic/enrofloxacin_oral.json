@@ -1,0 +1,41 @@
+{
+  "id": "enrofloxacin_oral",
+  "name": "Enrofloxacin (dạng uống)",
+  "group": "antibiotic",
+  "mechanism": "Fluoroquinolone tác động mạnh trên nhiều vi khuẩn Gram âm. Dạng uống thường dùng trong các ca tiêu hóa hoặc hô hấp mức độ vừa khi con vật còn uống được.",
+  "clinical_uses": [
+    "Tiêu chảy mức độ vừa nghi nhiễm khuẩn Gram âm.",
+    "Hỗ trợ hô hấp khi nhiều con ho nhẹ - trung bình.",
+    "Một số ca rối loạn tiêu hóa kéo dài."
+  ],
+  "pros": [
+    "Mạnh hơn dạng quinolone cũ.",
+    "Dạng uống tiện triển khai theo đàn.",
+    "Cải thiện triệu chứng tương đối nhanh."
+  ],
+  "cons": [
+    "Không phù hợp ca nặng bỏ uống.",
+    "Không dùng kéo dài.",
+    "Cần theo dõi chức năng tiêu hóa."
+  ],
+  "mild_side_effects": [
+    "Ăn giảm nhẹ.",
+    "Phân mềm.",
+    "Hơi mệt trong ngày đầu."
+  ],
+  "usage_recommendations": [
+    "Thú phải còn uống nước hoặc bú bình thường.",
+    "Kết hợp bù nước - điện giải.",
+    "Dùng theo đúng hướng dẫn sản phẩm."
+  ],
+  "when_not_to_use": [
+    "Thú mất nước nặng.",
+    "Ca hô hấp nặng cần thuốc tiêm.",
+    "Không dùng để phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Enrofloxacin dạng tiêm cho ca nặng hơn.",
+    "Ciprofloxacin.",
+    "Florfenicol."
+  ]
+}

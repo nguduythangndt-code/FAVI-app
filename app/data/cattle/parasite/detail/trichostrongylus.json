@@ -1,0 +1,111 @@
+{
+  "id": "trichostrongylus",
+  "name": "Giun dài ruột non",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Giun Trichostrongylus ký sinh ở ruột non, gây tổn thương niêm mạc ruột, rối loạn tiêu hóa, tiêu chảy và giảm tăng trọng, thường nặng ở bê và bò tơ.",
+  "causes": [
+    "Bò ăn phải ấu trùng giun trên cỏ ẩm, nước đọng hoặc thức ăn nhiễm phân",
+    "Không tẩy giun đường tiêu hóa định kỳ",
+    "Mật độ bò cao, bãi chăn không được luân chuyển",
+    "Thể trạng suy dinh dưỡng, miễn dịch yếu"
+  ],
+  "risk_factors": [
+    "Bê, bò tơ nuôi chật, ít vận động",
+    "Chuồng ẩm, sàn bẩn, phân không được dọn thường xuyên",
+    "Không có chương trình tẩy giun rõ ràng",
+    "Thời tiết ẩm mát kéo dài"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy, phân lỏng, có thể lẫn bọt, mùi hôi hơn bình thường",
+    "Bụng hóp nhưng vùng hông có thể trũng do mất cơ",
+    "Giảm ăn, chậm lớn, tăng trọng thấp",
+    "Lông xù, xỉn màu, nhìn mất sức sống",
+    "Đôi khi có đầy hơi nhẹ, tiếng sôi bụng tăng",
+    "Nếu nhiễm kéo dài: gầy, cơ tóp, xương lộ, sức đề kháng giảm"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân hơi sệt, thi thoảng lỏng sau khi ăn",
+      "Ăn giảm nhẹ nhưng vẫn hoạt động bình thường",
+      "Tăng trọng chậm hơn so với lứa cùng tuổi"
+    ],
+    "moderate": [
+      "Tiêu chảy lỏng nhiều ngày, phân bám quanh đuôi",
+      "Thân hình gầy, bắp đùi và vai lép hơn rõ",
+      "Lông xù, hoạt động kém linh hoạt"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, mất nước, da nhăn khô",
+      "Gầy rộc, xương sống, xương hông nổi rõ",
+      "Bê yếu, dễ bị thêm viêm phổi hoặc bệnh khác",
+      "Nếu không can thiệp có thể chết do suy kiệt và mất nước"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "albendazole",
+      "fenbendazole",
+      "levamisole"
+    ],
+    "alternative_drugs": [
+      "ivermectin",
+      "moxidectin"
+    ],
+    "note_drugs": "Chọn thuốc tẩy giun có phổ trên giun ruột non. Với bê nhỏ, cần hỏi kỹ hướng dẫn dùng cho lứa tuổi non để tránh quá liều.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin khi bê đau bụng, khó chịu nhiều",
+        "alternative": "meloxicam theo tư vấn thú y"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải uống cho bê tiêu chảy",
+        "alternative": "truyền điện giải khi mất nước nặng do thú y thực hiện"
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "multivitamin, khoáng tổng hợp giúp phục hồi"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa dành cho bê",
+        "alternative": "chế phẩm vi sinh hỗ trợ phục hồi niêm mạc ruột"
+      }
+    },
+    "supportive_care": [
+      "Cách ly bê tiêu chảy để theo dõi và tránh bẩn chuồng",
+      "Giữ ấm, tránh gió lùa, giữ nền chuồng khô",
+      "Cho ăn ít nhưng chia nhiều bữa, thức ăn dễ tiêu",
+      "Bổ sung nước sạch liên tục, có thể pha điện giải theo hướng dẫn",
+      "Theo dõi cân nặng, mức độ tiêu chảy và hoạt động của bê"
+    ],
+    "dose_policy": "Dùng thuốc tẩy giun theo đúng khuyến cáo trên nhãn, đặc biệt chú ý liều cho bê non. Không tự ý tăng liều vì có thể gây ngộ độc. Tuân thủ thời gian ngưng thuốc trước khi xuất bán."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bê tiêu chảy nặng, vẫn còn đứng được, thỉnh thoảng nằm nghỉ nhiều hơn bình thường.",
+      "guideline": "Tiến hành tẩy giun kết hợp bù nước điện giải, men tiêu hóa và giữ ấm. Theo dõi sát lượng phân, mức độ mất nước (da, mắt, mũi) để điều chỉnh chăm sóc."
+    },
+    "case_type_2": {
+      "description": "Bê nằm nhiều, khó đứng, tiêu chảy, mắt trũng, da mất đàn hồi rõ.",
+      "guideline": "Liên hệ thú y để đánh giá và truyền dịch nếu cần. Kết hợp điều trị tẩy giun, hỗ trợ dinh dưỡng và chống nhiễm trùng kế phát. Cân nhắc tiên lượng dựa trên mức suy kiệt và điều kiện trại."
+    },
+    "note": "Bê suy kiệt do ký sinh trùng rất dễ mắc thêm các bệnh khác. Phòng bệnh sớm giúp giảm nhiều chi phí so với điều trị ca nặng."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ cho bê và bò tơ ngay từ sớm",
+    "Giữ chuồng khô sạch, dọn phân thường xuyên",
+    "Không nuôi nhốt quá đông, đảm bảo thông thoáng",
+    "Khẩu phần đủ đạm, khoáng, vitamin giúp bê phát triển tốt",
+    "Theo dõi phân và tăng trọng định kỳ để phát hiện sớm bất thường"
+  ],
+  "notes": [
+    "Giun ruột non làm bê chậm lớn, đôi khi bị bỏ qua vì không biểu hiện rầm rộ.",
+    "Cân nặng thấp kéo dài dù vẫn ăn tương đối là dấu hiệu cần kiểm tra ký sinh trùng.",
+    "Kết hợp quản lý môi trường và tẩy giun là chìa khóa để kiểm soát bệnh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

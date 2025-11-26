@@ -1,0 +1,79 @@
+[
+  {
+    "id": "enteritis",
+    "name": "Viêm ruột tiêu chảy",
+    "group": "digestive",
+    "searchText": "Tiêu chảy từ sệt sang lỏng, mùi hôi, có thể lẫn nhầy. Bụng sôi, khó chịu, đi lại nhiều, tỳ bụng vào máng hoặc vách. Giảm ăn, nhai lại ít hoặc mất. Lông xù, gầy nhanh, mất nước (mắt trũng, da nhăn). Một số trường hợp nặng: nằm nhiều, yếu, phân nước bắn tia. Phân sệt, tăng số lần đi ngoài. Ăn giảm nhẹ nhưng vẫn còn đứng, còn theo đàn. Nhai lại giảm nhưng chưa mất hẳn. Tiêu chảy lỏng rõ, phân bết quanh hậu môn. Ăn ít, hay nằm, phản ứng chậm hơn bình thường. Mất nước nhẹ - trung bình: mắt trũng, da khô. Nhai lại rất ít hoặc mất trong nhiều giờ. Tiêu chảy nước nhiều lần/ngày, mùi rất hôi. Mất nước nặng, mắt trũng sâu, da nhăn rõ. Yếu, đứng không nổi, thân nhiệt có thể hạ. Nguy cơ sốc và tử vong nếu không xử lý kịp.",
+    "severityLevel": 2
+  },
+  {
+    "id": "coccidiosis",
+    "name": "Cầu trùng đường ruột",
+    "group": "digestive",
+    "searchText": "Tiêu chảy kéo dài, phân có nhầy, đôi lúc lẫn máu. Dê con chậm lớn, lông xù, bụng tóp. Giảm ăn, nằm nhiều, yếu. Niêm mạc nhợt, thiếu máu. Một số con chỉ còi cọc, phân xấu nhưng không tiêu chảy mạnh. Phân sệt, màu vàng - nâu, mùi hôi nhẹ. Dê vẫn ăn nhưng tăng trọng chậm. Xù lông nhẹ. Tiêu chảy lỏng, có nhầy hoặc vệt máu nhỏ. Giảm ăn rõ, hay nằm. Gầy nhanh, niêm mạc nhợt. Tiêu chảy nhiều lần/ngày, máu đỏ tươi hoặc sẫm. Mất nước nặng, đứng không vững. Nguy cơ sa trực tràng. Nếu không xử lý sẽ chết do suy kiệt.",
+    "severityLevel": 3
+  },
+  {
+    "id": "rumen-acidosis",
+    "name": "Toan dạ cỏ (Acidosis)",
+    "group": "digestive",
+    "searchText": "Giảm ăn, bỏ ăn đột ngột sau bữa nhiều tinh. Nhai lại giảm hoặc mất; ít hoặc không ợ hơi. bụng trái phình to, căng, sờ dạ cỏ cứng hơn bình thường. Đi lại bứt rứt, đau bụng, thở nhanh. Tiêu chảy hoặc phân sệt chua, mùi lạ. Trường hợp nặng: nằm, yếu, có thể chết nhanh. Giảm ăn nhẹ sau bữa ăn nhiều tinh. Nhai lại thưa, ợ hơi ít. Bụng hơi căng, dê khó chịu nhưng vẫn đi lại. Bỏ ăn, chỉ đứng hoặc nằm thừ. Không thấy nhai lại, ợ hơi hầu như mất. Bụng trái căng, gõ vào nghe âm đục. Tiêu chảy hoặc phân sệt chua, mùi gắt. Dê nằm, khó đứng dậy, thở nhanh. Mắt trũng, niêm mạc nhợt, mất nước. Có dấu hiệu nhiễm độc toàn thân: lờ đờ, bủn rủn. Nguy cơ tử vong nếu không xử lý cấp cứu.",
+    "severityLevel": 3
+  },
+  {
+    "id": "rumen-alkalosis",
+    "name": "Kiềm dạ cỏ (Alkalosis)",
+    "group": "digestive",
+    "searchText": "Bồn chồn, đi lại, kêu, khó chịu. bụng trái phình to, bụng căng, đặc biệt bên trái. Thở nhanh, thở khó, có mùi amoniac từ miệng. Chảy nước dãi, run cơ, có thể co giật. Nặng có thể ngã lăn, đạp chân, chết nhanh. Dê hơi bồn chồn, giảm ăn. Bụng trái hơi căng, vẫn còn ợ hơi. Có thể nhai lại giảm. Chướng hơi rõ, bụng to, khó chịu. Thở nhanh, thở gấp. Chảy nước dãi, run nhẹ. Giảm ăn mạnh hoặc bỏ ăn. Chướng hơi nhiều, khó thở, ngạt. Run mạnh, co giật, ngã lăn. Có thể chết rất nhanh nếu không can thiệp.",
+    "severityLevel": 3
+  },
+  {
+    "id": "bloat",
+    "name": "Chướng hơi dạ cỏ (Bloat)",
+    "group": "digestive",
+    "searchText": "Bụng trái phình to, nhìn rõ hình trống. Dê bồn chồn, đá chân, kêu, thở gấp. Nhai lại giảm hoặc mất, không thấy ợ hơi. Niêm mạc có thể tím nếu thiếu oxy. Nặng: nằm nghiêng, thở ngáp, có thể chết nhanh. Bụng trái hơi to hơn bình thường. Nhai lại giảm, nhưng dê vẫn đi lại. Thở hơi nhanh, ít kêu. Bụng trái căng rõ, gõ nghe âm vang. Dê bồn chồn, đá chân, khó chịu. Thở gấp, đứng dạng chân, cổ vươn. Nhai lại hầu như mất. Bụng rất căng, nhìn mất cân đối. Thở ngáp, niêm mạc tím, mắt lồi. Dê ngã, duỗi chân, có thể co giật nhẹ. Nguy cơ tử vong trong thời gian ngắn.",
+    "severityLevel": 3
+  },
+  {
+    "id": "colibacillosis",
+    "name": "E.coli tiêu chảy sơ sinh","group": "digestive",
+    "searchText": "Tiêu chảy nước, vàng - trắng, mùi hôi mạnh. Phân bắn tia hoặc chảy liên tục. Mất nước nhanh: mắt trũng, da nhăn. Bụng tóp, giảm bú, kêu yếu. Nặng: nằm li bì, hạ thân nhiệt. Tiêu chảy sệt ít lần. Vẫn còn bú nhưng bú kém. Bụng hơi tóp, da khô nhẹ. Tiêu chảy nước nhiều lần. Giảm bú rõ, kêu yếu. Mắt trũng, mất nước. Tiêu chảy liên tục, vàng - trắng, hôi khắm. Mất nước nặng, mắt trũng sâu. Nằm lì, phản xạ yếu. Nguy cơ tử vong cao.",
+    "severityLevel": 3
+  },
+  {
+    "id": "salmonellosis",
+    "name": "Salmonella tiêu chảy","group": "digestive",
+    "searchText": "Sốt cao, bỏ ăn. Tiêu chảy nước, hôi mạnh, có máu đỏ hoặc đen. Bụng sôi, đau bụng, mất nước nhanh. Dê lờ đờ, đứng tách đàn hoặc nằm nhiều. Một số con chết nhanh trước khi thấy máu rõ. Phân sệt, hôi hơn bình thường. Sốt nhẹ - vừa. Tiêu chảy lỏng, mùi hôi sắc, có máu lẫn nhầy. Bỏ ăn, nằm nhiều. Tiêu chảy máu đỏ hoặc đen. Mất nước nặng, đứng không nổi. Sốc nhiễm trùng.",
+    "severityLevel": 3
+  },
+  {
+    "id": "indigestion",
+    "name": "Rối loạn tiêu hoá","group": "digestive",
+    "searchText": "Ăn giảm, nhai lại kém. Phân lúc sệt lúc lỏng, có mùi chua. Bụng sôi, đầy nhẹ. Lông xù, giảm hoạt động. Kéo dài gây gầy, chậm lớn. Ăn giảm nhẹ. Phân hơi sệt, mùi khác thường. Nhai lại ít, tiêu chảy nhẹ. Bụng sôi, khó chịu. Dê lờ đờ, mất nước nhẹ. Bỏ ăn rõ, bụng đầy hơn. Nếu không xử lý sẽ chuyển sang toan dạ cỏ.",
+    "severityLevel": 1
+  },
+  {
+    "id": "giardia",
+    "name": "Ký sinh trùng đường ruột Giardia","group": "digestive",
+    "searchText": "Tiêu chảy sệt, nhầy, dai dẳng. Dê bụng tóp, chậm lớn. Phân nâu - vàng, rất hôi. Lông xù, thiếu máu nhẹ. Không chết nhanh nhưng hao đàn mạnh. Phân sệt kéo dài. Dê ăn giảm nhẹ. Phân nhầy - hôi, chậm lớn rõ. Lông xù, bụng tóp. Tiêu chảy dai dẳng nhiều tuần. Gầy rộc, thiếu máu. Dê con ngã bệnh hàng loạt.",
+    "severityLevel": 2
+  },
+  {
+    "id": "tapeworm",
+    "name": "Sán dây đường ruột","group": "digestive",
+    "searchText": "Phân có đốt sán trắng. Dê chậm lớn, bụng tóp. Phân lúc sệt lúc lỏng. Ăn nhiều nhưng không tăng cân. Thiếu máu nhẹ, lông xù. Ít đốt sán, phân bình thường. Ăn giảm nhẹ. Phân sệt, đốt sán nhiều. Bụng tóp, lông xấu. Rất nhiều đốt sán. Chậm lớn rõ, thiếu máu. Dê non yếu, dễ nhiễm thêm bệnh khác.",
+    "severityLevel": 1
+  },
+  {
+    "id": "enterotoxemia_type_d",
+    "name": "Nhiễm độc ruột type D","group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Đang khỏe tự nhiên bỏ ăn Đau bụng, đá bụng, bứt rứt bụng trái phình to Tiêu chảy nước, có mùi thối Có thể lẫn máu hoặc nhầy Lờ đờ rất nhanh Đi loạng choạng Co giật nhẹ hoặc nặng Nằm nghiêng, đạp chân Thở nhanh Chết đột ngột Ăn giảm, hơi chướng bụng Phân mềm Đau bụng rõ, tiêu chảy Lờ đờ, đứng không vững Co giật, lăn ra nằm Chướng bụng nặng Suy kiệt rất nhanh, có thể chết đột ngột"
+  },
+  {
+    "id": "johnes_disease",
+    "name": "Johne's (viêm ruột mạn)","group": "digestive",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy kéo dài từng đợt Phân lỏng, mùi hôi Gầy sút từ từ dù vẫn ăn Lông xù, da khô Suy nhược mạn Có thể phù hàm do giảm đạm máu Đàn chậm lớn Kém sinh sản Gầy nhẹ, ăn vẫn được Phân mềm từng đợt Tiêu chảy thường xuyên Gầy rõ, lông xù Yếu đi Tiêu chảy kéo dài không dứt Suy kiệt, phù hàm Không đáp ứng điều trị"
+  }
+]

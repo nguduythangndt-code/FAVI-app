@@ -1,0 +1,65 @@
+[
+  {
+    "id": "haemonchus",
+    "name": "Giun Haemonchus",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Niêm mạc mắt, miệng nhợt nhạt do thiếu máu Phù hàm dưới (bottle jaw) mềm, ấn lõm Gầy sút cân nhanh, lông xù, kém bóng Ăn kém, dễ mệt, đi lại chậm chạp Phân thường thành khuôn, đôi khi hơi sệt, sẫm màu Giảm sản lượng sữa ở bò đang cho sữa Ở thể nặng: suy kiệt, nằm nhiều, có thể chết đột ngột do mất máu Giảm tăng trọng, thân hình hơi gầy hơn bình thường Lông kém bóng, thi thoảng ăn giảm nhẹ Niêm mạc mắt hơi nhạt màu nhưng khó nhận ra nếu không để ý Niêm mạc mắt nhợt rõ, bò thở nhanh khi vận động Phù hàm dưới bắt đầu xuất hiện, ấn lõm Gầy rõ, xương sườn nổi, sản lượng sữa giảm Hoạt động chậm chạp, ít hăng ăn Thiếu máu nặng, niêm mạc trắng bệch Phù hàm dưới to rõ, có thể phù thêm vùng ngực, bụng Suy kiệt, đứng không vững hoặc nằm nhiều Mạch nhanh, thở gấp, dễ chết nếu không can thiệp kịp"
+  },
+  {
+    "id": "ostertagia",
+    "name": "Giun Ostertagia",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy dai dẳng, phân lỏng, bám quanh đuôi Giảm ăn, chậm lớn, sút cân dù vẫn được cho ăn đủ Lông xơ xác, xỉn màu, mất bóng Niêm mạc nhạt màu, đôi khi hơi phù nhẹ Có thể giảm sữa ở bò đang vắt Đôi khi kèm đầy bụng nhẹ, khó tiêu Nếu ký sinh nhiều: suy kiệt, cơ bắp tóp lại, da lỏng Phân không thành khuôn, lúc lỏng lúc sệt Ăn kém hơn bình thường nhưng vẫn còn ăn Lông kém bóng, khó nhận ra nếu không so đàn Tiêu chảy kéo dài nhiều ngày, phân bám quanh đuôi Gầy rõ, tăng trọng gần như dừng lại Niêm mạc mắt nhạt, thể trạng mệt, ít vận động Tiêu chảy nặng, mất nước, da nhăn Suy kiệt, xương hông, xương sườn lộ rõ Có thể phù nhẹ vùng ngực, bụng Bò dễ ngã, ít đứng, sức đề kháng giảm, dễ mắc bệnh kế phát"
+  },
+  {
+    "id": "trichostrongylus",
+    "name": "Giun dài ruột non",
+    "group": "parasite",
+    "severityLevel": 1,
+    "searchText": "Tiêu chảy, phân lỏng, có thể lẫn bọt, mùi hôi hơn bình thường Bụng hóp nhưng vùng hông có thể trũng do mất cơ Giảm ăn, chậm lớn, tăng trọng thấp Lông xù, xỉn màu, nhìn mất sức sống Đôi khi có đầy hơi nhẹ, tiếng sôi bụng tăng Nếu nhiễm kéo dài: gầy, cơ tóp, xương lộ, sức đề kháng giảm Phân hơi sệt, thi thoảng lỏng sau khi ăn Ăn giảm nhẹ nhưng vẫn hoạt động bình thường Tăng trọng chậm hơn so với lứa cùng tuổi Tiêu chảy lỏng nhiều ngày, phân bám quanh đuôi Thân hình gầy, bắp đùi và vai lép hơn rõ Lông xù, hoạt động kém linh hoạt Tiêu chảy nặng, mất nước, da nhăn khô Gầy rộc, xương sống, xương hông nổi rõ Bê yếu, dễ bị thêm viêm phổi hoặc bệnh khác Nếu không can thiệp có thể chết do suy kiệt và mất nước"
+  },
+  {
+    "id": "strongyloides",
+    "name": "Giun lươn",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy nước ở bê, phân bắn tung, vùng đuôi bẩn Mất nước: mắt trũng, da mất đàn hồi, mũi khô Bê yếu, nằm nhiều, giảm bú hoặc bỏ bú Chậm lớn, sụt cân nhanh nếu không điều trị Có thể ho, thở nhanh khi ấu trùng di chuyển qua phổi Trong đàn thường thấy nhiều bê mắc cùng lúc Tiêu phân sệt, thi thoảng lỏng Ăn bú giảm nhẹ nhưng vẫn linh hoạt Khó nhận ra nếu không so với bê khỏe cùng lứa Tiêu chảy nước rõ, đuôi và chân sau bẩn Bê mệt, hoạt động ít, bú giảm rõ Có dấu hiệu mất nước nhẹ đến vừa Tiêu chảy liên tục, phân toàn nước Mất nước nặng, mắt trũng, da mất đàn hồi lâu Bê nằm nhiều, khó đứng, có thể ho, thở gấp Nếu không can thiệp kịp có thể chết do mất nước và suy kiệt"
+  },
+  {
+    "id": "fasciola",
+    "name": "Sán lá gan",
+    "group": "parasite",
+    "severityLevel": 3,
+    "searchText": "Sút cân từ từ, dù vẫn ăn tương đối Lông xỉn màu, da thô, kém đàn hồi Giảm sản lượng sữa ở bò cái đang vắt Niêm mạc nhợt, đôi khi hơi vàng nhẹ (vàng da nhẹ) Có thể phù hàm dưới hoặc phù nhẹ vùng ngực, bụng Mệt mỏi, ít vận động, dễ thở nhanh khi làm việc Một số trường hợp có rối loạn tiêu hóa nhẹ, phân lúc lỏng lúc táo Giảm tăng trọng, gầy nhẹ nhưng chưa rõ rệt Lông bớt bóng, đôi khi hơi xù Sản lượng sữa giảm nhẹ, khó nhận nếu không ghi chép Gầy rõ, xương hông, xương sườn lộ hơn Niêm mạc nhạt, có thể hơi vàng Mệt, thở nhanh khi vận động, ít hăng ăn Phù hàm dưới hoặc phù nhẹ vùng ngực, bụng Suy kiệt, gầy rộc, da khô, lông xấu Niêm mạc nhạt hoặc vàng, mạch nhanh, thở gấp Phù rõ vùng hàm, ngực, bụng, chi dưới Dễ mắc thêm bệnh khác, khó hồi phục, có thể chết nếu không xử lý"
+  },
+  {
+    "id": "paramphistomum",
+    "name": "Sán dạ cỏ",
+    "group": "parasite",
+    "severityLevel": 1,
+    "searchText": "Tiêu chảy từng đợt, phân lỏng, mùi hôi hơn bình thường Bụng hóp, gầy chậm, tăng trọng kém Ăn giảm nhẹ, nhai lại ít, đôi khi đầy hơi nhẹ Lông kém bóng, nhìn con vật thiếu sức sống Ở ca nặng: tiêu chảy kéo dài, mất nước, suy kiệt Phân không ổn định, lúc sệt lúc hơi lỏng Tăng trọng chậm, khó nhận nếu không cân định kỳ Lông bớt bóng nhưng không quá rõ Tiêu chảy lỏng kéo dài hoặc tái đi tái lại Gầy rõ, xương hông lộ, bắp đùi lép Ăn giảm, nhai lại ít, hoạt động kém Tiêu chảy nhiều, mất nước, da nhăn Suy kiệt, đứng không vững hoặc nằm nhiều Dễ nhiễm thêm các bệnh tiêu hóa, hô hấp khác"
+  },
+  {
+    "id": "ticks_infestation",
+    "name": "Ve ký sinh",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Xuất hiện ve bám quanh tai, cổ, nách, bẹn, gốc đuôi, đầu vú Bò ngứa, hay cọ mình vào tường, cột, thân cây Rụng lông từng mảng, da dày, sạm màu tại vùng bị ve bám nhiều Vết cắn có thể viêm đỏ, đóng vảy, đôi khi chảy dịch Ở đàn nặng: bò gầy, thiếu máu, niêm mạc nhợt Có thể kèm sốt, mệt nếu nhiễm thêm bệnh do ve truyền Có ít ve rải rác trên cơ thể Bò thỉnh thoảng gãi, quẫy đuôi nhiều hơn Lông hơi xấu tại vài vùng nhỏ Ve bám nhiều ở tai, cổ, bẹn, gốc đuôi Ngứa rõ, bò cọ xát mạnh, da trầy xước Lông rụng từng mảng, da dày lên tại vùng bị ký sinh Ve phủ dày ở nhiều vùng trên cơ thể Bò gầy, thiếu máu, niêm mạc nhợt Mệt, kém ăn, có thể sốt nếu kèm bệnh truyền qua ve Giảm sữa, giảm tăng trọng rõ rệt"
+  },
+  {
+    "id": "lice_infestation",
+    "name": "Chí - rận",
+    "group": "parasite",
+    "severityLevel": 1,
+    "searchText": "Bò ngứa nhiều, liên tục gãi, cọ mình vào thành chuồng, cột, cây Rụng lông từng mảng ở cổ, vai, lưng, gốc đuôi, hai bên sườn Da đỏ, trầy xước, đóng vảy, đôi khi có vết rướm máu Lông dựng, bẩn, dính bụi và vảy da Bê và bò tơ có thể gầy nhanh, tăng trọng kém do stress và ngứa kéo dài Trong mùa lạnh, bệnh thường nặng hơn, bò xấu mã rõ Ngứa nhẹ, bò thỉnh thoảng gãi, cọ mình Lông hơi xấu, vài vùng lưa thưa lông Khó phát hiện nếu không quan sát kỹ sát da Ngứa rõ, bò gãi, cọ mình thường xuyên, mất tập trung ăn Rụng lông thành mảng nhỏ, da đỏ, có vảy Giảm tăng trọng, xấu mã, đàn nhìn không đều Ngứa dữ dội, bò bứt rứt, hoạt động liên tục để gãi Rụng lông nhiều vùng trên cơ thể, da dày, sậm màu, nứt nẻ Bê gầy, tăng trưởng kém, sức đề kháng giảm, dễ mắc bệnh khác"
+  },
+  {
+    "id": "mange",
+    "name": "Ghẻ",
+    "group": "parasite",
+    "severityLevel": 1,
+    "searchText": "Ngứa dữ dội, bò liên tục gãi, cọ vào tường, cột, vật cứng Xuất hiện mảng đỏ, nổi sần, sau đó đóng vảy dày, nứt nẻ Rụng lông nhiều vùng: cổ, vai, lưng, gốc đuôi, quanh chân Da dày, sạm màu, nhăn nheo, có thể chảy dịch ở vết nứt Bò bứt rứt, khó nằm yên, giảm ăn, sụt cân rõ Trong ca nặng, toàn thân xấu mã, da thô cứng, bò suy kiệt Xuất hiện vài vùng nhỏ đỏ, sần, hơi ngứa Bò gãi, cọ mình tăng nhẹ ở vị trí tổn thương Lông thưa nhẹ, khó phát hiện nếu không quan sát kỹ Vùng tổn thương lan rộng, đóng vảy, rụng lông thành mảng Ngứa nhiều, bò liên tục cọ, gãi, ảnh hưởng thời gian ăn Bò gầy dần, lông xấu, da dày, sạm màu Tổn thương da rộng, nhiều vùng thân mình, cổ, gốc đuôi Vảy dày, nứt, có thể chảy dịch, dễ nhiễm trùng thứ phát Bò suy kiệt, gầy rộc, ít ăn, xấu mã rõ rệt"
+  }
+]

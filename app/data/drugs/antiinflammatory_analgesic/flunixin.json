@@ -1,0 +1,40 @@
+{
+  "name": "Flunixin meglumine",
+  "mechanism": [
+    "NSAID ức chế tổng hợp prostaglandin",
+    "Giảm viêm, giảm đau và hạ sốt mức độ vừa đến nặng"
+  ],
+  "clinical_uses": [
+    "Hỗ trợ giảm đau và hạ sốt trong viêm phổi, viêm tử cung, viêm vú",
+    "Hỗ trợ giảm đau trong các ca viêm ruột, đau bụng, rối loạn tiêu hoá nặng",
+    "Giảm phản ứng viêm toàn thân trong các bệnh nhiễm trùng nặng (theo chỉ định thú y)"
+  ],
+  "advantages": [
+    "Hiệu quả mạnh, tác dụng nhanh",
+    "Phù hợp các ca đau, viêm, sốt nặng cần can thiệp sớm"
+  ],
+  "disadvantages": [
+    "Nguy cơ ảnh hưởng gan, thận nếu dùng kéo dài hoặc trên con đang suy",
+    "Có thể che mất triệu chứng bệnh nền nếu lạm dụng"
+  ],
+  "side_effects": [
+    "Giảm ăn thoáng qua",
+    "Có thể kích ứng tiêu hoá ở một số cá thể nhạy cảm",
+    "Hiếm gặp: tổn thương gan, thận khi dùng sai hoặc kéo dài"
+  ],
+  "recommendations": [
+    "Chỉ dùng theo thời gian ngắn, bám sát hướng dẫn trên nhãn hoặc chỉ định thú y",
+    "Ưu tiên dùng khi đã xác định được hoặc đang xử lý nguyên nhân chính",
+    "Trong quá trình dùng, nên theo dõi ăn uống, phân và mức độ tỉnh táo của con vật"
+  ],
+  "contraindications": [
+    "Không dùng cho dê mất nước nặng, suy thận, suy gan rõ",
+    "Thận trọng trên dê đang loét dạ dày - ruột hoặc nghi ngờ xuất huyết tiêu hoá",
+    "Không phối hợp cùng nhiều NSAID khác trừ khi có chỉ định rất rõ của thú y"
+  ],
+  "alternatives": [
+    "Ketoprofen - giảm đau, hạ sốt, chống viêm mức độ vừa đến nặng",
+    "Meloxicam - tác dụng êm hơn, phù hợp dùng thêm 1-2 ngày tùy chỉ định",
+    "Paracetamol - lựa chọn nhẹ hơn trong các ca sốt vừa, ít viêm nặng"
+  ]
+}

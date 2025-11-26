@@ -1,0 +1,48 @@
+{
+  "name": "Electrolyte + Amino Premium",
+
+  "mechanism": [
+    "Bù điện giải và nước",
+    "Cung cấp thêm acid amin dễ hấp thu",
+    "Giúp vừa chống mất nước vừa phục hồi thể trạng"
+  ],
+
+  "clinical_uses": [
+    "Dê mất nước nhẹ đến vừa kèm suy nhược",
+    "Sau bệnh tiêu chảy, viêm phổi, sốt kéo dài",
+    "Đàn cần vừa bù nước vừa phục hồi sức nhanh"
+  ],
+
+  "advantages": [
+    "Kết hợp lợi ích của điện giải và acid amin",
+    "Giảm số loại chế phẩm phải dùng cùng lúc",
+    "Phù hợp cho dê sau bệnh hoặc stress nặng"
+  ],
+
+  "disadvantages": [
+    "Giá thường cao hơn điện giải thường",
+    "Không thay thế thuốc điều trị nguyên nhân"
+  ],
+
+  "side_effects": [
+    "Có thể tiêu hoá lỏng nhẹ lúc đầu",
+    "Tăng uống nước tạm thời"
+  ],
+
+  "recommendations": [
+    "Dùng trong giai đoạn phục hồi hoặc suy nhẹ",
+    "Kết hợp khẩu phần tốt và quản lý chuồng trại",
+    "Theo dõi tình trạng mất nước và thể trạng"
+  ],
+
+  "contraindications": [
+    "Dê đang nôn liên tục",
+    "Nghi ngờ tắc ruột hoặc rối loạn tiêu hoá rất nặng"
+  ],
+
+  "alternatives": [
+    "Oresol + Amino peptide",
+    "Vitamin BC + điện giải",
+    "Sorbitol + Acid amin"
+  ]
+}

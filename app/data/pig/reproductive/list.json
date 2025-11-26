@@ -1,0 +1,65 @@
+[
+  {
+    "id": "brucella_abortion",
+    "name": "Sảy thai truyền nhiễm (Brucella)",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Sảy thai cuối kỳ, thai chết lưu Dịch nhầy hôi từ âm hộ Nái mệt, ăn giảm nhiều Sốt nhẹ hoặc không rõ sốt Sữa giảm, heo con yếu Hơi giảm ăn Dịch nhầy ít Sảy thai lẻ tẻ Dịch hôi, nái mệt Sảy thai hàng loạt Nái suy, bỏ ăn Heo con theo mẹ yếu hoặc chết"
+  },
+  {
+    "id": "lepto_abortion",
+    "name": "Leptospira gây sảy thai",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Sảy thai hàng loạt Sốt, da hơi vàng Nước tiểu vàng nâu Heo mệt, bỏ ăn Heo con sinh ra yếu hoặc chết Ăn giảm nhẹ Sốt nhẹ Da vàng nhẹ Tiểu sẫm màu Sảy thai hàng loạt Nái suy yếu Heo con chết cao"
+  },
+  {
+    "id": "postpartum_metritis",
+    "name": "Viêm tử cung sau sinh",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Dịch tiết hôi tanh màu nâu hoặc xanh Sốt, bỏ ăn Nái mệt, nằm nhiều Giảm sữa, heo con kêu đói Có thể đau bụng, đứng lên nằm xuống liên tục Dịch hơi hôi Giảm ăn nhẹ Dịch hôi rõ Nái sốt, mệt Dịch xanh nâu nhiều Nái suy, bỏ ăn Heo con suy theo"
+  },
+  {
+    "id": "mastitis",
+    "name": "Viêm vú (mastitis)",
+    "group": "reproductive",
+    "severityLevel": 2,
+    "searchText": "Vú sưng nóng đau rõ Heo con bú kêu la vì ít sữa Sốt nhẹ đến vừa Vú cứng như cục Sữa đổi màu hoặc ít hẳn Vú hơi sưng Heo con bú khó Vú sưng nóng rõ Nái sốt, bỏ ăn Vú rất cứng, đỏ Sữa gần như mất Heo con suy"
+  },
+  {
+    "id": "delayed_estrus",
+    "name": "Chậm động dục",
+    "group": "reproductive",
+    "severityLevel": 1,
+    "searchText": "Sau cai sữa lâu không thấy lên giống Không đứng yên khi có đực hoặc người cưỡi lưng Không có biểu hiện đỏ âm hộ rõ Gầy hoặc quá mập, dáng uể oải Chu kỳ động dục không đều hoặc rất thưa Chậm lên giống vài ngày so với bình thường Biểu hiện động dục mờ, khó nhận Chậm động dục rõ, sau cai sữa hơn 10 ngày chưa lên giống Thể trạng không phù hợp (gầy hoặc béo) Lâu không thấy động dục dù đã đủ tuổi và thể trọng Chu kỳ kéo dài bất thường nhiều lần"
+  },
+  {
+    "id": "infertility_pseudopregnancy",
+    "name": "Vô sinh - chửa giả",
+    "group": "reproductive",
+    "severityLevel": 2,
+    "searchText": "Phối giống nhiều lần nhưng không thấy chửa Bụng có lúc to nhẹ như chửa giả rồi lại xẹp Sau một thời gian tưởng chửa, nái lại lên giống lại Chu kỳ động dục không đều Một số con dịch nhầy âm hộ bất thường 1-2 lần phối chưa chửa Chu kỳ động dục còn tương đối đều Phối nhiều lần không chửa Bụng hơi to rồi lại lên giống lại Nghi chửa giả Chu kỳ động dục rối loạn rõ Nái lâu không đậu thai dù phối đúng kỹ thuật Nghi vô sinh hoặc nền tử cung kém"
+  },
+  {
+    "id": "dystocia",
+    "name": "Đẻ khó",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Nái rặn lâu mà không ra heo con Đã ra vài con rồi ngưng rất lâu không ra tiếp Nái mệt, thở gấp, nằm nhiều Có thể thấy chân hoặc mũi thai kẹt ở âm hộ Dịch âm hộ có thể lẫn máu hoặc mùi hôi nếu kéo dài Đẻ hơi lâu nhưng vẫn ra con đều Nái còn tỉnh, rặn có lực Khoảng cách giữa hai con kéo dài bất thường Nái mệt dần, rặn yếu Có dấu thai kẹt nhẹ Rặn lâu không ra con Nái kiệt sức, nằm thở gấp Thai kẹt rõ hoặc nghi chết trong tử cung"
+  },
+  {
+    "id": "mma-syndrome",
+    "name": "Hội chứng MMA (viêm vú - viêm tử cung - mất sữa)",
+    "group": "reproductive",
+    "severityLevel": 2,
+    "searchText": "Nái sốt, bỏ ăn Vú sưng nóng, đau Sữa ít hoặc không có Dịch hôi từ âm hộ Heo con kêu đói, tiêu chảy do thiếu sữa Sốt nhẹ Sữa giảm Vú sưng đau Heo con đói rõ Sốt cao Mất sữa hoàn toàn Nhiễm trùng tử cung"
+  },
+  {
+    "id": "parvo-smedi",
+    "name": "Parvo - SMEDI (sảy thai, thai khô, chết phôi)",
+    "group": "reproductive",
+    "severityLevel": 3,
+    "searchText": "Nái vẫn khỏe nhưng phối không đậu Sảy thai rải rác Đẻ ít con, nhiều thai khô Con sơ sinh yếu, chết sớm Chậm động dục lại Đẻ ít Thai chết lưu/khô nhiều Sảy thai hàng loạt Đàn con chết cao"
+  }
+]

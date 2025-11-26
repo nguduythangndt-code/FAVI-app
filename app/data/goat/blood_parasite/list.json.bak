@@ -1,0 +1,30 @@
+[
+  {
+    "id": "anaplasmosis",
+    "name": "Nhiễm Anaplasma",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Niêm mạc mắt nhợt, vàng nhẹ. Sốt từng đợt. Gầy nhanh, ăn giảm. Thở nhanh, yếu mệt. Một số con nước tiểu sẫm màu. Niêm mạc nhợt nhẹ. Ăn giảm chút ít. Vàng mắt - vàng niêm mạc. Sốt nhẹ - vừa. Đi đứng chậm chạp. Suy kiệt, nằm nhiều. Thiếu máu nặng. Nguy cơ tử vong."
+  },
+  {
+    "id": "babesiosis",
+    "name": "Nhiễm Babesia (tan máu)",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Sốt cao. Nước tiểu màu đỏ sẫm (tan máu). Niêm mạc nhợt hoặc vàng. Thở nhanh, mệt, đứng run. Có thể sụp nhanh trong 24-48 giờ. Sốt nhẹ. Ăn giảm. Nước tiểu sẫm màu. Niêm mạc nhợt - vàng. Mệt rõ rệt. Co giật, thở gấp. Nằm bệt. Thiếu máu cấp - tử vong nhanh."
+  },
+  {
+    "id": "trypanosomiasis",
+    "name": "Nhiễm Trypanosoma",
+    "group": "blood_parasite",
+    "severityLevel": 2,
+    "searchText": "Phù hàm (bướu nước). Gầy nhanh, lông xù. Niêm mạc nhạt. Đi đứng chậm chạp. Sốt từng đợt (lúc có lúc không). Suy kiệt kéo dài. Lông hơi xù. Ăn giảm. Phù hàm. Sốt xen kẽ. Thiếu máu vừa. Gầy kiệt. Phù toàn thân. Nằm nhiều, khó hồi phục."
+  },
+  {
+    "id": "theileriosis",
+    "name": "Nhiễm Theileria (sốt ve)",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Sốt cao từng đợt hoặc sốt liên tục. Thiếu máu rõ, niêm mạc mắt nhợt hoặc vàng. Sưng hạch bạch huyết trước vai, dưới hàm, bẹn. Dê mệt, đi chậm, dễ nằm một chỗ. Thở nhanh, tim đập nhanh. Giảm ăn, sút cân nhanh. Một số con có tiêu chảy nhẹ hoặc táo bón xen kẽ. Nước tiểu có thể đậm màu nếu hồng cầu bị phá hủy nhiều. Sốt nhẹ hoặc sốt thoáng qua. Ăn giảm nhẹ, hơi mệt. Niêm mạc mắt nhạt màu nhẹ. Hạch trước vai hơi to nhưng chưa rõ ràng. Sốt vừa đến cao, kéo dài. Thở nhanh, tim đập mạnh. Thiếu máu rõ, niêm mạc nhợt hoặc vàng. Sưng hạch bạch huyết dễ nhận thấy. Giảm ăn rõ rệt, dê bắt đầu gầy. Lông xơ, đứng tách đàn. Thiếu máu nặng, niêm mạc cực nhạt hoặc vàng đậm. Hạch sưng to, đau khi sờ. Thở nhanh ngay cả khi đứng yên. Dê rất yếu, dễ nằm và khó đứng dậy. Có thể phù vùng ngực, bụng. Tỷ lệ chết cao nếu không điều trị kịp thời."
+  }
+]

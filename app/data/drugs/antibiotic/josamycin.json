@@ -1,0 +1,41 @@
+{
+  "id": "josamycin",
+  "name": "Josamycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm macrolide, tác động chủ yếu tại mô hô hấp bằng cách ức chế tổng hợp protein của vi khuẩn. Phù hợp cho những ca ho - viêm khí quản mức độ nhẹ đến vừa.",
+  "clinical_uses": [
+    "Ho, khò khè, viêm khí quản ở dê, heo, bê nghé.",
+    "Hỗ trợ trong các ca nghi ngờ Mycoplasma.",
+    "Các ca hô hấp kéo dài nhưng con vật vẫn còn tương đối khỏe và ăn uống được."
+  ],
+  "pros": [
+    "Tương đối an toàn, phù hợp dùng cho thú non.",
+    "Thích hợp cho giai đoạn sớm, khi bệnh chưa chuyển nặng.",
+    "Ít gây tác dụng phụ mạnh nếu dùng đúng hướng dẫn."
+  ],
+  "cons": [
+    "Không phải là lựa chọn hàng đầu cho ca viêm phổi nặng.",
+    "Hiệu quả sẽ hạn chế nếu dùng quá muộn, khi bệnh đã tiến triển sâu.",
+    "Không bao phủ tốt những vi khuẩn Gram âm mạnh."
+  ],
+  "mild_side_effects": [
+    "Ăn giảm nhẹ trong thời gian đầu dùng thuốc.",
+    "Có thể hơi mệt, nằm nghỉ nhiều hơn.",
+    "Một số cá thể có phân mềm nhẹ."
+  ],
+  "usage_recommendations": [
+    "Nên được cân nhắc ở giai đoạn đầu của bệnh hô hấp.",
+    "Kết hợp theo dõi ho, nhịp thở và nhiệt độ cơ thể mỗi ngày.",
+    "Luôn dùng đúng liều lượng, thời gian theo hướng dẫn trên nhãn hoặc theo tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Các ca đang suy hô hấp rõ, thở rất nhanh hoặc rất khó.",
+    "Thú có bệnh gan từ trước cần được bác sĩ đánh giá thêm.",
+    "Không dùng để phòng bệnh thường xuyên trong đàn khỏe."
+  ],
+  "alternative_drugs": [
+    "Tylosin trong nhiều ca hô hấp thường gặp.",
+    "Oxytetracycline cho trường hợp cần phổ rộng hơn.",
+    "Tulathromycin hoặc florfenicol khi bệnh nặng hơn, đáp ứng kém với thuốc nhẹ."
+  ]
+}

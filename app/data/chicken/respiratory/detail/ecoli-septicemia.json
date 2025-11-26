@@ -1,0 +1,56 @@
+{
+  "name": "E.coli nhiễm trùng huyết (Colisepticemia)",
+  "summary": "E.coli gây viêm túi khí - viêm màng tim, sau đó vào máu gây chết nhanh.",
+  "causes": ["E.coli cơ hội bùng lên khi gà suy miễn dịch hoặc có CRD nền"],
+  "risk_factors": [
+    "Chuồng bí, khí độc cao",
+    "Đồng nhiễm Mycoplasma/IB/ND",
+    "Nước bẩn, nền ướt"
+  ],
+  "clinical_signs_detailed": [
+    "Khò khè, thở rít",
+    "Gà tụm, xù lông",
+    "Ăn giảm, gầy nhanh",
+    "Tiêu chảy loãng",
+    "Chết rải rác tăng dần"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Khò khè nhẹ", "Ăn giảm"],
+    "moderate": ["Thở khó rõ", "Ủ rũ, gầy"],
+    "severe": ["Thở há miệng, tím tái", "Chết do nhiễm trùng huyết"]
+  },
+  "treatment": {
+    "primary_drugs": ["Florfenicol", "Enrofloxacin"],
+    "alternative_drugs": ["Amoxicillin", "Oxytetracycline"],
+    "note_drugs": "E.coli septicemia cần kháng sinh sớm; Florfenicol/Enrofloxacin thường hiệu quả.",
+    "symptomatic_treatment": {
+      "respiratory_support": { "main": "Bromhexine", "alternative": ["Ambroxol"] },
+      "electrolyte": { "main": "ORS", "alternative": [] },
+      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+    },
+    "supportive_care": [
+      "Tăng thông thoáng, giảm bụi",
+      "Tách con yếu",
+      "Làm khô nền - thay chất độn"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Thở khó, gà yếu nhanh"],
+      "guideline": ["Florfenicol/Enrofloxacin sớm", "Điện giải - vitamin"]
+    },
+    "case_type_2": {
+      "description": ["Lan cả dãy chuồng"],
+      "guideline": ["Điều trị toàn ô", "Xử lý khí độc, nền ướt"]
+    },
+    "note": "E.coli thường đi sau CRD/IB, xử lý nền chuồng quan trọng ngang thuốc."
+  },
+  "prevention_list": [
+    "Thông thoáng chuồng, giảm khí độc",
+    "Kiểm soát CRD nền",
+    "Nước uống sạch"
+  ],
+  "notes": ["Gà khỏi vẫn dễ tái nếu chuồng bí ẩm."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

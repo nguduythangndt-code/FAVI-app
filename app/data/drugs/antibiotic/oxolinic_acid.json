@@ -1,0 +1,41 @@
+{
+  "id": "oxolinic_acid",
+  "name": "Oxolinic acid",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh thuộc nhóm quinolone thế hệ cũ, hỗ trợ kiểm soát một số vi khuẩn đường ruột bằng cách ức chế quá trình sao chép DNA của vi khuẩn.",
+  "clinical_uses": [
+    "Tiêu chảy mức độ nhẹ - trung bình nghi do vi khuẩn Gram âm.",
+    "Rối loạn tiêu hóa sau cai sữa ở heo con hoặc dê con.",
+    "Hỗ trợ đường ruột trong các ca nhiễm khuẩn không quá nặng."
+  ],
+  "pros": [
+    "Phù hợp dùng sớm khi tiêu chảy mới xuất hiện.",
+    "Dạng uống dễ dùng theo đàn.",
+    "Chi phí tương đối mềm."
+  ],
+  "cons": [
+    "Hiệu lực thấp hơn so với các quinolone thế hệ mới.",
+    "Không dùng cho ca nặng hoặc kéo dài nhiều ngày.",
+    "Không phải lựa chọn cho nhiễm khuẩn toàn thân."
+  ],
+  "mild_side_effects": [
+    "Phân mềm hơn bình thường.",
+    "Ăn giảm nhẹ.",
+    "Hơi mệt trong ngày đầu."
+  ],
+  "usage_recommendations": [
+    "Phù hợp dùng sớm, khi tiêu chảy còn nhẹ.",
+    "Kết hợp điện giải - men tiêu hóa để phục hồi tốt hơn.",
+    "Ưu tiên sử dụng đúng theo hướng dẫn sản phẩm hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Tiêu chảy nặng kèm mất nước mạnh.",
+    "Thú bỏ bú/bỏ ăn hoàn toàn.",
+    "Không dùng thay thế cho các kháng sinh mạnh hơn trong ca nặng."
+  ],
+  "alternative_drugs": [
+    "Neomycin.",
+    "Spectinomycin.",
+    "Sulfa TMP."
+  ]
+}

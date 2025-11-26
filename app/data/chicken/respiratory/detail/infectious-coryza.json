@@ -1,0 +1,107 @@
+{
+  "id": "infectious-coryza",
+  "name": "Viêm xoang truyền nhiễm (Coryza)",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Bệnh hô hấp do vi khuẩn, gây sưng phù đầu, chảy mũi, thở khó và giảm ăn, thường kéo dài và dễ tái phát nếu môi trường ẩm bẩn.",
+  "causes": [
+    "Vi khuẩn Avibacterium paragallinarum",
+    "Lây qua không khí, dịch mũi, nước uống, thức ăn chung",
+    "Lây từ gà mang trùng, gà mới nhập đàn không cách ly"
+  ],
+  "risk_factors": [
+    "Chuồng ẩm, bẩn, nhiều khí độc, thông gió kém",
+    "Mật độ nuôi dày, trộn nhiều lứa tuổi trong cùng khu",
+    "Không sát trùng định kỳ, ít cắt đứt vòng lây nhiễm",
+    "Đàn đang stress do thay đổi thời tiết, thức ăn, vận chuyển"
+  ],
+  "clinical_signs_detailed": [
+    "Chảy nước mũi đặc, hôi, bết quanh lỗ mũi",
+    "Sưng đầu, sưng mặt, sưng xoang quanh mắt, có thể nhắm mắt",
+    "Thở khò khè, tiếng thở nặng mùi, há mỏ thở khi nặng",
+    "Giảm ăn, sút cân, gà đẻ giảm sản lượng rõ rệt",
+    "Có thể nghe tiếng rít, khục khạc khi bắt gà lên",
+    "Nếu không điều trị, bệnh kéo dài, nhiều con trở thành mang trùng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Hắt hơi, chảy nước mũi trong, ít con sưng nhẹ quanh mắt",
+      "Ăn uống giảm nhẹ, vẫn đi lại bình thường",
+      "Chưa có mùi hôi rõ ở đầu - mũi"
+    ],
+    "moderate": [
+      "Sưng mặt, sưng xoang rõ, mắt lim dim, chảy nước mắt - mũi đặc",
+      "Thở khò khè, nghe tiếng rít, giảm ăn, giảm tăng trọng",
+      "Đàn đẻ giảm sản lượng, trứng nhỏ hơn bình thường"
+    ],
+    "severe": [
+      "Đầu sưng to, mắt nhắm, mũi bịt kín bởi dịch đặc, hôi",
+      "Thở rất khó, há mỏ, há cổ, nhiều con nằm một chỗ",
+      "Gầy, suy kiệt, có thể chết do suy hô hấp hoặc bội nhiễm nặng"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "doxycycline"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "florfenicol"
+    ],
+    "note_drugs": "Chọn một phác đồ kháng sinh chính và duy trì đủ ngày theo hướng dẫn. Không ngắt thuốc giữa chừng khi gà vừa đỡ, vì dễ tái phát và hình thành gà mang trùng.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "chế phẩm long đờm - giãn phế quản dùng cho gia cầm"
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước hỗ trợ trong giai đoạn sốt - mệt",
+        "alternative": "điện giải kết hợp vitamin C giúp gà nhanh hồi phục"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp (A, D, E, B-complex)",
+        "alternative": "vitamin C tăng sức đề kháng trong những ngày đầu điều trị"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để ổn định tiêu hoá khi dùng kháng sinh",
+        "alternative": "chế phẩm trợ tiêu hoá nếu phân xấu, kém ăn"
+      }
+    },
+    "supportive_care": [
+      "Tách những con bệnh nặng ra khu riêng nếu có điều kiện",
+      "Giảm mật độ, cải thiện thông gió, hạn chế ẩm ướt trong chuồng",
+      "Vệ sinh, cạo phân, thay chất độn chuồng bẩn, sát trùng nền và khu vực cho ăn uống",
+      "Tăng nước sạch, đảm bảo máng uống luôn đủ để gà dễ hấp thu thuốc hoà nước",
+      "Theo dõi kỹ đàn đẻ về sản lượng và chất lượng trứng sau điều trị"
+    ],
+    "dose_policy": "Dùng thuốc theo đúng hướng dẫn trên nhãn hoặc tư vấn thú y. Không tự ý tăng liều hoặc trộn nhiều kháng sinh cùng lúc khi chưa có chỉ định rõ ràng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn đông, nhiều con đầu sưng to, chảy mũi hôi, giảm ăn mạnh.",
+      "guideline": "Áp dụng phác đồ kháng sinh cho cả đàn, kết hợp cải thiện môi trường mạnh tay: giảm ẩm, giảm bụi, sát trùng liên tục. Những con rất nặng, gần như không ăn uống, cân nhắc loại thải để giảm áp lực chăm sóc và giảm nguồn lây."
+    },
+    "case_type_2": {
+      "description": "Đàn nhỏ, gà giống hoặc gà chơi có giá trị cao, bị Coryza nặng.",
+      "guideline": "Chăm từng nhóm nhỏ, bảo đảm từng con được tiếp cận nước thuốc, kháng sinh và vitamin đầy đủ. Vệ sinh đầu - mũi cho những con nhiều dịch đặc để gà dễ thở. Sau đợt bệnh, đánh giá lại những con suy yếu hoặc tái phát nhiều lần để loại trừ khỏi đàn giống."
+    },
+    "note": "Coryza dễ kéo dài và trở thành mạn tính nếu điều trị nửa vời. Môi trường sạch và phác đồ đủ ngày là hai điểm bắt buộc."
+  },
+  "prevention": [
+    "Không nhập gà mới về ghép đàn ngay, luôn cách ly theo dõi trước",
+    "Giữ chuồng khô, sạch, mật độ hợp lý, thông gió tốt",
+    "Sát trùng định kỳ chuồng trại, dụng cụ ăn uống",
+    "Hạn chế người lạ và gia cầm ngoài đàn ra vào khu nuôi",
+    "Cân nhắc chương trình vaccine nếu khu vực có lưu hành Coryza mạnh"
+  ],
+  "notes": [
+    "Coryza thường kết hợp với các bệnh hô hấp khác làm triệu chứng nặng hơn.",
+    "Những con mang trùng có thể không bệnh rõ nhưng là nguồn lây cho đàn sau."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

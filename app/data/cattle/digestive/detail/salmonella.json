@@ -1,0 +1,119 @@
+{
+  "id": "salmonella",
+  "name": "Tiêu chảy do Salmonella",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Nhiễm khuẩn Salmonella gây tiêu chảy nặng, mất nước, sốt và suy kiệt, có thể chết nhanh ở bê và bò suy yếu. Bệnh thường liên quan đến vệ sinh kém và thức ăn, nước uống nhiễm bẩn.",
+  "causes": [
+    "Nhiễm vi khuẩn Salmonella qua thức ăn và nước uống",
+    "Lây lan qua phân của con bệnh hoặc con mang trùng",
+    "Vệ sinh chuồng trại kém, phân không được xử lý tốt",
+    "Stress, bệnh nền khác làm giảm đề kháng"
+  ],
+  "risk_factors": [
+    "Bê non, bò yếu, bò stress do vận chuyển hoặc bệnh khác",
+    "Máng ăn, máng uống bẩn, gần nơi đọng phân",
+    "Thức ăn ẩm mốc, bảo quản kém",
+    "Mật độ nuôi cao, chuồng kín, ẩm",
+    "Thiếu chương trình vệ sinh và sát trùng định kỳ"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao, mệt rõ, ăn rất kém hoặc bỏ ăn",
+    "Tiêu chảy nhiều lần, phân nước, mùi rất hôi, có thể lẫn máu và nhầy",
+    "Mất nước nặng, da khô, mắt trũng sâu",
+    "Có thể đau bụng, bò bồn chồn hoặc nằm lì",
+    "Sụt cân nhanh, suy kiệt, bê có thể chết trong thời gian ngắn",
+    "Trong đàn có thể nhiều con bị tiêu chảy cùng thời điểm"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tiêu chảy vài lần trong ngày, phân lỏng, mùi nặng hơn bình thường",
+      "Ăn giảm, hơi mệt nhưng vẫn còn đi lại được"
+    ],
+    "moderate": [
+      "Tiêu chảy liên tục, phân nước, mùi rất hôi",
+      "Mất nước vừa đến nặng, mắt trũng, da mất đàn hồi",
+      "Sốt rõ, bò mệt, đứng tách đàn"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, suy kiệt, có thể nằm nhiều, đứng dậy khó",
+      "Mất nước rất nặng, niêm nhạt hoặc tím nhẹ",
+      "Nguy cơ tử vong cao nếu không được bù dịch và dùng kháng sinh kịp thời"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "enrofloxacin",
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "amoxicillin"
+    ],
+    "note_drugs": "Chọn một kháng sinh chính, dùng đủ liệu trình. Cân nhắc kháng sinh dựa trên tư vấn thú y và tình hình kháng thuốc tại địa phương.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Bù nước và điện giải tích cực, đặc biệt ở bê non",
+      "Giữ ấm cơ thể, tránh gió lùa và nền chuồng ẩm lạnh",
+      "Tách con bệnh ra khu riêng để dễ chăm sóc và hạn chế lây lan",
+      "Ngừng thức ăn khó tiêu, cho ăn khẩu phần dễ tiêu và sạch",
+      "Vệ sinh và sát trùng khu vực chuồng, máng ăn uống thường xuyên"
+    ],
+    "dose_policy": "Kháng sinh, điện giải và thuốc hỗ trợ dùng theo liều trên nhãn hoặc theo hướng dẫn của bác sĩ thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bê hoặc bò tiêu chảy nhiều, mất nước nhưng vẫn đứng được và còn uống nước.",
+      "guideline": [
+        "Dùng kháng sinh phù hợp trong thời gian đủ dài",
+        "Cho uống điện giải nhiều lần, lượng vừa phải mỗi lần",
+        "Kết hợp vitamin và men tiêu hóa",
+        "Theo dõi thân nhiệt, số lần tiêu chảy và thể trạng hằng ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bê hoặc bò nằm nhiều, mất nước rất nặng, gần như không ăn uống.",
+      "guideline": [
+        "Nếu có điều kiện, truyền dịch tĩnh mạch hoặc dưới da theo chỉ định thú y",
+        "Duy trì kháng sinh và hỗ trợ tối đa có thể",
+        "Tiên lượng thận trọng, đặc biệt ở bê nhỏ và bò rất suy kiệt",
+        "Khẩn trương kiểm soát ổ dịch trong đàn bằng các biện pháp vệ sinh và quản lý"
+      ]
+    },
+    "note": "Salmonella có thể gây thiệt hại lớn nếu không kiểm soát tốt vệ sinh và lây lan. Phòng bệnh bằng vệ sinh vẫn là cốt lõi."
+  },
+  "prevention": [
+    "Đảm bảo thức ăn và nước uống sạch, không nhiễm phân",
+    "Vệ sinh, sát trùng chuồng trại và máng ăn uống định kỳ",
+    "Quản lý phân, không để đọng phân ướt và nước bẩn quanh chuồng",
+    "Giảm mật độ nuôi tại các khu có bê non, bò yếu",
+    "Theo dõi và cách ly sớm bò có dấu hiệu tiêu chảy nặng"
+  ],
+  "notes": [
+    "Khi trong đàn có nhiều ca tiêu chảy nặng và sốt, cần nghĩ đến Salmonella như một khả năng.",
+    "Làm vệ sinh và sát trùng kỹ càng có khi hiệu quả hơn tăng thuốc.",
+    "Ghi lại các đợt bùng phát để cải thiện kế hoạch phòng bệnh cho các năm sau."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

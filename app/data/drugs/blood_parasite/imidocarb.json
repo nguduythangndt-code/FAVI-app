@@ -1,0 +1,47 @@
+{
+  "name": "Imidocarb",
+
+  "mechanism": [
+    "Ức chế chuyển hoá của ký sinh trùng máu",
+    "Ngăn sao chép Babesia và Anaplasma"
+  ],
+
+  "clinical_uses": [
+    "Điều trị Babesiosis",
+    "Điều trị Anaplasmosis",
+    "Dùng khi có chẩn đoán hoặc nghi ngờ mạnh"
+  ],
+
+  "advantages": [
+    "Hiệu quả cao trên ký sinh trùng máu",
+    "Giảm nhanh mật độ ký sinh trùng"
+  ],
+
+  "disadvantages": [
+    "Có thể gây kích ứng mạnh tại chỗ tiêm",
+    "Dễ có tác dụng phụ nếu không dùng đúng"
+  ],
+
+  "side_effects": [
+    "Chảy dãi, run nhẹ",
+    "Giảm ăn thoáng qua",
+    "Thở nhanh hoặc mệt tạm thời"
+  ],
+
+  "recommendations": [
+    "Chỉ dùng khi có chỉ định thú y",
+    "Theo dõi hô hấp trong vài giờ sau khi tiêm",
+    "Không dùng liên tục nhiều đợt"
+  ],
+
+  "contraindications": [
+    "Suy gan thận nặng",
+    "Con suy kiệt hoặc đang sốc"
+  ],
+
+  "alternatives": [
+    "Azidin",
+    "Oxytetracycline LA",
+    "Buparvaquone (tuỳ tác nhân)"
+  ]
+}

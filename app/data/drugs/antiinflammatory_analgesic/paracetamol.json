@@ -1,0 +1,40 @@
+{
+  "name": "Paracetamol",
+  "mechanism": [
+    "Giảm đau, hạ sốt qua tác động trung ương",
+    "Gần như không có tác dụng chống viêm rõ như các NSAID cổ điển"
+  ],
+  "clinical_uses": [
+    "Hỗ trợ hạ sốt mức độ nhẹ đến vừa",
+    "Giảm đau nhẹ (đau cơ, mệt, khó chịu do sốt)",
+    "Kết hợp cùng điều trị nguyên nhân chính (nhiễm khuẩn, ký sinh, chăm sóc)"
+  ],
+  "advantages": [
+    "Tương đối an toàn khi dùng đúng",
+    "Ít kích ứng đường tiêu hoá hơn nhiều NSAID khác"
+  ],
+  "disadvantages": [
+    "Không phải thuốc chống viêm mạnh, không đủ cho các ca đau / viêm nặng",
+    "Nguy cơ gây độc gan nếu dùng sai liều hoặc kéo dài quá mức"
+  ],
+  "side_effects": [
+    "Giảm ăn, mệt nhẹ",
+    "Hiếm: dị ứng, mày đay",
+    "Quá liều: nguy cơ tổn thương gan nặng (cần tránh tuyệt đối)"
+  ],
+  "recommendations": [
+    "Chỉ dùng theo liều / số ngày ghi trên nhãn hoặc thú y chỉ định",
+    "Không phối hợp với nhiều chế phẩm khác cũng chứa paracetamol",
+    "Theo dõi màu niêm mạc, phân, thái độ ăn uống khi dùng nhiều ngày"
+  ],
+  "contraindications": [
+    "Không dùng cho dê nghi ngờ tổn thương gan nặng",
+    "Tránh dùng kéo dài như “thuốc hạ sốt hằng ngày”",
+    "Thận trọng khi phối hợp cùng các thuốc có nguy cơ độc gan khác"
+  ],
+  "alternatives": [
+    "Meloxicam hoặc Ketoprofen nếu cần thêm tác dụng chống viêm",
+    "Flunixin cho các ca sốt / đau nặng, có chỉ định rõ",
+    "Bù nước - điện giải, chăm sóc môi trường, thông khí tốt để hỗ trợ hạ sốt"
+  ]
+}

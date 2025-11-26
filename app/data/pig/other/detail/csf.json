@@ -1,0 +1,62 @@
+{
+  "name": "Dịch tả heo cổ điển (CSF)",
+  "summary": "Bệnh virus gây sốt cao, xuất huyết, tiêu chảy và chết; không có thuốc đặc trị.",
+  "causes": [
+    "Virus CSFV lây qua heo bệnh, phân - nước tiểu, dụng cụ, xe vận chuyển",
+    "Lây mạnh khi đàn miễn dịch kém"
+  ],
+  "risk_factors": [
+    "Chưa tiêm phòng CSF",
+    "Nhập đàn không cách ly",
+    "Chuồng trại bẩn, mật độ cao"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao, bỏ ăn",
+    "Da đỏ tím, xuất huyết điểm",
+    "Tiêu chảy hôi, có thể lẫn máu",
+    "Run, co giật, đi vòng",
+    "Heo nái sảy thai, thai khô",
+    "Chết rải rác hoặc bùng phát"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Sốt, ăn giảm", "Lờ đờ"],
+    "moderate": ["Tiêu chảy", "Xuất huyết da", "Run"],
+    "severe": ["Co giật, liệt", "Tiêu chảy máu", "Chết nhanh"]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": ["Oxytetracycline", "Florfenicol"],
+    "note_drugs": "Không có thuốc diệt CSFV. Điều trị chỉ trợ sức và chống bội nhiễm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {"main": "Meloxicam", "alternative": ["Flunixin"]},
+      "electrolyte": {"main": "ORS", "alternative": []},
+      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+    },
+    "supportive_care": [
+      "Cách ly đàn nghi bệnh",
+      "Giữ ấm, cung cấp nước sạch",
+      "Khử trùng chuồng trại liên tục",
+      "Báo thú y để xét nghiệm và xử lý"
+    ],
+    "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo sốt cao + xuất huyết",
+      "guideline": ["Cách ly", "Trợ sức mạnh", "Theo dõi sát và báo thú y"]
+    },
+    "case_type_2": {
+      "description": "Heo thần kinh, co giật",
+      "guideline": ["Hạn chế kích thích", "Giữ ấm", "Xử lý dịch theo thú y"]
+    },
+    "note": "Tiêm phòng CSF là biện pháp phòng hiệu quả nhất."
+  },
+  "prevention_list": [
+    "Tiêm phòng CSF đúng lịch",
+    "Cách ly heo nhập đàn",
+    "All-in/all-out theo lứa",
+    "Vệ sinh sát trùng định kỳ"
+  ],
+  "notes": ["CSF dễ nhầm ASF, cần xét nghiệm phân biệt."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Xử lý dịch bắt buộc theo hướng dẫn thú y."
+}

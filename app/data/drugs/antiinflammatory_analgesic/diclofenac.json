@@ -1,0 +1,39 @@
+{
+  "name": "Diclofenac",
+  "mechanism": [
+    "NSAID ức chế tổng hợp prostaglandin",
+    "Giảm viêm, giảm đau, hạ sốt"
+  ],
+  "clinical_uses": [
+    "Một số phác đồ thú y có thể sử dụng diclofenac cho đau xương khớp, chấn thương",
+    "Tuy nhiên không phải lựa chọn hàng đầu ở dê nuôi lấy thịt / sữa"
+  ],
+  "advantages": [
+    "Giảm đau, giảm viêm khá tốt trong nhóm NSAID",
+    "Đôi khi được sử dụng khi không có sẵn các NSAID khác phù hợp hơn"
+  ],
+  "disadvantages": [
+    "Nguy cơ cao gây kích ứng tiêu hoá, ảnh hưởng gan thận nếu dùng sai",
+    "Ít được ưu tiên cho động vật nuôi lấy thịt / sữa do vấn đề tồn dư và an toàn"
+  ],
+  "side_effects": [
+    "Giảm ăn, khó chịu đường tiêu hoá",
+    "Có thể gây loét tiêu hoá, rối loạn đông máu nếu lạm dụng",
+    "Nguy cơ tổn thương gan, thận trên cá thể nhạy cảm hoặc dùng kéo dài"
+  ],
+  "recommendations": [
+    "Chỉ dùng khi có hướng dẫn cụ thể từ bác sĩ thú y",
+    "Ưu tiên thay bằng các NSAID an toàn hơn cho dê nếu có thể",
+    "Luôn tuân thủ thời gian ngừng thuốc theo tư vấn thú y khi sử dụng trên dê cho sữa / thịt"
+  ],
+  "contraindications": [
+    "Không dùng cho dê suy gan, suy thận, loét tiêu hoá",
+    "Không dùng kéo dài hoặc tự ý lặp lại nhiều đợt",
+    "Tránh dùng trên dê nái mang thai cuối kỳ trừ khi thú y đánh giá lợi ích lớn hơn nguy cơ"
+  ],
+  "alternatives": [
+    "Meloxicam - an toàn hơn cho dùng vài ngày",
+    "Ketoprofen hoặc Flunixin - đã quen dùng trên gia súc với dữ liệu rõ hơn",
+    "Paracetamol - hỗ trợ hạ sốt trong ca nhẹ hơn"
+  ]
+}

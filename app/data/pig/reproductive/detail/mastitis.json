@@ -1,0 +1,108 @@
+{
+  "id": "mastitis",
+  "name": "Viêm vú (mastitis)",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Viêm vú làm vú nái sưng nóng đau, giảm sữa, heo con khó bú và suy nhanh.",
+  "causes": [
+    "Nhiễm khuẩn E.coli, Staphylococcus, Streptococcus",
+    "Vú bị xây xát khi heo con bú mạnh",
+    "Nền chuồng ẩm bẩn"
+  ],
+  "risk_factors": [
+    "Nái đẻ nhiều lứa",
+    "Nền chuồng sần sùi",
+    "Heo con quá đông bú giằng kéo",
+    "Chuồng đẻ không khô"
+  ],
+  "clinical_signs_detailed": [
+    "Vú sưng nóng đau rõ",
+    "Heo con bú kêu la vì ít sữa",
+    "Sốt nhẹ đến vừa",
+    "Vú cứng như cục",
+    "Sữa đổi màu hoặc ít hẳn"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Vú hơi sưng",
+      "Heo con bú khó"
+    ],
+    "moderate": [
+      "Vú sưng nóng rõ",
+      "Nái sốt, bỏ ăn"
+    ],
+    "severe": [
+      "Vú rất cứng, đỏ",
+      "Sữa gần như mất",
+      "Heo con suy"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Amoxicillin",
+      "Ceftiofur"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline",
+      "Tylosin"
+    ],
+    "note_drugs": "Ceftiofur và Amoxicillin hiệu quả tốt cho viêm vú.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ vú sạch và khô",
+      "Cho heo con bú đều các hàng vú",
+      "Tăng điện giải cho nái mệt"
+    ],
+    "dose_policy": "Theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Vú sưng nóng nhưng nái còn ăn.",
+      "guideline": [
+        "Kháng sinh chính",
+        "Giảm đau chống viêm",
+        "Giữ vú sạch"
+      ]
+    },
+    "case_type_2": {
+      "description": "Vú cứng, nái bỏ ăn, heo con suy.",
+      "guideline": [
+        "Điều trị tích cực",
+        "Hỗ trợ dinh dưỡng và điện giải",
+        "Theo dõi sát"
+      ]
+    },
+    "note": "Nếu vú hư nặng có thể mất hoàn toàn khả năng tiết sữa."
+  },
+  "prevention": [
+    "Chuồng đẻ khô, sạch",
+    "Giảm xây xát núm vú",
+    "Heo con không được quá đông"
+  ],
+  "notes": [
+    "Phát hiện sớm giúp giữ đàn heo con khỏe.",
+    "Nái viêm vú dễ tái phát nếu chuồng ẩm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

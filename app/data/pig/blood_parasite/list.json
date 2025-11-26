@@ -1,0 +1,30 @@
+[
+  {
+    "id": "babesia",
+    "name": "Nhiễm ký sinh trùng máu Babesia",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn đột ngột Niêm mạc nhợt hoặc vàng nhạt Tai và bụng tích máu, đỏ bầm Thở nhanh, mệt nhiều Nước tiểu sậm màu Gầy nhanh trong 1-2 ngày Một số con chết đột ngột Ăn kém nhẹ Niêm mạc hơi nhạt Mệt ít Sốt cao Niêm mạc vàng nhạt rõ Thở nhanh Gầy sút nhanh Đứng không vững Khó thở nặng Nước tiểu rất sậm Nguy cơ tử vong cao"
+  },
+  {
+    "id": "trypanosoma",
+    "name": "Nhiễm Trypanosoma (Surra)",
+    "group": "blood_parasite",
+    "severityLevel": 3,
+    "searchText": "Heo mệt kéo dài, ít vận động Sút cân nhanh dù vẫn còn ăn ít Sốt từng cơn, lúc cao lúc gần bình thường Niêm mạc nhợt, một số con hơi vàng Phù chân, phù bụng, có thể phù mí mắt Đi loạng choạng, đứng không vững Một số con nằm nhiều, chậm chạp, dễ bị dồn ngã Hơi mệt, kém linh hoạt Ăn giảm nhẹ Niêm mạc hơi nhạt Sút cân nhìn thấy rõ Sốt từng cơn Phù nhẹ ở chân hoặc bụng Đi lại chậm, hơi loạng choạng Phù rõ chân, bụng, có thể ở ngực Đứng không vững, dễ ngã Rất suy, nằm nhiều, phản xạ chậm Nguy cơ suy kiệt và tử vong"
+  },
+  {
+    "id": "anaplasma",
+    "name": "Nhiễm Anaplasma",
+    "group": "blood_parasite",
+    "severityLevel": 2,
+    "searchText": "Ăn kém và lớn chậm kéo dài Niêm mạc nhợt, đôi khi vàng nhẹ Sốt nhẹ hoặc không sốt Heo mệt âm ỉ, ít vận động Gầy dần theo thời gian Một số con da nhăn, lông xỉu Ăn kém nhẹ Niêm mạc hơi nhạt Tăng trưởng chậm Niêm mạc vàng nhẹ Mệt rõ, ít vận động Sút cân Lông xỉu, da nhăn Thiếu máu nặng Đứng lâu mỏi, nằm nhiều Mệt nhiều Nguy cơ nhiễm khuẩn kế phát"
+  },
+  {
+    "id": "eperythrozoon",
+    "name": "Nhiễm Mycoplasma suis (Eperythrozoon)",
+    "group": "blood_parasite",
+    "severityLevel": 2,
+    "searchText": "Heo con lớn chậm, lông xỉu, da nhăn Niêm mạc nhợt, đôi lúc vàng nhẹ Sốt thất thường: lúc cao, lúc gần bình thường Mệt kéo dài, ít vận động Ăn kém, bụng tóp lại Có thể tiêu chảy nhẹ trong vài ngày Lông xỉu, kém sung Ăn giảm nhẹ Niêm mạc hơi nhợt Sốt từng cơn Gầy, lớn chậm Mệt nhiều hơn, ít chạy nhảy Thiếu máu rõ Lông dựng, da sạm Heo nằm nhiều, kém phản xạ Dễ nhiễm khuẩn kế phát"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "name": "Oxyclozanide",
+  "mechanism": [
+    "Tác động lên chức năng phosphoryl hóa của sán",
+    "Gây rối loạn năng lượng → sán chết"
+  ],
+  "clinical_uses": [
+    "Sán lá gan trưởng thành",
+    "Một số hiệu lực trên sán dạ cỏ"
+  ],
+  "advantages": [
+    "Tốt cho sán gan trưởng thành",
+    "Phối hợp được với thuốc khác"
+  ],
+  "disadvantages": [
+    "Không diệt sán gan non",
+    "Không tác dụng với giun tròn"
+  ],
+  "side_effects": [
+    "Chướng bụng nhẹ",
+    "Giảm ăn thoáng qua"
+  ],
+  "recommendations": [
+    "Luôn dùng đúng liều theo nhãn",
+    "Không lạm dụng trong đàn yếu"
+  ],
+  "contraindications": [
+    "Suy gan",
+    "Nghi ngờ tắc mật nặng"
+  ],
+  "alternatives": [
+    "Closantel",
+    "Triclabendazole"
+  ]
+}

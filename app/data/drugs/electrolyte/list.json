@@ -1,0 +1,26 @@
+[
+  {
+    "id": "oresol",
+    "name": "Oresol"
+  },
+  {
+    "id": "glucose",
+    "name": "Glucose"
+  },
+  {
+    "id": "electrolyte_mix",
+    "name": "Electrolyte tổng hợp (Na/K/Cl)"
+  },
+  {
+    "id": "vitamin_c_electrolyte",
+    "name": "Vitamin C điện giải"
+  },
+  {
+    "id": "bcomplex_electrolyte",
+    "name": "B-complex + Điện giải"
+  },
+  {
+    "id": "rehydration_salts",
+    "name": "Rehydration salts"
+  }
+]

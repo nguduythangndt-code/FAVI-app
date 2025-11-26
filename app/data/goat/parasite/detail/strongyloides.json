@@ -1,0 +1,120 @@
+{
+  "id": "strongyloides",
+  "name": "Giun lươn Strongyloides ở dê",
+  "species": "goat",
+  "group": "parasite",
+
+  "summary": "Giun lươn gây tiêu chảy kéo dài, chậm lớn, lông xù và mất nước ở dê con. Lây qua da và môi trường ẩm, phát triển mạnh ở các chuồng sàn thấp - dơ bẩn.",
+
+  "causes": [
+    "Ấu trùng xâm nhập qua da.",
+    "Dê liếm nền bẩn.",
+    "Chuồng ẩm thấp, phân tích tụ.",
+    "Không tẩy giun định kỳ cho dê mẹ."
+  ],
+
+  "risk_factors": [
+    "Dê con dưới 3 tháng.",
+    "Chuồng ẩm, sàn đất.",
+    "Mật độ nuôi cao.",
+    "Mùa mưa."
+  ],
+
+  "clinical_signs_detailed": [
+    "Tiêu chảy lỏng kéo dài.",
+    "Lông xù, chậm lớn.",
+    "Bụng tóp, mất nước.",
+    "Niêm mạc nhợt nhẹ.",
+    "Có thể kế phát nhiễm khuẩn ruột."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân sệt, con hơi còi.",
+      "Lông xù nhẹ."
+    ],
+    "moderate": [
+      "Tiêu chảy lỏng, mất nước.",
+      "Ăn kém, tăng trưởng chậm."
+    ],
+    "severe": [
+      "Tiêu chảy liên tục nhiều ngày.",
+      "Mất nước nặng, nằm nhiều.",
+      "Dễ tử vong nếu không bù nước."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin",
+      "Doramectin"
+    ],
+    "alternative_drugs": [
+      "Albendazole",
+      "Fenbendazole"
+    ],
+    "note_drugs": [
+      "Không dùng lặp quá sớm — dễ tạo kháng thuốc."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Dextrose - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin B-complex",
+        "Vitamin C"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá",
+        "Chế phẩm phục hồi niêm mạc ruột"
+      ]
+    },
+    "supportive_care": [
+      "Giữ chuồng khô.",
+      "Vệ sinh khu vực nằm.",
+      "Cho uống nước sạch dễ tiếp cận.",
+      "Tách dê con bệnh để giảm nhiễm chéo."
+    ],
+    "dose_policy": [
+      "Dùng thuốc theo nhãn.",
+      "Không phối hợp lung tung các nhóm tẩy giun."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê tiêu chảy nhưng còn đứng.",
+      "guideline": [
+        "Tẩy giun (ivermectin/doramectin).",
+        "Điện giải liên tục.",
+        "Men tiêu hoá."
+      ]
+    },
+    "case_type_2": {
+      "description": "Mất nước nặng, nằm.",
+      "guideline": [
+        "Thú y hỗ trợ truyền dịch.",
+        "Tẩy giun + hồi sức.",
+        "Theo dõi sát trong 24 giờ đầu."
+      ]
+    },
+    "note": "Dê con <2 tháng rất nhạy cảm — cần xử lý sớm."
+  },
+
+  "prevention": [
+    "Tẩy giun cho dê mẹ trước đẻ.",
+    "Giữ chuồng khô - sạch.",
+    "Không nuôi quá dày.",
+    "Thường xuyên thay chất độn chuồng."
+  ],
+
+  "notes": [
+    "Giun lươn làm dê còi dai dẳng nếu bỏ sót.",
+    "Tẻ sau cai sữa cần kiểm tra phân định kỳ."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

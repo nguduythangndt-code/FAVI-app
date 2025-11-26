@@ -1,0 +1,42 @@
+{
+  "id": "enrofloxacin",
+  "name": "Enrofloxacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm fluoroquinolon, ức chế enzym DNA-gyrase và topoisomerase IV, làm vi khuẩn không nhân lên được và chết, đặc biệt mạnh trên nhiều vi khuẩn Gram âm.",
+  "clinical_uses": [
+    "Nhiễm trùng hô hấp nặng ở dê, bò, heo, gia cầm khi nghi ngờ Gram âm.",
+    "Nhiễm trùng tiêu hoá nặng, tiêu chảy kèm sốt, mất nước.",
+    "Nhiễm trùng đường tiết niệu, nhiễm khuẩn huyết ở thú non."
+  ],
+  "pros": [
+    "Tác dụng mạnh, thấm tốt vào nhiều mô, phù hợp ca nặng.",
+    "Hiệu lực nhanh, thường cải thiện rõ trong vài ngày đầu nếu nhạy cảm.",
+    "Dùng được cho nhiều loài nếu tuân thủ đúng hướng dẫn thú y."
+  ],
+  "cons": [
+    "Nguy cơ tạo kháng thuốc rất cao nếu lạm dụng hoặc dùng không đủ thời gian.",
+    "Một số quốc gia hạn chế dùng fluoroquinolon cho gia cầm, thú nuôi vì lý do an toàn.",
+    "Có thể ảnh hưởng sụn khớp ở thú non nếu dùng kéo dài hoặc sai chỉ định."
+  ],
+  "mild_side_effects": [
+    "Giảm ăn, mệt nhẹ trong thời gian điều trị.",
+    "Tiêm bắp có thể gây đau, sưng tại chỗ.",
+    "Ở một số con, phân có thể thay đổi màu hoặc hơi lỏng tạm thời."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi thực sự cần, ưu tiên cho các ca nặng, nguy cơ cao.",
+    "Không dùng như kháng sinh ‘đa năng’ cho mọi bệnh nhẹ trong đàn.",
+    "Tuân thủ đủ thời gian điều trị theo nhãn hoặc chỉ định thú y, không tự ý ngưng sớm.",
+    "Tránh kết hợp bừa bãi với nhiều kháng sinh khác nếu không có lý do rõ ràng."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho thú non đang trong giai đoạn phát triển khớp nếu không bắt buộc.",
+    "Thận trọng ở con có bệnh lý thần kinh hoặc động kinh.",
+    "Không dùng để phòng bệnh đại trà trong đàn khỏe mạnh."
+  ],
+  "alternative_drugs": [
+    "Florfenicol hoặc ceftiofur cho nhiễm trùng nặng nhưng muốn hạn chế dùng quinolon.",
+    "Amoxicillin hoặc oxytetracycline cho ca nhẹ - trung bình.",
+    "Sulfonamid kết hợp trimethoprim cho một số nhiễm trùng tiêu hoá."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "lameness",
+  "name": "Đi khập khiễng ở dê",
+  "species": "goat",
+  "group": "other",
+
+  "summary": "Đi khập khiễng là triệu chứng chung của nhiều vấn đề: viêm móng, bong gân, viêm khớp, nhiễm khuẩn kẽ móng hoặc chấn thương. Nếu không điều trị kịp thời sẽ giảm ăn, chậm lớn và nằm nhiều.",
+
+  "causes": [
+    "Nhiễm khuẩn kẽ móng (Footrot).",
+    "Viêm móng do ẩm ướt.",
+    "Bong gân, trật khớp.",
+    "Dẫm phải đinh - vật nhọn.",
+    "Thiếu khoáng (Ca, P, Zn)."
+  ],
+
+  "risk_factors": [
+    "Chuồng ẩm, nền trơn.",
+    "Không tỉa móng định kỳ.",
+    "Nuôi dày, cọ xát nhiều.",
+    "Dê lớn nhanh - dê vỗ béo."
+  ],
+
+  "clinical_signs_detailed": [
+    "Đi khập khiễng rõ rệt.",
+    "Sưng khớp hoặc kẽ móng đỏ.",
+    "Móng mềm, bốc mùi (Footrot).",
+    "Nằm nhiều, đứng lên khó.",
+    "Giảm ăn."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Khập khiễng nhẹ.",
+      "Kẽ móng hơi đỏ."
+    ],
+    "moderate": [
+      "Sưng, nóng.",
+      "Đi lại khó khăn.",
+      "Giảm ăn rõ."
+    ],
+    "severe": [
+      "Nằm nhiều.",
+      "Kẽ móng chảy mủ.",
+      "Nguy cơ nhiễm trùng nặng."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Amoxicillin",
+      "Ceftiofur",
+      "Oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "Gentamycin",
+      "Doxycycline"
+    ],
+    "note_drugs": [
+      "Không cho đi lại trên nền trơn trong lúc đang đau.",
+      "Không dùng thuốc giảm đau quá nhiều ngày."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam",
+        "Flunixin"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [],
+      "vitamin": [
+        "Vitamin C",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Giữ nền chuồng khô.",
+      "Tỉa móng nếu mọc dài.",
+      "Rửa kẽ móng bằng nước muối.",
+      "Dê bị Footrot nên tách đàn."
+    ],
+    "dose_policy": [
+      "Kháng sinh dùng đúng theo nhãn.",
+      "Không tự ý đổi thuốc khi chưa cải thiện."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Sưng đau nhưng vẫn đi lại được.",
+      "guideline": [
+        "Kháng sinh + chống viêm.",
+        "Vệ sinh móng.",
+        "Tách nền chuồng ẩm."
+      ]
+    },
+    "case_type_2": {
+      "description": "Nằm nhiều, mủ nhiều, đau nặng.",
+      "guideline": [
+        "Thú y kiểm tra.",
+        "Kháng sinh mạnh.",
+        "Cắt lọc - rửa kẽ móng.",
+        "Theo dõi nhiễm trùng lan lên khớp."
+      ]
+    },
+    "note": "Footrot có thể lây cả đàn — xử lý chuồng là quan trọng nhất."
+  },
+
+  "prevention": [
+    "Tỉa móng 1-2 tháng/lần.",
+    "Giữ nền chuồng khô.",
+    "Không nuôi quá dày.",
+    "Bổ sung khoáng - vitamin đầy đủ."
+  ],
+
+  "notes": [
+    "Khập khiễng kéo dài = kiểm tra móng đầu tiên.",
+    "Footrot rất hôi và dễ lây."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Azidin (Diminazene aceturate)",
+
+  "mechanism": [
+    "Thấm vào ký sinh trùng máu và can thiệp vào vật chất di truyền",
+    "Làm ký sinh trùng mất khả năng nhân lên"
+  ],
+
+  "clinical_uses": [
+    "Hỗ trợ điều trị Babesiosis",
+    "Hỗ trợ điều trị Trypanosomiasis",
+    "Dùng khi có nghi ngờ mạnh ký sinh trùng máu"
+  ],
+
+  "advantages": [
+    "Tác dụng mạnh trên ký sinh trùng máu",
+    "Giảm triệu chứng nhanh khi dùng đúng chỉ định"
+  ],
+
+  "disadvantages": [
+    "Biên độ an toàn hẹp",
+    "Dễ xảy ra tác dụng phụ nếu lạm dụng"
+  ],
+
+  "side_effects": [
+    "Mệt nhẹ, giảm ăn",
+    "Run cơ nhẹ",
+    "Kích ứng nhẹ tại chỗ tiêm"
+  ],
+
+  "recommendations": [
+    "Chỉ dùng khi có nghi ngờ ký sinh trùng máu rõ",
+    "Theo dõi chặt sau khi tiêm",
+    "Không lạm dụng nhiều đợt liên tục"
+  ],
+
+  "contraindications": [
+    "Không dùng cho con suy gan thận nặng",
+    "Tránh dùng khi con suy kiệt hoặc mất nước nặng"
+  ],
+
+  "alternatives": [
+    "Imidocarb",
+    "Oxytetracycline LA (nghi ngờ Anaplasma)",
+    "Buparvaquone (nghi ngờ Theileria)"
+  ]
+}

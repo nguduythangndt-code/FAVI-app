@@ -1,0 +1,136 @@
+{
+  "id": "ibr",
+  "name": "Viêm mũi - khí quản truyền nhiễm (IBR)",
+  "species": "cattle",
+  "group": "respiratory",
+
+  "summary": "Bệnh do virus IBR gây tổn thương đường hô hấp trên, sốt, chảy nước mũi, ho và giảm sữa. Thường lây nhanh trong đàn nếu không tiêm phòng và quản lý tốt.",
+
+  "causes": [
+    "Nhiễm virus IBR qua đường hô hấp hoặc tiếp xúc trực tiếp",
+    "Stress do vận chuyển, ghép đàn, thay đổi thời tiết",
+    "Mật độ nuôi dày, chuồng kém thông thoáng",
+    "Bội nhiễm vi khuẩn hô hấp sau khi niêm mạc bị tổn thương"
+  ],
+
+  "risk_factors": [
+    "Đàn không được tiêm phòng IBR hoặc tiêm phòng không đều",
+    "Nhập đàn mới mà không cách ly",
+    "Chuồng trại ẩm, thông gió kém, chênh lệch nhiệt độ ngày - đêm cao",
+    "Bò sữa năng suất cao, dễ stress",
+    "Bê, bò trẻ sức đề kháng kém"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt, giảm ăn, lù rù",
+    "Chảy nước mũi nhiều, lúc đầu trong sau đục dần",
+    "Niêm mạc mũi đỏ, có thể loét, đóng vảy quanh lỗ mũi",
+    "Ho, thở nhanh, có thể nghe ran ở khí quản",
+    "Đỏ mắt, chảy nước mắt, mẫn cảm với ánh sáng ở một số con",
+    "Giảm sản lượng sữa rõ rệt ở bò sữa",
+    "Trong đàn có thể nhiều con ho, sổ mũi cùng lúc"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ, giảm ăn ít",
+      "Chảy nước mũi trong, ho ít",
+      "Mắt hơi đỏ, chảy ít nước mắt"
+    ],
+    "moderate": [
+      "Sốt vừa, nước mũi đục hơn, dính quanh mũi",
+      "Ho tăng, thở nhanh hơn",
+      "Mắt đỏ, chảy nước mắt rõ, khó chịu với ánh sáng",
+      "Giảm sữa nhìn thấy rõ"
+    ],
+    "severe": [
+      "Niêm mạc mũi loét, đóng vảy khô",
+      "Thở khó, ran khí quản rõ, ho nhiều",
+      "Con vật mệt, nằm nhiều, ăn rất ít",
+      "Dễ bội nhiễm viêm phổi nặng nếu không điều trị kịp"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "tulathromycin"
+    ],
+    "note_drugs": "Kháng sinh dùng để kiểm soát bội nhiễm vi khuẩn đường hô hấp. Virus IBR không được kháng sinh tiêu diệt, nên cần kết hợp hỗ trợ tốt và quản lý đàn.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Nhốt bò bệnh nơi khô ráo, thoáng khí, tránh gió lùa",
+      "Bổ sung nước, điện giải, vitamin để tăng sức đề kháng",
+      "Lau sạch mũi, vùng quanh mũi nếu có dịch khô đóng lại",
+      "Giảm các yếu tố stress: không đổi đàn, không vận chuyển",
+      "Theo dõi cả đàn để phát hiện sớm các con mới bệnh"
+    ],
+
+    "dose_policy": "Tuân thủ liều thuốc ghi trên nhãn hoặc theo hướng dẫn thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò sốt, chảy nước mũi nhiều, ho rõ nhưng vẫn ăn ít và còn đứng được.",
+      "guideline": [
+        "Dùng kháng sinh để kiểm soát bội nhiễm vi khuẩn",
+        "Thêm kháng viêm giảm đau, vitamin, điện giải",
+        "Theo dõi kỹ trong vài ngày đầu, ghi chú lại số con bệnh trong đàn",
+        "Tăng cường vệ sinh chuồng, khử trùng lối đi, máng ăn uống"
+      ]
+    },
+    "case_type_2": {
+      "description": "Ho nhiều, thở nhanh, mệt, ăn rất ít, nghi có viêm phổi kèm theo.",
+      "guideline": [
+        "Xem xét phác đồ kháng sinh mạnh và kéo dài hơn cho ca nặng",
+        "Mời bác sĩ thú y thăm khám để đánh giá phổi và hướng xử lý",
+        "Giảm tối đa vận động, tạo môi trường yên tĩnh",
+        "Theo dõi chặt thân nhiệt, nhịp thở, phản ứng điều trị"
+      ]
+    },
+    "note": "IBR dễ trở thành bệnh mãn tính âm ỉ, ảnh hưởng lâu dài đến năng suất. Quản lý tiêm phòng và nhập đàn rất quan trọng."
+  },
+
+  "prevention": [
+    "Xây dựng và duy trì chương trình tiêm phòng IBR ổn định",
+    "Cách ly bê, bò mới nhập trại trong thời gian theo dõi",
+    "Giữ chuồng trại sạch, khô ráo, không quá bí",
+    "Giảm stress do chuyển chuồng, ghép đàn, thay khẩu phần",
+    "Khử trùng định kỳ khu vực máng ăn, máng uống"
+  ],
+
+  "notes": [
+    "IBR có thể kết hợp với các tác nhân khác tạo hội chứng hô hấp phức hợp.",
+    "Trong đàn bò sữa, IBR ảnh hưởng mạnh đến sản lượng sữa và khả năng sinh sản.",
+    "Ghi chép đầy đủ ngày phát bệnh, số con mắc, phản ứng với điều trị để rút kinh nghiệm cho mùa sau."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

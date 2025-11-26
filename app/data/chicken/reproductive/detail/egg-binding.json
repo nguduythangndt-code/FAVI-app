@@ -1,0 +1,104 @@
+{
+  "id": "egg-binding",
+  "name": "Kẹt trứng (đẻ khó)",
+  "species": "chicken",
+  "group": "reproductive",
+  "summary": "Trứng mắc lại trong đường sinh sản, gà đẻ khó, đau, có thể chết nếu không thoát được trứng và nhiễm trùng kế phát.",
+  "causes": [
+    "Trứng quá to, méo hoặc vỏ dày bất thường",
+    "Thiếu canxi, vitamin D và khoáng khiến co bóp kém",
+    "Gà béo, ít vận động, đường sinh sản kém linh hoạt",
+    "Nhiễm bệnh sinh sản khác gây hẹp đường trứng"
+  ],
+  "risk_factors": [
+    "Gà non đẻ sớm khi khung xương và đường sinh sản chưa hoàn chỉnh",
+    "Khẩu phần mất cân đối, thiếu khoáng, canxi, vitamin D",
+    "Béo phì do ăn quá nhiều, ít vận động",
+    "Nhiệt độ môi trường thấp, gà căng thẳng khi đẻ"
+  ],
+  "clinical_signs_detailed": [
+    "Gà tách đàn, ngồi xổm, rướn người như đang cố đẻ",
+    "Đi lại khó khăn, ít di chuyển, đôi khi run hoặc thở nhanh",
+    "Có thể sờ vùng bụng gần cloaca thấy khối cứng nghi trứng",
+    "Không đẻ được, bỏ ăn, ủ rũ rõ",
+    "Nếu kéo dài, gà suy nhanh, có thể tử vong"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà lâu ra trứng hơn bình thường, nhưng vẫn đẻ được sau đó",
+      "Có biểu hiện hơi căng thẳng khi đẻ"
+    ],
+    "moderate": [
+      "Gà ngồi xổm lâu, rướn liên tục, không ra trứng",
+      "Ăn kém, ủ rũ, ít di chuyển, thở nhanh hơn"
+    ],
+    "severe": [
+      "Kẹt trứng kéo dài, gà rất yếu, nằm nhiều",
+      "Có thể chảy dịch, nhiễm trùng khu vực cloaca",
+      "Nguy cơ tử vong cao nếu không được can thiệp kịp thời"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "thuoc_ho_tro_co_bop_theo_tu_van_thu_y"
+    ],
+    "alternative_drugs": [
+      "amoxicillin",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Xử lý kẹt trứng đòi hỏi can thiệp cơ học và hỗ trợ thuốc. Kháng sinh chỉ dùng để phòng hoặc điều trị nhiễm trùng kế phát theo tư vấn thú y. Không tự ý thao tác mạnh tay dễ làm vỡ trứng và làm nặng thêm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "meloxicam",
+        "alternative": "flunixin"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải cho gà suy, ít uống nước",
+        "alternative": "điện giải kèm glucose trong thời gian ngắn"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên canxi, vitamin D và khoáng",
+        "alternative": "vitamin nhóm B để hỗ trợ hồi sức"
+      },
+      "digestive_support": {
+        "main": "khẩu phần mềm, dễ tiêu, lượng nhỏ sau khi xử lý trứng",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Tách gà bị kẹt trứng ra khu yên tĩnh, tránh bị đè, rượt đuổi",
+      "Giữ ấm vừa phải, tránh lạnh, giảm stress",
+      "Không cố nặn, bóp mạnh vùng cloaca nếu không có kinh nghiệm",
+      "Nhờ thú y hỗ trợ can thiệp khi nghi ngờ trứng mắc lâu hoặc gà quá yếu",
+      "Sau khi qua cơn kẹt trứng, điều chỉnh lại khẩu phần và quản lý để tránh lặp lại"
+    ],
+    "dose_policy": "Mọi thuốc hỗ trợ co bóp hoặc kháng sinh nên dùng theo hướng dẫn thú y. Không thử nhiều loại thuốc mạnh khi chưa rõ tình trạng cụ thể."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Gà mái đẻ thương phẩm bị kẹt trứng, suy nhanh.",
+      "guideline": "Nếu gà giá trị thấp và quá yếu, đôi khi xử lý cứu chữa rất khó. Cần cân nhắc giữa chi phí và khả năng hồi phục. Đàn còn lại cần được điều chỉnh khẩu phần để hạn chế kẹt trứng hàng loạt."
+    },
+    "case_type_2": {
+      "description": "Gà cảnh hoặc gà giống giá trị cao bị kẹt trứng.",
+      "guideline": "Nhờ thú y can thiệp sớm, kết hợp hỗ trợ điện giải, vitamin, giữ ấm và giảm stress. Sau khi hồi phục, đánh giá lại việc cho đẻ tiếp hay giữ làm cảnh, tránh ép đẻ quá sức."
+    },
+    "note": "Kẹt trứng là vấn đề vừa do sinh lý, vừa do quản lý. Giảm béo, cân bằng khoáng và quản lý tốt giai đoạn đẻ giúp hạn chế nhiều."
+  },
+  "prevention": [
+    "Không cho gà quá béo trước giai đoạn đẻ",
+    "Bổ sung canxi, phospho, vitamin D và khoáng đầy đủ",
+    "Đảm bảo gà vận động vừa phải, chuồng có không gian đủ",
+    "Giữ chuồng ấm vừa, tránh lạnh đột ngột trong giai đoạn đẻ",
+    "Theo dõi các trường hợp đẻ khó để điều chỉnh chương trình nuôi"
+  ],
+  "notes": [
+    "Nhận ra gà kẹt trứng sớm giúp tăng khả năng cứu chữa.",
+    "Một số dòng giống có xu hướng đẻ trứng to, dễ kẹt trứng hơn, cần quản lý phù hợp."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "azithromycin",
+  "name": "Azithromycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm macrolide thế hệ mới, thấm tốt vào mô phổi và mô mềm. Hỗ trợ kiểm soát các vi khuẩn gây ho, viêm phổi và Mycoplasma.",
+  "clinical_uses": [
+    "Ho, khò khè, viêm khí quản mức độ nhẹ - trung bình.",
+    "Hỗ trợ trong các ca viêm phổi mới khởi phát.",
+    "Các ca bệnh hô hấp kéo dài có yếu tố Mycoplasma."
+  ],
+  "pros": [
+    "An toàn, dễ dùng, ít tác dụng phụ.",
+    "Hiệu quả tốt trong ca hô hấp mức độ vừa.",
+    "Thời gian tác dụng kéo dài, dùng 1 lần/ngày tiện cho trại."
+  ],
+  "cons": [
+    "Không phải lựa chọn chính cho viêm phổi nặng.",
+    "Hiệu lực thấp hơn so với florfenicol hoặc tulathromycin ở ca nặng.",
+    "Không phải lựa chọn cho các nhiễm khuẩn Gram âm mạnh."
+  ],
+  "mild_side_effects": [
+    "Hơi mệt trong vài giờ đầu.",
+    "Ăn giảm nhẹ.",
+    "Đôi khi phân mềm nhẹ."
+  ],
+  "usage_recommendations": [
+    "Phù hợp dùng sớm khi triệu chứng hô hấp mới xuất hiện.",
+    "Theo dõi tình trạng thở nhanh - ho - sốt trong 1-2 ngày.",
+    "Luôn sử dụng theo hướng dẫn trên nhãn hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Ca viêm phổi nặng, thở bụng hoặc bỏ ăn nhiều.",
+    "Thú suy gan rõ rệt cần đánh giá thêm.",
+    "Không dùng để phòng bệnh dài ngày."
+  ],
+  "alternative_drugs": [
+    "Tylosin.",
+    "Josamycin.",
+    "Tulathromycin cho ca nặng hơn."
+  ]
+}

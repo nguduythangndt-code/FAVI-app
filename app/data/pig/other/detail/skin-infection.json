@@ -1,0 +1,111 @@
+{
+  "id": "skin-infection",
+  "name": "Nhiễm trùng da",
+  "species": "pig",
+  "group": "other",
+  "summary": "Nhiễm trùng da làm vùng da đỏ, sưng, nóng, có thể chảy dịch hoặc mủ. Nếu nặng sẽ đau, heo nằm nhiều và tăng trưởng kém.",
+  "causes": [
+    "Vi khuẩn xâm nhập qua vết trầy xước, cắn nhau, cọ xát vào vật sắc",
+    "Nhiễm trùng thứ phát sau ghẻ, chấy rận, ấu trùng ruồi",
+    "Chuồng bẩn, nền ẩm làm vết thương lâu khô"
+  ],
+  "risk_factors": [
+    "Mật độ nuôi cao, heo cắn nhau nhiều",
+    "Chuồng ẩm, nhiều phân, nước tiểu đọng",
+    "Vách, máng có cạnh sắc làm trầy da",
+    "Không xử lý vết thương nhỏ từ đầu"
+  ],
+  "clinical_signs_detailed": [
+    "Da đỏ, nóng, sưng vùng bị tổn thương",
+    "Có thể chảy dịch vàng, dịch hôi hoặc mủ",
+    "Heo đau, không thích bị chạm vào vùng đó",
+    "Nằm nhiều, vận động ít",
+    "Nếu nhiều ổ nhiễm, heo gầy và yếu dần"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Mảng da đỏ nhẹ, hơi sưng",
+      "Heo vẫn ăn bình thường"
+    ],
+    "moderate": [
+      "Da sưng nóng rõ, có dịch rỉ",
+      "Heo đau, đi lại khó khăn nếu ở chân",
+      "Ăn giảm nhẹ"
+    ],
+    "severe": [
+      "Ổ mủ lớn, da loét sâu, mùi hôi",
+      "Heo rất đau, nằm nhiều",
+      "Gầy nhanh nếu kéo dài"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Amoxicillin",
+      "Ceftiofur"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline",
+      "Florfenicol"
+    ],
+    "note_drugs": "Amoxicillin hoặc Ceftiofur thường dùng trong các ca nhiễm trùng da nặng. Với vết thương nhẹ, có thể ưu tiên sát trùng tại chỗ, kháng sinh toàn thân tùy mức độ.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Vệ sinh vùng da bệnh, cắt lông quanh nếu cần",
+      "Rửa vết thương bằng dung dịch sát trùng phù hợp",
+      "Giữ chuồng khô và sạch để vết thương nhanh khô",
+      "Giảm cắn nhau bằng chia ô, thêm máng ăn uống"
+    ],
+    "dose_policy": "Dùng kháng sinh và thuốc hỗ trợ theo liều trên nhãn hoặc tư vấn thú y, không tự ý kéo dài quá lâu."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Vùng da sưng đỏ, chảy ít dịch nhưng heo vẫn còn ăn và đi lại.",
+      "guideline": [
+        "Sát trùng vết thương mỗi ngày",
+        "Dùng kháng sinh toàn thân nếu vùng nhiễm khá rộng",
+        "Theo dõi giảm sưng, giảm đau trong vài ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Ổ mủ lớn, loét sâu, mùi hôi, heo đau nhiều.",
+      "guideline": [
+        "Làm sạch kỹ ổ mủ, cho thoát dịch",
+        "Kháng sinh toàn thân đủ thời gian",
+        "Tách heo bệnh nặng sang ô riêng để dễ chăm và tránh bị cắn"
+      ]
+    },
+    "note": "Nếu để lâu, nhiễm trùng da nặng có thể lan vào máu, gây nhiễm trùng huyết."
+  },
+  "prevention": [
+    "Sửa các cạnh sắc ở máng, vách, song chuồng",
+    "Giữ nền chuồng khô, dọn phân đều",
+    "Giảm mật độ để heo ít cắn nhau",
+    "Xử lý sớm mọi vết trầy xước, không để bội nhiễm"
+  ],
+  "notes": [
+    "Các vết cắn vùng tai, đuôi thường là điểm khởi đầu của nhiễm trùng da.",
+    "Nhiễm trùng da nhìn đơn giản nhưng kéo dài sẽ làm heo rất chậm lớn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,138 @@
+{
+  "id": "coccidiosis",
+  "name": "Cầu trùng đường ruột (Eimeria) ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Cầu trùng do ký sinh trùng Eimeria phá hủy niêm mạc ruột non - già, gây tiêu chảy, còi cọc, mất nước và chậm lớn. Dê con 1-6 tháng là nhóm chịu ảnh hưởng nặng nhất.",
+
+  "causes": [
+    "Nhiễm Eimeria qua phân, thức ăn, nước uống bẩn.",
+    "Nền chuồng ẩm thấp, tích phân nhiều ngày.",
+    "Mật độ nuôi quá cao, dê con liếm nền - vách chuồng.",
+    "Cai sữa đột ngột, thay đổi môi trường, stress.",
+    "Dê con suy dinh dưỡng, chậm lớn, miễn dịch yếu."
+  ],
+
+  "risk_factors": [
+    "Dê con 1-6 tháng tuổi, đặc biệt giai đoạn cai sữa.",
+    "Chuồng sàn thấp, lầy lội, độ ẩm cao.",
+    "Không tẩy ký sinh trùng định kỳ.",
+    "Nước uống chung bị dẫm bẩn.",
+    "Đàn nhiều lứa tuổi nuôi chung."
+  ],
+
+  "clinical_signs_detailed": [
+    "Tiêu chảy kéo dài, phân có nhầy, đôi lúc lẫn máu.",
+    "Dê con chậm lớn, lông xù, bụng tóp.",
+    "Giảm ăn, nằm nhiều, yếu.",
+    "Niêm mạc nhợt, thiếu máu.",
+    "Một số con chỉ còi cọc, phân xấu nhưng không tiêu chảy mạnh."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân sệt, màu vàng - nâu, mùi hôi nhẹ.",
+      "Dê vẫn ăn nhưng tăng trọng chậm.",
+      "Xù lông nhẹ."
+    ],
+    "moderate": [
+      "Tiêu chảy lỏng, có nhầy hoặc vệt máu nhỏ.",
+      "Giảm ăn rõ, hay nằm.",
+      "Gầy nhanh, niêm mạc nhợt."
+    ],
+    "severe": [
+      "Tiêu chảy nhiều lần/ngày, máu đỏ tươi hoặc sẫm.",
+      "Mất nước nặng, đứng không vững.",
+      "Nguy cơ sa trực tràng.",
+      "Nếu không xử lý sẽ chết do suy kiệt."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Toltrazuril",
+      "Diclazuril",
+      "Amprolium"
+    ],
+    "alternative_drugs": [
+      "Sulfa đường uống chuyên trị cầu trùng",
+      "Vitamin K hỗ trợ giảm xuất huyết",
+      "Men tiêu hoá - probiotics phục hồi niêm mạc"
+    ],
+    "note_drugs": [
+      "Kháng sinh không thay thế được thuốc diệt cầu trùng; chỉ dùng khi có nhiễm khuẩn kế phát."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Dextrose - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin B-complex",
+        "Vitamin C",
+        "Khoáng - điện giải"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá",
+        "Chế phẩm phục hồi niêm mạc ruột"
+      ]
+    },
+    "supportive_care": [
+      "Giữ chuồng khô - sạch - thoáng; thay chất độn nếu ẩm.",
+      "Tách dê bệnh để giảm nhiễm chéo.",
+      "Cho cỏ khô chất lượng tốt, hạn chế tinh bột.",
+      "Dễ tiếp cận nước sạch, thay nước hằng ngày.",
+      "Không dồn bắt, hạn chế stress."
+    ],
+    "dose_policy": [
+      "Tất cả thuốc diệt cầu trùng phải dùng đúng liều theo nhãn hoặc thú y.",
+      "Không tự ý kéo dài ngày dùng toltrazuril/diclazuril."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê tiêu chảy máu nhưng còn đứng, còn phản xạ.",
+      "guideline": [
+        "Dùng thuốc diệt cầu trùng ngay.",
+        "Bù điện giải liên tục.",
+        "Men tiêu hoá để giảm tổn thương ruột.",
+        "Theo dõi phân và mức độ mất nước mỗi 4-6 giờ."
+      ]
+    },
+
+    "case_type_2": {
+      "description": "Dê nằm, mất nước nặng, máu trong phân nhiều.",
+      "guideline": [
+        "Cần thú y thăm khám.",
+        "Có thể truyền dịch nếu cần.",
+        "Phối hợp thuốc diệt cầu trùng + hỗ trợ hồi sức.",
+        "Vitamin K giúp giảm chảy máu ruột.",
+        "Tiên lượng dè dặt, cần can thiệp sớm."
+      ]
+    },
+
+    "note": "Cầu trùng không chết nhanh như tụ cấp nhưng gây tổn hao nghiêm trọng nếu để âm ỉ. Trẻ con (dê con) càng để lâu, càng còi cọc khó phục hồi."
+  },
+
+  "prevention": [
+    "Giữ chuồng sạch - khô - thoáng.",
+    "Tẩy ký sinh trùng định kỳ.",
+    "Không để máng nước bị dẫm bẩn.",
+    "Hạn chế mật độ nuôi, tách lứa tuổi.",
+    "Bổ sung men tiêu hoá sau cai sữa."
+  ],
+
+  "notes": [
+    "Nếu đàn có 1 con còi cọc bất thường → nghĩ đến cầu trùng.",
+    "Toltrazuril là lựa chọn mạnh nhưng phải dùng đúng ngày theo nhãn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế phác đồ của bác sĩ thú y."
+}

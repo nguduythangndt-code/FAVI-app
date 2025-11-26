@@ -1,0 +1,41 @@
+{
+  "id": "spiramycin",
+  "name": "Spiramycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm macrolide, hỗ trợ tốt cho các ca ho, viêm khí quản và Mycoplasma ở mức độ nhẹ đến trung bình.",
+  "clinical_uses": [
+    "Ho - viêm khí quản ở dê, bò, heo.",
+    "Hỗ trợ điều trị Mycoplasma trong đàn.",
+    "Các ca hô hấp nhẹ, mới xuất hiện."
+  ],
+  "pros": [
+    "An toàn, ít gây tác dụng phụ.",
+    "Dễ dùng theo đàn nếu ở dạng uống.",
+    "Phù hợp làm lựa chọn sớm cho bệnh hô hấp."
+  ],
+  "cons": [
+    "Không phù hợp cho ca viêm phổi nặng.",
+    "Không mạnh bằng tylosin hoặc tulathromycin.",
+    "Hiệu quả giảm nếu dùng trễ khi bệnh tiến triển."
+  ],
+  "mild_side_effects": [
+    "Ăn giảm nhẹ.",
+    "Hơi mệt.",
+    "Thỉnh thoảng gây phân mềm."
+  ],
+  "usage_recommendations": [
+    "Dùng sớm sẽ cho hiệu quả tốt nhất.",
+    "Theo dõi mức độ ho và thở trong 24-48 giờ.",
+    "Tuân thủ đúng hướng dẫn sản phẩm."
+  ],
+  "when_not_to_use": [
+    "Ca nặng cần thuốc tiêm mạnh.",
+    "Thú suy gan rõ rệt.",
+    "Không dùng để phòng bệnh dài ngày."
+  ],
+  "alternative_drugs": [
+    "Tylosin.",
+    "Josamycin.",
+    "Azithromycin."
+  ]
+}

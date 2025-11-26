@@ -1,0 +1,58 @@
+{
+  "name": "Marek (liệt - u hạch)",
+  "summary": "Bệnh herpesvirus gây liệt chân/cánh và u hạch; không có thuốc chữa khỏi.",
+  "causes": [
+    "Virus Marek lây qua bụi lông, không khí chuồng",
+    "Tồn tại lâu trong môi trường"
+  ],
+  "risk_factors": [
+    "Không tiêm vaccine Marek lúc 1 ngày tuổi",
+    "Chuồng nhiều lứa tuổi chung",
+    "Vệ sinh kém, bụi nhiều"
+  ],
+  "clinical_signs_detailed": [
+    "Liệt một hoặc hai chân, dạng xoạc",
+    "Cánh rũ, cổ vẹo",
+    "Gà gầy dần dù vẫn ăn",
+    "Đồng tử méo, mù",
+    "Chết rải rác kéo dài"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Đi đứng lảo đảo", "Gầy chậm"],
+    "moderate": ["Liệt rõ chân/cánh", "Gầy nhanh"],
+    "severe": ["Nằm liệt, không ăn", "Chết do suy kiệt"]
+  },
+  "treatment": {
+    "primary_drugs": ["Vitamin B-complex", "Vitamin E-Selenium"],
+    "alternative_drugs": ["ORS"],
+    "note_drugs": "Không có thuốc điều trị đặc hiệu Marek. Chỉ trợ sức và loại thải con liệt nặng. Phòng bằng vaccine là chính.",
+    "symptomatic_treatment": {
+      "vitamin": { "main": "B-complex", "alternative": ["Vitamin E-Selenium"] },
+      "electrolyte": { "main": "ORS", "alternative": [] }
+    },
+    "supportive_care": [
+      "Tách gà yếu, tránh bị đè chết",
+      "Cho ăn mềm, dễ mổ",
+      "Duy trì nước sạch"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Liệt một chân, còn ăn được"],
+      "guideline": ["Trợ sức vitamin", "Nuôi riêng theo dõi"]
+    },
+    "case_type_2": {
+      "description": ["Liệt hai chân/cánh, gà nằm bệt"],
+      "guideline": ["Loại thải sớm", "Vệ sinh sát trùng chuồng"]
+    },
+    "note": "Marek không cứu được bằng thuốc, chủ yếu là phòng từ đầu."
+  },
+  "prevention_list": [
+    "Tiêm vaccine Marek lúc gà 1 ngày tuổi",
+    "Nuôi tách lứa tuổi, all-in/all-out",
+    "Giảm bụi, sát trùng thường xuyên"
+  ],
+  "notes": ["Bệnh kéo dài, tỷ lệ chết tăng dần theo thời gian."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

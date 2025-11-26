@@ -1,0 +1,48 @@
+{
+  "name": "Oresol (bù nước - điện giải)",
+
+  "mechanism": [
+    "Bù nước và các ion thiết yếu như Na, K, Cl",
+    "Giúp phục hồi cân bằng điện giải khi mất nước",
+    "Ổn định áp lực thẩm thấu trong cơ thể"
+  ],
+
+  "clinical_uses": [
+    "Tiêu chảy gây mất nước",
+    "Sau sốt cao, mệt mỏi, kiệt sức",
+    "Hỗ trợ phục hồi trong rối loạn tiêu hoá"
+  ],
+
+  "advantages": [
+    "Hiệu quả nhanh trong bù nước",
+    "An toàn cho mọi lứa tuổi",
+    "Dùng chung được với hầu hết thuốc khác"
+  ],
+
+  "disadvantages": [
+    "Không xử lý được nguyên nhân tiêu chảy",
+    "Dê không chịu uống sẽ khó đạt hiệu quả"
+  ],
+
+  "side_effects": [
+    "Có thể gây uống nhiều hơn bình thường",
+    "Hiếm gặp: đầy bụng nhẹ"
+  ],
+
+  "recommendations": [
+    "Cho uống từ từ, chia nhiều lần",
+    "Dùng song song với xử lý nguyên nhân chính",
+    "Theo dõi độ đàn hồi da và tình trạng mắt"
+  ],
+
+  "contraindications": [
+    "Không dùng cho dê đang nôn liên tục",
+    "Không dùng nếu có dấu hiệu tắc ruột"
+  ],
+
+  "alternatives": [
+    "Electrolyte tổng hợp",
+    "Vitamin C điện giải",
+    "B-complex + điện giải"
+  ]
+}

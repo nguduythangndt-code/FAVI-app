@@ -1,0 +1,41 @@
+{
+  "id": "spectinomycin",
+  "name": "Spectinomycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh tác động lên khả năng tổng hợp protein của vi khuẩn, phù hợp cho các ca tiêu chảy nhẹ - trung bình ở gia súc non.",
+  "clinical_uses": [
+    "Tiêu chảy ở dê con, bê nghé.",
+    "Hỗ trợ điều trị tiêu hóa rối loạn do vi khuẩn.",
+    "Kết hợp trong các ca viêm ruột nhẹ."
+  ],
+  "pros": [
+    "Nhẹ nhàng, an toàn với thú non.",
+    "Ít gây kích ứng.",
+    "Thường cải thiện phân trong vài ngày."
+  ],
+  "cons": [
+    "Không phù hợp ca nặng hoặc mất nước nhiều.",
+    "Không dùng như thuốc chính cho hô hấp.",
+    "Cần kết hợp bù nước - điện giải."
+  ],
+  "mild_side_effects": [
+    "Phân mềm nhẹ trong ngày đầu.",
+    "Ăn kém tạm thời.",
+    "Mệt nhẹ."
+  ],
+  "usage_recommendations": [
+    "Ưu tiên cho thú non bị rối loạn tiêu hóa nhẹ.",
+    "Kết hợp với điện giải - men tiêu hóa.",
+    "Dùng đúng hướng dẫn của nhãn sản phẩm."
+  ],
+  "when_not_to_use": [
+    "Tiêu chảy nặng có máu, mất nước mạnh.",
+    "Con vật bỏ bú/bỏ ăn hoàn toàn.",
+    "Ca kèm sốt cao cần đánh giá thêm."
+  ],
+  "alternative_drugs": [
+    "Neomycin.",
+    "Sulfa TMP.",
+    "Oxytetracycline."
+  ]
+}

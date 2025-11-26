@@ -1,0 +1,41 @@
+{
+  "id": "tilmicosin_oral",
+  "name": "Tilmicosin (dạng uống)",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm macrolide, có khả năng tích lũy trong mô phổi. Dạng uống thường được dùng để hỗ trợ điều trị các vấn đề hô hấp mức độ nhẹ đến vừa, đặc biệt trong đàn heo và gia cầm.",
+  "clinical_uses": [
+    "Ho, viêm khí quản ở heo và gà.",
+    "Các hội chứng hô hấp trong đàn khi nhiều con cùng ho, thở khò khè.",
+    "Giai đoạn sớm của bệnh hô hấp, khi con vật vẫn còn ăn uống tương đối."
+  ],
+  "pros": [
+    "Dễ dùng khi cần điều chỉnh cho cả đàn thông qua nước uống hoặc thức ăn.",
+    "Hỗ trợ tốt cho những ca hô hấp mức độ vừa, chưa cần đến thuốc tiêm mạnh.",
+    "Tập trung nhiều ở mô phổi, phù hợp các bệnh lý đường hô hấp."
+  ],
+  "cons": [
+    "Không phải lựa chọn chính cho các ca viêm phổi nặng, bỏ ăn, suy kiệt.",
+    "Hiệu quả phụ thuộc vào việc con vật còn uống nước/ăn cám tốt.",
+    "Một số loài không được khuyến cáo dùng dạng uống, cần xem kỹ nhãn."
+  ],
+  "mild_side_effects": [
+    "Ăn uống giảm nhẹ trong vài ngày đầu.",
+    "Có thể hơi mệt, nằm nhiều hơn.",
+    "Một số con phân mềm hơn bình thường."
+  ],
+  "usage_recommendations": [
+    "Phù hợp dùng khi nhiều con trong đàn có biểu hiện ho, chảy mũi nhẹ.",
+    "Nên kết hợp với cải thiện thông thoáng chuồng trại và giảm stress.",
+    "Tuân thủ liều và thời gian sử dụng theo nhãn sản phẩm hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Các ca viêm phổi nặng, thở khó, bỏ ăn cần được bác sĩ thú y cân nhắc thuốc tiêm.",
+    "Những con suy gan rõ rệt nên được đánh giá kỹ trước khi dùng.",
+    "Không nên dùng như biện pháp phòng bệnh kéo dài cho đàn khỏe."
+  ],
+  "alternative_drugs": [
+    "Tylosin trong các ca hô hấp nhẹ - trung bình.",
+    "Spiramycin cho giai đoạn đầu bệnh hô hấp.",
+    "Tulathromycin hoặc florfenicol khi ca bệnh có xu hướng nặng hơn."
+  ]
+}

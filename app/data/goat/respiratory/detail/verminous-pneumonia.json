@@ -1,0 +1,125 @@
+{
+  "id": "verminous-pneumonia",
+  "name": "Viêm phổi do giun phổi ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm phổi do giun phổi xảy ra khi dê nhiễm ấu trùng giun Dictyocaulus và Muellerius. Dê ho kéo dài, hay tái đi tái lại, chậm lớn. Nếu môi trường ẩm lạnh, tỷ lệ nhiễm cao.",
+
+  "causes": [
+    "Nhiễm ấu trùng giun phổi từ bãi chăn ẩm.",
+    "Ăn cỏ gần vùng đầm lầy, ao tù.",
+    "Đàn không tẩy giun định kỳ.",
+    "Khí hậu ẩm lạnh tạo điều kiện ấu trùng phát triển."
+  ],
+
+  "risk_factors": [
+    "Dê non 2-8 tháng.",
+    "Dê thả rông bãi ẩm - bùn.",
+    "Mùa mưa kéo dài.",
+    "Không tẩy giun đúng lịch."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho kéo dài, ho thành từng tràng.",
+    "Thở nhanh khi chạy nhẹ.",
+    "Chảy mũi trong hoặc đục nhẹ.",
+    "Ăn giảm, gầy dần.",
+    "Nặng: khó thở, thở rít, suy kiệt."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho rải rác nhiều ngày.",
+      "Ăn giảm nhẹ."
+    ],
+    "moderate": [
+      "Ho nhiều lần trong ngày, gầy nhanh.",
+      "Thở nhanh, chảy mũi đục nhẹ."
+    ],
+    "severe": [
+      "Khó thở, thở rít.",
+      "Gầy rộc, lông xù.",
+      "Dê non dễ chết."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin",
+      "Doramectin"
+    ],
+    "alternative_drugs": [
+      "Levamisole",
+      "Albendazole/Fenbendazole (hiệu quả tùy mức độ)"
+    ],
+    "note_drugs": [
+      "Không dùng kháng sinh trừ khi nghi ghép viêm phổi do vi khuẩn.",
+      "Tẩy giun nên lặp lại sau 2-3 tuần để diệt lứa ấu trùng kế tiếp."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "Điện giải nhẹ"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho dê gầy."
+      ]
+    },
+    "supportive_care": [
+      "Dời đàn khỏi bãi ẩm - bùn.",
+      "Tăng cỏ khô chất lượng.",
+      "Giữ chuồng khô, thoáng.",
+      "Bổ sung dinh dưỡng cho dê non."
+    ],
+    "dose_policy": [
+      "Tẩy giun đúng liều theo nhãn.",
+      "Không tự tăng liều ivermectin vì dễ gây ngộ độc."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho nhiều nhưng còn đi lại bình thường.",
+      "guideline": [
+        "Ivermectin hoặc doramectin.",
+        "Thuốc long đờm + vitamin C.",
+        "Chuyển đàn sang nơi khô ráo."
+      ]
+    },
+    "case_type_2": {
+      "description": "Khó thở, gầy nhiều, dê non yếu.",
+      "guideline": [
+        "Gọi thú y đánh giá phổi.",
+        "Tẩy giun + hỗ trợ hô hấp.",
+        "Điện giải + dinh dưỡng nâng cao.",
+        "Tiên lượng thận trọng."
+      ]
+    },
+    "note": "Giun phổi gây hao đàn nặng, nhất là dê non."
+  },
+
+  "prevention": [
+    "Tẩy giun định kỳ 2-3 tháng/lần.",
+    "Không chăn thả ở vùng đầm lầy, bãi ẩm.",
+    "Làm khô chuồng, tránh ẩm kéo dài.",
+    "Bổ sung khoáng - vitamin."
+  ],
+
+  "notes": [
+    "Ho kéo dài, gầy nhanh phải nghĩ đến giun phổi.",
+    "Cần lặp lại tẩy giun để cắt vòng đời ký sinh."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

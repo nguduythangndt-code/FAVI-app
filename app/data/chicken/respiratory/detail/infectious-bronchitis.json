@@ -1,0 +1,106 @@
+{
+  "id": "infectious-bronchitis",
+  "name": "Viêm phế quản truyền nhiễm (IB)",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Bệnh virus gây viêm đường hô hấp trên và ảnh hưởng mạnh đến năng suất trứng, thường gặp ở đàn gà đẻ và gà gần đẻ.",
+  "causes": [
+    "Virus viêm phế quản truyền nhiễm (IBV)",
+    "Lây qua không khí, dịch tiết mũi - miệng, phân",
+    "Có nhiều chủng, một số chủng ảnh hưởng thêm đến thận"
+  ],
+  "risk_factors": [
+    "Không tiêm hoặc tiêm vaccine IB không phù hợp với chủng lưu hành",
+    "Mật độ nuôi dày, thông gió kém, nhiều bụi và khí độc",
+    "Thay đổi thời tiết đột ngột, lạnh - ẩm",
+    "Đàn gà đẻ bị stress: thay đổi thức ăn, ánh sáng, vận chuyển"
+  ],
+  "clinical_signs_detailed": [
+    "Ho, hắt hơi, thở khò khè, chảy nước mũi, sưng xoang nhẹ",
+    "Gà con có thể khò khè rõ, kèm khó thở, tụm đám dưới nguồn nhiệt",
+    "Gà đẻ: giảm đẻ rõ rệt, trứng vỏ mỏng, nhăn, méo, lòng trắng loãng",
+    "Một số chủng gây tổn thương thận: uống nhiều nước, tiêu chảy trắng",
+    "Tỷ lệ chết thường không cao như Newcastle, nhưng đàn suy yếu, chậm hồi phục"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho, hắt hơi lác đác, thỉnh thoảng khò khè",
+      "Giảm ăn nhẹ, xù lông ít",
+      "Gà đẻ giảm sản lượng không nhiều nhưng trứng hơi xấu"
+    ],
+    "moderate": [
+      "Thở khò khè rõ, chảy nước mũi, sưng nhẹ quanh mắt - xoang",
+      "Giảm ăn, giảm đẻ rõ rệt, nhiều trứng vỏ mỏng, méo",
+      "Có thể thấy phân nhạt màu, ướt nếu tổn thương thận"
+    ],
+    "severe": [
+      "Gà con khó thở, tụ dưới nguồn nhiệt, còi cọc",
+      "Đàn đẻ tụt sản lượng mạnh, khó quay lại mức ban đầu",
+      "Một số con chết do suy kiệt hoặc bội nhiễm vi khuẩn"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "doxycycline",
+      "amoxicillin"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "florfenicol"
+    ],
+    "note_drugs": "Ưu tiên chọn một phác đồ kháng sinh chính để kiểm soát nhiễm khuẩn kế phát. Không dùng kháng sinh với kỳ vọng diệt virus, và chú ý thời gian ngừng thuốc trước khi xuất bán.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "chế phẩm long đờm - giãn phế quản dành cho gia cầm"
+      },
+      "electrolyte": {
+        "main": "điện giải - vitamin C pha nước",
+        "alternative": "điện giải có kèm chất trợ gan, thận nếu nghi tổn thương thận"
+      },
+      "vitamin": {
+        "main": "vitamin ADE + B-complex",
+        "alternative": "vitamin C tăng sức đề kháng"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để ổn định tiêu hoá",
+        "alternative": "chế phẩm bảo vệ niêm mạc ruột khi tiêu chảy"
+      }
+    },
+    "supportive_care": [
+      "Điều chỉnh nhiệt độ, tránh lạnh - ẩm, không để gió lùa trực tiếp",
+      "Giảm mật độ nuôi, hạn chế bụi và khí độc bằng thông gió tốt",
+      "Đảm bảo nước sạch, thức ăn dễ tiêu, không để thiếu máng",
+      "Theo dõi sát đàn đẻ, ghi nhận mức giảm trứng để đánh giá tiến triển",
+      "Vệ sinh - sát trùng định kỳ để giảm mầm bệnh thứ phát"
+    ],
+    "dose_policy": "Dùng thuốc đúng liều do nhà sản xuất khuyến cáo hoặc theo tư vấn thú y. Gà đẻ thương phẩm cần chú ý kỹ thời gian ngừng thuốc để không ảnh hưởng đến trứng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà đẻ lớn, giảm đẻ mạnh, hô hấp bệnh rõ, nghi IB.",
+      "guideline": "Ổn định môi trường chuồng (nhiệt độ, độ ẩm, thông gió), duy trì kháng sinh kiểm soát kế phát, kết hợp thuốc long đờm - giảm viêm và điện giải, vitamin. Theo dõi sản lượng trứng từng ngày, chấp nhận thời gian hồi phục kéo dài và có thể không quay lại mức đỉnh như trước dịch."
+    },
+    "case_type_2": {
+      "description": "Đàn gà con/nghẻ non, khò khè, chậm lớn, tỷ lệ chết tăng do bội nhiễm.",
+      "guideline": "Tách riêng những con quá yếu, tập trung sưởi ấm và chăm sóc đàn còn sức. Bù nước, điện giải, vitamin đầy đủ. Duy trì kháng sinh theo phác đồ, kết hợp vệ sinh - sát trùng chuồng và thiết bị uống/ăn để giảm lây chéo."
+    },
+    "note": "IB là bệnh virus, tiêm phòng đúng chủng và đúng lịch vẫn là nền tảng quan trọng nhất để hạn chế thiệt hại."
+  },
+  "prevention": [
+    "Tiêm vaccine IB phù hợp theo khuyến cáo ở khu vực chăn nuôi",
+    "Thiết kế chuồng thông thoáng, giảm bụi, khí độc",
+    "Không nuôi quá dày, hạn chế stress do thay đổi thức ăn, ánh sáng",
+    "Áp dụng nguyên tắc cùng vào - cùng ra, sát trùng giữa các lứa",
+    "Kiểm soát tốt chất lượng gió, nhiệt độ và độ ẩm trong suốt giai đoạn nuôi"
+  ],
+  "notes": [
+    "IB dễ bị nhầm với CRD, Newcastle ở giai đoạn đầu, cần dựa thêm vào đặc điểm của trứng và lịch tiêm vaccine.",
+    "Nên ghi lại lịch tiêm phòng và nguồn giống để truy vết khi có vấn đề trên đàn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Oxytetracycline LA (trị Anaplasma)",
+
+  "mechanism": [
+    "Ức chế tổng hợp protein của vi khuẩn",
+    "Tác dụng lên ký sinh trùng nội bào như Anaplasma"
+  ],
+
+  "clinical_uses": [
+    "Anaplasmosis ở dê, bò, cừu",
+    "Nhiễm trùng hỗn hợp hô hấp - tiêu hoá",
+    "Các ca cần duy trì thuốc kéo dài dạng LA"
+  ],
+
+  "advantages": [
+    "Thời gian tác dụng dài, ít phải tiêm nhiều lần",
+    "Phổ rộng lên nhiều loại vi khuẩn"
+  ],
+
+  "disadvantages": [
+    "Dễ gây rối loạn tiêu hoá nếu lạm dụng",
+    "Nguy cơ kháng kháng sinh nếu dùng tuỳ tiện"
+  ],
+
+  "side_effects": [
+    "Chán ăn nhẹ",
+    "Tiêu hoá hơi kém",
+    "Kích ứng nhẹ tại vị trí tiêm"
+  ],
+
+  "recommendations": [
+    "Không dùng bừa bãi như thuốc 'đánh phủ đầu'",
+    "Theo dõi phân, ăn uống sau khi dùng",
+    "Không phối hợp tuỳ tiện với thuốc độc gan thận"
+  ],
+
+  "contraindications": [
+    "Suy gan thận rõ",
+    "Mất nước nặng",
+    "Dê non yếu hoặc mẹ gần ngày đẻ"
+  ],
+
+  "alternatives": [
+    "Imidocarb - xử lý Anaplasma nặng",
+    "Azidin - nghi Babesia",
+    "Buparvaquone - nghi Theileria"
+  ]
+}

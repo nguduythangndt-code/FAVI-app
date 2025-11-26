@@ -1,0 +1,48 @@
+{
+  "name": "Than hoạt tính (Activated charcoal)",
+
+  "mechanism": [
+    "Hấp phụ độc tố trong ruột",
+    "Giảm kích ứng niêm mạc ruột",
+    "Hỗ trợ giảm tiêu chảy và đầy bụng"
+  ],
+
+  "clinical_uses": [
+    "Tiêu chảy nghi ngờ do độc tố thức ăn",
+    "Nhiễm độc nhẹ đường tiêu hoá",
+    "Dê ăn phải thức ăn ôi thiu hoặc nấm mốc"
+  ],
+
+  "advantages": [
+    "Hiệu quả nhanh trong các ca nghi ngờ độc tố",
+    "An toàn, khó gây tác dụng phụ",
+    "Dùng tốt cho cả dê lớn và dê con"
+  ],
+
+  "disadvantages": [
+    "Không có tác dụng trên bệnh nhiễm khuẩn nặng",
+    "Có thể làm phân đen, gây khó theo dõi tiến triển"
+  ],
+
+  "side_effects": [
+    "Phân đen tạm thời",
+    "Hiếm gặp: táo nhẹ"
+  ],
+
+  "recommendations": [
+    "Kết hợp điện giải để tránh mất nước",
+    "Theo dõi ăn uống 12-24 giờ đầu",
+    "Không dùng liên tục quá nhiều ngày"
+  ],
+
+  "contraindications": [
+    "Không dùng cho dê đang táo bón nặng",
+    "Tránh dùng nếu nghi ngờ tắc ruột"
+  ],
+
+  "alternatives": [
+    "Pectin - Kaolin",
+    "Probiotic",
+    "Enzyme tiêu hoá"
+  ]
+}

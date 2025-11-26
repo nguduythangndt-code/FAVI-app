@@ -1,0 +1,104 @@
+{
+  "id": "tapeworms",
+  "name": "Sán dây",
+  "species": "chicken",
+  "group": "parasite",
+  "summary": "Sán dây bám vào niêm mạc ruột, cạnh tranh dinh dưỡng với gà, làm gà chậm lớn, còi cọc, đôi khi có đốt sán theo phân.",
+  "causes": [
+    "Gà ăn phải ấu trùng sán từ vật chủ trung gian như côn trùng, giun đất, ốc nhỏ",
+    "Môi trường bẩn, nhiều vật chủ trung gian quanh khu nuôi",
+    "Không tẩy sán định kỳ, để vòng đời sán duy trì trong đàn"
+  ],
+  "risk_factors": [
+    "Nuôi thả vườn nơi nhiều côn trùng, giun đất, ốc nhỏ",
+    "Nền ẩm, nhiều rác hữu cơ, phân không được dọn thường xuyên",
+    "Không có chương trình tẩy sán cho đàn",
+    "Đàn dinh dưỡng kém, sức đề kháng giảm"
+  ],
+  "clinical_signs_detailed": [
+    "Gà chậm lớn, gầy, lông xơ, da khô",
+    "Ăn nhiều nhưng không lên cân tương xứng",
+    "Đôi khi thấy đốt sán trắng nhỏ trong phân",
+    "Nếu nhiễm nặng, gà kém linh hoạt, dễ mắc thêm bệnh khác",
+    "Mổ khám thấy sán bám nhiều dọc theo ruột"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Khó nhận khi chỉ có vài con nhiễm nhẹ",
+      "Gà chỉ hơi chậm lớn so với chuẩn"
+    ],
+    "moderate": [
+      "Gà gầy, tăng trọng kém, lông xấu, xương to thịt ít",
+      "Có thể thấy đốt sán trong phân ở một số con"
+    ],
+    "severe": [
+      "Nhiễm sán dây nhiều, gà rất gầy, yếu",
+      "Đàn phát triển không đồng đều, dễ bùng thêm bệnh kế phát",
+      "Mổ khám thấy sán dày trong ruột"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "praziquantel",
+      "albendazole"
+    ],
+    "alternative_drugs": [
+      "fenbendazole",
+      "niclosamide"
+    ],
+    "note_drugs": "Tẩy sán thường dùng thuốc chuyên cho sán dây hoặc thuốc phổ rộng có hiệu lực trên sán. Cần lặp lại theo chu kỳ để phá vỡ vòng đời sán theo tư vấn thú y.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải hỗ trợ đàn suy yếu",
+        "alternative": "điện giải kèm vitamin C khi đàn stress sau tẩy sán"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp giúp phục hồi thể trạng",
+        "alternative": "vitamin nhóm B kích thích ăn"
+      },
+      "digestive_support": {
+        "main": "men vi sinh sau tẩy sán để ổn định ruột",
+        "alternative": "thức ăn dễ tiêu, chất lượng tốt trong thời gian hồi sức"
+      }
+    },
+    "supportive_care": [
+      "Dọn phân sớm sau khi tẩy sán để giảm trứng và đốt sán ngoài môi trường",
+      "Giữ nền khô, sạch, giảm môi trường sống của vật chủ trung gian",
+      "Quản lý khu thả, hạn chế cho gà bới nơi ẩm bẩn nhiều côn trùng, ốc",
+      "Theo dõi phân trong những ngày sau tẩy để đánh giá hiệu quả",
+      "Lên kế hoạch tẩy sán định kỳ cho đàn thả vườn"
+    ],
+    "dose_policy": "Thuốc tẩy sán cần dùng đúng liều theo nhãn hoặc thú y. Không lạm dụng hoặc tự tăng liều quá mức."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thả vườn, gà nhiều tuổi, nhiễm sán dây nặng, chậm lớn và còi.",
+      "guideline": "Tẩy sán toàn đàn, kết hợp dọn nền, xử lý khu thả bẩn, giảm mật độ, bổ sung dinh dưỡng, vitamin và men vi sinh. Theo dõi sự cải thiện trong vài tuần để điều chỉnh lịch tẩy sán sau đó."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc gà cảnh, sán dây làm gà xấu mã, sức khỏe kém.",
+      "guideline": "Tẩy sán theo nhóm nhỏ, theo dõi từng con, đặc biệt con giá trị cao. Giữ chuồng khô, sạch, hạn chế vật chủ trung gian. Xây dựng chế độ dinh dưỡng tốt để gà nhanh hồi trở lại thể trạng đẹp."
+    },
+    "note": "Sán dây luôn liên quan chặt chẽ với môi trường và vật chủ trung gian, không thể chỉ dựa vào thuốc tẩy sán."
+  },
+  "prevention": [
+    "Tẩy sán định kỳ, nhất là đàn thả vườn",
+    "Giảm nơi sinh sản của côn trùng, ốc nhỏ, giun đất quanh khu nuôi",
+    "Giữ nền khô, không để rác hữu cơ và phân tích tụ lâu",
+    "Sát trùng chuồng và khu xung quanh định kỳ",
+    "Quan sát phân định kỳ để phát hiện sớm đốt sán"
+  ],
+  "notes": [
+    "Không phải lúc nào cũng thấy đốt sán trong phân, nên cần kết hợp đánh giá thể trạng và mổ khám khi nghi ngờ.",
+    "Tẩy sán là một phần của chương trình kiểm soát ký sinh trùng tổng thể cho đàn thả vườn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

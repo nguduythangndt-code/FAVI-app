@@ -1,0 +1,125 @@
+{
+  "id": "trypanosomiasis",
+  "name": "Nhiễm trùng roi Trypanosoma",
+  "species": "cattle",
+  "group": "blood_parasite",
+
+  "summary": "Nhiễm Trypanosoma làm bò thiếu máu, gầy nhanh, yếu, sốt và giảm sức kéo. Bệnh lây qua ruồi chích hút máu và có thể gây chết nếu kéo dài.",
+
+  "causes": [
+    "Ký sinh trùng Trypanosoma lây qua ruồi hút máu",
+    "Bò yếu, stress, miễn dịch kém",
+    "Môi trường ẩm, nhiều ruồi muỗi"
+  ],
+
+  "risk_factors": [
+    "Khu vực có nhiều ruồi chích hút",
+    "Bò thả rông gần sông suối",
+    "Không phun thuốc ruồi muỗi định kỳ",
+    "Bò gầy hoặc mới nhập đàn"
+  ],
+
+  "clinical_signs_detailed": [
+    "Gầy nhanh, lông xù, nổi xương",
+    "Ăn rất kém, mệt mỏi",
+    "Niêm nhạt hoặc vàng",
+    "Sốt từng cơn",
+    "Giảm sức kéo hoặc giảm sữa",
+    "Một số con đi loạng choạng, yếu chân"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn kém nhẹ",
+      "Gầy dần",
+      "Niêm hơi nhạt"
+    ],
+    "moderate": [
+      "Gầy nhiều, lông xù",
+      "Giảm sức kéo rõ",
+      "Niêm nhạt hoặc vàng"
+    ],
+    "severe": [
+      "Gầy trơ xương",
+      "Nằm nhiều, yếu nặng",
+      "Thiếu máu nặng, thở nhanh"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "diminazene"
+    ],
+    "alternative_drugs": [
+      "imidocarb"
+    ],
+    "note_drugs": "Diminazene là thuốc chính cho Trypano. Dùng đủ liệu trình và kết hợp kiểm soát ruồi muỗi.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Giữ bò nơi yên tĩnh, tránh ruồi muỗi",
+      "Bổ sung nước và điện giải mỗi ngày",
+      "Không bắt bò làm việc hoặc vận chuyển",
+      "Theo dõi cân nặng và mức ăn"
+    ],
+
+    "dose_policy": "Thuốc dùng theo liều nhãn hoặc thú y hướng dẫn."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò gầy, yếu nhưng còn đứng.",
+      "guideline": [
+        "Dùng diminazene ngay",
+        "Thêm vitamin nhóm B và điện giải",
+        "Theo dõi thể trạng trong những ngày đầu"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò rất yếu, nằm nhiều, gầy nặng.",
+      "guideline": [
+        "Coi như ca khó, cần thú y thăm khám nếu có",
+        "Hỗ trợ điện giải chia nhỏ nhiều lần",
+        "Tiên lượng thận trọng do kiệt sức kéo dài"
+      ]
+    },
+    "note": "Trypano gây gầy rất nhanh. Nếu chậm điều trị, tỷ lệ hồi phục thấp."
+  },
+
+  "prevention": [
+    "Phun thuốc ruồi muỗi định kỳ",
+    "Giảm khu vực nước tù, ao vũng",
+    "Cách ly bò mới nhập đàn để theo dõi",
+    "Bổ sung dinh dưỡng cho bò yếu"
+  ],
+
+  "notes": [
+    "Gầy nhanh và niêm nhạt là dấu hiệu điển hình.",
+    "Trypano thường nhầm với thiếu máu dinh dưỡng nếu không theo dõi kỹ.",
+    "Quản lý ruồi muỗi là yếu tố sống còn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

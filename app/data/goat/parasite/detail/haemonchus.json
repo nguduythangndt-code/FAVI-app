@@ -1,0 +1,124 @@
+{
+  "id": "haemonchus",
+  "name": "Giun xoắn Haemonchus (giun hút máu dạ múi khế)",
+  "species": "goat",
+  "group": "parasite",
+
+  "summary": "Haemonchus là loại giun hút máu ở dạ múi khế, gây thiếu máu nhanh, niêm mạc trắng bệch, suy kiệt và chết đột ngột. Là ký sinh trùng nguy hiểm nhất ở dê vì tốc độ làm mất máu cực nhanh.",
+
+  "causes": [
+    "Dê ăn cỏ dính trứng giun.",
+    "Vùng chăn thả có độ ẩm cao.",
+    "Không tẩy giun định kỳ.",
+    "Chuồng ẩm, nền bẩn tích phân."
+  ],
+
+  "risk_factors": [
+    "Dê con - dê hậu bị.",
+    "Chăn thả ở vùng cỏ ẩm.",
+    "Mùa mưa - độ ẩm cao.",
+    "Đàn chưa tẩy ký sinh trùng nhiều tháng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Niêm mạc mắt - miệng trắng bệch.",
+    "Lông xù, yếu, bỏ ăn.",
+    "Bụng hóp nhưng không tiêu chảy.",
+    "Suy kiệt nhanh, đôi khi chết đột ngột.",
+    "Không phải lúc nào cũng tiêu chảy — đặc trưng của Haemonchus."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Lông hơi xù, niêm mạc nhợt.",
+      "Ăn giảm nhưng vẫn đi lại."
+    ],
+    "moderate": [
+      "Niêm mạc rất nhạt.",
+      "Yếu, đi chậm, nằm nhiều.",
+      "Bụng tóp, thiếu máu nặng."
+    ],
+    "severe": [
+      "Niêm mạc trắng bệch như giấy.",
+      "Suy tim do thiếu máu.",
+      "Ngã quỵ - chết nhanh."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin",
+      "Doramectin",
+      "Closantel",
+      "Levamisole"
+    ],
+    "alternative_drugs": [
+      "Albendazole",
+      "Fenbendazole"
+    ],
+    "note_drugs": [
+      "Không dùng liều thấp — dễ tạo kháng thuốc.",
+      "Haemonchus kháng benzimidazole rất phổ biến."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin B12",
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Nền chuồng khô - sạch.",
+      "Cho ăn cỏ khô tốt, hạn chế chăn thả lúc sáng sớm.",
+      "Tách dê nặng để chăm riêng.",
+      "Theo dõi niêm mạc mắt hằng ngày."
+    ],
+    "dose_policy": [
+      "Thuốc tẩy giun phải dùng đúng theo nhãn hoặc thú y.",
+      "Không lặp lại quá gần — tránh kháng thuốc."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Thiếu máu nhưng còn đứng.",
+      "guideline": [
+        "Tẩy giun bằng ivermectin/doramectin hoặc closantel.",
+        "Điện giải + vitamin B12.",
+        "Theo dõi niêm mạc mỗi 12 giờ."
+      ]
+    },
+    "case_type_2": {
+      "description": "Niêm mạc trắng toát, nằm, thở yếu.",
+      "guideline": [
+        "Gọi thú y.",
+        "Tẩy giun + hồi sức.",
+        "Truyền dịch nếu cần.",
+        "Tiên lượng dè dặt vì mất máu nặng."
+      ]
+    },
+    "note": "Haemonchus là giun chết nhanh - hồi phục nhanh nếu xử lý đúng."
+  },
+
+  "prevention": [
+    "Tẩy giun 2-3 tháng/lần.",
+    "Không để nền chuồng ẩm.",
+    "Kiểm tra niêm mạc bằng FAMACHA định kỳ.",
+    "Luân chuyển bãi chăn.",
+    "Cho ăn cỏ khô trước khi thả."
+  ],
+
+  "notes": [
+    "Nếu 1 con niêm mạc trắng — kiểm tra cả đàn.",
+    "Haemonchus không làm tiêu chảy — dễ bỏ sót bệnh."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Multivitamin tổng hợp",
+
+  "mechanism": [
+    "Bổ sung nhiều vitamin thiếu hụt trong khẩu phần",
+    "Hỗ trợ chuyển hoá, miễn dịch và sinh trưởng",
+    "Giúp ổn định sức khoẻ nền lâu dài"
+  ],
+
+  "clinical_uses": [
+    "Khẩu phần nghèo dinh dưỡng hoặc mất cân đối",
+    "Đàn suy nhược, lông xấu, chậm lớn",
+    "Giai đoạn phục hồi sau dịch bệnh"
+  ],
+
+  "advantages": [
+    "Phủ rộng nhiều mặt: da lông, miễn dịch, sinh trưởng",
+    "Phù hợp dùng cho cả đàn",
+    "Dùng lâu dài mức độ vừa phải tương đối an toàn"
+  ],
+
+  "disadvantages": [
+    "Không giải quyết được bệnh cấp tính",
+    "Lạm dụng kéo dài gây tốn kém, không tăng hiệu quả"
+  ],
+
+  "side_effects": [
+    "Thi thoảng tiêu hoá hơi lỏng nếu đổi đột ngột",
+    "Hiếm gặp phản ứng bất lợi rõ rệt"
+  ],
+
+  "recommendations": [
+    "Dùng theo đợt, kết hợp khẩu phần hợp lý",
+    "Không phụ thuộc hoàn toàn vào vitamin để bù sai sót nuôi dưỡng",
+    "Đánh giá thể trạng định kỳ để điều chỉnh"
+  ],
+
+  "contraindications": [
+    "Không có chống chỉ định rõ, chủ yếu chú ý không lạm dụng",
+    "Thận trọng với dê suy gan thận nặng"
+  ],
+
+  "alternatives": [
+    "Vitamin BC",
+    "Vitamin ADE",
+    "Khoáng premix trộn thức ăn"
+  ]
+}

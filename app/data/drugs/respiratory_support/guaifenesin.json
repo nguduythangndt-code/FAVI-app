@@ -1,0 +1,48 @@
+{
+  "name": "Guaifenesin (long đờm)",
+
+  "mechanism": [
+    "Làm loãng dịch nhầy trong khí quản",
+    "Giảm độ dính của đờm",
+    "Hỗ trợ tống xuất đờm ra ngoài dễ hơn"
+  ],
+
+  "clinical_uses": [
+    "Ho có đờm đặc",
+    "Viêm khí quản - phế quản",
+    "Hỗ trợ trong các ca đờm ứ nhiều"
+  ],
+
+  "advantages": [
+    "Hiệu quả tốt trong giảm đờm đặc",
+    "Phối hợp tốt với Bromhexine trong ca nặng",
+    "An toàn, ít tác dụng phụ"
+  ],
+
+  "disadvantages": [
+    "Không tác dụng với ho khan hoặc hen nhẹ",
+    "Không thay thế điều trị nhiễm khuẩn"
+  ],
+
+  "side_effects": [
+    "Có thể ho nhiều hơn lúc đầu",
+    "Hơi mệt thoáng qua ở một số con"
+  ],
+
+  "recommendations": [
+    "Dùng chung với kháng sinh khi có nhiễm khuẩn",
+    "Theo dõi nhịp thở và tiếng ran",
+    "Cho uống nhiều nước để tăng hiệu quả long đờm"
+  ],
+
+  "contraindications": [
+    "Không dùng cho ho khan không đờm",
+    "Dê suy hô hấp nặng chưa xử lý nguyên nhân"
+  ],
+
+  "alternatives": [
+    "Bromhexine",
+    "Dung dịch thông mũi",
+    "Eucalyptus"
+  ]
+}

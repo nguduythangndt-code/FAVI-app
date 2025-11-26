@@ -1,0 +1,40 @@
+{
+  "name": "Ivermectin",
+  "mechanism": [
+    "Gắn vào kênh chloride (GABA/glutamate-gated) của ký sinh trùng",
+    "Gây liệt mềm, giun không bám được → chết"
+  ],
+  "clinical_uses": [
+    "Giun tròn tiêu hóa",
+    "Ký sinh trùng máu truyền qua ruồi/ve ở mức hỗ trợ",
+    "Có hiệu lực trên một số ngoại ký sinh (tùy dạng)"
+  ],
+  "advantages": [
+    "Phổ rộng",
+    "Hữu ích cho đàn lớn",
+    "An toàn tương đối"
+  ],
+  "disadvantages": [
+    "Một số vùng đã kháng ivermectin",
+    "Không diệt được sán lá gan"
+  ],
+  "side_effects": [
+    "Mệt nhẹ",
+    "Giun ra theo phân",
+    "Dê ít ăn 12-24 giờ"
+  ],
+  "recommendations": [
+    "Dùng đúng theo dạng (uống/tiêm)",
+    "Luân chuyển nhóm thuốc mỗi 2-3 đợt",
+    "Không dùng khi dê quá suy"
+  ],
+  "contraindications": [
+    "Không dùng cho dê ốm nặng, suy gan",
+    "Không kết hợp với thuốc gây ức chế thần kinh"
+  ],
+  "alternatives": [
+    "Albendazole",
+    "Fenbendazole",
+    "Doramectin"
+  ]
+}

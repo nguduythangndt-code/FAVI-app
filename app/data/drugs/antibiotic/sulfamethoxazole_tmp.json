@@ -1,0 +1,43 @@
+{
+  "id": "sulfamethoxazole_tmp",
+  "name": "Sulfamethoxazole + Trimethoprim",
+  "group": "antibiotic",
+  "mechanism": "Phối hợp hai kháng sinh ức chế hai bước trong quá trình tổng hợp acid folic của vi khuẩn, tạo hiệu ứng hiệp đồng giúp diệt khuẩn tốt hơn.",
+  "clinical_uses": [
+    "Tiêu chảy do nghi ngờ nhiễm vi khuẩn nhạy cảm ở dê, heo, bê, gia cầm.",
+    "Một số ca nhiễm trùng đường tiết niệu nhẹ - trung bình.",
+    "Hỗ trợ điều trị viêm ruột, viêm dạ dày - ruột không quá nặng.",
+    "Các ca nhiễm trùng nhẹ - trung bình khi chưa cần dùng kháng sinh mạnh hơn."
+  ],
+  "pros": [
+    "Giá hợp lý, dễ tìm, dễ sử dụng.",
+    "Phù hợp cho các ca đường ruột nhẹ - trung bình, không quá phức tạp.",
+    "Thích hợp làm bước đầu trong nhiều tình huống có nghi ngờ nhiễm khuẩn."
+  ],
+  "cons": [
+    "Không đủ mạnh cho ca nặng, mất nước nhiều, sốt cao kéo dài.",
+    "Dùng không đúng có thể ảnh hưởng chức năng thận, máu.",
+    "Hiệu quả phụ thuộc nhiều vào việc bù nước và chăm sóc kèm theo."
+  ],
+  "mild_side_effects": [
+    "Phân có thể hơi sệt, đổi màu trong thời gian dùng.",
+    "Chán ăn nhẹ, mệt thoáng qua.",
+    "Hiếm hơn, có thể có phản ứng da nhẹ ở con mẫn cảm."
+  ],
+  "usage_recommendations": [
+    "Nên dùng kèm bù nước, điện giải đầy đủ khi tiêu chảy.",
+    "Phù hợp cho các ca nhẹ - trung bình, cần theo dõi đáp ứng.",
+    "Không nên kéo dài thời gian điều trị hơn khuyến cáo trên nhãn.",
+    "Tuân thủ liều, khoảng cách dùng theo nhãn hoặc hướng dẫn thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con mất nước nặng, suy thận mà chưa được can thiệp phù hợp.",
+    "Tránh dùng cho con có tiền sử dị ứng với nhóm sulfonamid.",
+    "Không dùng kéo dài liên tục nhiều đợt mà không đánh giá lại."
+  ],
+  "alternative_drugs": [
+    "Colistin cho các ca tiêu chảy nghi do Gram âm nặng hơn (theo chỉ định thú y).",
+    "Amoxicillin hoặc oxytetracycline cho ca hỗn hợp hô hấp - tiêu hoá.",
+    "Florfenicol hoặc enrofloxacin cho ca nặng, toàn thân."
+  ]
+}

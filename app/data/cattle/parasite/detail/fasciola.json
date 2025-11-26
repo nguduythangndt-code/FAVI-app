@@ -1,0 +1,112 @@
+{
+  "id": "fasciola",
+  "name": "Sán lá gan",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Sán lá gan Fasciola ký sinh ở đường mật, gây tổn thương gan, giảm sản lượng, suy kiệt và có thể làm bò dễ mắc thêm các bệnh khác.",
+  "causes": [
+    "Bò ăn phải ấu trùng Fasciola bám trên cỏ ở vùng đầm lầy, ruộng trũng, bờ ao hồ",
+    "Uống nước ở ao tù, mương nước bẩn có ốc trung gian mang mầm bệnh",
+    "Chăn thả lâu dài trên vùng đất ẩm, thấp mà không có chương trình tẩy sán lá gan",
+    "Không quản lý tốt nguồn nước uống của đàn"
+  ],
+  "risk_factors": [
+    "Khu vực có nhiều ruộng trũng, bãi chăn ngập nước theo mùa",
+    "Đàn bò uống nước trực tiếp từ ao hồ, mương không xử lý",
+    "Không tẩy sán lá gan định kỳ theo mùa nguy cơ",
+    "Khẩu phần thiếu khoáng, vitamin, thể trạng bò kém"
+  ],
+  "clinical_signs_detailed": [
+    "Sút cân từ từ, dù vẫn ăn tương đối",
+    "Lông xỉn màu, da thô, kém đàn hồi",
+    "Giảm sản lượng sữa ở bò cái đang vắt",
+    "Niêm mạc nhợt, đôi khi hơi vàng nhẹ (vàng da nhẹ)",
+    "Có thể phù hàm dưới hoặc phù nhẹ vùng ngực, bụng",
+    "Mệt mỏi, ít vận động, dễ thở nhanh khi làm việc",
+    "Một số trường hợp có rối loạn tiêu hóa nhẹ, phân lúc lỏng lúc táo"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm tăng trọng, gầy nhẹ nhưng chưa rõ rệt",
+      "Lông bớt bóng, đôi khi hơi xù",
+      "Sản lượng sữa giảm nhẹ, khó nhận nếu không ghi chép"
+    ],
+    "moderate": [
+      "Gầy rõ, xương hông, xương sườn lộ hơn",
+      "Niêm mạc nhạt, có thể hơi vàng",
+      "Mệt, thở nhanh khi vận động, ít hăng ăn",
+      "Phù hàm dưới hoặc phù nhẹ vùng ngực, bụng"
+    ],
+    "severe": [
+      "Suy kiệt, gầy rộc, da khô, lông xấu",
+      "Niêm mạc nhạt hoặc vàng, mạch nhanh, thở gấp",
+      "Phù rõ vùng hàm, ngực, bụng, chi dưới",
+      "Dễ mắc thêm bệnh khác, khó hồi phục, có thể chết nếu không xử lý"
+    ]
+},
+  "treatment": {
+    "primary_drugs": [
+      "triclabendazole",
+      "closantel"
+    ],
+    "alternative_drugs": [
+      "oxyclozanide",
+      "phác đồ phối hợp tẩy sán lá gan do thú y chọn theo tình hình địa phương"
+    ],
+    "note_drugs": "Chọn thuốc có hiệu lực trên cả sán lá gan non và trưởng thành nếu khu vực có nguy cơ cao. Đặc biệt chú ý thời gian ngưng thuốc với bò sữa và bò thịt theo hướng dẫn trên nhãn.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin khi bò đau vùng gan hoặc sốt",
+        "alternative": "meloxicam theo tư vấn thú y"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải uống khi bò mệt, ăn kém",
+        "alternative": "truyền dịch hỗ trợ tuần hoàn ở ca suy kiệt do thú y thực hiện"
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "vitamin, khoáng hỗ trợ chức năng gan theo tư vấn thú y"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa cho bò",
+        "alternative": "chế phẩm hỗ trợ gan, mật do thú y khuyến nghị"
+      }
+    },
+    "supportive_care": [
+      "Giảm cường độ làm việc của bò, cho nghỉ ngơi nhiều hơn",
+      "Cung cấp thức ăn dễ tiêu, chất lượng tốt, tránh nấm mốc",
+      "Bổ sung khoáng, vitamin đều đặn để hỗ trợ gan",
+      "Đảm bảo nước uống sạch, không dùng nước ao tù cho đàn",
+      "Theo dõi cân nặng, sản lượng sữa sau điều trị"
+    ],
+    "dose_policy": "Dùng thuốc tẩy sán lá gan đúng theo hướng dẫn trên nhãn hoặc chỉ định thú y. Chú ý các khuyến cáo riêng cho bò sữa và bò thịt về thời gian ngưng thuốc."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò gầy rõ, phù hàm dưới, mệt, nhưng vẫn đi lại được và còn ăn.",
+      "guideline": "Điều trị tẩy sán lá gan kết hợp bổ sung vitamin, khoáng và hỗ trợ gan. Theo dõi sát phù, thể trạng và sản lượng sữa. Điều chỉnh khẩu phần về phía dễ tiêu, giàu dinh dưỡng."
+    },
+    "case_type_2": {
+      "description": "Bò suy kiệt nặng, phù nhiều, khó đi lại, rất mệt, niêm mạc nhạt hoặc vàng.",
+      "guideline": "Thú y cần thăm khám trực tiếp để đánh giá khả năng cứu chữa. Hỗ trợ tuần hoàn, dinh dưỡng và điều trị triệu chứng. Quyết định giữ lại hay loại thải dựa trên đáp ứng và điều kiện trại."
+    },
+    "note": "Nhiều trường hợp sán lá gan phát hiện khi đã muộn, hiệu quả điều trị hạn chế. Việc phòng ngừa theo mùa và kiểm soát nguồn nước uống rất quan trọng."
+  },
+  "prevention": [
+    "Tẩy sán lá gan định kỳ theo mùa nguy cơ của địa phương",
+    "Không cho bò uống nước trực tiếp ở ao tù, mương bẩn nếu có thể",
+    "Hạn chế chăn thả lâu dài trên bãi trũng, đầm lầy",
+    "Cải thiện thoát nước quanh chuồng và bãi chăn",
+    "Ghi chép và theo dõi những bò có nghi ngờ bệnh gan để đánh giá hiệu quả chương trình phòng"
+  ],
+  "notes": [
+    "Sán lá gan làm giảm hiệu quả nuôi, giảm sữa và tăng nguy cơ các bệnh khác.",
+    "Ở vùng nguy cơ cao nên có lịch tẩy phòng cố định hằng năm.",
+    "Quan sát phù hàm, thể trạng và sản lượng sữa là cách đơn giản để nghi ngờ bệnh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

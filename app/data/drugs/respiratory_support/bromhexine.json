@@ -1,0 +1,48 @@
+{
+  "name": "Bromhexine (long đờm)",
+
+  "mechanism": [
+    "Làm loãng đờm, giảm độ quánh",
+    "Tăng vận chuyển chất nhầy ra khỏi đường hô hấp",
+    "Hỗ trợ thông thoáng phổi và khí quản"
+  ],
+
+  "clinical_uses": [
+    "Ho có đờm",
+    "Viêm phổi - viêm khí quản có nhiều dịch nhầy",
+    "Hỗ trợ trong các ca ứ đọng đờm kéo dài"
+  ],
+
+  "advantages": [
+    "Hiệu quả tốt trong long đờm",
+    "Phối hợp được với kháng sinh và điện giải",
+    "An toàn cho dê lớn và dê con"
+  ],
+
+  "disadvantages": [
+    "Không có tác dụng với ho khan",
+    "Không xử lý nguyên nhân nhiễm khuẩn"
+  ],
+
+  "side_effects": [
+    "Ho nhiều hơn lúc đầu do đờm loãng ra",
+    "Thỉnh thoảng gây chảy nước mũi tăng"
+  ],
+
+  "recommendations": [
+    "Dùng kèm kháng sinh nếu có nhiễm khuẩn",
+    "Theo dõi nhịp thở và mức độ ho",
+    "Kết hợp giữ ấm chuồng và giảm ẩm"
+  ],
+
+  "contraindications": [
+    "Ho do dị ứng không có đờm",
+    "Dê đang sốc hô hấp cấp"
+  ],
+
+  "alternatives": [
+    "Guaifenesin",
+    "Dung dịch thông mũi",
+    "Eucalyptus (xông hỗ trợ)"
+  ]
+}

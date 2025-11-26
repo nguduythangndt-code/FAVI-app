@@ -1,0 +1,42 @@
+{
+  "id": "cefquinome",
+  "name": "Cefquinome",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm cephalosporin thế hệ 4, có phổ rộng và tác dụng mạnh trên nhiều vi khuẩn Gram âm, Gram dương. Thường được đánh giá là một trong những lựa chọn mạnh cho ca nặng.",
+  "clinical_uses": [
+    "Viêm phổi nặng ở dê, bò, heo, bê nghé.",
+    "Nhiễm khuẩn toàn thân mức độ nặng.",
+    "Nhiễm trùng tử cung, nhiễm trùng rốn ở gia súc non.",
+    "Áp xe sâu hoặc nhiễm trùng mô mềm khó điều trị."
+  ],
+  "pros": [
+    "Hiệu lực rất mạnh và nhanh.",
+    "Phổ rộng, hỗ trợ kiểm soát nhiều chủng vi khuẩn khó.",
+    "Phù hợp ca nặng có nguy cơ cao."
+  ],
+  "cons": [
+    "Chi phí cao.",
+    "Cần dùng đúng chỉ định để tránh kháng thuốc.",
+    "Không nên dùng cho ca nhẹ - vừa vì quá mạnh so với nhu cầu."
+  ],
+  "mild_side_effects": [
+    "Con vật có thể hơi mệt trong vài giờ sau tiêm.",
+    "Hơi đau tại vị trí tiêm.",
+    "Ăn giảm nhẹ trong ngày đầu."
+  ],
+  "usage_recommendations": [
+    "Chỉ nên cân nhắc trong các ca nặng, khi thuốc phổ thông không đáp ứng tốt.",
+    "Theo dõi kỹ: nhịp thở, thân nhiệt, mức độ tỉnh táo.",
+    "Luôn dùng theo hướng dẫn thú y vì đây là nhóm mạnh."
+  ],
+  "when_not_to_use": [
+    "Ca nhẹ không cần đến thuốc mạnh như cefquinome.",
+    "Thú mất nước nặng chưa xử lý.",
+    "Không dùng để phòng bệnh trong đàn."
+  ],
+  "alternative_drugs": [
+    "Ceftiofur cho ca nặng vừa.",
+    "Florfenicol khi viêm phổi tiến triển.",
+    "Enrofloxacin trong ca nhiễm Gram âm mạnh."
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ascaridia-galli",
+    "name": "Giun đũa (Ascaridia galli)",
+    "group": "parasite",
+    "level": 1,
+    "searchText": "Gà chậm lớn, ăn nhiều nhưng tăng trọng kém Lông xơ, xấu, da nhăn, ngực nhọn Tiêu hóa kém, phân không ổn định, lúc táo lúc lỏng Ở mức nặng có thể thấy giun trong phân hoặc khi mổ gà Gà còi, thể trạng kém, dễ mắc thêm bệnh khác Khó nhận ra, chỉ hơi chậm lớn hơn so với đàn khỏe Lông kém bóng, thể trạng không thật sự tốt Chậm lớn rõ, gầy, xương to thịt ít Phân thất thường, đôi khi có nhớt Một số con bụng hơi to, kém linh hoạt Gà rất gầy, còi, chậm chạp Đôi khi thấy giun theo phân ra ngoài Nếu tắc ruột có thể chết đột ngột, bụng trướng"
+  },
+  {
+    "id": "heterakis-gallinarum",
+    "name": "Giun manh tràng (Heterakis)",
+    "group": "parasite",
+    "level": 1,
+    "searchText": "Nhiễm nhẹ thường khó thấy triệu chứng rõ, chủ yếu làm đàn chậm lớn Manh tràng có thể dày, chứa nhiều giun khi mổ khám Nếu kèm bệnh khác, gà gầy, xấu mã, sức đề kháng giảm Trong một số trường hợp, có thể tăng nguy cơ tổn thương gan, ruột do các tác nhân khác Khó nhận qua quan sát ngoài, đàn chỉ hơi chậm lớn Không có dấu hiệu tiêu hóa đặc biệt rõ ràng Gà gầy hơn đàn chuẩn, lông xấu, thể trạng không đều Phân đôi lúc nhầy, manh tràng dày khi mổ khám Giun manh tràng nhiều, gà suy, dễ mắc các bệnh kèm theo Có thể thấy tổn thương manh tràng, ruột và gan khi mổ khám"
+  },
+  {
+    "id": "capillaria",
+    "name": "Giun tóc (Capillaria)",
+    "group": "parasite",
+    "level": 2,
+    "searchText": "Gà chậm lớn, gầy, lông xấu Tiêu chảy nhẹ đến vừa, phân nhầy, đôi khi có sợi nhầy Ăn kém, kém linh hoạt, ít chạy nhảy Một số trường hợp nhiễm ở diều gây rối loạn tiêu hóa, diều hoạt động kém Mức độ nặng có thể làm đàn suy kiệt, dễ mắc thêm bệnh khác Gà hơi chậm lớn, thể trạng không đều trong đàn Tiêu hóa kém rõ nhưng không đặc hiệu Chậm lớn rõ, xương to thịt ít, lông xơ Phân nhầy, không ổn định, đôi khi lẫn sợi nhầy Gà ít hoạt động, kém linh hoạt Gà rất gầy, yếu, tiêu chảy kéo dài Nếu nhiễm cả ruột và diều, khả năng tiêu hóa thức ăn giảm mạnh Dễ chết khi kèm thêm bệnh khác hoặc điều kiện nuôi kém"
+  },
+  {
+    "id": "tapeworms",
+    "name": "Sán dây",
+    "group": "parasite",
+    "level": 1,
+    "searchText": "Gà chậm lớn, gầy, lông xơ, da khô Ăn nhiều nhưng không lên cân tương xứng Đôi khi thấy đốt sán trắng nhỏ trong phân Nếu nhiễm nặng, gà kém linh hoạt, dễ mắc thêm bệnh khác Mổ khám thấy sán bám nhiều dọc theo ruột Khó nhận khi chỉ có vài con nhiễm nhẹ Gà chỉ hơi chậm lớn so với chuẩn Gà gầy, tăng trọng kém, lông xấu, xương to thịt ít Có thể thấy đốt sán trong phân ở một số con Nhiễm sán dây nhiều, gà rất gầy, yếu Đàn phát triển không đồng đều, dễ bùng thêm bệnh kế phát Mổ khám thấy sán dày trong ruột"
+  },
+  {
+    "id": "lice-infestation",
+    "name": "Chấy / rận lông",
+    "group": "parasite",
+    "level": 0,
+    "searchText": "Gà hay rỉa lông, gãi, đứng giũ lông liên tục Lông xù, rối, rụng ở cổ, ngực, quanh hậu môn Trên da và gốc lông có thể thấy côn trùng nhỏ, di chuyển nhanh Gà ăn kém, kém linh hoạt, giảm tăng trưởng Ở gà mái có thể giảm đẻ nếu ký sinh nhiều Gà gãi lông nhiều hơn bình thường Lông hơi xấu nhưng khó nhận nếu không kiểm tra kỹ Lông xù, rối, có vùng lông thưa Thấy chấy rận khi vạch lông ở cổ, nách cánh, quanh hậu môn Gà ăn kém, khó chịu, giảm tăng trưởng hoặc giảm đẻ Lông rụng nhiều, da dày, thô, gà rất hay gãi Gà gầy, yếu, stress kéo dài Nguy cơ cao cho các bệnh khác do sức đề kháng giảm"
+  },
+  {
+    "id": "mite-infestation",
+    "name": "Ve / mạt gà",
+    "group": "parasite",
+    "level": 1,
+    "searchText": "Gà đứng không yên, nhảy khỏi máng đậu, rũ lông, gãi nhiều, nhất là ban đêm Lông xấu, rụng từng mảng, da dày, thô, có chấm đỏ nhỏ Thiếu máu, mào nhạt, gà gầy, giảm tăng trưởng Gà đẻ giảm sản lượng, bỏ ổ, không chịu ngủ trên máng đậu cũ Nếu nhiễm nặng, gà suy, dễ mắc thêm bệnh khác Gà hơi bứt rứt, gãi nhiều hơn bình thường Khó nhận nếu không kiểm tra chuồng ban đêm Gà nhảy khỏi máng đậu, ngủ dưới nền hoặc chỗ khác Lông xấu, rụng thưa, mào nhạt hơn Có thể thấy mạt nhỏ trên máng đậu hoặc vách chuồng Thiếu máu rõ, gà rất gầy, mào nhợt nhạt Đàn đẻ giảm sản lượng mạnh, khó phục hồi nhanh Ve, mạt bám dày ở khe kẽ, ổ đẻ, trên thân gà"
+  },
+  {
+    "id": "scaly-leg-mite",
+    "name": "Mạt đóng vảy chân",
+    "group": "parasite",
+    "level": 1,
+    "searchText": "Vảy chân dày lên, sần sùi, gồ ghề bất thường Có lớp vảy bong, trắng xám, dễ nứt nẻ Gà đi lại khó khăn, ít chịu nhảy lên máng đậu Trong trường hợp nặng, chân biến dạng, có thể nhiễm trùng kế phát Nhìn kỹ thấy lớp vảy hở, có chất bột, đôi khi mùi hôi nhẹ Vảy chân hơi dày hơn bình thường, ít người để ý Gà vẫn đi lại bình thường Vảy chân dày rõ, sần sùi, có lớp vảy bong Gà đi lại khó khăn hơn, ít nhảy lên cao Một số ngón chân có thể bắt đầu biến dạng nhẹ Vảy chân dày, nứt, biến dạng, có thể chảy dịch hoặc nhiễm trùng Gà rất khó đi, ít hoạt động, gầy yếu Đau khi di chuyển, dễ bị loại thải sớm"
+  },
+  {
+    "id": "coccidiosis-mixed-chronic",
+    "name": "Cầu trùng hỗn hợp mạn tính",
+    "group": "parasite",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy kéo dài, phân nâu/sẫm Có thể lẫn máu nhẹ Gà gầy, lông xù Ăn kém, lớn chậm Phân loãng Ăn giảm nhẹ Tiêu chảy dai dẳng Gầy rõ Phân máu, suy kiệt Chết do mất nước/viêm ruột"
+  }
+]

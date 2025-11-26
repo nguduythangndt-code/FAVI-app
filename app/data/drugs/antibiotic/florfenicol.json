@@ -1,0 +1,42 @@
+{
+  "id": "florfenicol",
+  "name": "Florfenicol",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh phenicol, ức chế tổng hợp protein của vi khuẩn bằng cách gắn vào tiểu đơn vị 50S của ribosome, có tác dụng trên nhiều vi khuẩn Gram âm và một số Gram dương.",
+  "clinical_uses": [
+    "Điều trị viêm phổi, viêm phế quản - phổi nặng ở dê, bò, heo.",
+    "Nhiễm khuẩn huyết, nhiễm trùng toàn thân ở thú non có biểu hiện sốt cao, bỏ bú.",
+    "Một số trường hợp viêm ruột, viêm rốn nặng khi nghi ngờ Gram âm mạnh."
+  ],
+  "pros": [
+    "Hiệu lực mạnh, thấm tốt vào mô phổi và dịch cơ thể.",
+    "Phù hợp cho ca nặng, nguy cơ tử vong cao nếu điều trị chậm.",
+    "Thường hiệu quả cả khi một số kháng sinh thông thường cho đáp ứng kém."
+  ],
+  "cons": [
+    "Giá thành cao hơn nhiều so với kháng sinh phổ thông.",
+    "Không nên lạm dụng rộng rãi vì nguy cơ tạo kháng thuốc quan trọng.",
+    "Có thể gây ức chế tủy xương nếu dùng kéo dài hoặc sai chỉ định."
+  ],
+  "mild_side_effects": [
+    "Giảm ăn tạm thời, uể oải nhẹ sau tiêm.",
+    "Tiêm bắp có thể gây sưng, đau tại chỗ.",
+    "Một số cá thể có thể bị tiêu phân hơi lỏng trong quá trình điều trị."
+  ],
+  "usage_recommendations": [
+    "Chỉ nên dùng cho ca nặng, có nguy cơ cao, sau khi đã đánh giá kỹ tình trạng.",
+    "Không dùng kéo dài hơn thời gian khuyến cáo trên nhãn thuốc.",
+    "Kết hợp chăm sóc hỗ trợ: bù nước, điện giải, giảm viêm - giảm đau nếu cần.",
+    "Luôn dùng theo liều trên nhãn hoặc theo hướng dẫn thú y, tránh tự tăng liều."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con có dấu hiệu suy gan nặng, suy kiệt trầm trọng.",
+    "Thận trọng ở thú đang mang thai cuối kỳ, chỉ dùng khi lợi ích vượt nguy cơ.",
+    "Không dùng đồng loạt cho cả đàn chỉ để ‘phòng’ khi không có chỉ định rõ."
+  ],
+  "alternative_drugs": [
+    "Ceftiofur hoặc cefquinome cho nhiễm trùng nặng.",
+    "Enrofloxacin cho một số trường hợp viêm phổi nặng có nghi ngờ Gram âm.",
+    "Amoxicillin hoặc oxytetracycline cho ca nhẹ hơn hoặc trung bình."
+  ]
+}

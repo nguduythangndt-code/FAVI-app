@@ -1,0 +1,105 @@
+{
+  "id": "reproductive-colibacillosis",
+  "name": "Nhiễm E. coli đường sinh sản",
+  "species": "chicken",
+  "group": "reproductive",
+  "summary": "E. coli xâm nhập đường sinh sản, gây viêm buồng trứng, viêm ống dẫn trứng, làm giảm đẻ, trứng xấu và có thể gây viêm phúc mạc.",
+  "causes": [
+    "Vi khuẩn E. coli từ phân, nền chuồng, ổ đẻ bẩn xâm nhập lên đường sinh sản",
+    "Tổn thương niêm mạc do trứng to, vỏ xấu, kẹt trứng",
+    "Miễn dịch kém do dinh dưỡng và các bệnh khác làm cơ thể suy yếu"
+  ],
+  "risk_factors": [
+    "Ổ đẻ bẩn, trứng dính phân, không được thu gom thường xuyên",
+    "Nền chuồng ẩm, phân dính quanh hậu môn gà mái",
+    "Đàn đẻ nhiều, nuôi lâu năm, sức đề kháng kém",
+    "Không có chương trình kiểm soát colibacillosis chung cho đàn"
+  ],
+  "clinical_signs_detailed": [
+    "Giảm đẻ, trứng xấu, trứng méo, vỏ không đều, trứng không vỏ",
+    "Gà ủ rũ, ăn kém, gầy dần, lông xấu",
+    "Lông vùng hậu môn bẩn, có dịch, mùi hôi nhẹ",
+    "Có thể kèm viêm phúc mạc, bụng to, gà đi nặng nề",
+    "Chết rải rác nếu viêm lan rộng và không được xử lý"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm đẻ nhẹ, một số trứng xấu hơn bình thường",
+      "Khó nhận nếu không theo dõi kỹ sản lượng và chất lượng trứng"
+    ],
+    "moderate": [
+      "Giảm đẻ rõ, nhiều trứng méo, vỏ mỏng, trứng không vỏ",
+      "Gà kém linh hoạt, ăn giảm, lông vùng hậu môn bẩn",
+      "Gầy dần, thể trạng kém hơn đàn khỏe"
+    ],
+    "severe": [
+      "Đàn giảm đẻ nặng, có thể bỏ đẻ ở nhiều con",
+      "Bụng một số con to, nghi viêm phúc mạc kèm theo",
+      "Chết rải rác, gà rất suy, khó hồi phục"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Điều trị cần phác đồ kháng sinh hợp lý, không đổi thuốc liên tục giữa chừng. Sau đợt điều trị, phải tập trung làm sạch ổ đẻ và nền chuồng, nếu không bệnh dễ quay lại.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "meloxicam",
+        "alternative": "flunixin"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải cho đàn suy, giảm ăn",
+        "alternative": "điện giải kèm vitamin C trong thời gian ngắn"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên A, D, E và khoáng",
+        "alternative": "vitamin nhóm B kích thích ăn trở lại"
+      },
+      "digestive_support": {
+        "main": "men vi sinh sau khi dùng kháng sinh để phục hồi ruột",
+        "alternative": "khẩu phần dễ tiêu, chất lượng tốt, ổn định"
+      }
+    },
+    "supportive_care": [
+      "Thu gom trứng thường xuyên, không để trứng nằm lâu trong ổ bẩn",
+      "Thay lót ổ đẻ và chất độn chuồng dơ, ẩm",
+      "Giữ vùng hậu môn gà mái không quá bẩn bằng cách cải thiện nền và phân",
+      "Giảm mật độ đàn, giảm stress, cải thiện thông gió",
+      "Theo dõi sản lượng trứng, thể trạng đàn để đánh giá hiệu quả điều trị"
+    ],
+    "dose_policy": "Kháng sinh dùng đúng liều, đủ thời gian theo nhãn hoặc chỉ định thú y. Không tự ý phối hợp nhiều kháng sinh mạnh khi chưa có cơ sở rõ ràng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn đẻ thương phẩm giảm đẻ mạnh, trứng xấu, nghi nhiễm E. coli đường sinh sản.",
+      "guideline": "Áp dụng phác đồ kháng sinh toàn đàn hoặc cho nhóm bị ảnh hưởng nặng, kết hợp cải thiện vệ sinh nền và ổ đẻ. Đánh giá lại hiệu quả sau một đợt điều trị, nếu không cải thiện, cân nhắc kế hoạch loại thải và thay đàn."
+    },
+    "case_type_2": {
+      "description": "Đàn giống giá trị cao, sản lượng trứng giảm vì nhiễm E. coli đường sinh sản.",
+      "guideline": "Điều trị có kiểm soát, ghi chép rõ phác đồ. Tăng cường vệ sinh, nhất là khu ổ đẻ, máng đậu. Xem lại nguồn nước, thức ăn, tỷ lệ nhiễm trong đàn để có kế hoạch dài hạn hơn, tránh bệnh tái phát."
+    },
+    "note": "Colibacillosis đường sinh sản là phần mở rộng của vấn đề E. coli chung trong chuồng. Giải quyết gốc sẽ bền hơn là chỉ tập trung vào đàn đẻ."
+  },
+  "prevention": [
+    "Giữ nền chuồng, ổ đẻ, máng ăn uống sạch sẽ",
+    "Không để trứng nằm lâu trong ổ, gom đều trong ngày",
+    "Kiểm soát E. coli trong chuồng bằng vệ sinh và sát trùng định kỳ",
+    "Bổ sung dinh dưỡng, vitamin, khoáng hợp lý cho đàn đẻ",
+    "Theo dõi chất lượng trứng và sức khỏe đàn để phát hiện sớm bất thường"
+  ],
+  "notes": [
+    "Khi vừa thấy trứng xấu, vừa thấy đàn xuống sức, nên nghĩ tới cả hướng nhiễm E. coli.",
+    "Vệ sinh ổ đẻ và nền chuồng luôn là điểm then chốt trong phòng bệnh sinh sản."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Metamizole (Anagin)",
+  "mechanism": [
+    "Giảm đau và hạ sốt thông qua ức chế tổng hợp prostaglandin trung ương",
+    "Có tác dụng chống co thắt nhẹ trên cơ trơn (hữu ích khi đau bụng nhẹ)"
+  ],
+  "clinical_uses": [
+    "Hỗ trợ hạ sốt mức độ vừa đến nặng",
+    "Giảm đau bụng nhẹ - trung bình do co thắt",
+    "Giảm đau sau chấn thương hoặc sau thủ thuật (ở mức nhẹ - vừa)",
+    "Thường dùng khi cần giảm sốt nhưng không muốn dùng NSAID mạnh"
+  ],
+  "advantages": [
+    "Hạ sốt nhanh và mạnh",
+    "Tác dụng giảm đau êm, ít gây kích ứng dạ dày hơn NSAID cổ điển",
+    "Hữu ích trong các ca dê sốt cao do viêm phổi, viêm ruột, nhiễm trùng"
+  ],
+  "disadvantages": [
+    "Không có tác dụng chống viêm mạnh",
+    "Nguy cơ ảnh hưởng gan - thận nếu dùng sai hoặc kéo dài",
+    "Có thể che mất triệu chứng bệnh nền nếu lạm dụng"
+  ],
+  "side_effects": [
+    "Giảm ăn nhẹ",
+    "Mệt thoáng qua",
+    "Hiếm gặp: dị ứng, nổi mẩn, rối loạn tiêu hoá",
+    "Nguy cơ độc gan nếu dùng sai cách hoặc quá liều"
+  ],
+  "recommendations": [
+    "Chỉ dùng theo số ngày ghi trên nhãn hoặc hướng dẫn của thú y",
+    "Thích hợp dùng phối hợp khi muốn hạ sốt nhưng hạn chế NSAID",
+    "Theo dõi mức ăn uống, mức độ tỉnh táo khi dùng",
+    "Không dùng như thuốc hạ sốt hằng ngày lặp lại"
+  ],
+  "contraindications": [
+    "Không dùng cho dê nghi ngờ viêm gan hoặc suy gan",
+    "Tránh dùng cho dê mất nước nặng, suy thận",
+    "Không phối hợp với quá nhiều thuốc hạ sốt khác",
+    "Không dùng trong sốc nặng chưa hồi sức"
+  ],
+  "alternatives": [
+    "Paracetamol - an toàn hơn nếu chỉ cần hạ sốt",
+    "Ketoprofen - khi cần thêm tác dụng chống viêm",
+    "Meloxicam - tác dụng êm, dùng được vài ngày nếu cần"
+  ]
+}

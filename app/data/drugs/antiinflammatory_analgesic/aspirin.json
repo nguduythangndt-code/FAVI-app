@@ -1,0 +1,40 @@
+{
+  "name": "Aspirin",
+  "mechanism": [
+    "NSAID ức chế không hồi phục COX, giảm tổng hợp prostaglandin và thromboxan",
+    "Giảm đau, hạ sốt, chống viêm và ảnh hưởng lên đông máu"
+  ],
+  "clinical_uses": [
+    "Trước đây từng được dùng trong thú y cho mục đích giảm đau, hạ sốt",
+    "Hiện nay ít được ưu tiên do có nhiều lựa chọn an toàn và hiệu quả hơn"
+  ],
+  "advantages": [
+    "Giảm đau, hạ sốt, chống viêm mức độ vừa",
+    "Chi phí thường thấp"
+  ],
+  "disadvantages": [
+    "Nguy cơ loét dạ dày - ruột, xuất huyết tiêu hoá cao hơn nhiều NSAID mới",
+    "Ảnh hưởng đông máu, tăng nguy cơ chảy máu",
+    "Không phù hợp làm lựa chọn đầu tay ở dê"
+  ],
+  "side_effects": [
+    "Kích ứng tiêu hoá, giảm ăn",
+    "Có thể gây phân đen, nôn (nếu có) do xuất huyết tiêu hoá",
+    "Chậm đông máu, dễ bầm tím, chảy máu kéo dài"
+  ],
+  "recommendations": [
+    "Nếu còn dùng, chỉ nên dùng khi có hướng dẫn rõ của bác sĩ thú y",
+    "Cân nhắc thay thế bằng NSAID an toàn hơn cho dê",
+    "Theo dõi phân, niêm mạc, dấu hiệu chảy máu nếu bắt buộc phải dùng"
+  ],
+  "contraindications": [
+    "Không dùng cho dê loét dạ dày - ruột, xuất huyết, mất máu",
+    "Không dùng trước phẫu thuật hoặc các thủ thuật có nguy cơ chảy máu",
+    "Tránh dùng trên dê chửa cuối kỳ trừ khi thú y đánh giá kỹ"
+  ],
+  "alternatives": [
+    "Meloxicam - an toàn hơn trên tiêu hoá khi dùng đúng",
+    "Ketoprofen hoặc Flunixin - với theo dõi chặt và chỉ định rõ",
+    "Paracetamol - cho ca hạ sốt nhẹ, ít viêm"
+  ]
+}

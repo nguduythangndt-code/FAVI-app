@@ -1,0 +1,48 @@
+{
+  "name": "Vitamin ADE",
+
+  "mechanism": [
+    "Vitamin A hỗ trợ niêm mạc và thị lực",
+    "Vitamin D hỗ trợ chuyển hoá canxi - xương",
+    "Vitamin E chống oxy hoá và hỗ trợ sinh sản"
+  ],
+
+  "clinical_uses": [
+    "Dê chậm lớn, xương yếu do thiếu vitamin",
+    "Vấn đề sinh sản do thiếu dinh dưỡng nền",
+    "Đàn nuôi nhốt thiếu ánh sáng mặt trời"
+  ],
+
+  "advantages": [
+    "Tập trung vào xương, da lông, sinh sản",
+    "Phù hợp cho dê hậu bị, dê nái",
+    "Dùng theo đợt hỗ trợ rất tốt"
+  ],
+
+  "disadvantages": [
+    "Thừa vitamin A hoặc D có thể gây hại",
+    "Không dùng liên tục liều cao kéo dài"
+  ],
+
+  "side_effects": [
+    "Hiếm, chủ yếu nếu lạm dụng liều cao dài ngày",
+    "Có thể biếng ăn, mệt nếu quá liều"
+  ],
+
+  "recommendations": [
+    "Dùng theo đợt, không lạm dụng",
+    "Kết hợp khẩu phần đủ khoáng - canxi",
+    "Theo dõi xương khớp và khả năng vận động"
+  ],
+
+  "contraindications": [
+    "Không dùng liều cao cho dê đang suy gan thận nặng",
+    "Thận trọng với dê mang thai gần ngày đẻ khi chưa có tư vấn thú y"
+  ],
+
+  "alternatives": [
+    "Calcium - D3",
+    "Vitamin E - Selenium",
+    "Multivitamin tổng hợp"
+  ]
+}

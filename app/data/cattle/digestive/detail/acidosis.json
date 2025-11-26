@@ -1,0 +1,131 @@
+{
+  "id": "acidosis",
+  "name": "Toan dạ cỏ",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Toan dạ cỏ xảy ra khi bò ăn quá nhiều tinh bột, thức ăn đậm đặc trong thời gian ngắn, làm pH dạ cỏ giảm mạnh, gây rối loạn tiêu hóa, đau bụng, mất nước và có thể chết.",
+
+  "causes": [
+    "Ăn nhiều thức ăn tinh (ngô, cám, phụ phẩm nhiều tinh bột) trong một lần",
+    "Chuyển khẩu phần từ nhiều cỏ sang nhiều tinh một cách đột ngột",
+    "Khẩu phần thiếu xơ kéo dài",
+    "Bò phá kho thức ăn, ăn tự do thức ăn tinh"
+  ],
+
+  "risk_factors": [
+    "Bò vỗ béo được cho ăn nhiều tinh mà tăng không từ từ",
+    "Không chia nhỏ khẩu phần tinh trong ngày",
+    "Thiếu cỏ khô, rơm trong khẩu phần",
+    "Bò tham ăn, tranh ăn trong chuồng chật",
+    "Chuồng nuôi không kiểm soát tốt lượng thức ăn cá thể"
+  ],
+
+  "clinical_signs_detailed": [
+    "Bò buồn bã, nằm nhiều, giảm hoặc bỏ ăn",
+    "Tiêu chảy, phân loãng, có mùi chua, đôi khi có bọt",
+    "Bụng căng vừa, đau bụng, bò có thể đá bụng, bồn chồn",
+    "Nhai lại giảm hoặc mất, ợ hơi ít",
+    "Mất nước: mắt trũng, da mất đàn hồi",
+    "Trường hợp nặng có thể nằm liệt, hôn mê, chết"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn, nhai lại ít",
+      "Phân hơi lỏng, mùi chua nhẹ",
+      "Hoạt động chậm lại nhưng vẫn còn đi lại bình thường"
+    ],
+    "moderate": [
+      "Bò mệt, nằm nhiều, ăn rất ít",
+      "Tiêu chảy rõ, mùi chua, phân có bọt",
+      "Nhai lại mất, bụng đau, bò khó chịu"
+    ],
+    "severe": [
+      "Mất nước rõ, mắt trũng, da nhăn",
+      "Bò nằm nhiều, đứng dậy khó, có thể nằm liệt",
+      "Trạng thái lơ mơ, có thể hôn mê, nguy cơ chết cao"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "sodium_bicarbonate"
+    ],
+    "alternative_drugs": [
+      "magnesium_hydroxide"
+    ],
+    "note_drugs": "Mục tiêu là trung hòa bớt acid trong dạ cỏ và hỗ trợ phục hồi hệ vi sinh. Cần kết hợp bù nước, điện giải và điều chỉnh khẩu phần, không chỉ dựa vào thuốc.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Ngừng cho ăn thức ăn tinh ngay lập tức",
+      "Cho uống nước sạch nhiều lần, có thể pha điện giải",
+      "Tăng cỏ khô, rơm trong khẩu phần sau khi bò ổn dần",
+      "Sau giai đoạn cấp, bổ sung men vi sinh để phục hồi hệ vi khuẩn dạ cỏ",
+      "Theo dõi phân, mức độ ăn uống, nhai lại trong vài ngày liên tiếp"
+    ],
+
+    "dose_policy": "Các chất trung hòa acid và thuốc hỗ trợ dùng theo liều khuyến cáo trên nhãn hoặc theo tư vấn của thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò tiêu chảy, mệt nhưng vẫn đứng được, vẫn uống nước.",
+      "guideline": [
+        "Dùng chất trung hòa acid phù hợp cho dạ cỏ",
+        "Bù nước, điện giải tích cực để tránh mất nước",
+        "Sau khi ổn, điều chỉnh lại khẩu phần cân bằng giữa tinh và thô",
+        "Giám sát chặt trong 2-3 ngày đầu"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò nằm nhiều, mất nước nặng, mắt trũng, phản ứng chậm.",
+      "guideline": [
+        "Xử lý như ca cấp cứu, nếu có điều kiện nên truyền dịch theo chỉ định thú y",
+        "Tiếp tục trung hòa acid dạ cỏ theo tư vấn chuyên môn",
+        "Nếu sau điều trị tích cực vẫn không cải thiện, tiên lượng thường xấu",
+        "Rút kinh nghiệm để siết chặt quản lý thức ăn tinh trong đàn"
+      ]
+    },
+    "note": "Toan dạ cỏ nặng là hậu quả của khẩu phần mất cân đối. Sau khi cứu được một ca, nên xem lại toàn bộ cách nuôi và khẩu phần."
+  },
+
+  "prevention": [
+    "Tăng dần lượng thức ăn tinh, không tăng đột ngột giữa các ngày",
+    "Luôn đảm bảo có cỏ khô hoặc thức ăn thô trong khẩu phần",
+    "Không để bò phá kho ăn tự do thức ăn tinh",
+    "Chia khẩu phần tinh thành nhiều bữa trong ngày",
+    "Theo dõi phân và mức độ nhai lại để phát hiện sớm bất thường"
+  ],
+
+  "notes": [
+    "Acidosis là bệnh “do người tạo ra” nhiều hơn là do con bò.",
+    "Một khẩu phần hợp lý sẽ ít khi cho cơ hội cho toan dạ cỏ xuất hiện.",
+    "Nên xem lại khẩu phần tổng thể thay vì chỉ nhớ đến thuốc."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

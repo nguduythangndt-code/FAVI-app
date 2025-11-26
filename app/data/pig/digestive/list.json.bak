@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ecoli_diarrhea",
+    "name": "Tiêu chảy do E.coli",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Tiêu chảy nước, phân bắn tung, mùi hôi Vùng hậu môn và đuôi dính bết phân Heo con mất nước: mắt trũng, da khô, ít đàn hồi Mệt, nằm nhiều, bú giảm hoặc bỏ bú Có thể sốt nhẹ hoặc không rõ sốt Gầy nhanh trong thời gian ngắn Một số con chết nhanh do mất nước nặng Phân hơi lỏng hơn bình thường Heo vẫn còn bú nhưng kém hơn Đuôi hơi bẩn, chưa mất nước rõ Tiêu chảy nước rõ rệt Đuôi và vùng hậu môn dính phân Heo mệt, nằm nhiều hơn, mắt hơi trũng Giảm bú rõ Tiêu chảy liên tục, phân toàn nước Mất nước nặng: mắt trũng sâu, da khô Heo nằm bẹp, phản xạ kém Nguy cơ chết do sốc mất nước"
+  },
+  {
+    "id": "coccidia",
+    "name": "Tiêu chảy do Coccidia (Isospora)",
+    "group": "digestive",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy nhão, phân sệt hoặc sệt có nước Phân dính quanh hậu môn và đuôi Heo con lớn chậm, bụng tóp, xương sườn lộ Lông xỉu, da nhăn, nhìn gầy gò Thường không sốt cao, diễn biến âm ỉ Ít chết cấp nhưng kéo đàn xuống rõ rệt Phân mềm hơn bình thường Heo vẫn ăn nhưng không sung Lông hơi xỉu, chậm tăng trọng Tiêu chảy nhão, phân dính nhiều ở đuôi Gầy dần, bụng tóp Heo con ít chạy nhảy, hay nằm Tiêu chảy kéo dài nhiều ngày Gầy rõ, da nhăn, lông dựng Heo rất chậm lớn, dễ ghép bệnh khác"
+  },
+  {
+    "id": "rotavirus",
+    "name": "Tiêu chảy do Rotavirus",
+    "group": "digestive",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy phân loãng, màu trắng-vàng hoặc xám nhạt Phân bắn tung, đuôi và chân sau dính phân Có thể nôn ói nhẹ trước khi tiêu chảy Heo con mất nước: mắt trũng, da kém đàn hồi Ăn kém hoặc bỏ ăn, lớn chậm Thường không chết đột ngột nếu không ghép nặng Phân mềm, hơi loãng Heo vẫn còn ăn nhưng kém sung Đuôi hơi bẩn Tiêu chảy rõ, phân loãng trắng-vàng Mắt hơi trũng, heo mệt hơn Giảm ăn, chậm tăng trọng Tiêu chảy liên tục, phân toàn nước Mất nước nặng, da nhăn, mắt trũng sâu Heo nằm nhiều, phản xạ chậm Dễ chết nếu ghép E.coli hoặc bệnh khác"
+  },
+  {
+    "id": "coronavirus_tge_ped",
+    "name": "Tiêu chảy do Coronavirus (TGE/PED)",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Tiêu chảy dữ dội, phân toàn nước, mùi chua hôi Nôn ói sau khi ăn hoặc bú Heo con mất nước rất nhanh, da nhăn, mắt trũng sâu Bụng tóp, heo nằm co cụm, run lạnh Nái có thể tiêu chảy nhẹ hoặc giảm ăn Tỷ lệ chết cao nếu không can thiệp sớm Tiêu chảy nhẹ ở nái hoặc heo lớn Giảm ăn nhẹ Phân lỏng nhưng không quá nhiều nước Heo con tiêu chảy loãng, có lúc nôn Mất nước vừa, mắt trũng nhẹ Heo mệt, bú kém Tiêu chảy toàn nước, nôn nhiều Mất nước rất nặng, da nhăn rõ Heo nằm bẹp, lạnh, dễ chết Tỷ lệ chết cao ở heo sơ sinh"
+  },
+  {
+    "id": "necrotic_enteritis",
+    "name": "Viêm ruột hoại tử",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Tiêu chảy nặng, phân thối, có thể lẫn máu hoặc mảng niêm mạc Heo đau bụng, đi lại khó chịu, có thể cong lưng Giảm ăn rõ, nhanh suy, gầy nhanh Một số con chết nhanh trong giai đoạn cấp Heo sống sót thường còi cọc, chậm lớn Phân sệt, mùi nặng hơn bình thường Heo giảm ăn nhẹ Hơi khó chịu vùng bụng Tiêu chảy rõ, phân hôi, có nhầy hoặc tia máu Heo mệt, giảm ăn nhiều Bụng trướng nhẹ, sờ đau Tiêu chảy nặng, phân thối khắm, có máu hoặc mảng niêm mạc Heo suy nhanh, nằm nhiều, mắt trũng Một số con chết trong thời gian ngắn"
+  },
+  {
+    "id": "salmonella_enteritis",
+    "name": "Viêm ruột dạ dày do Salmonella",
+    "group": "digestive",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy kéo dài, phân thối, đôi khi có nhầy hoặc máu Heo sốt, mệt, giảm ăn rõ Một số con thở nhanh do nhiễm trùng nặng Gầy nhanh nếu bệnh kéo dài Có trường hợp chết đột ngột do nhiễm trùng huyết Tiêu chảy nhẹ, phân mềm hơn bình thường Giảm ăn nhẹ Mệt vừa, vẫn đi lại Tiêu chảy rõ, phân hôi, có nhầy Sốt, mệt, giảm ăn nhiều Gầy dần theo thời gian Tiêu chảy nặng, phân rất thối, có thể lẫn máu Heo đứng không vững hoặc nằm nhiều Thở nhanh, suy nhược rõ Nguy cơ nhiễm trùng huyết và tử vong"
+  },
+  {
+    "id": "bloat",
+    "name": "Đầy hơi - bội thực",
+    "group": "digestive",
+    "severityLevel": 1,
+    "searchText": "Bụng căng phồng, gõ vào có tiếng vang Heo ít vận động, đi lại khó khăn Thở nhanh hoặc thở nông Nằm nghiêng nhiều, khó đứng Ăn giảm hoặc bỏ ăn Nếu nặng: xanh tím, suy hô hấp Chướng nhẹ, bụng căng ít Heo hơi khó chịu Giảm ăn nhẹ Bụng căng rõ, khó đứng dậy Thở nhanh, nôn khan Ít chạy nhảy Chướng rất lớn, khó thở Nằm nhiều, phản xạ kém Nguy cơ xoắn ruột và tử vong"
+  },
+  {
+    "id": "constipation",
+    "name": "Táo bón",
+    "group": "digestive",
+    "severityLevel": 1,
+    "searchText": "Phân viên khô, khó đi Heo rặn nhiều khi đi vệ sinh Bụng hơi căng, khó chịu Ăn giảm, uống ít Có thể ói nhẹ do ứ đọng Đi phân cứng hơn bình thường Heo hơi rặn khi đi tiêu Táo bón rõ rệt, phân khô viên Bụng căng nhẹ, heo mệt Không đi tiêu được nhiều giờ Bụng căng lớn, heo rất khó chịu Có thể xì hơi mùi nặng, ói"
+  },
+  {
+    "id": "feed_poisoning",
+    "name": "Ngộ độc thức ăn",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Tiêu chảy nước hoặc phân thối Nôn ói sau khi ăn Heo mệt nhiều, đứng không vững Thở nhanh, mắt lờ đờ Có thể co giật nếu ngộ độc nặng Một số con chết đột ngột Tiêu chảy nhẹ sau bữa ăn Ăn giảm, mệt ít Tiêu chảy rõ, nôn nhẹ Heo lờ đờ, đi lại yếu Nôn nhiều, tiêu chảy nước Đứng không vững, thở nhanh Co giật, chết đột ngột"
+  },
+  {
+    "id": "gastric_ulcer",
+    "name": "Viêm dạ dày loét",
+    "group": "digestive",
+    "severityLevel": 2,
+    "searchText": "Ăn giảm hoặc bỏ ăn nôn ói bọt trắng hoặc dịch trong Heo nằm nhiều, mệt Phân đen do xuất huyết dạ dày Gầy nhanh trong vài ngày Một số con chết đột ngột do xuất huyết nặng Ăn kém nhẹ Ói ít bọt Heo mệt nhẹ Ói bọt trắng rõ Giảm ăn, chậm lớn Phân hơi đen Ói nhiều Phân đen rõ Heo rất suy, nguy cơ chết"
+  },
+  {
+    "id": "enzyme_deficiency",
+    "name": "Thiếu men tiêu hoá",
+    "group": "digestive",
+    "severityLevel": 1,
+    "searchText": "Phân sống, lợn cợn thức ăn chưa tiêu Heo đói nhanh, ăn nhiều nhưng không lớn Bụng tóp, lông xỉu Thiếu biểu hiện bệnh nặng nhưng kéo dài Phân hơi sống Heo ăn nhiều, lớn chậm Phân sống rõ, thức ăn chưa tiêu Bụng tóp, lông xỉu Chậm lớn kéo dài Heo còi, xương sườn lộ rõ"
+  },
+  {
+    "id": "gastric_torsion",
+    "name": "Phình dạ dày cấp (torsion nhẹ)",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Chướng bụng rất nhanh Thở khó, thở nông Heo nằm nhiều, đứng dậy khó Nôn khan hoặc bọt trắng Da tái, mắt lờ đờ Có thể chết chỉ sau vài giờ Chướng nhẹ nhưng nhanh tăng Heo khó chịu, giảm ăn Bụng căng lớn Thở khó, nằm nhiều Chướng toàn bụng Thở rất nông Heo suy, nguy cơ tử vong cao"
+  },
+  {
+    "id": "tge",
+    "name": "Viêm dạ dày ruột truyền nhiễm (TGE)",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Nôn đột ngột Tiêu chảy nước xối Mất nước nhanh, mắt trũng Lạnh run, nằm tụm Heo con chết hàng loạt Nôn nhẹ Tiêu chảy loãng Tiêu chảy nhiều Mất nước Mất nước kiệt Chết nhanh"
+  },
+  {
+    "id": "ped",
+    "name": "Tiêu chảy cấp PED",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Nôn Tiêu chảy nước Mất nước rất nhanh Heo con lạnh, nằm dẹt Heo nái tiêu chảy nhẹ Nôn nhẹ Tiêu chảy loãng Tiêu chảy ồ ạt Mất nước Kiệt nước Chết nhanh ở heo con"
+  },
+  {
+    "id": "swine-dysentery",
+    "name": "Hồng lỵ (Swine dysentery)",
+    "group": "digestive",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy nhầy đặc, mùi hôi Có máu tươi hoặc sẫm Heo gầy nhanh, mất nước Bẩn quanh hậu môn Tỷ lệ chết tăng khi kéo dài Tiêu chảy loãng Nhầy máu rõ Gầy Kiệt nước Chết do suy sụp"
+  },
+  {
+    "id": "edema-disease",
+    "name": "Phù đầu - phù mặt sau cai sữa (Edema disease)",
+    "group": "digestive",
+    "severityLevel": 3,
+    "searchText": "Tiêu chảy xám nâu hoặc sẫm Heo gầy, nhợt nhạt Ăn kém, lớn chậm Một số con tiêu chảy máu nhẹ Tiêu chảy rải rác Lớn chậm Tiêu chảy kéo dài Gầy rõ Tiêu chảy sẫm/máu Suy kiệt hoặc chết đột ngột"
+  },
+  {
+    "id": "lawsonia-ileitis",
+    "name": "Viêm hồi tràng Lawsonia (Ileitis)",
+    "group": "digestive",
+    "severityLevel": 2,
+    "searchText": "Tiêu chảy xám nâu hoặc sẫm Heo gầy, nhợt nhạt Ăn kém, lớn chậm Một số con tiêu chảy máu nhẹ Tiêu chảy rải rác Lớn chậm Tiêu chảy kéo dài Gầy rõ Tiêu chảy sẫm/máu Suy kiệt hoặc chết đột ngột"
+  }
+]

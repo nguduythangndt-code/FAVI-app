@@ -1,0 +1,127 @@
+{
+  "id": "salmonellosis",
+  "name": "Tiêu chảy do Salmonella ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Salmonella gây tiêu chảy cấp, phân lẫn máu, mùi hôi khẳm, kèm sốt và suy kiệt nhanh. Dễ gây tử vong nếu không xử lý kịp, đặc biệt ở dê con và dê đang suy yếu.",
+
+  "causes": [
+    "Nhiễm Salmonella từ phân, nước ô nhiễm.",
+    "Chuồng trại dơ bẩn, ẩm thấp, nhiều ruồi.",
+    "Thức ăn mốc hoặc nhiễm phân chuột.",
+    "Suy miễn dịch: stress, lạnh, cai sữa."
+  ],
+
+  "risk_factors": [
+    "Dê con 1-4 tháng tuổi.",
+    "Thời tiết lạnh - ẩm.",
+    "Mật độ nuôi dày.",
+    "Chuồng ít nắng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt cao, bỏ ăn.",
+    "Tiêu chảy nước, hôi mạnh, có máu đỏ hoặc đen.",
+    "Bụng sôi, đau bụng, mất nước nhanh.",
+    "Dê lờ đờ, đứng tách đàn hoặc nằm nhiều.",
+    "Một số con chết nhanh trước khi thấy máu rõ."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân sệt, hôi hơn bình thường.",
+      "Sốt nhẹ - vừa."
+    ],
+    "moderate": [
+      "Tiêu chảy lỏng, mùi hôi sắc, có máu lẫn nhầy.",
+      "Bỏ ăn, nằm nhiều."
+    ],
+    "severe": [
+      "Tiêu chảy máu đỏ hoặc đen.",
+      "Mất nước nặng, đứng không nổi.",
+      "Sốc nhiễm trùng."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Florfenicol",
+      "Ceftiofur",
+      "Amoxicillin"
+    ],
+    "alternative_drugs": [
+      "Sulfa - trimethoprim",
+      "Enrofloxacin (chỉ dùng khi có thú y)",
+      "Colistin (khi nghi đồng nhiễm Gram âm đường ruột)"
+    ],
+    "note_drugs": [
+      "Không dùng doxycycline cho Salmonella (hiệu quả rất kém)."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá - probiotics",
+        "Thuốc bảo vệ niêm mạc ruột"
+      ]
+    },
+    "supportive_care": [
+      "Giữ ấm, khô, tránh gió lùa.",
+      "Tách dê bệnh, vệ sinh hậu môn sạch sẽ.",
+      "Nước sạch luôn có sẵn.",
+      "Không cho ăn thức ăn mốc."
+    ],
+    "dose_policy": [
+      "Kháng sinh mạnh phải dùng đúng nhãn hoặc theo thú y.",
+      "Không phối nhiều kháng sinh cùng lúc."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Tiêu chảy máu nhưng còn đứng, còn phản xạ.",
+      "guideline": [
+        "Dùng kháng sinh thuộc nhóm mạnh như florfenicol hoặc ceftiofur.",
+        "Điện giải liên tục.",
+        "Men tiêu hoá để ổn định niêm mạc."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê nằm, sốc nhiễm trùng, tiêu chảy máu nhiều.",
+      "guideline": [
+        "Cần thú y khẩn cấp.",
+        "Có thể cần truyền dịch để cứu tuần hoàn.",
+        "Kháng sinh tiêm mạnh theo chỉ định.",
+        "Hỗ trợ nâng cao + giữ ấm."
+      ]
+    },
+    "note": "Salmonella lan rất nhanh giữa dê con; xử lý 1 con thì phải kiểm soát toàn đàn."
+  },
+
+  "prevention": [
+    "Không để thức ăn nhiễm chuột - ruồi.",
+    "Vệ sinh chuồng sạch hằng ngày.",
+    "Nước uống phải thay mỗi ngày.",
+    "Tẩy giun và bổ sung vitamin định kỳ."
+  ],
+
+  "notes": [
+    "Salmonella dễ gây chết nếu chậm xử lý.",
+    "Phân máu + sốt cao = nghi Salmonella."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo."
+}

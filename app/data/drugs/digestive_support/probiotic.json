@@ -1,0 +1,48 @@
+{
+  "name": "Probiotic (men vi sinh)",
+
+  "mechanism": [
+    "Bổ sung lợi khuẩn đường ruột",
+    "Ổn định hệ vi sinh và giảm loạn khuẩn",
+    "Hỗ trợ hấp thu dinh dưỡng và cải thiện tiêu hoá"
+  ],
+
+  "clinical_uses": [
+    "Rối loạn tiêu hoá nhẹ đến vừa",
+    "Tiêu chảy do mất cân bằng hệ vi sinh",
+    "Sau khi dùng kháng sinh để phục hồi đường ruột"
+  ],
+
+  "advantages": [
+    "An toàn, dùng được cho mọi lứa tuổi",
+    "Ổn định hệ tiêu hoá mà không gây kích ứng",
+    "Thích hợp dùng dài ngày khi cần"
+  ],
+
+  "disadvantages": [
+    "Hiệu quả chậm hơn thuốc đặc trị",
+    "Không phù hợp cho ca tiêu chảy cấp nặng"
+  ],
+
+  "side_effects": [
+    "Hiếm gặp: đầy hơi nhẹ lúc mới dùng",
+    "Thường tự ổn sau 1-2 lần"
+  ],
+
+  "recommendations": [
+    "Dùng liên tục để ổn định hệ vi sinh",
+    "Kết hợp chất điện giải khi tiêu chảy",
+    "Không thay thế thuốc điều trị nguyên nhân chính"
+  ],
+
+  "contraindications": [
+    "Không có chống chỉ định đặc biệt",
+    "Thận trọng nếu dê đang nôn hoặc trướng hơi nặng"
+  ],
+
+  "alternatives": [
+    "Men tiêu hoá + vitamin",
+    "Pectin - Kaolin",
+    "Enzyme tiêu hoá (enzyme_mix)"
+  ]
+}

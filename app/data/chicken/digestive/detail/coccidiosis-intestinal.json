@@ -1,0 +1,106 @@
+{
+  "id": "coccidiosis-intestinal",
+  "name": "Cầu trùng ruột",
+  "species": "chicken",
+  "group": "digestive",
+  "summary": "Bệnh ký sinh trùng ở ruột non, làm gà tiêu chảy, chậm lớn, phân lẫn máu hoặc nhầy, thường gặp ở gà nuôi nền ẩm và mật độ cao.",
+  "causes": [
+    "Nhiễm Eimeria spp. ký sinh ở ruột non",
+    "Gà ăn phải noãn nang cầu trùng từ phân, nền chuồng, thức ăn, nước uống",
+    "Nền chuồng ẩm, bẩn, không được thay hoặc đảo thường xuyên"
+  ],
+  "risk_factors": [
+    "Nuôi nền đất, nền trấu ẩm, không phơi khô giữa các lứa",
+    "Mật độ nuôi dày, nhiều phân, ít dọn vệ sinh",
+    "Không dùng chương trình phòng cầu trùng (vaccine hoặc thuốc trộn cám) hợp lý",
+    "Gà stress do thay đổi thời tiết, thiếu dinh dưỡng, ghép đàn"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy, phân loãng, lẫn nhầy, đôi khi lẫn máu ít",
+    "Lông xù, gà đứng ủ rũ, tụm đám, giảm ăn, uống nước nhiều hơn",
+    "Chậm lớn, ngực nhọn, da nhăn, khung xương to nhưng thịt ít",
+    "Một số con thiếu máu, mào nhạt màu",
+    "Tỷ lệ chết không quá cao nếu không bội nhiễm, nhưng hao cám và kéo dài thời gian xuất bán"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân ướt hơn bình thường, có nhầy, gà hơi xù lông",
+      "Giảm ăn nhẹ, đàn vẫn còn hoạt động tương đối",
+      "Khó nhận ra nếu không quan sát kỹ phân và tốc độ tăng trọng"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, phân nhầy, đôi khi có vệt máu",
+      "Gà tụm đám, ít chạy nhảy, giảm ăn, uống nước nhiều",
+      "Chậm lớn thấy rõ, ngực nhọn, lông xấu"
+    ],
+    "severe": [
+      "Tiêu chảy nhiều, phân lẫn máu hoặc màu nâu sẫm",
+      "Gà gầy, thiếu máu, lờ đờ, nằm nhiều",
+      "Tỷ lệ chết tăng, đặc biệt nếu bội nhiễm vi khuẩn khác"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "toltrazuril",
+      "diclazuril"
+    ],
+    "alternative_drugs": [
+      "amprolium",
+      "sulfonamide_anticoccidial"
+    ],
+    "note_drugs": "Chỉ chọn một phác đồ chống cầu trùng chính và dùng liên tục đủ thời gian theo hướng dẫn. Không đổi thuốc liên tục giữa chừng vì dễ làm giảm hiệu quả và tăng nguy cơ kháng thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải pha nước để bù nước và điện giải",
+        "alternative": "điện giải có thêm vitamin C cho đàn suy yếu"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên nhóm B và K",
+        "alternative": "chế phẩm hỗ trợ tạo máu khi thiếu máu"
+      },
+      "digestive_support": {
+        "main": "men vi sinh, men tiêu hóa giúp phục hồi đường ruột",
+        "alternative": "chế phẩm bảo vệ niêm mạc ruột khi tiêu chảy kéo dài"
+      }
+    },
+    "supportive_care": [
+      "Giảm mật độ nuôi, tăng diện tích nền khô cho đàn nghỉ",
+      "Thay hoặc đảo chất độn chuồng để giảm ẩm và giảm số lượng noãn nang cầu trùng",
+      "Giữ nước sạch, đủ máng uống, tránh để phân rơi vào máng",
+      "Kiểm tra lại khẩu phần, tránh thức ăn kém chất lượng hoặc bị mốc",
+      "Theo dõi phân và thể trạng đàn mỗi ngày để đánh giá đáp ứng điều trị"
+    ],
+    "dose_policy": "Dùng thuốc chống cầu trùng theo đúng liều khuyến cáo trên nhãn hoặc tư vấn thú y. Không tự ý tăng mạnh liều hoặc kéo dài hơn nhiều so với hướng dẫn."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt mật độ cao, tiêu chảy nhiều, phân có máu, chậm lớn rõ.",
+      "guideline": "Áp dụng ngay phác đồ chống cầu trùng cho cả đàn, kết hợp điện giải và vitamin để gà nhanh hồi sức. Giảm mật độ, xử lý nền chuồng ẩm. Chấp nhận đàn tăng trưởng chậm hơn plan và tính toán lại thời điểm xuất bán cho phù hợp."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc đàn nuôi nhỏ, giá trị cao, có dấu hiệu cầu trùng nặng.",
+      "guideline": "Điều trị tích cực với thuốc chống cầu trùng và hỗ trợ đường ruột đầy đủ. Theo dõi sát từng nhóm tuổi, ghi chép lịch phát bệnh để điều chỉnh lại chương trình phòng cầu trùng (vaccine hoặc thuốc trộn cám) cho các lứa sau."
+    },
+    "note": "Cầu trùng thường tái lại nếu nền chuồng ẩm và chương trình phòng không được duy trì đều. Phòng tốt luôn rẻ hơn chữa."
+  },
+  "prevention": [
+    "Thiết kế nền chuồng khô, thoát nước tốt, tránh ẩm kéo dài",
+    "Áp dụng chương trình phòng cầu trùng bằng vaccine hoặc thuốc trộn thức ăn theo tư vấn",
+    "Đảo hoặc thay chất độn chuồng định kỳ, tránh tích tụ phân dày",
+    "Không nuôi quá dày, nhất là ở giai đoạn gà con - gà dò",
+    "Hạn chế nước văng ra nền, sửa rò rỉ ở hệ thống máng uống"
+  ],
+  "notes": [
+    "Gà có thể nhiễm nhiều loài Eimeria cùng lúc, nhưng hướng xử lý vẫn tập trung vào chống cầu trùng và hỗ trợ đường ruột.",
+    "Quan sát phân hằng ngày là cách đơn giản mà hiệu quả để phát hiện sớm cầu trùng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

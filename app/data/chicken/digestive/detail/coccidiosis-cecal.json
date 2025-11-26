@@ -1,0 +1,106 @@
+{
+  "id": "coccidiosis-cecal",
+  "name": "Cầu trùng manh tràng",
+  "species": "chicken",
+  "group": "digestive",
+  "summary": "Bệnh cầu trùng tập trung ở manh tràng, thường gây tiêu chảy máu rõ rệt, gà mất máu nhanh, gầy và chết nếu không xử lý kịp.",
+  "causes": [
+    "Nhiễm Eimeria tenella ký sinh chủ yếu ở manh tràng",
+    "Gà ăn phải noãn nang cầu trùng từ phân, nền chuồng, thức ăn, nước uống",
+    "Môi trường ẩm bẩn tạo điều kiện cho noãn nang tồn tại và phát tán"
+  ],
+  "risk_factors": [
+    "Nền chuồng ẩm ướt, phân dày, ít được dọn dẹp",
+    "Mật độ nuôi cao, ít thay chất độn, gà tiếp xúc phân thường xuyên",
+    "Không có biện pháp phòng cầu trùng ổn định",
+    "Đàn đang suy, thiếu dinh dưỡng, dễ tổn thương niêm mạc ruột"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy máu, phân đỏ, nâu sẫm hoặc lẫn máu cục, rất điển hình",
+    "Gà ủ rũ, xù lông, đứng một chỗ, mắt lim dim",
+    "Thiếu máu: mào, tích nhạt màu, da trắng bệch",
+    "Giảm ăn, uống nhiều nước, sụt cân nhanh",
+    "Tỷ lệ chết có thể cao nếu bùng lên mạnh và không xử lý đúng",
+    "Mổ khám: manh tràng sưng, chứa nhiều máu, thành dày"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân đôi lúc có vệt đỏ nhỏ, khó phân biệt với máu do lý do khác",
+      "Gà hơi xù lông, giảm linh hoạt, nhưng còn ăn tương đối"
+    ],
+    "moderate": [
+      "Phân máu rõ rệt, đỏ nâu hoặc lẫn máu cục, xảy ra ở nhiều con",
+      "Gà ủ rũ, tụm lại, giảm ăn, uống nước nhiều",
+      "Mào nhạt màu, thể trạng gầy đi nhanh"
+    ],
+    "severe": [
+      "Tiêu chảy máu nhiều, phân toàn máu hoặc cục máu",
+      "Gà rất yếu, nằm nhiều, khó đứng dậy",
+      "Tỷ lệ chết tăng rõ, nhất là ở gà con - gà dò"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "toltrazuril",
+      "diclazuril"
+    ],
+    "alternative_drugs": [
+      "amprolium",
+      "sulfonamide_anticoccidial"
+    ],
+    "note_drugs": "Bệnh cầu trùng manh tràng thường nặng, cần dùng thuốc chống cầu trùng đủ liều và sớm ngay khi phát hiện phân máu. Tránh dùng nhiều loại thuốc chống cầu trùng chồng lên nhau trong cùng thời điểm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải có thể thêm glucose để gà nhanh phục hồi",
+        "alternative": "điện giải kết hợp vitamin C cho đàn mất máu"
+      },
+      "vitamin": {
+        "main": "vitamin nhóm B và K hỗ trợ cầm máu và tạo máu",
+        "alternative": "chế phẩm hỗ trợ tạo máu khác nếu có"
+      },
+      "digestive_support": {
+        "main": "men vi sinh, men tiêu hóa khi giai đoạn tiêu chảy bắt đầu giảm",
+        "alternative": "chế phẩm bảo vệ niêm mạc ruột theo tư vấn"
+      }
+    },
+    "supportive_care": [
+      "Giảm mật độ, cho đàn nghỉ ở khu nền khô, sạch hơn",
+      "Dọn phân dày, thay chất độn ẩm bẩn, sát trùng khu vực nền",
+      "Đảm bảo nước sạch luôn sẵn, máng uống đủ số lượng",
+      "Quan sát phân hằng ngày để đánh giá diễn biến và thời điểm giảm thuốc",
+      "Theo dõi thể trạng, loại những con quá yếu, không hồi phục để giảm hao tổn"
+    ],
+    "dose_policy": "Tuân thủ đúng phác đồ chống cầu trùng được ghi trên nhãn, không tự rút ngắn liệu trình chỉ vì thấy phân hết máu sớm."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thương phẩm, cầu trùng manh tràng bùng lên, phân máu nhiều, chết tăng nhanh.",
+      "guideline": "Điều trị cầu trùng cho cả đàn, kết hợp điện giải, vitamin B và K. Xử lý nền chuồng thật kỹ để giảm mầm bệnh. Sau khi qua đỉnh bệnh, đánh giá lại tốc độ tăng trọng để tính chuyện kéo dài thời gian nuôi hoặc xuất bán sớm ở mức chấp nhận được."
+    },
+    "case_type_2": {
+      "description": "Đàn giống nhỏ, gà giá trị cao, xuất hiện cầu trùng manh tràng nặng.",
+      "guideline": "Tập trung chăm sóc theo nhóm nhỏ, theo dõi từng nhóm tuổi. Áp dụng phác đồ chống cầu trùng đầy đủ, hỗ trợ tạo máu, bù nước. Sau đợt bệnh, xem lại chương trình phòng cầu trùng và vệ sinh nền chuồng, điều chỉnh để tránh tái lại."
+    },
+    "note": "Cầu trùng manh tràng là dạng dễ nhìn thấy vì phân máu rõ, nhưng cũng gây mất máu nhanh. Phát hiện sớm quyết định nhiều đến kết quả."
+  },
+  "prevention": [
+    "Phòng cầu trùng từ sớm bằng vaccine hoặc thuốc trộn cám theo chương trình ổn định",
+    "Giữ nền chuồng khô, đảo hoặc thay chất độn định kỳ",
+    "Không để nước tràn ra nền, sửa các điểm rò rỉ ở máng hoặc đường ống",
+    "Không nuôi quá dày, hạn chế để gà nằm trực tiếp trên lớp phân dày",
+    "Sát trùng khoảng trống giữa các lứa, kết hợp phơi nắng nếu có điều kiện"
+  ],
+  "notes": [
+    "Phân máu không phải lúc nào cũng do cầu trùng, nhưng cầu trùng manh tràng là nguyên nhân rất thường gặp.",
+    "Kết hợp quan sát phân, thể trạng và nếu có thể, mổ vài con điển hình để chắc chắn hơn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

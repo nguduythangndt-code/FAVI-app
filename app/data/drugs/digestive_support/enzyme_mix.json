@@ -1,0 +1,46 @@
+{
+  "name": "Enzyme tiêu hoá",
+
+  "mechanism": [
+    "Bổ sung enzyme giúp phân giải tinh bột, đạm và chất xơ",
+    "Giảm áp lực lên dạ dày - ruột trong giai đoạn tiêu hoá kém"
+  ],
+
+  "clinical_uses": [
+    "Chậm tiêu, ăn kém do hệ tiêu hoá yếu",
+    "Rối loạn tiêu hoá sau thay đổi thức ăn",
+    "Hỗ trợ tiêu hoá cho dê con hoặc dê stress"
+  ],
+
+  "advantages": [
+    "Tác dụng nhanh hơn men vi sinh trong ca kém tiêu",
+    "Giảm đầy bụng và hỗ trợ hấp thu dinh dưỡng"
+  ],
+
+  "disadvantages": [
+    "Không tác dụng trong ca nhiễm khuẩn tiêu hoá nặng",
+    "Dùng lâu có thể giảm khả năng tự tiết enzyme"
+  ],
+
+  "side_effects": [
+    "Đầy hơi nhẹ lúc đầu",
+    "Hiếm: kích ứng tiêu hoá thoáng qua"
+  ],
+
+  "recommendations": [
+    "Dùng ngắn ngày khi cần hỗ trợ tiêu hoá",
+    "Kết hợp probiotic để ổn định hệ vi sinh",
+    "Theo dõi phân trong 24-48 giờ"
+  ],
+
+  "contraindications": [
+    "Không dùng khi dê đang tiêu chảy cấp nặng",
+    "Tránh dùng trong ca nghi ngờ xuất huyết tiêu hoá"
+  ],
+
+  "alternatives": [
+    "Probiotic",
+    "Men tiêu hoá + vitamin",
+    "Pectin - Kaolin"
+  ]
+}

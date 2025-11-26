@@ -1,0 +1,41 @@
+{
+  "id": "amikacin",
+  "name": "Amikacin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm aminoglycoside có phổ mạnh trên nhiều vi khuẩn Gram âm. Thuốc hỗ trợ tốt trong những ca nhiễm trùng nặng hơn, đặc biệt khi các lựa chọn khác đáp ứng kém.",
+  "clinical_uses": [
+    "Tiêu chảy nặng kèm sốt, nghi do vi khuẩn Gram âm.",
+    "Một số ca nhiễm trùng tiết niệu hoặc nhiễm trùng mô mềm nặng.",
+    "Các ca nhiễm khuẩn toàn thân cần một kháng sinh mạnh, theo đánh giá thú y."
+  ],
+  "pros": [
+    "Hiệu lực cao trên nhiều chủng Gram âm.",
+    "Có thể hữu ích khi các kháng sinh thông thường không còn hiệu quả tốt.",
+    "Phù hợp dùng ngắn ngày trong ca nặng cần hỗ trợ mạnh."
+  ],
+  "cons": [
+    "Cần đặc biệt chú ý tới chức năng thận trong quá trình sử dụng.",
+    "Không phải lựa chọn dùng rộng rãi cho ca nhẹ.",
+    "Cần được dùng dưới sự tư vấn chặt chẽ của bác sĩ thú y."
+  ],
+  "mild_side_effects": [
+    "Con vật có thể mệt hơn trong thời gian dùng thuốc.",
+    "Giảm ăn nhẹ.",
+    "Đau hoặc cứng nhẹ tại vị trí tiêm."
+  ],
+  "usage_recommendations": [
+    "Thích hợp cho các ca được đánh giá là nặng hoặc có nguy cơ cao.",
+    "Nên kết hợp với chăm sóc hỗ trợ: bù nước, điện giải, dinh dưỡng.",
+    "Luôn tuân thủ hướng dẫn chuyên môn, không tự ý kéo dài thời gian điều trị."
+  ],
+  "when_not_to_use": [
+    "Thú suy thận hoặc mất nước nhiều chưa được can thiệp thích hợp.",
+    "Các ca nhẹ, có thể đáp ứng tốt với những kháng sinh an toàn hơn.",
+    "Không dùng cho cả đàn, chỉ cân nhắc trên từng cá thể cần thiết."
+  ],
+  "alternative_drugs": [
+    "Enrofloxacin trong một số ca nhiễm khuẩn nặng do Gram âm.",
+    "Florfenicol hoặc ceftiofur tùy theo đánh giá của bác sĩ thú y.",
+    "Gentamicin trong những trường hợp cần aminoglycoside nhưng mức độ nhẹ hơn."
+  ]
+}

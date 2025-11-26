@@ -1,0 +1,111 @@
+{
+  "id": "feed_poisoning",
+  "name": "Ngộ độc thức ăn",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Ngộ độc thức ăn xảy ra khi heo ăn phải thức ăn mốc, ôi thiu hoặc bị nhiễm độc. Heo tiêu chảy, ói, yếu nhanh và có thể chết nếu nặng.",
+  "causes": [
+    "Thức ăn mốc chứa độc tố nấm (aflatoxin, fumonisin)",
+    "Thức ăn ôi thiu hoặc nhiễm khuẩn",
+    "Nước uống bị nhiễm bẩn hoặc tảo độc",
+    "Heo ăn phải chất tẩy rửa hoặc hóa chất do lẫn trong máng"
+  ],
+  "risk_factors": [
+    "Thức ăn bảo quản kém",
+    "Kho chứa ẩm, có chuột",
+    "Không kiểm soát nguồn nước uống",
+    "Dùng thức ăn cũ còn sót từ hôm trước"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy nước hoặc phân thối",
+    "Nôn ói sau khi ăn",
+    "Heo mệt nhiều, đứng không vững",
+    "Thở nhanh, mắt lờ đờ",
+    "Có thể co giật nếu ngộ độc nặng",
+    "Một số con chết đột ngột"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tiêu chảy nhẹ sau bữa ăn",
+      "Ăn giảm, mệt ít"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, nôn nhẹ",
+      "Heo lờ đờ, đi lại yếu"
+    ],
+    "severe": [
+      "Nôn nhiều, tiêu chảy nước",
+      "Đứng không vững, thở nhanh",
+      "Co giật, chết đột ngột"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Vitamin B1",
+      "Men tiêu hoá"
+    ],
+    "alternative_drugs": [
+      "Than hoạt tính"
+    ],
+    "note_drugs": "Vitamin B1 hỗ trợ thần kinh và gan. Than hoạt tính giúp hấp phụ độc tố nếu cho dùng sớm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Ngừng ngay thức ăn nghi ngờ",
+      "Cho uống nhiều nước sạch",
+      "Giữ heo nơi thoáng và mát",
+      "Theo dõi dấu hiệu thần kinh"
+    ],
+    "dose_policy": "Dùng đúng theo nhãn hoặc hướng dẫn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo nôn nhẹ, tiêu chảy nhưng còn tỉnh.",
+      "guideline": [
+        "Cho uống than hoạt tính sớm",
+        "Điện giải thường xuyên",
+        "Theo dõi 1-2 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Nôn dữ dội, tiêu chảy nước, co giật nhẹ.",
+      "guideline": [
+        "Giữ heo tránh ngã",
+        "Bù nước lập tức",
+        "Liên hệ thú y nếu xuất hiện co giật hoặc thở yếu"
+      ]
+    },
+    "note": "Nếu nhiều con cùng triệu chứng sau bữa ăn, cần kiểm tra toàn bộ thức ăn và nước uống."
+  },
+  "prevention": [
+    "Bảo quản thức ăn khô ráo",
+    "Không dùng thức ăn mốc hoặc có mùi lạ",
+    "Không dùng nước ao tù cho heo uống",
+    "Vệ sinh máng ăn uống trước bữa"
+  ],
+  "notes": [
+    "Ngộ độc nhẹ thường hồi phục nhanh khi đổi nguồn thức ăn.",
+    "Không để thức ăn tồn từ ngày trước sang ngày sau."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,100 @@
+{
+  "id": "general-stress-syndrome",
+  "name": "Hội chứng stress tổng hợp",
+  "species": "chicken",
+  "group": "other",
+  "summary": "Gà bị nhiều yếu tố stress chồng lên nhau như tiếng ồn, bắt bế, thay đổi khẩu phần, thời tiết, làm đàn suy, giảm đẻ, dễ bùng bệnh khác.",
+  "causes": [
+    "Vận chuyển, bắt bế, chuyển chuồng, nhập đàn",
+    "Tiếng ồn, người và động vật lạ ra vào thường xuyên",
+    "Thay đổi đột ngột khẩu phần, nguồn cám, lịch chiếu sáng",
+    "Thời tiết thay đổi mạnh, nóng lạnh thất thường"
+  ],
+  "risk_factors": [
+    "Quản lý đàn thiếu ổn định, thay đổi nhiều thứ cùng lúc",
+    "Chuồng gần đường lớn, công trường, khu ồn ào",
+    "Thường xuyên có người lạ, chó mèo ra vào chuồng",
+    "Không có lịch cố định cho cho ăn, thu trứng, vệ sinh"
+  ],
+  "clinical_signs_detailed": [
+    "Đàn kém sung, hoạt động không đều, dễ hoảng loạn",
+    "Giảm ăn, chậm lớn, tỷ lệ đồng đều kém",
+    "Đàn đẻ giảm sản lượng hoặc sản lượng thất thường",
+    "Dễ bùng thêm bệnh hô hấp, tiêu hóa, ký sinh trùng",
+    "Một số con mổ cắn lông nhau, tăng hành vi xấu"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đàn dễ giật mình, chạy tán loạn khi có tiếng động",
+      "Tăng trưởng, đẻ có dao động nhẹ nhưng khó nhận nếu không ghi chép"
+    ],
+    "moderate": [
+      "Giảm ăn, chậm lớn, sản lượng đẻ giảm rõ",
+      "Dễ bùng một số bệnh cơ hội khi thời tiết xấu",
+      "Tăng hành vi xấu như mổ lông, mổ cánh"
+    ],
+    "severe": [
+      "Đàn rất khó quản lý, hay dạt, hoảng loạn",
+      "Nhiều bệnh chồng lên nhau, hiệu quả dùng thuốc kém",
+      "Kinh tế đàn giảm mạnh, khó kéo trở lại ổn định"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": "Stress tổng hợp không có thuốc đặc hiệu. Trọng tâm là ổn định hệ thống: khẩu phần, lịch chăm sóc, môi trường, tiếng ồn. Thuốc chỉ dùng khi có bệnh cụ thể đi kèm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "áp dụng phác đồ hô hấp khi có triệu chứng rõ ràng",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin-complex",
+        "alternative": ""
+      },
+      "digestive_support": {
+        "main": "probiotic",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Ổn định lịch cho ăn, thu trứng, vệ sinh, hạn chế thay đổi đột ngột",
+      "Giảm tiếng ồn, hạn chế người lạ, động vật lạ ra vào khu chuồng",
+      "Không thay cám, thay lịch chiếu sáng, dời chuồng cùng một lúc",
+      "Theo dõi biểu đồ tăng trưởng, sản lượng để đánh giá mức độ stress",
+      "Khi cần can thiệp (tiêm, bắt bế), nên làm gọn, tránh kéo dài nhiều ngày"
+    ],
+    "dose_policy": "Các sản phẩm hỗ trợ (vitamin, men vi sinh) dùng đúng liều, theo đợt ngắn có mục tiêu, không dùng kéo dài vô hướng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thịt quản lý lộn xộn, hay đổi cám, đổi chuồng, hiệu quả nuôi thấp.",
+      "guideline": "Xây lại quy trình cơ bản: lịch cho ăn, đổi cám, vệ sinh. Giảm bớt các thay đổi không cần thiết. Ghi chép lại để thấy rõ tác động của việc ổn định quy trình."
+    },
+    "case_type_2": {
+      "description": "Đàn đẻ hoặc đàn giống giảm đẻ, bùng bệnh vặt liên tục do stress.",
+      "guideline": "Rà soát lại toàn bộ hệ thống quản lý: ánh sáng, tiếng ồn, người ra vào, lịch chăm sóc. Đặt mục tiêu tối thiểu hóa thay đổi trong giai đoạn đỉnh đẻ. Phối hợp thú y để xử lý từng bệnh cụ thể nhưng vẫn giữ nguyên tắc ổn định đàn."
+    },
+    "note": "Stress tổng hợp là nền để nhiều bệnh khác phát triển. Giảm được stress, mọi phác đồ khác đều hiệu quả hơn."
+  },
+  "prevention": [
+    "Thiết lập lịch chăm sóc rõ ràng và giữ ổn định",
+    "Giảm tiếng ồn và động vật lạ quanh khu chuồng",
+    "Lập kế hoạch thay cám, chuyển chuồng, tiêm phòng theo từng bước",
+    "Đào tạo người chăm sóc để thao tác với đàn bình tĩnh, dứt khoát",
+    "Theo dõi đàn bằng mắt và bằng số liệu để kịp thời điều chỉnh"
+  ],
+  "notes": [
+    "Nhiều trại nhỏ bị stress tổng hợp nhưng chỉ nhìn thấy các bệnh lẻ tẻ phía trên.",
+    "Khi sửa được nền quản lý, nhiều vấn đề khác tự giảm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

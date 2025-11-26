@@ -1,0 +1,41 @@
+{
+  "id": "cephalexin",
+  "name": "Cephalexin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm cephalosporin thế hệ 1, tác động chủ yếu lên vi khuẩn Gram dương. Phù hợp các ca viêm da, viêm mô mềm và nhiễm trùng nhẹ đến vừa.",
+  "clinical_uses": [
+    "Viêm da, chốc lở, áp xe nhỏ.",
+    "Nhiễm trùng mô mềm mức độ nhẹ - trung bình.",
+    "Viêm khớp nhẹ hoặc viêm rốn ở gia súc non."
+  ],
+  "pros": [
+    "An toàn và dễ dung nạp.",
+    "Phù hợp điều trị các ca ngoài da - mô mềm.",
+    "Tác dụng ổn định nếu dùng đủ thời gian."
+  ],
+  "cons": [
+    "Không mạnh với Gram âm.",
+    "Không phù hợp ca nặng toàn thân.",
+    "Hiệu quả phụ thuộc tuân thủ thời gian dùng thuốc."
+  ],
+  "mild_side_effects": [
+    "Hơi buồn nôn hoặc giảm ăn nhẹ.",
+    "Con vật hơi mệt.",
+    "Phân hơi mềm."
+  ],
+  "usage_recommendations": [
+    "Phù hợp các ca nhẹ hoặc trung bình.",
+    "Theo dõi vùng da tổn thương mỗi 1-2 ngày.",
+    "Dùng đầy đủ thời gian theo hướng dẫn để tránh tái phát."
+  ],
+  "when_not_to_use": [
+    "Nhiễm trùng nặng lan rộng.",
+    "Nghi ngờ Gram âm hoặc Mycoplasma.",
+    "Không dùng để phòng bệnh."
+  ],
+  "alternative_drugs": [
+    "Amoxicillin.",
+    "Ceftiofur nếu ca nặng hơn.",
+    "Oxytetracycline."
+  ]
+}

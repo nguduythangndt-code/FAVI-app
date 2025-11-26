@@ -1,0 +1,41 @@
+{
+  "name": "Fenbendazole",
+  "mechanism": [
+    "Thuốc nhóm benzimidazole",
+    "Ức chế tạo vi ống, làm giun bất động rồi chết",
+    "Hiệu lực tốt trên nhiều loại giun tròn"
+  ],
+  "clinical_uses": [
+    "Giun đũa, giun tóc, giun móc, giun bao tử",
+    "Hỗ trợ kiểm soát ký sinh trùng ở dê nuôi nhốt",
+    "Một số hiệu lực trên sán dây"
+  ],
+  "advantages": [
+    "Phổ rộng, an toàn",
+    "Ít tác dụng phụ",
+    "Dùng được cho đàn nhiều cá thể"
+  ],
+  "disadvantages": [
+    "Có thể kém hiệu quả nếu vùng chăn nuôi đã kháng nhóm benzimidazole",
+    "Không phải thuốc mạnh cho sán gan"
+  ],
+  "side_effects": [
+    "Giảm ăn nhẹ",
+    "Lừ đừ 12-24 giờ",
+    "Hiếm: tiêu chảy nhẹ do giun chết"
+  ],
+  "recommendations": [
+    "Luân phiên với levamisole hoặc ivermectin để giảm kháng",
+    "Tẩy giun theo định kỳ, kết hợp vệ sinh chuồng trại",
+    "Theo dõi phân 1-2 ngày sau khi dùng"
+  ],
+  "contraindications": [
+    "Không dùng khi dê đang mất nước nặng",
+    "Dê suy kiệt cần hồi sức trước"
+  ],
+  "alternatives": [
+    "Albendazole",
+    "Levamisole",
+    "Ivermectin"
+  ]
+}

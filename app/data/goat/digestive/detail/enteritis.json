@@ -1,0 +1,144 @@
+{
+  "id": "enteritis",
+  "name": "Viêm ruột tiêu chảy ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Viêm ruột tiêu chảy ở dê là tình trạng niêm mạc ruột bị kích ứng hoặc nhiễm khuẩn, gây phân lỏng, mất nước và suy yếu. Gặp nhiều ở dê con, dê cai sữa và dê trưởng thành sau khi thay đổi thức ăn hoặc thời tiết đột ngột.",
+
+  "causes": [
+    "Thay đổi khẩu phần quá nhanh, tăng tinh bột đột ngột.",
+    "Thức ăn mốc, ôi thiu, lên men mạnh hoặc nhiễm độc tố nấm.",
+    "Nước uống bẩn nhiễm E.coli, Salmonella hoặc tạp khuẩn.",
+    "Ký sinh trùng đường ruột gây tổn thương niêm mạc.",
+    "Lạnh, mưa kéo dài, stress, vận chuyển xa làm giảm đề kháng."
+  ],
+
+  "risk_factors": [
+    "Dê con dưới 3 tháng tuổi.",
+    "Chuồng ẩm, nền bẩn, phân tích tụ lâu ngày.",
+    "Khẩu phần mất cân đối: quá nhiều tinh, thiếu xơ.",
+    "Cho ăn phụ phẩm lên men mạnh (bỗng, hèm, bã bia) mà không làm quen dần.",
+    "Đàn đang suy, thiếu khoáng - vitamin."
+  ],
+
+  "clinical_signs_detailed": [
+    "Tiêu chảy từ sệt sang lỏng, mùi hôi, có thể lẫn nhầy.",
+    "Bụng sôi, khó chịu, đi lại nhiều, tỳ bụng vào máng hoặc vách.",
+    "Giảm ăn, nhai lại ít hoặc mất.",
+    "Lông xù, gầy nhanh, mất nước (mắt trũng, da nhăn).",
+    "Một số trường hợp nặng: nằm nhiều, yếu, phân nước bắn tia."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân sệt, tăng số lần đi ngoài.",
+      "Ăn giảm nhẹ nhưng vẫn còn đứng, còn theo đàn.",
+      "Nhai lại giảm nhưng chưa mất hẳn."
+    ],
+    "moderate": [
+      "Tiêu chảy lỏng rõ, phân bết quanh hậu môn.",
+      "Ăn ít, hay nằm, phản ứng chậm hơn bình thường.",
+      "Mất nước nhẹ - trung bình: mắt trũng, da khô.",
+      "Nhai lại rất ít hoặc mất trong nhiều giờ."
+    ],
+    "severe": [
+      "Tiêu chảy nước nhiều lần/ngày, mùi rất hôi.",
+      "Mất nước nặng, mắt trũng sâu, da nhăn rõ.",
+      "Yếu, đứng không nổi, thân nhiệt có thể hạ.",
+      "Nguy cơ sốc và tử vong nếu không xử lý kịp."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Colistin đường uống (đường ruột Gram âm).",
+      "Amoxicillin hoặc amox-coli cho ca nghi nhiễm E.coli.",
+      "Sulfa đường ruột (sulfa - trimethoprim…).",
+      "Men tiêu hoá - probiotics để phục hồi hệ vi sinh.",
+      "Thuốc hấp phụ độc tố: than hoạt, bentonite, smectite."
+    ],
+    "alternative_drugs": [
+      "Florfenicol (khi nghi nhiễm khuẩn nặng, dùng theo hướng dẫn thú y).",
+      "Enrofloxacin (chỉ dùng khi thật cần và theo thú y).",
+      "Điện giải B-complex uống hỗ trợ hồi phục.",
+      "Thảo dược cầm tiêu chảy an toàn cho dạ cỏ."
+    ],
+    "note_drugs": [
+      "Không lạm dụng kháng sinh mạnh khi chưa rõ nguyên nhân.",
+      "Hạn chế dùng corticoid trong ca tiêu chảy vì dễ làm nặng thêm nhiễm khuẩn."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Ketoprofen",
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải",
+        "Điện giải khoáng tổng hợp"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "Vitamin B1",
+        "B-complex",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá - probiotics",
+        "Chế phẩm bảo vệ niêm mạc ruột"
+      ]
+    },
+    "supportive_care": [
+      "Ngừng toàn bộ thức ăn tinh trong giai đoạn tiêu chảy nặng.",
+      "Chỉ cho ăn cỏ khô chất lượng tốt, từng ít một.",
+      "Giữ chuồng ấm, khô, tránh gió lùa và nền lạnh.",
+      "Tách dê bệnh sang ô riêng để dễ theo dõi và tránh lây nhiễm.",
+      "Luôn có nước sạch, ấm vừa phải để dê dễ uống."
+    ],
+    "dose_policy": [
+      "Tất cả thuốc phải dùng đúng liều và thời gian trên nhãn hoặc theo hướng dẫn bác sĩ thú y.",
+      "Không tự ý phối hợp nhiều loại kháng sinh khi chưa có tư vấn chuyên môn."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê tiêu chảy nặng nhưng còn đứng, còn phản xạ.",
+      "guideline": [
+        "Bù điện giải tích cực (ORS, gluco - điện giải).",
+        "Dùng colistin hoặc sulfa đường ruột theo nhãn.",
+        "Kết hợp men tiêu hoá và thuốc hấp phụ độc tố.",
+        "Theo dõi mức độ tiêu chảy, nước tiểu, thân nhiệt mỗi 3-4 giờ."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê nằm, mất nước nặng, mắt trũng sâu, phản ứng rất chậm.",
+      "guideline": [
+        "Cần bác sĩ thú y thăm khám trực tiếp.",
+        "Có thể phải truyền dịch tĩnh mạch hoặc dưới da.",
+        "Florfenicol hoặc amoxicillin chỉ nên dùng theo chỉ định thú y.",
+        "Giữ ấm cơ thể, xoay trở nhẹ để tránh loét và nghẹt mạch."
+      ]
+    },
+    "note": "Trong ca nặng, bù nước - điện giải là ưu tiên hàng đầu; thuốc chỉ phát huy tác dụng khi tuần hoàn được cải thiện."
+  },
+
+  "prevention": [
+    "Chuyển đổi thức ăn từ từ trong 3-5 ngày, không thay đột ngột.",
+    "Không cho dê ăn thức ăn mốc, hư, lên men quá mạnh.",
+    "Đảm bảo nước uống sạch, máng nước không bị dẫm bẩn.",
+    "Dọn phân, giữ chuồng khô và thoáng khí.",
+    "Tẩy giun định kỳ để giảm gánh nặng ký sinh trùng đường ruột."
+  ],
+
+  "notes": [
+    "Tiêu chảy kéo dài vài ngày đã đủ để dê tụt thể trạng rõ rệt.",
+    "Không chỉ tập trung cầm tiêu chảy mà quên bù nước và dinh dưỡng.",
+    "Nếu điều trị 48 giờ không cải thiện, nên gọi thú y."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
+}

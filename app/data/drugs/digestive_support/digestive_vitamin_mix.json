@@ -1,0 +1,47 @@
+{
+  "name": "Men tiêu hoá + Vitamin",
+
+  "mechanism": [
+    "Kết hợp enzyme tiêu hoá và vitamin nhóm B",
+    "Tăng chuyển hoá năng lượng và hỗ trợ phục hồi niêm mạc ruột",
+    "Cải thiện hấp thu dinh dưỡng"
+  ],
+
+  "clinical_uses": [
+    "Rối loạn tiêu hoá kéo dài",
+    "Dê ăn uống kém, thể trạng yếu",
+    "Hỗ trợ phục hồi sau bệnh đường ruột"
+  ],
+
+  "advantages": [
+    "Hỗ trợ tiêu hoá và phục hồi thể trạng cùng lúc",
+    "Phù hợp dùng cho dê con hoặc dê mới cai sữa"
+  ],
+
+  "disadvantages": [
+    "Không thay thế được thuốc điều trị đặc hiệu",
+    "Hiệu quả chậm hơn trong ca tiêu chảy cấp"
+  ],
+
+  "side_effects": [
+    "Có thể gây đầy hơi nhẹ",
+    "Hiếm gặp kích ứng tiêu hoá"
+  ],
+
+  "recommendations": [
+    "Dùng liền 3-5 ngày để ổn định tiêu hoá",
+    "Kết hợp probiotic để tối ưu hiệu quả",
+    "Theo dõi ăn uống mỗi ngày"
+  ],
+
+  "contraindications": [
+    "Không dùng cho ca nhiễm khuẩn nặng mà chưa điều trị nguyên nhân",
+    "Dừng nếu dê đầy hơi tăng dần"
+  ],
+
+  "alternatives": [
+    "Probiotic",
+    "Enzyme tiêu hoá",
+    "Pectin - Kaolin"
+  ]
+}

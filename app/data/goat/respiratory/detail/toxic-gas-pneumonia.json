@@ -1,0 +1,137 @@
+{
+  "id": "toxic-gas-pneumonia",
+  "name": "Viêm phổi do khí độc (NH₃, H₂S) ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm phổi do khí độc xảy ra khi dê hít phải nồng độ cao NH₃, H₂S và các khí độc khác từ phân, nước tiểu, hầm biogas rò rỉ. Gây kích ứng mạnh đường hô hấp, phù phổi, khó thở cấp, có thể chết nhanh nếu tiếp xúc nặng.",
+
+  "causes": [
+    "Chuồng nuôi ít thông thoáng, phân - nước tiểu tích tụ lâu ngày sinh nhiều NH₃.",
+    "Hầm biogas rò rỉ khí H₂S vào khu vực chuồng.",
+    "Dê bị nhốt trong không gian kín, ít lưu thông không khí.",
+    "Nền ướt, độ ẩm cao, vệ sinh chuồng kém."
+  ],
+
+  "risk_factors": [
+    "Chuồng thấp, trần thấp, lỗ thông gió ít.",
+    "Không dọn phân, nước tiểu thường xuyên.",
+    "Hầm biogas đặt sát chuồng, không kiểm tra rò rỉ.",
+    "Mùa mưa kéo dài, độ ẩm cao, ít nắng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Thở nhanh, thở nông, thở gấp.",
+    "Ho khan, kích ứng, hắt hơi.",
+    "Chảy nước mũi trong hoặc bọt, sau có thể đục.",
+    "Đứng há mồm thở, cổ vươn dài.",
+    "Một số con đột ngột nằm, co giật, chết nếu hít phải khí nồng độ cao.",
+    "Các con nhẹ hơn có thể chuyển thành viêm phổi - phế quản do nhiễm khuẩn kế phát."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Thở nhanh nhẹ, ho khan ít.",
+      "Nước mũi trong, mắt hơi đỏ.",
+      "Ăn giảm nhẹ."
+    ],
+    "moderate": [
+      "Thở gấp, thở nông, thỉnh thoảng há mồm thở.",
+      "Ho nhiều hơn, chảy nước mũi trong - đục.",
+      "Đứng tách đàn, lờ đờ, ăn giảm rõ."
+    ],
+    "severe": [
+      "Khó thở cấp, vươn cổ, há mồm thở.",
+      "Mắt đỏ, niêm mạc tím.",
+      "Có thể ngã, co giật, chết đột ngột nếu nồng độ khí rất cao.",
+      "Những con sống sót dễ bị viêm phổi nặng về sau."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Florfenicol",
+      "Ceftiofur",
+      "Cefquinome"
+    ],
+    "alternative_drugs": [
+      "Doxycycline hoặc tylosin cho ca nhẹ - vừa sau khi đã thoát khỏi môi trường khí độc.",
+      "Enrofloxacin cho trường hợp nặng theo chỉ định thú y."
+    ],
+    "note_drugs": [
+      "Giải quyết NGUỒN KHÍ ĐỘC quan trọng không kém dùng thuốc, nếu không bệnh sẽ tái liên tục.",
+      "Tránh dùng corticoid tuỳ tiện vì có thể làm tăng nguy cơ nhiễm khuẩn thứ phát."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Ketoprofen",
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "Gluco - điện giải",
+        "ORS"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho những con bỏ ăn, gầy nhanh."
+      ]
+    },
+    "supportive_care": [
+      "ĐƯA ĐÀN RA KHỎI KHU VỰC CÓ KHÍ ĐỘC NGAY LẬP TỨC.",
+      "Mở rộng thông thoáng, tăng đối lưu không khí.",
+      "Dọn phân - nước tiểu, xử lý nền ẩm, khử mùi khai.",
+      "Kiểm tra hầm biogas, đường ống, quạt hút (nếu có).",
+      "Giữ ấm, tránh để dê bị lạnh khi đang khó thở."
+    ],
+    "dose_policy": [
+      "Kháng sinh mạnh dùng đúng liều, đúng thời gian theo nhãn hoặc hướng dẫn thú y.",
+      "Không tự ý phối hợp 2-3 loại kháng sinh mạnh cùng lúc."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê thở gấp, ho nhiều nhưng còn đứng, còn phản xạ.",
+      "guideline": [
+        "Lập tức chuyển ra khu vực thoáng khí, sạch.",
+        "Dùng florfenicol/ceftiofur/cefquinome theo nhãn.",
+        "Kết hợp chống viêm, thuốc ho - long đờm, vitamin C.",
+        "Bù điện giải, theo dõi nhịp thở và màu niêm mạc."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê thở ngáp, tím niêm mạc, nằm, có dấu hiệu suy hô hấp cấp.",
+      "guideline": [
+        "Loại bỏ ngay khỏi vùng khí độc, giữ đầu - cổ thẳng.",
+        "Gọi thú y khẩn cấp, có thể cần oxy hỗ trợ nếu điều kiện cho phép.",
+        "Kháng sinh phổ mạnh + hồi sức bằng điện giải, thuốc trợ tim - hô hấp theo chỉ định.",
+        "Giữ ấm, xoay trở nhẹ, tránh để dê nằm một tư thế lâu."
+      ]
+    },
+    "note": "Những ca chết hàng loạt đột ngột ở chuồng kín, mùi khai nặng, thường liên quan tới khí độc và thông thoáng kém; cần xử lý gốc chứ không chỉ tập trung vào thuốc."
+  },
+
+  "prevention": [
+    "Thiết kế chuồng cao, nhiều cửa thông gió, không bí hơi.",
+    "Dọn phân - nước tiểu hằng ngày, không để ứ đọng lâu.",
+    "Kiểm tra hầm biogas định kỳ, tránh rò khí vào chuồng.",
+    "Không nhốt dê ở khu vực thấp trũng, kín, không có gió.",
+    "Khi bước vào chuồng thấy mùi khai nồng, cay mắt, phải coi đó là tín hiệu nguy hiểm cho cả người lẫn dê."
+  ],
+
+  "notes": [
+    "Khí độc không chỉ làm viêm phổi mà còn làm suy toàn bộ sức đề kháng đàn dê.",
+    "Chuồng nào giảm được mùi khai - khí độc, chuồng đó giảm được một nửa bệnh hô hấp."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
+}

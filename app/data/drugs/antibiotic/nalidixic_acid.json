@@ -1,0 +1,41 @@
+{
+  "id": "nalidixic_acid",
+  "name": "Nalidixic acid",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh thuộc nhóm quinolone đời đầu, hỗ trợ kiểm soát một số vi khuẩn Gram âm gây bệnh đường ruột ở gia súc.",
+  "clinical_uses": [
+    "Tiêu chảy mức độ nhẹ - trung bình ở dê, heo, bê con.",
+    "Các ca rối loạn tiêu hóa nghi có yếu tố vi khuẩn.",
+    "Hỗ trợ trong giai đoạn đầu tiêu chảy."
+  ],
+  "pros": [
+    "Dễ tiếp cận và chi phí thấp.",
+    "Phù hợp các ca nhẹ - trung bình.",
+    "Dạng uống tiện cho điều trị theo đàn."
+  ],
+  "cons": [
+    "Không phù hợp ca nặng hoặc mất nước mạnh.",
+    "Hiệu lực thấp hơn quinolone thế hệ mới.",
+    "Không phải lựa chọn cho nhiễm khuẩn toàn thân."
+  ],
+  "mild_side_effects": [
+    "Phân mềm.",
+    "Ăn giảm nhẹ.",
+    "Mệt nhẹ."
+  ],
+  "usage_recommendations": [
+    "Thích hợp dùng sớm khi tiêu chảy vừa xuất hiện.",
+    "Kết hợp điện giải - men vi sinh để _phục hồi nhanh hơn_.",
+    "Dùng đúng hướng dẫn trên nhãn sản phẩm."
+  ],
+  "when_not_to_use": [
+    "Thú mất nước nặng hoặc quá yếu.",
+    "Ca bệnh kéo dài nhiều ngày.",
+    "Không dùng để phòng bệnh thường xuyên."
+  ],
+  "alternative_drugs": [
+    "Oxytetracycline.",
+    "Neomycin.",
+    "Sulfa TMP."
+  ]
+}

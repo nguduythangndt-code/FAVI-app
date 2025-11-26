@@ -1,0 +1,58 @@
+{
+  "name": "Viêm phổi ổ úm nặng (Brooder pneumonia/Aspergillosis)",
+  "summary": "Bệnh nấm Aspergillus gây viêm phổi cấp ở gà úm, chết nhanh nếu ổ úm ẩm mốc.",
+  "causes": [
+    "Nấm Aspergillus fumigatus từ chất độn, cám mốc",
+    "Hít bào tử nấm trong ổ úm"
+  ],
+  "risk_factors": [
+    "Chất độn ẩm, mốc",
+    "Ổ úm bí, thiếu thông khí",
+    "Cám/máy úm bị mốc"
+  ],
+  "clinical_signs_detailed": [
+    "Thở gấp, thở há miệng",
+    "Vươn cổ, khò khè",
+    "Gà tụm, chết nhanh",
+    "Nhiều con chết mà không kịp tiêu chảy"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Khò khè nhẹ", "Ăn giảm"],
+    "moderate": ["Thở gấp rõ", "Tụm đàn"],
+    "severe": ["Thở há miệng, ngã lăn", "Chết nhanh"]
+  },
+  "treatment": {
+    "primary_drugs": ["Itraconazole"],
+    "alternative_drugs": ["Nystatin"],
+    "note_drugs": "Viêm phổi ổ úm là aspergillosis, điều trị khó; ưu tiên thuốc kháng nấm + xử lý nguồn mốc.",
+    "symptomatic_treatment": {
+      "respiratory_support": { "main": "nebulizer nước muối ấm", "alternative": [] },
+      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+    },
+    "supportive_care": [
+      "Thay toàn bộ chất độn khô sạch",
+      "Tăng thông gió ổ úm",
+      "Loại bỏ cám mốc",
+      "Giữ nhiệt ổn định"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Gà thở há miệng nhưng còn đứng"],
+      "guideline": ["Kháng nấm sớm", "Ổ úm thoáng - khô"]
+    },
+    "case_type_2": {
+      "description": ["Chết nhanh lan trong ổ úm"],
+      "guideline": ["Xử lý mốc là chính", "Thay chất độn - cám", "Khử trùng ổ úm"]
+    },
+    "note": "Nếu không dọn mốc tận gốc thì thuốc không kịp cứu."
+  },
+  "prevention_list": [
+    "Chất độn luôn khô sạch, không dùng trấu mốc",
+    "Ổ úm thoáng khí",
+    "Cám bảo quản kín, không mốc"
+  ],
+  "notes": ["Bệnh thường bùng trong 3-10 ngày tuổi."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

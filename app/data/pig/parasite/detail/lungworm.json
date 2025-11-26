@@ -1,0 +1,106 @@
+{
+  "id": "lungworm",
+  "name": "Giun phổi",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Giun phổi gây ho từng cơn, thở khó và chậm lớn. Heo ăn giảm và dễ bị ghép viêm phổi do vi khuẩn.",
+  "causes": [
+    "Nhiễm ấu trùng giun phổi qua đất hoặc phân",
+    "Trứng và ấu trùng sống lâu trong môi trường ẩm",
+    "Heo nuôi nền đất hoặc nền ẩm dễ nhiễm"
+  ],
+  "risk_factors": [
+    "Nền chuồng ẩm",
+    "Không dọn phân đều",
+    "Heo nuôi thả hoặc bán thả",
+    "Không tẩy giun định kỳ"
+  ],
+  "clinical_signs_detailed": [
+    "Ho khan kéo dài",
+    "Thở nặng, thở bụng",
+    "Heo lớn chậm, ăn giảm",
+    "Lông xỉu, mắt lờ đờ",
+    "Có thể nghe ran khi ghép viêm phổi"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ từng lúc",
+      "Heo ăn giảm ít"
+    ],
+    "moderate": [
+      "Ho kéo dài, thở mệt",
+      "Gầy dần"
+    ],
+    "severe": [
+      "Thở khó rõ, nằm nhiều",
+      "Heo rất yếu",
+      "Dễ ghép viêm phổi và chết"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin"
+    ],
+    "alternative_drugs": [
+      "Albendazole"
+    ],
+    "note_drugs": "Ivermectin hiệu quả nhất cho giun phổi. Albendazole có thể dùng thay thế.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng ấm, tránh gió lùa",
+      "Dọn phân hằng ngày",
+      "Theo dõi heo ho kéo dài để tách chăm riêng"
+    ],
+    "dose_policy": "Dùng theo nhãn hoặc hướng dẫn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo ho nhiều nhưng còn ăn.",
+      "guideline": [
+        "Dùng Ivermectin",
+        "Hỗ trợ hô hấp",
+        "Theo dõi 2-3 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo thở bụng, yếu, nằm nhiều.",
+      "guideline": [
+        "Giữ ấm tuyệt đối",
+        "Điện giải và vitamin",
+        "Tách heo ra chuồng khô, sạch"
+      ]
+    },
+    "note": "Heo thường ho kéo dài sau điều trị, cần kiên nhẫn theo dõi."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ",
+    "Giữ nền chuồng khô",
+    "Không nuôi heo nền đất ẩm"
+  ],
+  "notes": [
+    "Heo thường ho từng cơn vào sáng sớm.",
+    "Bệnh dễ ghép viêm phổi do vi khuẩn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

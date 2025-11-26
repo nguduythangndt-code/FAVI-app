@@ -1,0 +1,86 @@
+[
+  {
+    "id": "app",
+    "name": "Viêm phổi - màng phổi (APP)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt cao đột ngột Thở bụng, thở đứng, há miệng Ho khan hoặc ho tiếng gắt Nằm bẹp, bỏ ăn nhanh Tai tím, đầu tím khi suy hô hấp Một số con chết đột ngột Sốt nhẹ Ho đôi lúc Thở nhanh Ho khan rõ Ăn kém Thở bụng nặng, đứng chống chân Tai tím, nằm bẹp Nguy cơ chết cao"
+  },
+  {
+    "id": "mycoplasma",
+    "name": "Viêm phổi địa phương (Mycoplasma)",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho kéo dài nhiều tuần Thở khò khè nhẹ Ăn giảm, tăng trọng kém Đầu trễ, hoạt động ít Một số con sốt nhẹ Ho nhẹ Ăn vẫn khá Ho nhiều hơn khi thay đổi nhiệt độ Thở khò khè rõ Lớn chậm Heo gầy, ho liên tục Thở bụng nhẹ Tụt trọng kéo dài"
+  },
+  {
+    "id": "prrs",
+    "name": "Hội chứng rối loạn sinh sản và hô hấp (PRRS)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Heo con thở nhanh, yếu Ho, mệt, nằm nhiều Da tím tai, mũi Sốt nhẹ hoặc dao động Nái sảy thai, đẻ non Heo con sinh ra yếu, run Ho nhẹ Ăn giảm ít Thở nhanh, yếu Nái rối loạn sinh sản Da tím Nằm bẹp Heo con chết cao"
+  },
+  {
+    "id": "swine_influenza",
+    "name": "Cúm heo (Swine Influenza)",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Sốt cao 40-41 Ho khan mạnh Chảy mũi, mắt đỏ nhẹ Ăn giảm nhanh, nằm nhiều Thở mạnh hoặc thở bụng Ho nhẹ Ăn giảm ít Sốt cao Ho nhiều, thở nhanh Nằm bẹp Thở bụng mạnh Mất nước do sốt"
+  },
+  {
+    "id": "pasteurella",
+    "name": "Viêm phổi do Pasteurella",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Sốt vừa đến cao Ho ướt, có đờm Thở nhanh, thở bụng Nằm nhiều, ăn giảm rõ Một số con tím tai, yếu nhanh Ho ít, hơi sốt Ăn giảm nhẹ Ho nhiều, thở nhanh Nằm nhiều hơn, lớn chậm Thở bụng, nằm bẹp Tai tím, nguy cơ chết cao Dễ ghép với tụ huyết trùng, PRRS"
+  },
+  {
+    "id": "streptococcus_pneumonia",
+    "name": "Viêm phổi do Streptococcus",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Sốt cao Ho, thở nhanh Ăn giảm, mệt, nằm nhiều Một số con cứng khớp, đi loạng choạng Có thể thần kinh: xoay vòng, co giật nếu nhiễm trùng nặng Sốt nhẹ Ho ít Ăn giảm nhẹ Sốt cao rõ Thở nhanh, ho ướt Heo nằm nhiều Rất mệt, thở nặng Có thể kèm thần kinh và viêm khớp Nguy cơ chết cao nếu không can thiệp"
+  },
+  {
+    "id": "bordetella",
+    "name": "Suyễn heo (Bordetella bronchiseptica)",
+    "group": "respiratory",
+    "severityLevel": 1,
+    "searchText": "Ho khan kéo dài Thở khò khè, đặc biệt khi vận động Heo hít mạnh, có tiếng khịt mũi Tăng trưởng chậm, gầy dần Một số con mặt hơi biến dạng do tổn thương xoang mũi Ho ít, đôi lúc khịt mũi Ăn uống còn bình thường Ho nhiều khi vận động, khi có bụi Thở khò khè rõ Lớn chậm Suyễn mạn, thở nặng Heo gầy, tăng trọng rất kém Có thể biến dạng mũi"
+  },
+  {
+    "id": "pasteurellosis",
+    "name": "Tụ huyết trùng (thể hô hấp)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn đột ngột Thở khó, thở há mồm Tai, mõm và da tím tái Ho, chảy dịch mũi có bọt hoặc máu Một số con chết rất nhanh, không kịp điều trị Sốt nhẹ, ăn giảm Ho ít, thở nhanh nhẹ Sốt cao rõ Thở nặng, ho nhiều Tai hơi tím Tím tai, tím mõm Nằm bẹp, thở bụng mạnh Nguy cơ chết đột ngột"
+  },
+  {
+    "id": "salmonella_respiratory",
+    "name": "Phó thương hàn thể hô hấp",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Sốt vừa đến cao Ho, thở nhanh, thỉnh thoảng thở nặng Tiêu chảy hoặc phân nhão, có khi lẫn máu nhẹ Heo mệt, ăn giảm, nằm nhiều Gầy nhanh nếu bệnh kéo dài Sốt nhẹ, ho ít Phân mềm hơn bình thường Ho, thở nhanh Tiêu chảy hoặc phân nhão rõ Ăn giảm Sốt cao, thở nặng Tiêu chảy kéo dài, mùi hôi Heo gầy nhanh, yếu rõ"
+  },
+  {
+    "id": "pcv2_respiratory",
+    "name": "PCV2 thể hô hấp",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Ho kéo dài, thở nhanh hoặc thở bụng Heo gầy sút kéo dài dù ăn không quá kém Lông dựng, xấu, da nhợt Có thể sưng hạch bẹn, hạch cổ Một số con kèm tiêu chảy hoặc triệu chứng khác Ho ít, lông hơi xấu Ăn vẫn bình thường Ho kéo dài, thở nhanh nhẹ Gầy dần, lớn chậm Lông dựng, da nhợt Thở nặng, ho nhiều Rất gầy, không tăng trọng Dễ ghép thêm bệnh khác và chết"
+  },
+  {
+    "id": "glassers-disease",
+    "name": "Bệnh Glässer (Glaesserella parasuis)",
+    "group": "respiratory",
+    "severityLevel": 3,
+    "searchText": "Sốt cao, bỏ ăn Thở khó, ho Đi khập khiễng do viêm khớp Bụng chướng nhẹ, đau Nhiều con chết đột ngột Sốt, ho nhẹ Thở khó, khớp đau Nằm liệt, tím tái, chết nhanh"
+  },
+  {
+    "id": "mycoplasma-hyorhinis",
+    "name": "Viêm đa màng - viêm khớp Mycoplasma hyorhinis",
+    "group": "respiratory",
+    "severityLevel": 2,
+    "searchText": "Sốt nhẹ, ăn kém Đi cà nhắc, khớp sưng Thở nhanh nhẹ Heo gầy, chậm lớn Có thể viêm màng phổi, màng tim Ăn giảm Đi hơi cứng Khớp sưng đau Sốt nhẹ Nằm nhiều, poliserositis Gầy nhanh"
+  }
+]

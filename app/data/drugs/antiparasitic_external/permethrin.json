@@ -1,0 +1,44 @@
+{
+  "name": "Permethrin",
+  "mechanism": [
+    "Thuốc nhóm cúc tổng hợp (pyrethroid)",
+    "Tác động lên kênh natri của hệ thần kinh ký sinh trùng, gây tê liệt rồi chết",
+    "Hiệu quả tốt trên ve, rận, chấy, bọ ve ngoài da"
+  ],
+  "clinical_uses": [
+    "Phòng và hỗ trợ điều trị ve, rận, chấy, bọ ve bám trên da và lông dê",
+    "Giảm mật độ ký sinh trùng ngoài để hạn chế truyền bệnh máu, nhiễm trùng da",
+    "Có thể dùng phun chuồng trại, khu vực xung quanh (theo hướng dẫn từng chế phẩm)"
+  ],
+  "advantages": [
+    "Hiệu lực tốt trên đa số ký sinh trùng ngoài",
+    "Tồn lưu tương đối khá trên bề mặt da, lông tuỳ dạng chế phẩm",
+    "Chi phí thường không quá cao"
+  ],
+  "disadvantages": [
+    "Không diệt được ký sinh trùng bên trong cơ thể (chỉ ngoài da)",
+    "Hiệu lực giảm nếu tắm, mưa nhiều ngay sau khi dùng (với dạng phun/xịt)",
+    "Một số cá thể có thể nhạy cảm với pyrethroid"
+  ],
+  "side_effects": [
+    "Kích ứng da nhẹ, ngứa, liếm gãi nhiều ở một số con",
+    "Nếu liếm nhiều có thể chảy dãi, mệt, run cơ nhẹ",
+    "Hiếm gặp: phản ứng dị ứng mạnh, cần ngừng thuốc và gọi thú y"
+  ],
+  "recommendations": [
+    "Dùng đúng mục đích, đúng cách (nhỏ gáy, phun da, phun chuồng...) theo nhãn",
+    "Tránh để thuốc dính vào mắt, niêm mạc, vết thương hở lớn",
+    "Hạn chế để dê liếm nhiều vùng vừa xử lý thuốc",
+    "Luôn tuân thủ hướng dẫn trên nhãn hoặc tư vấn thú y về khoảng cách dùng lại"
+  ],
+  "contraindications": [
+    "Không dùng cho mèo và tránh để mèo tiếp xúc vùng có permethrin (nếu nuôi chung)",
+    "Thận trọng với dê con quá nhỏ hoặc dê suy kiệt, mất nước nặng",
+    "Không phun quá liều hoặc trộn chồng chéo nhiều chế phẩm pyrethroid khác nhau"
+  ],
+  "alternatives": [
+    "Cypermethrin hoặc Deltamethrin - cùng nhóm pyrethroid",
+    "Amitraz - một lựa chọn khác cho ve, ghẻ ngoài da (có nguy cơ an thần)",
+    "Fipronil hoặc Imidacloprid - tuỳ chế phẩm, mục tiêu và tư vấn thú y"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "gout",
+  "name": "Gout, tích urat",
+  "species": "chicken",
+  "group": "other",
+  "summary": "Rối loạn chuyển hóa và đào thải acid uric làm muối urat lắng đọng ở nội tạng hoặc khớp, gây chết nhanh hoặc chân sưng đau, đi lại kém.",
+  "causes": [
+    "Chức năng thận bị tổn thương do bệnh, độc tố hoặc mất nước",
+    "Khẩu phần đạm quá cao, mất cân đối, uống nước kém",
+    "Sử dụng một số thuốc không phù hợp, kéo dài, gây ảnh hưởng thận",
+    "Bệnh nhiễm trùng toàn thân nặng gây tổn thương nội tạng"
+  ],
+  "risk_factors": [
+    "Cám đạm cao, không thiết kế cho gà ở giai đoạn hiện tại",
+    "Nước uống bẩn, ít, hoặc máng nước không đủ",
+    "Nhiễm độc từ nấm mốc, hóa chất trong thức ăn",
+    "Đàn có bệnh nền về thận, nhiễm trùng nặng kéo dài"
+  ],
+  "clinical_signs_detailed": [
+    "Thể cấp nội tạng: gà chết nhanh, khi mổ thấy nhiều mảng trắng như vôi bám trên tim, gan, thận, màng bao nội tạng",
+    "Thể khớp: khớp chân, ngón chân sưng, nóng, gà đi khập khiễng",
+    "Ăn kém, gầy, lông xấu, phân có thể trắng nhiều urat",
+    "Đôi khi gà nằm nhiều do đau khớp, không muốn di chuyển"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Khó nhận, có thể chỉ thấy vài con đi hơi khập khiễng",
+      "Phân trắng nhiều hơn bình thường ở một số con"
+    ],
+    "moderate": [
+      "Nhiều con chân sưng, đi khó, khớp to",
+      "Gà ăn kém, gầy dần, lông xấu",
+      "Một số con chết, khi mổ thấy lấm tấm urat trắng trong nội tạng"
+    ],
+    "severe": [
+      "Chết rải rác hoặc hàng loạt với tổn thương urat nặng trong nội tạng",
+      "Nhiều con không đứng nổi, nằm nhiều, chân sưng đau",
+      "Đàn suy mạnh, hiệu quả nuôi rất kém"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": "Gout chủ yếu cần điều chỉnh khẩu phần, nước uống và xử lý nguyên nhân làm hỏng thận. Thuốc chỉ hỗ trợ, không có loại nào đảo ngược hoàn toàn tổn thương nặng.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin-complex",
+        "alternative": ""
+      },
+      "digestive_support": {
+        "main": "",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Giảm mức đạm trong khẩu phần, dùng cám đúng giai đoạn",
+      "Đảm bảo nước uống luôn sạch, đủ và dễ tiếp cận",
+      "Giảm hoặc thay nguồn thức ăn nghi ngờ nhiễm nấm mốc, độc tố",
+      "Loại thải những con quá nặng, không đi lại được",
+      "Kiểm tra lại lịch dùng thuốc để tránh các loại gây hại thận kéo dài"
+    ],
+    "dose_policy": "Nếu dùng thuốc hỗ trợ thận hoặc giảm đau, luôn tuân thủ liều trên nhãn hoặc hướng dẫn thú y. Không tự ý phối hợp nhiều loại thuốc mạnh."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thịt chết rải rác, mổ thấy urat phủ nội tạng.",
+      "guideline": "Điều chỉnh ngay khẩu phần, giảm đạm, cải thiện nước uống. Dừng hoặc thay nguồn cám nghi ngờ. Làm việc với thú y để đánh giá các yếu tố độc tố và xây phác đồ hỗ trợ thích hợp."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc gà cảnh có nhiều con chân sưng, đi khập khiễng do gout.",
+      "guideline": "Giảm đạm, điều chỉnh khẩu phần cho phù hợp với mức độ vận động thực tế. Chọn lọc loại thải những con nặng để giảm đau đớn và tránh duy trì đàn yếu. Theo dõi tác động của điều chỉnh khẩu phần trong vài tuần."
+    },
+    "note": "Gout là cảnh báo về dinh dưỡng và môi trường, không chỉ là vấn đề thuốc."
+  },
+  "prevention": [
+    "Thiết kế khẩu phần đạm phù hợp từng giai đoạn nuôi",
+    "Đảm bảo nước uống đủ và sạch, không để gà thiếu nước",
+    "Hạn chế dùng thức ăn ẩm mốc, bảo quản cám tốt",
+    "Không lạm dụng thuốc có nguy cơ hại thận khi không cần thiết",
+    "Theo dõi mổ khám định kỳ để phát hiện sớm dấu hiệu urat"
+  ],
+  "notes": [
+    "Khi thấy nhiều mảng trắng như vôi trong bụng gà chết, nên nghĩ đến gout.",
+    "Gout kéo dài sẽ bào mòn hiệu quả nuôi mà không phải lúc nào cũng thấy từ bên ngoài."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

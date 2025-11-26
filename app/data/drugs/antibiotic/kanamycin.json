@@ -1,0 +1,41 @@
+{
+  "id": "kanamycin",
+  "name": "Kanamycin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm aminoglycoside, hỗ trợ kiểm soát các vi khuẩn Gram âm bằng cách làm rối loạn quá trình tổng hợp protein của vi khuẩn.",
+  "clinical_uses": [
+    "Một số ca tiêu chảy do nghi ngờ vi khuẩn Gram âm ở gia súc.",
+    "Hỗ trợ trong các ca viêm ruột, rối loạn tiêu hóa nặng hơn ở bê, nghé, dê con.",
+    "Một số trường hợp nhiễm trùng mô mềm có yếu tố Gram âm tham gia."
+  ],
+  "pros": [
+    "Tác dụng tương đối mạnh trên nhiều vi khuẩn Gram âm.",
+    "Thích hợp cho những ca tiêu hóa hoặc nhiễm trùng mô mềm nặng hơn mức độ nhẹ.",
+    "Có thể dùng cho nhiều loài nếu tuân thủ đúng hướng dẫn."
+  ],
+  "cons": [
+    "Cần lưu ý chức năng thận nếu điều trị trong nhiều ngày.",
+    "Không phải lựa chọn đầu tay cho ca nhẹ, đơn giản.",
+    "Không phù hợp dùng đơn thuần cho bệnh hô hấp."
+  ],
+  "mild_side_effects": [
+    "Giảm ăn nhẹ trong quá trình điều trị.",
+    "Con vật có thể mệt hơn bình thường.",
+    "Đau nhẹ tại vị trí tiêm."
+  ],
+  "usage_recommendations": [
+    "Thường được cân nhắc khi tiêu chảy trở nên nặng hơn hoặc kéo dài.",
+    "Nên kết hợp với bù nước, điện giải và chăm sóc chung.",
+    "Tuân thủ liều lượng và thời gian sử dụng theo nhãn hoặc bác sĩ thú y."
+  ],
+  "when_not_to_use": [
+    "Thú đang mất nước nặng cần được truyền dịch trước.",
+    "Những trường hợp suy thận hoặc có tiền sử bệnh thận nên được đánh giá kỹ.",
+    "Không nên dùng với mục đích phòng bệnh đại trà."
+  ],
+  "alternative_drugs": [
+    "Gentamicin trong các ca tương tự, khi bác sĩ thấy phù hợp.",
+    "Enrofloxacin hoặc florfenicol khi nghi ngờ nhiễm khuẩn nặng, toàn thân.",
+    "Sulfonamide kết hợp trimethoprim trong các ca tiêu chảy mức độ trung bình."
+  ]
+}

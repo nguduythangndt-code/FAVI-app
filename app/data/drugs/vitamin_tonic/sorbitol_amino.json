@@ -1,0 +1,48 @@
+{
+  "name": "Sorbitol + Acid amin",
+
+  "mechanism": [
+    "Sorbitol hỗ trợ chức năng gan và tăng đào thải độc",
+    "Acid amin giúp tái tạo tế bào và phục hồi thể trạng",
+    "Giảm gánh nặng chuyển hoá cho gan"
+  ],
+
+  "clinical_uses": [
+    "Dê mới khỏi bệnh nặng, cần phục hồi",
+    "Dê dùng nhiều thuốc có chuyển hoá qua gan",
+    "Đàn có dấu hiệu mệt, gầy, lông xấu do nuôi dưỡng và bệnh"
+  ],
+
+  "advantages": [
+    "Kết hợp giải độc gan và phục hồi cơ thể",
+    "Phù hợp dùng cho dê sau đợt điều trị kéo dài",
+    "Hỗ trợ tăng sức ăn"
+  ],
+
+  "disadvantages": [
+    "Không thay thế điều trị bệnh gan cấp",
+    "Cần dùng theo đợt mới thấy hiệu quả"
+  ],
+
+  "side_effects": [
+    "Thỉnh thoảng tiêu hoá hơi lỏng",
+    "Hiếm: mệt nhẹ sau khi dùng"
+  ],
+
+  "recommendations": [
+    "Dùng trong giai đoạn hồi phục",
+    "Kết hợp khẩu phần đủ đạm - khoáng",
+    "Theo dõi cân nặng và mức độ ăn uống"
+  ],
+
+  "contraindications": [
+    "Dê suy gan rất nặng chưa được bác sĩ đánh giá",
+    "Không dùng như thuốc duy nhất trong ca ngộ độc cấp"
+  ],
+
+  "alternatives": [
+    "Hepetol",
+    "Liver + kidney tonic",
+    "Amino peptide phục hồi"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "tetracycline",
+  "name": "Tetracycline",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm tetracycline, ức chế quá trình tổng hợp protein của vi khuẩn. Thuốc có phổ tương đối rộng trên vi khuẩn Gram dương, Gram âm và một số tác nhân gây bệnh khác.",
+  "clinical_uses": [
+    "Một số ca viêm phổi nhẹ ở gia súc.",
+    "Nhiễm trùng hỗn hợp đường hô hấp - tiêu hóa mức độ nhẹ - trung bình.",
+    "Hỗ trợ trong các ca viêm da, viêm mô mềm không quá nặng."
+  ],
+  "pros": [
+    "Giá thành tương đối dễ chịu, dễ tiếp cận.",
+    "Dùng được cho nhiều loài vật nuôi khi tuân thủ đúng hướng dẫn.",
+    "Phù hợp cho những ca không quá nặng, cần một kháng sinh phổ rộng cơ bản."
+  ],
+  "cons": [
+    "Hiệu quả thấp hơn so với oxytetracycline hoặc doxycycline trong một số trường hợp.",
+    "Nếu dùng đường uống có thể gây khó chịu tiêu hóa ở một số con.",
+    "Không phải lựa chọn tối ưu cho ca nặng, kéo dài lâu ngày."
+  ],
+  "mild_side_effects": [
+    "Tiêu phân mềm hơn bình thường.",
+    "Ăn uống có thể giảm nhẹ trong thời gian dùng thuốc.",
+    "Hiếm hơn, một số con có thể nhạy cảm hơn với ánh nắng mạnh."
+  ],
+  "usage_recommendations": [
+    "Thường được cân nhắc cho ca nhẹ - trung bình, trước khi phải chuyển sang thuốc mạnh hơn.",
+    "Nếu dùng đường uống, nên cho kèm thức ăn hoặc nước đầy đủ để hạn chế kích ứng.",
+    "Không nên kéo dài quá thời gian khuyến cáo nếu không đánh giá lại tình trạng bệnh."
+  ],
+  "when_not_to_use": [
+    "Thú non rất nhỏ đang trong giai đoạn phát triển xương và răng mạnh.",
+    "Các trường hợp suy gan nặng cần được bác sĩ kiểm tra kỹ.",
+    "Không dùng như phương tiện phòng bệnh cho đàn khỏe."
+  ],
+  "alternative_drugs": [
+    "Oxytetracycline cho gia súc lớn cần hiệu lực rõ hơn.",
+    "Doxycycline trong các ca hô hấp hoặc bệnh kéo dài cần hấp thu tốt.",
+    "Amoxicillin cho những ca nhẹ, dễ dung nạp hơn."
+  ]
+}

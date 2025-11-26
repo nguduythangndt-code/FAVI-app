@@ -1,0 +1,103 @@
+{
+  "id": "haemoproteus-infection",
+  "name": "Nhiễm Haemoproteus",
+  "species": "chicken",
+  "group": "blood_parasite",
+  "summary": "Ký sinh trùng máu Haemoproteus lây qua côn trùng hút máu, thường gây bệnh âm ỉ, làm gà xanh xao, chậm lớn và giảm sức đề kháng.",
+  "causes": [
+    "Ký sinh trùng máu Haemoproteus spp.",
+    "Truyền qua côn trùng hút máu như dĩn, muỗi nhỏ, ve mềm",
+    "Đàn sống trong khu vực nhiều chim hoang, côn trùng và không được bảo vệ tốt"
+  ],
+  "risk_factors": [
+    "Chuồng gần nơi có nhiều chim hoang, tổ chim, cây rậm",
+    "Nhiều côn trùng hút máu hoạt động mạnh quanh chuồng",
+    "Không có biện pháp giảm côn trùng hoặc xử lý môi trường",
+    "Đàn dinh dưỡng kém, thiếu vitamin, dễ suy khi nhiễm ký sinh trùng máu"
+  ],
+  "clinical_signs_detailed": [
+    "Gà ủ rũ, ít vận động, lông xấu",
+    "Mào, tích nhạt màu, dấu hiệu thiếu máu kéo dài",
+    "Giảm ăn, chậm lớn, không đạt trọng lượng mong muốn",
+    "Đàn đẻ giảm sản lượng, trứng nhỏ hơn bình thường",
+    "Nếu nặng, gà yếu, dễ mắc bệnh hô hấp, tiêu hóa kế phát"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà kém sung, giảm hoạt động, khó phát hiện nếu không cân hoặc theo dõi kỹ",
+      "Mào hơi nhạt, lông bớt bóng"
+    ],
+    "moderate": [
+      "Thiếu máu vừa, mào nhạt, gà gầy, lông xấu",
+      "Giảm ăn, giảm tăng trọng, đàn đẻ giảm sản lượng rõ"
+    ],
+    "severe": [
+      "Thiếu máu nặng, gà rất gầy, suy, nằm nhiều",
+      "Dễ mắc nhiều bệnh khác cùng lúc do sức đề kháng giảm",
+      "Chết rải rác nếu điều kiện nuôi không được cải thiện"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "thuoc_ky_sinh_trung_mau_theo_tu_van_thu_y"
+    ],
+    "alternative_drugs": [
+      "doxycycline",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Không có một phác đồ cố định chung cho mọi trại, cần tham khảo thú y để chọn thuốc ký sinh trùng máu phù hợp. Kháng sinh có thể được dùng kèm để giảm nguy cơ nhiễm khuẩn kế phát ở những đàn suy nhiều.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải giúp đàn suy đỡ mệt và bù nước",
+        "alternative": "điện giải có thêm glucose trong vài ngày đầu"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp và khoáng, ưu tiên vitamin nhóm B, sắt và các chất hỗ trợ tạo máu",
+        "alternative": "chế phẩm tăng sức đề kháng cho đàn suy"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để đàn ăn và tiêu hóa tốt hơn",
+        "alternative": "khẩu phần dễ tiêu, nâng chất lượng thức ăn trong giai đoạn bệnh"
+      }
+    },
+    "supportive_care": [
+      "Giảm stress, hạn chế di chuyển đàn hoặc ghép đàn trong giai đoạn bệnh",
+      "Đảm bảo chuồng khô, sạch, không quá ẩm và không bí khí",
+      "Tăng cường dinh dưỡng, có thể chia nhỏ bữa ăn để gà ăn được nhiều hơn",
+      "Áp dụng biện pháp giảm côn trùng hút máu quanh khu chuồng",
+      "Theo dõi lâu dài thể trạng và hiệu quả điều trị, vì bệnh có thể kéo dài"
+    ],
+    "dose_policy": "Dùng thuốc theo liều khuyến cáo, không tự ý tăng liều hoặc kéo dài quá nhiều ngày so với hướng dẫn trên nhãn hoặc chỉ định thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thịt lớn, nhìn rất gầy, xanh xao, nghi nhiễm ký sinh trùng máu kéo dài.",
+      "guideline": "Áp dụng phác đồ thuốc ký sinh trùng máu theo tư vấn, tăng điện giải, vitamin, men vi sinh. Điều chỉnh mật độ, giảm stress và cải thiện chất lượng thức ăn. Chấp nhận rằng tốc độ tăng trọng sẽ chậm hơn kế hoạch ban đầu."
+    },
+    "case_type_2": {
+      "description": "Đàn giống, nuôi lâu năm, bị suy dần do ký sinh trùng máu.",
+      "guideline": "Điều trị, kết hợp đánh giá lại sức khỏe đàn giống. Có thể cần loại thải dần những con quá suy, khó hồi phục. Tăng cường công tác phòng côn trùng và quản lý dinh dưỡng, đặc biệt vitamin và khoáng cho đàn giữ lâu."
+    },
+    "note": "Haemoproteus thường tồn tại âm ỉ. Quản lý dinh dưỡng và môi trường tốt sẽ quyết định nhiều đến khả năng đàn chịu đựng bệnh."
+  },
+  "prevention": [
+    "Giảm côn trùng hút máu xung quanh chuồng bằng vệ sinh và biện pháp cơ học",
+    "Không đặt chuồng sát các điểm tập trung chim hoang, tổ chim, bụi rậm",
+    "Giữ chuồng sạch, khô, thoáng, hạn chế góc tối ẩm cho côn trùng trú",
+    "Bổ sung vitamin và khoáng trong các giai đoạn thời tiết khắc nghiệt",
+    "Theo dõi thể trạng đàn định kỳ, đặc biệt với đàn nuôi lâu năm"
+  ],
+  "notes": [
+    "Với người nuôi nhỏ lẻ, nhiều khi không phân biệt rõ các loại ký sinh trùng máu, nhưng cách xử lý và phòng vẫn xoay quanh dinh dưỡng và côn trùng.",
+    "Ghi chép thời điểm đàn bắt đầu suy là cách tốt để đánh giá lại môi trường và chương trình phòng bệnh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

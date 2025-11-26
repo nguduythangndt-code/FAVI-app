@@ -1,0 +1,117 @@
+{
+  "id": "skin_infection",
+  "name": "Nhiễm trùng da",
+  "species": "cattle",
+  "group": "other",
+
+  "summary": "Nhiễm trùng da gây sưng, đỏ, đau và có thể có mủ. Bò giảm ăn và khó chịu, đặc biệt khi nhiễm trùng lan rộng.",
+  "causes": [
+    "Vi khuẩn xâm nhập do trầy xước",
+    "Vết cắn côn trùng",
+    "Chuồng bẩn",
+    "Da yếu do bệnh khác"
+  ],
+  "risk_factors": [
+    "Chuồng ẩm bẩn",
+    "Côn trùng nhiều",
+    "Bò nằm nhiều",
+    "Vệ sinh da kém"
+  ],
+  "clinical_signs_detailed": [
+    "Da sưng đỏ",
+    "Đau khi chạm",
+    "Có thể có mủ",
+    "Bò hay liếm vùng tổn thương"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đỏ nhẹ",
+      "Không mủ"
+    ],
+    "moderate": [
+      "Sưng rõ",
+      "Có mủ"
+    ],
+    "severe": [
+      "Lan rộng",
+      "Bò giảm ăn và mệt"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "ceftiofur"
+    ],
+    "note_drugs": "Không nặn mủ mạnh tay. Kháng sinh giúp kiểm soát nhiễm khuẩn ở da.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Giữ chuồng sạch",
+      "Vệ sinh vùng da bằng nước sạch",
+      "Không để côn trùng đậu",
+      "Giảm cọ xát vào vật cứng"
+    ],
+
+    "dose_policy": "Dùng thuốc theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Tổn thương nhỏ nhưng có mủ.",
+      "guideline": [
+        "Kháng sinh",
+        "Vệ sinh da",
+        "Theo dõi lan rộng"
+      ]
+    },
+    "case_type_2": {
+      "description": "Lan rộng hoặc bò mệt.",
+      "guideline": [
+        "Thú y kiểm tra",
+        "Không nặn mạnh",
+        "Theo dõi sát"
+      ]
+    },
+    "note": "Nhiễm trùng da dễ điều trị nếu xử lý sớm."
+  },
+
+  "prevention": [
+    "Chuồng sạch và khô",
+    "Giảm côn trùng",
+    "Kiểm tra da mỗi ngày",
+    "Tránh vật sắc cạnh"
+  ],
+
+  "notes": [
+    "Hầu hết do trầy xước nhỏ.",
+    "Nếu có mủ cần kiểm soát sớm.",
+    "Da phục hồi nhanh khi vệ sinh tốt."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

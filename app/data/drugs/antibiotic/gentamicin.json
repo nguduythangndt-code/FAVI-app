@@ -1,0 +1,41 @@
+{
+  "id": "gentamicin",
+  "name": "Gentamicin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm aminoglycoside, tác động tốt trên nhiều vi khuẩn Gram âm. Thường được dùng trong các ca nhiễm trùng mô mềm hoặc tiêu hóa nặng hơn.",
+  "clinical_uses": [
+    "Nhiễm trùng mô mềm, vết thương.",
+    "Viêm ruột - tiêu chảy nặng hơn ở gia súc.",
+    "Hỗ trợ điều trị viêm tử cung mức độ vừa."
+  ],
+  "pros": [
+    "Mạnh với nhiều loại vi khuẩn Gram âm.",
+    "Phù hợp các ca tiêu hóa nặng hơn.",
+    "Hiệu quả rõ trong 24-48 giờ."
+  ],
+  "cons": [
+    "Cần theo dõi thận nếu dùng kéo dài.",
+    "Không dùng như lựa chọn đầu tiên cho ca nhẹ.",
+    "Không phù hợp thú non quá yếu."
+  ],
+  "mild_side_effects": [
+    "Ăn ít hơn tạm thời.",
+    "Mệt nhẹ.",
+    "Hơi đau vị trí tiêm."
+  ],
+  "usage_recommendations": [
+    "Nên dùng khi ca tiêu hóa trở nặng hoặc kéo dài.",
+    "Theo dõi tình trạng uống nước và mức độ tỉnh táo.",
+    "Dùng đúng hướng dẫn trên nhãn hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Thú mất nước nặng cần truyền dịch trước.",
+    "Thú suy thận cần được đánh giá thêm.",
+    "Không dùng để phòng bệnh hàng loạt."
+  ],
+  "alternative_drugs": [
+    "Ceftiofur.",
+    "Oxytetracycline.",
+    "Florfenicol."
+  ]
+}

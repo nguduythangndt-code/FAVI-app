@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "FAVI - Livestock Care",
+    "slug": "livestock-care",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "favi",
+    "userInterfaceStyle": "light",
+
+    "newArchEnabled": true,
+
+    "android": {
+      "package": "com.favi.livestock",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "newArchEnabled": true
+    },
+
+    "ios": {
+      "bundleIdentifier": "com.favi.livestock",
+      "supportsTablet": true,
+      "newArchEnabled": true
+    },
+
+    "plugins": [
+      "expo-router"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "favi-livestock-project"
+      }
+    }
+  }
+}
