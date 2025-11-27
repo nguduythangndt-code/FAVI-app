@@ -84,9 +84,6 @@ export default function CategoryHomeScreen() {
 
     {/* Tagline */}
     <Text style={styles.brandTagline}>Nông Trại Việt</Text>
-    <Text style={styles.brandTagline}>
-      Tự tin xử lý - An tâm chăn nuôi
-    </Text>
 
     {/* Slogan */}
     <Text style={styles.brandSlogan}>
@@ -184,14 +181,14 @@ const styles = StyleSheet.create({
     ...shadow.card,
   },
   brandTagline: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: "700",
     color: colors.text,
     marginTop: spacing.xs,
     marginBottom: spacing.xs,
   },
   brandSlogan: {
-    fontSize: 13,
+    fontSize: 14,
     color: colors.textMuted,
     textAlign: "center",
     marginBottom: spacing.xs,
@@ -199,7 +196,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.lg,
   },
   brandQuote: {
-    fontSize: 12,
+    fontSize: 14,
     color: colors.textMuted,
     textAlign: "center",
     paddingHorizontal: spacing.md,

@@ -1,4 +1,3 @@
-// app/(tabs)/_layout.tsx
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 
@@ -39,7 +38,7 @@ export default function TabsLayout() {
         }}
       />
 
-      {/* 3. TÌM KIẾM (QUICKSEARCH) */}
+      {/* 3. TÌM KIẾM */}
       <Tabs.Screen
         name="quicksearch"
         options={{
@@ -47,18 +46,6 @@ export default function TabsLayout() {
           tabBarLabel: "Tìm kiếm",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="search-outline" size={size} color={color} />
-          ),
-        }}
-      />
-
-      {/* 4. HỒ SƠ */}
-      <Tabs.Screen
-        name="profile"
-        options={{
-          title: "Hồ sơ",
-          tabBarLabel: "Hồ sơ",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person-circle-outline" size={size} color={color} />
           ),
         }}
       />

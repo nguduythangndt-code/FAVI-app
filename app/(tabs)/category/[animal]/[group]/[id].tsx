@@ -2,16 +2,18 @@
 
 import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams } from "expo-router";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import {
   SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
   View,
+  NativeSyntheticEvent,
+  NativeScrollEvent,
 } from "react-native";
 import { colors, radius, shadow, spacing } from "../../../../../src/theme";
-
+import {logDiseaseView,type DiseaseViewSource,} from "../../../../../src/services/analytics";
 
 // =======================
 // KIỂU DỮ LIỆU CHI TIẾT BỆNH
@@ -36,7 +38,7 @@ type DiseaseDetail = {
       [key: string]:
         | {
             main: string;
-            alternative?: string | string[]; // chấp nhận string hoặc mảng
+            alternative?: string | string[];
           }
         | string[];
     };
@@ -44,7 +46,6 @@ type DiseaseDetail = {
     dose_policy?: string;
   };
 
-  // chỗ này QUAN TRỌNG: để TS không kêu nữa
   prevention?: string | string[];
 
   // ===== SCHEMA MỚI =====
@@ -70,13 +71,12 @@ type DiseaseDetail = {
   disclaimer?: string;
 };
 
-
 // =======================
 // ICON THEO LOÀI
 // =======================
 
 const ANIMAL_ICONS: Record<string, string> = {
-  goat: "logo-react", // dùng tạm icon mềm, sau đổi được
+  goat: "logo-react",
   pig: "logo-octocat",
   cattle: "shapes-outline",
   chicken: "aperture-outline",
@@ -89,7 +89,7 @@ const ANIMAL_ICONS: Record<string, string> = {
 // Hô hấp
 const goatRespiratoryDetails: Record<string, DiseaseDetail> = {
   ppr: require("../../../../data/goat/respiratory/detail/ppr.json"),
-  "mannheimiosis_severe":require("../../../../data/goat/respiratory/detail/mannheimiosis_severe.json"),
+  mannheimiosis_severe: require("../../../../data/goat/respiratory/detail/mannheimiosis_severe.json"),
   pasteurellosis: require("../../../../data/goat/respiratory/detail/pasteurellosis.json"),
   mycoplasmosis: require("../../../../data/goat/respiratory/detail/mycoplasmosis.json"),
   pleuropneumonia: require("../../../../data/goat/respiratory/detail/pleuropneumonia.json"),
@@ -107,8 +107,8 @@ const goatRespiratoryDetails: Record<string, DiseaseDetail> = {
 
 // Tiêu hoá
 const goatDigestiveDetails: Record<string, DiseaseDetail> = {
-  "enterotoxemia_type_d":require("../../../../data/goat/digestive/detail/enterotoxemia_type_d.json"),
-  "johnes_disease":require("../../../../data/goat/digestive/detail/johnes_disease.json"),
+  enterotoxemia_type_d: require("../../../../data/goat/digestive/detail/enterotoxemia_type_d.json"),
+  johnes_disease: require("../../../../data/goat/digestive/detail/johnes_disease.json"),
   bloat: require("../../../../data/goat/digestive/detail/bloat.json"),
   coccidiosis: require("../../../../data/goat/digestive/detail/coccidiosis.json"),
   colibacillosis: require("../../../../data/goat/digestive/detail/colibacillosis.json"),
@@ -131,13 +131,12 @@ const goatParasiteDetails: Record<string, DiseaseDetail> = {
   strongyloides: require("../../../../data/goat/parasite/detail/strongyloides.json"),
 };
 
-// ✅ Ký sinh trùng máu (dê)
+// Ký sinh trùng máu
 const goatBloodParasiteDetails: Record<string, DiseaseDetail> = {
   anaplasmosis: require("../../../../data/goat/blood_parasite/detail/anaplasmosis.json"),
   babesiosis: require("../../../../data/goat/blood_parasite/detail/babesiosis.json"),
   theileriosis: require("../../../../data/goat/blood_parasite/detail/theileriosis.json"),
   trypanosomiasis: require("../../../../data/goat/blood_parasite/detail/trypanosomiasis.json"),
-
 };
 
 // Sinh sản
@@ -153,17 +152,17 @@ const goatReproductiveDetails: Record<string, DiseaseDetail> = {
 const goatOtherDetails: Record<string, DiseaseDetail> = {
   orf: require("../../../../data/goat/other/detail/orf.json"),
   cae: require("../../../../data/goat/other/detail/cae.json"),
-  caseous_lymphadenitis:require("../../../../data/goat/other/detail/caseous_lymphadenitis.json"),
+  caseous_lymphadenitis: require("../../../../data/goat/other/detail/caseous_lymphadenitis.json"),
   fmd: require("../../../../data/goat/other/detail/fmd.json"),
   listeriosis: require("../../../../data/goat/other/detail/listeriosis.json"),
   tetanus: require("../../../../data/goat/other/detail/tetanus.json"),
   pinkeye: require("../../../../data/goat/other/detail/pinkeye.json"),
-  dermatophytosis:require("../../../../data/goat/other/detail/dermatophytosis.json"),
+  dermatophytosis: require("../../../../data/goat/other/detail/dermatophytosis.json"),
   "heat-stress": require("../../../../data/goat/other/detail/heat-stress.json"),
   lameness: require("../../../../data/goat/other/detail/lameness.json"),
   "skin-infection": require("../../../../data/goat/other/detail/skin-infection.json"),
   injury: require("../../../../data/goat/other/detail/injury.json"),
-  "nutritional-deficiency":require("../../../../data/goat/other/detail/nutritional-deficiency.json"),
+  "nutritional-deficiency": require("../../../../data/goat/other/detail/nutritional-deficiency.json"),
   poisoning: require("../../../../data/goat/other/detail/poisoning.json"),
   allergy: require("../../../../data/goat/other/detail/allergy.json"),
 };
@@ -208,7 +207,7 @@ export const pigOtherDetails: Record<string, DiseaseDetail> = {
   arthritis: require("../../../../data/pig/other/detail/arthritis.json"),
   "stress-syndrome": require("../../../../data/pig/other/detail/stress-syndrome.json"),
   "skin-infection": require("../../../../data/pig/other/detail/skin-infection.json"),
-}
+};
 
 export const pigParasiteDetails: Record<string, DiseaseDetail> = {
   ascaris: require("../../../../data/pig/parasite/detail/ascaris.json"),
@@ -253,8 +252,6 @@ export const pigRespiratoryDetails: Record<string, DiseaseDetail> = {
 // BÒ (CATTLE)
 // =======================
 
-
-// ===== KÝ SINH TRÙNG MÁU (blood_parasite) =====
 export const cattleBloodParasiteDetails: Record<string, DiseaseDetail> = {
   babesiosis: require("../../../../data/cattle/blood_parasite/detail/babesiosis.json"),
   anaplasmosis: require("../../../../data/cattle/blood_parasite/detail/anaplasmosis.json"),
@@ -262,7 +259,6 @@ export const cattleBloodParasiteDetails: Record<string, DiseaseDetail> = {
   trypanosomiasis: require("../../../../data/cattle/blood_parasite/detail/trypanosomiasis.json"),
 };
 
-// ===== TIÊU HÓA (digestive) =====
 export const cattleDigestiveDetails: Record<string, DiseaseDetail> = {
   bloat: require("../../../../data/cattle/digestive/detail/bloat.json"),
   acidosis: require("../../../../data/cattle/digestive/detail/acidosis.json"),
@@ -278,7 +274,6 @@ export const cattleDigestiveDetails: Record<string, DiseaseDetail> = {
   clostridial_enterotoxemia: require("../../../../data/cattle/digestive/detail/clostridial_enterotoxemia.json"),
 };
 
-// ===== KHÁC (other) =====
 export const cattleOtherDetails: Record<string, DiseaseDetail> = {
   foot_rot: require("../../../../data/cattle/other/detail/foot_rot.json"),
   lameness: require("../../../../data/cattle/other/detail/lameness.json"),
@@ -291,7 +286,6 @@ export const cattleOtherDetails: Record<string, DiseaseDetail> = {
   skin_infection: require("../../../../data/cattle/other/detail/skin_infection.json"),
 };
 
-// ===== KÝ SINH TRÙNG (parasite) =====
 export const cattleParasiteDetails: Record<string, DiseaseDetail> = {
   haemonchus: require("../../../../data/cattle/parasite/detail/haemonchus.json"),
   ostertagia: require("../../../../data/cattle/parasite/detail/ostertagia.json"),
@@ -304,7 +298,6 @@ export const cattleParasiteDetails: Record<string, DiseaseDetail> = {
   mange: require("../../../../data/cattle/parasite/detail/mange.json"),
 };
 
-// ===== SINH SẢN (reproductive) =====
 export const cattleReproductiveDetails: Record<string, DiseaseDetail> = {
   metritis: require("../../../../data/cattle/reproductive/detail/metritis.json"),
   retained_placenta: require("../../../../data/cattle/reproductive/detail/retained_placenta.json"),
@@ -316,7 +309,6 @@ export const cattleReproductiveDetails: Record<string, DiseaseDetail> = {
   repeat_breeding: require("../../../../data/cattle/reproductive/detail/repeat_breeding.json"),
 };
 
-// ===== HÔ HẤP (respiratory) =====
 export const cattleRespiratoryDetails: Record<string, DiseaseDetail> = {
   pasteurellosis: require("../../../../data/cattle/respiratory/detail/pasteurellosis.json"),
   mannheimia: require("../../../../data/cattle/respiratory/detail/mannheimia.json"),
@@ -328,131 +320,117 @@ export const cattleRespiratoryDetails: Record<string, DiseaseDetail> = {
   aspiration_pneumonia: require("../../../../data/cattle/respiratory/detail/aspiration_pneumonia.json"),
 };
 
-
 // =======================
 // GÀ (CHICKEN)
 // =======================
 
 export const chickenBloodParasiteDetails: Record<string, DiseaseDetail> = {
   "avian-malaria": require("../../../../data/chicken/blood_parasite/detail/avian-malaria.json"),
-"leucocytozoonosis": require("../../../../data/chicken/blood_parasite/detail/leucocytozoonosis.json"),
-"haemoproteus-infection": require("../../../../data/chicken/blood_parasite/detail/haemoproteus-infection.json"),
-"mixed-blood-parasites": require("../../../../data/chicken/blood_parasite/detail/mixed-blood-parasites.json"),
+  leucocytozoonosis: require("../../../../data/chicken/blood_parasite/detail/leucocytozoonosis.json"),
+  "haemoproteus-infection": require("../../../../data/chicken/blood_parasite/detail/haemoproteus-infection.json"),
+  "mixed-blood-parasites": require("../../../../data/chicken/blood_parasite/detail/mixed-blood-parasites.json"),
 };
 
 const chickenDigestiveDetails: Record<string, DiseaseDetail> = {
-  "hemorrhagic-enteritis":require("../../../../data/chicken/digestive/detail/hemorrhagic-enteritis.json"),
-  "ibh-adenovirus":require("../../../../data/chicken/digestive/detail/ibh-adenovirus.json"),
+  "hemorrhagic-enteritis": require("../../../../data/chicken/digestive/detail/hemorrhagic-enteritis.json"),
+  "ibh-adenovirus": require("../../../../data/chicken/digestive/detail/ibh-adenovirus.json"),
   "coccidiosis-intestinal": require("../../../../data/chicken/digestive/detail/coccidiosis-intestinal.json"),
-"coccidiosis-cecal": require("../../../../data/chicken/digestive/detail/coccidiosis-cecal.json"),
-"necrotic-enteritis": require("../../../../data/chicken/digestive/detail/necrotic-enteritis.json"),
-"salmonellosis-pullorum": require("../../../../data/chicken/digestive/detail/salmonellosis-pullorum.json"),
-"enteric-colibacillosis": require("../../../../data/chicken/digestive/detail/enteric-colibacillosis.json"),
-"crop-impaction": require("../../../../data/chicken/digestive/detail/crop-impaction.json"),
+  "coccidiosis-cecal": require("../../../../data/chicken/digestive/detail/coccidiosis-cecal.json"),
+  "necrotic-enteritis": require("../../../../data/chicken/digestive/detail/necrotic-enteritis.json"),
+  "salmonellosis-pullorum": require("../../../../data/chicken/digestive/detail/salmonellosis-pullorum.json"),
+  "enteric-colibacillosis": require("../../../../data/chicken/digestive/detail/enteric-colibacillosis.json"),
+  "crop-impaction": require("../../../../data/chicken/digestive/detail/crop-impaction.json"),
 };
 
 const chickenOtherDetails: Record<string, DiseaseDetail> = {
-  "gumboro-ibd":require("../../../../data/chicken/other/detail/gumboro-ibd.json"),
-"mareks-disease":require("../../../../data/chicken/other/detail/mareks-disease.json"),
-fowlpox:require("../../../../data/chicken/other/detail/fowlpox.json"),
-"avian-encephalomyelitis":require("../../../../data/chicken/other/detail/avian-encephalomyelitis.json"),
-"mycoplasma-synoviae":require("../../../../data/chicken/other/detail/mycoplasma-synoviae.json"),
- "heat-stress": require("../../../../data/chicken/other/detail/heat-stress.json"),
-"cold-stress": require("../../../../data/chicken/other/detail/cold-stress.json"),
-"rickets": require("../../../../data/chicken/other/detail/rickets.json"),
-gout: require("../../../../data/chicken/other/detail/gout.json"),
-"fatty-liver-syndrome": require("../../../../data/chicken/other/detail/fatty-liver-syndrome.json"),
-"leg-deformities": require("../../../../data/chicken/other/detail/leg-deformities.json"),
-"general-stress-syndrome": require("../../../../data/chicken/other/detail/general-stress-syndrome.json"),
-
+  "gumboro-ibd": require("../../../../data/chicken/other/detail/gumboro-ibd.json"),
+  "mareks-disease": require("../../../../data/chicken/other/detail/mareks-disease.json"),
+  fowlpox: require("../../../../data/chicken/other/detail/fowlpox.json"),
+  "avian-encephalomyelitis": require("../../../../data/chicken/other/detail/avian-encephalomyelitis.json"),
+  "mycoplasma-synoviae": require("../../../../data/chicken/other/detail/mycoplasma-synoviae.json"),
+  "heat-stress": require("../../../../data/chicken/other/detail/heat-stress.json"),
+  "cold-stress": require("../../../../data/chicken/other/detail/cold-stress.json"),
+  rickets: require("../../../../data/chicken/other/detail/rickets.json"),
+  gout: require("../../../../data/chicken/other/detail/gout.json"),
+  "fatty-liver-syndrome": require("../../../../data/chicken/other/detail/fatty-liver-syndrome.json"),
+  "leg-deformities": require("../../../../data/chicken/other/detail/leg-deformities.json"),
+  "general-stress-syndrome": require("../../../../data/chicken/other/detail/general-stress-syndrome.json"),
 };
 
 const chickenParasiteDetails: Record<string, DiseaseDetail> = {
-"coccidiosis-mixed-chronic":require("../../../../data/chicken/parasite/detail/coccidiosis-mixed-chronic.json"),
- "ascaridia-galli": require("../../../../data/chicken/parasite/detail/ascaridia-galli.json"),
-"heterakis-gallinarum": require("../../../../data/chicken/parasite/detail/heterakis-gallinarum.json"),
-"capillaria": require("../../../../data/chicken/parasite/detail/capillaria.json"),
-"tapeworms": require("../../../../data/chicken/parasite/detail/tapeworms.json"),
-"lice-infestation": require("../../../../data/chicken/parasite/detail/lice-infestation.json"),
-"mite-infestation": require("../../../../data/chicken/parasite/detail/mite-infestation.json"),
-"scaly-leg-mite": require("../../../../data/chicken/parasite/detail/scaly-leg-mite.json"),
+  "coccidiosis-mixed-chronic": require("../../../../data/chicken/parasite/detail/coccidiosis-mixed-chronic.json"),
+  "ascaridia-galli": require("../../../../data/chicken/parasite/detail/ascaridia-galli.json"),
+  "heterakis-gallinarum": require("../../../../data/chicken/parasite/detail/heterakis-gallinarum.json"),
+  capillaria: require("../../../../data/chicken/parasite/detail/capillaria.json"),
+  tapeworms: require("../../../../data/chicken/parasite/detail/tapeworms.json"),
+  "lice-infestation": require("../../../../data/chicken/parasite/detail/lice-infestation.json"),
+  "mite-infestation": require("../../../../data/chicken/parasite/detail/mite-infestation.json"),
+  "scaly-leg-mite": require("../../../../data/chicken/parasite/detail/scaly-leg-mite.json"),
 };
 
 const chickenReproductiveDetails: Record<string, DiseaseDetail> = {
- "egg-peritonitis": require("../../../../data/chicken/reproductive/detail/egg-peritonitis.json"),
-"salpingitis": require("../../../../data/chicken/reproductive/detail/salpingitis.json"),
-"egg-binding": require("../../../../data/chicken/reproductive/detail/egg-binding.json"),
-"prolapse-oviduct": require("../../../../data/chicken/reproductive/detail/prolapse-oviduct.json"),
-"egg-drop-syndrome": require("../../../../data/chicken/reproductive/detail/egg-drop-syndrome.json"),
-"reproductive-colibacillosis": require("../../../../data/chicken/reproductive/detail/reproductive-colibacillosis.json"),
+  "egg-peritonitis": require("../../../../data/chicken/reproductive/detail/egg-peritonitis.json"),
+  salpingitis: require("../../../../data/chicken/reproductive/detail/salpingitis.json"),
+  "egg-binding": require("../../../../data/chicken/reproductive/detail/egg-binding.json"),
+  "prolapse-oviduct": require("../../../../data/chicken/reproductive/detail/prolapse-oviduct.json"),
+  "egg-drop-syndrome": require("../../../../data/chicken/reproductive/detail/egg-drop-syndrome.json"),
+  "reproductive-colibacillosis": require("../../../../data/chicken/reproductive/detail/reproductive-colibacillosis.json"),
 };
 
 export const chickenRespiratoryDetails: Record<string, DiseaseDetail> = {
-  "fowl-cholera":require("../../../../data/chicken/respiratory/detail/fowl-cholera.json"),
-  "ecoli-septicemia":require("../../../../data/chicken/respiratory/detail/ecoli-septicemia.json"),
-  "crd-complex-advanced":require("../../../../data/chicken/respiratory/detail/crd-complex-advanced.json"),
-  "brooder-pneumonia-severe":require("../../../../data/chicken/respiratory/detail/brooder-pneumonia-severe.json"),
- "newcastle-disease": require("../../../../data/chicken/respiratory/detail/newcastle-disease.json"),
-"avian-influenza": require("../../../../data/chicken/respiratory/detail/avian-influenza.json"),
-"infectious-bronchitis": require("../../../../data/chicken/respiratory/detail/infectious-bronchitis.json"),
-"mycoplasma-gallisepticum": require("../../../../data/chicken/respiratory/detail/mycoplasma-gallisepticum.json"),
-"infectious-coryza": require("../../../../data/chicken/respiratory/detail/infectious-coryza.json"),
-"infectious-laryngotracheitis": require("../../../../data/chicken/respiratory/detail/infectious-laryngotracheitis.json"),
-"respiratory-colibacillosis": require("../../../../data/chicken/respiratory/detail/respiratory-colibacillosis.json"),
-"aspergillosis": require("../../../../data/chicken/respiratory/detail/aspergillosis.json"),
+  "fowl-cholera": require("../../../../data/chicken/respiratory/detail/fowl-cholera.json"),
+  "ecoli-septicemia": require("../../../../data/chicken/respiratory/detail/ecoli-septicemia.json"),
+  "crd-complex-advanced": require("../../../../data/chicken/respiratory/detail/crd-complex-advanced.json"),
+  "brooder-pneumonia-severe": require("../../../../data/chicken/respiratory/detail/brooder-pneumonia-severe.json"),
+  "newcastle-disease": require("../../../../data/chicken/respiratory/detail/newcastle-disease.json"),
+  "avian-influenza": require("../../../../data/chicken/respiratory/detail/avian-influenza.json"),
+  "infectious-bronchitis": require("../../../../data/chicken/respiratory/detail/infectious-bronchitis.json"),
+  "mycoplasma-gallisepticum": require("../../../../data/chicken/respiratory/detail/mycoplasma-gallisepticum.json"),
+  "infectious-coryza": require("../../../../data/chicken/respiratory/detail/infectious-coryza.json"),
+  "infectious-laryngotracheitis": require("../../../../data/chicken/respiratory/detail/infectious-laryngotracheitis.json"),
+  "respiratory-colibacillosis": require("../../../../data/chicken/respiratory/detail/respiratory-colibacillosis.json"),
+  aspergillosis: require("../../../../data/chicken/respiratory/detail/aspergillosis.json"),
 };
 
 // =======================
 // HÀM LẤY CHI TIẾT BỆNH
 // =======================
 
-function getDiseaseDetail(
-  animal: string,
-  group: string,
-  id: string
-): DiseaseDetail | null {
-  // GOAT
+function getDiseaseDetail(animal: string, group: string, id: string): DiseaseDetail | null {
   if (animal === "goat") {
     if (group === "respiratory") return goatRespiratoryDetails[id] ?? null;
     if (group === "digestive") return goatDigestiveDetails[id] ?? null;
     if (group === "parasite") return goatParasiteDetails[id] ?? null;
-    if (group === "blood_parasite" || group === "blood-parasite")
-      return goatBloodParasiteDetails[id] ?? null;
+    if (group === "blood_parasite" || group === "blood-parasite") return goatBloodParasiteDetails[id] ?? null;
     if (group === "reproductive") return goatReproductiveDetails[id] ?? null;
     if (group === "other") return goatOtherDetails[id] ?? null;
   }
 
-  // PIG
   if (animal === "pig") {
     if (group === "digestive") return pigDigestiveDetails[id] ?? null;
     if (group === "other") return pigOtherDetails[id] ?? null;
     if (group === "parasite") return pigParasiteDetails[id] ?? null;
     if (group === "reproductive") return pigReproductiveDetails[id] ?? null;
     if (group === "respiratory") return pigRespiratoryDetails[id] ?? null;
-    if (group === "blood_parasite" || group === "blood-parasite")
-      return pigBloodParasiteDetails[id] ?? null;
+    if (group === "blood_parasite" || group === "blood-parasite") return pigBloodParasiteDetails[id] ?? null;
   }
 
-  // CATTLE
   if (animal === "cattle") {
     if (group === "digestive") return cattleDigestiveDetails[id] ?? null;
     if (group === "other") return cattleOtherDetails[id] ?? null;
     if (group === "parasite") return cattleParasiteDetails[id] ?? null;
     if (group === "reproductive") return cattleReproductiveDetails[id] ?? null;
     if (group === "respiratory") return cattleRespiratoryDetails[id] ?? null;
-    if (group === "blood_parasite" || group === "blood-parasite")
-      return cattleBloodParasiteDetails[id] ?? null;
+    if (group === "blood_parasite" || group === "blood-parasite") return cattleBloodParasiteDetails[id] ?? null;
   }
 
-  // CHICKEN
   if (animal === "chicken") {
     if (group === "digestive") return chickenDigestiveDetails[id] ?? null;
     if (group === "other") return chickenOtherDetails[id] ?? null;
     if (group === "parasite") return chickenParasiteDetails[id] ?? null;
     if (group === "reproductive") return chickenReproductiveDetails[id] ?? null;
     if (group === "respiratory") return chickenRespiratoryDetails[id] ?? null;
-    if (group === "blood_parasite" || group === "blood-parasite")
-      return chickenBloodParasiteDetails[id] ?? null;
+    if (group === "blood_parasite" || group === "blood-parasite") return chickenBloodParasiteDetails[id] ?? null;
   }
 
   return null;
@@ -472,15 +450,12 @@ const renderBullets = (items?: any) => {
       description: "Mô tả tình trạng",
       guideline: "Hướng dẫn xử lý",
     };
-
     if (map[key]) return map[key];
-
     return key.replace(/_/g, " ").replace(/-/g, " ");
   };
 
   const pushValue = (value: any) => {
     if (value == null) return;
-
     if (Array.isArray(value)) {
       value.forEach((v) => pushValue(v));
     } else if (
@@ -547,7 +522,6 @@ const renderSymptomaticTreatment = (
 ) => {
   if (!symptomatic) return null;
 
-  // Nếu cả block là array thuần → render dạng bullet
   if (Array.isArray(symptomatic)) {
     return renderBullets(symptomatic);
   }
@@ -574,18 +548,13 @@ const renderSymptomaticTreatment = (
             alternatives = value.slice(1).map((v) => String(v));
           }
         } else if (value && typeof value === "object") {
-          // value dạng { main, alternative }
-          // @ts-ignore - bỏ qua check chi tiết
+          // @ts-ignore
           main = value.main as string;
-
           // @ts-ignore
           const altRaw = value.alternative as string | string[] | undefined;
-
           if (typeof altRaw === "string") {
             const t = altRaw.trim();
-            if (t) {
-              alternatives = [t];
-            }
+            if (t) alternatives = [t];
           } else if (Array.isArray(altRaw)) {
             alternatives = altRaw.map((v) => String(v));
           }
@@ -596,12 +565,10 @@ const renderSymptomaticTreatment = (
         return (
           <View key={key} style={{ marginBottom: 8 }}>
             <Text style={styles.symptomaticGroupTitle}>{getLabel(key)}</Text>
-
             <Text style={styles.bulletText}>
               • <Text style={{ fontWeight: "600" }}>Thuốc chính: </Text>
               {main}
             </Text>
-
             {alternatives.length > 0 && (
               <Text style={styles.bulletText}>
                 • <Text style={{ fontWeight: "600" }}>Thay thế: </Text>
@@ -625,16 +592,11 @@ const Section = ({
   children?: React.ReactNode;
 }) => {
   if (!children) return null;
-
   return (
     <View style={styles.sectionCard}>
       <View style={styles.sectionHeader}>
         {icon && (
-          <Ionicons
-            name={icon as any}
-            size={18}
-            color={colors.primary}
-          />
+          <Ionicons name={icon as any} size={18} color={colors.primary} />
         )}
         <Text style={styles.sectionTitle}>{title}</Text>
       </View>
@@ -648,18 +610,102 @@ const Section = ({
 // =======================
 
 export default function DiseaseDetailScreen() {
-  const params = useLocalSearchParams<{
-    animal?: string;
-    group?: string;
-    id?: string;
-    name?: string;
-  }>();
+  // Lấy params từ router, handle cả trường hợp string[] cho chắc
+  const params = useLocalSearchParams<Record<string, string | string[]>>();
 
-  const animal = params.animal ?? "";
-  const group = params.group ?? "";
-  const id = params.id ?? "";
+  const getParam = (key: string): string => {
+    const value = params[key];
+    if (Array.isArray(value)) return value[0] ?? "";
+    return value ?? "";
+  };
+
+  const animal = getParam("animal");
+  const group = getParam("group");
+  const id = getParam("id");
+  const rawFromScreen = getParam("fromScreen");
+  const searchQueryRaw = getParam("searchQuery");
+
+  const fromScreen: DiseaseViewSource =
+    rawFromScreen === "quicksearch" ? "quicksearch" : "category";
+
+  const searchQuery = searchQueryRaw || undefined;
 
   const detail = getDiseaseDetail(animal, group, id);
+  const displayName =
+  (detail && detail.name) ||
+  (typeof params.name === "string" ? params.name : "") ||
+  id;
+
+
+  // ====== LOG HÀNH VI XEM BỆNH ======
+  const viewStartRef = useRef<number | null>(null);
+  const hasLoggedRef = useRef(false);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    if (!detail) return;
+
+    viewStartRef.current = Date.now();
+
+    // Auto log sau 12s nếu chưa log
+    timerRef.current = setTimeout(() => {
+      if (hasLoggedRef.current || !viewStartRef.current) return;
+      const duration = Date.now() - viewStartRef.current;
+      logDiseaseView({
+  animal,
+  group,
+  diseaseId: id,
+  diseaseName: displayName ?? null,
+  fromScreen,
+  searchQuery: searchQuery ?? null,
+  timeOnScreenMs: duration ?? null,
+});
+
+
+      hasLoggedRef.current = true;
+    }, 12000);
+
+    return () => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+      if (!hasLoggedRef.current && viewStartRef.current) {
+        const duration = Date.now() - viewStartRef.current;
+        if (duration >= 3000) {
+          logDiseaseView({
+            animal,
+            group,
+            diseaseId: id,
+            diseaseName: detail.name,
+            fromScreen,
+            searchQuery,
+            timeOnScreenMs: duration,
+          });
+          hasLoggedRef.current = true;
+        }
+      }
+    };
+  }, [animal, group, id, detail?.name, fromScreen, searchQuery]);
+
+  const handleScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+    if (!detail) return;
+    if (hasLoggedRef.current) return;
+
+    if (!viewStartRef.current) viewStartRef.current = Date.now();
+    const duration = Date.now() - viewStartRef.current;
+
+    // lướt siêu nhanh thì bỏ
+    if (duration < 500) return;
+
+    logDiseaseView({
+      animal,
+      group,
+      diseaseId: id,
+      diseaseName: detail.name,
+      fromScreen,
+      searchQuery,
+      timeOnScreenMs: duration,
+    });
+    hasLoggedRef.current = true;
+  };
 
   if (!detail) {
     return (
@@ -677,15 +723,15 @@ export default function DiseaseDetailScreen() {
   }
 
   const advanced = detail as any;
-
-  const headerIcon =
-    (ANIMAL_ICONS[animal] as any) || "medkit-outline";
+  const headerIcon = (ANIMAL_ICONS[animal] as any) || "medkit-outline";
 
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView
         style={styles.scroll}
         contentContainerStyle={styles.contentContainer}
+        onScroll={handleScroll}
+        scrollEventThrottle={120}
       >
         {/* HEADER TÊN BỆNH + ICON */}
         <View style={styles.header}>
@@ -693,7 +739,7 @@ export default function DiseaseDetailScreen() {
             <Ionicons name={headerIcon} size={28} color={colors.primary} />
           </View>
           <View style={{ flex: 1 }}>
-            <Text style={styles.diseaseName}>{detail.name}</Text>
+            <Text style={styles.diseaseName}>{displayName}</Text>
             {advanced.summary ? (
               <Text style={styles.summaryText}>{advanced.summary}</Text>
             ) : null}
@@ -737,9 +783,7 @@ export default function DiseaseDetailScreen() {
               {advanced.clinical_signs_by_stage.moderate && (
                 <>
                   <Text style={styles.stageTitle}>🟡 Mức độ vừa</Text>
-                  {renderBullets(
-                    advanced.clinical_signs_by_stage.moderate
-                  )}
+                  {renderBullets(advanced.clinical_signs_by_stage.moderate)}
                 </>
               )}
 
@@ -758,10 +802,7 @@ export default function DiseaseDetailScreen() {
           detail.treatment?.severe ||
           detail.treatment?.alternative ||
           detail.treatment?.note) && (
-          <Section
-            title="Điều trị (mô tả chung)"
-            icon="medkit-outline"
-          >
+          <Section title="Điều trị (mô tả chung)" icon="medkit-outline">
             {detail.treatment?.mild && (
               <Text style={styles.paragraph}>
                 <Text style={styles.bold}>Trường hợp nhẹ: </Text>
@@ -849,9 +890,7 @@ export default function DiseaseDetailScreen() {
                   <Text style={styles.stageTitle}>
                     🩻 Trường hợp nặng loại 1
                   </Text>
-                  {renderBullets(
-                    advanced.severe_case_treatment.case_type_1
-                  )}
+                  {renderBullets(advanced.severe_case_treatment.case_type_1)}
                 </>
               )}
 
@@ -860,9 +899,7 @@ export default function DiseaseDetailScreen() {
                   <Text style={styles.stageTitle}>
                     🧪 Trường hợp nặng loại 2
                   </Text>
-                  {renderBullets(
-                    advanced.severe_case_treatment.case_type_2
-                  )}
+                  {renderBullets(advanced.severe_case_treatment.case_type_2)}
                 </>
               )}
 
@@ -900,6 +937,10 @@ export default function DiseaseDetailScreen() {
   );
 }
 
+// =======================
+// STYLES
+// =======================
+
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
@@ -914,7 +955,6 @@ const styles = StyleSheet.create({
     paddingBottom: spacing.xl,
   },
 
-  // ===== HEADER =====
   header: {
     flexDirection: "row",
     alignItems: "center",
@@ -941,7 +981,6 @@ const styles = StyleSheet.create({
     color: colors.textMuted,
   },
 
-  // ===== SECTION CARD =====
   sectionCard: {
     backgroundColor: colors.card,
     borderRadius: radius.lg,
@@ -964,7 +1003,6 @@ const styles = StyleSheet.create({
     color: colors.text,
   },
 
-  // ===== TEXT =====
   stageTitle: {
     fontSize: 15,
     fontWeight: "700",
@@ -1002,7 +1040,6 @@ const styles = StyleSheet.create({
     color: colors.textMuted,
   },
 
-  // ===== DISCLAIMER =====
   disclaimerBox: {
     marginTop: spacing.md,
     marginBottom: spacing.md,
@@ -1018,7 +1055,6 @@ const styles = StyleSheet.create({
     color: "#8A5A10",
   },
 
-  // ===== EMPTY =====
   emptyContainer: {
     flex: 1,
     padding: spacing.lg,

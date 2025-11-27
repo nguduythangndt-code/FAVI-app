@@ -1,26 +1,25 @@
-// src/theme/colors.ts
 export const colors = {
-  // Màu chính
-  primary: "#166534ff",
-  primarySoft: "#DCFCE7",
+  // Màu chính pastel
+  primary: "#7FD4A6",       // xanh pastel chủ đạo
+  primarySoft: "#E8FBF0",   // nền mềm hơn cho highlight/chip nhẹ
 
-  // Accent
-  accent: "#F97316",
+  // Accent vẫn ấm nhưng dịu lại 1 tông
+  accent: "#FB923C",
 
-  // Trạng thái
-  danger: "#DC2626",
+  // Trạng thái cảnh báo, làm pastel nhưng vẫn đỏ được nhận diện rõ
+  danger: "#FCA5A5",
 
   // Background & card
-  background: "#F9FAFB",
+  background: "#F0F9F4",    // xanh pastel cực nhạt cho nền toàn app
   card: "#FFFFFF",
-  border: "#E5E7EB",
+  border: "#D1E7DB",        // viền xanh xám pastel nhẹ
 
   // Text
-  text: "#111827",
-  textMuted: "#6B7280",
+  text: "#0F3F2A",          // xanh đậm thiên rừng, tương phản tốt trên nền pastel
+  textMuted: "#4B7F6A",     // xanh muted nhẹ nhàng
 
   // Tab & input
-  tabBarBackground: "#FFFFFF",
-  tabBarBorder: "#E5E7EB",
-  inputBackground: "#FFFFFF",
+  tabBarBackground: "#F0FDF6",  // xanh pastel rất nhạt cho thanh tab
+  tabBarBorder: "#D1E7DB",
+  inputBackground: "#F9FFFC",   // input trắng pha xanh siêu nhạt
 };

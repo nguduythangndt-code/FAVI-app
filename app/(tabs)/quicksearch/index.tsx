@@ -3,7 +3,8 @@
 // ================== IMPORT ICON / ROUTER / RN ==================
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
+
 import {
   SafeAreaView,
   ScrollView,
@@ -14,6 +15,7 @@ import {
   View,
 } from "react-native";
 import { colors, radius, shadow, spacing } from "../../../src/theme";
+import { logQuicksearchQuery } from "../../../src/services/analytics";
 
 import {
   quicksearch,
@@ -160,7 +162,8 @@ const QuickSearchScreen = () => {
   const router = useRouter();
   const [selectedAnimal, setSelectedAnimal] = useState<AnimalType | null>(null);
   const [query, setQuery] = useState("");
-  const [history] = useState<SearchHistoryItem[]>([]); // TODO: load từ storage/log thật
+  const [history] = useState<SearchHistoryItem[]>([]); // sau này load từ storage nếu cần
+  const [lastLogKey, setLastLogKey] = useState<string>("");
 
   const results: QuicksearchResult[] = useMemo(() => {
     if (!selectedAnimal) return [];
@@ -168,18 +171,25 @@ const QuickSearchScreen = () => {
     return quicksearch(query, DISEASE_INDEX, selectedAnimal);
   }, [selectedAnimal, query]);
 
-  const handleSelectResult = (item: DiseaseListItem) => {
-    router.push({
-      pathname: "/(tabs)/quicksearch/detail",
-      params: {
-        animal: item.animal,
-        group: item.group,
-        id: item.id,
-        name: item.name,
-      },
-    });
-  };
+  useEffect(() => {
+    if (!selectedAnimal) return;
 
+    const trimmed = query.trim();
+    if (trimmed.length < 2) return;
+
+    const key = `${selectedAnimal}|${trimmed}`;
+    if (key === lastLogKey) return;
+
+    logQuicksearchQuery({
+      animal: selectedAnimal,
+      query: trimmed,
+      resultCount: results.length,
+    });
+
+    setLastLogKey(key);
+  }, [selectedAnimal, query, results.length, lastLogKey]);
+
+  // render nút chọn loài – đặt trong component để dùng được state
   const renderAnimalButton = (animal: AnimalType, label: string) => {
     const isActive = selectedAnimal === animal;
 
@@ -201,7 +211,23 @@ const QuickSearchScreen = () => {
     );
   };
 
-  const showHistory = selectedAnimal && query.trim().length === 0 && history.length > 0;
+  // chọn 1 kết quả để đi vào chi tiết bệnh
+  const handleSelectResult = (item: QuicksearchResult) => {
+    router.push({
+      pathname: "/(tabs)/quicksearch/detail",
+      params: {
+        animal: item.animal,
+        group: item.group,
+        id: item.id,
+        name: item.name,
+        fromScreen: "quicksearch",
+        searchQuery: query.trim(),
+      },
+    });
+  };
+
+  const showHistory =
+    selectedAnimal && query.trim().length === 0 && history.length > 0;
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -252,24 +278,25 @@ const QuickSearchScreen = () => {
 
           {selectedAnimal && query.trim().length === 0 && (
             <Text style={styles.helperText2}>
-              Nhập càng nhiều biểu hiện bạn quan sát được, kết quả sẽ càng chính xác.
+              Nhập càng nhiều biểu hiện bạn quan sát được, kết quả sẽ càng chính
+              xác.
             </Text>
           )}
 
           {selectedAnimal && query.trim().length > 0 && (
-  <View style={styles.infoBanner}>
-    <Ionicons
-      name="information-circle-outline"
-      size={18}
-      color={colors.primary}
-      style={{ marginRight: 8 }}
-    />
-    <Text style={styles.infoBannerText}>
-      Dưới đây là các bệnh có biểu hiện gần giống nhất. Chạm vào từng bệnh để xem chi tiết.
-    </Text>
-  </View>
-)}
-
+            <View style={styles.infoBanner}>
+              <Ionicons
+                name="information-circle-outline"
+                size={18}
+                color={colors.primary}
+                style={{ marginRight: 8 }}
+              />
+              <Text style={styles.infoBannerText}>
+                Dưới đây là các bệnh có biểu hiện gần giống nhất. Chạm vào từng
+                bệnh để xem chi tiết.
+              </Text>
+            </View>
+          )}
 
           {showHistory && (
             <View style={{ marginTop: spacing.md }}>
