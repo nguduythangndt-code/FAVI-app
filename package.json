@@ -5,8 +5,8 @@
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "lint": "eslint .",
     "build:goat-search-index": "node scripts/buildDiseaseSearchIndex.js"
@@ -24,7 +24,8 @@
     "react-native": "0.76.9",
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "~4.4.0",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "expo-build-properties": "~0.13.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -34,18 +35,5 @@
     "eslint": "^8.0.0",
     "eslint-config-universe": "^12.0.0",
     "typescript": "^5.3.3"
-  },
-  "expo": {
-    "name": "livestock-care",
-    "slug": "livestock-care",
-    "scheme": "livestock-care",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "router": {
-      "origin": "expo"
-    }
   }
 }

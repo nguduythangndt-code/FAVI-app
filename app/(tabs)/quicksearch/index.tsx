@@ -429,12 +429,12 @@ const styles = StyleSheet.create({
 
   helperText: {
     marginTop: spacing.xs,
-    fontSize: 12,
+    fontSize: 14,
     color: colors.textMuted,
   },
   helperText2: {
     marginTop: spacing.xs,
-    fontSize: 13,
+    fontSize: 15,
     color: colors.textMuted,
     lineHeight: 18,
   },

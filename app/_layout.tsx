@@ -1,14 +1,30 @@
 // app/_layout.tsx
 import { Stack } from "expo-router";
+import * as SplashScreen from "expo-splash-screen";
+import { useEffect } from "react";
+
+// Giữ splash lại cho đến khi ta chủ động hide
+SplashScreen.preventAutoHideAsync().catch(() => {});
 
 export default function RootLayout() {
+  useEffect(() => {
+    const hide = async () => {
+      try {
+        await SplashScreen.hideAsync();
+      } catch (e) {
+        console.warn("Failed to hide splash:", e);
+      }
+    };
+
+    hide();
+  }, []);
+
   return (
     <Stack
       screenOptions={{
         headerShown: false,
-        // Quan trọng: bật vuốt để back
         gestureEnabled: true,
-        fullScreenGestureEnabled: true, // iOS dùng full screen, Android bỏ qua cũng không sao
+        fullScreenGestureEnabled: true,
       }}
     />
   );
