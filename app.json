@@ -2,14 +2,14 @@
   "expo": {
     "name": "FAVI",
     "slug": "livestock-care",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/favi-logo.png",
     "userInterfaceStyle": "light",
     "scheme": "favi",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/favi-favi.png",
+      "image": "./assets/images/favi-logo.png",
       "backgroundColor": "#F0F9F4",
       "resizeMode": "contain"
     },
