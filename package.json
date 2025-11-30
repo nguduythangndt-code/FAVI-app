@@ -4,13 +4,15 @@
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web",
-    "lint": "eslint .",
-    "build:goat-search-index": "node scripts/buildDiseaseSearchIndex.js"
-  },
+  "start": "expo start",
+  "android": "expo run:android",
+  "ios": "expo run:ios",
+  "web": "expo start --web",
+  "lint": "eslint .",
+  "build:goat-search-index": "node scripts/buildDiseaseSearchIndex.js",
+  "build:disease-registry": "node scripts/buildDiseaseRegistry.js"
+},
+
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.2.0",
     "expo": "^52.0.0",
