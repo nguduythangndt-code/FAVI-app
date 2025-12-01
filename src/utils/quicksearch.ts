@@ -70,6 +70,18 @@ const MILD_WORDS = [
 ];
 
 const NEGATE_WORDS = ["khong", "chua", "chang", "ko", "k"];
+// Các triệu chứng chuẩn được phép bị phủ định mạnh
+const NEGATABLE_SYMPTOMS = [
+  "tieu chay",
+  "ho",
+  "kho tho",
+  "vang da",
+  "co ve",
+];
+
+// Token phủ định sau khi đã normalize/synonyms
+const NEGATION_TOKENS = ["khong", "ko", "chua", "chang", "k"];
+
 
 // ===================== COMMON PHRASES CAP =====================
 const COMMON_PHRASES = new Set([
@@ -127,6 +139,13 @@ function extractNegationPhrases(normQuery: string) {
 // escape regex
 const escapeReg = (s: string) =>
   s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+const containsPhrase = (text: string, phrase: string) => {
+  if (!phrase) return false;
+  const padded = ` ${text} `;
+  const needle = ` ${phrase} `;
+  return padded.includes(needle);
+};
 
 // ===================== L1: APPLY SYNONYMS =====================
 function applySynonyms(normQuery: string, synMap: Record<string, string>) {
@@ -304,6 +323,30 @@ export function quicksearch(
   const phrasesOriginal = buildPhrases(norm0);
   const originalSet = new Set(phrasesOriginal);
   const afterSynSet = new Set(phrasesAfterSyn);
+    // ===== NEW: phát hiện phủ định trên canonical tokens sau khi đã dịch synonyms =====
+  const tokensSyn = norm1.split(" ").filter(Boolean);
+  const negatedCanonicalSymptoms: string[] = [];
+
+  for (let i = 0; i < tokensSyn.length; i++) {
+    const t = tokensSyn[i];
+    if (!NEGATION_TOKENS.includes(t)) continue;
+
+    const w1 = tokensSyn[i + 1];
+    const w2 = tokensSyn[i + 2];
+
+    if (w1) {
+      const one = w1;
+      const two = w2 ? `${w1} ${w2}` : null;
+
+      // Ưu tiên bắt cụm 2 từ (ví dụ "tieu chay")
+      if (two && NEGATABLE_SYMPTOMS.includes(two) && !negatedCanonicalSymptoms.includes(two)) {
+        negatedCanonicalSymptoms.push(two);
+      } else if (NEGATABLE_SYMPTOMS.includes(one) && !negatedCanonicalSymptoms.includes(one)) {
+        negatedCanonicalSymptoms.push(one);
+      }
+    }
+  }
+
 // ===================== WEAK RESPIRATORY DETECTION =====================
 const weakResp =
   afterSynSet.has("tho nhanh") &&
@@ -394,6 +437,25 @@ const weakResp =
         }
       }
     }
+        // ===== NEW: phủ định triệu chứng chuẩn, kiểu "khong tieu chay" =====
+    if (negatedCanonicalSymptoms.length) {
+      let hitStrong = false;
+
+      for (const sym of negatedCanonicalSymptoms) {
+        if (containsPhrase(st, sym)) {
+          hitStrong = true;
+          // đánh dấu để debug nếu cần
+          negHits.push(`!${sym}`);
+        }
+      }
+
+      // Nếu bệnh có bất kỳ triệu chứng thuộc nhóm bị phủ định -> đạp điểm rất mạnh
+      if (hitStrong) {
+        commonPart = 0;
+        specPart = specPart - 20; // đủ lớn để _score2Norm âm -> bệnh bị loại khỏi shortlist
+      }
+    }
+
 
     let score2 = commonPart + specPart;
     let score2Norm =

@@ -13,5 +13,6 @@
   "run": ["run rẩy", "lẩy bẩy", "co giật nhẹ", "run nhẹ"],
   "nằm nhiều": ["nằm bệt", "nằm li bì", "nằm 1 chỗ", "không đứng nổi"],
   "phù": ["phù hàm", "bèo mắt", "mặt sưng", "bọng nước"],
-  "thiếu máu": ["niêm mạc nhợt", "mắt trắng bệch", "môi tái", "miệng nhạt"]
+  "thiếu máu": ["niêm mạc nhợt", "mắt trắng bệch", "môi tái", "miệng nhạt"],
+  "không": ["khong","ko","khong co","ko co","khong bi","ko bi","chua bi","khong mac"]
 }

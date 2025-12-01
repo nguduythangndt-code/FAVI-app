@@ -36,43 +36,50 @@
   },
   {
     "id": "colibacillosis",
-    "name": "E.coli tiêu chảy sơ sinh","group": "digestive",
+    "name": "E.coli tiêu chảy sơ sinh",
+    "group": "digestive",
     "searchText": "Tiêu chảy nước, vàng - trắng, mùi hôi mạnh. Phân bắn tia hoặc chảy liên tục. Mất nước nhanh: mắt trũng, da nhăn. Bụng tóp, giảm bú, kêu yếu. Nặng: nằm li bì, hạ thân nhiệt. Tiêu chảy sệt ít lần. Vẫn còn bú nhưng bú kém. Bụng hơi tóp, da khô nhẹ. Tiêu chảy nước nhiều lần. Giảm bú rõ, kêu yếu. Mắt trũng, mất nước. Tiêu chảy liên tục, vàng - trắng, hôi khắm. Mất nước nặng, mắt trũng sâu. Nằm lì, phản xạ yếu. Nguy cơ tử vong cao.",
     "severityLevel": 3
   },
   {
     "id": "salmonellosis",
-    "name": "Salmonella tiêu chảy","group": "digestive",
+    "name": "Salmonella tiêu chảy",
+    "group": "digestive",
     "searchText": "Sốt cao, bỏ ăn. Tiêu chảy nước, hôi mạnh, có máu đỏ hoặc đen. Bụng sôi, đau bụng, mất nước nhanh. Dê lờ đờ, đứng tách đàn hoặc nằm nhiều. Một số con chết nhanh trước khi thấy máu rõ. Phân sệt, hôi hơn bình thường. Sốt nhẹ - vừa. Tiêu chảy lỏng, mùi hôi sắc, có máu lẫn nhầy. Bỏ ăn, nằm nhiều. Tiêu chảy máu đỏ hoặc đen. Mất nước nặng, đứng không nổi. Sốc nhiễm trùng.",
     "severityLevel": 3
   },
   {
     "id": "indigestion",
-    "name": "Rối loạn tiêu hoá","group": "digestive",
+    "name": "Rối loạn tiêu hoá",
+    "group": "digestive",
     "searchText": "Ăn giảm, nhai lại kém. Phân lúc sệt lúc lỏng, có mùi chua. Bụng sôi, đầy nhẹ. Lông xù, giảm hoạt động. Kéo dài gây gầy, chậm lớn. Ăn giảm nhẹ. Phân hơi sệt, mùi khác thường. Nhai lại ít, tiêu chảy nhẹ. Bụng sôi, khó chịu. Dê lờ đờ, mất nước nhẹ. Bỏ ăn rõ, bụng đầy hơn. Nếu không xử lý sẽ chuyển sang toan dạ cỏ.",
     "severityLevel": 1
   },
   {
     "id": "giardia",
-    "name": "Ký sinh trùng đường ruột Giardia","group": "digestive",
+    "name": "Ký sinh trùng đường ruột Giardia",
+    "group": "digestive",
     "searchText": "Tiêu chảy sệt, nhầy, dai dẳng. Dê bụng tóp, chậm lớn. Phân nâu - vàng, rất hôi. Lông xù, thiếu máu nhẹ. Không chết nhanh nhưng hao đàn mạnh. Phân sệt kéo dài. Dê ăn giảm nhẹ. Phân nhầy - hôi, chậm lớn rõ. Lông xù, bụng tóp. Tiêu chảy dai dẳng nhiều tuần. Gầy rộc, thiếu máu. Dê con ngã bệnh hàng loạt.",
     "severityLevel": 2
   },
   {
     "id": "tapeworm",
-    "name": "Sán dây đường ruột","group": "digestive",
+    "name": "Sán dây đường ruột",
+    "group": "digestive",
     "searchText": "Phân có đốt sán trắng. Dê chậm lớn, bụng tóp. Phân lúc sệt lúc lỏng. Ăn nhiều nhưng không tăng cân. Thiếu máu nhẹ, lông xù. Ít đốt sán, phân bình thường. Ăn giảm nhẹ. Phân sệt, đốt sán nhiều. Bụng tóp, lông xấu. Rất nhiều đốt sán. Chậm lớn rõ, thiếu máu. Dê non yếu, dễ nhiễm thêm bệnh khác.",
     "severityLevel": 1
   },
   {
     "id": "enterotoxemia_type_d",
-    "name": "Nhiễm độc ruột type D","group": "digestive",
+    "name": "Nhiễm độc ruột type D",
+    "group": "digestive",
     "severityLevel": 3,
     "searchText": "Đang khỏe tự nhiên bỏ ăn Đau bụng, đá bụng, bứt rứt bụng trái phình to Tiêu chảy nước, có mùi thối Có thể lẫn máu hoặc nhầy Lờ đờ rất nhanh Đi loạng choạng Co giật nhẹ hoặc nặng Nằm nghiêng, đạp chân Thở nhanh Chết đột ngột Ăn giảm, hơi chướng bụng Phân mềm Đau bụng rõ, tiêu chảy Lờ đờ, đứng không vững Co giật, lăn ra nằm Chướng bụng nặng Suy kiệt rất nhanh, có thể chết đột ngột"
   },
   {
     "id": "johnes_disease",
-    "name": "Johne's (viêm ruột mạn)","group": "digestive",
+    "name": "Johne's (viêm ruột mạn)",
+    "group": "digestive",
     "severityLevel": 2,
     "searchText": "Tiêu chảy kéo dài từng đợt Phân lỏng, mùi hôi Gầy sút từ từ dù vẫn ăn Lông xù, da khô Suy nhược mạn Có thể phù hàm do giảm đạm máu Đàn chậm lớn Kém sinh sản Gầy nhẹ, ăn vẫn được Phân mềm từng đợt Tiêu chảy thường xuyên Gầy rõ, lông xù Yếu đi Tiêu chảy kéo dài không dứt Suy kiệt, phù hàm Không đáp ứng điều trị"
   }
