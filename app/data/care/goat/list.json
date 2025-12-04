@@ -1,0 +1,42 @@
+[
+  {
+    "id": "goat_kid",
+    "name": "Dê con",
+    "summary": "Chăm sóc dê con và dê mới nhập đàn từ lúc về trại đến sau cai sữa."
+  },
+  {
+    "id": "goat_replacement",
+    "name": "Dê hậu bị",
+    "summary": "Chăm sóc dê hậu bị sau cai sữa đến trước khi phối giống."
+  },
+  {
+    "id": "goat_fattening",
+    "name": "Dê vỗ béo",
+    "summary": "Quy trình chăm sóc dê vỗ béo từ lúc mới bắt đến trước khi xuất bán."
+  },
+  {
+    "id": "goat_doe",
+    "name": "Dê mẹ sinh sản",
+    "summary": "Chăm sóc dê mẹ trước phối, mang thai, sinh, sau sinh và nuôi con."
+  },
+  {
+    "id": "goat_sick",
+    "name": "Dê bệnh",
+    "summary": "Nguyên tắc chăm sóc chung cho dê đang bệnh (kết hợp với mục bệnh và thuốc trong app)."
+  },
+  {
+    "id": "goat_recovery",
+    "name": "Dê sau bệnh",
+    "summary": "Hồi phục thể trạng, lấy lại sức sau khi dê khỏi bệnh."
+  },
+  {
+    "id": "goat_housing",
+    "name": "Chuồng trại dê",
+    "summary": "Thiết kế, bố trí và quản lý chuồng trại riêng cho dê."
+  },
+  {
+    "id": "goat_silage",
+    "name": "Ủ cỏ cho dê",
+    "summary": "Nguyên tắc ủ cỏ và cho dê ăn cỏ ủ an toàn."
+  }
+]

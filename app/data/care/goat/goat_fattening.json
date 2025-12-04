@@ -1,0 +1,135 @@
+{
+  "id": "goat_fattening",
+  "name": "Dê vỗ béo",
+  "species": "goat",
+  "group": "fattening",
+  "overview": "Cẩm nang vỗ béo dê thịt từ lúc bắt về trại đến trước khi xuất bán. Mục tiêu: dê tăng cân đều, lông mượt, không rối loạn tiêu hóa, không bùng bệnh do thay khẩu phần quá nhanh. Toàn bộ các bước đều dựa trên 3 trụ cột: chuồng trại sạch - khô - thoáng, khẩu phần tăng dần có kiểm soát, phát hiện sớm và khoanh vùng dê bệnh.",
+  "sections": [
+    {
+      "id": "new_arrival",
+      "title": "Giai đoạn mới bắt dê về trại",
+      "goal": "Giảm stress sau vận chuyển, không để dê sụt cân mạnh trong 3-5 ngày đầu.",
+      "content": "3-5 ngày đầu sau khi bắt về là giai đoạn nhạy cảm nhất. Mục tiêu là cho dê nghỉ, quen chuồng, ổn định dạ cỏ và loại sớm những con có dấu hiệu bệnh.",
+      "bullets": [
+        "[Chuẩn bị chuồng trước khi dê về] Chuồng phải dọn sạch phân, thay chất độn nếu có, nền khô, không trơn trượt. Kiểm tra máng ăn, máng nước đã rửa sạch, không mùi lạ.",
+        "[Tách lô dê mới] Nhốt riêng lô dê mới vào một khu/ô chuồng riêng, không dồn chung ngay với đàn cũ để giảm cắn nhau, tranh ăn và lây bệnh.",
+        "[Sau khi xuống xe] Đưa dê vào chuồng, để yên 1-2 giờ đầu. Hạn chế người lạ ra vào, không đuổi chạy vòng vòng vì muốn \"cho nó vận động\" - càng chạy càng stress.",
+        "[Kiểm tra nhanh từng con] Quan sát dáng đi (có khập khiễng không), mắt (có đục, đỏ không), mũi (có dịch đặc không), nhịp thở (thở gấp, thở bụng), bụng (chướng bất thường), phân dính quanh đuôi.",
+        "[Đánh dấu con bất thường] Con nào gầy nhiều, thở khó, mắt mũi bẩn, đi tách đàn nên đánh dấu hoặc khoanh riêng một ô chuồng khác để theo dõi sát.",
+        "[Nước uống ngày đầu] Đảm bảo máng nước sạch, nước mới. Có thể pha điện giải và vitamin tổng hợp theo hướng dẫn trên nhãn cho cả đàn trong 1-2 ngày đầu để hỗ trợ phục hồi.",
+        "[Thức ăn ngày 1] Cho cỏ khô/cỏ xanh chất lượng tốt là chính. Tinh cho rất ít, chia làm 2-3 bữa nhỏ. Không vội tăng tinh ngay ngày đầu để tránh rối loạn dạ cỏ.",
+        "[Ứng xử với dê quá đói] Nếu dê đói lâu do vận chuyển, không đổ cỏ + tinh thật nhiều một lần. Cho ăn ít nhưng nhiều lần, mỗi lần cách nhau 2-3 giờ.",
+        "[Điều tạm thời chưa làm] Không tẩy giun, không tiêm phòng, không đổi khẩu phần mạnh ngay ngày đầu. Đợi khi dê ăn uống bình thường, phân ổn định rồi mới lên kế hoạch tiếp."
+      ]
+    },
+    {
+      "id": "stabilize_weight",
+      "title": "Ổn định thể trạng 7-10 ngày đầu",
+      "goal": "Dê ăn uống đều, phân ổn định, không tiêu chảy, không bỏ ăn.",
+      "content": "Sau 3-5 ngày đầu, tập trung giữ ổn định môi trường và khẩu phần, không nôn nóng tăng tinh quá nhanh. Đây là nền tảng trước khi bước sang giai đoạn đẩy mạnh vỗ béo.",
+      "bullets": [
+        "[Môi trường] Giữ chuồng khô, sạch, thoáng. Ban ngày thông thoáng, ban đêm che bớt gió lùa. Không để dê nằm trực tiếp trên nền ướt, bẩn.",
+        "[Khẩu phần cơ bản] Duy trì cỏ xanh + cỏ khô + lượng tinh vừa phải. Tăng tinh từ từ mỗi 3-4 ngày, mỗi lần tăng một ít, quan sát phân và mức độ ăn.",
+        "[Dấu hiệu tiêu hóa ổn] Phân khuôn, không quá nhão, không dính bết đuôi; dê ăn hết khẩu phần, nhai lại tốt, không chướng bụng, không bỏ cỏ.",
+        "[Hỗ trợ dạ cỏ] Có thể bổ sung men tiêu hóa hoặc sản phẩm hỗ trợ dạ cỏ cho dê theo hướng dẫn trên nhãn, nhất là với đàn mới chuyển từ vùng thức ăn khác.",
+        "[Theo dõi cá thể yếu] Ghi lại con nào ăn chậm, hay đứng một góc, lông xù, mắt trũng. Những con này nên được ưu tiên chỗ ăn riêng, theo dõi trong vài ngày liền.",
+        "[Liên kết với mục bệnh] Nếu thấy dấu hiệu ho, thở khó, tiêu chảy, sốt… nên đối chiếu ngay với mục bệnh tương ứng trong app để không bỏ qua bệnh sớm.",
+        "[Tập thói quen giờ giấc] Cho ăn đúng giờ cố định sáng - chiều, không cho ăn kiểu \"lúc rảnh thì đổ\". Dê quen nhịp sinh học sẽ ăn khỏe và tăng tốt hơn."
+      ]
+    },
+    {
+      "id": "parasite_and_vaccination",
+      "title": "Tẩy ký sinh và tiêm phòng nền",
+      "goal": "Giảm gánh ký sinh trùng, tạo nền đề kháng tốt trước khi tăng khẩu phần mạnh.",
+      "content": "Khi dê đã quen trại, ăn uống ổn định, đây là thời điểm phù hợp để lên kế hoạch tẩy giun, trị ve rận và tiêm phòng các bệnh thường gặp.",
+      "bullets": [
+        "[Đánh giá lại đàn] Trước khi tẩy giun, quan sát toàn đàn: có con nào quá gầy, bụng to, lông xù, niêm mạc nhợt nhạt không. Những con này thường gánh ký sinh nặng hơn và cần theo dõi sát.",
+        "[Chọn thuốc tẩy giun] Ưu tiên dùng thuốc tẩy giun dành cho dê, chọn hoạt chất nằm trong mục Thuốc của app. Dùng theo đúng hướng dẫn trên nhãn hoặc tư vấn thú y, không tự tăng liều.",
+        "[Thời điểm tẩy] Nên tẩy giun khi dê đang khỏe, ăn uống bình thường, không tiêu chảy, không sốt. Tránh tẩy lúc nắng nóng cực điểm hoặc lạnh đột ngột.",
+        "[Ký sinh trùng ngoài da] Nếu thấy ve, rận, ghẻ: dùng thuốc xịt/tắm hoặc nhỏ lưng chuyên cho gia súc. Tuân thủ cách pha, cách tắm trên nhãn; không dùng liều cao hơn vì nghĩ \"mạnh cho nhanh hết\".",
+        "[Tiêm phòng nền] Trao đổi với thú y địa phương về bệnh lưu hành trong vùng (tụ huyết trùng, lở mồm long móng, phó thương hàn…). Lập lịch tiêm cơ bản cho đàn vỗ béo.",
+        "[Chăm sóc sau tiêm/tẩy] Sau các đợt tiêm phòng hoặc tẩy giun, cho dê nghỉ yên tĩnh, khẩu phần ổn định, có thể hỗ trợ thêm điện giải, vitamin theo hướng dẫn trên nhãn.",
+        "[Không làm khi dê đang bệnh] Không tẩy giun, không tiêm phòng với dê đang sốt, tiêu chảy nặng, thở khó. Phải xử lý bệnh cấp tính trước, chờ ổn rồi mới quay lại lịch phòng."
+      ]
+    },
+    {
+      "id": "metabolic_push",
+      "title": "Tăng dần khẩu phần - đẩy trao đổi chất",
+      "goal": "Dê lên khung, tăng cơ, tích mỡ vừa phải mà không bị rối loạn tiêu hóa.",
+      "content": "Khi đàn đã ổn định, bắt đầu tăng dần lượng tinh, đạm và năng lượng. Nguyên tắc: tăng từ từ, theo dõi phản ứng dạ cỏ sau mỗi lần chỉnh khẩu phần.",
+      "bullets": [
+        "[Nguyên tắc tăng tinh] Mỗi 3-5 ngày tăng nhẹ lượng tinh, không tăng dồn một lúc. Sau khi tăng, theo dõi phân, mức độ ăn, bụng (có chướng không) ít nhất 2-3 ngày.",
+        "[Đảm bảo chất xơ] Dù tăng tinh thì vẫn phải có cỏ khô/cỏ xanh đủ cho dê nhai lại. Khẩu phần chỉ toàn tinh rất dễ gây toan dạ cỏ, chướng hơi, nằm bẹp.",
+        "[Bổ sung khoáng - vitamin] Chuẩn bị liếm khoáng hoặc trộn khoáng - vitamin vào cám theo hướng dẫn trên nhãn, giúp phát triển xương, cơ và lông mượt.",
+        "[Hỗ trợ dạ cỏ khi tăng khẩu phần] Trong các đợt tăng tinh, có thể dùng men vi sinh, men tiêu hóa cho dê để dạ cỏ thích nghi tốt hơn với khẩu phần đậm đặc.",
+        "[Dấu hiệu quá tải] Nếu thấy dê chướng bụng, bỏ ăn, nhai lại kém, đi phân lỏng hoặc thở nhanh hơn bình thường, phải giảm ngay lượng tinh về mức trước đó hoặc thấp hơn, đồng thời theo dõi kỹ.",
+        "[Chia nhóm theo thể trạng] Dê quá gầy, quá nhỏ có thể tách nhóm riêng để cho ăn tăng hơn một chút; dê đã lên khung tốt thì giữ mức ổn định, không cần nhồi thêm.",
+        "[Không đổi thức ăn ồ ạt] Nếu muốn thêm phụ phẩm (cám rượu, bã đậu, bã bia…), phải trộn từ từ: vài ngày đầu lượng nhỏ, tăng dần; không thay toàn bộ cỏ/tinh bằng phụ phẩm một phát."
+      ]
+    },
+    {
+  "id": "concentrate_feed_fattening",
+  "title": "Thức ăn tinh cho dê vỗ béo",
+  "content": [
+    "Dê vỗ béo dùng thức ăn tinh là chủ lực để lên thịt, nhưng phải tăng cám có kiểm soát, không nhồi nhét 1 lần.",
+    "Giai đoạn mới nhập chuồng hoặc mới chuyển sang khẩu phần vỗ béo chỉ cho ăn ít cám, tăng dần từng bước theo phản ứng của đàn.",
+    "Chia cám thành nhiều cữ trong ngày, tránh cho ăn cám quá nhiều ở 1 cữ, đặc biệt là buổi tối khi khó kiểm soát chướng hơi.",
+    "Nếu thấy dê ợ hơi chua, bụng căng hơi, phân nhão hoặc nhày sau khi tăng cám thì dừng tăng, giảm bớt cám và tăng lại cỏ khô, lá xanh dễ tiêu.",
+    "Không dùng cám mốc, vón cục, có mùi khét hoặc mùi lạ; những lô cám nghi ngờ nên loại bỏ, không tiếc.",
+    "Dù vỗ béo, vẫn phải duy trì đủ xơ (cỏ khô, lá) để dê nhai lại tốt, không dùng khẩu phần chỉ toàn tinh bột."
+  ]
+},
+    {
+      "id": "disease_watch",
+      "title": "Theo dõi bệnh trong giai đoạn vỗ béo",
+      "goal": "Không để bùng dịch trong đàn, phát hiện sớm để tránh hụt tăng trọng.",
+      "content": "Khi mật độ nhốt cao và khẩu phần đậm đặc, nguy cơ bệnh hô hấp, tiêu hóa và ký sinh trùng tăng lên. Cần theo dõi đàn hàng ngày, phát hiện sớm và khoanh vùng nhanh.",
+      "bullets": [
+        "[Quan sát buổi sáng] Khi vào chuồng buổi sáng, quan sát nhanh cả đàn: con nào đứng tách, ăn chậm, đầu gục, lông xù, thở nhanh, ho nhiều, phân dính đuôi… đều phải để ý.",
+        "[Lập khu cách ly] Chuẩn bị sẵn một ô chuồng hoặc khu riêng dành cho dê bệnh/ nghi bệnh. Con nào bất thường nên chuyển sang khu này để tiện chăm và giảm lây cho đàn khỏe.",
+        "[Sử dụng nhóm thuốc hỗ trợ] Với các dấu hiệu nhẹ (mệt, ăn kém, tiêu chảy ít, ho lẻ tẻ) có thể dùng điện giải, men tiêu hóa, thuốc hạ sốt giảm đau, thuốc hỗ trợ hô hấp theo đúng hướng dẫn trên nhãn.",
+        "[Dùng app để đối chiếu bệnh] Dựa trên triệu chứng thực tế, mở mục \"Danh mục bệnh\" trong app, chọn đúng loài và nhóm bệnh để đọc chi tiết nguyên nhân - triệu chứng - cách xử lý.",
+        "[Giữ vệ sinh liên tục] Dọn phân hàng ngày, không để phân ướt dưới máng ăn, máng nước. Thức ăn thừa ẩm mốc phải đổ bỏ, không gom cho ăn lại.",
+        "[Ghi chép diễn biến] Dê nào đã cho thuốc nên ghi lại ngày, loại thuốc, biểu hiện chính để nếu phải gọi thú y thì có sẵn thông tin rõ ràng.",
+        "[Khi nào cần thú y] Nếu dê sốt cao kéo dài, thở khó rõ, tiêu chảy nặng, liệt, hoặc có nhiều con cùng bệnh trong thời gian ngắn, cần gọi thú y đến kiểm tra trực tiếp, không tự xử lý kéo dài."
+      ]
+    },
+    {
+      "id": "weight_gain_and_peak",
+      "title": "Giai đoạn tăng cân mạnh và đỉnh vỗ béo",
+      "goal": "Tối ưu tốc độ tăng cân, giữ thân hình đẹp, không quá béo mỡ, không sụt vào cuối kỳ.",
+      "content": "Khi khẩu phần đã được tối ưu và dê đáp ứng tốt, đây là giai đoạn duy trì nhịp tăng cân ổn định, không thử nghiệm mới và tập trung kiểm soát chi tiết hàng ngày.",
+      "bullets": [
+        "[Giữ khẩu phần đã tối ưu] Khi đã tìm được mức khẩu phần cho tăng cân tốt, không đổi loại tinh hoặc nguồn phụ phẩm sát ngày xuất chuồng nếu không cần thiết.",
+        "[Theo dõi \"nút mỡ\"] Định kỳ sờ lưng, sườn, gốc đuôi: dê quá gầy thì xương lộ rõ; quá béo thì mỡ dày, khó cảm giác xương. Mục tiêu là vừa phải, thịt đầy nhưng không phì mỡ.",
+        "[Đảm bảo đủ máng ăn] Kiểm tra số máng ăn so với số dê. Nếu dê phải tranh nhau quá nhiều, con yếu sẽ bị thiếu phần, tăng trưởng không đều.",
+        "[Hạn chế trượt ngã, chấn thương] Nền phải khô, không trơn. Nếu dùng sàn trệt, có thể rải thêm chất độn; nếu dùng sàn slat, kiểm tra không có thanh gãy, kẹt chân.",
+        "[Giữ bình tĩnh cho đàn] Tránh quát mắng, ném đồ, cho chó chạy lung tung trong chuồng. Dê hoảng loạn thường giảm ăn, stress, dễ bệnh.",
+        "[Cân/ước lượng định kỳ] 1-2 tuần/lần chọn vài con đại diện để cân hoặc đo, so sánh với lần trước để xem vỗ béo có hiệu quả hay đang chững lại.",
+        "[Không lơ là vệ sinh] Dù đã gần đỉnh vỗ béo, vẫn phải giữ chuồng sạch, khu vực máng nước không bùn lầy, không để bệnh bùng lên vào phút cuối."
+      ]
+    },
+    {
+      "id": "pre_sale_trim",
+      "title": "Chuẩn bị trước khi xuất bán",
+      "goal": "Dê sạch sẽ, đẹp mã, vận chuyển an toàn, không sụt cân nhiều.",
+      "content": "Trước khi bán, tập trung phần \"trình bày\" và vận chuyển: dê sạch, đứng vững, không bị trầy xước, giấy tờ rõ ràng. Làm tốt giai đoạn này giúp dễ bán hơn và hạn chế sụt cân.",
+      "bullets": [
+        "[Vệ sinh thân thể] Chải lông, gỡ rối những chỗ bết bẩn. Nếu điều kiện cho phép, có thể tắm nhanh bằng nước sạch vào ngày nắng ấm và để khô hẳn trước khi trời tối.",
+        "[Kiểm tra móng] Móng quá dài dễ trượt và đau khi đứng trên xe, nên cắt gọn trước vài ngày, để dê kịp quen lại cách đứng.",
+        "[Chuồng sạch 2-3 ngày trước bán] Giữ khu xuất bán sạch sẽ, mùi dễ chịu, giảm ấn tượng xấu với người mua và cũng giúp dê ít nhiễm bẩn mới trước khi lên xe.",
+        "[Điều chỉnh ăn trước khi chở] Không để dê quá đói nhiều giờ liền, nhưng cũng không cho ăn thật no ngay trước giờ lên xe để tránh nôn ói, ỉa đái nhiều trên đường.",
+        "[Chuẩn bị giấy tờ] Chuẩn bị giấy kiểm dịch, sổ tiêm phòng (nếu có). Nếu đàn vừa điều trị bệnh, cần thông tin rõ với người mua về thời gian ngưng thuốc trên nhãn.",
+        "[Sắp xếp trên xe] Không nhét quá chật; cố gắng phân bổ đều, tránh dồn hết dê vào một góc. Nếu đi xa, nên trao đổi với tài xế về việc dừng nghỉ, kiểm tra tình trạng dê trên đường.",
+        "[Giảm stress trong ngày bán] Hạn chế đổi chuồng nhiều lần sát giờ xuất. Chuẩn bị đường đi từ chuồng ra xe gọn, không phải đuổi vòng vèo nhiều lần."
+      ]
+    }
+  ],
+  "notes": [
+    "Luôn thay đổi khẩu phần từ từ, không tăng - giảm thức ăn đột ngột.",
+    "Ưu tiên chất lượng thức ăn (cỏ, tinh, phụ phẩm) hơn là cố tăng số lượng mà nguồn kém.",
+    "Luôn kết hợp 3 phần: khẩu phần hợp lý, chuồng trại sạch - khô - thoáng, kiểm soát bệnh và ký sinh trùng.",
+    "Ghi chép lại quá trình vỗ béo (loại cám, lượng ăn, tốc độ tăng cân, các đợt bệnh) để tối ưu dần cho những lứa sau."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi dê có dấu hiệu bệnh nặng (sốt cao, khó thở, tiêu chảy kéo dài, liệt…), nên liên hệ thú y để được kiểm tra trực tiếp."
+}

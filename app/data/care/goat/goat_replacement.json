@@ -1,0 +1,114 @@
+{
+  "id": "goat_replacement",
+  "name": "Dê hậu bị",
+  "species": "goat",
+  "group": "replacement",
+  "overview": "Cẩm nang chăm sóc dê hậu bị từ sau cai sữa đến trước khi phối giống. Mục tiêu: dê lớn khung tốt, chân móng chắc, không béo mỡ quá sớm, không còi, không mang bệnh nền nặng, đến tuổi phối giống với thể trạng và sức khỏe tối ưu.",
+  "sections": [
+    {
+      "id": "selection_from_kids",
+      "title": "Chọn dê hậu bị từ đàn dê con sau cai sữa",
+      "goal": "Chọn được những con có tiềm năng tốt về sinh trưởng và sinh sản để nuôi làm giống.",
+      "content": "Khâu chọn lọc ban đầu quyết định chất lượng đàn hậu bị sau này. Không nên giữ lại tất cả, mà cần chọn những cá thể đạt tiêu chuẩn tối thiểu về giống, thể trạng và sức khỏe.",
+      "bullets": [
+        "[Nguồn gốc giống] Ưu tiên dê con từ những mẹ đẻ đều, nuôi con tốt, ít bệnh, tầm vóc vừa hoặc lớn. Ghi chú các lứa con của từng mẹ để chọn dần.",
+        "[Thể trạng lúc cai sữa] Chọn dê con cai sữa có khung tốt, không quá gầy, không dị dạng xương, đi lại bình thường, lưng thẳng, ngực tương đối nở.",
+        "[Loại bỏ dị tật] Không giữ những con có dị dạng hàm, hàm móm, hàm vẩu nặng, chân cong bất thường, lưng võng, cột sống lệch rõ hoặc lỗ hậu môn - âm hộ bất thường.",
+        "[Theo dõi tiền sử bệnh] Hạn chế giữ lại những con từng bị bệnh nặng kéo dài (tiêu chảy kéo dài, viêm phổi nặng, bệnh máu…), hồi phục kém hoặc tái bệnh nhiều lần.",
+        "[Tách nhóm hậu bị] Sau khi chọn, tách riêng nhóm dê hậu bị khỏi dê nuôi thịt/vỗ béo để dễ quản lý khẩu phần và theo dõi phát triển.",
+        "[Ghi chép ban đầu] Ghi lại số tai, ngày sinh ước lượng, mẹ, tình trạng lúc chọn để thuận tiện cho việc đánh giá sau này (khi đến tuổi phối)."
+      ]
+    },
+    {
+      "id": "housing_and_grouping",
+      "title": "Chuồng trại và sắp xếp nhóm nuôi dê hậu bị",
+      "goal": "Đảm bảo dê hậu bị có môi trường sống ổn định, mật độ phù hợp, dễ quản lý và ít stress.",
+      "content": "Dê hậu bị cần được nuôi trong điều kiện chuồng trại sạch, khô, thoáng, mật độ vừa phải, tách khỏi các nhóm có nguy cơ gây stress cao (dê đực, dê vỗ béo mật độ dày…).",
+      "bullets": [
+        "[Chuồng riêng cho hậu bị] Bố trí ô chuồng riêng hoặc khu vực riêng cho dê hậu bị. Không nhốt chung với dê đực trưởng thành và dê vỗ béo nhốt quá dày.",
+        "[Mật độ nuôi] Đảm bảo đủ không gian để dê nằm, đứng, đi lại và tiếp cận máng ăn - máng nước không phải chen lấn quá mức. Tránh nhồi đông dẫn tới đè nhau, stress và bệnh hô hấp.",
+        "[Nền và chất độn] Nền/sàn phải khô, sạch, không trơn. Nếu dùng chất độn (trấu, rơm…), cần phơi khô trước khi rải, thay/xới định kỳ để tránh ẩm mốc.",
+        "[Thông gió và ánh sáng] Chuồng hậu bị cần thông thoáng, có ánh sáng tự nhiên đủ, không bị gió lùa trực tiếp vào ban đêm. Ban ngày có thể mở vách cho thoáng, ban đêm che bớt gió lạnh.",
+        "[Sắp xếp theo thể trạng] Nếu đàn có chênh lệch lớn về kích cỡ, nên tách nhóm nhỏ - nhóm lớn để tránh con nhỏ bị tranh ăn, bị húc nhiều.",
+        "[Lối đi và quản lý] Thiết kế lối đi thuận tiện cho việc cho ăn, dọn vệ sinh, bắt dê kiểm tra, tẩy giun hoặc tiêm phòng định kỳ."
+      ]
+    },
+    {
+      "id": "nutrition_growth_phase",
+      "title": "Dinh dưỡng và quản lý tăng trưởng trong giai đoạn hậu bị",
+      "goal": "Dê hậu bị tăng trưởng đều, phát triển khung xương và cơ tốt, không bị béo mỡ quá sớm hoặc còi.",
+      "content": "Mục tiêu chính của giai đoạn hậu bị là phát triển khung xương và thể vóc. Khẩu phần phải cân đối, đủ năng lượng và đạm, nhưng luôn dựa trên nền cỏ/xơ tốt, không nhồi tinh quá mức.",
+      "bullets": [
+        "[Nền cỏ/xơ] Luôn đảm bảo dê hậu bị được ăn đủ cỏ xanh và/hoặc cỏ khô chất lượng tốt. Cỏ phải sạch, không mốc, không lẫn bùn đất, không bị dính phân.",
+        "[Tinh và phụ phẩm] Bổ sung tinh/tập ăn đậm đặc với lượng vừa phải, tăng từ từ theo tuổi và thể trạng. Không cho ăn tinh hoặc phụ phẩm (bã đậu, bã bia…) quá nhiều trong 1-2 cữ gây rối loạn dạ cỏ.",
+        "[Không nuôi quá béo] Dê hậu bị quá béo sẽ giảm khả năng sinh sản về sau. Cần kiểm soát lượng tinh, nhất là ở giai đoạn gần đến tuổi phối.",
+        "[Nước uống sạch] Đảm bảo máng nước luôn có nước sạch, không rêu, không cặn bẩn. Rửa máng định kỳ, đổi nước hằng ngày.",
+        "[Khoáng và vitamin] Bổ sung khoáng - vitamin tổng hợp dùng cho dê theo hướng dẫn trên nhãn để hỗ trợ phát triển xương, cơ và miễn dịch.",
+        "[Theo dõi tăng trưởng] Định kỳ 1-2 tháng đánh giá lại thể trạng (bằng quan sát hoặc cân/ước lượng trọng lượng). Dê chậm lớn kéo dài cần xem lại khẩu phần và kiểm tra ký sinh trùng."
+      ]
+    },
+    {
+      "id": "health_prevention",
+      "title": "Phòng bệnh và theo dõi sức khỏe dê hậu bị",
+      "goal": "Hạn chế tối đa bệnh trong giai đoạn hậu bị, đặc biệt là bệnh ký sinh trùng, hô hấp, tiêu hóa, đảm bảo dê khỏe khi bước vào giai đoạn sinh sản.",
+      "content": "Dê hậu bị là nhóm dễ bị bỏ sót trong chương trình phòng bệnh vì không còn quá nhỏ nhưng cũng chưa đẻ. Cần có kế hoạch phòng bệnh rõ ràng để giữ sức khỏe đàn lâu dài.",
+      "bullets": [
+        "[Tẩy giun định kỳ] Xây dựng lịch tẩy giun phù hợp với điều kiện trại và khuyến cáo địa phương, sử dụng thuốc tẩy giun dành cho dê theo hướng dẫn trên nhãn hoặc tư vấn thú y. Không tẩy giun liên tục, lặp lại quá gần nhau.",
+        "[Kiểm soát ký sinh trùng ngoài da] Thường xuyên quan sát lông, da, tai, kẽ chân. Nếu phát hiện ve, rận, ghẻ, cần xử lý và vệ sinh chuồng song song theo hướng dẫn an toàn cho gia súc.",
+        "[Tiêm phòng] Thực hiện các mũi tiêm phòng cần thiết theo chương trình thú y địa phương (tụ huyết trùng, lở mồm long móng, các bệnh lưu hành khác), tuân thủ đúng hướng dẫn trên nhãn và tư vấn thú y.",
+        "[Theo dõi hô hấp] Quan sát ho, thở gấp, sổ mũi, thở bụng. Khi phát hiện nhiều con cùng có triệu chứng, phải xem lại chuồng (ẩm, bí, gió lùa) và đối chiếu với mục bệnh hô hấp.",
+        "[Theo dõi tiêu hóa] Phân khuôn, không quá nhão, không nhày máu. Tiêu chảy kéo dài hoặc tái phát cần được xử lý sớm, kết hợp xem lại khẩu phần và vệ sinh máng - nước.",
+        "[Ghi chép phòng bệnh] Lập sổ theo dõi lịch tẩy giun, tiêm phòng, những lần bệnh và điều trị, để làm cơ sở đánh giá khi chọn cá thể phối giống."
+      ]
+    },
+    {
+      "id": "hoof_and_structure_management",
+      "title": "Quản lý chân móng và khung xương",
+      "goal": "Dê hậu bị có chân móng khỏe, dáng đi bình thường, khung xương chắc, giảm nguy cơ viêm kẽ chân và chấn thương sau này.",
+      "content": "Chân móng và khung xương là nền để dê mang thai, đẻ và cho sữa về sau. Nếu bỏ qua ở giai đoạn hậu bị, khi thành dê mẹ sẽ rất khó sửa.",
+      "bullets": [
+        "[Kiểm tra chân móng định kỳ] Quan sát móng dài, móng quặp, kẽ chân bẩn, có mùi hôi, nứt kẽ. Cắt móng khi cần, vệ sinh kẽ chân và xử lý viêm kẽ sớm.",
+        "[Nền chuồng phù hợp] Tránh nền quá trơn, quá cứng hoặc ẩm kéo dài gây trượt ngã, đau móng, viêm kẽ. Nếu dùng sàn cao, khe sàn cần phù hợp để không kẹt chân.",
+        "[Vận động] Nếu điều kiện cho phép, có thể cho dê hậu bị vận động ở sân phơi khô, sạch trong thời gian nhất định trong ngày để tăng độ chắc của cơ - xương.",
+        "[Theo dõi dáng đi] Dê đi tập tễnh, gù lưng, nhấc chân bất thường, đứng nhiều một chân là dấu hiệu cần kiểm tra móng, khớp và nền chuồng.",
+        "[Khẩu phần hỗ trợ xương] Đảm bảo khẩu phần đủ khoáng và vitamin (đặc biệt canxi, phospho, vi lượng theo chế phẩm dùng cho dê) để hỗ trợ khung xương phát triển.",
+        "[Loại thải cá thể dị dạng nặng] Những con có dị dạng chân móng, khung xương nặng, đi lại khó khăn nên cân nhắc không dùng làm giống lâu dài."
+      ]
+    },
+    {
+      "id": "body_condition_before_breeding",
+      "title": "Thể trạng dê hậu bị trước khi đưa vào phối giống",
+      "goal": "Dê hậu bị đạt thể trạng thích hợp (không quá gầy, không quá béo), có sức khỏe tổng thể tốt trước khi lần đầu phối giống.",
+      "content": "Trước khi vào lứa phối đầu tiên, cần đánh giá lại toàn diện thể trạng và sức khỏe dê hậu bị. Đây là bước chuyển từ giai đoạn lớn khung sang giai đoạn sinh sản.",
+      "bullets": [
+        "[Đánh giá điểm thể trạng] Quan sát lưng, sườn, gốc đuôi: không để dê quá gầy (xương nổi rõ) hoặc quá béo (mỡ dày, khó sờ thấy xương). Thể trạng trung bình - hơi khá là phù hợp cho phối giống.",
+        "[Trọng lượng và tầm vóc] Tùy giống và điều kiện từng trại, chỉ nên phối khi dê đã đạt tầm vóc và trọng lượng tối thiểu chấp nhận được (so với đàn cùng giống). Dê quá nhỏ, chưa phát triển khung đủ dễ đẻ khó và suy sau sinh.",
+        "[Lịch sử bệnh] Xem lại sổ theo dõi: tránh đưa vào phối những con có tiền sử bệnh nặng, kéo dài, tái phát nhiều lần hoặc hồi phục kém.",
+        "[Kiểm tra chân móng và dáng đi] Chỉ nên phối những con đi lại bình thường, không đau chân, không viêm kẽ chân nặng. Dê đau chân sẽ khó chịu, giảm ăn trong thai kỳ và thời kỳ nuôi con.",
+        "[Kiểm tra tổng quát sức khỏe] Quan sát mắt, mũi, lông, da: dê khỏe có mắt sáng, phản xạ nhanh, lông mượt tương đối, không tổn thương da lan rộng.",
+        "[Chuẩn bị bước sang chế độ dê mẹ] Khi đã sẵn sàng cho phối giống, chuyển sang áp dụng các hướng dẫn tương ứng trong mục chăm sóc dê mẹ sinh sản (dê mẹ sinh sản - giai đoạn trước phối giống)."
+      ]
+    },
+    {
+      "id": "management_mistakes_to_avoid",
+      "title": "Một số sai lầm thường gặp cần tránh khi nuôi dê hậu bị",
+      "goal": "Giảm những lỗi quản lý gây hậu quả lâu dài cho năng suất sinh sản.",
+      "content": "Những lỗi nhỏ lặp đi lặp lại trong giai đoạn hậu bị có thể dẫn đến đàn dê mẹ yếu, đẻ kém, nuôi con kém nhiều năm sau đó.",
+      "bullets": [
+        "[Nuôi chung với đàn vỗ béo] Dê hậu bị bị ăn khẩu phần quá đậm như dê vỗ béo dễ béo mỡ sớm, giảm khả năng sinh sản về sau.",
+        "[Bỏ quên phòng bệnh] Không tẩy giun, không tiêm phòng đầy đủ ở giai đoạn hậu bị làm dê mang theo ký sinh và bệnh nền sang giai đoạn sinh sản.",
+        "[Mật độ quá dày] Nhốt đông, tranh ăn, húc nhau nhiều → dê chậm lớn, dễ bệnh, khó đánh giá chính xác tiềm năng từng con.",
+        "[Không ghi chép] Không có số liệu về tăng trưởng, bệnh và xử lý khiến việc chọn lọc thế hệ sau dựa vào cảm tính, dễ giữ lại cá thể kém.",
+        "[Thay đổi khẩu phần đột ngột] Đột ngột thay đổi loại cỏ, loại tinh, thêm phụ phẩm nhiều làm rối loạn dạ cỏ, tiêu chảy, chững lớn.",
+        "[Không kiểm tra chân móng] Để móng dài, viêm kẽ kéo dài mà không xử lý khiến dê hậu bị mang nhược điểm chân móng suốt đời."
+      ]
+    }
+  ],
+  "notes": [
+    "Dê hậu bị là cầu nối giữa giai đoạn dê con và dê mẹ sinh sản. Chăm sóc đúng giai đoạn này sẽ giảm nhiều rủi ro đẻ khó, nuôi con kém và bệnh mạn tính ở dê mẹ sau này.",
+    "Mục tiêu chính của giai đoạn hậu bị là phát triển khung xương, thể vóc và nền sức khỏe, không phải vỗ béo tối đa.",
+    "Chuồng trại sạch - khô - thoáng, khẩu phần cân đối, phòng bệnh định kỳ và theo dõi chân móng là bốn trụ cột trong quản lý dê hậu bị.",
+    "Ghi chép đầy đủ quá trình nuôi, phòng bệnh và các lần bệnh giúp chọn lọc đàn giống theo hướng khỏe, dễ nuôi, sinh sản tốt."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi dê hậu bị có biểu hiện bệnh (sút cân nhanh, ho kéo dài, tiêu chảy nặng, đi khập khiễng, bỏ ăn nhiều ngày…), cần liên hệ thú y để được kiểm tra trực tiếp và đưa ra hướng xử lý phù hợp."
+}

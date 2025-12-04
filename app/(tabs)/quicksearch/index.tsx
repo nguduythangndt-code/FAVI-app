@@ -189,7 +189,7 @@ const QuickSearchScreen = () => {
     setLastLogKey(key);
   }, [selectedAnimal, query, results.length, lastLogKey]);
 
-  // render nút chọn loài – đặt trong component để dùng được state
+  // render nút chọn loài - đặt trong component để dùng được state
   const renderAnimalButton = (animal: AnimalType, label: string) => {
     const isActive = selectedAnimal === animal;
 

@@ -1,0 +1,114 @@
+{
+  "id": "cattle_cow",
+  "name": "Bò cái sinh sản",
+  "species": "cattle",
+  "group": "reproductive",
+  "overview": "Cẩm nang chăm bò cái từ lúc xác định có thai đến khi đẻ xong và nuôi bê. Mục tiêu là đẻ an toàn, không viêm vú, không sót nhau, bê bú được sữa đầu sớm, bò mẹ hồi phục tử tế. Việc điều trị, bù khoáng, hỗ trợ sinh sản đều định tính theo hướng dẫn nhãn thuốc hoặc tư vấn thú y vùng, bao quát mùa vụ và phản ứng cá thể.",
+  "sections": [
+    {
+      "id": "pregnancy_confirm",
+      "title": "Xác định có thai và lập kế hoạch",
+      "goal": "Biết chắc bò mang thai, chốt phác đồ chăm và phân lô riêng.",
+      "content": "Khi nghi bò mang thai sau phối, ưu tiên siêu âm hoặc gọi thú y kiểm tra. Không dựa mắt thường. Lập hồ sơ cho từng bò cái.",
+      "bullets": [
+        "[Kiểm tra siêu âm hoặc thú y] Siêu âm để xác nhận tuổi thai và độ phát triển.",
+        "[Lập hồ sơ cá thể] Ghi ngày phối, ngày siêu âm, tiền sử bệnh, tiền sử viêm vú, dinh dưỡng.",
+        "[Phân lô riêng] Bò mang thai nên chuyển khu ổn định hơn, nền khô, ít ồn, ít tranh ăn.",
+        "[Tạm dừng thử nghiệm khẩu phần] Không đổi loại tinh - phụ phẩm lớn ngay khi biết có thai.",
+        "[Chuẩn bị kế hoạch dài hạn] Tính ngược ngày dự kiến đẻ để chuẩn bị cận đẻ từ sớm."
+      ]
+    },
+    {
+      "id": "pregnancy_early_1_3_months",
+      "title": "Thai kỳ sớm (1-3 tháng)",
+      "goal": "Thai bám ổn, bò mẹ không stress, không thiếu xơ - đạm cơ bản.",
+      "content": "Thai kỳ sớm dễ sảy nếu bò stress mạnh hoặc rối loạn tiêu hóa. Trọng tâm là ổn định môi trường và xơ.",
+      "bullets": [
+        "[Chất xơ là chủ lực] Cho ăn cỏ khô, rơm khô sạch, lá xanh mềm đủ để nhai lại.",
+        "[Không ép vận động nặng] Tránh đuổi bò chạy, leo dốc gắt, trượt nền.",
+        "[Đạm tự nhiên vừa phải] Lá đậu, keo, dây khoai… mức độ vừa theo nhãn khoáng bổ sung.",
+        "[Nước sạch, tránh bùn lầy quanh máng] Giữ khu uống khô.",
+        "[Theo dõi phân] Phân khuôn sợi, không bọt, không quá chua mùi.",
+        "[Quan sát dịch âm hộ] Không có mùi hôi hoặc màu lạ."
+      ]
+    },
+    {
+      "id": "pregnancy_mid_3_7_months",
+      "title": "Thai kỳ giữa (3-7 tháng)",
+      "goal": "Giữ thai phát triển đều, chân khớp bò mẹ chắc, không thiếu khoáng.",
+      "content": "Thai phát triển mạnh về khung xương và cơ. Bò mẹ cần nền khoáng và tránh quá tải năng lượng sớm.",
+      "bullets": [
+        "[Bổ sung khoáng nền] Ưu tiên liếm khoáng canxi - photpho - vi khoáng theo nhãn.",
+        "[Chỉ tăng tinh nhẹ khi phân ổn] Không tăng năng lượng dồn cục.",
+        "[Kiểm tra sàn và nền] Nền phải bám chân, khô, không gãy thanh slat, không ổ gà lõm sâu.",
+        "[Giám sát ký sinh máu] Nếu nghi ký sinh máu, mời thú y tư vấn hoạt chất nằm trong data thuốc của trại.",
+        "[Chưa tẩy giun nếu chưa đánh giá] Đợi đánh giá đàn khỏe rồi mới tẩy giun đúng thời điểm mát trong ngày.",
+        "[Quan sát chân - móng] Ưu tiên cắt gọn móng vài tuần trước cận đẻ, không cắt sát ngày đẻ."
+      ]
+    },
+    {
+      "id": "pre_birth_7_9_months",
+      "title": "Cận đẻ (7-9 tháng)",
+      "goal": "Bò mẹ đủ sức đẻ, không bị chèn ép thai, không trượt ngã, không ăn quá no 1 lần.",
+      "content": "Đây là lúc chuồng - máng - người - chó - gió - ẩm đều phải có kịch bản xử lý rõ. Không improv bừa.",
+      "bullets": [
+        "[Chuồng ấm 1 phía, thoáng 1 phía] Che bạt chiều gió nhưng không bịt kín hoàn toàn.",
+        "[Chia khẩu phần 3-4 lần/ngày] Ưu tiên cho ăn đúng giờ.",
+        "[Giảm hạt ẩm, tăng xơ khô] Nếu mưa kéo dài, ưu tiên xơ khô sạch.",
+        "[Quan sát vú bắt đầu xuống sữa] Vú hơi căng nhẹ, không nóng - đỏ - đau.",
+        "[Tránh người lạ, ồn và chó vào khu đẻ] Giữ đàn yên trong 7-10 ngày cận đẻ.",
+        "[Máng sạch hàng ngày] Không để bám phân khô dày quanh vành máng ăn.",
+        "[Chuẩn bị đường ra xe cho lứa sau] Tính đến phương án bê bú sữa đầu rồi mới nghĩ lịch tiêm nền sau đẻ."
+      ]
+    },
+    {
+      "id": "birth_process",
+      "title": "Quá trình đẻ",
+      "goal": "Đẻ an toàn, không can thiệp thô bạo. Bê ra đúng hướng. Nhau ra tự nhiên.",
+      "content": "Quan sát chứ không làm thay.",
+      "bullets": [
+        "[Giám sát hướng đẻ] Bê thường ra 2 chân trước + đầu. Sai hướng, rặn mạnh kéo dài → gọi thú y.",
+        "[Không kéo bê mạnh tay] Trừ khi thú y chỉ định và có dụng cụ sạch hỗ trợ.",
+        "[Để bò mẹ liếm bê] Kích phản xạ bú và tuần hoàn.",
+        "[Giám sát nhau thai] Không mổ sớm, không kéo. Theo dõi vài giờ, bất thường → thú y.",
+        "[Giám sát ngạt sơ sinh] Bê tím tái, không thở đều → thú y can thiệp."
+      ]
+    },
+    {
+      "id": "post_birth_0_7_days",
+      "title": "Sau đẻ (0-7 ngày)",
+      "goal": "Bê bú sữa đầu, bò mẹ không sốt - không viêm vú - không sót nhau, ăn lại sớm.",
+      "content": "Đây là zone dễ toang nhất nếu chủ quan. Quản lý giống phòng server crash vậy.",
+      "bullets": [
+        "[Sữa đầu ưu tiên cho bê trong 2-3 giờ đầu]",
+        "[Sát trùng núm vú trước khi bú] Lau sơ nước sạch nếu bẩn rồi lau khô.",
+        "[Giám sát viêm vú] Vú nóng, đỏ, đau khi chạm → tách bê, mời thú y tư vấn chất kháng viêm/kháng sinh theo nhãn - không tăng liều.",
+        "[Giám sát sót nhau] Bò rướn bụng khó chịu, mùi hôi, dịch màu lạ ở âm hộ → thú y.",
+        "[Không tẩy giun, không phối thuốc lung tung]",
+        "[Bù nước và vitamin hỗ trợ] Dùng điện giải + vitamin tổng hợp theo nhãn.",
+        "[Giám sát sốt sau đẻ] Bò sốt cao kéo dài, bỏ ăn → thú y, không trì hoãn.",
+        "[Giữ chuồng cực sạch, khô] Không để bê nằm ngay chỗ phân ướt."
+      ]
+    },
+    {
+      "id": "post_birth_2_weeks_plus",
+      "title": "Sau đẻ 2 tuần trở đi",
+      "goal": "Bò mẹ lấy lại trao đổi chất và chuẩn bị nền phối giống lứa sau khi cơ thể hồi toàn phần.",
+      "content": "Lứa tiếp theo cần giai đoạn hồi phục tốt mới phối được. Đây là logic SM cơ bản.",
+      "bullets": [
+        "[Chưa phối ngay] Đợi dịu phản xạ stress và phân ổn định. Siêu âm lại nếu cần.",
+        "[Liếm khoáng nền] Ưu tiên đặt khu liếm khoáng gần máng.",
+        "[Không nhồi tinh] Chỉ tăng tinh nhẹ nếu phân ổn, body không quá mỡ.",
+        "[Giám sát cyclic động dục] Ghi lại nếu thấy động dục.",
+        "[Giữ chân móng] Không cho bò đứng lâu trên nền trơn."
+      ]
+    }
+  ],
+  "notes": [
+    "Thai kỳ sớm và cận đẻ cần xơ thô + khoáng nền theo nhãn, không đổi ồ ạt.",
+    "Không mánh khóe kéo nhau thai, kéo bê hoặc tự ý phối nhiều thuốc cùng lúc.",
+    "Giữ môi trường khô, thoáng, ấm 1 phía, yên tĩnh.",
+    "Ghi chép hồ sơ hỗ trợ tối ưu lứa phối và đẻ sau."
+  ],
+  "warning": "Thông tin tham khảo. Khi bò cái đẻ khó, sốt cao, viêm vú hoặc sót nhau, gọi thú y vùng để can thiệp đúng nhãn thuốc."
+}

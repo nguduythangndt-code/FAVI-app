@@ -1,0 +1,119 @@
+{
+  "id": "chicken_layer",
+  "name": "Gà đẻ (layer)",
+  "species": "chicken",
+  "group": "layer",
+  "overview": "Cẩm nang chăm sóc gà đẻ trứng từ giai đoạn hậu bị (sau úm) đến khi hết chu kỳ đẻ. Mục tiêu: gà vào đẻ đúng tuổi, sản lượng đều, vỏ trứng chắc, ít vỡ, thân gà không suy kiệt sớm. Tất cả xoay quanh: nuôi hậu bị đúng khung, chuyển sang giai đoạn đẻ êm, khẩu phần canxi - đạm - năng lượng hợp lý, chương trình ánh sáng ổn định và phát hiện sớm các vấn đề về sản lượng, vỏ trứng, sức khỏe chân - xương - đường sinh dục.",
+  "sections": [
+    {
+      "id": "pullet_phase",
+      "title": "Giai đoạn hậu bị (gà mái tơ chuẩn bị vào đẻ)",
+      "goal": "Gà mái phát triển khung xương, trọng lượng cơ thể và sức khỏe nền đủ tốt trước khi bước vào giai đoạn đẻ.",
+      "content": "Nuôi hậu bị sai sẽ kéo theo cả chu kỳ đẻ kém: gà vào đẻ muộn, năng suất thấp, dễ bệnh. Trọng tâm: không cho gà quá gầy, cũng không quá béo; xương chắc, chân vững, lông mượt, hoạt động linh hoạt.",
+      "bullets": [
+        "[Ổn định đàn hậu bị] Sau khi qua giai đoạn gà con, chuyển đàn vào khu hậu bị riêng, mật độ hợp lý. Gà hậu bị nên được chăm khác khu gà thịt, không nuôi chung bừa bãi.",
+        "[Khẩu phần đúng lứa tuổi] Dùng cám hậu bị (grower/developer) dành riêng cho gà mái tơ, không dùng cám gà thịt broiler cho gà đẻ vì khác nhu cầu dinh dưỡng.",
+        "[Không để gà quá béo] Gà hậu bị ăn quá nhiều năng lượng sẽ tích mỡ bụng, dễ giảm sản lượng khi vào đẻ. Quan sát: gà quá tròn, nặng nề, ít chạy nhảy là dấu hiệu cần giảm năng lượng khẩu phần.",
+        "[Không để gà quá gầy] Gà quá gầy, xương nổi rõ, ức nhọn, hoạt động chậm chạp sẽ vào đẻ kém. Cần đảm bảo gà ăn hết khẩu phần và không bị đàn khác tranh cám.",
+        "[Tập cho gà quen khu vực sau này sẽ đẻ] Nếu chuồng đẻ cố định, nên cho gà hậu bị làm quen sớm với không gian, máng ăn - uống tại đó để giảm stress khi chuyển sang giai đoạn đẻ.",
+        "[Giữ chuồng khô - thoáng - sạch] Nền không ẩm, không gió lùa mạnh, không tích phân quá dày. Gà hậu bị sống trong môi trường tốt thì sức đề kháng cao, ít bệnh nền.",
+        "[Theo dõi đều đàn] Gà quá nhỏ, chậm lớn nên được tách riêng để chăm thêm. Không để lẫn trong đàn chính vì sẽ càng ngày càng tụt lại."
+      ]
+    },
+    {
+      "id": "pre_lay_transition",
+      "title": "Giai đoạn chuyển tiếp trước khi vào đẻ",
+      "goal": "Giảm sốc khi chuyển chuồng, giúp gà chuyển từ hậu bị sang đẻ một cách êm, không tụt ăn, không rối loạn.",
+      "content": "Trước khi gà bắt đầu đẻ trứng, cần chuẩn bị ổ đẻ, khẩu phần, ánh sáng và sắp xếp chuồng. Nếu làm dồn dập một lúc, gà dễ stress, giảm ăn, vào đẻ muộn.",
+      "bullets": [
+        "[Chuẩn bị ổ đẻ trước] Bố trí ổ đẻ (ổ lồng, ổ hộp hoặc giá đẻ) đủ số lượng, lót sạch, khô, đặt ở vị trí yên tĩnh, ánh sáng vừa phải. Chuẩn bị xong trước khi gà bắt đầu vào đẻ.",
+        "[Chuyển chuồng từng bước] Nếu phải chuyển gà từ khu hậu bị sang khu đẻ, nên làm trước khi gà bắt đầu đẻ một thời gian, không chờ đến khi đã có trứng rồi mới chuyển.",
+        "[Giữ khẩu phần ổn định khi chuyển chỗ] 2-3 ngày trước và sau khi chuyển chuồng không nên đổi loại cám. Chỉ tập trung cho gà quen chỗ mới, tránh sốc thêm vì đổi cám.",
+        "[Quan sát dấu hiệu gà sắp đẻ] Gà mái sắp đẻ thường mồng, tích đỏ tươi hơn, xương hông nở ra, hành vi bồn chồn tìm ổ. Ghi nhận để chủ động khóa lịch chăm sóc.",
+        "[Giảm các thao tác thô bạo] Hạn chế bắt gà, dồn gà, đuổi chạy sinh hoạt mạnh trong giai đoạn này, vì dễ làm gà chậm vào đẻ.",
+        "[Sắp xếp lại mật độ] Giai đoạn vào đẻ không nên để mật độ quá dày. Nếu đàn bị dồn, dễ pecking (mổ nhau), tranh ổ, tranh cám, làm gà stress, giảm đẻ."
+      ]
+    },
+    {
+      "id": "start_of_lay",
+      "title": "Giai đoạn bắt đầu đẻ (tỷ lệ đẻ tăng dần)",
+      "goal": "Gà vào đẻ đồng loạt, tỷ lệ đẻ tăng đều, không gián đoạn do stress hoặc thiếu dinh dưỡng.",
+      "content": "Giai đoạn tỷ lệ đẻ từ vài phần trăm lên đến khoảng 50-60% là lúc phải theo dõi sát để chỉnh khẩu phần, ánh sáng và ổ đẻ kịp thời.",
+      "bullets": [
+        "[Chuyển dần sang cám đẻ] Khi đàn bắt đầu có trứng, chuyển dần từ cám hậu bị sang cám đẻ có canxi cao hơn. Không đổi một lần 100%, mà trộn dần cám cũ - mới vài ngày.",
+        "[Duy trì giờ cho ăn cố định] Giờ cho ăn ổn định giúp gà đẻ đều, hạn chế stress. Tránh hôm cho ăn rất sớm, hôm lại rất trễ.",
+        "[Hoàn thiện ổ đẻ] Đảm bảo ổ đủ, khô, lót tốt, không có phân, không ẩm. Ổ bẩn, ẩm là nguyên nhân trứng bẩn, gà bỏ ổ hoặc đẻ lung tung trên nền.",
+        "[Thu trứng nhiều lần trong ngày] Thu trứng thường xuyên, nhẹ nhàng, đúng giờ. Không để trứng nằm lâu trong ổ, dễ vỡ, dễ bị mổ trứng rồi thành thói quen xấu.",
+        "[Theo dõi vỏ trứng] Giai đoạn đầu thường có trứng vỏ mỏng, vỏ nhám, to nhỏ không đều. Nếu tình trạng này kéo dài, cần xem lại khẩu phần canxi, khoáng và sức khỏe chung.",
+        "[Hạn chế tiếng ồn mạnh] Tránh tiếng động đột ngột (đóng cửa ầm, la hét, chó chạy ầm ầm) quanh thời điểm gà đẻ nhiều, vì gà dễ hoảng, nhảy ra khỏi ổ, đẻ rơi vỡ trứng.",
+        "[Tách gà đẻ non bất thường] Gà đẻ trứng quá nhỏ, dị dạng, kèm theo biểu hiện yếu, sụp mào… nên được chú ý. Nếu cần, tách theo dõi, xem xét bệnh và dinh dưỡng."
+      ]
+    },
+    {
+      "id": "peak_lay_management",
+      "title": "Quản lý giai đoạn đỉnh đẻ",
+      "goal": "Duy trì sản lượng cao ổn định, vỏ trứng tốt, hạn chế tụt đẻ đột ngột.",
+      "content": "Đỉnh đẻ là giai đoạn đàn cho trứng nhiều nhất, cũng là lúc cơ thể gà chịu tải lớn nhất. Cần giữ ổn định mọi thứ: khẩu phần, nước, ánh sáng, chuồng trại và cách thao tác.",
+      "bullets": [
+        "[Giữ ổn định loại cám đẻ] Khi đã chọn được loại cám đẻ phù hợp, không nên đổi hãng liên tục trong giai đoạn đỉnh đẻ. Mỗi lần đổi cám đều có nguy cơ làm tụt đẻ.",
+        "[Đảm bảo đủ canxi và khoáng] Ngoài cám đẻ, có thể bổ sung thêm nguồn canxi (như vỏ sò, đá vôi dạng hạt) theo khuyến cáo trên nhãn sản phẩm để vỏ trứng dày, chắc hơn.",
+        "[Kiểm tra vỏ trứng mỗi ngày] Nếu bắt đầu xuất hiện nhiều trứng vỏ mỏng, vỏ nhăn, vỏ nhám, cần xem lại: chất lượng cám, nguồn canxi, ánh sáng, sức khỏe chung của đàn.",
+        "[Nước uống không được thiếu] Thiếu nước trong vài giờ cũng có thể làm gà tụt đẻ rõ rệt. Hệ thống máng/núm uống phải luôn hoạt động, nước trong, sạch.",
+        "[Giữ mật độ hợp lý] Mật độ quá dày sẽ làm gà khó tiếp cận máng ăn - uống, dễ stress, mổ lông, mổ hậu môn. Cần dãn mật độ hoặc tách đàn nếu thấy gà chen lấn quá nhiều.",
+        "[Tránh đổi chương trình ánh sáng] Đỉnh đẻ cần chương trình ánh sáng ổn định (tổng số giờ sáng mỗi ngày tương đối cố định). Tăng giảm đột ngột số giờ sáng có thể làm gà tụt đẻ.",
+        "[Theo dõi sức khỏe chân - xương] Gà đẻ lâu dễ bị loãng xương, gãy chân, yếu chân. Quan sát gà đi lại, đứng trên thang - sào; con nào khó đứng, đi khập khiễng cần kiểm tra lại dinh dưỡng và nền chuồng."
+      ]
+    },
+    {
+      "id": "lighting_program",
+      "title": "Quản lý ánh sáng cho gà đẻ",
+      "goal": "Duy trì nhịp sinh lý ổn định, hỗ trợ gà đẻ đều, hạn chế tụt đẻ do rối loạn ánh sáng.",
+      "content": "Ánh sáng ảnh hưởng trực tiếp đến hệ trục hormon điều khiển đẻ trứng của gà. Sai chương trình ánh sáng có thể làm gà đẻ sớm quá, muộn quá hoặc tụt đẻ.",
+      "bullets": [
+        "[Giữ tổng số giờ sáng ổn định] Khi đã vào giai đoạn đẻ, thường duy trì số giờ sáng/ngày ở mức ổn định. Không tăng giảm đột ngột nhiều tiếng giữa các ngày.",
+        "[Phối hợp ánh sáng tự nhiên và đèn] Nếu tận dụng ánh sáng tự nhiên ban ngày, cần tính cả thời gian này vào tổng giờ sáng trong ngày. Phần thiếu có thể bù bằng đèn.",
+        "[Đèn chiếu sáng phân bố đều] Đèn nên được bố trí sao cho độ sáng tương đối đồng đều trong chuồng, tránh chỗ quá tối, chỗ quá chói khiến gà tập trung một nơi.",
+        "[Giờ bật - tắt đèn cố định] Cố định giờ bật/tắt đèn trong ngày. Nếu cần thay đổi, nên thay đổi từng chút một, không đảo lộn hoàn toàn ngay lập tức.",
+        "[Không để chuồng tối đột ngột] Nếu cúp điện hoặc tắt đèn đột ngột lúc gà đang hoạt động, gà dễ hoảng loạn, nhảy loạn, chồng chất lên nhau gây gãy chân, chết ngạt.",
+        "[Theo dõi phản ứng đàn] Nếu sau khi thay đổi ánh sáng, tỷ lệ đẻ tụt thấy rõ, hành vi gà thay đổi (lười ăn, đứng nhiều), nên xem xét quay lại chương trình ánh sáng cũ hoặc hỏi thêm ý kiến chuyên môn."
+      ]
+    },
+    {
+      "id": "mid_and_late_lay",
+      "title": "Giai đoạn giữa và cuối chu kỳ đẻ",
+      "goal": "Duy trì đàn gà đẻ hợp lý, tránh để đàn kiệt sức, sản lượng quá thấp nhưng vẫn tốn cám.",
+      "content": "Về giữa và cuối chu kỳ, sản lượng trứng sẽ giảm dần. Cần quyết định thời điểm loại thải, thay đàn, điều chỉnh mật độ và chăm sóc phù hợp.",
+      "bullets": [
+        "[Theo dõi sản lượng trứng theo tuần] Ghi lại sản lượng trứng theo tuần để thấy xu hướng giảm. Nếu sản lượng giảm mạnh, cần xem lại khẩu phần, bệnh hoặc tuổi đẻ đã qua đỉnh lâu.",
+        "[Quan sát chất lượng vỏ] Cuối chu kỳ, vỏ trứng dễ mỏng hơn. Nếu vẫn còn nhiều trứng vỏ tốt và sản lượng chấp nhận được, có thể kéo dài chu kỳ thêm một thời gian.",
+        "[Đánh giá thể trạng gà] Gà quá gầy, lông xơ xác, xương lộ nhiều thường là đã kiệt sức. Cân nhắc loại thải thay đàn mới, tránh kéo dài nuôi không hiệu quả.",
+        "[Điều chỉnh mật độ] Khi loại thải một phần đàn, nên sắp xếp lại mật độ, không để khoảng trống quá lớn tạo gió lùa hoặc để gà tụ vào vài góc.",
+        "[Giữ khẩu phần sạch, chất lượng tốt] Dù cuối kỳ, vẫn phải đảm bảo cám sạch, không mốc, không bốc mùi. Không dùng cám kém chất lượng cho gà chỉ vì nghĩ “sắp loại rồi”.",
+        "[Lên kế hoạch thay đàn] Dựa vào sản lượng, chất lượng trứng và thị trường, lên kế hoạch nhập lứa hậu bị tiếp theo để không bị đứt đoạn nguồn trứng.",
+        "[Theo dõi bệnh mạn tính] Gà đẻ lâu dễ bộc lộ các bệnh mạn (hô hấp, tiêu hóa, khớp…). Cần cân nhắc hiệu quả điều trị so với quyết định loại thải."
+      ]
+    },
+    {
+      "id": "health_issues_layers",
+      "title": "Các vấn đề sức khỏe thường gặp ở gà đẻ và cách quan sát",
+      "goal": "Nhận diện sớm các bất thường để đối chiếu với mục bệnh và xử lý kịp thời.",
+      "content": "Gà đẻ phải gánh tải cao lên hệ sinh dục, xương và chuyển hóa. Một số vấn đề đặc trưng của gà đẻ cần được chú ý hàng ngày.",
+      "bullets": [
+        "[Sụt đẻ đột ngột] Nếu sản lượng trứng giảm mạnh trong vài ngày, cần kiểm tra: thay đổi thức ăn, thiếu nước, thay đổi ánh sáng, stress (tiếng ồn, thú dữ), bệnh truyền nhiễm.",
+        "[Vỏ trứng bất thường] Vỏ mỏng, vỏ nhăn, vỏ không đều… xuất hiện nhiều có thể liên quan đến thiếu canxi, thiếu khoáng, bệnh về vỏ trứng hoặc stress. Cần xem lại khẩu phần và đối chiếu mục bệnh.",
+        "[Sa ống dẫn trứng] Một số gà có hiện tượng sa ống dẫn trứng, hậu môn sưng, lòi. Những con này dễ bị mổ, nhiễm trùng. Cần tách riêng, xử lý phù hợp và tham khảo ý kiến thú y.",
+        "[Gãy chân, yếu xương] Gà đi khó, gãy chân, nằm nhiều có thể do loãng xương, nền trơn, va đập hoặc dinh dưỡng không cân bằng. Cần kiểm tra lại toàn bộ các yếu tố này.",
+        "[Bệnh hô hấp] Gà ho, khò khè, chảy nước mũi, thở khó là dấu hiệu rõ của bệnh hô hấp. Mật độ cao, chuồng bí, khí amoniac nặng thường làm tình trạng nặng hơn.",
+        "[Bệnh tiêu hóa] Phân loãng, phân máu, phân có mùi hôi bất thường, gà sụt cân nhanh là dấu hiệu bệnh đường ruột. Phải đối chiếu mục bệnh và có thể liên hệ thú y.",
+        "[Tham khảo mục bệnh trong app] Khi thấy bất thường, nên mở mục “Danh mục bệnh” trong app, chọn đúng loài gà và nhóm bệnh tương ứng để đọc kỹ nguyên nhân, triệu chứng và hướng xử lý."
+      ]
+    }
+  ],
+  "notes": [
+    "Nuôi gà đẻ không chỉ là cho ăn nhiều mà là nuôi đúng giai đoạn: hậu bị - vào đẻ - đỉnh đẻ - cuối kỳ.",
+    "Ổn định là yếu tố rất quan trọng: ổn định khẩu phần, ánh sáng, giờ cho ăn, cách thao tác trong chuồng.",
+    "Ghi chép lại sản lượng, loại cám dùng, những lần thay đổi lớn để rút kinh nghiệm cho các lứa sau.",
+    "Khi thấy đàn gà đẻ có vấn đề, nên kiểm tra lần lượt: thức ăn - nước - ánh sáng - chuồng trại - bệnh, không vội quy hết cho một nguyên nhân duy nhất."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y hoặc tư vấn của kỹ sư chăn nuôi tại địa phương. Khi đàn gà đẻ sụt sản lượng mạnh, có dấu hiệu bệnh rõ hoặc chết nhiều, cần liên hệ thú y để được kiểm tra trực tiếp."
+}

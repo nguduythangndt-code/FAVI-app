@@ -47,6 +47,10 @@ import chickenParasite from "../../../data/chicken/parasite/list.json";
 import chickenBloodParasite from "../../../data/chicken/blood_parasite/list.json";
 import chickenOther from "../../../data/chicken/other/list.json";
 
+// ====== CARE LIST ======
+import { loadCareList } from "../../../../src/services/care";
+import { CareAnimal, CareTopicSummary } from "../../../../src/types/care";
+
 type GroupItem = {
   id: string;
   name: string;
@@ -55,8 +59,8 @@ type GroupItem = {
 type DiseaseItem = {
   id: string;
   name: string;
-  group: string;         // respiratory, digestive...
-  _searchName: string;   // tên đã normalize để search
+  group: string; // respiratory, digestive...
+  _searchName: string; // tên đã normalize để search
 };
 
 const ANIMAL_NAME_MAP: Record<string, string> = {
@@ -82,7 +86,7 @@ const GROUPS_BY_ANIMAL: Record<string, GroupItem[]> = {
   chicken: BASE_GROUPS,
 };
 
-// Icon cho từng nhóm
+// Icon cho từng nhóm bệnh
 const GROUP_ICONS: Record<string, keyof typeof Ionicons.glyphMap> = {
   respiratory: "cloud-outline",
   digestive: "restaurant-outline",
@@ -91,6 +95,8 @@ const GROUP_ICONS: Record<string, keyof typeof Ionicons.glyphMap> = {
   reproductive: "male-female-outline",
   other: "medkit-outline",
 };
+
+const CARE_ICON: keyof typeof Ionicons.glyphMap = "leaf-outline";
 
 // ====== HELPERS ======
 const normalize = (s: string) =>
@@ -109,14 +115,15 @@ const withGroup = (items: any[], groupId: string): DiseaseItem[] =>
   }));
 
 export default function AnimalGroupIndexScreen() {
-  const { animal } = useLocalSearchParams<{ animal: string }>();
+  const { animal } = useLocalSearchParams<{ animal?: string }>();
   const [searchText, setSearchText] = useState("");
+  const [mode, setMode] = useState<"disease" | "care">("disease");
 
-  const currentAnimal = animal || "goat";
+  const currentAnimal = (animal || "goat") as CareAnimal;
   const displayName = ANIMAL_NAME_MAP[currentAnimal] ?? "Thú nuôi";
 
   const allGroups = GROUPS_BY_ANIMAL[currentAnimal] ?? BASE_GROUPS;
-  const hasSearch = searchText.trim().length > 0;
+  const hasSearch = mode === "disease" && searchText.trim().length > 0;
 
   // Dùng để hiển thị tên nhóm trong kết quả search
   const getGroupName = (groupId: string) =>
@@ -173,9 +180,23 @@ export default function AnimalGroupIndexScreen() {
     return diseaseIndex.filter((d) => d._searchName.includes(q));
   }, [hasSearch, searchText, diseaseIndex]);
 
+  // Danh sách nhóm chăm sóc theo loài
+  const careList: CareTopicSummary[] = useMemo(
+    () => loadCareList(currentAnimal),
+    [currentAnimal]
+  );
+
   return (
     <>
-      <Stack.Screen options={{ title: `Nhóm bệnh - ${displayName}` }} />
+      <Stack.Screen
+  options={{
+    title:
+      mode === "disease"
+        ? `Nhóm bệnh - ${displayName}`
+        : `Chăm sóc - ${displayName}`,
+  }}
+/>
+
 
       <SafeAreaView style={styles.safeArea}>
         <ScrollView
@@ -185,43 +206,149 @@ export default function AnimalGroupIndexScreen() {
         >
           {/* Header mô tả */}
           <View style={styles.header}>
-            <Text style={styles.title}>Nhóm bệnh trên {displayName}</Text>
-            <Text style={styles.subtitle}>
-              Chọn nhóm bệnh hoặc nhập tên bệnh để xem chi tiết.
-            </Text>
+            <Text style={styles.title}>
+  {mode === "disease"
+    ? `Nhóm bệnh trên ${displayName}`
+    : `Chăm sóc ${displayName}`}
+</Text>
+
+           <Text style={styles.subtitle}>
+  {mode === "disease"
+    ? "Chọn nhóm bệnh hoặc nhập tên bệnh để xem chi tiết."
+    : "Chọn mục chăm sóc (vỗ béo, mẹ, con, hậu bị, chuồng trại...) để xem hướng dẫn chi tiết."}
+</Text>
+
           </View>
 
-          {/* Nhãn nhỏ phía trên search */}
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionLabel}>Tìm nhanh tên bệnh</Text>
+          {/* ====== HÀNG CHUYỂN CHẾ ĐỘ: DANH MỤC / CHĂM SÓC ====== */}
+          <View style={styles.modeSwitchRow}>
+            {/* Tab: Danh mục bệnh */}
+            <TouchableOpacity
+              style={[
+                styles.modeButton,
+                mode === "disease" && styles.modeButtonActive,
+              ]}
+              onPress={() => setMode("disease")}
+            >
+              <Text
+                style={
+                  mode === "disease"
+                    ? styles.modeButtonActiveText
+                    : styles.modeButtonText
+                }
+              >
+                Danh mục bệnh
+              </Text>
+            </TouchableOpacity>
+
+            {/* Tab: Chăm sóc */}
+            <TouchableOpacity
+              style={[
+                styles.modeButton,
+                mode === "care" && styles.modeButtonActive,
+              ]}
+              onPress={() => setMode("care")}
+            >
+              <Text
+                style={
+                  mode === "care"
+                    ? styles.modeButtonActiveText
+                    : styles.modeButtonText
+                }
+              >
+                Chăm sóc
+              </Text>
+            </TouchableOpacity>
           </View>
 
-          {/* Thanh tìm kiếm tên bệnh */}
-          <View style={styles.searchBar}>
-            <Ionicons
-              name="search-outline"
-              size={18}
-              color={colors.textMuted}
-            />
-            <TextInput
-              value={searchText}
-              onChangeText={setSearchText}
-              placeholder="Nhập tên bệnh (tụ huyết trùng, viêm phổi,...)"
-              placeholderTextColor={colors.textMuted}
-              style={styles.searchInput}
-              returnKeyType="search"
-            />
-          </View>
+          {/* ====== CHỈ HIỆN SEARCH KHI Ở TAB DANH MỤC BỆNH ====== */}
+          {mode === "disease" && (
+            <>
+              <View style={styles.sectionHeader}>
+                <Text style={styles.sectionLabel}>Tìm nhanh tên bệnh</Text>
+              </View>
 
-          {/* Nhãn nhỏ phía trên list */}
+              <View style={styles.searchBar}>
+                <Ionicons
+                  name="search-outline"
+                  size={18}
+                  color={colors.textMuted}
+                />
+                <TextInput
+                  value={searchText}
+                  onChangeText={setSearchText}
+                  placeholder="Nhập tên bệnh (tụ huyết trùng, viêm phổi,...)"
+                  placeholderTextColor={colors.textMuted}
+                  style={styles.searchInput}
+                  returnKeyType="search"
+                />
+              </View>
+            </>
+          )}
+
+          {/* Nhãn phía trên list */}
           <View style={styles.sectionHeaderList}>
             <Text style={styles.sectionLabel}>
-              {hasSearch ? "Kết quả theo tên bệnh" : "Nhóm bệnh chính"}
+              {mode === "care"
+                ? "Nhóm chăm sóc"
+                : hasSearch
+                ? "Kết quả theo tên bệnh"
+                : "Nhóm bệnh chính"}
             </Text>
           </View>
 
-          {/* Nếu đang search -> list bệnh, ngược lại -> list nhóm */}
-          {hasSearch ? (
+          {/* ====== NỘI DUNG CHÍNH THEO MODE ====== */}
+          {mode === "care" ? (
+            // === LIST CHĂM SÓC ===
+            <FlatList
+              data={careList}
+              keyExtractor={(item) => item.id}
+              scrollEnabled={false}
+              contentContainerStyle={{ paddingBottom: spacing.xl }}
+              renderItem={({ item }) => (
+                <Link
+                  href={{
+                    pathname: "/(tabs)/category/[animal]/care/[careId]",
+                    params: {
+                      animal: currentAnimal,
+                      careId: item.id,
+                    },
+                  }}
+                  asChild
+                >
+                  <TouchableOpacity style={styles.card}>
+                    <View style={styles.cardLeft}>
+                      <View style={styles.iconCircle}>
+                        <Ionicons
+                          name={CARE_ICON}
+                          size={20}
+                          color={colors.primary}
+                        />
+                      </View>
+
+                      <View style={styles.cardTextWrap}>
+                        <Text style={styles.cardTitle}>
+                          {item.name ?? item.title ?? "Chăm sóc"}
+                        </Text>
+                        {(item.shortDesc || item.description) && (
+                          <Text style={styles.cardSubtitle}>
+                            {item.shortDesc ?? item.description}
+                          </Text>
+                        )}
+                      </View>
+                    </View>
+
+                    <Ionicons
+                      name="chevron-forward"
+                      size={18}
+                      color={colors.textMuted}
+                    />
+                  </TouchableOpacity>
+                </Link>
+              )}
+            />
+          ) : hasSearch ? (
+            // === KẾT QUẢ SEARCH BỆNH ===
             <FlatList
               data={searchResults}
               keyExtractor={(item) => item.id}
@@ -248,9 +375,7 @@ export default function AnimalGroupIndexScreen() {
                     <View style={styles.cardLeft}>
                       <View style={styles.iconCircle}>
                         <Ionicons
-                          name={
-                            GROUP_ICONS[item.group] || "medkit-outline"
-                          }
+                          name={GROUP_ICONS[item.group] || "medkit-outline"}
                           size={20}
                           color={colors.primary}
                         />
@@ -274,6 +399,7 @@ export default function AnimalGroupIndexScreen() {
               )}
             />
           ) : (
+            // === LIST NHÓM BỆNH CHÍNH ===
             <FlatList
               data={allGroups}
               keyExtractor={(item) => item.id}
@@ -347,6 +473,38 @@ const styles = StyleSheet.create({
     marginTop: spacing.xs,
     fontSize: 14,
     color: colors.textMuted,
+  },
+
+  // ===== MODE SWITCH (Danh mục / Chăm sóc) =====
+  modeSwitchRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: spacing.md,
+    gap: spacing.sm,
+  },
+  modeButton: {
+    flex: 1,
+    paddingVertical: 8,
+    borderRadius: 999,
+    borderWidth: 1,
+    borderColor: colors.border,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#f3f4f6",
+  },
+  modeButtonActive: {
+    backgroundColor: colors.primary,
+    borderColor: colors.primary,
+  },
+  modeButtonText: {
+    fontSize: 13,
+    color: colors.textMuted,
+    fontWeight: "500",
+  },
+  modeButtonActiveText: {
+    fontSize: 13,
+    color: "#ffffff",
+    fontWeight: "600",
   },
 
   // Section labels

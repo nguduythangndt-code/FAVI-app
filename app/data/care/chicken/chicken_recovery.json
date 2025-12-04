@@ -1,0 +1,105 @@
+{
+  "id": "chicken_recovery",
+  "name": "Gà sau bệnh (hồi phục)",
+  "species": "chicken",
+  "group": "recovery",
+  "overview": "Cẩm nang xử lý đàn gà ngay sau giai đoạn bệnh cấp tính (sốt, ho, tiêu chảy, bỏ ăn, xù lông). Mục tiêu: kéo đàn về quỹ đạo tăng trưởng bình thường, sửa lại xương - phổi - ruột bị tổn thương do bệnh/stress, giảm tối đa hao hụt thứ phát, hồi màu mào đẹp dần và ăn uống khỏe lại. Trọng tâm: môi trường tối ưu, nước - cám đúng nhịp, bổ trợ đúng loại và siết chặt theo dõi từng ô chuồng.",
+  "sections": [
+    {
+      "id": "post_sick_isolation",
+      "title": "Khoanh vùng, phân loại và tối ưu môi trường hồi phục",
+      "goal": "Tách gà đã bệnh khỏi đàn chính (nếu chưa tách), làm lại ô chuồng hồi phục chuẩn sạch - ấm - thoáng nhẹ, không bụi, không ẩm.",
+      "content": "Bệnh xong mà để chung, để ẩm, để ồn, hoặc để cám tồn lâu trong máng thì gà dễ đổ gục tiếp đợt 2. Đây là khúc bắt buộc làm thẳng tay.",
+      "bullets": [
+        "[Tách ô hồi phục] Con đã bệnh hoặc đang hồi phục nên nhốt riêng 1-2 ô chuồng thưa mật độ hơn, gần nguồn nước và không chịu gió lùa mạnh.",
+        "[Nền khô, không trơn] Hót ngay đệm lót ướt, bết do bệnh/mưa. Xới bề mặt để phân tán ẩm. Lót bổ sung trấu khô mới, phủ kín nền lại.",
+        "[Thông gió vừa đủ] Ban ngày mở rèm cao để khí đối lưu nhẹ, quạt hút chạy êm (nếu có). Ban đêm hạ rèm chống lạnh ẩm, chỉ để khe gió nhỏ.",
+        "[Tránh bụi] Không quét, không xới đệm tạo bụi mù trong 48 giờ đầu hồi. Chỗ nào phải xới thì xới nhẹ vài nhát, tránh để bụi bay vào đàn.",
+        "[Giảm ồn] Treo biển cấm chó mèo và hạn chế người ra vào chuồng trong 3-5 ngày đầu hồi.",
+        "[Kiểm dịch nội bộ] Người chăm gà hồi phục không nên đi qua chuồng bệnh hoặc trại bên ngoài trong cùng buổi, tránh mang mầm thứ phát."
+      ]
+    },
+    {
+      "id": "post_3_days_digestive_reset",
+      "title": "3 ngày đầu hồi phục: reset tiêu hóa và nước uống nền",
+      "goal": "Thiết lập lại nước uống chuẩn, giúp gà không mất nước, bụng gọn dần, phân khô lại rõ rệt.",
+      "content": "1-3 ngày đầu nhìn bụng và phân để reset ruột và dạ dày bị rối loạn sau bệnh. Can thiệp sai đoạn này, đàn có thể tiêu chảy trở lại.",
+      "bullets": [
+        "[Nước sạch liên tục] Thay nước 3-4 lần/ngày nếu dùng máng mở. Với núm tự động, xả đường ống 5-10 phút sáng - chiều.",
+        "[Điện giải hỗ trợ đúng đợt] 24-72 giờ đầu có thể pha điện giải + vitamin theo đúng hướng dẫn trên nhãn, sau đó giảm dần và dừng.",
+        "[Nhúng mỏ tập uống] Với nhóm chậm tập uống, nhúng mỏ nhẹ vài con đầu đàn để kích hoạt hành vi.",
+        "[Không pha lung tung nhiều thuốc] 3 ngày đầu chỉ cần điện giải và vitamin. Không thêm thuốc kháng sinh, hoặc chất lạ vì sợ “hậu bệnh phải mạnh”, rất dễ rối loạn ruột."
+      ]
+    },
+    {
+      "id": "week_1_immune_rehab",
+      "title": "Tuần 1: Phục hồi miễn dịch và sửa lại tổn thương nội tạng",
+      "goal": "Gà bắt đầu hồi tăng ăn, phân khuôn dần, hô hấp êm lại, chân - xương không đau sớm.",
+      "content": "Tuần này là lúc tái thiết nội tạng. Ăn chậm vẫn ok, nhưng xu hướng tăng phải đều.",
+      "bullets": [
+        "[Vitamin - khoáng mạnh đúng chỗ] Bổ sung vitamin tổng hợp, B-complex, ADE, canxi khoáng liếm/đá hạt theo đúng chỉ dẫn nhãn để sửa niêm mạc ruột và khung xương.",
+        "[Bổ trợ gan - ruột] Nếu có sản phẩm hỗ trợ gan, ruột, men vi sinh, men enzyme tiêu hóa thì dùng theo đúng nhóm trong module Thuốc của app để hệ tiêu hóa thích ứng.",
+        "[Giảm stress nhiệt] Trời nóng kéo đàn gà hồi vào sáng - chiều mát cho ăn; nếu lạnh ẩm, bật sưởi nhẹ buổi tối (không quá nóng).",
+        "[Theo dõi tiếng thở] Tiếng thở nhẹ, đều, không rít, không khò dày, không vươn cổ thở mạnh là dấu hiệu hồi phổi tốt.",
+        "[Chân - xương] Gà đứng lại được trên sào thấp, đi không khuỵu chân là dấu hiệu xương còn ổn, khớp chưa bị viêm thứ phát."
+      ]
+    },
+    {
+      "id": "grower_reboot_week_2",
+      "title": "Tuần 2: reboot tăng trọng (grit + cám grower/finisher)",
+      "goal": "Tái bật đà tăng cân, bụng thon, ức tròn lại, mào đỏ khỏe dần, đàn đi lại linh hoạt hơn.",
+      "content": "Gà sau bệnh thường “lười khung” một chút. Không nhồi. Nhưng tăng lại phải có logic.",
+      "bullets": [
+        "[Trộn cám cũ - mới 1:1 trong 2 ngày] Bắt đầu trộn dần cám úm (nếu còn) với cám grower/finisher theo tỉ lệ 1:1, không đổi 100% một lần.",
+        "[Tăng ăn theo bữa] Cho ăn 3-4 cữ/ngày tuần 2, mỗi cữ tăng một nắm vừa đủ sao cho hết nhanh, sạch máng, dạ dày có thời gian nhai - nghỉ - nhai.",
+        "[Thêm grit hỗ trợ mề] Có thể rải grit (đá mài nhỏ cho gà) đúng size giúp mề nghiền tốt, tăng tiêu hóa tinh bột và hấp thu đạm - năng lượng."
+      ]
+    },
+    {
+      "id": "density_adjust_care",
+      "title": "Điều chỉnh mật độ, sào và máng để đàn hồi nhanh",
+      "goal": "Đảm bảo mỗi con đều có slot ăn - uống - nằm, không bị dồn đè, trượt ngã hoặc tranh máng.",
+      "content": "Hồi bệnh không chỉ tưới thuốc mà là sửa lại hệ thống “giường, bàn, đồ ăn, điều hòa”.",
+      "bullets": [
+        "[Giảm mật độ 10-20%] Nếu chuồng đang dày, dãn bớt đàn sang ô khác cho thưa.",
+        "[Nâng chiều cao máng ăn / núm uống] Chỉnh lại máng ăn ngang lưng gà, núm uống ngang cổ, tránh nước văng, cám vương xuống nền gây ẩm.",
+        "[Sào thấp tập đứng] Hạ sào về mức thấp trong 3-5 ngày để gà dễ leo lại, tập chân cứng nhanh."
+      ]
+    },
+    {
+      "id": "sale_ready_trim",
+      "title": "7-10 ngày trước khi xuất bán (nếu gần tuổi bán)",
+      "goal": "Đàn khỏe đều, trứng sạch, da không bẩn mới, chân không đau, ít stress khi bốc đàn và chở đi.",
+      "content": "Giai đoạn cuối không reboot gì mới nữa, mà polish đàn để người mua không chạy mất dép.",
+      "bullets": [
+        "[Ngưng thử nghiệm khẩu phần mới] Không đổi cám trong 7 ngày cuối.",
+        "[Bổ sung canxi khoáng và A-D-E đúng đợt] Giúp lông, ức, chân đẹp và đứng vững.",
+        "[Thu dọn ẩm - mùi liên tục] Đệm bết phải thay, đảo trấu nhẹ để chuồng không bụi và không hôi mạnh.",
+        "[Bốc đàn giờ mát] Bắt và bốc đàn vào sáng sớm/chiều mát, che kín gió lùa trong lúc gom sọt.",
+        "[Vận chuyển] Không nhét dày sọt, tránh dẫm đè. Trao đổi tài xế chạy êm, hạn chế còi."
+      ]
+    },
+    {
+      "id": "monitor_last_km",
+      "title": "Giám sát 48-72 giờ đầu sau khi đàn thoát bệnh cấp",
+      "goal": "Chặn bệnh thứ phát và stress hậu cấp: không lạnh quá, không nóng quá, không ẩm, không ồn và không đổi 2 yếu tố lớn cùng lúc.",
+      "content": "Đây là lớp bảo hiểm cuối cùng. Nếu không siết trước, đàn gà hồi dễ “rơi thêm người” do viêm phổi, viêm khớp, nhiễm trùng gan - ruột thứ phát."
+    ,
+      "bullets": [
+        "[Mức ăn] Theo dõi xem gà ăn hết máng trong 15-25 phút sau khi đổ. Nếu con nào không mổ cần tách ô.",
+        "[Nước] Không để nước cạn >1-2 giờ.",
+        "[Nhiệt] Điều chỉnh sưởi và quạt dựa theo tụ - tản đàn, không theo cảm giác.",
+        "[Phân] Nếu 30% đàn phân nhão hoặc mùi chua quay lại, hạ lượng tinh và tăng xơ.",
+        "[Hô hấp] Nếu nghe tiếng rít, tụ dày một góc, kiểm tra rèm + quạt + amoniac."
+      ]
+    }
+  ],
+  "notes": [
+    "Hồi bệnh là giữ ổn định trước, rồi tăng dần khẩu phần, không làm ồ ạt 1 lần.",
+    "Quan sát hành vi đàn là kim chỉ nam: tụ lại là lạnh, tản ra há mỏ là nóng.",
+    "Đệm lót ẩm phải xử lý đầu tiên, vì bệnh chân, ruột, phổi sẽ quay lại từ đây.",
+    "Không thêm nhiều thuốc không cần thiết trong cùng 1 ngày; bổ trợ đúng nhóm trong module Thuốc của app là đủ."
+  ],
+  "warning": "Thông tin chỉ mang tính tham khảo. Khi đàn gà có nhiều con cùng triệu chứng nặng trong 24 giờ, sẽ cần kiểm tra tại chỗ bởi thú y."
+}
+

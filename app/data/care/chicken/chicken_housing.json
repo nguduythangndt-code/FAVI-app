@@ -1,0 +1,131 @@
+{
+  "id": "chicken_housing",
+  "name": "Chuồng trại nuôi gà",
+  "species": "chicken",
+  "group": "housing",
+  "overview": "Cẩm nang thiết kế và vận hành chuồng trại nuôi gà: chọn vị trí, hướng chuồng, nền - mái - vách, thông thoáng - ánh sáng, chống nóng - chống lạnh, bố trí máng ăn - máng uống, vệ sinh và an toàn sinh học. Mục tiêu: chuồng khô - thoáng - sạch, ít mùi, hạn chế bệnh hô hấp - tiêu hóa, giúp gà ăn khỏe, lớn đều, tỷ lệ chết thấp.",
+  "sections": [
+    {
+      "id": "location_and_orientation",
+      "title": "Chọn vị trí và hướng chuồng",
+      "goal": "Chuồng đặt nơi cao ráo, thoáng, tránh ngập úng, hạn chế gió lùa trực diện và mùi bay vào nhà ở.",
+      "content": "Vị trí và hướng chuồng là nền tảng. Chọn sai chỗ thì sau này rất khó sửa chuyện ẩm thấp, ngập nước, hôi và gió lùa.",
+      "bullets": [
+        "[Chọn nơi cao ráo] Ưu tiên nền đất cao hơn xung quanh, không nằm ở chỗ trũng, không bị nước mưa từ các phía đổ dồn vào. Nếu đất thấp, phải đắp nền cao lên rõ rệt trước khi dựng chuồng.",
+        "[Cách xa nhà ở và giếng nước] Chuồng nên đặt cách nhà ở, bếp, giếng nước/khu nước sinh hoạt một khoảng đủ xa để mùi, bụi, ruồi hạn chế bay vào khu sinh hoạt chính.",
+        "[Tránh sát mương nước bẩn] Không đặt chuồng sát kênh rạch, mương nước thải, bãi rác vì ẩm thấp, nhiều mầm bệnh, muỗi - ruồi - chuột.",
+        "[Hướng chuồng] Ở miền nhiệt đới thường ưu tiên hướng đông nam hoặc nam để sáng có nắng chiếu, chiều đỡ nắng gắt trực diện. Hướng cửa chính nên tránh hứng gió mùa trực tiếp thổi vào đàn.",
+        "[Khoảng cách với chuồng khác] Nếu trong trại có nhiều chuồng, giữ khoảng cách hợp lý giữa các dãy chuồng để thông gió tốt và dễ quản lý dịch bệnh khi có vấn đề.",
+        "[Lối đi khô ráo] Thiết kế đường đi vào chuồng không bị lầy lội: có thể rải đá dăm, gạch vỡ, hoặc đổ bê tông lối chính để tiện vận chuyển cám, bắt gà và vệ sinh."
+      ]
+    },
+    {
+      "id": "floor_roof_wall",
+      "title": "Nền, mái và vách chuồng",
+      "goal": "Nền dễ khô, dễ vệ sinh; mái che mưa nắng tốt; vách chắn được gió lùa nhưng vẫn thông thoáng.",
+      "content": "Cấu trúc nền - mái - vách ảnh hưởng trực tiếp tới ẩm độ, mùi, sức khỏe chân và đường hô hấp của gà.",
+      "bullets": [
+        "[Nền chuồng dễ thoát nước] Nền nên cao hơn mặt đất xung quanh, có độ dốc nhẹ để nước dễ chảy ra ngoài. Hạn chế để nước mưa, nước rửa chảy ngược vào trong chuồng.",
+        "[Chất liệu nền] Có thể dùng nền đất nện chặt + đệm lót trấu/mùn cưa; hoặc nền bê tông phủ đệm lót. Yêu cầu: không quá trơn, không đọng vũng nước.",
+        "[Chống thấm từ dưới lên] Nếu khu vực ẩm hoặc có mạch nước ngầm, cần xử lý nền chống thấm hoặc đắp đất, cát dày hơn trước khi làm mặt nền.",
+        "[Mái chuồng] Mái nên có độ dốc đủ để thoát nước mưa nhanh. Vật liệu có thể là tôn, ngói, lá; nếu dùng tôn nên có lớp cách nhiệt hoặc trần phụ để giảm nóng.",
+        "[Mái nhô rộng] Mái nên chìa ra ngoài tường/vách một khoảng để mưa không tạt trực tiếp vào bên trong và không làm ướt đệm lót.",
+        "[Vách chuồng] Phần dưới vách có thể xây tường thấp hoặc làm tôn/ gạch để chắn gió lùa sát nền; phần trên dùng lưới B40, lưới mắt cáo hoặc nan gỗ để gió và ánh sáng lưu thông.",
+        "[Cửa ra vào] Cửa đủ rộng để đưa cám, bắt gà, vệ sinh. Cửa nên chắc, đóng mở dễ, có then khóa để tránh chó, mèo, chuột, người lạ vào chuồng."
+      ]
+    },
+    {
+      "id": "ventilation_and_light",
+      "title": "Thông thoáng và ánh sáng trong chuồng gà",
+      "goal": "Không khí trong chuồng luôn tươi, ít mùi, ít bụi, có đủ ánh sáng để gà hoạt động bình thường.",
+      "content": "Gà nuôi trong chuồng kín, đặc biệt mật độ cao, rất dễ bị bệnh hô hấp nếu thiếu thông thoáng. Ngược lại, gió lùa mạnh trực tiếp vào đàn cũng gây cảm, viêm phổi.",
+      "bullets": [
+        "[Thiết kế ô thông gió] Dùng lưới hoặc khe hở ở phần trên vách để gió ra - vào, tạo luồng khí đối lưu. Không bịt kín toàn bộ chuồng vì sợ gió, sẽ gây ẩm, bí khí.",
+        "[Tránh gió lùa trực diện] Ở độ cao ngang thân gà, hạn chế lỗ thông gió lớn đối diện nhau gây gió lùa mạnh xuyên chuồng. Có thể che bạt hoặc làm vách chắn gió một phần.",
+        "[Dùng rèm che linh hoạt] Gắn bạt hoặc rèm nylon quanh chuồng để có thể cuốn lên khi trời nóng, hạ xuống khi trời mưa, lạnh, gió mạnh.",
+        "[Quạt thông gió] Với chuồng kín hoặc mật độ cao, nên có quạt hút/đẩy gió để hút khí nóng, ẩm, mùi ra bên ngoài. Vị trí quạt nên đặt cao, tránh thổi thẳng vào đàn gà.",
+        "[Ánh sáng tự nhiên] Tận dụng ánh sáng trời ban ngày bằng cửa sổ, lưới, tấm sáng trên mái. Tránh để chuồng quá tối khiến gà lười ăn, lười vận động.",
+        "[Đèn chiếu sáng] Bố trí đèn điện đều trong chuồng để ban đêm gà vẫn nhìn rõ máng ăn - uống (nếu cần duy trì ánh sáng). Dây điện phải treo cao, chắc, tránh để gà mổ hoặc nước văng vào."
+      ]
+    },
+    {
+      "id": "heat_stress_management",
+      "title": "Chống nóng cho chuồng gà",
+      "goal": "Giảm nhiệt trong chuồng, hạn chế gà há mỏ, thở gấp, chết vì sốc nhiệt.",
+      "content": "Ở nhiệt độ cao kéo dài, gà giảm ăn, tăng uống, dễ chết đột ngột. Chuồng thiết kế và vận hành tốt có thể giảm đáng kể stress nhiệt.",
+      "bullets": [
+        "[Chọn vật liệu mái giảm nóng] Nếu có điều kiện, dùng mái có lớp cách nhiệt hoặc làm thêm một trần phụ dưới mái tôn. Với mái ngói, chú ý sửa chỗ dột để tránh vừa nóng vừa ẩm.",
+        "[Tạo bóng mát quanh chuồng] Trồng cây bóng mát hoặc làm mái che phụ bên ngoài (lưới lan, mái tôn nhẹ) để giảm nắng chiếu trực tiếp vào mái và vách.",
+        "[Mở tối đa cửa - rèm khi nóng] Trời nóng, nhất là trưa, nên cuốn rèm lên để gió tự nhiên đối lưu, kết hợp quạt để đẩy khí nóng ra ngoài.",
+        "[Bố trí quạt hợp lý] Quạt nên hướng gió dọc theo chiều chuồng, không thổi gió lạnh mạnh trực tiếp vào đàn gà nằm sát quạt. Điều chỉnh tốc độ quạt vừa phải, đều.",
+        "[Tăng số máng nước] Ngày nóng, gà uống nhiều nước hơn. Tăng số lượng máng uống hoặc núm uống để gà không phải tranh nhau, tránh thiếu nước cục bộ.",
+        "[Theo dõi gà vào giờ nóng nhất] Thường xuyên kiểm tra đàn lúc trưa: nếu gà há mỏ nhiều, cánh xệ, nằm bẹp sát nền… cần tăng thông thoáng, giảm mật độ hoặc dùng thêm biện pháp làm mát.",
+        "[Giảm bớt hoạt động bắt - chuyển gà] Trong ngày nắng nóng, hạn chế các thao tác như bắt gà, cân, chuyển chuồng, vì rất dễ làm gà sốc nhiệt."
+      ]
+    },
+    {
+      "id": "cold_rainy_protection",
+      "title": "Chống lạnh, mưa tạt, ẩm ướt",
+      "goal": "Giữ chuồng ấm vừa, nền khô, không bị mưa tạt làm ướt đệm lót.",
+      "content": "Mưa lạnh, ẩm, gió lùa là bộ ba khiến gà dễ bệnh hô hấp và tiêu chảy. Chuồng cần được thiết kế và sử dụng để chủ động chặn gió - mưa, không để nước xâm nhập.",
+      "bullets": [
+        "[Rèm che mưa] Lắp bạt hoặc rèm quanh chuồng. Khi mưa - gió lớn, hạ rèm xuống để mưa không tạt vào bên trong. Khi tạnh, nên kéo rèm lên để thoáng lại.",
+        "[Chống nước chảy ngược vào chuồng] Thiết kế rãnh thoát nước quanh chuồng, đảm bảo nước mưa từ mái và xung quanh không chảy ngược vào nền chuồng.",
+        "[Xử lý điểm dột mái] Kiểm tra mái định kỳ, chỗ nào dột phải sửa ngay. Đệm lót bị ướt do dột lâu ngày là nơi phát sinh nấm, vi khuẩn, mùi hôi.",
+        "[Kết hợp sưởi khi trời rét] Với gà con và gà non, cần có đèn sưởi, bếp than kín hoặc thiết bị sưởi an toàn. Không dùng bếp than mở trong chuồng kín vì nguy cơ ngạt khí.",
+        "[Giữ nền luôn tơi khô] Đệm lót ẩm làm chân gà lạnh, dễ viêm khớp. Thường xuyên xới và thay đệm lót ở chỗ ẩm, đặc biệt quanh máng uống và cửa chuồng.",
+        "[Hạn chế mở cửa hướng gió lạnh] Những ngày gió mùa, gió lạnh mạnh thổi từ hướng nào thì bên đó cần che kỹ hơn; ưu tiên mở cửa ở phía ít gió hơn để hút - đẩy khí."
+      ]
+    },
+    {
+      "id": "equipment_layout",
+      "title": "Bố trí máng ăn, máng uống và khu vực bên trong chuồng",
+      "goal": "Gà dễ tiếp cận thức ăn - nước uống, giảm vung vãi, giảm chỗ ẩm bẩn, hạn chế va chạm.",
+      "content": "Cách đặt máng ăn - uống, vị trí đèn, lối đi bên trong chuồng sẽ ảnh hưởng đến mức độ cạnh tranh, vệ sinh và thao tác chăm sóc.",
+      "bullets": [
+        "[Đặt máng ăn đều toàn chuồng] Máng ăn nên phân bổ đều để gà ở mọi góc đều tiếp cận được. Không dồn tất cả máng vào một phía khiến gà phải chen lấn mạnh.",
+        "[Chiều cao máng phù hợp] Điều chỉnh độ cao máng theo tuổi gà: tầm ngang lưng gà là hợp lý. Máng quá thấp thì gà dễ bới, dễ đạp vào; máng quá cao thì gà khó ăn.",
+        "[Bố trí máng uống tránh vùng gió lùa] Máng uống nên tránh đặt ngay chỗ gió lùa mạnh, tránh làm gà vừa uống vừa bị lạnh, đồng thời hạn chế nước bắn làm ướt đệm lót.",
+        "[Giữ lối đi thao tác] Chừa lối đi đủ rộng cho người di chuyển, cầm bao cám, dụng cụ vệ sinh. Không bít lối đi bằng đồ vật gây vướng khi bắt gà, dọn chuồng.",
+        "[Đặt đèn, dây điện an toàn] Đèn chiếu sáng, đèn sưởi treo chắc chắn, dây điện luồn ống nếu có thể, tránh để gà mổ hoặc nước bắn vào điểm nối.",
+        "[Khu để dụng cụ] Dành một góc riêng để dụng cụ vệ sinh, xẻng, chổi, xô… Không để lẫn trong khu gà đi lại, tránh làm gà giật mình và dễ mất vệ sinh."
+      ]
+    },
+    {
+      "id": "cleaning_and_disinfection",
+      "title": "Vệ sinh, sát trùng và quản lý chất thải",
+      "goal": "Giảm mùi, giảm ruồi - muỗi, giảm mầm bệnh trong chuồng và xung quanh.",
+      "content": "Chuồng trại tốt không chỉ là xây đẹp mà phải dễ dọn, dễ sát trùng, dễ quản lý phân và đệm lót. Làm được vậy thì bệnh trong đàn giảm hẳn.",
+      "bullets": [
+        "[Dọn phân và đệm lót bẩn thường xuyên] Hằng ngày nên hót bớt phân tích tụ nhiều, nhất là quanh máng ăn - uống, cửa chuồng. Đệm lót vón cục ướt phải thay kịp thời.",
+        "[Sắp xếp lịch thay đệm lót] Tùy mật độ và thời gian nuôi, lập lịch thay/lật đệm lót định kỳ. Không để đệm lót dùng quá lâu đến mức mùi nặng, ẩm, nhiều ruồi.",
+        "[Phun sát trùng định kỳ] Dùng thuốc sát trùng phun lối đi, khu vách, nền trống theo đúng nồng độ trên nhãn. Tránh phun trực tiếp vào gà khi đang đứng dày.",
+        "[Khu chứa phân riêng] Phân hót từ chuồng nên được đưa đến khu chứa riêng, có mái che tối thiểu, tránh để ngay cạnh chuồng khiến ruồi - mùi bay ngược trở lại.",
+        "[Không để nước thải đọng quanh chuồng] Nước rửa máng, nước vệ sinh phải có đường thoát riêng, không để đọng thành vũng lầy ngay chân chuồng.",
+        "[Vệ sinh dụng cụ định kỳ] Máng ăn - uống, xẻng, xô… cần được rửa sạch, phơi khô. Không dùng dụng cụ bẩn, nhớt đi khắp chuồng, dễ phát tán mầm bệnh."
+      ]
+    },
+    {
+      "id": "biosecurity_and_pests",
+      "title": "An toàn sinh học và kiểm soát chuột, chim hoang, côn trùng",
+      "goal": "Giảm nguy cơ mang mầm bệnh từ bên ngoài vào chuồng, hạn chế chuột, chim, ruồi, muỗi.",
+      "content": "Chuồng tốt là chuồng không trở thành \"bến xe\" cho chuột, chim hoang, ruồi muỗi. Nhiều ca bệnh xuất phát từ việc không kiểm soát những yếu tố này.",
+      "bullets": [
+        "[Hạn chế người lạ vào chuồng] Không để nhiều người ra vào chuồng gà, đặc biệt người vừa đi trại khác về. Nếu có, nên thay dép, rửa tay trước khi vào.",
+        "[Có khu thay dép/ủng] Chuẩn bị dép/ủng riêng để dùng trong khu chuồng. Không mang dép lẫn giữa khu chuồng và khu sinh hoạt, vườn, ao…",
+        "[Chống chuột] Bịt kín các lỗ hở lớn quanh nền và vách, không để đồ ăn thừa vương vãi ban đêm. Có thể đặt bẫy hoặc thuốc diệt chuột ở khu vực ngoài chuồng, tránh để gà tiếp cận.",
+        "[Ngăn chim hoang] Dùng lưới che các ô trống, cửa sổ để chim hoang không bay vào ăn thức ăn, thải phân trong chuồng.",
+        "[Giảm ruồi, muỗi] Giữ nền khô, phân không ứ đọng, nước thải không đọng vũng. Có thể dùng bẫy ruồi, bẫy dính ở khu phân và xung quanh chuồng.",
+        "[Kho cám kín, khô] Cám phải cất trong kho riêng, khô, kín, tránh chuột bọ. Bao cám đã mở cần buộc miệng, kê cao khỏi nền để không hút ẩm.",
+        "[Ghi lại các đợt bệnh] Khi có bệnh, ghi chép lại thời gian, triệu chứng, dịch tễ để về sau xem lại và siết chặt thêm khâu an toàn sinh học nếu cần."
+      ]
+    }
+  ],
+  "notes": [
+    "Chuồng trại tốt giúp giảm đáng kể chi phí thuốc và tỷ lệ chết, dù công làm ban đầu có thể nhiều hơn.",
+    "Không có mẫu chuồng \"chuẩn tuyệt đối\" cho mọi nơi, nhưng luôn phải đảm bảo 3 yếu tố: khô - thoáng - sạch.",
+    "Thiết kế chuồng nên tính trước đường thoát nước, đường đi, khu chứa phân để sau này không phải đập phá sửa nhiều.",
+    "Kết hợp quan sát đàn gà hằng ngày: nếu vào chuồng mà mùi nặng, mắt cay, cảm giác bí, nghĩa là thông thoáng hoặc vệ sinh đang có vấn đề."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho tư vấn thiết kế chuồng trại và chẩn đoán bệnh của bác sĩ thú y hoặc kỹ sư chăn nuôi tại địa phương. Khi đàn gà có dấu hiệu bệnh hàng loạt, cần kiểm tra lại đồng thời cả chuồng trại, khẩu phần và nhờ thú y hỗ trợ."
+}

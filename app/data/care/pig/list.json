@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pig_fattening",
+    "name": "Heo vỗ béo",
+    "summary": "Chăm sóc heo vỗ béo từ lúc nhập trại tới khi xuất chuồng để tăng trọng nhanh mà vẫn an toàn, ít bệnh."
+  },
+  {
+    "id": "pig_sow",
+    "name": "Heo nái sinh sản",
+    "summary": "Quản lý heo nái từ phối giống, chửa, đẻ và nuôi con để giữ nái khỏe, lứa đẻ đều và ổn định."
+  },
+  {
+    "id": "pig_gilt",
+    "name": "Heo hậu bị",
+    "summary": "Chăm sóc heo cái hậu bị trước khi vào nái, tập trung xương khung, chân cẳng và sức khỏe sinh sản."
+  },
+  {
+    "id": "pig_piglet",
+    "name": "Heo con & sau cai sữa",
+    "summary": "Giai đoạn heo con theo mẹ và mới cai sữa, dễ tiêu chảy, viêm phổi và tụt tăng trưởng."
+  },
+  {
+    "id": "pig_sick",
+    "name": "Heo bệnh",
+    "summary": "Nguyên tắc chăm sóc chung khi heo đã có bệnh: tách chuồng, theo dõi, hỗ trợ và dùng thuốc hợp lý."
+  },
+  {
+    "id": "pig_recovery",
+    "name": "Heo sau bệnh",
+    "summary": "Hồi phục sau khi qua cơn bệnh: lên lại thể trạng, chắc thịt, tránh tái phát."
+  },
+  {
+    "id": "pig_housing",
+    "name": "Chuồng trại cho heo",
+    "summary": "Thiết kế, bố trí và vận hành chuồng heo: nền, mái, gió, ánh sáng, vệ sinh và sát trùng."
+  },
+  {
+    "id": "pig_feeding",
+    "name": "Thức ăn & khẩu phần heo",
+    "summary": "Nguyên tắc chọn cám, phối trộn, chuyển cám và cho ăn theo từng giai đoạn để tối ưu chi phí/tăng trọng."
+  }
+]

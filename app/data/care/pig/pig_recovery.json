@@ -1,0 +1,85 @@
+{
+  "id": "pig_recovery",
+  "name": "Heo sau bệnh",
+  "species": "pig",
+  "group": "recovery",
+  "overview": "Cẩm nang phục hồi heo sau khi qua bệnh cấp. Mục tiêu: heo lấy lại nhịp ăn nhanh, đường ruột ổn, hô hấp êm, vết bệnh không tái bùng, tăng trọng bật lại mà không tạo cost ẩn mới (stress, chấn thương, toan ruột/phổi). Trọng tâm: dinh dưỡng hồi phục, nước - điện giải, quản lý nền chuồng, khoanh vùng theo cá thể, và siết quy trình không thử nghiệm mới khi chưa đủ dữ liệu.",
+  "sections": [
+    {
+      "id": "post_acute_0_72h",
+      "title": "0-72 giờ sau khi qua bệnh cấp",
+      "goal": "Giữ heo sống dễ, bụng êm, thở êm, bù nước - khoáng và không để stress dây chuyền.",
+      "content": "Đây là pha chuyển tiếp quan trọng nhất. Heo có thể đã hết sốt hoặc hết triệu chứng cấp nhưng cơ thể còn kiệt men ruột và viêm ẩn đường thở.",
+      "bullets": [
+        "[Nghỉ ngơi] Giữ heo yên 1 khu, hạn chế di chuyển, tiếng ồn, gom đàn quá đông xung quanh.",
+        "[Nước] Cho nước sạch liên tục. Nếu heo mệt, pha điện giải + vitamin tổng hợp theo hướng dẫn trên nhãn trong 1-2 ngày đầu.",
+        "[Ăn] 1-2 bữa đầu cho ăn ít, dễ tiêu, cám khô sạch. Tránh đổ đầy máng 1 lần.",
+        "[Lót nền] Nền phải khô, ráp vừa, không trơn. Nếu ướt, thay ngay. Heo sau bệnh nằm nền lạnh ẩm sẽ trigger ho lại",
+        "[Dấu hiệu xấu] Tím tai, thở bụng, nằm tách, không uống → phải báo thú y/phòng kỹ thuật trại."
+      ]
+    },
+    {
+      "id": "gut_reset_4_7d",
+      "title": "4-7 ngày: Reset đường ruột (tường ruột là firewall của heo)",
+      "goal": "Phân khuôn tốt, không bết đuôi, không bọt khí trong phân.",
+      "content": "Nếu ruột không ổn, vỗ béo lại sẽ fail. Reset ruột phải định tính và từng bước nhỏ.",
+      "bullets": [
+        "[Giữ 1 hãng cám] Không đổi loại liên tục.",
+        "[Men ruột] Trộn lợi khuẩn/men vi sinh theo nhãn hướng dẫn khi chuyển khẩu phần.",
+        "[Giảm phụ phẩm ướt] Trời lạnh ẩm, bỏ phụ phẩm tươi ướt trong pha này.",
+        "[Ghi nhận phân] Phân hơi mềm nhưng có khuôn, hậu môn khô = ruột ổn."
+      ]
+    },
+    {
+      "id": "respiratory_watch_5_10d",
+      "title": "5-10 ngày: Soi phổi ẩn (subclinical pneumonia check)",
+      "goal": "Không ho dồn, không thở gấp bụng, mũi khô và không dịch đặc.",
+      "content": "Heo sau viêm phổi, tai táo lạnh... dễ còn viêm ẩn đường thở. Đây là nơi cần log triệu chứng để không tự tin nonsense.",
+      "bullets": [
+        "[Quan sát sáng sớm] Heo ho buổi sáng hoặc khi thay đổi nhiệt nhẹ là indicator phổi ẩn",
+        "[Giữ nhiệt ổn] Ấm về đêm, mát đối lưu ban ngày; tránh shock nhiệt",
+        "[Đối chiếu app] Có triệu chứng ho/thở lạ → mở module bệnh của heo/Thuốc hỗ trợ hô hấp",
+        "[Không tiêm lung tung] Không test vaccine/thuốc mới ngoài lịch đã chốt."
+      ]
+    },
+    {
+      "id": "nutrient_push_phase",
+      "title": "Đẩy tăng trọng khi ruột và phổi đã ổn",
+      "goal": "Tăng cân bật lại, cơ đầy vừa, mỡ hài hòa, da lông tốt.",
+      "content": "Đẩy input khi hệ ruột - phổi đã ổn. Tăng cân không chạy theo 'nhiều cho nhanh', chạy theo 'đều và đủ dữ liệu'.",
+      "bullets": [
+        "[Tăng cám] Tăng dần từng bước nhỏ mỗi vài ngày, quan sát phản hồi phân và nhịp thở.", 
+        "[Khoáng - vitamin] Bổ sung theo nhãn để cải thiện hấp thu và cơ - mỡ hài hòa.", 
+        "[Tách ô yếu] Nếu có cluster heo nhỏ, cho ăn ở ô riêng, tăng phần nơi ít tranh chấp.", 
+        "[Ghi chép tăng trọng] Cân mẫu hoặc ước lượng body frame 1-2 tuần/lần, so với lần trước."
+      ]
+    },
+    {
+      "id": "post_recovery_housing",
+      "title": "Quản lý chuồng phục hồi nền",
+      "goal": "Chuồng sạch - khô - gió lưu thông đều, hạn chế khí khai quay lại.",
+      "content": "Chuồng sau bệnh nếu sai đối lưu khí, mầm bệnh sẽ tái bùng. Phải làm đúng thứ tự: vệ sinh → thông khí → thả đàn.",
+      "bullets": [
+        "[Dọn phân đúng giờ] Dọn hằng sáng, không để phân ướt gần máng.", 
+        "[Sát trùng] Sát trùng khi heo ra hiên, chọn hoạt chất an toàn trên nền chuồng, để khô rồi thả lại.", 
+        "[Đánh giá mùi] Nhiều khí khai cay mắt, khó thở = thiếu gió chuẩn → tăng thông khí ngang chuồng ngay."
+      ]
+    },
+    {
+      "id": "behavioral_stress_control",
+      "title": "Kiểm soát stress hành vi",
+      "goal": "Heo không hoảng, không cắn, không trượt ngã, không 'nằm 1 góc trầm cảm'.",
+      "content": "Stress mạn sau bệnh làm heo chững ăn và ho lại, cost ẩn rất cao.",
+      "bullets": [
+        "[Người ra vào] Hạn chế người lạ, vật lạ gần ô phục hồi.", 
+        "[Di chuyển] Nếu buộc chuyển ô, là 1 lần và dứt khoát 1 chiều, không vòng vo."
+      ]
+    }
+  ],
+  "notes": [
+    "Không đổi khẩu phần hoặc đổi hãng cám quá nhanh khi heo chưa ăn lại đều.",
+    "Tuân thủ nhãn hướng dẫn nếu trộn men/lợi khuẩn/vaccine/thuốc.",
+    "Gom riêng nhóm heo tụt thể trạng để theo dõi và reset ruột/phổi tốt hơn."
+  ],
+  "warning": "Đây là nội dung tham khảo. Đàn heo ho lại hàng loạt, bỏ ăn kéo dài, tím tai, thở bụng mạnh, phân bọt khí… là cờ leo escalated; phải gọi thú y hoặc kỹ thuật trại kiểm tra trực tiếp ngay."
+}

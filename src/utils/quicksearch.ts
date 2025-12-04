@@ -159,7 +159,7 @@ function applySynonyms(normQuery: string, synMap: Record<string, string>) {
   return out;
 }
 
-// ===================== L1: BUILD PHRASES 1–4 WORDS =====================
+// ===================== L1: BUILD PHRASES 1-4 WORDS =====================
 function buildPhrases(normQuery: string, maxLen = 4) {
   const tokens = normQuery.split(" ").filter(Boolean);
   const phrases: string[] = [];

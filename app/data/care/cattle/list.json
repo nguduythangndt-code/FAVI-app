@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": "cattle_fattening",
+    "name": "Bò vỗ béo",
+    "description": "Quy trình nuôi vỗ béo bò thịt theo từng giai đoạn từ mới nhập đến xuất bán."
+  },
+  {
+    "id": "cattle_cow",
+    "name": "Bò cái sinh sản",
+    "description": "Chăm sóc bò cái mang thai, đẻ và nuôi con."
+  },
+  {
+    "id": "cattle_replacement",
+    "name": "Bò hậu bị",
+    "description": "Nuôi bò tơ chuẩn bị vào sinh sản hoặc khai thác sữa."
+  },
+  {
+    "id": "cattle_calf",
+    "name": "Bê con",
+    "description": "Chăm sóc bê từ sơ sinh đến cai sữa và sau cai sữa."
+  },
+  {
+    "id": "cattle_sick",
+    "name": "Bò bệnh",
+    "description": "Cách xử lý chung khi bò có dấu hiệu bệnh."
+  },
+  {
+    "id": "cattle_recovery",
+    "name": "Bò sau bệnh",
+    "description": "Chăm sóc phục hồi thể trạng sau khi bò khỏi bệnh."
+  },
+  {
+    "id": "cattle_housing",
+    "name": "Chuồng trại bò",
+    "description": "Thiết kế, vệ sinh và quản lý chuồng nuôi bò."
+  },
+  {
+    "id": "cattle_silage",
+    "name": "Ủ cỏ, ủ thức ăn",
+    "description": "Quy trình ủ cỏ, ủ thân cây bắp cho bò ăn quanh năm."
+  }
+]

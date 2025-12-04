@@ -1,0 +1,118 @@
+{
+  "id": "chicken_litter",
+  "name": "Đệm lót / nền chuồng",
+  "species": "chicken",
+  "group": "litter",
+  "overview": "Cẩm nang quản lý đệm lót chuồng gà: chọn vật liệu (trấu, mùn cưa, dăm bào…), độ dày, cách trải, cách đảo trộn, xử lý chỗ ướt - bết - bốc mùi, liên quan giữa đệm lót và bệnh chân, khớp, hô hấp, cầu trùng. Mục tiêu: nền luôn khô - tơi - êm, không hôi nặng, không trơn trượt, giúp chân gà khỏe, hạn chế bệnh do nền bẩn.",
+  "sections": [
+    {
+      "id": "choose_material",
+      "title": "Chọn vật liệu đệm lót phù hợp",
+      "goal": "Đệm lót khô, tơi, không mốc, dễ mua, dễ xử lý, không gây hại cho chân gà.",
+      "content": "Vật liệu đệm lót là thứ gà tiếp xúc liên tục. Chọn đúng loại sẽ đỡ rất nhiều công dọn, giảm bệnh chân và hô hấp.",
+      "bullets": [
+        "[Các loại thường dùng] Thường dùng trấu, mùn cưa, dăm bào, rơm băm nhỏ, lõi bắp xay… tùy vùng. Quan trọng là phải khô, sạch, không mốc.",
+        "[Ưu tiên trấu và mùn cưa khô] Trấu và mùn cưa khô, tơi, ít gây trơn trượt, hút ẩm khá tốt, phù hợp hầu hết mô hình nuôi gà nền chuồng.",
+        "[Không dùng vật liệu mốc, có mùi lạ] Đệm lót bị mốc, có mùi chua, mùi hăng lạ không được dùng. Nấm mốc trong đệm lót có thể gây bệnh hô hấp, tổn thương gan.",
+        "[Không dùng mùn cưa quá mịn, bụi nhiều] Mùn cưa quá mịn dễ bay bụi, làm gà hít phải gây kích ứng đường hô hấp. Nên chọn mùn cưa vừa, tơi, ít bụi.",
+        "[Rơm rạ phải phơi kỹ] Nếu dùng rơm băm, phải phơi thật khô, không để ẩm. Rơm ẩm rất dễ mốc, bốc mùi, giữ ẩm lâu ngày.",
+        "[Lọc bỏ dị vật] Trước khi trải, nên để ý loại bỏ các dị vật như đinh, mảnh kính, dây kẽm… lẫn trong đệm lót (nhất là đệm lấy từ xưởng gỗ).",
+        "[Tính toán nguồn cung] Chọn loại đệm lót mà khu vực có nguồn ổn định, giá chấp nhận được để không bị đứt giữa chừng hoặc phải đổi liên tục."
+      ]
+    },
+    {
+      "id": "prepare_and_spread",
+      "title": "Chuẩn bị và trải đệm lót ban đầu",
+      "goal": "Đệm lót được trải đều, dày đủ, khô, êm chân, không để lộ nền cứng.",
+      "content": "Trải đệm lót đúng cách ngay từ đầu giúp cả lứa nuôi dễ quản lý hơn, vừa êm chân gà, vừa dễ đảo trộn, thay mới.",
+      "bullets": [
+        "[Chuồng phải khô trước] Chỉ trải đệm lót khi nền chuồng đã khô ráo sau khi rửa và sát trùng. Nếu nền còn ẩm, đệm lót sẽ hút nước lên, nhanh hỏng.",
+        "[Độ dày đệm lót] Thường trải từ 5-10 cm tùy loại vật liệu và mùa. Mùa lạnh hoặc nền bê tông nên dày hơn để giữ ấm chân; mùa nóng có thể mỏng hơn nhưng vẫn đủ che nền.",
+        "[Trải đều toàn bộ nền] Trải đệm lót phủ kín toàn nền chuồng, cả những góc khuất. Không để sót chỗ trống lộ nền, gà dễ trượt ngã hoặc chân bị tổn thương.",
+        "[Lót dày hơn ở khu úm] Khu gà con cần đệm lót dày hơn một chút để giữ ấm chân, giảm sốc lạnh khi nằm nghỉ.",
+        "[Gạt phẳng mặt đệm] Sau khi đổ đệm lót, dùng cào, xẻng hoặc cào tay gạt phẳng, không để chỗ dày cục bộ, chỗ mỏng sát nền.",
+        "[Không tưới nước lên đệm mới] Không phun nước lên đệm lót mới với suy nghĩ “cho đỡ bụi” rồi để ẩm. Đệm ẩm ngay từ đầu sẽ khó khô và nhanh bốc mùi.",
+        "[Kiểm tra lần cuối trước nhập gà] Đi quanh chuồng, giẫm thử, nếu thấy chỗ nào nền lộ hoặc dẫm chạm nền cứng thì bổ sung thêm đệm lót."
+      ]
+    },
+    {
+      "id": "daily_management",
+      "title": "Quản lý đệm lót hằng ngày",
+      "goal": "Giữ đệm lót luôn tơi, khô tương đối, không bốc mùi amoniac nặng.",
+      "content": "Đệm lót không cần thay toàn bộ mỗi ngày, nhưng phải được chăm sóc thường xuyên: xới, dọn chỗ ướt, kiểm tra mùi.",
+      "bullets": [
+        "[Xới đệm lót định kỳ] Mỗi ngày hoặc vài ngày nên dùng cào/xẻng đảo nhẹ bề mặt đệm, đặc biệt ở nơi gà tụ nhiều, để phân và đệm lót trộn đều, khô nhanh hơn.",
+        "[Dọn phân đọng nhiều] Những chỗ phân tích tụ dày, vón cục nên được hót bỏ ra ngoài thay bằng đệm lót mới, không để tích lâu ngày.",
+        "[Chú ý khu vực máng uống] Quanh máng uống là nơi dễ bị ướt do nước đổ, gà vẩy. Cần kiểm tra nhiều hơn, thay đệm lót ướt thường xuyên.",
+        "[Theo dõi mùi amoniac] Nếu bước vào chuồng thấy cay mắt, khó chịu ở mũi, nghĩa là amoniac cao, đệm lót đang quá ẩm hoặc phân tích tụ nhiều. Cần tăng thông thoáng, xới/ thay đệm kịp thời.",
+        "[Giữ mật độ hợp lý] Mật độ gà quá dày khiến phân dồn nhiều trên diện tích nhỏ, đệm lót mau bẩn. Nếu có thể, giảm mật độ hoặc tăng diện tích chuồng.",
+        "[Quan sát màu sắc đệm lót] Đệm lót tốt thường có màu nâu sẫm, khô tơi. Nếu chuyển sang màu đen nhão, mùi hôi nặng nghĩa là đã quá tải, cần xử lý gấp.",
+        "[Không đổ thức ăn thừa vào đệm lót] Cám ẩm, thức ăn thừa nếu đổ xuống nền và để lâu sẽ mốc, gây mùi và thu hút côn trùng, chuột."
+      ]
+    },
+    {
+      "id": "wet_spots_and_caking",
+      "title": "Xử lý chỗ ướt, vón cục, bết nền",
+      "goal": "Không để đệm lót bị ướt kéo dài, hình thành “bánh phân” dày cứng gây hại chân và tăng mùi.",
+      "content": "Chỗ ướt và vón cục là điểm khởi đầu của mùi hôi, bệnh chân, cầu trùng. Cần nhận diện nhanh và xử lý dứt điểm.",
+      "bullets": [
+        "[Nhận diện chỗ ướt] Chỗ đệm lót sẫm màu, khi dẫm xuống cảm giác mềm nhão, ẩm lạnh là dấu hiệu ướt. Khu này thường ở quanh máng uống, cửa chuồng, nơi gà hay tụ.",
+        "[Hót bỏ đệm lót ướt] Dùng xẻng hót bỏ toàn bộ lớp đệm ướt đến khi thấy lớp khô hơn bên dưới, không chỉ cào qua loa bề mặt.",
+        "[Bổ sung đệm mới] Sau khi hót chỗ ướt, rải thêm đệm lót khô mới vào để lấp đầy, tránh để nền trơ.",
+        "[Xử lý bánh phân vón cục] Những mảng đệm lót bị nén chặt, cứng và ẩm (bánh phân) phải được hót ra, không để gà đứng lên lâu ngày, dễ gây viêm da chân, viêm khớp.",
+        "[Điều chỉnh lại máng uống] Nếu chỗ ướt luôn xuất hiện dưới máng uống, xem lại độ cao máng, độ rò rỉ, lưu lượng nước. Máng quá thấp hoặc rò rỉ sẽ làm ướt nền liên tục.",
+        "[Không dùng vôi sống rắc trực tiếp lên nền ướt có gà] Vôi sống có thể dùng xử lý đệm lót đã hót ra ngoài, không nên rắc trực tiếp lên nền ướt trong chuồng khi gà vẫn đang đi lại vì dễ gây kích ứng chân, da.",
+        "[Kiểm tra sau mưa lớn] Sau khi mưa to hoặc thời tiết ẩm kéo dài, cần kiểm tra kỹ các góc chuồng, chân tường, nơi nước có thể thấm vào đệm lót."
+      ]
+    },
+    {
+      "id": "health_relation",
+      "title": "Liên quan giữa đệm lót và sức khỏe gà",
+      "goal": "Hiểu rõ đệm lót bẩn ảnh hưởng thế nào tới chân, khớp, hô hấp và bệnh cầu trùng.",
+      "content": "Đệm lót không chỉ là “chỗ để phân rơi xuống”, mà là môi trường sống trực tiếp của chân và đường hô hấp của gà. Bẩn và ẩm lâu ngày sẽ kéo theo nhiều bệnh.",
+      "bullets": [
+        "[Viêm da chân, bỏng gan bàn chân] Đệm lót ướt, nhiều amoniac làm da bàn chân gà bị bỏng, đỏ, loét. Lâu dần sẽ viêm khớp, gà đi khập khiễng, giảm ăn.",
+        "[Bệnh hô hấp] Đệm lót ẩm mốc, bốc mùi amoniac mạnh, bụi phân bay lên là nguồn kích ứng và mang mầm bệnh vào đường hô hấp. Gà dễ ho, khò khè, viêm phổi.",
+        "[Bệnh cầu trùng] Ký sinh trùng cầu trùng phát triển rất tốt trong môi trường ẩm ướt, nhiều phân. Đệm lót ướt, dày phân là điều kiện thuận lợi để bệnh bùng phát.",
+        "[Bệnh khớp, chân yếu] Nền trơn, đệm lót bết, gà dễ trượt, té, chấn thương khớp. Kết hợp với nhiễm khuẩn từ nền bẩn làm sưng khớp, gà đi lại khó khăn.",
+        "[Ảnh hưởng tới tăng trọng] Gà phải sống trong môi trường ẩm hôi, chân đau, hô hấp khó thì sẽ giảm ăn, tăng trọng kém, dù khẩu phần vẫn giữ như cũ.",
+        "[Liên hệ với mục bệnh] Khi thấy gà có biểu hiện chân đau, tiêu chảy máu, ho, khò khè, nên xem lại lập tức tình trạng đệm lót và đối chiếu với mục bệnh tương ứng trong app."
+      ]
+    },
+    {
+      "id": "reuse_and_full_replacement",
+      "title": "Tái sử dụng hay thay toàn bộ đệm lót",
+      "goal": "Quyết định khi nào chỉ cần đảo - bổ sung, khi nào phải thay toàn bộ đệm lót.",
+      "content": "Không phải lúc nào cũng cần thay hết đệm lót; nhưng tới một mức nào đó thì giữ lại cũng không còn lợi ích, thậm chí hại nhiều hơn.",
+      "bullets": [
+        "[Khi nào chỉ cần đảo và bổ sung] Nếu đệm lót vẫn tương đối khô, mùi chấp nhận được, chưa vón thành bánh dày thì có thể chỉ cần xới đều, hót chỗ ướt, bổ sung thêm lớp mới.",
+        "[Dấu hiệu nên thay toàn bộ] Khi đệm lót chuyển sang màu rất đen, ẩm nhiều chỗ, mùi amoniac nặng, ruồi nhiều, gà đi là bắn bùn, thì nên lên kế hoạch thay toàn bộ.",
+        "[Thay giữa lứa nuôi] Với lứa nuôi dài hoặc mật độ cao, đôi khi phải thay đệm lót giữa chừng. Khi làm, nên tạm thời chuyển gà sang ô khác hoặc khu trống để dọn.",
+        "[Quy trình thay toàn bộ] Đưa gà ra ngoài (nếu có thể), hót hết đệm lót cũ, dọn nền, rửa, sát trùng, để khô, rồi trải đệm lót mới. Không trải mới khi nền còn ướt.",
+        "[Xử lý đệm lót cũ] Đệm lót cũ nên được đưa ra khu chứa phân riêng để ủ hoặc làm phân bón. Không đổ bừa ngay sát chuồng để mùi và ruồi bay ngược lại.",
+        "[Không tiếc đệm lót đã quá tệ] Cố giữ đệm lót đã quá bẩn chỉ để tiết kiệm sẽ làm tăng nguy cơ bệnh, chết, giảm tăng trọng - cuối cùng lại tốn nhiều hơn."
+      ]
+    },
+    {
+      "id": "seasonal_adjustment",
+      "title": "Điều chỉnh quản lý đệm lót theo mùa",
+      "goal": "Đệm lót luôn phù hợp với thời tiết: không quá ẩm mùa mưa, không quá nóng bụi mùa khô.",
+      "content": "Thời tiết từng mùa ảnh hưởng trực tiếp tới độ ẩm và nhiệt của đệm lót. Cách quản lý nên linh hoạt, không cứng nhắc một kiểu quanh năm.",
+      "bullets": [
+        "[Mùa mưa - ẩm] Mưa nhiều, không khí ẩm, đệm lót dễ ướt và khó khô. Cần chú ý nhiều hơn đến việc che mưa, chống nước thấm và hót chỗ ướt kịp thời.",
+        "[Tăng thông thoáng khi ẩm] Dù mưa, vẫn phải tạo luồng gió nhẹ để đệm lót có cơ hội khô bề mặt. Không bịt kín chuồng vì sợ lạnh khiến hơi ẩm tích tụ.",
+        "[Mùa khô - nóng] Thời tiết nắng nóng làm đệm lót bề mặt khô nhanh hơn, nhưng cũng dễ bụi. Có thể xới đệm nhẹ nhàng, không tạo quá nhiều bụi bay.",
+        "[Tránh tưới nước lên đệm mùa nóng] Một số người tưới nước trực tiếp lên đệm lót để “cho mát” là sai. Nước sẽ nhanh chóng làm lớp dưới ẩm, lâu ngày sẽ bốc mùi và khó khô.",
+        "[Điều chỉnh độ dày theo mùa] Mùa lạnh, có thể tăng độ dày để giữ ấm; mùa nóng, giữ độ dày vừa phải để không giữ nhiệt quá nhiều.",
+        "[Theo dõi phản ứng đàn] Nếu gà nằm nhiều ở một khu vực nhất định, cần kiểm tra xem khu đó đệm có ấm/khô hơn không, từ đó điều chỉnh trải đệm cho đều hoặc làm chỗ nghỉ phù hợp."
+      ]
+    }
+  ],
+  "notes": [
+    "Đệm lót tốt là đệm lót khô tương đối, tơi, không bốc mùi nặng, không làm cay mắt khi bước vào chuồng.",
+    "Quản lý đệm lót là việc hằng ngày, không phải đợi đến khi hôi quá mới dọn.",
+    "Mọi thay đổi về đệm lót (thay toàn bộ, đổi loại vật liệu) nên làm khi đàn gà khỏe, thời tiết không quá cực đoan.",
+    "Kết hợp kiểm soát đệm lót với thông thoáng chuồng, mật độ và quản lý nước uống để giữ môi trường nuôi ổn định."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho tư vấn trực tiếp của bác sĩ thú y hoặc kỹ sư chăn nuôi tại địa phương. Khi đàn gà có dấu hiệu bệnh rõ ràng (viêm chân hàng loạt, tiêu chảy máu, ho khò khè nhiều…), cần xem lại đệm lót và môi trường chuồng đồng thời liên hệ thú y để được kiểm tra trực tiếp."
+}

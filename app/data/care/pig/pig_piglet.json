@@ -1,0 +1,97 @@
+{
+  "id": "pig_piglet",
+  "name": "Heo con & sau cai sữa",
+  "species": "pig",
+  "group": "piglet",
+  "overview": "Cẩm nang chăm sóc heo con từ lúc mới sinh đến vài tuần sau cai sữa. Mục tiêu: heo con ấm, bú đều, phân đẹp, phổi êm, không tiêu chảy hàng loạt, không tụt tăng trưởng sau cai. Trọng tâm quản lý: nhiệt độ ổ, sữa mẹ, ruột, phổi và vệ sinh chuồng.",
+  "sections": [
+    {
+      "id": "newborn_0_24h",
+      "title": "Giai đoạn sơ sinh 0-24 giờ",
+      "goal": "Heo con khô, ấm, bú được sữa non càng sớm càng tốt.",
+      "content": "Những giờ đầu quyết định sức đề kháng nền cho cả đời heo con. Việc giữ ấm và cho bú sữa non đúng cách quan trọng hơn mọi thứ khác.",
+      "bullets": [
+        "[Lau khô và giữ ấm] Sau khi heo sinh, lau khô sơ nước ối ở mũi, miệng, thân. Lót ổ bằng trấu hoặc mùn cưa sạch, khô. Dùng đèn sưởi hoặc khu ấm, tránh gió lùa trực tiếp vào ổ.",
+        "[Không để nằm trên nền ướt] Nền ẩm làm heo con mất nhiệt rất nhanh, dễ run, tím tai, tím mõm và yếu dần.",
+        "[Cho bú sữa non sớm] Đặt heo con lại gần vú mẹ, hỗ trợ những con yếu tìm vú. Mục tiêu là tất cả heo đều bú được sữa non trong vài giờ đầu.",
+        "[Kiểm tra sữa mẹ] Vắt nhẹ vài giọt mỗi vú: sữa chảy ra đều, không lợn cợn, không có mùi lạ. Vú nào sữa kém thì lưu ý vì heo con bú ở vú đó dễ chậm lớn.",
+        "[Quan sát thở và màu da] Heo con khỏe hồng, thở đều. Con nào thở bụng mạnh, tím tai, nằm tách đàn cần đánh dấu để theo dõi kỹ hơn.",
+        "[Hạn chế can thiệp mạnh] Trong 24 giờ đầu, tránh tắm, tránh đổi chuồng, tránh tiếng ồn lớn làm heo con và nái bị stress."
+      ]
+    },
+    {
+      "id": "day_2_7",
+      "title": "Từ ngày thứ 2 đến hết tuần đầu",
+      "goal": "Heo con ấm ổ, bú đều, phân không dính đuôi, không ho và không thở bụng.",
+      "content": "Tuần đầu heo con rất nhạy cảm với lạnh, ẩm và nhiễm trùng. Giữ ổ khô, sạch và không để heo con nằm trên phân hoặc nước tiểu.",
+      "bullets": [
+        "[Ổ nằm khô và sạch] Thay bớt lớp lót bẩn, giữ khu nằm luôn khô. Không để phân ướt hoặc nước đọng ngay nơi heo con tập trung.",
+        "[Theo dõi bú đều] Quan sát bụng heo con sau mỗi lần bú: bụng căng vừa, không tóp. Con nào bụng lép thường xuyên cần kiểm tra xem có bị tranh vú hoặc bị nái đè, dẫm.",
+        "[Quan sát phân] Phân bình thường sẽ mềm, thành khuôn, không bết quanh hậu môn. Nếu phân dính đuôi nhiều con, cần xem lại vệ sinh ổ và tình trạng sữa mẹ.",
+        "[Gió và nhiệt] Chuồng phải thoáng nhưng không được có luồng gió thẳng vào ổ. Trời lạnh nên che bớt xung quanh, nhưng không bịt kín gây bí hơi.",
+        "[Dấu hiệu bất thường về phổi] Heo con ho, thở khò khè, thở bụng, chảy mũi đục là dấu hiệu xấu. Những con này nên được khoanh riêng và đối chiếu trong mục bệnh hô hấp của app.",
+        "[Không tự ý dùng thuốc mạnh] Tuần đầu nên ưu tiên giữ ấm, giữ khô, không lạm dụng thuốc nặng khi chưa có tư vấn thú y."
+      ]
+    },
+    {
+      "id": "week_2_3_creep_feeding",
+      "title": "Tuần 2-3: Tập ăn sớm (creep feeding)",
+      "goal": "Heo con bắt đầu làm quen với cám, ruột thích nghi dần với thức ăn ngoài sữa mẹ.",
+      "content": "Tập ăn sớm giúp heo con chuyển sang giai đoạn cai sữa êm hơn, ít sốc hơn khi tách mẹ.",
+      "bullets": [
+        "[Chuẩn bị khu tập ăn] Dành một góc sạch trong ô làm khu tập ăn, tránh xa chỗ đái và chỗ phân nhiều. Máng tập ăn nên thấp, mép máng dễ tiếp cận.",
+        "[Loại cám tập ăn] Chọn loại cám tập ăn dành riêng cho heo con, dễ tiêu, thơm, hạt nhỏ. Đổ lượng rất ít mỗi lần để heo làm quen, không để cám tồn lâu trong máng.",
+        "[Giờ tập ăn] Mỗi ngày cho cám tập ăn vài lần, lượng nhỏ. Sau mỗi lần, bỏ cám thừa nếu đã ẩm hoặc dính bẩn.",
+        "[Kết hợp với bú mẹ] Thời điểm này sữa mẹ vẫn là nguồn chính. Cám chỉ là phần tập thêm, không phải thay thế.",
+        "[Quan sát phản ứng] Heo con khỏe sẽ tò mò, đến ngửi, gặm, dần dần ăn nhiều hơn. Con nào luôn tránh xa cám tập ăn, chậm lớn hơn anh em thì cần quan sát kỹ thêm.",
+        "[Giữ vệ sinh máng] Máng tập ăn cho heo con phải luôn sạch, rửa thường xuyên, không để cám vón lâu ngày bám quanh thành máng."
+      ]
+    },
+    {
+      "id": "pre_weaning_preparation",
+      "title": "Chuẩn bị trước khi cai sữa",
+      "goal": "Cai sữa có kế hoạch, không làm ruột heo con bị sốc.",
+      "content": "Cai sữa là giai đoạn dễ bùng tiêu chảy nhất. Chuẩn bị tốt sẽ giảm rất nhiều rủi ro cả về bệnh lẫn tăng trưởng.",
+      "bullets": [
+        "[Không cai lúc thời tiết xấu] Tránh cai sữa khi đang có đợt lạnh sâu, mưa kéo dài hoặc nhiệt độ thay đổi đột ngột. Có thể hoãn vài ngày để heo đỡ bị dồn stress.",
+        "[Tăng dần cám tập ăn trước cai] Vài ngày trước khi cai, tăng dần lượng cám tập ăn, cho heo con quen với việc lấy năng lượng từ cám nhiều hơn sữa.",
+        "[Giữ ổ ấm và khô] Chuẩn bị khu chuồng sau cai sữa có sẵn lớp lót khô, đèn sưởi hoặc biện pháp giữ ấm. Không để heo con phải vừa cai sữa vừa chịu nền ẩm lạnh.",
+        "[Rà soát những con yếu] Ghi chú những con nhỏ, chậm ăn, phân hay dính đuôi để ưu tiên chỗ ăn tốt hơn, ít tranh chấp hơn sau khi tách mẹ.",
+        "[Kiểm tra trạng thái nái] Heo mẹ chuẩn bị cai cũng cần được điều chỉnh khẩu phần hợp lý (giảm dần) để tránh viêm vú sau khi ngừng cho bú."
+      ]
+    },
+    {
+      "id": "weaning_first_week",
+      "title": "Tuần đầu sau cai sữa",
+      "goal": "Giữ heo con ăn được, ngủ được, phân không rối loạn, không tụt nhanh thể trạng.",
+      "content": "Tuần đầu sau cai là thời điểm heo con dễ mất cân và dễ tiêu chảy nhất. Cần ưu tiên ổn định hơn là đẩy nhanh tăng trọng.",
+      "bullets": [
+        "[Ổ chuồng sau cai] Ô sau cai phải sạch, khô, không có gió lùa trực tiếp. Nên lót nền khô ở khu heo nằm, khu đái - đi phân tách riêng.",
+        "[Cám sau cai] Dùng loại cám phù hợp cho heo sau cai sữa, không đổi loại liên tục. Đổ lượng vừa phải, nhiều bữa, tránh đổ quá nhiều để cám ẩm, chua.",
+        "[Nước uống sạch] Kiểm tra máng uống mỗi ngày, đảm bảo heo con dễ tiếp cận, nước không lẫn phân hoặc cám.",
+        "[Quan sát phân và bụng] Phân bình thường sẽ hơi mềm nhưng có hình. Nếu phân nhiều nước, bọt, bết đuôi, bụng hóp lại hoặc phình bất thường, cần khoanh những con đó để theo dõi sát.",
+        "[Hạn chế thử cái mới] Trong tuần đầu sau cai, không nên thêm phụ phẩm lạ, không trộn nhiều loại thức ăn khác nhau. Giữ khẩu phần đơn giản, dễ tiêu.",
+        "[Giữ ổ yên tĩnh] Hạn chế tiếng ồn lớn, xua đuổi mạnh, đổi ô liên tục. Heo con đang chịu nhiều thay đổi, càng bớt xáo trộn càng tốt."
+      ]
+    },
+    {
+      "id": "post_weaning_growth",
+      "title": "Ổn định sau cai và bật lại tăng trưởng",
+      "goal": "Heo con sau cai lên đều, không đàn nào tụt hẳn so với phần còn lại.",
+      "content": "Khi phân và hô hấp đã ổn định, có thể bắt đầu tăng dần khẩu phần và tiến tới giai đoạn hậu bị hoặc vỗ béo tùy mục tiêu.",
+      "bullets": [
+        "[Tăng khẩu phần từ từ] Khi thấy heo con ăn hết khẩu phần mà phân vẫn ổn, có thể tăng nhẹ lượng cám, giữ vài ngày để quan sát rồi mới tăng tiếp.",
+        "[Chia nhóm theo thể trạng] Heo đồng đều để một nhóm, những con quá nhỏ hoặc từng bị bệnh nên nhóm riêng để quản lý ăn uống và theo dõi riêng.",
+        "[Theo dõi phổi] Ho lẻ tẻ nhẹ có thể xuất hiện, nhưng nếu ho dồn nhiều con, thở khò khè hoặc thở bụng rõ thì cần đối chiếu ngay với mục bệnh hô hấp.",
+        "[Giữ vệ sinh chuồng] Dọn phân hằng ngày, nhất là góc đi vệ sinh và quanh máng. Không để nền quá ẩm vì đây là yếu tố bùng lại tiêu chảy và viêm phổi.",
+        "[Chuyển sang giai đoạn tiếp theo] Khi heo con đã ăn tốt, tăng đều, có thể đưa vào quy trình nuôi hậu bị hoặc vỗ béo, áp dụng các hướng dẫn tương ứng trong mục chăm sóc khác của heo."
+      ]
+    }
+  ],
+  "notes": [
+    "Heo con khỏe là nền tảng cho cả chu kỳ nuôi: ưu tiên ấm - khô - sạch trước khi nghĩ đến chuyện đạm cao hay cám đắt.",
+    "Cai sữa và vài tuần sau cai là giai đoạn rủi ro cao nhất về tiêu chảy và viêm phổi, cần theo dõi kỹ hơn bình thường.",
+    "Không đổi loại cám hoặc thêm phụ phẩm lạ đúng thời điểm heo con đang stress vì tách mẹ hoặc thời tiết xấu."
+  ],
+  "warning": "Thông tin trong mục chăm sóc heo con & sau cai sữa chỉ mang tính tham khảo, không thay thế cho chẩn đoán và điều trị của bác sĩ thú y. Khi heo con sốt, tiêu chảy kéo dài, thở khó, tím tai hoặc chết đột ngột, cần liên hệ thú y hoặc kỹ thuật trại để kiểm tra trực tiếp."
+}

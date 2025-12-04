@@ -1,0 +1,142 @@
+{
+  "id": "goat_kid",
+  "name": "Dê con",
+  "species": "goat",
+  "group": "kid",
+  "overview": "Cẩm nang chăm sóc dê con từ lúc sinh đến sau cai sữa. Mục tiêu: dê con sống khỏe, nhận đủ sữa đầu, giữ ấm tốt, không nhiễm trùng rốn, hạn chế tối đa tiêu chảy và viêm phổi, tăng trưởng đều, tạo nền thể trạng tốt cho giai đoạn hậu bị.",
+  "sections": [
+    {
+      "id": "pre_kidding_preparation",
+      "title": "Chuẩn bị chuồng và dụng cụ trước khi dê sinh",
+      "goal": "Có sẵn ô chuồng sạch, khô, ấm, an toàn để đón dê con mới sinh.",
+      "content": "Chuồng và dụng cụ phải được chuẩn bị trước khi dê sinh để tránh lúng túng, xử lý muộn làm dê con lạnh, ướt, nhiễm bẩn ngay từ đầu.",
+      "bullets": [
+        "[Chuồng đẻ] Chuẩn bị ô riêng cho dê mẹ gần sinh: sạch, khô, không gió lùa trực tiếp, có chất độn khô (trấu khô, rơm khô…) đã phơi nắng.",
+        "[Nền chuồng] Nền không trơn, không có hố đọng nước, không vật sắc nhọn có thể làm xây xước dê con.",
+        "[Dụng cụ] Chuẩn bị sẵn khăn sạch để lau khô dê con, chậu nước ấm, dung dịch sát trùng dùng cho gia súc để sát trùng rốn, kéo nhỏ hoặc cốc nhựa sạch (nếu cần hỗ trợ cho uống sữa).",
+        "[Nguồn nhiệt] Chuẩn bị đèn sưởi hoặc bạt che gió cho những ngày lạnh, ẩm hoặc mưa kéo dài, đặc biệt nếu dê sinh ban đêm.",
+        "[Máng ăn - máng nước] Vệ sinh máng ăn và máng nước của dê mẹ, bảo đảm không còn thức ăn thiu, không có phân, không rêu bám trong máng nước.",
+        "[Ghi chép] Chuẩn bị sổ hoặc ghi chú để ghi lại thời điểm sinh, số con/lứa, tình trạng dê con ngay sau sinh, thuận tiện cho theo dõi sau này."
+      ]
+    },
+    {
+      "id": "first_two_hours",
+      "title": "2 giờ đầu sau khi dê con sinh",
+      "goal": "Dê con được lau khô, giữ ấm, bắt đầu bú sữa đầu càng sớm càng tốt và được sát trùng rốn.",
+      "content": "2 giờ đầu là giai đoạn rất quan trọng để dê con ổn định thân nhiệt, mở phổi và tiếp nhận sữa đầu (colostrum) - nguồn kháng thể chính chống bệnh trong những tuần đầu đời.",
+      "bullets": [
+        "[Lau khô và giữ ấm] Sau khi dê con ra khỏi bụng mẹ, để dê mẹ liếm sạch sơ bộ rồi dùng khăn sạch lau khô lưng, bụng, chân, đặc biệt trong thời tiết lạnh hoặc ẩm.",
+        "[Kiểm tra hô hấp] Quan sát xem dê con thở đều, không tím tái, không thở khò khè. Nếu có nhiều dịch nhầy ở mũi - miệng, có thể lau sạch nhẹ nhàng để thông đường thở.",
+        "[Giúp đứng và tìm vú] Sau một thời gian ngắn, hỗ trợ dê con đứng dậy. Dắt dê con lại gần vú mẹ, hỗ trợ định hướng vào núm vú nếu dê con còn lóng ngóng.",
+        "[Sữa đầu] Cố gắng để dê con bú được sữa đầu trong vòng 30-120 phút sau sinh. Đây là thời gian tối ưu để hấp thu kháng thể trong sữa đầu.",
+        "[Sát trùng rốn] Cắt cuống rốn (nếu cần) ở độ dài hợp lý, sau đó nhúng rốn vào dung dịch sát trùng dùng cho gia súc 2-3 lần/ngày trong 1-2 ngày đầu, giúp rốn khô nhanh và hạn chế nhiễm trùng.",
+        "[Quan sát phản xạ] Kiểm tra phản xạ bú: dê con ngậm vú, mút đều; kiểm tra phản xạ đứng và đi vài bước. Con nào yếu, đứng không vững, không tìm vú được cần theo dõi sát hơn."
+      ]
+    },
+    {
+      "id": "day_1_to_3",
+      "title": "Từ 1 đến 3 ngày tuổi",
+      "goal": "Dê con tiếp tục bú đủ, giữ ấm ổn định, rốn khô dần, không tiêu chảy, không có dấu hiệu suy yếu.",
+      "content": "3 ngày đầu, dê con vẫn phụ thuộc chủ yếu vào sữa mẹ. Môi trường chuồng, thân nhiệt và rốn là các điểm cần theo dõi kỹ để tránh nhiễm trùng và suy yếu sớm.",
+      "bullets": [
+        "[Giữ ấm] Ban đêm che bạt chắn gió, dùng chất độn khô, có thể dùng đèn sưởi trong điều kiện lạnh. Không để dê con nằm trực tiếp lên nền ẩm, lạnh.",
+        "[Theo dõi rốn] Quan sát rốn mỗi ngày: rốn khô, co lại là bình thường; nếu rốn sưng to, ướt, có dịch, có mùi hôi hoặc dê con đau khi chạm vào → nghi nhiễm trùng rốn, cần xử lý và liên hệ thú y.",
+        "[Theo dõi phân] Phân dê con hơi sệt, vàng, dính ít quanh hậu môn có thể gặp; nhưng nếu phân lỏng nhiều, bắn nước, có mùi tanh nặng hoặc lẫn máu → cần chú ý vì có thể là tiêu chảy bệnh lý.",
+        "[Lượng bú] Quan sát bụng dê con sau khi bú: bụng căng vừa phải, không lép tóp kéo dài. Dê con khóc nhiều, tìm vú liên tục nhưng bụng vẫn lép có thể là dấu hiệu thiếu sữa.",
+        "[Quan sát hành vi] Dê con khỏe sẽ đứng vững, đi lại theo mẹ, phản ứng nhanh với tiếng động và ánh sáng. Con lờ đờ, nằm nhiều, ít phản ứng, tai rũ cần được theo dõi kỹ.",
+        "[Chuồng và chất độn] Giữ khu vực mẹ - con sạch, thay hoặc xới tơi chất độn ẩm; không để phân và nước tiểu ứ quanh vùng dê con nằm."
+      ]
+    },
+    {
+      "id": "day_4_to_14",
+      "title": "Từ 4 đến 14 ngày tuổi",
+      "goal": "Dê con bú đều, bắt đầu linh hoạt hơn, không tiêu chảy, không ho, không thở khó, não và thân phát triển bình thường.",
+      "content": "Đây là giai đoạn dê con bắt đầu vận động nhiều hơn, hệ tiêu hóa và hô hấp dần ổn định. Tuy nhiên, tiêu chảy sơ sinh và viêm phổi vẫn rất dễ xảy ra nếu chuồng ẩm, bẩn, gió lùa hoặc thay đổi đột ngột về thời tiết.",
+      "bullets": [
+        "[Duy trì bú sữa mẹ] Tiếp tục để dê con bú tự do theo nhu cầu, ưu tiên cho dê con tiếp cận vú nếu mẹ đông con, tránh tình trạng một con bị lép kéo dài.",
+        "[Bắt đầu làm quen với môi trường] Cho dê con vận động trong ô mẹ-con, nhưng tránh cho chạy nhảy trên nền trơn hoặc nhiều chướng ngại vật.",
+        "[Theo dõi tiêu hóa] Kiểm tra phân hằng ngày. Khi thấy phân lỏng, tanh, dính bết đuôi, dê con khát nước hoặc mất nước (mắt trũng, da khô) cần can thiệp sớm theo gợi ý trong mục bệnh và thuốc của app.",
+        "[Theo dõi hô hấp] Chú ý tình trạng ho, sổ mũi, thở gấp, thở bụng. Nếu có, cần xem lại chuồng có bị gió lùa, ẩm, lạnh hoặc nhiều khí độc không; đồng thời đối chiếu với mục bệnh hô hấp.",
+        "[Chuồng trại] Duy trì môi trường khô, sạch. Tránh phun nước mạnh vào chuồng gây ẩm ướt kéo dài; ưu tiên dọn phân khô, xới tơi chất độn.",
+        "[Tách bớt mật độ] Nếu ô chuồng mẹ-con quá đông, nên tách bớt sang ô khác để giảm chen chúc, giảm đè nhau và lây bệnh."
+      ]
+    },
+    {
+      "id": "early_creep_feeding",
+      "title": "Tập ăn sớm và làm quen thức ăn (từ 2 đến 4 tuần tuổi)",
+      "goal": "Dê con bắt đầu làm quen với thức ăn thô xanh và lượng tinh nhỏ, hỗ trợ phát triển dạ cỏ mà không gây rối loạn tiêu hóa.",
+      "content": "Tập ăn sớm giúp dạ cỏ phát triển tốt, giảm sốc khi bước sang giai đoạn cai sữa. Tuy nhiên, tập ăn phải từ từ, ưu tiên chất lượng thức ăn và môi trường sạch.",
+      "bullets": [
+        "[Chuẩn bị máng tập ăn] Bố trí máng tập ăn riêng cho dê con trong khu vực mẹ-con, cao vừa tầm để dê con tiếp cận dễ dàng nhưng không giẫm đạp vào trong máng.",
+        "[Cỏ và lá] Cho dê con tập nhấm nháp cỏ mềm, lá non, sạch, không ướt mưa, không dính bùn đất hoặc phân.",
+        "[Tinh (nếu có)] Nếu sử dụng tinh, chỉ cho lượng rất ít, rải mỏng trong máng, chia nhiều lần trong ngày. Không đổ một lượng lớn trong một lần.",
+        "[Theo dõi phản ứng] Sau khi thêm thức ăn mới (cỏ, lá, tinh), cần theo dõi phân và bụng dê con. Nếu thấy chướng bụng, phân lỏng, bỏ bú → giảm hoặc tạm dừng thức ăn mới.",
+        "[Nước uống] Bố trí máng nước thấp, sạch để dê con có thể uống khi cần. Thường xuyên thay nước, không để nước đục, lẫn cặn bẩn.",
+        "[Tránh thức ăn mốc] Tuyệt đối không cho dê con ăn cỏ mốc, thức ăn ủ chua kém chất lượng hoặc tinh ẩm, có mùi lạ."
+      ]
+    },
+    {
+      "id": "weaning_preparation",
+      "title": "Chuẩn bị cai sữa (từ 4 đến 8 tuần tuổi tùy điều kiện nuôi)",
+      "goal": "Dê con quen dần với khẩu phần cỏ - tinh, giảm phụ thuộc vào sữa mẹ, hạn chế sốc khi bắt đầu cai sữa.",
+      "content": "Thời điểm cai sữa có thể khác nhau tùy mục tiêu nuôi và thể trạng đàn. Dù cai ở mốc nào, hãy đảm bảo dê con đã ăn tốt thức ăn thô - tinh trước khi giảm sữa.",
+      "bullets": [
+        "[Đánh giá thể trạng] Chỉ nên chuẩn bị cai sữa khi dê con khỏe, tăng trưởng ổn định, không đang trong đợt tiêu chảy hoặc bệnh hô hấp.",
+        "[Tăng dần thức ăn rắn] Tăng từ từ lượng cỏ, lá, tinh cho dê con trong 1-2 tuần trước khi bắt đầu giảm số lần bú.",
+        "[Giảm dần số lần bú] Không cắt sữa đột ngột. Có thể giảm từ 3-4 lần/ngày xuống 2 lần/ngày, rồi 1 lần/ngày trong vài ngày trước khi ngừng hẳn.",
+        "[Quan sát phản ứng] Trong giai đoạn giảm bú, theo dõi xem dê con vẫn ăn tốt, không sụt cân, không tiêu chảy. Nếu có vấn đề, cần chậm lại nhịp giảm sữa.",
+        "[Giữ ổn định chuồng trại] Hạn chế thay đổi lớn về chuồng, nhóm nuôi hoặc khẩu phần trong lúc đang giảm sữa; không kết hợp cai sữa với chuyển chuồng xa hoặc vận chuyển đường dài.",
+        "[Chăm sóc dê mẹ] Cân nhắc khẩu phần dê mẹ trong giai đoạn giảm sữa để hạn chế căng vú, viêm vú (nội dung chi tiết ở mục dê mẹ sinh sản)."
+      ]
+    },
+    {
+      "id": "weaning_process",
+      "title": "Giai đoạn cai sữa",
+      "goal": "Cai sữa dứt điểm mà dê con vẫn ăn tốt, không suy, không tiêu chảy, không viêm phổi do stress.",
+      "content": "Cai sữa là giai đoạn dê con dễ bị stress (tâm lý, dinh dưỡng, môi trường). Cần thực hiện từng bước rõ ràng, không dồn nhiều thay đổi trong cùng một thời điểm.",
+      "bullets": [
+        "[Thời điểm cai] Chọn ngày thời tiết tương đối ổn định, không quá lạnh, không quá nóng, không mưa kéo dài.",
+        "[Tách mẹ - con] Có thể tách mẹ và con sang hai ô riêng nhưng vẫn trong cùng khu chuồng để giảm mức độ stress do thay đổi môi trường.",
+        "[Khẩu phần sau cai] Ngay sau cai sữa, giữ khẩu phần cỏ - tinh tương tự giai đoạn chuẩn bị cai, không tăng thêm trong vài ngày đầu.",
+        "[Theo dõi ăn uống] Quan sát xem dê con có tiếp tục ăn cỏ - tinh tốt hay không. Con nào bỏ ăn, tách đàn, nằm nhiều cần được theo dõi sát.",
+        "[Theo dõi phân và hô hấp] Trong 7-10 ngày sau cai, chú ý phân (tránh tiêu chảy), ho, thở gấp. Nếu xuất hiện triệu chứng, đối chiếu với mục bệnh trong app và can thiệp kịp thời.",
+        "[Hạn chế thêm stress] Không kết hợp cai sữa với tẩy giun, tiêm phòng hoặc chuyển chuồng xa; các can thiệp này nên làm khi dê con đã ổn định sau cai."
+      ]
+    },
+    {
+      "id": "post_weaning_growth",
+      "title": "Sau cai sữa (khoảng 2-3 tháng tuổi)",
+      "goal": "Dê con duy trì tăng trưởng đều, hệ tiêu hóa ổn định, chuẩn bị chuyển sang giai đoạn hậu bị.",
+      "content": "Sau khi đã cai sữa ổn, mục tiêu là giữ đà tăng trọng, không để dê con sụt cân hoặc chững kéo dài do khẩu phần không phù hợp hoặc bệnh.",
+      "bullets": [
+        "[Khẩu phần cân đối] Duy trì khẩu phần gồm cỏ xanh/cỏ khô chất lượng tốt kết hợp với lượng tinh phù hợp theo từng trại, luôn tăng - giảm từ từ.",
+        "[Nước uống] Đảm bảo nước sạch luôn sẵn, máng nước rửa thường xuyên, không để nước đục, có rêu.",
+        "[Theo dõi tăng trưởng] Định kỳ 2-3 tuần cân hoặc ước lượng trọng lượng một số con đại diện để đánh giá tốc độ tăng trưởng.",
+        "[Kiểm soát ký sinh trùng] Tùy điều kiện trại và khuyến cáo địa phương, có thể lên kế hoạch tẩy giun cho dê con sau cai sữa bằng thuốc phù hợp cho lứa tuổi theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+        "[Chuồng trại] Tiếp tục duy trì ô chuồng khô, sạch, mật độ phù hợp, tránh để dê con nằm trong khu vực ẩm, bẩn lâu ngày.",
+        "[Chuẩn bị chuyển nhóm] Khi dê con đạt trọng lượng và độ tuổi phù hợp, có thể sắp xếp sang nhóm hậu bị (dê hậu bị) theo kế hoạch nuôi của trại."
+      ]
+    },
+    {
+      "id": "common_risks_monitoring",
+      "title": "Theo dõi các nguy cơ thường gặp và cách xử lý ban đầu",
+      "goal": "Phát hiện sớm các vấn đề quan trọng ở dê con để xử lý kịp thời, giảm tỷ lệ chết và còi cọc.",
+      "content": "Một số vấn đề thường gặp ở dê con là tiêu chảy, viêm phổi, nhiễm trùng rốn, suy dinh dưỡng. Việc theo dõi hàng ngày và phản ứng sớm là rất quan trọng.",
+      "bullets": [
+        "[Tiêu chảy] Phân lỏng nhiều, tanh, dính đuôi, dê con mệt, mắt trũng: giảm hoặc ngừng tinh, giữ cỏ tốt, hỗ trợ bằng dung dịch điện giải, men tiêu hóa theo hướng dẫn trên nhãn, đồng thời đối chiếu mục bệnh tiêu hóa trong app và liên hệ thú y khi cần.",
+        "[Viêm phổi] Dê con ho, thở gấp, thở bụng, đứng co ro, lông xù: kiểm tra chuồng (gió lùa, ẩm lạnh), tách dê con vào ô khô, ấm hơn, sử dụng các biện pháp hỗ trợ theo khuyến cáo trong mục bệnh và thuốc, liên hệ thú y càng sớm càng tốt.",
+        "[Nhiễm trùng rốn] Rốn sưng, nóng, đau, có dịch, có mùi hôi: tiếp tục sát trùng rốn, giữ nền chuồng khô, sạch, hạn chế để dê con nằm trực tiếp trên nền ẩm; cần tham khảo ý kiến thú y về hướng xử lý phù hợp.",
+        "[Suy dinh dưỡng] Dê con còi, chậm lớn, xương sườn lộ, bụng lép, lông xấu: xem lại khẩu phần (thiếu sữa, thiếu cỏ, thiếu tinh), mật độ đàn, ký sinh trùng; cân nhắc kế hoạch tẩy giun và điều chỉnh khẩu phần theo hướng tăng dần có kiểm soát.",
+        "[Tai nạn chuồng trại] Trượt ngã, kẹt chân, kẹt đầu vào song chuồng: kiểm tra kỹ các thanh sàn, thanh vách, độ trơn nền; sửa chữa, gia cố hoặc điều chỉnh thiết kế để giảm nguy cơ tái diễn.",
+        "[Ghi chép] Ghi lại các ca bệnh, cách xử lý và kết quả để rút kinh nghiệm cho các lứa sau và điều chỉnh quy trình chăm sóc."
+      ]
+    }
+  ],
+  "notes": [
+    "Dê con là nền tảng cho đàn sau này. Chăm sóc kỹ giai đoạn từ sinh đến sau cai sữa sẽ giúp giảm rõ rệt tỷ lệ chết, tỷ lệ còi và chi phí thuốc.",
+    "Môi trường chuồng trại sạch - khô - ấm về đêm - thoáng về ngày là yếu tố then chốt để tránh viêm phổi và tiêu chảy ở dê con.",
+    "Mọi thay đổi về khẩu phần (thêm tinh, thêm loại cỏ mới, thay đổi lịch bú, cai sữa…) đều cần thực hiện từ từ, theo dõi phản ứng và không gộp nhiều thay đổi trong cùng một thời điểm.",
+    "Ghi chép đơn giản nhưng đầy đủ về thời điểm sinh, tình trạng dê con, các lần bệnh và cách xử lý sẽ giúp tối ưu dần quy trình chăm sóc cho những lứa tiếp theo."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi dê con có các dấu hiệu như bỏ bú, tiêu chảy nặng, mất nước, thở khó, tím tái, co giật, nằm bẹp lâu không đứng dậy được, cần liên hệ thú y để được kiểm tra trực tiếp."
+}

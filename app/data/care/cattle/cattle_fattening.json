@@ -1,0 +1,137 @@
+{
+  "id": "cattle_fattening",
+  "name": "Bò vỗ béo",
+  "species": "cattle",
+  "group": "fattening",
+  "overview": "Cẩm nang nuôi vỗ béo bò thịt từ lúc mới nhập về trại đến trước khi xuất bán. Mục tiêu: bò tăng cân đều, khung thịt đầy, không rối loạn tiêu hóa, không bùng bệnh do thay khẩu phần quá nhanh. Tất cả dựa trên 3 trụ cột: chuồng trại khô - sạch - thoáng, khẩu phần tăng dần có kiểm soát, phát hiện sớm và khoanh vùng nhanh bò bệnh.",
+  "sections": [
+    {
+      "id": "new_arrival",
+      "title": "Giai đoạn mới nhập bò về trại",
+      "goal": "Giảm stress sau vận chuyển, không để bò sụt cân mạnh trong 3-5 ngày đầu.",
+      "content": "3-5 ngày đầu sau vận chuyển là giai đoạn nhạy cảm nhất. Mục tiêu là để bò nghỉ, quen chuồng, ổn định dạ cỏ và phát hiện sớm những con bất thường để tách riêng.",
+      "bullets": [
+        "[Chuẩn bị chuồng trước khi bò về] Dọn sạch phân, hót bỏ chất độn bẩn, nền khô, không trơn. Kiểm tra máng ăn, máng nước, rửa sạch mùi cũ, không để bám cặn, rêu.",
+        "[Tách lô bò mới] Nhốt riêng lô bò mới nhập ở khu riêng, không dồn chung ngay với đàn cũ để giảm đánh nhau, tranh ăn và hạn chế lây bệnh.",
+        "[Sau khi xuống xe] Đưa bò vào chuồng, để yên 1-2 giờ đầu cho bò bình tĩnh lại. Hạn chế la hét, không đuổi cho bò chạy vòng vòng vì sợ nó lạnh.",
+        "[Quan sát tổng thể từng con] Kiểm tra dáng đi (có khập khiễng không), mắt (có đục, có dử không), mũi (có dịch đặc không), nhịp thở (thở gấp, thở bụng), bụng (có chướng không), phân dính quanh đuôi.",
+        "[Đánh dấu và tách bò bất thường] Con nào gầy nhiều, thở khó, đứng tách đàn, mắt mũi bẩn nên đánh dấu và tách sang ô theo dõi riêng để tiện chăm và tránh lây đàn.",
+        "[Nước uống ngày đầu] Chuẩn bị nước sạch, máng nước rửa kỹ. Có thể pha thêm điện giải và vitamin tổng hợp theo hướng dẫn trên nhãn trong 1-2 ngày đầu để hỗ trợ phục hồi sau vận chuyển.",
+        "[Thức ăn ngày 1] Cho cỏ khô hoặc cỏ xanh chất lượng tốt là chính. Tinh rất ít, chia làm 2-3 cữ nhỏ. Tuyệt đối không đổ lượng lớn tinh trong ngày đầu để tránh rối loạn dạ cỏ.",
+        "[Bò quá đói sau vận chuyển] Nếu bò bị đói lâu, không đổ cỏ và tinh quá nhiều một lần. Cho ăn ít nhưng nhiều lần trong ngày, mỗi lần cách nhau vài giờ.",
+        "[Những việc tạm thời chưa làm] Không tẩy giun, không tiêm phòng, không thay đổi mạnh khẩu phần trong ngày đầu. Chờ khi bò ăn uống bình thường, phân ổn định rồi mới lên lịch tiếp theo."
+      ]
+    },
+    {
+      "id": "stabilize_weight",
+      "title": "Ổn định thể trạng 7-10 ngày đầu",
+      "goal": "Bò ăn uống đều, phân khuôn ổn định, không tiêu chảy, không bỏ ăn.",
+      "content": "Sau 3-5 ngày đầu, trọng tâm là giữ ổn định khẩu phần và môi trường. Không vội tăng tinh quá nhanh. Giai đoạn này là nền tảng trước khi vào nhịp vỗ béo mạnh.",
+      "bullets": [
+        "[Môi trường chuồng] Giữ chuồng khô, sạch, thoáng. Ban ngày mở thông thoáng, ban đêm tránh gió lùa trực tiếp. Nền không trơn, không đọng nước.",
+        "[Khẩu phần cơ bản] Duy trì cỏ xanh hoặc cỏ khô chất lượng tốt là nền chính. Tinh ở mức vừa phải, tăng dần từng bước nhỏ mỗi 3-4 ngày nếu bò đáp ứng tốt.",
+        "[Dấu hiệu tiêu hóa ổn] Phân khuôn, không quá nhão, không dính bết đuôi. Bò ăn hết khẩu phần, nhai lại đều, không chướng bụng, không bỏ cỏ.",
+        "[Hỗ trợ dạ cỏ] Có thể bổ sung men tiêu hóa hoặc men vi sinh chuyên cho gia súc theo hướng dẫn trên nhãn, nhất là đàn mới chuyển từ vùng có kiểu thức ăn khác.",
+        "[Theo dõi cá thể yếu] Ghi lại con nào ăn chậm, hay đứng góc chuồng, lông xù, mắt trũng. Các cá thể này nên cho ăn ở vị trí ít tranh chấp và theo dõi liên tục vài ngày.",
+        "[Liên kết với mục bệnh trong app] Nếu thấy bò ho, thở khó, tiêu chảy, sốt, đi lại bất thường, nên mở mục bệnh tương ứng trong app để đối chiếu triệu chứng và không bỏ qua bệnh sớm.",
+        "[Thiết lập thói quen giờ ăn cố định] Cho ăn đúng giờ sáng - trưa - chiều, hạn chế cho ăn kiểu lúc rảnh mới đổ. Bò quen nhịp sinh học sẽ ăn khỏe hơn và tăng trọng tốt hơn."
+      ]
+    },
+    {
+      "id": "parasite_and_vaccination",
+      "title": "Tẩy ký sinh và tiêm phòng nền",
+      "goal": "Giảm gánh ký sinh trùng đường ruột, ngoài da và hỗ trợ miễn dịch cơ bản cho đàn vỗ béo.",
+      "content": "Khi bò đã quen trại và ăn ổn định, đây là thời điểm phù hợp để sắp lịch tẩy giun, trị ve rận và tiêm phòng các bệnh thường gặp theo khuyến cáo thú y địa phương.",
+      "bullets": [
+        "[Đánh giá lại thân thể đàn] Trước khi tẩy giun, quan sát: có con nào gầy mà bụng lại to, lông xù, niêm mạc mắt nhợt nhạt không. Các con này thường gánh ký sinh nặng hơn, cần theo dõi kỹ sau khi tẩy.",
+        "[Chọn thuốc tẩy giun phù hợp] Ưu tiên dùng thuốc tẩy giun dành cho trâu bò có trong mục Thuốc của app. Dùng theo đúng hướng dẫn trên nhãn hoặc tư vấn thú y, không tự ý tăng liều.",
+        "[Thời điểm tẩy] Nên tẩy giun khi bò đang khỏe, ăn uống bình thường, không tiêu chảy, không sốt. Tránh tẩy lúc nắng nóng cực điểm hoặc trời lạnh đột ngột.",
+        "[Ký sinh trùng ngoài da] Nếu thấy ve, rận, ghẻ: dùng thuốc xịt, tắm hoặc nhỏ lưng chuyên cho gia súc, pha và dùng theo đúng hướng dẫn trên bao bì. Không tự pha đặc hơn vì nghĩ mạnh hơn sẽ nhanh hết.",
+        "[Tiêm phòng nền] Trao đổi với thú y địa phương về các bệnh lưu hành trong vùng (tụ huyết trùng, lở mồm long móng, thương hàn, bệnh phổi,…). Lập lịch tiêm phòng cơ bản phù hợp cho đàn vỗ béo.",
+        "[Chăm sóc sau các đợt tẩy - tiêm] Sau tẩy giun hoặc tiêm phòng, cho bò nghỉ ngơi, giảm bớt xáo trộn đàn, khẩu phần giữ ổn định. Có thể bổ sung thêm điện giải, vitamin theo hướng dẫn trên nhãn.",
+        "[Không tẩy - không tiêm khi bò đang bệnh] Bò đang sốt, ho nặng, tiêu chảy nặng, thở khó không nên tẩy giun hoặc tiêm phòng. Cần xử lý bệnh cấp trước, chờ ổn rồi mới tiếp tục chương trình phòng ngừa."
+      ]
+    },
+    {
+      "id": "build_ration_structure",
+      "title": "Xây khẩu phần vỗ béo theo từng lớp",
+      "goal": "Tăng năng lượng khẩu phần nhưng vẫn giữ dạ cỏ hoạt động tốt, không gây rối loạn tiêu hóa.",
+      "content": "Khẩu phần vỗ béo luôn phải có xơ đủ, tinh tăng từ từ, phụ phẩm đưa vào sau, không đảo ngược thứ tự. Mọi thay đổi đều phải theo dõi phản ứng 2-3 ngày.",
+      "bullets": [
+        "[Lớp 1 - Thức ăn thô] Cỏ voi, cỏ tươi, rơm khô sạch là nền chính. Luôn đảm bảo bò có xơ để nhai lại, không cắt hoàn toàn cỏ chỉ vì muốn tăng tinh.",
+        "[Lớp 2 - Thức ăn tinh] Tinh là nguồn tăng năng lượng chính (ngô nghiền, cám hỗn hợp,…). Bắt đầu từ mức thấp, tăng dần mỗi 3-5 ngày nếu bò đáp ứng tốt.",
+        "[Lớp 3 - Phụ phẩm] Bã bia, bã đậu, cám rượu,… chỉ cho khi còn tươi, không mốc, không chua quá. Lúc mới đưa vào, chỉ cho lượng nhỏ, tăng từ từ sau vài ngày.",
+        "[Nguyên tắc tăng khẩu phần] Mỗi lần tăng tinh hoặc thêm phụ phẩm mới, phải theo dõi phân, bụng và mức độ ăn trong 2-3 ngày. Nếu thấy có vấn đề, quay lại mức trước đó.",
+        "[Không đổi tất cả cùng lúc] Tránh đổi cả loại cỏ, loại tinh và thêm phụ phẩm mới trong cùng một ngày. Mỗi lần chỉ nên thay đổi một yếu tố để dễ nhận ra phản ứng của đàn.",
+        "[Ưu tiên chất lượng hơn số lượng] Thức ăn phải sạch, không mốc, không lẫn đất - cát - rác. Ít nhưng chất lượng luôn hiệu quả hơn nhiều nhưng kém chất lượng."
+      ]
+    },
+    {
+      "id": "concentrate_feed_fattening",
+      "title": "Thức ăn tinh cho bò vỗ béo",
+      "goal": "Dùng thức ăn tinh làm động lực chính cho tăng trọng, nhưng không làm quá tải dạ cỏ.",
+      "content": "Thức ăn tinh là phần giúp bò lên thịt nhanh, nhưng nếu cho quá nhiều, quá gấp hoặc dùng nguồn tinh kém sẽ dễ gây toan dạ cỏ, chướng hơi, tiêu chảy, giảm ăn.",
+      "bullets": [
+        "[Tăng tinh theo từng bước nhỏ] Khi bò đã quen khẩu phần cơ bản, bắt đầu tăng tinh từ từ. Mỗi 3-5 ngày tăng một bước nhỏ rồi dừng lại theo dõi, không được tăng liên tục mỗi ngày.",
+        "[Chia tinh ra nhiều cữ] Thay vì cho tinh dồn một lần thật nhiều, nên chia ra 2-3 cữ trong ngày. Điều này giúp dạ cỏ xử lý tốt hơn, giảm nguy cơ chướng hơi.",
+        "[Đảm bảo luôn có xơ đi kèm] Dù tăng tinh đến mức nào, vẫn phải có cỏ khô hoặc cỏ xanh cho bò nhai lại. Không sử dụng khẩu phần gần như toàn tinh vì rất dễ gây rối loạn dạ cỏ.",
+        "[Kiểm tra chất lượng cám] Không dùng cám mốc, cám vón cục, cám có mùi lạ (mùi mốc, mùi khét, mùi dầu hôi). Lô cám nghi ngờ nên loại bỏ, không tiếc.",
+        "[Phản ứng khi tăng cám] Sau mỗi lần tăng tinh, theo dõi phân (có nhão, chua, nhiều bọt không), quan sát bụng (có căng hơi bất thường không), xem bò có giảm ăn cỏ không. Nếu có dấu hiệu bất thường, phải giảm tinh ngay về mức trước đó.",
+        "[Không ép ăn khi bò đang yếu] Những bò đang bệnh hoặc mới hết bệnh không nên tăng tinh quá nhanh. Cần cho thời gian hồi phục rồi mới đẩy khẩu phần trở lại.",
+        "[Hạn chế đổi hãng cám liên tục] Nếu phải đổi loại cám, nên trộn dần giữa loại cũ và loại mới trong vài ngày, tránh chuyển sang loại hoàn toàn khác ngay trong 1-2 cữ."
+      ]
+    },
+    {
+      "id": "disease_watch",
+      "title": "Theo dõi bệnh trong giai đoạn vỗ béo",
+      "goal": "Phát hiện sớm các bệnh hô hấp, tiêu hóa, chân móng để tránh tụt tăng trọng và bùng dịch.",
+      "content": "Mật độ nhốt cao, khẩu phần giàu năng lượng, thay đổi thời tiết là yếu tố dễ làm bệnh bùng lên. Cần có thói quen kiểm tra đàn hàng ngày.",
+      "bullets": [
+        "[Quan sát buổi sáng] Khi vào chuồng, liếc cả đàn: con nào đứng tách, ăn chậm, đầu gục, lông xù, thở nhanh, ho, phân dính nhiều quanh đuôi đều phải chú ý.",
+        "[Thiết lập khu cách ly] Chuẩn bị sẵn một ô chuồng dành cho bò bệnh hoặc nghi bệnh. Con bất thường nên chuyển sang khu này để tiện theo dõi, điều trị và giảm lây cho đàn khỏe.",
+        "[Dùng thuốc hỗ trợ khi triệu chứng nhẹ] Với trường hợp mệt nhẹ, ăn kém nhẹ, ho lẻ tẻ, tiêu chảy nhẹ, có thể dùng điện giải, men tiêu hóa, thuốc hạ sốt giảm đau, thuốc hỗ trợ hô hấp theo hướng dẫn trên nhãn và tư vấn thú y.",
+        "[Kết nối với mục bệnh trong app] Khi thấy triệu chứng rõ ràng (ho, thở khó, tiêu chảy, sưng khớp, đi cà nhắc…), mở mục Danh mục bệnh của loài bò trong app để đọc kỹ nguyên nhân - triệu chứng - cách xử lý tham khảo.",
+        "[Giữ vệ sinh chuồng liên tục] Dọn phân hàng ngày, nhất là khu máng ăn, máng nước. Không để thức ăn thừa ẩm mốc ở máng, không gom lại cho ăn.",
+        "[Ghi chép quá trình điều trị] Bò nào đã dùng thuốc nên được ghi lại ngày, loại thuốc, triệu chứng chính. Khi phải gọi thú y, có sẵn thông tin rõ ràng để bác sĩ nắm nhanh tình hình.",
+        "[Thời điểm cần gọi thú y] Sốt cao kéo dài, thở khó, tiêu chảy nặng, liệt, hoặc có nhiều con trong đàn cùng bị bệnh trong thời gian ngắn là tình huống cần thú y đến trực tiếp, không tự xử lý kéo dài."
+      ]
+    },
+    {
+      "id": "weight_gain_and_peak",
+      "title": "Giai đoạn tăng cân mạnh và đạt đỉnh vỗ béo",
+      "goal": "Tối ưu tốc độ tăng cân, giữ thân hình đầy đặn, không quá béo mỡ, không tụt cân cuối kỳ.",
+      "content": "Khi khẩu phần đã được tối ưu và đàn bò đáp ứng tốt, nhiệm vụ lúc này là duy trì sự ổn định, không thử nghiệm mới, không chủ quan với vệ sinh và bệnh.",
+      "bullets": [
+        "[Giữ khẩu phần ổn định] Khi đã tìm được mức khẩu phần cho tăng cân tốt, hạn chế đổi loại tinh, đổi nguồn phụ phẩm nếu không thật cần thiết, nhất là sát ngày xuất bán.",
+        "[Theo dõi độ mỡ thân] Định kỳ sờ dọc sống lưng, vùng sườn, gốc đuôi. Nếu xương lộ nhiều là gầy, nếu mỡ dày, khó sờ được xương là quá béo. Mục tiêu là đầy thịt, mỡ vừa phải.",
+        "[Đảm bảo đủ máng ăn] Kiểm tra số lượng máng ăn và máng nước so với số bò. Thiếu máng sẽ khiến bò yếu bị thiếu phần, tăng trưởng không đều.",
+        "[Giảm nguy cơ chấn thương] Nền chuồng phải khô, không trơn, không hố lõm. Nếu dùng sàn, kiểm tra không có thanh gãy, không có khe kẹt chân.",
+        "[Hạn chế làm đàn hoảng loạn] Tránh la hét, đập phá, cho chó chạy trong chuồng, đuổi bò chạy vòng. Bò stress thường giảm ăn, dễ tụt cân và dễ bệnh.",
+        "[Cân hoặc ước lượng định kỳ] Mỗi 1-2 tuần, chọn một vài con đại diện để cân hoặc đo ước lượng, so sánh với lần trước để xem đàn đang tăng tốt hay chững lại.",
+        "[Không lơ là vệ sinh cuối kỳ] Dù gần xuất bán, vẫn phải giữ chuồng sạch, máng ăn - máng nước không bẩn, không để bệnh bùng lên vào những tuần cuối."
+      ]
+    },
+    {
+      "id": "pre_sale_trim",
+      "title": "Chuẩn bị trước khi xuất bán",
+      "goal": "Bò sạch sẽ, đẹp mã, vận chuyển an toàn, không sụt cân nhiều trong quá trình giao hàng.",
+      "content": "Giai đoạn cuối cùng tập trung vào hình thức, an toàn vận chuyển và giảm hao hụt. Nên chuẩn bị sớm trước vài ngày chứ không làm dồn trong một ngày.",
+      "bullets": [
+        "[Vệ sinh thân thể] Chải lông, gỡ những chỗ lông bết bẩn. Nếu điều kiện cho phép, có thể tắm nhanh bằng nước sạch vào ngày nắng ấm và để bò khô hẳn trước khi đêm xuống.",
+        "[Kiểm tra và chỉnh móng] Móng quá dài dễ trượt và đau khi đứng trên xe. Nếu cần cắt, nên cắt gọn trước vài ngày để bò có thời gian quen lại, không cắt sát ngày chở.",
+        "[Chuồng sạch 2-3 ngày trước bán] Khu chuồng dùng để gom bò trước khi bán nên được dọn sạch, giảm mùi hôi, giảm ẩm để hạn chế bò nhiễm bẩn mới trước khi lên xe.",
+        "[Điều chỉnh ăn trước giờ chở] Không để bò đói khát hoàn toàn nhiều giờ liền, nhưng cũng không cho ăn một bữa thật no sát giờ lên xe vì dễ nôn ói, tiêu phân nhiều trên đường.",
+        "[Chuẩn bị giấy tờ] Chuẩn bị giấy kiểm dịch, sổ tiêm phòng (nếu có), ghi chú rõ nếu đàn bò vừa điều trị thuốc gì, thời gian ngừng thuốc theo nhãn để thông báo cho bên mua.",
+        "[Sắp xếp trên xe] Không nhét quá chật, cố gắng phân bổ đều tải trong thùng xe. Hạn chế để bò chen ép quá mức vì dễ trượt, gãy chân hoặc đè nhau.",
+        "[Giảm stress trong ngày xuất bán] Không đổi chuồng liên tục, không dí bò chạy vòng vèo nhiều lần. Chuẩn bị sẵn đường dẫn từ chuồng ra xe gọn, ít chướng ngại, có người hướng dẫn nhẹ nhàng."
+      ]
+    }
+  ],
+  "notes": [
+    "Mọi thay đổi khẩu phần đều phải từ từ và theo dõi phản ứng đàn ít nhất 2-3 ngày.",
+    "Chất lượng thức ăn (cỏ, tinh, phụ phẩm) quan trọng hơn số lượng. Thức ăn mốc, bẩn có thể làm mất cả lứa vỗ béo.",
+    "Luôn kết hợp cả 3 yếu tố: khẩu phần hợp lý, chuồng trại sạch - khô - thoáng, kiểm soát bệnh và ký sinh trùng.",
+    "Nên ghi chép lại loại tinh, nguồn phụ phẩm, tốc độ tăng cân và các đợt bệnh của từng lứa để tối ưu cho các lứa sau."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi bò có dấu hiệu bệnh nặng (sốt cao, khó thở, tiêu chảy kéo dài, nằm nhiều, đi lại khó), cần liên hệ thú y để được kiểm tra trực tiếp."
+}

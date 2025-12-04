@@ -1,0 +1,109 @@
+{
+  "id": "cattle_housing",
+  "name": "Chuồng trại bò",
+  "species": "cattle",
+  "group": "housing",
+  "overview": "Cẩm nang xây dựng và quản lý chuồng trại cho bò thịt, bò sinh sản. Mục tiêu: không đọng nước, không trơn trượt, không kẹt chân, thông khí tốt, hạn chế bụi và khí độc, bò nằm - đứng - ăn - uống thoải mái, dễ vệ sinh mỗi ngày. Chuồng trại là nền tảng ẩn quyết định năng suất tăng trọng lẫn an toàn đẻ.",
+  "sections": [
+    {
+      "id": "site_selection",
+      "title": "Chọn vị trí và mặt bằng",
+      "goal": "Chọn nơi cao ráo, không ngập, bám đường vận chuyển thức ăn - bò ra vào hợp lý.",
+      "content": "Vị trí quyết định 70% mức độ khỏe mạnh vì nó ảnh hưởng độ ẩm, khí lưu thông, bụi và bùn chân.",
+      "bullets": [
+        "[Độ cao mặt bằng] Chuồng phải cao hơn phần sân ngoài 15-25cm để thoát nước nhanh khi mưa kéo dài.",
+        "[Hướng chuồng] Quay máng ăn xuôi theo hướng chứa thức ăn và hướng nắng buổi sáng, tránh nắng gắt buổi trưa chiếu thẳng vào bò nằm.",
+        "[Khoảng cách khu khác] Tách khu bê hoặc bò bệnh xa vùng phân bò lớn và khu ủ phụ phẩm chua mạnh.",
+        "[Đường nội bộ] Tạo lối đi đủ rộng cho xe rùa - máy xúc thức ăn, không làm đường cong gấp khiến bò dễ trượt khi di chuyển."
+      ]
+    },
+    {
+      "id": "floor_structure",
+      "title": "Cấu trúc nền chuồng và sàn",
+      "goal": "Nền chắc, khô, không trượt, chịu được móng bò.",
+      "content": "Nền và sàn là chỗ dễ gây tai nạn nhất ở trại. Đầu tư sai nền là nợ kỹ thuật dài hạn.",
+      "bullets": [
+        "[Xi măng nhám hoặc đất đầm] Nếu đổ xi măng, phải tạo bề mặt nhám; nếu nền đất thì đầm chặt, không lõm hố cục bộ.",
+        "[Chống đọng nước] Tạo độ dốc nhẹ 3-5% dẫn về rãnh thoát.",
+        "[Sàn] Nếu dùng sàn, kiểm tra không run, không gãy, không khe sắc cạnh.",
+        "[Khu bê và khu bò lớn] Nơi cho bê nằm phải luôn có lót khô; nơi bò lớn đứng phải chịu lực tốt."
+      ]
+    },
+    {
+      "id": "roof_and_walls",
+      "title": "Mái, vách và thông gió",
+      "goal": "Chống nóng, chắn mưa, thoáng khí nhưng không kín bưng.",
+      "content": "Mái là nơi toả nhiệt mạnh nhất. Vách là nơi điều tiết gió. Hai thứ này phải cân bằng như EQ hệ thống.",
+      "bullets": [
+        "[Mái] Lợp tôn, fibro hoặc mái cách nhiệt chuyên chuồng nuôi, có cửa thoát khí trên đỉnh nóc.",
+        "[Vách cao 1,8-2,2m] Đủ chắn mưa tạt và giảm gió đêm nhưng không che kín 4 phía.",
+        "[Cửa thoáng khí đối xứng] 2 đầu chuồng có ô thoáng đối xứng để khí tuần hoàn.",
+        "[Chắn gió mùa lạnh 1 phía] Chắn 1 phía gió thôi, ưu tiên phía mưa tạt theo mùa."
+      ]
+    },
+    {
+      "id": "drainage",
+      "title": "Rãnh thoát nước và xử lý nước thải chuồng",
+      "goal": "Rút nước nhanh, nước thải không chảy ngược lên khu bò nằm.",
+      "content": "Rảnh thoát không nên quá nông, nên có nắp che rác thô lọt vào, tránh tắc khối ủ phân toan mạnh.",
+      "bullets": [
+        "[Rãnh sâu đủ] Rãnh phải đủ sâu và có độ dốc để nước rút nhanh.",
+        "[Không để máng nước tràn] Máng nước không nên để tràn, vì ẩm nền bê nằm dẫn đến viêm phổi sớm.",
+        "[Nước thải phân - nước rửa] Chảy về hố biogas hoặc hố ủ phân tách riêng.",
+        "[Dòng chảy một nẻo] Không cho nước thải đi lung tung khắp trại."
+      ]
+    },
+    {
+      "id": "mangers",
+      "title": "Máng ăn, máng nước và layout bên trong",
+      "goal": "Bò tiếp cận thức ăn, nước dễ dàng, không tranh giành mạnh tay.",
+      "content": "Layout máng sai là bò tranh ăn, con yếu thua luôn. Máng đúng là UX thân thiện của trại.",
+      "bullets": [
+        "[Ít nhất 2 vị trí máng/1 dãy] Một dãy chuồng nên có ít nhất 2-3 vị trí máng để phân bố đều bò khi ăn.",
+        "[Máng ăn khô ráo] Máng ăn nên khô, rửa máng xong lau khô trước bữa kế tiếp.",
+        "[Máng nước sạch] Nước mới, không rêu, không cặn đặc, thay hằng ngày.",
+        "[Cố định] Máng cần cố định, không để xô lệch vì bò húc văng rồi trộn thức ăn thừa mốc lại cho ăn."
+      ]
+    },
+    {
+      "id": "cleaning_schedule",
+      "title": "Lịch vệ sinh và khử khuẩn định kỳ",
+      "goal": "Chuồng sạch mỗi ngày, khử khuẩn có chu kỳ, không làm bụi mù lên mặt bò.",
+      "content": "Giữ chuồng sạch hằng ngày, khử khuẩn định kỳ theo khuyến cáo nhãn sản phẩm chuồng nuôi.",
+      "bullets": [
+        "[Dọn phân hằng ngày] Dọn sáng hoặc chiều - không để qua đêm phân ướt.",
+        "[Quét bụi trần, mạng nhện] 3-5 ngày/lần, trước khi cho ăn.",
+        "[Khử khuẩn chuồng] Dùng vôi bột hoặc dung dịch khử khuẩn theo nhãn, xịt nền khi khô, lúc mát trong ngày.",
+        "[Không phun khi có bò] Không phun trực tiếp khi bò đứng ngay trên nền ướt khử khuẩn hoặc hít bụi mạnh."
+      ]
+    },
+    {
+      "id": "heat_and_humidity",
+      "title": "Kiểm soát nhiệt - ẩm theo mùa",
+      "goal": "Mùa nắng: giảm nóng; mùa mưa: giảm ẩm; mùa lạnh: chắn nhẹ 1 phía.",
+      "content": "Kiểm soát mùa vụ tốt giúp bò không shock nhiệt, không giảm ăn, không hít bụi ẩm lạnh.",
+      "bullets": [
+        "[Mùa nắng nóng] Tối ưu thông gió, treo quạt, giảm nắng chiếu trực diện mặt bò nằm.",
+        "[Mùa mưa kéo dài] Hạn chế ẩm, dùng rơm khô sạch lót nền.",
+        "[Mùa lạnh] Chắn 1 phía gió, tránh bịt kín 4 phía."
+      ]
+    },
+    {
+      "id": "density",
+      "title": "Mật độ nhốt và phân lứa trong chuồng",
+      "goal": "Không để bò đè lên nhau, không tranh ăn quá mức.",
+      "content": "Mật độ chật quá là bug hệ thống: bò stress, giảm tăng trọng, dễ chấn thương chân.",
+      "bullets": [
+        "[Chia lứa rõ] Không trộn bò lớn - bò tơ - bê vào 1 ô nếu không đủ diện tích.",
+        "[Không ép mật độ] Ưu tiên diện tích đủ hơn là nhốt chật để tận dụng chuồng."
+      ]
+    }
+  ],
+  "notes": [
+    "Chuồng khô - nhám - thoát nước nhanh là điều kiện bắt buộc cho mọi trại nuôi bò.",
+    "Tinh vỗ béo phải ăn ở máng khô, chia nhiều cữ, không dồn 1 lần.",
+    "Không phun khử khuẩn khi bò đang đứng trực trên nền ướt hoặc hít bụi mạnh.",
+    "Ghi chép layout chuồng và phản xạ ăn của bò giúp tối ưu lứa tiếp."
+  ],
+  "warning": "Thông tin này chỉ mang tính tham khảo định tính. Khi chuồng có vấn đề ngạt khí, gãy sàn, nhiều bò ho - tiêu chảy liên tục, cần gọi thú y hoặc kỹ thuật chuồng trại đến kiểm tra trực tiếp."
+}

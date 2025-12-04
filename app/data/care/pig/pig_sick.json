@@ -1,0 +1,112 @@
+{
+  "id": "pig_sick",
+  "name": "Heo bệnh",
+  "species": "pig",
+  "group": "sick",
+  "overview": "Cẩm nang chăm sóc heo đang bệnh trong trại. Mục tiêu: phát hiện sớm, tách chuồng kịp thời, giữ heo uống được - ăn được - thở êm - phân bớt rối, dùng thuốc theo hướng dẫn (nhãn hoặc thú y) và không làm nặng thêm do chuồng ẩm, gió lùa hoặc đổi khẩu phần đột ngột.",
+  "sections": [
+    {
+      "id": "early_detection",
+      "title": "Nhận diện sớm heo bệnh trong đàn",
+      "goal": "Phát hiện heo bất thường trước khi cả ô cùng bệnh.",
+      "content": "Mỗi sáng đi chuồng là một lần kiểm tra sức khỏe đàn. Nhìn tổng đàn trước, sau đó mới soi từng con có dấu hiệu khác biệt.",
+      "bullets": [
+        "[Tư thế và hành vi] Heo bệnh thường đứng tách, nằm một góc, đầu gục, ít tham gia tranh ăn, phản xạ chậm khi có người vào chuồng.",
+        "[Ăn uống] Dấu hiệu nhẹ là ăn chậm, bỏ một phần cám; nặng hơn là bỏ ăn hoàn toàn, ít tới máng nước.",
+        "[Phân] Quan sát phân quanh đuôi và sàn: phân lỏng, có bọt, rất tanh, bết đuôi hoặc ngược lại là táo bón, phân khô cứng, heo rặn lâu.",
+        "[Hô hấp] Heo ho lặp lại, thở nhanh, thở bụng, thở khò khè, há mõm thở hoặc có dịch đục ở mũi là dấu hiệu không ổn.",
+        "[Thân nhiệt và màu sắc] Tai, mõm, chân lạnh bất thường, tai tím tái, da xám, mắt trũng hoặc đỏ nhiều là dấu hiệu bệnh nặng hơn.",
+        "[Ghi chú nhanh] Khi phát hiện heo bất thường, ghi lại ô chuồng, vị trí, biểu hiện chính (ho, tiêu chảy, bỏ ăn, sốt nghi ngờ…) để tiện theo dõi và báo thú y."
+      ]
+    },
+    {
+      "id": "isolation",
+      "title": "Tách chuồng và bố trí khu heo bệnh",
+      "goal": "Giảm lây lan và dễ chăm sóc riêng heo bệnh.",
+      "content": "Tách chuồng kịp thời giúp giảm áp lực mầm bệnh cho cả đàn và giúp tập trung chăm sóc đúng con đang yếu.",
+      "bullets": [
+        "[Chuồng cách ly] Chuẩn bị sẵn một vài ô chuồng khô, sạch, thoáng làm khu heo bệnh. Không nhốt chung heo bệnh với heo khỏe.",
+        "[Di chuyển heo] Khi tách heo bệnh, cố gắng dắt đi theo đường ngắn, ít trơn, hạn chế đuổi chạy vòng vòng làm heo kiệt sức.",
+        "[Dụng cụ riêng] Xẻng, chổi, xô, máng dùng cho ô heo bệnh nên tách riêng, không dùng chung với ô heo khỏe. Sau khi dùng xong phải rửa, phơi khô.",
+        "[Mật độ trong ô bệnh] Không nhốt quá đông trong ô bệnh; chừa chỗ để heo nằm thoải mái, có nơi khô để nghỉ.",
+        "[Chuồng bệnh phải khô] Nền ẩm lạnh làm heo bệnh nặng thêm, nhất là bệnh hô hấp và tiêu chảy. Giữ nền luôn khô, nếu cần dùng thêm chất độn khô sạch.",
+        "[Hạn chế người lạ] Khu heo bệnh nên hạn chế người ra vào, tránh đưa thêm mầm bệnh từ nơi khác vào hoặc mang mầm bệnh ra toàn trại."
+      ]
+    },
+    {
+      "id": "supportive_care",
+      "title": "Chăm sóc hỗ trợ cho heo bệnh",
+      "goal": "Giữ heo không mất nước, đỡ mệt, ruột bớt rối, phổi dễ thở hơn.",
+      "content": "Chăm sóc hỗ trợ là nền tảng trước khi nói đến thuốc. Heo có nước - ấm - ruột đỡ rối thì đáp ứng điều trị sẽ tốt hơn.",
+      "bullets": [
+        "[Nước uống] Đảm bảo máng/núm uống hoạt động tốt, heo bệnh tiếp cận nước dễ. Nước phải sạch, không lẫn phân hoặc cám chua.",
+        "[Bù điện giải và vitamin] Có thể dùng sản phẩm điện giải, vitamin tổng hợp hoặc men tiêu hóa dành cho gia súc, pha đúng theo hướng dẫn trên nhãn để hỗ trợ heo bệnh.",
+        "[Giữ ấm] Trời lạnh hoặc mưa ẩm, cần che bớt gió lùa và giữ ấm khu nằm (đèn sưởi, bạt che hợp lý). Tránh để heo nằm trực tiếp trên nền ướt, lạnh.",
+        "[Thức ăn] Cho ăn khẩu phần dễ tiêu: cám khô sạch, lượng vừa phải. Không đổ cám thật nhiều rồi để ẩm, mốc trong máng.",
+        "[Không ép ăn] Heo đang mệt có thể ăn ít hơn bình thường. Không cố nhồi nhét, chủ yếu là giữ nước và hỗ trợ ruột - phổi trước.",
+        "[Giữ yên tĩnh] Khu heo bệnh nên bớt tiếng ồn, bớt chạy qua chạy lại, không đuổi heo đứng dậy liên tục để \"xem nó còn sống không\"."
+      ]
+    },
+    {
+      "id": "environment_control",
+      "title": "Kiểm soát chuồng trại khi đang có heo bệnh",
+      "goal": "Giảm các yếu tố làm bệnh nặng thêm: ẩm, gió lùa, khí độc.",
+      "content": "Chuồng xấu có thể làm mọi phác đồ điều trị mất tác dụng. Khi có heo bệnh, phải xem lại môi trường ngay.",
+      "bullets": [
+        "[Nền chuồng] Dọn phân thường xuyên, đặc biệt quanh máng ăn, máng uống. Không để phân ướt hoặc nước đọng lâu ngay chỗ heo nằm.",
+        "[Khí độc] Nếu mùi khai, mùi hôi lên nồng, cay mắt, phải tăng thông gió ngang chuồng ngay (mở cửa, dùng quạt đẩy khí ra).",
+        "[Gió lùa] Tránh gió thổi thẳng vào chuồng bệnh, nhất là ban đêm. Che bớt hướng gió chính nhưng vẫn giữ luồng khí đối lưu để không bị bí.",
+        "[Nhiệt độ] Đêm lạnh sâu, heo bệnh dễ nặng thêm. Cần tính chuyện giữ ấm nhẹ, nhưng không dùng biện pháp làm tăng ẩm nền (phun nước, xịt trực tiếp vào nền vào buổi tối).",
+        "[Máng ăn uống] Rửa máng định kỳ, tránh để cám thừa ẩm mốc, nước uống xanh rêu. Đây là nguồn tái nhiễm rất thường gặp.",
+        "[Sát trùng hợp lý] Có thể dùng dung dịch sát trùng chuồng trại phù hợp cho gia súc, phun khi heo đã được chuyển hoặc tránh phun trực tiếp lên thân heo bệnh. Luôn đọc kỹ hướng dẫn trên nhãn."
+      ]
+    },
+    {
+      "id": "medication_principles",
+      "title": "Nguyên tắc dùng thuốc cho heo bệnh",
+      "goal": "Thuốc đúng nhóm, đúng bệnh, dựa trên nhãn hoặc hướng dẫn thú y, không tự ý tăng liều.",
+      "content": "Thuốc không thay thế được chuồng tốt và chăm sóc hỗ trợ, nhưng là phần bắt buộc khi bệnh đã rõ. Cách dùng sai sẽ làm bệnh nặng thêm và tăng nguy cơ kháng thuốc.",
+      "bullets": [
+        "[Tham khảo mục bệnh và thuốc trong app] Dựa trên triệu chứng chính (ho, thở khó, tiêu chảy, sốt, liệt…), mở đúng loài và nhóm bệnh để đọc cho rõ nguyên nhân, diễn biến, hướng dùng thuốc.",
+        "[Chọn đúng nhóm thuốc] Kháng sinh, thuốc tiêu chảy, thuốc hạ sốt, thuốc hỗ trợ hô hấp… phải là thuốc dùng cho gia súc, gia cầm, có hướng dẫn rõ trên nhãn.",
+        "[Tuân thủ hướng dẫn trên nhãn] Không dùng ít hơn, cũng không tự ý tăng liều hoặc rút ngắn kéo dài thời gian sử dụng nếu không có chỉ định của thú y.",
+        "[Không trộn quá nhiều loại cùng lúc] Hạn chế trộn quá nhiều kháng sinh hoặc thuốc khác nhóm trong cùng một đợt điều trị nếu không có kế hoạch rõ ràng. Càng trộn liều \"tự chế\" càng khó kiểm soát tác dụng phụ.",
+        "[Theo dõi sau khi dùng thuốc] Sau khi dùng thuốc, theo dõi kỹ: heo có đỡ sốt, bớt ho, đỡ tiêu chảy, ăn uống khá hơn không. Nếu sau 1-2 ngày vẫn nặng lên, cần báo thú y hoặc kỹ thuật trại.",
+        "[Tôn trọng thời gian ngưng thuốc] Khi heo bệnh đã được điều trị bằng thuốc, cần chú ý thời gian ngưng thuốc theo nhãn nếu heo đó có thể xuất bán trong tương lai gần."
+      ]
+    },
+    {
+      "id": "monitoring_and_records",
+      "title": "Theo dõi và ghi chép trong giai đoạn heo bệnh",
+      "goal": "Biết heo tiến triển theo hướng tốt hay xấu và rút kinh nghiệm cho những lần sau.",
+      "content": "Không ghi chép thì rất khó biết đàn đã trải qua những gì, dùng thuốc gì, có hiệu quả hay không.",
+      "bullets": [
+        "[Ghi cơ bản] Ghi lại ngày phát hiện bệnh, ô chuồng, số lượng heo bệnh, triệu chứng chính.",
+        "[Ghi thuốc đã dùng] Ghi tên thuốc, dạng dùng, thời gian bắt đầu và thời gian dự kiến kết thúc theo nhãn hoặc theo thú y.",
+        "[Theo dõi từng ngày] Mỗi ngày ghi nhanh: heo ăn nhiều hơn hay ít hơn, ho nhiều hơn hay giảm, phân tốt lên hay xấu đi.",
+        "[Đánh dấu heo nặng] Con nào tiến triển xấu hơn (nằm nhiều, thở khó, bỏ uống…) phải khoanh rõ trong sổ để ưu tiên chăm và báo thú y.",
+        "[Rút kinh nghiệm] Sau mỗi đợt bệnh, xem lại: nguyên nhân từ chuồng, thức ăn, nước, thời tiết, lịch tiêm phòng, hay do ra - vào heo mới… để giảm nguy cơ lặp lại."
+      ]
+    },
+    {
+      "id": "when_to_call_vet",
+      "title": "Thời điểm cần gọi thú y hoặc kỹ thuật trại",
+      "goal": "Không cố tự xử khi đã vượt ngoài tầm an toàn.",
+      "content": "Một số tình trạng vượt quá việc chăm sóc cơ bản và cần người có chuyên môn xử lý trực tiếp.",
+      "bullets": [
+        "[Sốt cao kéo dài] Heo sốt cao nhiều ngày, thuốc hỗ trợ và chăm sóc cơ bản không làm giảm rõ.",
+        "[Thở khó] Heo thở rất gắng sức, thở bụng mạnh, há mõm, tím tai hoặc tím mõm.",
+        "[Tiêu chảy nặng] Tiêu chảy nước liên tục, nhiều con trong đàn cùng bị, heo nhanh sụt cân, mắt trũng, da nhăn.",
+        "[Chết đột ngột hoặc nhiều con cùng bệnh] Trong thời gian ngắn có heo chết đột ngột, hoặc nhiều con cùng biểu hiện nặng một lúc.",
+        "[Dịch bất thường] Có dịch lạ ở miệng, mũi, hậu môn, âm hộ (đặc, đục, mùi hôi mạnh) mà không rõ nguyên nhân.",
+        "[Bệnh tái đi tái lại] Heo ho mãn, tiêu chảy tái lại sau mỗi đợt điều trị, hoặc từng ô chuồng luôn có bệnh lặp lại."
+      ]
+    }
+  ],
+  "notes": [
+    "Khi heo bệnh, việc đầu tiên là tách chuồng và giữ nước sạch, nền khô, gió hợp lý; thuốc chỉ hiệu quả khi những điều này tương đối ổn.",
+    "Không đổi hãng cám hoặc thêm phụ phẩm lạ đúng lúc đàn đang bệnh hoặc vừa mới ổn lên một chút.",
+    "Mọi dùng thuốc đều nên dựa trên hướng dẫn trên nhãn và tư vấn của thú y hoặc kỹ thuật trại."
+  ],
+  "warning": "Thông tin trong mục Heo bệnh chỉ mang tính tham khảo, không thay thế cho chẩn đoán và điều trị trực tiếp của bác sĩ thú y. Khi heo sốt cao kéo dài, thở khó, tiêu chảy nặng, chết đột ngột hoặc nhiều con cùng bệnh, cần liên hệ thú y hoặc kỹ thuật trại để kiểm tra tại chỗ."
+}

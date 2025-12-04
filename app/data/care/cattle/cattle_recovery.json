@@ -1,0 +1,97 @@
+{
+  "id": "cattle_recovery",
+  "name": "Bò sau bệnh",
+  "species": "cattle",
+  "group": "recovery",
+  "overview": "Cẩm nang phục hồi thể trạng cho bò sau khi bệnh đã qua giai đoạn cấp tính và có dấu hiệu ổn định. Mục tiêu: bò ăn lại khỏe, phân cải thiện, hô hấp êm, chân vững, lông mượt dần, tăng cân trở lại mà không sốc tiêu hóa hoặc tái phát bệnh nền.",
+  "sections": [
+    {
+      "id": "immediate_3_7_days",
+      "title": "3-7 ngày ngay sau khi bò đỡ bệnh",
+      "goal": "Bù nước - chống mất sức, giữ ấm nhẹ ban đêm, giúp tiêu hóa không xấu thêm.",
+      "content": "Đây là giai đoạn vừa thoát hiểm. Không ép tăng cân. Không tăng tinh. Chỉ hỗ trợ để hệ tiêu hoá và hô hấp đi vào trạng thái ổn.",
+      "bullets": [
+        "[Nước sạch + điện giải] Ưu tiên nước sạch, mát vào buổi sáng và chiều. Điện giải - vitamin tổng hợp dùng đúng hướng dẫn nhãn để giảm mất cân bằng nội môi (độ muối, năng lượng, nước trong cơ thể).",
+        "[Giữ ấm 1 phía] Ban đêm và rạng sáng chắn gió 1 phía, tránh nằm trực tiếp nền ẩm - lạnh.",
+        "[Thức ăn thô êm dịu] Cỏ tươi sạch, rơm khô sạch, lá xanh mềm. Tránh cỏ ướt sũng nước mưa, tránh phụ phẩm chua mạnh trong 5 ngày đầu.",
+        "[Men vi sinh và hỗ trợ dạ cỏ] Có thể dùng men vi sinh hỗ trợ tiêu hóa khi bò xì hơi nhiều hoặc phân bắt đầu nhão nhẹ, theo đúng nhãn.",
+        "[Chưa làm] Không tẩy giun, không tiêm phòng mũi mới, không chuyển lô nhập đàn, không phối nhiều thuốc cùng lúc."
+      ]
+    },
+    {
+      "id": "digestion_reset_7_14_days",
+      "title": "7-14 ngày “reset” tiêu hóa",
+      "goal": "Phân khuôn dần, không ợ chua, không đầy hơi, bò nhai lại tốt hơn.",
+      "content": "Giữ môi trường đều nhịp. Dạ cỏ khỏe lại rồi mới cho ăn tinh từng bước. Chưa thêm phụ phẩm mới. Chưa tấn thuốc nền mới.",
+      "bullets": [
+        "[Giờ cho ăn cố định] 6:00-7:00 sáng và 16:00-17:00 chiều là khung giờ ổn để đổ máng thô - tinh rất ít nếu phân cải thiện.",
+        "[Giữ tỷ lệ xơ cao] Xơ thô vẫn là chủ lực, luôn chiếm phần lớn.",
+        "[Lượng tinh thả từng nhịp] Nếu phân 2-3 ngày liền ổn hơn, thêm tinh 1 bước nhỏ, giữ 3-4 ngày rồi mới tính tăng tiếp.",
+        "[Kiểm tra phản xạ ăn] Bò tìm đến máng, ăn dứt khoát, không ngửi rồi bỏ là tín hiệu tốt."
+      ]
+    },
+    {
+      "id": "immune_rebuild_2_4_weeks",
+      "title": "2-4 tuần tái xây đề kháng",
+      "goal": "Bò khỏe toàn phần, lông mượt, mắt sáng, phản xạ nhanh, chân không đau kéo dài.",
+      "content": "Duy trì khẩu phần đã chọn. Tránh OTA khẩu phần trong 1 tuần đầu. Khu liếm khoáng luôn sẵn sàng. Theo dõi hô hấp, khớp, dịch mũi và phân theo checklist.",
+      "bullets": [
+        "[Checklist buổi sáng] Nhịp thở êm, mắt không đỏ dử, mũi không dịch đục kéo dài, phân không nhão, chân không đứng co rút bất thường.",
+        "[Vitamin - khoáng nền] Premix vitamin, vi khoáng hoặc bolus (viên khoáng uống) cho bò hậu bị/sau bệnh dùng theo nhãn.",
+        "[Cắt móng nếu cần] Làm trong tuần thứ 3 trở đi nếu móng dài gây trượt nền, không cắt sát lứa xuất bán.",
+        "[Tiêm phòng nền quay vòng] Chỉ lên lịch lại sau tuần thứ 3 khi bò đã hoàn toàn ổn định."
+      ]
+    },
+    {
+      "id": "light_injury_muscle_joint",
+      "title": "Phục hồi đau khớp - cơ do nằm lâu hoặc trượt nhẹ",
+      "goal": "Giảm đau, bò chịu đứng - đi lại dần trên sân khô.",
+      "content": "Dùng thuốc kháng viêm/giảm đau hoặc hỗ trợ xương khớp theo đúng hướng dẫn nhãn. Ưu tiên 1 hoạt chất, không phối 3-4 hoạt chất trong 1 mũi nếu không có chỉ định.",
+      "bullets": [
+        "[Nền không trượt] Luôn cho bò đứng và tập đi trên sân đất khô, nền nhám. Ẩm nền là kẻ thù của chân bê phục hồi.",
+        "[Giảm vận động gắt] Tránh leo dốc, nhảy sàn cao trong 5-7 ngày đầu khi còn đau nhẹ.",
+        "[Vật lý trị liệu nông trại] Xoa bóp nhẹ vùng khớp, hông, vai giúp tuần hoàn tốt hơn. Không bẻ chân thô bạo."
+      ]
+    },
+    {
+      "id": "season_resilience",
+      "title": "Giữ tăng trưởng khi chuyển mùa (mưa - nóng - lạnh)",
+      "goal": "Không sốc nhiệt, không tái phát bệnh hô hấp, không giảm ăn tinh.",
+      "content": "Chuyển mùa cần kỷ luật khẩu phần và môi trường như deploy app lên kệ: có testing, quan sát log hành vi đàn trước khi tăng tiếp.",
+      "bullets": [
+        "[Mưa kéo dài] Giữ xơ khô sạch, rải vôi nền theo nhãn hướng dẫn để giảm ẩm nếu sân bê nằm ẩm lâu.",
+        "[Nắng nóng] Trại cần bóng, gió lưu thông, nước sạch, điện giải - vitamin theo nhãn.",
+        "[Lạnh đột ngột] Chắn 1 phía gió, không che kín 4 phía chuồng, tăng xơ khô, giảm phụ phẩm ẩm."
+      ]
+    },
+    {
+      "id": "weight_rebuild",
+      "title": "Tái xây tăng trọng khi tiêu hóa và hô hấp ổn",
+      "goal": "Tăng cân trở lại, lên khung thịt đẹp, không phì mỡ.",
+      "content": "Vỗ lại tinh từ tốn. Ổn định rồi mới tăng thêm. Đây là nghệ thuật “progressive overload” (tăng tải từ từ) trong chăn nuôi.",
+      "bullets": [
+        "[Khẩu phần tăng trọng] Tăng nhẹ tinh mỗi 5-7 ngày khi bò không còn ợ chua, phân không nhão, thở êm.",
+        "[Giám sát phân và bụng] Sau khi tăng tinh, theo dõi 2-3 ngày rồi mới tính bước kế.",
+        "[Giữ xơ nhai lại] Cỏ khô/rơm luôn có - không thay bằng chỉ toàn tinh.",
+        "[Đến đỉnh khẩu phần] Khi bò tăng cân êm và body săn đẹp → giữ mãi spot, không tăng thêm."
+      ]
+    },
+    {
+      "id": "anti_crash_drug_policy",
+      "title": "Quản lý thuốc nền phục hồi an toàn pháp lý tại trại",
+      "goal": "Thuốc giúp hồi phục nhưng không hiển thị hay tự ý tăng liều định lượng.",
+      "content": "Thuốc đều là gợi ý nhóm hoạt chất hỗ trợ thuộc mục Thuốc trong app, dùng theo nhãn hoặc chỉ định thú y vùng, không hiển thị ml/kg hay số ngày trên UI app.",
+      "bullets": [
+        "[Ưu tiên 1 hoạt chất] Nếu phải dùng kháng sinh, kháng viêm hỗ trợ: ưu tiên 1 hoạt chất đúng nhãn trong 1 mũi/ngày.",
+        "[Thuốc ký sinh máu] Khi có nghi ngờ, mời thú y, ưu tiên hoạt chất nằm trong module thuốc app như lựa chọn switching require file trong registry trại."
+      ]
+    }
+  ],
+  "notes": [
+    "Giữ khẩu phần cũ tối thiểu 7 ngày sau khi bò đỡ bệnh, không đổi ồ ạt.",
+    "Tinh tăng lại từng spot 5-7 ngày/lần kèm theo theo dõi phân.",
+    "Mùa mưa ưu tiên xơ khô, sân bê nằm rải vôi theo nhãn tránh ẩm.",
+    "Không kết hợp tẩy giun và tiêm phòng với con đang đau khớp - tiêu chảy - khó thở kéo dài."
+  ],
+  "warning": "Thông tin chỉ tham khảo định tính, không thay thế thú y. Bò khó thở rõ, sốt cao kéo dài, liệt, hoặc viêm vú nặng, gọi thú y vùng tại :contentReference[oaicite:0]{index=0} để can thiệp trực tiếp."
+}

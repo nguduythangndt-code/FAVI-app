@@ -1,0 +1,150 @@
+{
+  "id": "cattle_calf",
+  "name": "Bê con",
+  "species": "cattle",
+  "group": "calf",
+  "overview": "Cẩm nang chăm bê con từ lúc vừa lọt lòng đến sau cai sữa. Mục tiêu: bê thở đều, bú tốt, bụng không chướng, phân không nhão kéo dài, chân đứng vững, tăng cân đều theo giai đoạn. Tập trung vào 4 trụ cột: sữa đầu đủ và sớm, giữ ấm - khô - sạch, tập ăn sớm nhưng từ từ, phát hiện nhanh tiêu chảy và viêm phổi.",
+  "sections": [
+    {
+      "id": "newborn_0_2_hours",
+      "title": "Giai đoạn sơ sinh: 0-2 giờ đầu",
+      "goal": "Bê thở được, đứng dậy, bú được sữa đầu trong 2 giờ đầu sau sinh.",
+      "content": "0-2 giờ đầu là giai đoạn quyết định khả năng sống của bê. Mọi xử lý đều xoay quanh 3 việc: thở được, khô - ấm, và bú sữa đầu càng sớm càng tốt.",
+      "bullets": [
+        "[Kiểm tra hô hấp ngay khi bê ra] Quan sát ngực bê có phập phồng đều không, nghe tiếng thở, chú ý bê có thở khò khè hoặc không cử động không. Nếu bê nằm bất động, không thấy thở cần gọi thú y ngay.",
+        "[Lau sạch mũi và miệng] Dùng khăn sạch hoặc vải khô lau chất nhầy ở mũi và miệng, giúp đường thở thông thoáng. Tránh đổ nước vào miệng bê để \"kích thở\" vì dễ sặc.",
+        "[Lau khô toàn thân] Dùng khăn khô lau sạch dịch, đặc biệt ở bụng, ngực, chân. Nếu trời lạnh, lau kỹ đến khi lông bớt ướt, có thể cho bê nằm trên lớp rơm khô hoặc bao tải khô.",
+        "[Giữ ấm sơ bộ] Che gió quanh khu đẻ, không để bê nằm trên nền xi măng lạnh hoặc nền ướt. Nếu gió mạnh, có thể dùng bạt che bớt hướng gió thổi trực tiếp vào bê.",
+        "[Để bò mẹ liếm bê] Cho bò mẹ liếm sạch cơ thể bê vừa giúp khô lông, vừa kích thích tuần hoàn và hô hấp. Không nên tách bê ra quá xa mẹ trong lúc này nếu không có lý do bắt buộc.",
+        "[Hỗ trợ bê đứng dậy] Sau khi bê đã thở đều hơn, có thể dùng tay đỡ hông và ngực để bê tập đứng. Bê khỏe thường có phản xạ tự cố đứng trong vài chục phút đầu.",
+        "[Chuẩn bị cho bú sữa đầu] Kiểm tra sơ bầu vú bò mẹ: có quá bẩn, có nhiều phân bết hay không. Nếu bẩn, lau sơ bằng khăn ẩm sạch ở núm vú rồi lau khô trước khi cho bê bú."
+      ]
+    },
+    {
+      "id": "colostrum_2_24_hours",
+      "title": "Sữa đầu trong 24 giờ đầu",
+      "goal": "Bê được bú đủ sữa đầu trong 24 giờ đầu, ưu tiên bú sớm trong 2-3 giờ đầu sau sinh.",
+      "content": "Sữa đầu chứa kháng thể giúp bê chống bệnh trong những tuần đầu. Uống càng sớm, hấp thu càng tốt. Bỏ lỡ sữa đầu là thiệt hại không thể bù lại.",
+      "bullets": [
+        "[Cho bú càng sớm càng tốt] Sau khi bê ổn định hô hấp và đã đứng được, hướng cho bê tìm đến vú mẹ. Thông thường nên cố gắng cho bê bú trong 2-3 giờ đầu sau sinh.",
+        "[Hỗ trợ bê tìm núm vú] Nếu bê loay hoay không tìm được vú, dùng tay nắm nhẹ gáy hoặc cổ bê hướng miệng đến đúng núm vú, có thể bóp nhẹ cho vài giọt sữa ra để bê ngửi thấy mùi.",
+        "[Không để bê quá lạnh trước khi bú] Nếu bê run, đứng không vững do quá lạnh, phải ưu tiên giữ ấm thêm (lau khô kỹ hơn, cho nằm rơm khô, che gió) rồi mới ép bú, tránh bê kiệt sức.",
+        "[Theo dõi phản xạ bú] Bê khỏe sẽ mút vú đều, nuốt tốt. Nếu bê chỉ ngậm mà không mút, hay thường xuyên tuột vú, cần để ý vì có thể bê yếu, lạnh hoặc có vấn đề sức khỏe.",
+        "[Ghi nhận thời điểm bú sữa đầu] Nếu trại có ghi chép, nên ghi lại giờ bê bắt đầu bú lần đầu, để sau này biết bê có được bú sớm hay không khi đánh giá sức đề kháng.",
+        "[Không vắt hết sữa đầu cho bò mẹ] Hạn chế vắt hết sữa đầu đem dùng việc khác trong 1-2 ngày đầu. Ưu tiên cho bê bú, phần dư mới tính tiếp.",
+        "[Quan sát phân trong 1-2 ngày đầu] Phân sẫm màu, hơi dính là bình thường trong giai đoạn thải phân su. Nếu phân lỏng như nước, mùi rất chua hoặc có máu cần theo dõi sát và nghĩ đến tiêu chảy sớm."
+      ]
+    },
+    {
+      "id": "navel_care_0_3_days",
+      "title": "Chăm rốn và giữ ấm 0-3 ngày",
+      "goal": "Rốn khô dần, không sưng, không mùi hôi, bê không bị lạnh run hay viêm phổi sớm.",
+      "content": "Rốn là cửa ngõ dễ nhiễm trùng trong những ngày đầu. Song song với đó là việc giữ nền chuồng khô ấm, tránh bê hít phải khí lạnh ẩm.",
+      "bullets": [
+        "[Giữ rốn sạch và khô] Không để rốn luôn ướt hoặc dính phân bẩn. Nếu rốn bị dính phân, phải lau nhẹ nhàng bằng khăn sạch rồi để khô tự nhiên.",
+        "[Không tự ý cắt rốn quá sát] Nếu dây rốn còn dài, để khô tự rụng dần, không dùng dao, kéo không đảm bảo vệ sinh để cắt sát gốc.",
+        "[Quan sát rốn mỗi ngày] Kiểm tra xem rốn có sưng to, nóng, chảy dịch hay không. Nếu rốn sưng đau, bê sốt hoặc lười bú là dấu hiệu cần mời thú y kiểm tra.",
+        "[Giữ nền khô] Lót rơm khô hoặc vật liệu khô cho bê nằm. Không để bê nằm trực tiếp trên nền ướt, bùn hoặc nền xi măng lạnh.",
+        "[Che gió trong ngày lạnh] Dùng bạt, tấm che chắn bớt hướng gió lùa trực tiếp vào khu bê con, nhất là ban đêm và rạng sáng.",
+        "[Không tắm bê bằng nước lạnh] Trong vài ngày đầu không tắm bê bằng nước hoặc dội nước để \"rửa sạch\", chỉ lau khô bằng khăn. Tắm nước lạnh dễ làm bê viêm phổi và tiêu chảy.",
+        "[Theo dõi nhịp thở và tiếng thở] Bê thở đều, không có tiếng rít, không thở bụng mạnh, không chảy nước mũi đục. Nếu xuất hiện ho, chảy mũi nhiều, thở gấp cần nghĩ đến bệnh đường hô hấp."
+      ]
+    },
+    {
+      "id": "milk_phase_3_30_days",
+      "title": "Giai đoạn bú sữa hoàn toàn (3-30 ngày tuổi)",
+      "goal": "Bê bú tốt, tăng cân đều, không tiêu chảy kéo dài, không chướng bụng.",
+      "content": "Giai đoạn này dinh dưỡng chính vẫn là sữa mẹ hoặc sữa thay thế nếu có dùng. Mọi thứ khác chỉ ở mức tập cho quen mùi, quen thao tác, không bắt bê ăn nhiều sớm.",
+      "bullets": [
+        "[Duy trì nhịp bú đều] Giữ lịch bú tương đối cố định theo hướng dẫn sữa hoặc theo tập tính của bò mẹ. Không để bê đói quá lâu rồi mới cho bú thật nhiều một lần.",
+        "[Quan sát bụng sau bú] Bụng bê sau bú nên tròn vừa phải, không căng cứng, không chướng bất thường. Nếu bụng trướng lớn, bê thở khó hoặc nằm vặn vẹo, cần theo dõi sát.",
+        "[Theo dõi phân hằng ngày] Phân bê dạng sệt, vàng hoặc hơi sẫm là bình thường. Nếu phân lỏng như nước, mùi rất chua, có bọt hoặc lẫn máu, phải nghĩ ngay đến tiêu chảy.",
+        "[Không đổi nguồn sữa đột ngột] Nếu đang bú sữa mẹ, hạn chế đổi ngay sang sữa khác trong 1 ngày. Nếu bắt buộc đổi, phải chuyển từ từ, trộn lẫn và theo dõi phản ứng.",
+        "[Giữ bầu vú bò mẹ sạch] Trước khi cho bê bú, kiểm tra xem núm vú có dính phân, bùn hay chất bẩn không. Nếu có, lau sơ bằng khăn ẩm sạch rồi lau khô lại.",
+        "[Hạn chế cho nhiều người can thiệp] Một, hai người chăm bê là đủ. Quá nhiều người bế, ôm, đùa giỡn làm bê dễ stress, mệt, giảm bú.",
+        "[Theo dõi dấu hiệu mất nước] Quan sát da, mắt và thái độ. Bê tiêu chảy kéo dài thường mắt trũng, da mất đàn hồi, lông xù, đứng rũ. Đây là dấu hiệu cần mời thú y và xem xét dùng dung dịch bù theo hướng dẫn chuyên môn."
+      ]
+    },
+    {
+      "id": "creep_feed_early_fiber",
+      "title": "Tập ăn sớm: cỏ mềm và thức ăn tập ăn",
+      "goal": "Bê bắt đầu làm quen với cỏ và thức ăn tập ăn mà không bỏ bú và không rối loạn tiêu hoá.",
+      "content": "Tập ăn sớm giúp dạ cỏ phát triển nhưng phải đi song song với sữa, không dùng thức ăn tập ăn để thay sữa quá sớm.",
+      "bullets": [
+        "[Thời điểm bắt đầu tập ăn] Thường từ khoảng vài tuần tuổi có thể cho bê làm quen với chút cỏ mềm hoặc thức ăn tập ăn, nhưng vẫn giữ sữa là chính.",
+        "[Loại cỏ phù hợp] Chọn lá non, mềm, sạch, không ướt sũng nước mưa, không dính phân. Đặt trong máng riêng ở chỗ bê dễ thấy nhưng không ép ăn.",
+        "[Thức ăn tập ăn] Nếu có sử dụng cám tập ăn cho bê, chọn loại dành riêng cho bê, xem kỹ hướng dẫn trên nhãn về cách cho ăn, không tự ý vượt quá khuyến cáo.",
+        "[Cho lượng rất nhỏ ban đầu] Trong giai đoạn đầu, mục tiêu là cho bê làm quen mùi, vị và cách ăn, không nhắm đến việc bê ăn nhiều để thay sữa.",
+        "[Quan sát phân khi tăng thức ăn tập ăn] Mỗi lần tăng lượng cỏ hoặc cám tập ăn lên, nên theo dõi phân 1-2 ngày. Nếu phân bắt đầu nhão, có mùi chua hoặc bê xì hơi nhiều, giảm lại lượng bổ sung.",
+        "[Giữ máng ăn sạch và khô] Thức ăn thừa ướt, bám lâu trong máng dễ mốc, nên đổ bỏ và rửa lại máng định kỳ. Không gom thức ăn thừa đã mốc cho ăn lại.",
+        "[Không ép bê đói để nó chịu ăn cỏ/cám] Vẫn ưu tiên cho bê bú đầy đủ. Tập ăn chỉ là hỗ trợ, không dùng cách để bê quá đói rồi cắt sữa nhằm \"bắt\" nó ăn thêm."
+      ]
+    },
+    {
+      "id": "weaning_transition",
+      "title": "Giai đoạn chuyển sang cai sữa",
+      "goal": "Giảm sữa từ từ, tăng cỏ và thức ăn tinh phù hợp, không để bê sụt cân hoặc tiêu chảy trong giai đoạn chuyển.",
+      "content": "Cai sữa không phải là một ngày cắt sữa, mà là quá trình giảm dần lượng sữa và tăng dần lượng cỏ, thức ăn tinh. Làm quá nhanh sẽ khiến bê bị stress, dễ bệnh.",
+      "bullets": [
+        "[Lên kế hoạch cai sữa] Xác định sẵn mốc tuổi hoặc thời điểm dự kiến cai sữa, từ đó bắt đầu giảm sữa từ từ trước đó một thời gian.",
+        "[Giảm dần số lần bú] Nếu trước đó bê bú nhiều lần mỗi ngày, có thể giảm từ từ số cữ bú hoặc giảm lượng sữa mỗi cữ theo hướng dẫn trên nhãn hoặc theo khuyến nghị thú y.",
+        "[Tăng dần cỏ và thức ăn tinh] Trong lúc giảm sữa, tăng từ từ lượng cỏ, rơm mềm hoặc thức ăn tập ăn. Mục tiêu là bê chuyển dần sang sử dụng dạ cỏ mà không bị rối loạn tiêu hoá.",
+        "[Theo dõi thái độ ăn uống] Bê khỏe sẽ tích cực tìm cỏ, thức ăn trong máng, ít kêu gọi mẹ. Nếu bê bỏ ăn, gầy đi rõ rệt, kêu nhiều, phải xem lại tốc độ giảm sữa có quá nhanh không.",
+        "[Quan sát phân trong suốt quá trình] Nếu phân ổn định, không lỏng kéo dài, bê vẫn hoạt bát thì có thể tiếp tục tiến trình cai sữa. Nếu phân lỏng, bê xệ bụng hoặc chướng hơi, nên chậm lại nhịp cai.",
+        "[Giữ môi trường ổn định] Không nên kết hợp cai sữa với các thay đổi lớn khác như chuyển chuồng đột ngột, nhập đàn với bê lạ, hoặc thay đổi hoàn toàn loại cỏ, loại cám trong cùng thời điểm.",
+        "[Ghi chép ngày bắt đầu và ngày hoàn tất cai sữa] Nếu có điều kiện, nên ghi lại ngày bắt đầu giảm sữa và ngày ngưng hoàn toàn. Điều này giúp đánh giá sau này bê đó phản ứng cai sữa nhanh hay chậm."
+      ]
+    },
+    {
+      "id": "post_weaning_1_3_months",
+      "title": "Bê sau cai sữa: 1-3 tháng đầu",
+      "goal": "Bê sau cai sữa ăn tốt, tăng cân đều, không còi cọc, không lông xù kéo dài.",
+      "content": "Sau khi cai sữa xong, mọi dinh dưỡng đến từ cỏ, thức ăn tinh và khoáng. Đây là lúc phải giữ khẩu phần ổn định và chú ý đến tiêu hoá của bê.",
+      "bullets": [
+        "[Giữ khẩu phần ổn định ít nhất vài tuần sau cai] Không đổi đột ngột loại cỏ hoặc loại thức ăn tinh ngay sau khi vừa ngừng sữa.",
+        "[Đảm bảo đủ xơ] Cho cỏ, rơm mềm sạch hàng ngày, không để bê thiếu xơ rồi chỉ ăn toàn tinh.",
+        "[Tinh cho bê] Nếu sử dụng tinh, ưu tiên loại có hướng dẫn cho bê hoặc bò tơ, đọc kỹ nhãn để biết cách cho ăn định tính và không cố tăng nguồn tinh quá nhanh.",
+        "[Khoáng và vitamin] Cung cấp liếm khoáng hoặc khoáng trộn thức ăn theo hướng dẫn trên nhãn để hỗ trợ phát triển xương và miễn dịch.",
+        "[Theo dõi dáng đi và chân] Bê khoẻ sẽ đi đứng vững, ít trượt ngã. Nếu thấy bê đi tập tễnh, đứng nhiều, ít di chuyển, cần kiểm tra nền chuồng, móng chân và gọi thú y khi nghi ngờ vấn đề xương khớp.",
+        "[Quan sát lông và thân hình] Bê tăng trưởng tốt lông sẽ bóng, thân đầy, không gầy sọp. Nếu lông xù, bụng to rỗng, xương sườn lộ, có thể đang thiếu dinh dưỡng, ký sinh trùng hoặc tiêu hoá kém.",
+        "[Hạn chế dồn đàn quá chật] Bê sau cai sữa cần không gian di chuyển vừa phải. Nếu mật độ quá chật sẽ dễ tranh ăn, đạp giẫm nhau và tăng stress."
+      ]
+    },
+    {
+      "id": "disease_watch_calf",
+      "title": "Theo dõi bệnh thường gặp ở bê",
+      "goal": "Phát hiện sớm tiêu chảy và viêm phổi - hai nhóm bệnh thường gặp nhất ở bê con.",
+      "content": "Tiêu chảy và viêm phổi là hai lý do phổ biến khiến bê chết hoặc chậm lớn. Quan sát hằng ngày giúp can thiệp sớm và giảm tổn thất.",
+      "bullets": [
+        "[Theo dõi phân mỗi ngày] Bê tiêu chảy sẽ đi phân lỏng như nước, có thể màu vàng nhạt, xám, xanh, mùi chua gắt hoặc hôi bất thường. Nếu tiêu chảy nhẹ, bê vẫn bú tốt, có thể theo dõi và hỗ trợ theo hướng dẫn của thú y.",
+        "[Quan sát thái độ] Bê khoẻ sẽ chạy nhảy, tò mò, bú khỏe. Khi bê đứng riêng một góc, lười bú, mắt trũng, tai cụp là tín hiệu không ổn.",
+        "[Kiểm tra hô hấp] Nghe tiếng thở, quan sát ngực. Nếu bê thở nhanh hơn hẳn bình thường, ho khan hoặc ho có đàm, chảy mũi đục, cần nghĩ đến viêm phổi.",
+        "[Đối chiếu mục bệnh trong app] Khi nhận thấy các dấu hiệu bất thường, nên mở phần Danh mục bệnh của loài bò, tìm nhóm bệnh tiêu hoá/hô hấp để đọc kỹ nguyên nhân, triệu chứng và cách xử lý tham khảo.",
+        "[Không tự ý pha trộn nhiều loại thuốc] Nếu phải dùng thuốc, nên dựa trên hoạt chất có trong mục Thuốc của app và dùng theo liều trên nhãn hoặc tư vấn của bác sĩ thú y. Hạn chế tự động kết hợp nhiều thuốc khác nhau mà không có chỉ định.",
+        "[Gọi thú y khi triệu chứng nặng] Bê tiêu chảy liên tục, không chịu bú, mắt trũng, nằm nhiều, hoặc bê khó thở, tím tái, đứng thở bụng… là tình huống phải gọi thú y trực tiếp, không trì hoãn."
+      ]
+    },
+    {
+      "id": "housing_and_hygiene_calf",
+      "title": "Chuồng trại và vệ sinh cho bê con",
+      "goal": "Chuồng bê luôn khô, sạch, ít gió lùa trực tiếp, giảm tối đa mầm bệnh từ nền chuồng và phân.",
+      "content": "Chuồng bé không sạch thì mọi cố gắng về sữa, thuốc và dinh dưỡng đều giảm hiệu quả. Bê rất nhạy với lạnh, ẩm và khí độc từ phân - nước tiểu.",
+      "bullets": [
+        "[Nền khô và ấm] Sử dụng lớp lót rơm khô hoặc vật liệu độn khô trên nền. Thường xuyên thay chỗ lót ướt hoặc dơ để tránh hôi và ẩm.",
+        "[Giảm gió lùa trực tiếp] Bê con chịu gió lạnh kém. Cần che chắn bớt hướng gió thổi trực diện nhưng vẫn giữ được thông thoáng tổng thể của chuồng.",
+        "[Thoát nước tốt] Không để nước mưa hoặc nước rửa chuồng đọng ngay khu bê nằm. Nền nên cao hơn khu xung quanh để dễ thoát nước.",
+        "[Dọn phân hằng ngày] Dọn phân bê ít nhất 1 lần mỗi ngày, tốt hơn là 2 lần sáng - chiều. Phân để lâu làm tăng ẩm, tăng mùi và mầm bệnh.",
+        "[Không nhốt bê quá đông] Nếu nhốt nhiều bê trong một ô, phải đảm bảo đủ diện tích để bê nằm mà không đè lên nhau, có chỗ đi lại đơn giản.",
+        "[Khu bê tách tương đối với bò lớn] Hạn chế cho bò lớn đi lại, giẫm đạp trong khu bê vì dễ gây chấn thương và mang nhiều mầm bệnh.",
+        "[Giữ máng ăn, máng nước sạch] Rửa máng nước và máng thức ăn định kỳ. Không để rêu, cặn bẩn bám lâu ngày vì là nơi vi khuẩn phát triển."
+      ]
+    }
+  ],
+  "notes": [
+    "Sữa đầu trong 24 giờ đầu là nền miễn dịch quan trọng nhất cho bê.",
+    "Cai sữa phải làm từ từ, tránh cắt sữa đột ngột trong 1 ngày.",
+    "Giữ chuồng khô, ấm và sạch giúp giảm rất nhiều ca tiêu chảy và viêm phổi ở bê.",
+    "Khi bê có dấu hiệu bệnh nặng, ưu tiên gọi thú y thay vì tự ý tăng hoặc phối nhiều loại thuốc."
+  ],
+  "warning": "Thông tin trong mục chăm sóc bê con chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi bê tiêu chảy nặng, sốt cao, khó thở, bỏ bú hoặc nằm nhiều, cần liên hệ thú y để được kiểm tra trực tiếp."
+}

@@ -1,0 +1,154 @@
+{
+  "id": "goat_doe",
+  "name": "Dê mẹ sinh sản",
+  "species": "goat",
+  "group": "doe",
+  "overview": "Cẩm nang chăm sóc dê cái sinh sản từ trước phối giống, trong thời kỳ mang thai cho đến sau sinh và nuôi con. Mục tiêu: phối đậu cao, thai phát triển tốt, đẻ thuận, ít biến chứng, sữa đủ và chất, dê mẹ không suy kiệt, không viêm vú, không bại chân do thiếu khoáng cuối thai kỳ.",
+  "sections": [
+    {
+      "id": "pre_breeding_conditioning",
+      "title": "Chuẩn bị dê mẹ trước phối giống",
+      "goal": "Dê mẹ khỏe, thể trạng vừa phải, chân móng tốt, không bệnh nền nặng trước khi cho phối.",
+      "content": "Giai đoạn này quyết định khả năng phối đậu và sức bền của dê mẹ trong cả thai kỳ. Dê quá gầy hoặc quá béo đều làm giảm tỷ lệ đậu thai và dễ gặp biến chứng sau này.",
+      "bullets": [
+        "[Đánh giá thể trạng] Quan sát lưng, sườn, gốc đuôi: dê quá gầy xương nổi rõ, hõm hông sâu; dê quá béo mỡ dày, khó sờ thấy xương. Mục tiêu là thân vừa phải, tròn nhưng không phì mỡ.",
+        "[Kiểm tra chân móng] Cắt móng quá dài, vệ sinh kẽ chân, phát hiện sớm viêm kẽ, nứt gót. Dê mẹ đau chân sẽ giảm ăn, ngại đứng lâu để phối và nuôi con.",
+        "[Sàng lọc bệnh nền] Loại/hoãn phối các con có tiền sử ho mạn, khó thở, tiêu chảy kéo dài, viêm vú tái phát, dị dạng vú - núm vú.",
+        "[Ổn định khẩu phần] Giữ khẩu phần đều, đủ cỏ xanh/cỏ khô + tinh mức vừa, không để dê lên - xuống cân quá nhanh trong 2-3 tuần trước phối.",
+        "[Khoáng và vitamin] Bổ sung khoáng - vitamin tổng hợp cho dê theo đúng hướng dẫn trên nhãn để hỗ trợ phát triển hệ sinh dục và chất lượng trứng.",
+        "[Vệ sinh chuồng] Chuồng sạch, khô, không gió lùa trực tiếp, mật độ không quá dày. Môi trường xấu làm giảm miễn dịch, dê dễ bệnh đúng lúc cần phối.",
+        "[Kiểm tra vú] Quan sát vú, núm vú: có cục, chai, sẹo lớn, núm vú dị dạng nên ghi chú lại vì dễ ảnh hưởng cho con bú sau này."
+      ]
+    },
+    {
+      "id": "flushing_before_breeding",
+      "title": "Tăng khẩu phần (flushing) trước phối giống",
+      "goal": "Kích thích động dục rõ và tăng khả năng rụng trứng, nâng tỷ lệ đậu thai.",
+      "content": "Flushing là giai đoạn tăng nhẹ năng lượng khẩu phần trong thời gian ngắn trước phối giống cho dê mẹ thể trạng trung bình - hơi gầy. Làm đúng giúp động dục rõ, phối dễ đậu; làm quá tay dễ gây béo mỡ, rối loạn chuyển hóa.",
+      "bullets": [
+        "[Chọn đối tượng flushing] Áp dụng cho dê mẹ đã hồi phục sau lứa trước, thể trạng trung bình - hơi gầy. Không áp dụng cho con đang quá béo hoặc đang bệnh.",
+        "[Tăng từ từ, không nhồi] Tăng tinh từng bước nhỏ trong 10-14 ngày trước dự kiến phối, luôn giữ đủ cỏ khô/cỏ xanh để nhai lại tốt.",
+        "[Ưu tiên tinh chất lượng] Dùng nguồn tinh/cám chất lượng, không mốc, không vón cục, không mùi khét. Lô nghi ngờ nên loại bỏ, không tiếc.",
+        "[Theo dõi phân và nhai lại] Sau mỗi lần tăng tinh, quan sát phân (khuôn, không quá nhão) và nhịp nhai lại. Nếu phân lỏng, ợ chua, chướng bụng → giảm lại mức tinh về mức trước đó.",
+        "[Không thay đổi ồ ạt loại thức ăn] Nếu muốn bổ sung phụ phẩm (bã đậu, bã bia…), trộn từ lượng nhỏ rồi tăng dần, tuyệt đối không thay cỏ/tinh bằng phụ phẩm một lần.",
+        "[Không flushing khi thời tiết cực đoan] Những ngày nắng nóng gắt hoặc rét đậm, ưu tiên ổn định sức khỏe, không tiếp tục tăng mạnh khẩu phần để tránh sốc chuyển hóa."
+      ]
+    },
+    {
+      "id": "breeding_management",
+      "title": "Quản lý phối giống và sau phối",
+      "goal": "Phối đúng thời điểm, giảm bỏ sót động dục, tăng tỷ lệ đậu thai và theo dõi tốt sau phối.",
+      "content": "Nhiều đàn thất bại do không nhận ra hoặc bỏ qua thời điểm động dục thích hợp. Quản lý tốt giai đoạn này giúp tránh mất cả chu kỳ, tiết kiệm thời gian và thức ăn.",
+      "bullets": [
+        "[Theo dõi động dục hằng ngày] Quan sát 2 khung giờ chính (sáng sớm và chiều mát): dê đi lại nhiều, kêu, đuôi ve mạnh, âm hộ sưng hồng, dịch nhầy trong.",
+        "[Lập khu phối giống riêng] Có ô phối sạch, nền không trơn, đủ rộng để dê đực dễ làm việc, không trượt chân hoặc va đập mạnh.",
+        "[Sử dụng dê đực giống khỏe] Dê đực giống phải thể trạng tốt, chân vững, không bệnh hô hấp nặng, không viêm bao quy đầu, di chuyển linh hoạt.",
+        "[Thời điểm phối] Với phối trực tiếp, thường cho nhập đôi khi dê có dấu hiệu động dục rõ rệt, để đực nhảy 1-2 lần, sau đó tách ra nghỉ. Có thể cho nhắc lại sau 8-12 giờ nếu cần.",
+        "[Không rượt đuổi quá mức] Hạn chế cảnh đuổi chạy vòng vòng giữa nhiều con; vừa stress, vừa tăng nguy cơ trượt ngã, chấn thương.",
+        "[Theo dõi 7-10 ngày sau phối] Giữ khẩu phần ổn, không tẩy giun, không đổi khẩu phần đột ngột, hạn chế chuyển chuồng xa. Nếu thấy dê lại có động dục sau 18-24 ngày → nghi không đậu thai, cần kiểm tra lại.",
+        "[Ghi chép phối] Ghi lại ngày phối, số tai dê mẹ, dê đực sử dụng, biểu hiện động dục và các ghi chú đặc biệt (phối khó, phối lặp nhiều lần...)."
+      ]
+    },
+    {
+      "id": "early_pregnancy",
+      "title": "1/3 đầu thai kỳ (khoảng 0-50 ngày chửa)",
+      "goal": "Giữ thai ổn định, hạn chế sảy thai sớm, không để dê mẹ suy hoặc bệnh nặng.",
+      "content": "Giai đoạn này phôi đang làm tổ. Stress mạnh, bệnh cấp hoặc thay đổi khẩu phần đột ngột đều có thể làm mất thai.",
+      "bullets": [
+        "[Giữ môi trường yên ổn] Không vận chuyển xa, không bắt - trói - lật dê mạnh nếu không thật cần thiết.",
+        "[Ổn định khẩu phần] Không tăng - giảm tinh đột ngột, không đổi hoàn toàn loại thức ăn trong vài ngày ngắn. Ưu tiên cỏ ổn định, tinh vừa phải.",
+        "[Hạn chế can thiệp mạnh] Chỉ tiêm phòng hoặc tẩy giun khi thật cần thiết và theo tư vấn thú y, lựa chọn loại vắc xin/thuốc phù hợp cho dê mang thai theo nhãn.",
+        "[Theo dõi dấu hiệu bất thường] Dịch âm hộ lẫn máu, bỏ ăn, sốt, đau bụng, nằm nhiều… có thể là dấu hiệu vấn đề thai. Cần đối chiếu với mục bệnh trong app và sớm liên hệ thú y.",
+        "[Giữ mật độ phù hợp] Đàn quá chật, tranh ăn, húc nhau nhiều làm tăng nguy cơ chấn thương vùng bụng và stress."
+      ]
+    },
+    {
+      "id": "mid_pregnancy",
+      "title": "1/3 giữa thai kỳ (khoảng 50-100 ngày chửa)",
+      "goal": "Dê mẹ duy trì thể trạng tốt, kiểm soát ký sinh trùng, chuẩn bị cho giai đoạn thai phát triển nhanh.",
+      "content": "Đây là giai đoạn tương đối ổn định, thích hợp để xử lý một số việc còn tồn đọng như ký sinh trùng, chỉnh khẩu phần từ từ… nhưng vẫn phải tránh làm quá nhiều việc trong cùng một lúc.",
+      "bullets": [
+        "[Đánh giá lại thể trạng] Nếu dê còn gầy → tăng từ từ năng lượng khẩu phần (tinh + cỏ tốt); nếu đã hơi béo → giữ mức, không tăng thêm tinh.",
+        "[Kiểm soát ký sinh trùng] Nếu chưa tẩy giun từ trước, có thể lên kế hoạch tẩy giun trong giai đoạn dê khỏe, thai đã bám chắc, dùng thuốc tẩy giun an toàn cho dê mang thai theo nhãn hoặc tư vấn thú y.",
+        "[Kiểm tra ve - rận - ghẻ] Ký sinh ngoài da làm dê ngứa, mất ngủ, giảm ăn, dễ suy. Có thể dùng thuốc xịt/tắm/nhỏ lưng chuyên gia súc theo hướng dẫn trên nhãn, tránh lạm dụng hoặc pha đậm đặc.",
+        "[Duy trì cỏ chất lượng tốt] Ưu tiên cỏ xanh, cỏ khô không nấm mốc. Không cho ăn ủ chua hỏng, có mùi mốc, nhớt hoặc nhiệt nội bộ cao.",
+        "[Theo dõi bước đi và kẽ chân] Thai lớn dần làm tăng áp lực lên chân móng; phát hiện sớm viêm kẽ, nứt gót, đau móng để xử lý trước khi đến giai đoạn cuối thai kỳ nặng hơn."
+      ]
+    },
+    {
+      "id": "late_pregnancy",
+      "title": "1/3 cuối thai kỳ (khoảng 100 ngày đến sinh)",
+      "goal": "Đảm bảo nhu cầu dinh dưỡng tăng, tránh toan dạ cỏ, tránh bại liệt do thiếu khoáng, chuẩn bị chuồng đẻ.",
+      "content": "Thai lớn nhanh làm nhu cầu năng lượng, đạm và khoáng tăng rõ, trong khi dung tích dạ dày bị giảm. Phải cân bằng giữa tăng năng lượng và đảm bảo đủ xơ để dạ cỏ vẫn hoạt động tốt.",
+      "bullets": [
+        "[Tăng tinh có kiểm soát] Tăng tinh từ từ để đáp ứng tăng nhu cầu nhưng luôn duy trì đủ cỏ khô/cỏ xanh. Khẩu phần toàn tinh rất dễ gây toan dạ cỏ, chướng hơi, nằm bẹp.",
+        "[Tập trung khoáng - vitamin] Chú ý các sản phẩm khoáng có canxi, phospho, vi lượng cho gia súc theo hướng dẫn trên nhãn, giúp hạn chế bại liệt trước và sau sinh.",
+        "[Quan sát dáng đi] Dê đi loạng choạng, run chân, lưng cong, đứng lâu khó… có thể là dấu hiệu thiếu khoáng hoặc đau móng - cần xử lý sớm.",
+        "[Chuẩn bị ô chuồng đẻ] Dọn sạch, thay chất độn khô, đảm bảo không gió lùa trực tiếp, có chỗ cho dê con trú ấm sau này.",
+        "[Không nhốt quá chật] Dê chửa sát ngày sinh nếu chen chúc dễ ngã, đè lên nhau, tăng nguy cơ chấn thương và sảy thai muộn.",
+        "[Theo dõi dấu hiệu sắp đẻ] Vú căng nhanh, dây chằng hông mềm, âm hộ sưng, có dịch nhầy trong, đi lại bồn chồn - đây là tín hiệu cần chuẩn bị nhiều hơn cho ca đẻ."
+      ]
+    },
+    {
+      "id": "kidding_management",
+      "title": "Quản lý khi dê sinh (khi đẻ)",
+      "goal": "Đẻ thuận, không can thiệp thô bạo, giảm tối đa nguy cơ sót nhau, sa tử cung, tổn thương đường sinh dục.",
+      "content": "Khi dê sinh, can thiệp sai cách còn nguy hiểm hơn là để tự đẻ. Chuẩn bị tốt và biết lúc nào cần dừng tay, lúc nào cần gọi thú y là mấu chốt.",
+      "bullets": [
+        "[Chuẩn bị dụng cụ] Khăn sạch, nước ấm, dung dịch sát khuẩn ngoài da, dây buộc sạch (nếu cần), đèn chiếu sáng ban đêm.",
+        "[Giữ môi trường yên tĩnh] Hạn chế người lạ đứng xem, không la hét, không cho chó chạy quanh chuồng làm dê hoảng.",
+        "[Theo dõi giai đoạn rặn] Giai đoạn rặn mạnh, bọng ối ra, nếu sau một thời gian hợp lý mà dê vẫn rặn mạnh nhưng không thấy tiến triển (không thấy chân/đầu dê con ra) → cần liên hệ thú y, không cố kéo mạnh.",
+        "[Không dùng lực kéo thô] Việc kéo thai không đúng kỹ thuật dễ làm rách âm đạo, vỡ tử cung, sa tử cung. Người chăn nuôi không được tự ý can thiệp sâu khi chưa có kinh nghiệm.",
+        "[Hỗ trợ sau khi đẻ xong] Lau sạch dịch quanh mũi, miệng dê con nếu cần, để dê mẹ liếm con, giúp kích hoạt tuần hoàn và thở; dọn bớt chất bẩn quanh chỗ đẻ.",
+        "[Quản lý nhau] Không giật kéo nhau thai. Nếu sau nhiều giờ dê vẫn chưa thải nhau, có mùi hôi, sốt, bỏ ăn… → cần thú y kiểm tra, không tự nhét thuốc vào âm hộ."
+      ]
+    },
+    {
+      "id": "colostrum_and_newborn",
+      "title": "Sữa đầu và chăm dê con 24-48 giờ đầu",
+      "goal": "Dê con nhận đủ sữa đầu, thân nhiệt ổn định, không suy hô hấp, dê mẹ gắn kết con tốt.",
+      "content": "Sữa đầu (colostrum) là nguồn kháng thể chính giúp dê con chống bệnh trong những tuần đầu. Bỏ mất khung thời gian vàng này thì sau đó rất khó bù.",
+      "bullets": [
+        "[Cho bú sớm] Cố gắng để dê con bú sữa đầu trong 30-120 phút đầu sau sinh. Dê con bú muộn, lạnh lâu dễ viêm phổi, tiêu chảy sớm.",
+        "[Hỗ trợ con yếu] Con nào yếu, khó đứng, phản xạ bú kém nên được hỗ trợ giữ đứng, dắt đến núm vú, giữ đầu cho bú; nếu vẫn không ổn → cần nhờ thú y tư vấn cách hỗ trợ thêm.",
+        "[Kiểm tra vú và tia sữa] Trước khi cho con bú, có thể vắt bỏ vài tia sữa đầu có lẫn bụi bẩn ngoài đầu vú, đồng thời kiểm tra tia sữa có ra đều không.",
+        "[Giữ ấm cho cả mẹ và con] Ban đêm cần tránh gió lùa, có thể che bạt, dùng chất độn khô, dày hơn, đặc biệt với dê con sinh vào ngày lạnh mưa.",
+        "[Không để nhiều con lẫn lộn] Ở trại có nhiều ô đẻ, nên đánh dấu hoặc tạm tách từng ô mẹ-con để tránh nhầm con, mẹ đánh con không phải con mình."
+      ]
+    },
+    {
+      "id": "early_lactation",
+      "title": "1 tháng đầu sau sinh (đầu kỳ tiết sữa)",
+      "goal": "Dê mẹ phục hồi sau sinh, sữa đủ cho con, không viêm vú, không tụt cân quá nhanh.",
+      "content": "Đây là giai đoạn căng nhất cho cơ thể dê mẹ: vừa phải nuôi con, vừa hồi phục sau sinh. Sai khẩu phần hoặc chuồng trại kém vệ sinh sẽ trả giá rất nhanh.",
+      "bullets": [
+        "[Tăng khẩu phần có kiểm soát] Sau sinh vài ngày, khi dê ăn uống bình thường, tăng dần tinh kết hợp cỏ tốt để hỗ trợ tiết sữa, nhưng luôn giữ đủ xơ, tránh khẩu phần toàn tinh.",
+        "[Theo dõi vú mỗi ngày] Sờ vú xem có nóng, cứng, đau, sữa vón cục, đổi màu hay không. Dấu hiệu này cần xử lý sớm theo định hướng ở mục bệnh và thuốc trong app.",
+        "[Giữ nền khô sạch] Nền ẩm bẩn làm dê mẹ dễ trượt ngã, viêm kẽ chân, nằm bẩn → tăng nguy cơ viêm vú, nhiễm trùng.",
+        "[Giữ nước uống luôn sẵn] Thiếu nước là một trong các nguyên nhân làm sữa giảm nhanh. Đảm bảo máng nước sạch, không rêu, không phân.",
+        "[Theo dõi thể trạng] Dê mẹ có thể giảm nhẹ cân sau sinh, nhưng nếu tụt nhanh, xương lộ, lông xấu, ăn chậm → khẩu phần đang thiếu hoặc có bệnh nền chưa xử lý.",
+        "[Giảm stress] Hạn chế đổi chuồng liên tục, không nhốt chung với dê hung dữ hay húc mạnh trong giai đoạn mới sinh và nuôi con nhỏ."
+      ]
+    },
+    {
+      "id": "late_lactation_and_dry_off",
+      "title": "Cuối chu kỳ sữa và cai sữa/dry-off",
+      "goal": "Cai sữa nhẹ nhàng cho dê con, giúp dê mẹ hồi phục thể trạng để chuẩn bị lứa phối tiếp theo.",
+      "content": "Nếu cai sữa và giảm sữa quá gấp, dê mẹ dễ viêm vú, dê con stress mạnh, cả mẹ lẫn con đều chững tăng trưởng.",
+      "bullets": [
+        "[Giảm sữa từ từ] Trước khi cai hẳn, giảm dần số lần cho bú/ngày, đồng thời giảm từ từ lượng tinh cho dê mẹ để tuyến vú giảm tiết sữa.",
+        "[Tập cho dê con ăn sớm] Đảm bảo dê con đã quen ăn cỏ và tinh trước khi cai, tránh tình trạng vừa cai đã tuột cân mạnh.",
+        "[Theo dõi vú sau cai] Sau khi ngừng cho bú, quan sát vú 3-5 ngày: vú căng đau, nóng, đỏ, con sốt → nghi viêm vú, cần xử lý sớm theo hướng dẫn chuyên môn.",
+        "[Điều chỉnh khẩu phần dê mẹ] Sau khi cai, hạ tinh về mức duy trì, xơ vẫn đầy đủ để dê mẹ phục hồi cơ và mỡ dự trữ, chuẩn bị cho chu kỳ sinh sản tiếp theo.",
+        "[Gộp đàn hợp lý] Khi cai sữa xong, có thể điều chỉnh ô chuồng, gộp đàn lại nhưng tránh nhồi quá đông hoặc ghép ngay với những con quá hung dữ."
+      ]
+    }
+  ],
+  "notes": [
+    "Dê mẹ sinh sản là hạt nhân của đàn, sai 1 lứa sẽ kéo dài nhiều tháng. Luôn ưu tiên bảo vệ sức khỏe lâu dài thay vì chạy theo sản lượng ngắn hạn.",
+    "Xơ (cỏ khô, cỏ xanh) luôn là nền, tinh chỉ là phần hỗ trợ. Bất kỳ chiến lược tăng khẩu phần nào cũng phải giữ nguyên tắc này.",
+    "Kiểm soát chân móng và kẽ chân xuyên suốt thai kỳ và tiết sữa: dê đau chân sẽ bỏ ăn, nằm nhiều, dễ bị bệnh hô hấp và tiêu hóa kế phát.",
+    "Ghi chép phối giống, thai kỳ, số con/lứa, bệnh trong thời gian mang thai và sau sinh sẽ giúp chọn lọc dần đàn mẹ khỏe và hiệu quả hơn."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi dê mẹ có dấu hiệu đẻ khó, sốt cao, bỏ ăn kéo dài, viêm vú nặng, sảy thai, liệt chân hoặc bất thường rõ khác, cần liên hệ thú y để được kiểm tra trực tiếp."
+}

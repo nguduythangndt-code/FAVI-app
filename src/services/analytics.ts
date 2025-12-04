@@ -86,3 +86,33 @@ export async function logDiseaseView(params: LogDiseaseViewParams) {
     console.log("logDiseaseView error:", error);
   }
 }
+
+// ====== 3. LOG HÀNH VI XEM MỤC CHĂM SÓC ======
+
+type LogCareViewParams = {
+  animal: string;          // "goat" | "pig" | "cattle" | "chicken"
+  careId: string;          // goat_fattening, goat_doe, ...
+  careName?: string;       // tên hiển thị, có thể null
+  timeOnScreenMs?: number; // thời gian ở trên màn, ms
+};
+
+export async function logCareView(params: LogCareViewParams) {
+  try {
+    const deviceId = await getDeviceId();
+
+    const { animal, careId, careName, timeOnScreenMs } = params;
+
+    await addDoc(collection(db, "careViews"), {
+      app: "favi",
+      platform: Platform.OS,
+      deviceId,
+      animal,
+      careId,
+      careName: careName ?? null,
+      timeOnScreenMs: timeOnScreenMs ?? null,
+      createdAt: serverTimestamp(),
+    });
+  } catch (error) {
+    console.log("logCareView error:", error);
+  }
+}

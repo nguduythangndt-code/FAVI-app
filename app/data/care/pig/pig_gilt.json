@@ -1,0 +1,99 @@
+{
+  "id": "pig_gilt",
+  "name": "Heo hậu bị",
+  "species": "pig",
+  "group": "gilt",
+  "overview": "Cẩm nang chăm sóc heo cái hậu bị trước khi đưa vào đàn nái. Mục tiêu: khung xương chắc, chân móng vững, hệ sinh sản khỏe, ruột phổi ổn và tâm lý bớt loạn khi vào môi trường phối giống. Hậu bị khỏe = nái bền về sau, ít loại thải sớm.",
+  "sections": [
+    {
+      "id": "frame_bone_6_12w",
+      "title": "Phát triển khung xương 6-12 tuần tuổi",
+      "goal": "Lưng thẳng, chân to khỏe, xương dài đẹp trước khi nói chuyện đạm.",
+      "content": "Pha này tập trung xương và chân móng thay vì nhồi cám tăng thịt quá mạnh.",
+      "bullets": [
+        "[Cám xương khung] Dùng cám hoặc premix hỗ trợ phát triển xương theo đúng hướng dẫn trên bao nhãn.",
+        "[Không trơn] Nền chuồng/khu chạy cho hậu bị phải nhám nhẹ, không trơn để heo tập cách đi tự nhiên mà không trượt.",
+        "[Khoáng liếm] Nếu có khoáng dạng liếm chuyên cho gia súc, đặt ở vị trí khô sạch trong ô để hậu bị tự điều chỉnh vi khoáng.",
+        "[Giờ ăn] Cho ăn đều đặn sáng - chiều, lượng vừa để ruột không quá tải.",
+        "[Nước sạch] Duy trì nước uống sạch 24/7, không để rêu rã trong máng.",
+        "[Không tắm shock nhiệt] Không tắm nước lạnh đột ngột, nhất là cuối ngày khi đêm lạnh."
+      ]
+    },
+    {
+      "id": "puberty_3_5m",
+      "title": "Dậy thì sinh sản 3-5 tháng",
+      "goal": "Chu kỳ lên giống rõ ràng, âm hộ hồng khỏe, không dịch bất thường.",
+      "content": "Đây là lúc buồng trứng và tử cung 'bật server config'.",
+      "bullets": [
+        "[Quan sát giống] Thấy âm hộ sưng đỏ nhẹ, hậu bị đứng yên cho đực nhảy, kêu, ăn giảm nhẹ là dấu hiệu lên giống đầu.",
+        "[Ghi log ngày] Ghi lại ngày bắt đầu lên giống đầu tiên và các lần sau để đánh giá chu kỳ.",
+        "[Dịch âm hộ phải trong] Nếu thấy dịch trong, không mùi gắt là ổn. Dịch đục, mùi hôi, lẫn máu nhẹ kéo dài là cờ cảnh báo cần thú y/ kỹ thuật kiểm sớm.",
+        "[Đừng phối ngay giống đầu] Không phối giống ngay lần giống đầu tiên của hậu bị. Đợi giống 2-3 vòng cho chửa chắc hơn sau này.",
+        "[Giữ tâm lý ổn] Hạn chế gom đông, xịt nước thẳng mặt, tiếng ồn mạnh lúc hậu bị đang bồn chồn tìm đực."
+      ]
+    },
+    {
+      "id": "leg_muscle_5_7m",
+      "title": "Chân móng - cơ đùi 5-7 tháng",
+      "goal": "Chân thẳng, móng đều, cơ đùi khỏe, đi lại không dang rộng hoặc run ẩn.",
+      "content": "Chân yếu vào phối giống và mang thai sẽ kéo theo đè con, rặn kém và chửa không bền.",
+      "bullets": [
+        "[Cắt tỉa móng] Móng quá dài phải cắt gọn sớm 1 lần khi cần trước khi vào đàn nái, sau đó kiểm nền chuồng để móng mòn tự nhiên đúng mức.",
+        "[Kiểm tra hình chân] Chân vòng kiềng quá mức, đi dang rộng, móng xoắn vẹo là indicator không phù hợp làm nái bền.",
+        "[Lót nền khi cần] Nếu heo có dấu hiệu đau chân nhẹ do nền cứng, thêm lớp lót khô để hậu bị đứng/nằm êm hơn, nhưng không để lót ẩm ướt kéo dài.",
+        "[Không dùng vật sắc cạnh] Loại bỏ sắt gãy, thanh slat vỡ, cạnh nhọn trong ô vì heo hậu bị hay tò mò cào bới dễ rách móng - chân."
+      ]
+    },
+    {
+      "id": "digestive_firewall_2_8m",
+      "title": "Ruột - firewall tiêu hóa 2-8 tháng",
+      "goal": "Phân khuôn mềm có hình, ruột không biểu tình khi chuyển cám.",
+      "content": "Hậu bị sẽ phải trải qua nhiều lần chuyển cám (từ cám piglet sang teen, rồi nái). Mọi lần chuyển đều phải theo dự án thích nghi ruột.",
+      "bullets": [
+        "[Chuyển cám từ từ] Trộn cám cũ - mới vài ngày, tăng tỉ trọng đều, không đổi thẳng 1 bữa.",
+        "[Quan sát phân 2-3 ngày sau chuyển] Phân nhão, bọt khí hoặc bết đuôi là cờ giảm khẩu phần lại level trước.",
+        "[Không trộn đồ ăn người] Tuyệt đối không dùng thức ăn mất kiểm soát độ mặn - mỡ - muối - gia vị của người.",
+        "[Không tẩy giun khi phân xấu] Nếu phân hậu bị đang nhão hàng loạt thì dừng tẩy giun, đợi phân ổn rồi làm lại."
+      ]
+    },
+    {
+      "id": "immunity_prep",
+      "title": "Chuẩn bị miễn dịch nền",
+      "goal": "Tiêm phòng đúng mức khi hậu bị đã sẵn sàng.",
+      "content": "Vaccine hay thuốc phòng các bệnh teen nái phải tuân thủ onboarding miễn dịch.",
+      "bullets": [
+        "[Rà screening trước tiêm] Hậu bị phải không sốt, không dịch mũi, không phân rối hàng loạt khi vào ngày tiêm.",
+        "[Tiêm theo lịch và nhãn] Chỉ tiêm theo lịch được kỹ thuật trại/ thú y chốt trước, tuân theo hướng dẫn nhãn.",
+        "[Nghỉ sau vaccine] Sau vaccine hoặc can thiệp miễn dịch, giữ môi trường yên tĩnh, nước sạch, có thể thêm điện giải/vitamin theo nhãn."
+      ]
+    },
+    {
+      "id": "heat_stress_cost",
+      "title": "Kiểm soát stress nhiệt và cost ẩn",
+      "goal": "Không để hậu bị stress nhiệt kéo dài trước khi vào đàn nái.",
+      "content": "Shock nhiệt hoặc ẩm sẽ làm hậu bị chán ăn, giảm giống rõ, dễ ho lại.",
+      "bullets": [
+        "[Mát đối lưu ban ngày] Nếu nóng, mở thoáng liền phòng, phun sương nhẹ mái/tường, không thẳng ổ nằm.",
+        "[Không để ẩm nền về đêm] Đêm ướt ẩm → stress nhiệt + phổi ẩn → tăng ấm chuồng, xử lý ẩm trước mô hình feeding.",
+        "[Đo cảm quan đàn] Mũi khô, phân có khuôn mềm, ngủ ngon không tách góc là KPI chuẩn nhất, không chạy KPI ảo."
+      ]
+    },
+    {
+      "id": "grading_enter_sow",
+      "title": "Đánh giá trước khi đưa vào đàn nái",
+      "goal": "Chốt chọn hậu bị vào nái chính xác, loại sớm con không phù hợp.",
+      "content": "Đây là pha duyệt cuối như duyệt prod release.",
+      "bullets": [
+        "[Chân - khung - vú - chu kỳ] Screening lại: khung xương, chân móng, số vú hữu dụng, chu kỳ giống, mũi, phân, tiền sử bệnh.",
+        "[Loại thải sớm không thương tiếc] Con chân yếu mạn, dịch âm hộ đục lặp lại, giống quá trễ nhiều vòng, khung vẹo - móng xoắn → không phù hợp làm nái bền.",
+        "[Ghi log đánh giá] Ghi lại nhóm heo đã loại theo lý do: giúp tối ưu purchase selection cho lứa sau."
+      ]
+    }
+  ],
+  "notes": [
+    "Heo hậu bị khỏe sẽ quyết định độ bền đàn nái sau này.",
+    "Chân móng và chu kỳ giống quan trọng hơn mọi ảo vọng đạm cao giữa kỳ.",
+    "Không đổi cám 1 bữa, không tắm shock đêm lạnh và không trộn thức ăn người."
+  ],
+  "warning": "Thông tin tham khảo. Nếu hậu bị có stress đàn lớn, phân rối hàng loạt, dịch mũi hoặc âm hộ đục máu kéo dài, chân run ẩn hoặc sốt - escalation bắt buộc với thú y/kỹ thuật trại."
+}

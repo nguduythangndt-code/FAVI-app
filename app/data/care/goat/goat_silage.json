@@ -1,0 +1,105 @@
+{
+  "id": "goat_silage",
+  "name": "Ủ cỏ cho dê",
+  "species": "goat",
+  "group": "silage",
+  "overview": "Cẩm nang ủ cỏ (silage) an toàn cho dê từ khâu chọn nguyên liệu, xử lý độ ẩm, phối trộn, nén kín khí, bảo quản đến cách cho ăn và giám sát phản ứng đàn. Mục tiêu: cỏ ủ thơm, không nhiễm nấm mốc - khí độc - vi khuẩn gây thối, không gây toan dạ cỏ, không làm dê chướng hơi hoặc rối loạn tiêu hóa sau khi ăn.",
+  "sections": [
+    {
+      "id": "material_selection",
+      "title": "Chọn nguyên liệu và thời điểm thu hoạch",
+      "goal": "Cỏ - lá - phụ phẩm đạt chất lượng cao nhất trước khi ủ.",
+      "content": "Nguyên liệu quyết định 80% thành công mẻ ủ. Cỏ sai chất lượng thì quy trình phía sau không cứu được.",
+      "bullets": [
+        "[Loại cỏ ưu tiên] Cỏ voi, cỏ sả, cỏ hỗn hợp giàu xơ; có thể kèm bã ngô xanh hoặc lá chăn dê có mùi thơm tự nhiên.",
+        "[Mức trưởng thành] Cỏ không quá non (nhiều nước, dễ thối) và không quá già (khó lên men, nghèo dinh dưỡng). Chọn lứa cỏ đang sung sức, không sâu bệnh trên lá.",
+        "[Thời điểm cắt] Tránh cắt cỏ sau mưa lớn hoặc sáng sớm khi còn sương đẫm. Ưu tiên cắt buổi trưa-chiều nắng, cỏ ráo mặt.",
+        "[Kiểm tra cảm quan] Không chọn cỏ có mùi thum thủm, dính bùn, lẫn phân, có nấm đốm đen-trắng, hoặc có ấu trùng-bọ trên lá.",
+        "[Phụ phẩm kèm] Nếu thêm thân/lõi ngô xanh, bã ngô, lá đậu… phải tươi mới, không tồn kho ẩm lâu ngày.",
+        "[Tỷ lệ phối] Nguyên liệu chính vẫn phải là cỏ/thô xanh giàu xơ, phụ phẩm chỉ là phần nâng mùi và năng lượng, không đảo ngược khẩu phần."
+      ]
+    },
+    {
+      "id": "chop_and_prewilt",
+      "title": "Băm và phơi tái (pre-wilt) điều chỉnh độ ẩm",
+      "goal": "Độ ẩm vừa, kích hoạt lên men chuẩn, tránh thối bẹt đáy.",
+      "content": "Độ ẩm mục tiêu là 'cầm nắm không chảy nước tay nhưng không khô giòn'. Đây là điểm cân bằng vi sinh.",
+      "bullets": [
+        "[Băm nhỏ] Băm độ dài vừa tầm để dễ nén chặt, ít túi khí; những thanh quá dài tạo khe khí gây mốc.",
+        "[Phơi tái] Trải mỏng nguyên liệu phơi nắng 3-6 giờ tùy nắng và giống cỏ, đảo 2-3 lần để ráo đều, tránh còn ướt cụm.",
+        "[Kiểm tra nắm tay] Nắm cỏ 5-10 giây, mở tay thấy tơi nhẹ, không vón cục và không ướt nước tay là đạt.",
+        "[Không phơi quá lố] Khô giòn xơ xác làm men khó hoạt động, mẻ ủ dễ nóng và mốc trắng từng mảng vì không đủ đường cho vi sinh làm việc."
+      ]
+    },
+    {
+      "id": "mixing_starter",
+      "title": "Phối trộn chất khởi men và phụ gia an toàn",
+      "goal": "Kích hoạt men đúng hướng, tạo mùi thơm, giữ acid hóa có kiểm soát.",
+      "content": "Men và phụ gia phải rõ nguồn gốc và đúng đối tượng gia súc nhai lại.",
+      "bullets": [
+        "[Chất khởi men] Có thể dùng chế phẩm men vi sinh dành cho gia súc nhai lại/đậm đặc ủ thô xanh theo khuyến cáo trên nhãn.",
+        "[Phụ gia an toàn] Nếu bổ sung mật rỉ đường, muối khoáng trộn ủ thô, bột ngô xay mịn để tăng đường lên men → trộn rất đều, lượng nhỏ hợp lý, theo đúng hướng dẫn trên nhãn.",
+        "[Tránh phụ gia sai đối tượng] Không dùng enzyme/hóa chất ủ nhanh cho lợn/gia cầm đem trộn vào cỏ ủ cho dê. Sai môi trường vi sinh sẽ tạo độc tố chuyển hóa thứ phát.",
+        "[Mùi mục tiêu] Tinh thần là tạo mùi chua dịu, thơm, dễ kích dê ăn sau này, không phải chua gắt nồng nặc như thức ủ ẩm sinh hơi."
+      ]
+    },
+    {
+      "id": "compaction_and_sealing",
+      "title": "Nén chặt và đóng kín khí hoàn toàn",
+      "goal": "Loại oxy, tránh túi khí gây mốc và nhiệt nóng nội khối.",
+      "content": "Oxy là kẻ thù chính của mẻ ủ. Đóng kín sai → mốc trắng - mốc đen - nóng - sinh khí.",
+      "bullets": [
+        "[Thùng ủ/bag ủ] Dùng thùng nhựa, silo nhỏ, túi ủ dày hoặc bag ủ chuyên cho thô xanh (rõ object on nhãn).",
+        "[Nén chặt] Cho nguyên liệu vào từng lớp mỏng 5-10 cm, dùng lực nén mạnh và đều để không còn khoảng rỗng.",
+        "[Buộc/Seal kín] Seal hoặc buộc chặt miệng thùng/túi, phủ nilon kín mặt trên nếu dùng thùng/silo. Không để hở mép dù chỉ 1 cm.",
+        "[Kiểm tra kín khí] Ấn thử bề mặt, không nghe tiếng 'xì' khí là đạt. Nếu nghe xì khí → chưa nén đủ hoặc chưa seal kín.",
+        "[Bảo quản] Đặt nơi cao ráo, tránh nắng chiếu trực tiếp làm nóng mẻ ủ quá nhanh; tránh chuột cắn túi ủ làm lọt oxy."
+      ]
+    },
+    {
+      "id": "storage_phase",
+      "title": "Ủ chín men và bảo quản sau ủ",
+      "goal": "Độ acid pH ổn định, không nóng nội bộ, không thối đáy.",
+      "content": "Giai đoạn ủ chín thường cần 14-30 ngày để men đạt trạng thái acid chua dịu và khóa khí tốt. Những ngày đầu có thể hơi phồng túi do khí sinh men, nhưng sau đó phải 'xẹp ổn định', không căng thêm.",
+      "bullets": [
+        "[Theo dõi thùng ủ/túi ủ] 3-5 ngày đầu có thể phồng nhẹ; nếu căng phồng cứng như bóng → mẻ ủ đang sai, phải kiểm tra lại.",
+        "[Nhiệt nội khối] Sờ thùng/túi nếu thấy nóng ran kéo dài nhiều ngày → còn oxy trong khối, cần xem lại độ nén và độ ẩm.",
+        "[Mùi và bề mặt khi mở thử] Mẻ ủ đạt sẽ có mùi chua dịu, thơm; bề mặt cỏ ủ không nhớt, không đen thối, không mốc đen/tròn ổ. Khi thấy mốc đen - thối đáy - dịch đen nhớt → mẻ ủ hỏng, không cho ăn.",
+        "[Bảo quản sau ủ] Khi lấy cho ăn, đậy kín mặt lại ngay sau khi lấy. Không mở hé kéo dài."
+      ]
+    },
+    {
+      "id": "feeding_from_silage",
+      "title": "Cách cho dê ăn cỏ ủ an toàn",
+      "goal": "Dê ăn ngon, không rối RU hoặc chướng hơi sau ăn.",
+      "content": "Cho ăn cỏ ủ phải có kỷ luật giống như nạp module data: từng bước, không đánh mất tín hiệu nhai lại.",
+      "bullets": [
+        "[Làm quen men ủ] 1-3 ngày đầu cho ăn rất ít cỏ ủ trộn cùng cỏ khô/cỏ phơi tái → quan sát RU và phân.",
+        "[Tăng dần lượng ủ] Chỉ tăng khi dê nhai lại tốt, bụng không căng hơi bất thường, phân ổn định.",
+        "[Chiếm đa số xơ] Không để cỏ ủ chiếm 100% khẩu phần trong 1-2 ngày đầu; giữ cỏ khô và lá xanh thơm dễ tiêu song song.",
+        "[Không cho ăn mẻ ủ nghi ngờ] Nếu cỏ ủ lấy ra có mùi thối-mốc-tanh-nhớt hoặc màu đen rõ → không trộn cho ăn dù nghĩ 'ít thôi chắc không sao'.",
+        "[Theo dõi phản ứng sau bữa ăn tinh] Buổi tối dê dễ chướng hơi hơn khi ăn tinh + ủ lên men nhanh. Giữ lượng tinh định tính vừa phải; ưu tiên cỏ khô để cân bằng pH dạ cỏ."
+      ]
+    },
+    {
+      "id": "silage_risks",
+      "title": "Các rủi ro cực kỳ hay gặp khi ủ và cách nhận biết",
+      "goal": "Biết sớm mẻ ủ sai để dừng và sửa quy trình.",
+      "content": "Đây là checklist lỗi cần 'hard lock' để không tái diễn.",
+      "bullets": [
+        "[Quá ướt] Cỏ vắt nước tay, vón bẹt lớp dưới → thối đáy, dịch đen, mùi hôi → hỏng.",
+        "[Không nén đủ] Có tiếng 'xì' khí, lớp cỏ tơi rời, nội khối nóng ran nhiều ngày → mốc.",
+        "[Cám mốc phụ phẩm] Dùng bã ngô/bã bia/bã rượu tồn kho ẩm/hôi → sinh độc tố → hỏng.",
+        "[Chuột cắn túi ủ] Lọt oxy kéo dài → mẻ ủ nóng và mốc trắng bề mặt.",
+        "[Ủ quá nóng dưới nắng gắt trực tiếp] Nhiệt tăng quá nhanh, acid hóa lệch → RU tăng rủi ro sau này.",
+        "[Mẻ ủ đổi màu] Đen, nhớt, mốc đen từng ổ → không cho ăn, không phối feed."
+      ]
+    }
+  ],
+  "notes": [
+    "Nguyên liệu giàu xơ - ráo mặt khi cắt - băm vừa tầm - nén thật chặt - buộc/đậy kín khí hoàn toàn - theo dõi nhiệt và mùi là 6 nguyên tắc bất biến của ủ cỏ cho dê.",
+    "Không tiếc nguồn nguyên liệu hoặc phụ phẩm có dấu hiệu nghi ngờ; tiếc nhỏ sẽ hỏng lớn.",
+    "Cỏ ủ là lợi thế feed cho dê vỗ béo và nuôi con nếu làm đúng; sai quy trình sẽ làm bệnh tiêu hóa - bệnh phổi kế phát rất nhanh."
+  ],
+  "warning": "Thông tin tham khảo. Mẻ cỏ ủ nghi mốc-thối-nhiệt cao kéo dài-phồng cứng túi/bóng → không cho đàn ăn. Khi dê ăn cỏ ủ mà ho cụm, chướng bụng liên tục, tiêu chảy tái phát → đánh giá lại mẻ ủ và liên hệ thú y."
+}

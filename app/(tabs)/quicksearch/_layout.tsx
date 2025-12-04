@@ -29,7 +29,7 @@ export default function QuicksearchLayout() {
         }}
       />
 
-      {/* Màn chi tiết bệnh – cũng có header + nút back */}
+      {/* Màn chi tiết bệnh - cũng có header + nút back */}
       <Stack.Screen
         name="detail"
         options={{

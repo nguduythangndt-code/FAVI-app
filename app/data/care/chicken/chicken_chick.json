@@ -1,0 +1,121 @@
+{
+  "id": "chicken_chick",
+  "name": "Gà con (1 ngày - 4 tuần)",
+  "species": "chicken",
+  "group": "chick",
+  "overview": "Cẩm nang chăm sóc gà con từ lúc mới nở/nhập về (1 ngày tuổi) đến khoảng 4 tuần tuổi. Mục tiêu: gà con khô lông nhanh, rốn lành, không mất nước, không tiêu chảy hàng loạt, phát triển khung xương và hệ miễn dịch nền tốt. Toàn bộ bước chăm sóc xoay quanh: nhiệt độ - ẩm độ chuẩn, nước uống - cám starter đúng cách, quản lý mật độ và phát hiện sớm gà con yếu.",
+  "sections": [
+    {
+      "id": "first_24h",
+      "title": "Giai đoạn 24 giờ đầu sau khi nhận gà con",
+      "goal": "Giảm sốc vận chuyển, gà con quen khu úm, uống nước sớm, không bị lạnh đột ngột.",
+      "content": "1 ngày đầu là lúc gà con dễ sặc nước, mất nhiệt, chết ngạt do dồn đè nếu úm không chuẩn. Việc cần làm là đón gà vào môi trường đã ấm, cho uống nước đúng cách và quan sát kỹ phản ứng đàn.",
+      "bullets": [
+        "[Chuồng úm phải ấm sẵn] Trước khi gà về ít nhất 3-5 giờ, bật hệ thống sưởi và đóng bớt rèm để nền và không khí trong khu úm ấm đều. Không đợi khi gà tới mới bật đèn sưởi.",
+        "[Đón gà nhẹ nhàng] Khi khui thùng gà, thao tác nhẹ tay, tránh hất mạnh khiến gà hoảng loạn. Thả gà ra khu úm từng ít một, không đổ ào ạt.",
+        "[Cho uống nước trước khi cho ăn] Ngay khi thả vào, cho gà tiếp cận máng/núm uống đã pha điện giải và vitamin tổng hợp theo hướng dẫn trên nhãn. Nhúng nhẹ mỏ một số con vào nước để chúng biết nguồn nước, cả đàn sẽ học theo.",
+        "[Không cho ăn cám ngay nếu gà quá mệt] Với gà vận chuyển xa, có thể cho uống nước 1-2 giờ trước khi rải cám để giảm sốc tiêu hóa. Khi thấy gà bắt đầu đi lại, kêu bình thường, có phản xạ tìm ăn thì mới cho cám.",
+        "[Rải cám trên giấy phẳng] 1-2 ngày đầu, nên rải cám starter trên giấy trắng hoặc khay phẳng để gà dễ nhìn thấy và mổ. Sau đó mới chuyển dần sang máng chuyên dụng.",
+        "[Quan sát phân và rốn] Chọn ngẫu nhiên vài con để xem rốn (khô, không sưng, không rỉ dịch) và xem phân đầu tiên (không quá loãng, không lẫn máu). Gà rốn ướt, bụng chướng mềm nên đánh dấu để theo dõi kỹ.",
+        "[Theo dõi hành vi đàn] Gà tụ lại một góc, kêu nhiều, xếp lớp lên nhau là quá lạnh hoặc gió lùa; gà tản xa bóng sưởi, há mỏ, cánh xệ là quá nóng. Điều chỉnh độ cao bóng, mở/đóng rèm dựa trên hành vi, không chỉnh theo cảm giác.",
+        "[Tránh làm ồn] 24 giờ đầu hạn chế người lạ, tiếng động mạnh, chó mèo vào khu úm. Gà con rất dễ hoảng, dồn đè và chết ngạt khi bị đuổi chạy."
+      ]
+    },
+    {
+      "id": "day_2_3_stabilize",
+      "title": "Ổn định gà con trong 2-3 ngày tiếp theo",
+      "goal": "Gà con quen chỗ úm, ăn - uống đều, rốn khô, tỷ lệ chết giảm rõ.",
+      "content": "Sau 1 ngày đầu, trọng tâm là giữ nhiệt ổn định, cho gà ăn - uống theo nếp, theo dõi sát các dấu hiệu bất thường ở rốn, bụng, phân và hành vi đàn.",
+      "bullets": [
+        "[Giữ nhiệt ổn định, không dao động mạnh] Không tắt bớt bóng đèn hoặc mở rèm quá nhiều chỉ vì “thấy nóng” trong một lúc. Nhiệt độ thay đổi đột ngột là nguyên nhân chính gây bệnh cho gà con.",
+        "[Chuyển dần từ rải cám sang máng] Bắt đầu chuyển cám vào máng tròn/máng dài, nhưng vẫn có thể rải một phần trên giấy để những con chậm hơn cũng tìm được thức ăn.",
+        "[Theo dõi mức ăn] Quan sát sau mỗi cữ: nếu cám hết nhanh, gà vẫn đi tìm thì có thể tăng thêm chút; nếu cám còn tồn nhiều, vón ẩm thì phải giảm lượng mỗi cữ và dọn bỏ cám cũ.",
+        "[Kiểm tra rốn mỗi ngày] Gà có rốn ướt, rỉ dịch, bụng dưới đỏ, sưng mềm là có nguy cơ viêm rốn, nhiễm trùng huyết. Những con này nên đánh dấu, tách theo dõi và đối chiếu với mục bệnh trong app.",
+        "[Theo dõi phân chung] Nhìn mặt đệm lót: phân bình thường hơi khuôn, hơi ướt nhẹ. Nếu xuất hiện nhiều phân trắng loãng, phân xanh nước, phân lẫn máu, cần lưu ý sớm.",
+        "[Duy trì đệm lót khô] Hằng ngày xới trấu, hót bỏ những chỗ ướt quanh máng uống, góc gió lùa. Đệm lót ẩm lạnh là nguồn gốc của viêm khớp, bệnh hô hấp và tiêu chảy.",
+        "[Bổ sung điện giải - vitamin theo đợt] Có thể duy trì pha điện giải và vitamin trong 1-3 ngày đầu theo hướng dẫn trên nhãn, đặc biệt khi thời tiết thất thường hoặc gà về từ xa."
+      ]
+    },
+    {
+      "id": "day_4_7_build_immunity",
+      "title": "Củng cố sức đề kháng và hệ tiêu hóa tuần 1",
+      "goal": "Gà con bụng thon, khung xương phát triển, ít tiêu chảy, bắt đầu tăng trọng rõ hơn.",
+      "content": "Từ ngày thứ 4 đến hết tuần thứ 1, gà con bắt đầu tăng ăn rõ rệt. Đây là thời điểm xây nền cho hệ tiêu hóa và miễn dịch, chuẩn bị cho các đợt vaccine cơ bản nếu trại áp dụng.",
+      "bullets": [
+        "[Duy trì nhiệt độ hợp lý] Có thể giảm nhẹ nhiệt bằng cách nâng bóng đèn cao hơn chút, nhưng vẫn phải quan sát hành vi đàn. Không giảm đồng loạt trong ngày mưa lạnh.",
+        "[Ổn định loại cám starter] Không đổi loại cám liên tục trong tuần 1. Chọn 1 loại cám starter tin cậy và giữ ổn định để hệ tiêu hóa của gà con thích nghi tốt.",
+        "[Cho ăn nhiều cữ nhỏ] Có thể cho ăn 4-5 cữ/ngày với lượng vừa phải, tăng dần theo mức ăn thực tế của đàn. Tránh để cám tồn lâu trong máng rồi mới dồn thêm.",
+        "[Hỗ trợ men tiêu hóa khi cần] Nếu thấy gà phân hơi nhão nhưng chưa tới mức tiêu chảy nặng, có thể dùng men tiêu hóa/men vi sinh chuyên cho gia cầm theo hướng dẫn trên nhãn.",
+        "[Theo dõi khung xương và dáng đi] Gà con đi lại vững, không vấp ngã, không khuỵu chân, không nghiêng đầu là dấu hiệu xương - cơ phát triển tốt. Con nào đi lệch, yếu chân nên được chú ý sớm.",
+        "[Chuẩn bị cho lịch vaccine] Nếu trại có áp dụng vaccine (Newcastle, Gumboro…), nên trao đổi với thú y địa phương và lập lịch cụ thể. Chỉ tiêm/cho uống vaccine khi đàn đang khỏe, không bị stress nặng.",
+        "[Giữ khu úm khô - sạch] Tiếp tục thay bỏ trấu bết, vón. Lót thêm trấu khô vào nơi gà hay nằm. Không để đệm lót bốc mùi khai, ẩm lâu ngày."
+      ]
+    },
+    {
+      "id": "week_2_3_expand_area",
+      "title": "Tuần 2-3: Mở rộng khu úm và tập gà con vận động",
+      "goal": "Gà con hoạt động linh hoạt, quen với không gian rộng hơn, giảm nguy cơ chen lấn - đè nhau.",
+      "content": "Bước sang tuần 2-3, gà con đã khỏe hơn, có thể giảm dần sự phụ thuộc vào sưởi và khu úm chật, chuyển sang không gian rộng hơn để chân cứng, phổi - tim phát triển tốt.",
+      "bullets": [
+        "[Mở dần khu úm] Nới rộng vòng quây úm hoặc gỡ bớt vách ngăn để gà có thêm không gian. Không mở hết một lúc nếu thời tiết lạnh hoặc có gió lùa.",
+        "[Giảm bớt mật độ] Nếu gà quá dày, nên tách bớt sang ô khác. Gà đủ chỗ đi lại, ít chen, ít dẫm lên nhau hơn.",
+        "[Giảm nhiệt từ từ] Mỗi vài ngày có thể nâng bóng sưởi lên cao hơn, tắt bớt 1-2 bóng vào thời gian ban ngày, nhưng luôn phải dựa trên quan sát hành vi đàn.",
+        "[Điều chỉnh máng ăn - máng uống theo chiều cao] Nâng máng lên tầm ngang lưng gà để hạn chế cào bới, vung vãi cám, đồng thời giữ vệ sinh tốt hơn.",
+        "[Duy trì cám chất lượng tốt] Có thể tiếp tục dùng cám starter hoặc chuyển dần sang cám grower nếu nhà sản xuất khuyến cáo, nhưng phải trộn dần cám cũ - mới trong vài ngày.",
+        "[Tập quen với ánh sáng và gió nhẹ] Ban ngày có thể mở rèm cho gà quen ánh sáng tự nhiên và gió nhẹ, nhưng tránh để gió lùa trực tiếp vào đàn, nhất là ban đêm.",
+        "[Tiếp tục sát trùng khu vực xung quanh] Giữ sạch lối đi, khu để bao cám, khu đổ phân. Không phun sát trùng trực tiếp vào đàn gà con, chỉ phun nền, vách và khoảng trống theo hướng dẫn."
+      ]
+    },
+    {
+      "id": "week_4_transition",
+      "title": "Tuần 4: Chuẩn bị chuyển giai đoạn (ra khỏi khu úm)",
+      "goal": "Gà con đủ sức chịu nhiệt môi trường bình thường, hệ tiêu hóa ổn, sẵn sàng chuyển sang chế độ nuôi gà thịt hoặc gà hậu bị.",
+      "content": "Khoảng tuần thứ 4, phần lớn đàn gà đã qua giai đoạn “trẻ sơ sinh”, có thể giảm sưởi nhiều và chuẩn bị chuyển sang khu nuôi rộng hơn hoặc mô hình nuôi chính của trại.",
+      "bullets": [
+        "[Đánh giá đều đàn] Quan sát sự chênh lệch giữa gà to và gà nhỏ. Nếu phần lớn đạt kích thước tương đối đồng đều, có thể lên kế hoạch chuyển chuồng.",
+        "[Giảm sưởi còn mức thấp] Ban ngày có thể tắt phần lớn bóng sưởi, chỉ để lại ít bóng cho những lúc thời tiết xấu. Đêm vẫn theo dõi đàn, nếu gà tụ quá chặt thì là còn lạnh.",
+        "[Chuẩn bị chuồng nuôi chính] Chuồng mới phải được vệ sinh, sát trùng, chuẩn bị đệm lót, máng ăn - uống đầy đủ trước khi chuyển gà ít nhất 2-3 ngày.",
+        "[Chuyển gà nhẹ nhàng] Bắt gà bằng tay, không dùng gậy quất đuổi. Hạn chế bắt vào ban ngày nắng nóng; ưu tiên sáng sớm hoặc chiều mát.",
+        "[Giữ khẩu phần ổn định khi chuyển chuồng] 2-3 ngày trước và sau khi chuyển chuồng không nên đổi loại cám. Chỉ tập trung cho gà quen chuồng mới, không tạo thêm cú sốc khẩu phần.",
+        "[Theo dõi gà yếu sau chuyển] Những con nhỏ, yếu, dễ mệt nên cân nhắc tách riêng, chăm sóc đỡ cạnh tranh với đàn khỏe.",
+        "[Ghi lại mốc chuyển giai đoạn] Lưu lại ngày chuyển chuồng, khối lượng trung bình (nếu có cân) để làm mốc so sánh cho các lứa nuôi sau."
+      ]
+    },
+    {
+      "id": "weak_chicks_management",
+      "title": "Chăm sóc gà con yếu, còi, chậm lớn",
+      "goal": "Hạn chế hao hụt gà yếu, nâng được một phần gà còi lên mức chấp nhận được.",
+      "content": "Trong bất kỳ đàn nào cũng sẽ có một tỷ lệ gà con yếu hơn. Xử lý tốt nhóm này sẽ giảm số con chết và tránh lây bệnh cho đàn chính.",
+      "bullets": [
+        "[Nhận diện gà yếu sớm] Gà đứng tách, ít đi lại, ít tranh cám, mắt lim dim, lông xù, bụng phình mềm hoặc rốn ướt là những dấu hiệu cần khoanh lại theo dõi.",
+        "[Tách riêng nhóm yếu] Gom gà yếu vào một ô riêng, mật độ thưa hơn, gần nguồn sưởi ổn định hơn. Tránh để lẫn trong đàn khỏe sẽ bị chèn ép, tranh ăn thua thiệt.",
+        "[Đảm bảo nước và cám luôn dễ tiếp cận] Bố trí máng ăn - uống riêng cho ô gà yếu, đặt thấp và gần, để gà không phải tranh với đàn khỏe.",
+        "[Hỗ trợ thêm vitamin - men tiêu hóa] Có thể bổ sung vitamin, điện giải, men tiêu hóa theo hướng dẫn trên nhãn cho nhóm này để hỗ trợ hồi phục.",
+        "[Theo dõi sát rốn và phân] Nhiều gà yếu có rốn xấu hoặc tiêu chảy kéo dài. Những trường hợp này cần đối chiếu ngay với mục bệnh trong app và cân nhắc nhờ thú y tư vấn.",
+        "[Loại thải hợp lý] Một số con quá dị tật, quá yếu, kéo dài sẽ rất tốn công mà không hiệu quả. Cần có quyết định loại thải hợp lý để tập trung tài nguyên cho đàn chính."
+      ]
+    },
+    {
+      "id": "early_signs_alert",
+      "title": "Dấu hiệu bất thường sớm cần lưu ý ở gà con",
+      "goal": "Không bỏ qua các dấu hiệu bệnh sớm, tránh để bùng phát thành dịch trong khu úm.",
+      "content": "Gà con chuyển bệnh rất nhanh. Phát hiện sớm qua vài dấu hiệu nhỏ sẽ giúp can thiệp kịp thời, giảm chết và chi phí thuốc.",
+      "bullets": [
+        "[Tiếng kêu khác thường] Bầy gà con kêu liên tục, rít cao, tụ tập một góc thường là do lạnh, gió lùa hoặc khó chịu. Phải kiểm tra ngay nhiệt độ, gió, đệm lót.",
+        "[Thở há mỏ, vươn cổ] Gà con thở há mỏ, vươn cổ, nghe tiếng rít là dấu hiệu hô hấp bất thường. Cần đối chiếu với mục bệnh hô hấp trong app.",
+        "[Phân thay đổi hàng loạt] Cả đàn xuất hiện phân trắng loãng, phân xanh nước, phân máu, phân bọt… là dấu hiệu rõ ràng có vấn đề về tiêu hóa hoặc bệnh truyền nhiễm.",
+        "[Gà nằm rúc, ít phản ứng] Gà nằm rúc một góc, sờ thấy lạnh chân, lạnh bụng là dấu hiệu lạnh quá; sờ nóng ran, thở nhanh có thể là sốt hoặc nóng quá mức.",
+        "[Tăng tỷ lệ chết trong ngày] Nếu tỷ lệ gà chết trong ngày tăng lên rõ rệt so với các ngày trước, cần kiểm tra kỹ toàn bộ các yếu tố: nhiệt độ, nước, cám, bệnh. Không coi là “chết lẻ bình thường”.",
+        "[Hành vi uống nước bất thường] Gà chỉ tụ quanh máng uống, uống nhiều nhưng ít ăn có thể là do nhiệt cao, cám có vấn đề hoặc bệnh đang khởi phát.",
+        "[Khi nào nên gọi thú y] Khi đã điều chỉnh nhiệt, nước, cám mà đàn vẫn xấu đi, hoặc có nhiều con bệnh với triệu chứng nặng (thở há mỏ, tiêu chảy máu, chết nhanh), cần mời thú y đến kiểm tra trực tiếp."
+      ]
+    }
+  ],
+  "notes": [
+    "Chăm sóc gà con chuẩn từ đầu sẽ quyết định thành công cho cả lứa nuôi, cả gà thịt lẫn gà đẻ sau này.",
+    "Luôn quan sát hành vi đàn (đứng, đi, kêu, ăn, uống) chứ không chỉ nhìn vào nhiệt kế hoặc lý thuyết.",
+    "Không đổi liền lúc nhiều yếu tố như: loại cám, nhiệt độ, mật độ, vaccine… trong cùng một ngày.",
+    "Khi thấy đàn gà con có dấu hiệu lạ, nên kiểm tra lại lần lượt: nhiệt - ẩm - gió - nước - cám, rồi mới tính tới bệnh và thuốc."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi gà con có dấu hiệu bệnh nặng (thở há mỏ hàng loạt, tiêu chảy máu, chết nhanh, yếu liệt nhiều con), cần liên hệ thú y để được kiểm tra trực tiếp."
+}

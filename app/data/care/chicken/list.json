@@ -1,0 +1,37 @@
+[
+  {
+    "id": "chicken_broiler",
+    "name": "Gà thịt (broiler)",
+    "summary": "Quy trình nuôi gà thịt từ lúc nhập gà con đến khi xuất bán: úm, lên chuồng, tăng trọng, quản lý thức ăn - nước uống - mật độ, giảm stress và hạn chế hao hụt."
+  },
+  {
+    "id": "chicken_layer",
+    "name": "Gà đẻ (layer)",
+    "summary": "Chăm sóc gà đẻ trứng theo từng giai đoạn: hậu bị, vào đẻ, đỉnh đẻ, cuối kỳ. Tập trung vào dinh dưỡng, ánh sáng, canxi, quản lý sản lượng và chất lượng vỏ trứng."
+  },
+  {
+    "id": "chicken_chick",
+    "name": "Gà con (1 ngày - 4 tuần)",
+    "summary": "Chăm sóc gà con giai đoạn úm: nhiệt độ, ẩm độ, mật độ, nước uống điện giải, tập ăn, lịch vaccine cơ bản và cách nhận biết gà con yếu - mất nước - lạnh."
+  },
+  {
+    "id": "chicken_sick",
+    "name": "Gà bệnh trong đàn",
+    "summary": "Cách phát hiện sớm gà bệnh, tách đàn, xử lý khu vực bệnh, hỗ trợ thuốc đúng nhóm, điều chỉnh chuồng trại - nhiệt độ - thông thoáng để giảm chết và lây lan."
+  },
+  {
+    "id": "chicken_recovery",
+    "name": "Gà sau bệnh (hồi phục)",
+    "summary": "Chăm sóc gà sau khi hết sốt - hết tiêu chảy - hết ho: bổ sung vitamin, điện giải, men tiêu hoá, giảm mật độ, theo dõi lại phân - ăn - uống để đàn hồi nhanh."
+  },
+  {
+    "id": "chicken_housing",
+    "name": "Chuồng trại nuôi gà",
+    "summary": "Nguyên tắc làm chuồng gà: nền, mái, hướng chuồng, thông thoáng, ánh sáng, chống nóng - chống lạnh, che gió lùa, bố trí máng ăn - uống hợp lý theo tuổi gà."
+  },
+  {
+    "id": "chicken_litter",
+    "name": "Đệm lót / nền chuồng",
+    "summary": "Quản lý đệm lót chuồng gà: chọn chất độn (trấu, mùn cưa…), độ dày, cách đảo trộn, xử lý ẩm - mùi, phòng viêm chân - viêm khớp - bệnh hô hấp do nền bẩn."
+  }
+]

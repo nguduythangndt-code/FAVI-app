@@ -1,0 +1,139 @@
+{
+  "id": "chicken_broiler",
+  "name": "Gà thịt (broiler)",
+  "species": "chicken",
+  "group": "broiler",
+  "overview": "Cẩm nang nuôi gà thịt broiler từ lúc chuẩn bị chuồng trại, nhập gà con, úm, tăng trọng đến trước khi xuất bán. Mục tiêu: giảm hao hụt, gà lớn nhanh, chân vững, ít bệnh hô hấp - tiêu hóa, đồng đều đàn và bán thuận lợi. Tất cả đều dựa trên 3 trụ cột: chuồng trại khô - thoáng - sạch, khẩu phần phù hợp từng giai đoạn, và phát hiện - khoanh vùng gà bệnh sớm.",
+  "sections": [
+    {
+      "id": "preparation_before_chicks",
+      "title": "Chuẩn bị chuồng trước khi nhập gà con",
+      "goal": "Chuồng sạch, khô, ấm, thông thoáng, sẵn sàng đón gà con không bị sốc môi trường.",
+      "content": "3-5 ngày trước khi nhập gà là thời gian để làm sạch chuồng, sát trùng, chuẩn bị đệm lót, hệ thống sưởi, máng ăn - uống. Chuồng chuẩn thì gà con về đỡ sốc, ít bệnh ngay từ đầu.",
+      "bullets": [
+        "[Dọn hết chất thải cũ] Dọn sạch phân, đệm lót, lông, thức ăn thừa của lứa trước. Cạo các mảng bám ở tường, góc chuồng, dưới máng ăn, khu vực thường đọng phân.",
+        "[Rửa chuồng kỹ] Dùng nước rửa từ mái, tường, vách tới nền. Nếu có máy xịt áp lực càng tốt. Tháo máng ăn, máng uống, khay úm ra rửa riêng cho sạch nhớt, cặn bám.",
+        "[Phun sát trùng] Đợi chuồng khô tương đối rồi phun thuốc sát trùng toàn bộ: nền, tường, vách ngăn, lối đi, khu quanh chuồng. Luân phiên 2-3 loại sát trùng khác nhau giữa các lứa để tránh quen thuốc.",
+        "[Nghỉ chuồng] Sau sát trùng, để chuồng trống ít nhất 2-3 ngày. Hạn chế người lạ, chó mèo, chim hoang vào khu vực chuồng trong thời gian này.",
+        "[Chuẩn bị đệm lót] Trải trấu/mùn cưa khô, sạch, không mốc, không mùi hôi. Độ dày đủ để gà đi không bị trơn trượt, chân không lạnh buốt; nơi hay ẩm có thể dày hơn 1 chút.",
+        "[Bố trí khu úm] Dùng quây tròn hoặc vách ngăn để giới hạn khu úm phù hợp số lượng gà. Khu úm quá rộng gà tản, khó giữ ấm; quá chật thì dồn, dẫm đè nhau.",
+        "[Kiểm tra điện - nước] Thử bóng đèn sưởi, dây điện, đảm bảo không chập cháy. Mở nước thử toàn bộ núm uống/máng uống xem nước ra đều, không tắc, không rò.",
+        "[Bật sưởi trước] Bật hệ thống sưởi trước khi nhận gà ít nhất 3-5 giờ để nhiệt độ nền, không khí ổn định. Không đợi gà về mới bật, rất dễ làm gà con lạnh đột ngột."
+      ]
+    },
+    {
+      "id": "brooding_1_7_days",
+      "title": "Giai đoạn úm gà 1-7 ngày tuổi",
+      "goal": "Gà con khô lông nhanh, bụng thon dần, ăn - uống đều, tỷ lệ chết thấp.",
+      "content": "7 ngày đầu là giai đoạn nhạy cảm nhất. Nếu úm không chuẩn, gà dễ viêm rốn, tiêu chảy, viêm phổi, còi cọc về sau. Tập trung vào nhiệt độ, ẩm độ, nước uống và cho ăn đúng cách.",
+      "bullets": [
+        "[Quan sát nhiệt độ bằng hành vi] Không nhìn mỗi nhiệt kế. Gà tụ kín ngay dưới bóng đèn, kêu nhiều là lạnh; gà tản xa bóng, há mỏ, thở gấp là nóng. Gà trải đều, đi lại - ăn uống bình thường là nhiệt độ phù hợp.",
+        "[Giữ ấm nền chuồng] Đệm lót phải khô, không ẩm lạnh. Nếu nền xi măng, nên có lớp lót dày hơn và bật sưởi trước đủ lâu để nền ấm hẳn.",
+        "[Nước uống 6-12 giờ đầu] Khi mới thả gà, cho uống nước sạch pha điện giải và vitamin tổng hợp theo đúng hướng dẫn trên nhãn. Nhúng nhẹ mỏ vài con cho chúng biết chỗ uống, cả đàn sẽ học theo.",
+        "[Không cho ăn quá sớm nếu gà quá mệt] Gà mới vận chuyển xa thường mệt, có thể cho uống nước trước 1-2 giờ rồi mới cho ăn để giảm sốc tiêu hóa.",
+        "[Thức ăn 1-3 ngày đầu] Dùng cám hỗn hợp cho gà con (starter) chuyên dụng, rải trên giấy hoặc khay phẳng để gà dễ tìm. Không dùng tấm/bột thô khó tiêu làm chính trong những ngày đầu.",
+        "[Mật độ khu úm] Không nhốt quá dày. Gà con bị dồn đè lên nhau dễ bẹp, gãy chân, ngạt. Nếu lớp gà dày đặc quanh bóng, nghe tiếng kêu nhiều, cần nới rộng khu úm.",
+        "[Theo dõi rốn và bụng] Hàng ngày kiểm tra một số con: rốn khô, không sưng, không rỉ dịch; bụng không quá phình căng mềm. Gà rốn ướt, chảy dịch cần đánh dấu và theo dõi kỹ.",
+        "[Dọn phân và chỗ ẩm] Mỗi ngày nhặt chỗ đệm lót bị ướt, vón cục quanh máng uống. Không để nền ướt lâu vì dễ gây lạnh chân, viêm khớp và bệnh hô hấp."
+      ]
+    },
+    {
+      "id": "brooding_2_4_weeks",
+      "title": "Giai đoạn úm mở rộng 2-4 tuần tuổi",
+      "goal": "Gà chuyển dần từ giai đoạn úm sang giai đoạn tăng trọng, hệ tiêu hóa và hô hấp ổn định.",
+      "content": "Từ tuần thứ 2 trở đi, gà đã khỏe hơn, có thể giảm dần nhiệt, mở rộng khu nuôi, tăng dần lượng cám, tập cho gà vận động và làm quen với điều kiện chuồng mở hơn.",
+      "bullets": [
+        "[Giảm nhiệt từ từ] Mỗi vài ngày có thể nâng bóng đèn lên cao hơn hoặc tắt bớt bóng, nhưng phải quan sát phản ứng của đàn. Không cắt nhiệt đột ngột trong ngày mưa lạnh hoặc gió mùa.",
+        "[Mở rộng không gian] Nới rộng khu úm hoặc bỏ dần quây khi gà đủ lông tơ, đi lại linh hoạt. Mật độ hợp lý giúp gà vận động, chân cứng hơn, giảm chen lấn.",
+        "[Chuyển dần dạng thức ăn] Vẫn dùng cám gà con nhưng có thể chỉnh size hoặc chuyển dần sang cám grower nếu nhà sản xuất khuyến cáo. Không đổi loại cám đột ngột trong 1 ngày, nên trộn cám cũ - mới vài ngày.",
+        "[Quản lý máng ăn - máng uống] Điều chỉnh chiều cao máng theo độ cao của gà: tầm bằng lưng gà để hạn chế vung vãi và bẩn. Số lượng máng đủ để gà không phải tranh nhau quá dữ.",
+        "[Theo dõi phân] Phân phải tương đối khuôn, không loãng nước, không lẫn máu. Nếu thấy phân trắng, phân xanh loãng, phân máu xuất hiện nhiều, cần đối chiếu ngay với mục bệnh trong app.",
+        "[Tập cho gà làm quen gió và ánh sáng] Ban ngày có thể mở rèm cho ánh sáng và gió nhẹ vào, nhưng tránh gió lùa trực tiếp vào đàn. Đêm che kín hơn, chỉ để thông thoáng vừa đủ.",
+        "[Duy trì sát trùng định kỳ] 1-2 lần/tuần phun sát trùng lối đi, xung quanh chuồng, hạn chế phun trực tiếp lên gà con. Giữ khu vực máng ăn, máng uống luôn khô, sạch."
+      ]
+    },
+    {
+      "id": "grower_phase",
+      "title": "Giai đoạn tăng trọng giữa (từ sau 4 tuần đến gần xuất bán)",
+      "goal": "Gà lên thịt đều, bộ lông đẹp, chân vững, không bùng bệnh hô hấp - tiêu hóa.",
+      "content": "Giai đoạn này trọng tâm là duy trì khẩu phần ổn định, đảm bảo đủ năng lượng - đạm - khoáng, giữ chuồng khô - thoáng và phát hiện gà bệnh sớm để tách.",
+      "bullets": [
+        "[Ổn định loại cám] Chọn 1 loại cám grower/finisher phù hợp và giữ ổn định, hạn chế đổi hãng liên tục. Mỗi lần đổi cám nên trộn dần 3-5 ngày để gà quen.",
+        "[Lịch cho ăn rõ ràng] Cho ăn theo giờ cố định 2-3 cữ/ngày. Không để cám đầy máng cả ngày đêm, dễ hư hỏng và khó theo dõi mức ăn của đàn.",
+        "[Đảm bảo nước sạch liên tục] Kiểm tra núm uống/máng uống mỗi ngày, bảo đảm luôn có nước sạch. Vệ sinh máng uống thường xuyên để tránh đóng nhớt, sinh vi khuẩn.",
+        "[Quản lý mật độ] Nếu mật độ quá dày, nên tách bớt hoặc giảm số lượng trong chuồng. Gà dồn chật dễ bị stress, dẫm đạp, bệnh lây nhanh hơn.",
+        "[Giữ nền khô] Đệm lót phải luôn tơi, không vón cục ướt. Các điểm quanh máng uống, cửa chuồng dễ ẩm phải được xới và thay trấu thường xuyên.",
+        "[Theo dõi đàn mỗi sáng - chiều] Khi vào chuồng, quan sát tiếng thở, tiếng ho, mức độ hoạt động. Con nào đứng tách, xù lông, ăn chậm nên đánh dấu và xem kỹ.",
+        "[Bổ sung khoáng - vitamin khi cần] Thời điểm trời nắng nóng, giao mùa hoặc sau các đợt chuyển chuồng, có thể bổ sung điện giải, vitamin, khoáng theo hướng dẫn trên nhãn để chống stress.",
+        "[Không thử nghiệm phụ phẩm ồ ạt] Nếu tận dụng phụ phẩm (cám gạo, tấm, bã bia...), luôn thêm từ từ, không thay hoàn toàn khẩu phần chỉ trong 1-2 ngày."
+      ]
+    },
+    {
+      "id": "finisher_phase",
+      "title": "Giai đoạn vỗ béo trước khi xuất bán",
+      "goal": "Đạt trọng lượng mong muốn, đàn đồng đều, không bị sụt cân cuối kỳ do bệnh hoặc stress.",
+      "content": "Càng gần ngày bán, càng cần giữ ổn định: ổn định khẩu phần, môi trường, không thử nghiệm mới. Tập trung giảm stress, giữ đàn khỏe để bán được giá.",
+      "bullets": [
+        "[Không đổi cám cuối kỳ] Tránh đổi loại cám hoặc kiểu cho ăn mới sát ngày bán. Mọi thay đổi mạnh trong khẩu phần có thể làm chậm tăng trọng hoặc gây rối loạn tiêu hóa.",
+        "[Theo dõi gà còi] Những con quá nhỏ so với đàn nên được cân nhắc bán riêng hoặc vỗ thêm đợt sau. Không cố nhồi nhét cám cho vài con còi khi đàn còn lại đã đủ.",
+        "[Kiểm soát thông thoáng] Chuồng đông, nhiệt thải ra nhiều. Dùng quạt hoặc mở rèm hợp lý để gà không bị nóng, không tụ một góc thở há mỏ.",
+        "[Giảm tối đa tiếng ồn, kích động] Hạn chế tiếng động lạ, chó chạy trong chuồng, người đùa giỡn. Gà bị đuổi chạy nhiều sẽ hao năng lượng, dễ stress.",
+        "[Duy trì vệ sinh máng ăn - nước] Cám ẩm, mốc, nước bẩn ở cuối kỳ vẫn có thể làm bùng bệnh. Máng ăn, máng uống phải được cọ rửa định kỳ như giai đoạn trước.",
+        "[Theo dõi phân và lứa tuổi] Nếu gần xuất chuồng mà xuất hiện nhiều phân lỏng, phân máu, gà ho thở nhiều, phải xử lý sớm, không đợi đến sát ngày bán mới giải quyết.",
+        "[Giảm thao tác mạnh] Tránh bắt - cân - chuyển chuồng quá nhiều lần trong giai đoạn này. Mỗi lần bắt gà là một lần stress, hao cân."
+      ]
+    },
+    {
+      "id": "feed_and_water_management",
+      "title": "Quản lý thức ăn tinh và nước uống cho gà thịt",
+      "goal": "Gà ăn đủ, đúng loại, nước sạch liên tục, không bị rối loạn tiêu hóa do thức ăn - nước.",
+      "content": "Thức ăn tinh (cám) là nguồn chính giúp gà broiler lên thịt nhanh, nhưng nếu dùng sai cách sẽ gây tiêu chảy, chậm lớn, thậm chí chết hàng loạt. Nước sạch là yếu tố đi kèm bắt buộc.",
+      "bullets": [
+        "[Ưu tiên cám hỗn hợp hoàn chỉnh] Dùng cám công nghiệp cho từng giai đoạn (starter, grower, finisher) theo khuyến cáo của nhà sản xuất. Không tự trộn khẩu phần khi chưa nắm rõ cân đối dinh dưỡng.",
+        "[Tránh cám mốc, có mùi lạ] Cám vón cục, đổi màu, có mùi mốc hoặc mùi khét phải loại bỏ. Không dùng cám đã bị ẩm dính lâu ngày trong bao hoặc trong máng.",
+        "[Chia cữ cho ăn hợp lý] Cho ăn nhiều cữ hơn trong ngày ở giai đoạn nhỏ, có thể 3-4 cữ. Khi gà lớn có thể 2-3 cữ nhưng vẫn phải để gà có thời gian nghỉ, tiêu hóa.",
+        "[Điều chỉnh theo thời tiết] Ngày nắng nóng, gà thường giảm ăn, tăng uống. Có thể cho ăn nhiều hơn vào sáng sớm và chiều mát, hạn chế nhồi cám lúc nóng nhất.",
+        "[Đảm bảo nước sạch liên tục] Nước uống phải trong, không mùi, không rêu. Rửa máng uống hoặc xả hệ thống uống tự động định kỳ để tránh nhớt, vi khuẩn bám.",
+        "[Không cho uống thuốc kéo dài không cần thiết] Điện giải, vitamin, thuốc phòng chỉ dùng theo đợt và theo hướng dẫn trên nhãn. Không cho uống dài ngày liên tục mà không có lý do, dễ tốn kém và không cần thiết.",
+        "[Theo dõi phản ứng sau khi đổi lô cám] Mỗi lần đổi lô cám mới, quan sát phân, mức ăn, mức độ hoạt động của đàn trong vài ngày đầu. Nếu có bất thường, nên kiểm tra lại chất lượng cám."
+      ]
+    },
+    {
+      "id": "health_monitoring_and_isolation",
+      "title": "Theo dõi sức khỏe đàn và tách gà bệnh",
+      "goal": "Phát hiện sớm gà bệnh, tách đàn, xử lý kịp thời, hạn chế lây lan và hao hụt.",
+      "content": "Trong suốt quá trình nuôi, việc quan sát hằng ngày quan trọng không kém gì cho ăn. Nhìn cách gà đứng, đi, thở, phân… là có thể phát hiện sớm nhiều bệnh.",
+      "bullets": [
+        "[Quan sát đàn vào buổi sáng] Ngay khi vào chuồng, lắng nghe tiếng thở, tiếng ho, quan sát xem đàn có đều không. Con nào đứng tách, xù lông, mắt lim dim, ít di chuyển thì cần chú ý.",
+        "[Kiểm tra máng ăn - nước] Gà bỏ ăn, tụ quanh máng nước, hoặc chỉ uống mà không ăn cũng là dấu hiệu bất thường. Ghi nhận các thay đổi này ngay từ đầu.",
+        "[Theo dõi phân] Phân trắng bết cloaca, phân xanh loãng, phân lẫn máu, phân sủi bọt… đều là tín hiệu phải mở mục bệnh trong app để đối chiếu.",
+        "[Lập ô cách ly] Chuẩn bị sẵn 1-2 ô chuồng nhỏ để tách gà bệnh, gà yếu. Tách sớm giúp dễ chăm sóc và giảm lây cho đàn chính.",
+        "[Dùng thuốc đúng nhóm] Khi cần hỗ trợ thuốc (hạ sốt, chống viêm, tiêu hóa, hô hấp…), tra mục Thuốc trong app để chọn đúng nhóm, dùng theo liều trên nhãn hoặc tư vấn thú y.",
+        "[Ghi chép lại đợt bệnh] Ghi ngày bắt đầu, triệu chứng chính, loại thuốc đã dùng, mức cải thiện. Lần sau nếu gặp lại sẽ dễ xử lý hơn và cung cấp thông tin chính xác cho thú y.",
+        "[Khi nào cần thú y trực tiếp] Nếu trong đàn có nhiều con cùng bệnh, gà chết nhanh, thở há mỏ hàng loạt, phân máu nhiều… phải liên hệ thú y đến kiểm tra trực tiếp, không tự xử lý kéo dài."
+      ]
+    },
+    {
+      "id": "pre_sale_and_loading",
+      "title": "Chuẩn bị trước khi xuất bán và bốc gà lên xe",
+      "goal": "Gà sạch, khỏe, hạn chế sụt cân và chết trong quá trình bắt - vận chuyển - giao cho người mua.",
+      "content": "Giai đoạn bắt, nhốt, vận chuyển cũng có thể làm gà chết hoặc sụt cân nếu làm ẩu. Chuẩn bị tốt từ trước giúp bán dễ hơn và ít rủi ro.",
+      "bullets": [
+        "[Dọn sạch chuồng trước xuất] Trước ngày bắt 1-2 ngày, dọn sạch khu vực bắt gà, hạn chế chướng ngại vật để thao tác nhanh, gọn, ít làm gà hoảng.",
+        "[Không để gà quá đói hoặc quá no] Trước khi bắt vài giờ, có thể thu cám để gà tiêu hóa bớt, giảm bẩn trong lúc vận chuyển. Tuy nhiên không để gà đói kiệt cả ngày.",
+        "[Bắt gà vào giờ mát] Ưu tiên bắt gà vào sáng sớm hoặc chiều mát để giảm stress nhiệt. Nếu bắt ban ngày nắng, cần che nắng tốt và thao tác nhanh.",
+        "[Sử dụng sọt/ghi hợp lý] Không nhét quá nhiều gà vào một sọt/lồng. Sắp xếp mật độ để gà đứng được, không bị đè chết khi xe phanh hoặc vào cua.",
+        "[Kiểm tra lại số lượng và tình trạng] Trước khi đóng kín xe, kiểm tra qua các lồng: có con nào bị kẹt cánh, kẹt cổ, nằm bẹp không. Xử lý ngay trước khi xe chạy.",
+        "[Giảm tiếng ồn và rung lắc] Trao đổi với tài xế về việc chạy êm, hạn chế bóp còi ngay sát khu vực chuồng. Tiếng ồn lớn, rung lắc mạnh làm gà càng hoảng, hao cân.",
+        "[Thông tin rõ cho người mua] Nếu đàn vừa trải qua một đợt bệnh, từng dùng thuốc gì, nên nói rõ thời gian ngưng thuốc theo nhãn để đảm bảo an toàn cho người sử dụng."
+      ]
+    }
+  ],
+  "notes": [
+    "Luôn điều chỉnh cách nuôi theo điều kiện thời tiết, khu vực và giống gà cụ thể, không áp dụng cứng nhắc.",
+    "Quan sát đàn gà hằng ngày quan trọng không kém việc cho ăn - cho uống.",
+    "Khẩu phần, chuồng trại và phòng bệnh phải đi cùng nhau thì nuôi gà thịt mới ổn định, ít hao hụt.",
+    "Mọi quyết định dùng thuốc điều trị bệnh nặng nên tham khảo ý kiến bác sĩ thú y tại địa phương."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi gà có dấu hiệu bệnh nặng (sốt cao, thở há mỏ hàng loạt, tiêu chảy máu, chết nhanh…), cần liên hệ thú y để được kiểm tra trực tiếp."
+}

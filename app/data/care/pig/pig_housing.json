@@ -1,0 +1,84 @@
+{
+  "id": "pig_housing",
+  "name": "Chuồng trại cho heo",
+  "species": "pig",
+  "group": "housing",
+  "overview": "Cẩm nang thiết kế và vận hành chuồng heo thịt trong trại theo tư duy sản xuất: input phải chuẩn để output mượt. KPI chuồng: khô - sạch - thoáng - ít khí độc - ít stress nhiệt - hạn chế mầm bệnh dây chuyền.",
+  "sections": [
+    {
+      "id": "foundation",
+      "title": "Nền tảng và vật liệu lõi chuồng",
+      "goal": "Nền vững, ít trơn, thoát nước nhanh, không tích bẩn.",
+      "content": "Chuồng xây sai móng thì mọi module khác sụp theo. Phải xử lý từ gốc.",
+      "bullets": [
+        "[Nền chuồng] Cao, phẳng, không đọng vũng. Nếu dùng sàn bê tông thì đánh nhám nhẹ để tăng bám chân; nếu dùng sàn slat (sàn khe) thì kiểm tra không gãy thanh, không kẹt chân.",
+        "[Rãnh thoát nước] Rộng vừa, dốc 1 chiều rõ ràng ra cống chính, không để nước phân tiểu chảy ngược lại khu nằm của heo.",
+        "[Mái chuồng] Mái cao, không quá thấp (bí hơi), không quá cao mất ấm đêm. Vật liệu mái sạch, bền, không dột nhỏ giọt lên khu nằm.",
+        "[Tường/chắn gió] Tường không bị thấm ẩm. Ban đêm lạnh có thể kéo bạt che gió phía hướng gió mạnh, nhưng mở thoáng lại khi trời ấm.",
+        "[Máng ăn/uống] Bền, dễ vệ sinh. Máng kê cao khỏi nền khi rửa chuồng để không văng nước vào thức ăn."
+      ]
+    },
+    {
+      "id": "climate",
+      "title": "Đối lưu khí, gió và nhiệt (climate control)",
+      "goal": "Gió đều ngang thân heo, không lùa trực tiếp vào mũi; nhiệt ổn định ngày-đêm.",
+      "content": "Chuồng có khí độc hoặc sốc nhiệt là nơi phát sinh bệnh nền lớn nhất.",
+      "bullets": [
+        "[Thông khí] Tạo luồng gió đối lưu ngang chuồng (cross ventilation). Không đóng kín bưng vì sợ lạnh, làm vậy khí amoniac (khí khai) tích lại còn hại hơn.",
+        "[Gió lùa] Kiểm tra hướng gió. Chắn gió thẳng ổ nằm, nhưng không chắn đối lưu ngang chuồng.",
+        "[Giữ ấm/mát] Ban ngày nắng nóng thì mở thoáng tối đa, có thể phun sương làm mát xung quanh (không thẳng khu nằm). Ban đêm lạnh ẩm thì giữ ấm bằng bạt hoặc hệ sưởi nhẹ, không tạo ẩm nền.",
+        "[Khí độc] Mùi khai cay mắt = chuồng thiếu đối lưu → tăng gió đối lưu ngay, dọn phân sớm hơn."
+      ]
+    },
+    {
+      "id": "density",
+      "title": "Mật độ nhốt và quy trình onboarding đàn",
+      "goal": "Không nhốt quá dày, tránh tranh chấp máng và chấn thương.",
+      "content": "Mật độ là thuật toán tối ưu không phải tối đa.",
+      "bullets": [
+        "[Chia ô] Nhốt theo ô, nhóm theo size càng đồng đều càng tốt.",
+        "[Không nhốt quá chật] Quá chật làm heo stress - dẫm đạp - tranh ăn và tăng cost ẩn (bệnh, sụt ăn).",
+        "[Lối di chuyển] Thiết kế đường đi 1 nẻo, ít góc cua, ít trượt ngã khi đuổi chuyển ô."
+      ]
+    },
+    {
+      "id": "cleaning",
+      "title": "Vệ sinh, xử lý phân và sát trùng (clean pipeline)",
+      "goal": "Chuồng không phải phòng lab thí nghiệm vi sinh vật tự do.",
+      "content": "Phòng lab heo = nền chuồng + không khí + máng ăn/uống.",
+      "bullets": [
+        "[Dọn phân] Dọn hằng sáng, không để phân ướt gần máng ăn/uống và khu nằm của đàn.",
+        "[Rửa nền] Rửa nền khi cần, xong để khô hoàn toàn. Không để ướt ẩm kéo dài tới đêm/lạnh.",
+        "[Sát trùng] Sát trùng đúng quy trình khi heo tạm xuất ổ để dọn chuồng sâu: chọn hoạt chất an toàn cho gia súc, phun đều nền - tường - góc ẩm, đợi khô rồi thả lại."
+      ]
+    },
+    {
+      "id": "biosecurity",
+      "title": "An toàn sinh học (Biosecurity)",
+      "goal": "Không cho mầm bệnh đột nhập hệ thống.",
+      "content": "Khu vòng ngoài quan trọng như firewall bảo vệ server.",
+      "bullets": [
+        "[Cổng trại] Có hố sát trùng chân trước khi bước vào khu nuôi.",
+        "[Người và đồ] Không cho người lạ, đồ lạ, hoặc động vật ngoài trại chạy vào khu chuồng.",
+        "[Dụng cụ] Dụng cụ xẻng, chổi, khay trộn cám phải rửa, phơi khô, không gom bừa bãi từ chuồng này sang chuồng khác."
+      ]
+    },
+    {
+      "id": "timing",
+      "title": "Giờ giấc vận hành chuồng (Timing & routine)",
+      "goal": "Chuồng vận hành như một dây chuyền đúng giờ.",
+      "content": "Heo thích đồng hồ đều như công sở thích lịch họp.",
+      "bullets": [
+        "[Giờ rửa máng] Buộc 1 lịch cố định rửa-phơi-nạp nước mới.",
+        "[Giờ ăn] Không rửa nền lúc gần giờ ăn vì nước phân tiểu văng vào máng tạo ẩm cám → rối ruột.",
+        "[Ghi log mùi chuồng] Mùi thay đổi liên tục khác thường cũng là 1 chỉ báo cần xem lại thông khí, ẩm."
+      ]
+    }
+  ],
+  "notes": [
+    "Chuồng tốt là asset dài hạn giúp giảm bệnh nền và tăng trọng mượt.",
+    "Đối lưu khí quan trọng hơn việc đóng kín sợ lạnh.",
+    "Luôn giữ máng khô khi rửa nền và thu phân đúng giờ."
+  ],
+  "warning": "Nội dung tham khảo. Chuồng khí độc, nền ướt, hoặc dịch âm ỉ trong đàn cần escalation ngay với thú y/kỹ thuật trại."
+}

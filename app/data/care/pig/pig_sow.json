@@ -1,0 +1,140 @@
+{
+  "id": "pig_sow",
+  "name": "Heo nái sinh sản",
+  "species": "pig",
+  "group": "sow",
+  "overview": "Cẩm nang quản lý heo nái sinh sản từ trước phối giống, mang thai, đẻ, nuôi con đến cai sữa và chuẩn bị cho lứa tiếp theo. Mục tiêu: nái khỏe, chân cẳng vững, lên giống đều, chửa chắc, đẻ gọn, nuôi con tốt, không tụt thể trạng nặng sau cai. Trọng tâm quản lý: thể trạng (body condition), chân - móng, tử cung - vú, dinh dưỡng và môi trường chuồng.",
+  "sections": [
+    {
+      "id": "gilt_selection",
+      "title": "Chọn và chuẩn bị heo cái hậu bị vào nái",
+      "goal": "Đưa vào đàn nái những con cái có khung xương tốt, chân khỏe, tính nết hiền, tiềm năng sữa khá.",
+      "content": "Chọn giống hậu bị là bước đặt nền cho toàn bộ đàn nái sau này. Hậu bị không đạt sẽ kéo theo nái xấu, đẻ ít, nuôi con kém và nhanh loại thải.",
+      "bullets": [
+        "[Khung xương và chân cẳng] Chọn heo cái có khung dài vừa, lưng thẳng, chân thẳng, móng không bị xoắn vẹo. Tránh con chân yếu, đi khập khiễng, lưng cong võng rõ.",
+        "[Số vú và chất lượng vú] Ưu tiên heo có nhiều vú hữu dụng, vú xếp thẳng, núm đều, không vú kẹ hoặc quá nhỏ. Vú là nơi nuôi cả đàn con, nên phải được kiểm kỹ.",
+        "[Tính nết] Chọn con hiền, ít hoảng loạn, không quá hung dữ. Nái hiền giúp quản lý dễ, ít đè/con, giảm tai nạn trong chuồng đẻ.",
+        "[Tiền sử sức khỏe] Hạn chế chọn những con từng bị bệnh nặng đường hô hấp, tiêu hóa kéo dài hoặc chậm lớn quá mức.",
+        "[Chuẩn bị thể trạng] Trước khi đưa vào nái, heo hậu bị phải đạt thể trạng vừa phải: không quá gầy (xương nổi), không quá béo (mỡ lưng dày).",
+        "[Tập quen chuồng] Đưa heo hậu bị vào khu chuồng riêng ổn định, cho làm quen với tiếng động, lịch ăn và cách vận hành trại trước khi phối giống."
+      ]
+    },
+    {
+      "id": "pre_mating",
+      "title": "Giai đoạn trước phối giống",
+      "goal": "Đưa nái về thể trạng phù hợp, lên giống rõ, tử cung - buồng trứng sẵn sàng cho chửa khỏe.",
+      "content": "Trước khi phối, cần chỉnh lại dinh dưỡng, quan sát chu kỳ lên giống và đảm bảo sức khỏe tổng thể của nái.",
+      "bullets": [
+        "[Thể trạng trước phối] Nái quá gầy sẽ khó đậu thai, nái quá béo dễ rối loạn nội tiết. Quan sát lưng: nên có lớp thịt vừa phải, sờ thấy xương nhưng không nhô sắc.",
+        "[Khẩu phần] Giữ khẩu phần ổn định, không nhồi đột ngột trước ngày phối. Cám đủ năng lượng, có bổ sung khoáng - vitamin theo hướng dẫn trên nhãn để hỗ trợ sinh sản.",
+        "[Theo dõi lên giống] Quan sát dấu hiệu: âm hộ sưng đỏ, đứng yên cho con đực nhảy, kêu, ăn giảm nhẹ. Ghi lại ngày bắt đầu lên giống để lên lịch phối hợp lý.",
+        "[Kiểm tra sức khỏe] Trước phối, nái phải không sốt, không ho nặng, không tiêu chảy. Nái đang bệnh hoặc suy nên điều trị ổn rồi mới phối.",
+        "[Môi trường] Chuồng nái phải khô ráo, không trơn, gió thoáng nhẹ. Nái trượt ngã, đau chân trước thời điểm phối sẽ ảnh hưởng xấu đến cả lứa.",
+        "[Liên hệ mục bệnh khi nghi ngờ] Nếu nái có dịch bất thường ở âm hộ, mùi hôi, hoặc lên giống thất thường, nên tra mục bệnh sinh sản trong app và tham khảo thú y."
+      ]
+    },
+    {
+      "id": "early_pregnancy",
+      "title": "Giai đoạn đầu mang thai",
+      "goal": "Giữ phôi bám tốt, hạn chế sảy thai sớm, ổn định tâm lý và dinh dưỡng cho nái.",
+      "content": "Giai đoạn đầu sau phối là lúc phôi đang bám vào tử cung. Stress mạnh, dinh dưỡng thay đổi đột ngột hoặc bệnh nặng có thể làm mất thai.",
+      "bullets": [
+        "[Hạn chế xáo trộn] Không chuyển chuồng liên tục, không dồn ép hoặc đánh đập nái. Cố gắng giữ môi trường yên tĩnh, ít thay đổi.",
+        "[Không nhốt chung với heo hung] Tránh nhốt chung với heo đực hoặc nái hung tính, dễ cắn nhau gây stress hoặc chấn thương.",
+        "[Khẩu phần ổn định] Duy trì cám ổn định, năng lượng vừa phải, không nhồi quá mức vì 'sợ đói ảnh hưởng thai'. Quá béo trong giai đoạn này cũng không tốt.",
+        "[Theo dõi dịch âm hộ] Thỉnh thoảng kiểm tra có dịch bất thường (máu, mủ, mùi hôi) không. Nếu có, có thể là dấu hiệu sảy thai hoặc viêm tử cung, cần liên hệ thú y sớm.",
+        "[Kiểm tra hô hấp và phân] Nái ho, sốt, tiêu chảy nặng trong giai đoạn này có thể ảnh hưởng tới thai. Khi đó, ưu tiên xử lý bệnh cho nái theo hướng dẫn trong mục bệnh, dùng thuốc được khuyến cáo an toàn cho heo chửa.",
+        "[Không tẩy giun hoặc tiêm phòng mạnh nếu không theo lịch] Bất kỳ can thiệp nào (tẩy giun, tiêm phòng) nên được thực hiện theo lịch rõ ràng và tư vấn thú y, tránh làm vào những ngày nái đang stress hoặc không khỏe."
+      ]
+    },
+    {
+      "id": "mid_pregnancy",
+      "title": "Giữa thai kỳ",
+      "goal": "Giữ nái khỏe, thai phát triển đều, chân cẳng vững, không béo quá hoặc gầy quá.",
+      "content": "Đây là giai đoạn tương đối ổn định. Tập trung vào dinh dưỡng cân bằng, quản lý chân - móng và môi trường chuồng.",
+      "bullets": [
+        "[Điều chỉnh khẩu phần theo thể trạng] Nếu nái hơi gầy có thể tăng nhẹ khẩu phần; nếu quá béo thì giữ mức vừa phải, không nhồi thêm.",
+        "[Dinh dưỡng] Cám có đạm và khoáng vừa phải, bổ sung khoáng - vitamin dành cho nái chửa theo hướng dẫn trên nhãn, không tự ý pha trộn thêm các chất lạ.",
+        "[Chân - móng] Kiểm tra móng định kỳ, cắt tỉa gọn trước khi quá dài gây đau chân. Nền chuồng không trơn để tránh trượt ngã.",
+        "[Vệ sinh chuồng] Giữ nền khô, giảm khí độc, giúp nái dễ thở. Không để mùi khai nặng, ẩm ướt kéo dài.",
+        "[Kiểm soát ký sinh trùng] Nếu có kế hoạch tẩy giun cho nái chửa, cần làm theo lịch và sản phẩm an toàn cho heo mang thai, tuân thủ chặt chẽ hướng dẫn trên nhãn và tư vấn thú y.",
+        "[Theo dõi hành vi] Nái khỏe sẽ ăn đều, nằm - đứng bình thường, không có dấu hiệu đau bụng hoặc bất thường rõ rệt."
+      ]
+    },
+    {
+      "id": "late_pregnancy_pre_farrowing",
+      "title": "Cuối thai kỳ và chuẩn bị đẻ",
+      "goal": "Chuẩn bị ô đẻ sạch, an toàn; nái vào chuồng đẻ sớm, giảm stress trước khi sinh.",
+      "content": "Giai đoạn cuối thai kỳ, thai lớn nhanh, trọng lượng nái tăng, nhu cầu dưỡng chất cho vú và thai cũng cao. Chuẩn bị chuồng đẻ kỹ giúp giảm tai nạn lúc sinh.",
+      "bullets": [
+        "[Chuyển nái vào chuồng đẻ sớm] Đưa nái vào ô đẻ trước ngày dự kiến sinh một thời gian phù hợp để nái quen chuồng mới, không bị lạ chuồng đúng lúc đau đẻ.",
+        "[Chuồng đẻ sạch và khô] Dọn phân, rửa chuồng, sát trùng trước khi đưa nái vào, sau đó để khô. Chuồng có khu nằm cho nái và khu an toàn cho heo con (khu ấm, nan chắn đè).",
+        "[Điều chỉnh khẩu phần] Gần ngày đẻ, có thể điều chỉnh khẩu phần theo tư vấn kỹ thuật để tránh nái táo bón nặng. Không cho nái ăn quá no sát giờ đẻ.",
+        "[Quan sát vú và âm hộ] Vú căng sữa, âm hộ nở và có thể tiết dịch trong, nái bồn chồn, làm ổ… là dấu hiệu sắp đẻ. Ghi lại thời điểm bắt đầu để theo dõi tiến trình.",
+        "[Chuẩn bị dụng cụ] Chuẩn bị khăn sạch, găng tay, dung dịch sát trùng, xô, đèn sưởi cho heo con, sẵn sàng hỗ trợ nếu heo con yếu hoặc cần lau khô nhanh.",
+        "[Giữ không gian yên tĩnh] Hạn chế người lạ ra vào, không la hét, không cho chó/động vật khác quấy rối khu chuồng đẻ."
+      ]
+    },
+    {
+      "id": "farrowing_and_immediate_postpartum",
+      "title": "Lúc đẻ và ngay sau đẻ",
+      "goal": "Nái đẻ gọn, ít tai biến; heo con ra đời an toàn, sớm bú sữa non.",
+      "content": "Giai đoạn đẻ là thời điểm nhạy cảm nhất cho cả nái và heo con. Cần quan sát kỹ nhưng can thiệp đúng mực, không lạm dụng kéo, đỡ tay khi không cần thiết.",
+      "bullets": [
+        "[Quan sát tiến trình đẻ] Khi nái bắt đầu rặn, ghi lại thời điểm. Heo con ra đều, khoảng cách hợp lý. Nếu nái rặn lâu mà không ra con, cần cân nhắc gọi thú y.",
+        "[Hỗ trợ cơ bản] Lau sạch nhớt quanh miệng, mũi heo con yếu, giúp heo con thở tốt rồi đặt gần vú mẹ. Không cần tắm toàn thân bằng nước lạnh lúc mới đẻ.",
+        "[Vệ sinh ô đẻ] Trong quá trình đẻ, dọn bớt nhau thai, chất bẩn quá nhiều, nhưng không làm nái hoảng. Giữ khu nằm tương đối sạch và khô.",
+        "[Theo dõi nái sau đẻ] Quan sát xem nái có đứng lên đột ngột, quằn quại đau, sốt cao, thở khó hay không. Đây có thể là dấu hiệu viêm tử cung, bế sản dịch hoặc các biến chứng khác.",
+        "[Dòng sữa đầu] Sau khi đẻ xong, kiểm tra sữa ở vài vú chính, đảm bảo sữa chảy bình thường, không cục, không mùi quá lạ.",
+        "[Không lạm dụng thuốc mạnh tự ý] Khi thấy có bất thường (đẻ khó, đẻ lâu, dịch bất thường, nái sốt cao), nên liên hệ thú y để được hướng dẫn phác đồ phù hợp thay vì tự dùng thuốc nặng."
+      ]
+    },
+    {
+      "id": "lactation_and_piglet_rearing",
+      "title": "Giai đoạn nuôi con (đang cho bú)",
+      "goal": "Giữ nái ăn khỏe, không tụt thể trạng quá nhanh, cho đủ sữa để heo con đều đàn.",
+      "content": "Trong giai đoạn nuôi con, nái phải gánh cả bản thân và đàn con. Dinh dưỡng, nước uống và môi trường là ba yếu tố quyết định khả năng nuôi con.",
+      "bullets": [
+        "[Nước uống luôn đủ] Nái nuôi con cần rất nhiều nước để tạo sữa. Máng nước phải luôn có, sạch và dễ tiếp cận.",
+        "[Khẩu phần tăng dần] Tăng dần lượng cám cho nái sau sinh, theo dõi phân và mức ăn. Không nhồi đột ngột quá nhiều cám gây rối ruột hoặc chán ăn.",
+        "[Quan sát đàn con] Heo con bú đủ thì bụng căng, nằm ngủ yên, ít kêu ré. Nếu nhiều con thường xuyên kêu, tranh vú dữ dội, có thể sữa mẹ không đủ hoặc có vú tắc.",
+        "[Kiểm tra vú mẹ] Quan sát vú xem có chỗ sưng nóng, đỏ, đau khi chạm không. Đó có thể là dấu hiệu viêm vú, cần xử lý sớm theo hướng dẫn trong mục bệnh.",
+        "[Giữ chuồng khô] Phân và nước tiểu phải được dọn đều, không để heo con nằm trên nền ẩm. Nền ẩm kéo dài rất dễ gây tiêu chảy và viêm phổi.",
+        "[Theo dõi thể trạng nái] Nếu nái sụt nhanh, lộ xương, ăn kém, cần xem lại khẩu phần và tình trạng bệnh. Nái tụt thể trạng quá sâu sẽ ảnh hưởng lứa sau."
+      ]
+    },
+    {
+      "id": "weaning_and_recovery",
+      "title": "Cai sữa và phục hồi nái sau cai",
+      "goal": "Cai sữa có kiểm soát, nái phục hồi thể trạng để chuẩn bị cho lứa kế tiếp.",
+      "content": "Sau khi cai sữa, mục tiêu là cho nái nghỉ, phục hồi dần cơ thể và tử cung, không để viêm vú kéo dài hoặc quá béo quá gầy.",
+      "bullets": [
+        "[Giảm khẩu phần trước cai] Trước ngày cai 1-2 ngày, có thể giảm nhẹ khẩu phần cho nái theo khuyến cáo kỹ thuật để giảm áp lực sữa, hạn chế viêm vú sau cai.",
+        "[Tách con gọn] Khi cai sữa, tách đàn con ra chuồng khác. Hạn chế để heo con chạy lại gần mẹ nhiều lần gây stress cho cả hai.",
+        "[Theo dõi vú sau cai] Kiểm tra vú trong vài ngày sau cai: vú mềm dần, không sưng nóng, không đau. Nếu vú căng cứng, nóng, nái sốt, cần xem mục bệnh viêm vú và liên hệ thú y.",
+        "[Điều chỉnh khẩu phần] Sau cai, chuyển dần khẩu phần từ 'nuôi con' sang 'khẩu phần nái trống', tránh vừa cai vừa nhồi ăn quá mạnh.",
+        "[Giảm stress] Hạn chế chuyển chuồng nhiều lần sát thời điểm cai. Giữ môi trường tương đối ổn định để nái không bị stress liên tục.",
+        "[Chuẩn bị cho lần phối tiếp] Khi nái đã phục hồi ăn tốt, thể trạng khá, chu kỳ lên giống trở lại đều, có thể lên lịch phối tiếp theo kế hoạch trại."
+      ]
+    },
+    {
+      "id": "sow_health_monitoring",
+      "title": "Theo dõi sức khỏe nái dài hạn",
+      "goal": "Giữ nái khỏe qua nhiều lứa, không để bệnh mạn tính âm ỉ làm giảm hiệu quả sinh sản.",
+      "content": "Quản lý nái không chỉ nhìn vào từng lứa mà phải nhìn theo chuỗi nhiều lứa. Cần có thói quen ghi chép và đánh giá dài hạn.",
+      "bullets": [
+        "[Ghi chép từng lứa] Số con đẻ, số con sống, số con cai, tình trạng vú, bệnh gặp trong lứa phải được ghi rõ theo từng nái.",
+        "[Chân cẳng qua thời gian] Theo dõi chân - móng của nái qua từng lứa. Nái đi lại khó khăn cần được chăm nền chuồng tốt hơn hoặc xem xét thay thế nếu không cải thiện.",
+        "[Chu kỳ lên giống] Lên giống đều và đậu thai tốt là dấu hiệu quan trọng. Nái nhiều lần không đậu thai hoặc trễ giống cần đánh giá lại sức khỏe sinh sản.",
+        "[Bệnh mạn tính] Nái ho mạn, viêm tử cung tái diễn, viêm vú nhiều lần là tín hiệu nên bàn với thú y/kỹ thuật về việc loại thải hoặc điều chỉnh quản lý.",
+        "[Kết nối với mục bệnh] Khi gặp bất kỳ vấn đề sinh sản (sảy thai, chết lưu, dịch âm hộ, mất sữa…), nên đối chiếu mục bệnh Sinh sản trong app để hiểu bản chất và có hướng xử lý phù hợp."
+      ]
+    }
+  ],
+  "notes": [
+    "Heo nái là tài sản dài hạn của trại, cần được quản lý như một \"dự án nhiều năm\" chứ không chỉ nhìn vào một lứa đẻ.",
+    "Thể trạng, chân cẳng, vú và tử cung là bốn điểm cần theo dõi xuyên suốt đời nái.",
+    "Mọi can thiệp thuốc và vắc xin nên tuân theo hướng dẫn trên nhãn và tư vấn thú y, đặc biệt trong giai đoạn mang thai và nuôi con."
+  ],
+  "warning": "Thông tin trong mục chăm sóc heo nái sinh sản chỉ mang tính tham khảo, không thay thế cho chẩn đoán và phác đồ của bác sĩ thú y. Khi nái có dấu hiệu đẻ khó, chảy dịch bất thường, sốt cao, bỏ ăn, viêm vú nặng hoặc sảy thai hàng loạt, cần liên hệ thú y hoặc kỹ thuật trại để kiểm tra trực tiếp."
+}

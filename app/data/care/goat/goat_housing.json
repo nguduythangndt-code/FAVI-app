@@ -1,0 +1,148 @@
+{
+  "id": "goat_housing",
+  "name": "Chuồng trại dê",
+  "species": "goat",
+  "group": "housing",
+  "overview": "Cẩm nang thiết kế, xây dựng và vận hành chuồng trại chuyên cho dê. Mục tiêu: chuồng luôn sạch - khô - thoáng - ấm đêm - mát ngày; dễ chia ô, dễ dọn vệ sinh, dễ cách ly khi có dê bệnh. Chuồng tốt giảm rất nhiều bệnh hô hấp, tiêu hóa, ký sinh trùng và tai nạn trượt ngã.",
+  "sections": [
+    {
+      "id": "site_selection_layout",
+      "title": "Vị trí và bố trí tổng thể chuồng dê",
+      "goal": "Chọn vị trí cao ráo, thoát nước tốt, hạn chế khí độc và ẩm kéo dài; bố trí lối đi, ô chuồng, khu xử lý phân hợp lý.",
+      "content": "Đặt chuồng đúng chỗ sẽ giảm rất nhiều rủi ro nồm ẩm, ngập úng, muỗi - ruồi - mùi nặng. Bố trí hợp lý giúp cho ăn, dọn vệ sinh, bắt dê và cách ly nhanh gọn, không phải rượt đuổi nhiều.",
+      "bullets": [
+        "Ưu tiên nền đất cao, có độ dốc nhẹ để nước mưa và nước vệ sinh chảy ra rãnh thoát, không đọng quanh chân chuồng.",
+        "Không đặt chuồng sát ao tù, hố phân hở, hầm biogas, bãi rác… vì khí độc (NH3, H2S) và ẩm sẽ bốc ngược vào chuồng.",
+        "Hướng chuồng ưu tiên Đông Nam hoặc Nam để đón nắng sáng, tránh gió rét mùa Đông Bắc thổi trực tiếp vào dê.",
+        "Thiết kế lối đi đủ rộng để kéo xe cỏ, xe phân, quay đầu dễ, không phải nhấc tay từng bao qua cửa hẹp.",
+        "Chia khu rõ ràng: khu dê con - hậu bị, khu dê vỗ béo, khu dê mẹ chửa - đẻ, khu cách ly bệnh, khu chứa cỏ - thức ăn, khu xử lý phân.",
+        "Đảm bảo có điểm cấp nước đầu nguồn gần chuồng (vòi, bồn) để rửa máng và cấp nước uống thuận tiện mỗi ngày.",
+        "Tính trước khả năng mở rộng: chừa khoảng trống hai bên hoặc phía sau để tăng ô chuồng khi đàn lớn lên, tránh bị bí đường mở rộng sau này."
+      ]
+    },
+    {
+      "id": "structure_floor",
+      "title": "Kết cấu khung chuồng và sàn/nền",
+      "goal": "Khung chắc, sàn an toàn, không trơn, dễ thoát ẩm, không gây kẹt chân hay viêm kẽ chân.",
+      "content": "Khung và sàn là phần chịu lực và chịu bẩn nhiều nhất. Một khi đã làm sai, việc sửa rất tốn kém. Cần ưu tiên độ bền, an toàn cho chân móng và khả năng vệ sinh.",
+      "bullets": [
+        "Khung chuồng dùng gỗ cứng, tre già hoặc sắt hộp; hạn chế dùng gỗ tạp mềm, nhanh mục và dễ gãy.",
+        "Nếu làm sàn cao: nâng sàn cao khỏi mặt đất 70-100 cm tùy vùng để gió lưu thông dưới sàn, phân rơi xuống không bám vào chân dê.",
+        "Thanh sàn bố trí song song, khe sàn hẹp vừa đủ để phân rơi xuống nhưng móng dê không lọt; khoảng cách khe sai dễ gây trượt, móng bị kẹt hoặc kẹt chân dê con.",
+        "Thanh sàn cần bào nhẵn vừa phải, không có dằm, không sắc cạnh để tránh xây xước bắp chân, nhất là với dê con.",
+        "Nếu làm nền đặc (không sàn cao): nền bê tông phải có độ dốc nhẹ về phía rãnh thoát; bề mặt xoa nhám hoặc tạo gân để dê không bị trượt.",
+        "Không để chỗ nào trên sàn/nền tạo hố trũng đọng nước; các điểm trũng là nơi ẩm mốc, sinh ruồi và làm nặng viêm kẽ chân.",
+        "Chân cột chuồng cần kê bằng bê tông hoặc đá để tránh mục gốc, nhất là vùng mưa nhiều hoặc nền ẩm lâu ngày."
+      ]
+    },
+    {
+      "id": "roof_walls_climate",
+      "title": "Mái, vách và tiểu khí hậu trong chuồng",
+      "goal": "Chuồng mát về ngày nắng, không gió lùa lạnh về đêm, hạn chế đọng hơi nước trên trần và vách.",
+      "content": "Tiểu khí hậu (nhiệt độ, độ ẩm, gió, ánh sáng) trong chuồng quyết định lớn đến bệnh hô hấp và tốc độ tăng trưởng. Không tối quá, không bí quá, không gió thốc, không nắng gắt chiếu thẳng.",
+      "bullets": [
+        "Mái có thể dùng tôn, ngói hoặc vật liệu tương đương; nếu dùng tôn nên có lớp cách nhiệt hoặc trần phụ để giảm nóng trực tiếp vào lưng dê.",
+        "Độ dốc mái đủ để nước mưa chảy nhanh, không đọng trên mái lâu gây dột hoặc rỉ nước vào chuồng.",
+        "Vách chuồng nên làm thoáng phần trên (lưới, nan gỗ, thanh sắt) để gió lưu thông; phần dưới có thể che kín một phần để tránh gió lùa thổi ngang bụng dê.",
+        "Ở vùng gió mùa lạnh, nên có bạt hoặc phên che linh hoạt: ban ngày cuộn lên cho thoáng, đêm và ngày gió lạnh hạ xuống để chắn gió.",
+        "Đảm bảo chuồng nhận được ánh sáng tự nhiên vừa đủ, nhất là nắng buổi sáng để sát trùng tự nhiên và làm khô nền nhanh.",
+        "Không để ánh nắng trực tiếp chiếu vào máng ăn - máng nước đến mức làm nóng nước hoặc làm thức ăn nhanh thiu.",
+        "Nếu trần hoặc mái hay đọng hơi nước (ngưng tụ), cần cải thiện thông gió ngang và trên cao để hơi ẩm thoát ra nhanh hơn."
+      ]
+    },
+    {
+      "id": "feeding_and_water_system",
+      "title": "Máng ăn, máng nước và khu thức ăn",
+      "goal": "Thức ăn luôn sạch, nước không nhiễm phân - rác, đủ chỗ cho mọi con ăn uống không tranh giành quá mức.",
+      "content": "Dê ăn cỏ bẩn, cỏ dính phân hoặc uống nước bẩn là cửa ngõ của tiêu chảy và ký sinh. Thiết kế máng đúng sẽ giảm lãng phí, giảm nhiễm bẩn và biến việc cho ăn thành thao tác nhanh gọn.",
+      "bullets": [
+        "Máng cỏ nên thiết kế dạng dài, dọc theo cạnh ô chuồng, cao vừa tầm để dê ăn được nhưng không bước chân vào trong máng.",
+        "Miệng máng không nên quá thấp sát nền, tránh cỏ/tinh bị văng ra nền ẩm rồi dê lại nhặt ăn.",
+        "Máng tinh (nếu tách riêng) nên để sát máng cỏ hoặc treo tường, chia ô để giảm húc nhau tranh cám.",
+        "Khu để cỏ dự trữ (cỏ khô, bó cỏ) phải ở vị trí cao, khô, có mái che, tránh mưa tạt làm mốc và lên men nóng.",
+        "Máng nước có thể dùng xô, chậu, bồn thấp… nhưng phải cố định hoặc kê chắc chắn để dê không dễ lật đổ.",
+        "Rửa máng nước hằng ngày, thay nước mới; không để nước xanh rêu, có cặn bẩn, lông, phân, cỏ thối.",
+        "Ở ô dê con/dê yếu, nên bố trí máng nước thấp hơn hoặc bậc thang để chúng tiếp cận dễ hơn, tránh phụ thuộc hoàn toàn vào nước từ ô bên cạnh."
+      ]
+    },
+    {
+      "id": "pen_design_density",
+      "title": "Thiết kế ô chuồng, mật độ nuôi và luồng di chuyển",
+      "goal": "Dê có đủ không gian nằm đứng, không dẫm đè nhau; dễ tách - nhập - bắt dê khi cần.",
+      "content": "Ô chuồng hợp lý giúp quản lý theo lứa tuổi, thể trạng, nguồn gốc, đồng thời hỗ trợ rất nhiều cho việc tách lô bệnh, cho ăn theo nhóm và xử lý kỹ thuật hàng ngày.",
+      "bullets": [
+        "Chia ô riêng cho: dê con, dê hậu bị, dê vỗ béo, dê mẹ mang thai, dê mẹ có con, dê bệnh/cách ly. Không trộn lẫn tất cả vào một ô cho tiện.",
+        "Cửa ô nên rộng đủ cho 2-3 con ra vào cùng lúc mà không phải cố chen, tránh bị kẹt, xước sườn.",
+        "Bố trí lối đi chính thẳng, không ngoằn ngoèo quá nhiều góc cua, để dễ dồn dê và kéo xe cho ăn/dọn phân.",
+        "Không nhốt quá chật đến mức dê phải nằm chen lên nhau, đứng không quay được người; mật độ quá dày là nền cho bệnh hô hấp, cầu trùng và ghẻ.",
+        "Ô dành cho dê chửa sát ngày đẻ nên ở vị trí yên tĩnh, ít người qua lại, tránh cạnh ô dê đực hoặc dê nghịch hay húc.",
+        "Có sẵn ít nhất 1-2 ô nhỏ làm khu cách ly tạm thời cho dê bệnh hoặc dê yếu để chăm riêng, dễ theo dõi và hạn chế lây cả đàn.",
+        "Thanh chắn giữa các ô nên thiết kế vừa để dê nhìn thấy nhau (giảm stress) nhưng không thò được đầu sang cắn/húc nhau liên tục."
+      ]
+    },
+    {
+      "id": "hygiene_manure_drainage",
+      "title": "Vệ sinh, thoát nước và xử lý phân",
+      "goal": "Chuồng không mùi nặng, nền khô nhanh sau khi dọn, hạn chế ruồi - muỗi và mầm bệnh tồn lưu.",
+      "content": "Vệ sinh chuồng không chỉ là quét cho sạch nhìn thấy, mà là kiểm soát độ ẩm, tích tụ phân - nước tiểu và khí độc. Làm đúng giúp giảm rõ rệt bệnh tiêu hóa, hô hấp và chân móng.",
+      "bullets": [
+        "Dọn phân bề mặt ít nhất 1 lần/ngày; nơi dê nằm, quanh máng ăn - máng nước cần kiểm tra thường xuyên hơn.",
+        "Rãnh thoát nước phải thông suốt, không bị rác, rêu, cỏ vụn chắn làm đọng nước, bốc mùi.",
+        "Không xịt rửa nền chuồng bằng nước nhiều lần trong ngày làm nền luôn ướt; nên dọn phân khô là chính, chỉ rửa khi cần và sau đó phải đảm bảo nền khô lại.",
+        "Nếu dùng chất độn (trấu, rơm, mùn cưa): cần xới tơi bề mặt hằng ngày, thay mới vùng ướt, không để tích lớp ẩm dày lâu ngày.",
+        "Khu chứa phân phải đặt xa chuồng, có mái che hoặc phủ bạt để hạn chế mưa ướt, không để nước rỉ phân chảy ngược về khu chuồng.",
+        "Luân phiên tổng vệ sinh, sát trùng nền, vách, máng vào những lúc trống lô hoặc ít dê nhất; sử dụng sản phẩm sát trùng cho gia súc theo nhãn, tránh phun trực tiếp vào mặt dê.",
+        "Kiểm soát ruồi bằng bẫy, lưới hoặc sản phẩm an toàn cho gia súc; ruồi nhiều là dấu hiệu nền ẩm, phân tồn đọng và vệ sinh chưa tốt."
+      ]
+    },
+    {
+      "id": "biosecurity_quarantine",
+      "title": "An toàn sinh học và khu cách ly",
+      "goal": "Giảm nguy cơ mang mầm bệnh từ bên ngoài vào đàn và hạn chế lây lan khi có ca bệnh.",
+      "content": "Chuồng trại muốn bền phải coi mỗi dê nhập mới hoặc người - xe ra vào như một nguồn mầm bệnh tiềm năng. Thiết lập quy tắc đơn giản nhưng tuân thủ được là quan trọng.",
+      "bullets": [
+        "Bố trí khu cách ly riêng cho dê mới nhập về: tách khỏi đàn chính trong một thời gian nhất định để theo dõi sức khỏe.",
+        "Không cho người lạ tự do ra vào khu chuồng, đặc biệt là đi từ chuồng trại khác sang mà không thay dép, không vệ sinh.",
+        "Hạn chế để chó, mèo, gia cầm chạy lung tung trong khu chuồng vì có thể mang theo mầm bệnh, ký sinh trùng.",
+        "Dụng cụ dùng cho khu cách ly (xô, chổi, cào) nên tách riêng, không dùng chung với khu đàn khỏe.",
+        "Khi có dê bệnh, ưu tiên chuyển ngay sang ô cách ly, giảm tiếp xúc trực tiếp với đàn còn lại.",
+        "Cán bộ thú y hoặc người xử lý dê bệnh nên rửa tay, thay đồ cơ bản trước khi quay lại chăm đàn khỏe."
+      ]
+    },
+    {
+      "id": "special_weather_management",
+      "title": "Quản lý chuồng trong thời tiết cực đoan",
+      "goal": "Giảm sốc nhiệt - sốc ẩm cho đàn dê khi nắng nóng, rét đậm hoặc mưa nồm kéo dài.",
+      "content": "Thời tiết cực đoan là lúc hệ miễn dịch dê bị thử thách mạnh nhất. Chuồng trại chuẩn phải có sẵn kịch bản cho từng kiểu thời tiết, không đợi đến khi dê ho, tiêu chảy rồi mới sửa.",
+      "bullets": [
+        "Trời nắng nóng: mở tối đa các ô thoáng, tận dụng gió tự nhiên; nếu mái tôn hấp nhiệt mạnh, có thể lắp thêm lưới che nắng phía trên mái hoặc trần phụ bên dưới.",
+        "Nắng nóng kéo dài: hạn chế nhốt quá dày, tránh phơi nắng trực tiếp lâu, đảm bảo nước uống mát và sạch luôn sẵn trong máng.",
+        "Rét đậm hoặc mưa phùn lạnh: hạ bạt che kín hướng gió lạnh, tăng độ dày chất độn khô (nếu dùng), nhóm đàn dê con và dê yếu vào ô ấm hơn.",
+        "Mưa nồm kéo dài: hạn chế rửa nền bằng nước; dọn phân khô là chính, tăng cường thông gió trên cao nhưng tránh gió lùa sát thân dê.",
+        "Thời điểm giao mùa: không tăng mật độ đàn, không nhập thêm nhiều dê mới cùng lúc khi chuồng đang ẩm, tránh bùng bệnh hô hấp hàng loạt.",
+        "Khi có đợt thời tiết cực đoan, nên ưu tiên cho ăn cỏ khô/cỏ ít nước, giảm phụ phẩm dễ lên men, giữ dạ cỏ ổn định cho đàn."
+      ]
+    },
+    {
+      "id": "maintenance_and_safety",
+      "title": "Bảo trì chuồng và an toàn cho dê",
+      "goal": "Phát hiện và sửa kịp thời các điểm nguy hiểm, tránh tai nạn do chuồng hỏng.",
+      "content": "Chuồng dùng lâu sẽ mòn, gãy, lỏng ốc, gỉ sét… Nếu không kiểm tra định kỳ dễ xảy ra tai nạn: dê sập sàn, kẹt chân, rách da, vướng cổ.",
+      "bullets": [
+        "Định kỳ kiểm tra các thanh sàn: thay ngay thanh nứt, mục, lỏng; không chờ đến khi gãy hẳn mới sửa.",
+        "Kiểm tra đinh, vít, dây thép nhô ra ở vách, cửa, máng; xử lý để dê không bị xước da, rách bầu vú hoặc mắc sừng.",
+        "Khóa cài cửa chuồng phải chắc chắn, tránh trường hợp dê tự đẩy cửa thoát ra ngoài, chạy lạc hoặc tai nạn đường đi.",
+        "Kiểm tra độ chắc của cột, xà mái sau mỗi mùa mưa bão; gia cố kịp thời nếu có dấu hiệu nghiêng, lún.",
+        "Không để dụng cụ sắc nhọn, dao, cưa, dây điện trần… trong phạm vi dê có thể với tới.",
+        "Ghi chép những lần sửa chữa lớn để lên kế hoạch thay mới dần, tránh để chuồng xuống cấp đồng loạt."
+      ]
+    }
+  ],
+  "notes": [
+    "Chuồng tốt giúp giảm một nửa rủi ro bệnh dù khẩu phần chưa tối ưu. Chuồng xấu làm hỏng mọi nỗ lực chăm sóc và thuốc men.",
+    "Nguyên tắc cốt lõi: sạch - khô - thoáng - ấm đêm - mát ngày; mọi quyết định sửa chữa, xây mới đều nên xoay quanh nguyên tắc này.",
+    "Bố trí ô chuồng, máng ăn, máng nước và lối đi phải phục vụ cách ly, cho ăn, dọn vệ sinh và bắt dê dễ dàng - nếu thao tác khó thì về lâu dài sẽ bỏ bớt tiêu chuẩn vệ sinh.",
+    "Kiểm tra chuồng định kỳ và bảo trì chủ động luôn rẻ hơn rất nhiều so với chi phí mất dê do tai nạn hoặc bệnh bùng phát vì chuồng xuống cấp."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho đánh giá trực tiếp hiện trường của bác sĩ thú y hoặc kỹ thuật viên chăn nuôi. Khi phát hiện chuồng ẩm nặng, nhiều dê cùng ho hoặc tiêu chảy, tai nạn chuồng lặp lại, nên mời người có chuyên môn đến khảo sát để điều chỉnh tổng thể."
+}

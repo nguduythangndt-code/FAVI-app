@@ -1,0 +1,100 @@
+{
+  "id": "pig_feeding",
+  "name": "Thức ăn & khẩu phần heo",
+  "species": "pig",
+  "group": "feeding",
+  "overview": "Cẩm nang quản lý thức ăn cho heo thịt trong trại. Mục tiêu: khẩu phần trơn tru, cám sạch - khô, nước đủ 24/7, tăng trọng đều và hạn chế stress ruột. Quản lý tốt phần này giúp giảm bệnh nền và tránh hao hụt ngân sách.",
+  "sections": [
+    {
+      "id": "feed_core",
+      "title": "Cám nền cho heo vỗ béo",
+      "goal": "Giữ nhịp ăn ổn định và hệ ruột khỏe.",
+      "content": "Cám là input chính của quá trình tăng trọng. Không phải cứ đạm cao là tốt. Thứ cần là cám hợp trại, hạt tơi, không ẩm mốc, không chứa tạp chất hoặc mùi lạ.",
+      "bullets": [
+        "[Chọn 1 dòng cám cố định cho cả lứa] Khi đã đưa heo vào chu trình vỗ béo, giữ 1 dòng xuyên suốt, không nhảy hãng giữa kỳ.",
+        "[Cảm quan cám] Hạt cám khô, tơi, mùi thơm đặc trưng, không vón, không bụi mịn quá mức hoặc mùi khét.",
+        "[Kho bảo quản] Cám phải để trong khu khô, không kê trực tiếp trên nền ẩm hoặc dựa tường dễ ngưng tụ nước.",
+        "[Cám mở bao] Bao đã mở nên dùng gọn trong thời gian ngắn, buộc kín miệng bao sau khi lấy cám.",
+        "[Cám lỗi phải loại] Không dùng cám có mọt, đổi màu, ẩm, mùi chua hoặc bao phồng khí bất thường."
+      ]
+    },
+    {
+      "id": "water_core",
+      "title": "Nước uống",
+      "goal": "Heo uống đủ và sạch liên tục.",
+      "content": "Nước quyết định tốc độ ăn và sự cân bằng điện giải trong ruột. Thiếu nước hoặc nước bẩn là trigger lớn nhất cho táo bón, phân lỏng xen kẽ hoặc giảm ăn.",
+      "bullets": [
+        "[Nguồn nước] Dùng nước sạch, ổn định từ giếng/khoan/lọc; thay nước mới hàng ngày nếu dùng máng hở.",
+        "[Vệ sinh máng uống] Rửa sạch 2-3 ngày/lần, tránh rêu và lớp nhớt sinh học (biofilm).",
+        "[Kiểm tra kỹ thuật] Máng/núm uống không rò, không tắc; rò gây ướt nền → stress, tắc gây bỏ uống → kém ăn.",
+        "[Nước hỗ trợ khi nhập đàn] 1-2 ngày đầu có thể pha điện giải + vitamin tổng hợp theo đúng hướng dẫn trên nhãn để hoàn đàn."
+      ]
+    },
+    {
+      "id": "mixing_ration",
+      "title": "Phối trộn và chuyển khẩu phần",
+      "goal": "Chuyển đổi êm ái, không gây sốc ruột.",
+      "content": "Mọi thay đổi khẩu phần đều phải có giai đoạn thích nghi. Công thức phối trộn phải xuất phát từ nguồn sạch và có logic tăng - giữ - giảm rõ ràng.",
+      "bullets": [
+        "[Khi buộc phải chuyển cám] Trộn 2 loại theo tỷ trọng thấp trước rồi tăng/giảm dần từng bước, không thay toàn bộ 1 bữa.",
+        "[Phụ phẩm (bã bia, bã đậu, cám rượu…)] Chỉ dùng khi chắc nguồn sạch, mùi ổn; bắt đầu cho rất ít rồi tăng dần.",
+        "[Thêm khoáng/vitamin premix] Dùng theo đúng nhãn hướng dẫn, đặc biệt khi đàn cần đẩy trao đổi chất.",
+        "[Giữ chất xơ] Không để khẩu phần chỉ toàn tinh/cám đậm đặc mà thiếu xơ nhai lại, dễ gây rối loạn dạ dày - ruột.",
+        "[Dấu hiệu ruột quá tải] Phân lỏng xen bọt, heo nằm ồ ạt sau ăn, bụng chướng, hoặc nhiều con bết đuôi cùng lúc → giảm khẩu phần về mức trước và kích hoạt chăm hỗ trợ."
+      ]
+    },
+    {
+      "id": "feeding_rhythm",
+      "title": "Quản lý giờ và bữa ăn",
+      "goal": "Heo quen đồng hồ, không quản lý tùy hứng.",
+      "content": "Giờ ăn giống deadline họp trong công ty: rõ ràng - đều đặn. Heo không thích biến động bất ngờ như lịch không báo trước.",
+      "bullets": [
+        "[Bữa sáng - chiều cố định] Tối thiểu 2 bữa/ngày, thời gian rõ ràng.",
+        "[Đổ máng vừa tầm] Không đổ tràn miệng rồi để ẩm cả ngày; ăn xong thu cám thừa và giữ khô.",
+        "[Kiểm tra ô kém ăn] Nếu 1 ô hoặc 1 nhóm ăn chậm → xem lại nước, mùi chuồng, đối lưu khí, vị trí máng.",
+        "[Che mưa/lạnh giờ ăn] Trời mưa - ẩm - lạnh sâu thì giảm input rau tươi ướt; giữ cám khô và tăng ấm chuồng.",
+        "[Không dùng cơm canh người] Gia vị muối, mỡ, cay sẽ làm ruột heo biểu tình dưới dạng phân rối."
+      ]
+    },
+    {
+      "id": "hygiene_pipeline",
+      "title": "Vệ sinh thức ăn và pipeline máng",
+      "goal": "Không cho máng trở thành ổ bệnh.",
+      "content": "Máng ăn/uống là 'cổng nhập data'. Cổng bẩn thì output bệnh, đàn tụt KPI.",
+      "bullets": [
+        "[Cám thừa ẩm phải loại] Không gom cho ăn lại nếu đã dính nước.",
+        "[Rửa máng] Khi rửa nền, che máng hoặc kê cao tránh cám/nước văng vào.",
+        "[Độ ẩm môi trường] Chuồng ẩm cao thì kiểm soát lượng đổ máng mỗi bữa, chứ không để cám hút ẩm cả ngày."
+      ]
+    },
+    {
+      "id": "immunity_support",
+      "title": "Hỗ trợ miễn dịch qua dinh dưỡng",
+      "goal": "Dê kháng thể tự nhiên cao, ít bệnh vặt.",
+      "content": "Dinh dưỡng đúng giúp cơ + mỡ hài hòa, lông bóng, đề kháng tốt.",
+      "bullets": [
+        "[Vitamin/tăng lực định kỳ] Thêm theo nhãn hướng dẫn khi đàn đang push cân mạnh.",
+        "[Lợi khuẩn (probiotics)] Giữ cân bằng vi sinh ruột, hỗ trợ nhịp ăn.",
+        "[Điện giải] Dùng khi trời nóng sâu hoặc heo mệt stress."
+      ]
+    },
+    {
+      "id": "cost_control",
+      "title": "Kiểm soát chi phí thức ăn",
+      "goal": "Giữ giá thành thấp mà hiệu quả cao.",
+      "content": "Cost ẩn lớn nhất không phải giá cám, mà là **bệnh do cám ướt/bẩn/đổi hãng sốc**, phải ưu tiên triệt từ đầu.",
+      "bullets": [
+        "[Không test thí nghiệm mới giữa lứa] Giữ 1 công thức ổn để tránh hao cost vô nghĩa.",
+        "[Mua bulk] Ưu tiên mua lô lớn sạch và bảo quản kho khô.",
+        "[Đo hiệu quả] Cân mẫu định kỳ hoặc ước lượng body frame tăng trọng để đánh giá cost/gram thịt.",
+        "[Cắt cost ẩn] Mùi khí gắt, phân rối, giảm ăn là cost ẩn cần sửa trước khi tính đổi giá cám."
+      ]
+    }
+  ],
+  "notes": [
+    "Giữ 1 dòng cám ổn định cho cả lứa.",
+    "Cảm quan cám quan trọng: khô - thơm - tơi, không mốc vón.",
+    "Thay khẩu phần theo bước nhỏ, không đổi trong 1 bữa."
+  ],
+  "warning": "Thông tin khẩu phần chỉ mang tính tham khảo. Đàn giảm ăn hoặc phân bất thường kéo dài cần đánh giá lại cám - nước - gió và liên hệ thú y/kỹ thuật trại."
+}

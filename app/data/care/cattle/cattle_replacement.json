@@ -1,0 +1,103 @@
+{
+  "id": "cattle_replacement",
+  "name": "Bò hậu bị",
+  "species": "cattle",
+  "group": "replacement",
+  "overview": "Cẩm nang nuôi bò tơ hậu bị để chuẩn bị vào sinh sản hoặc khai thác sữa. Mục tiêu: lên khung xương chuẩn, cơ phát triển chắc, đề kháng nền tốt, không thừa mỡ sớm làm giảm khả năng phối giống và sinh sản sau này. Quy trình chia theo từng giai đoạn từ chọn giống - nuôi khung - thành thục - chuẩn bị phối.",
+  "sections": [
+    {
+      "id": "breed_selection",
+      "title": "Chọn giống bò hậu bị",
+      "goal": "Chọn bò tơ đúng tiêu chí tăng trưởng và sinh sản tốt.",
+      "content": "Giống tốt mới nuôi được. Không chọn bò còi xương hoặc lệch chân, vì sẽ mất chi phí và không hiệu quả về sau.",
+      "bullets": [
+        "[Nguồn giống] Chọn cơ sở uy tín, có hồ sơ kiểm dịch rõ ràng.",
+        "[Ngoại hình] Ưu tiên con mắt sáng, lông bóng nhẹ, 4 chân thẳng, móng không vẹo, vai nở vừa, xương hông rộng.",
+        "[Trọng lượng và tuổi] Chọn con cân đối theo lứa, bụng gọn, không tích mỡ quá dày ở gốc đuôi lẫn sống lưng.",
+        "[Dịch mũi và nhịp thở] Không có dịch mũi đục, thở êm, không thở bụng mạnh khi đứng nghỉ.",
+        "[Chân - khớp] Không sưng, không đứng co rút bất thường.",
+        "[Tiền sử sinh sản nếu có] Các đàn mẹ của dòng giống không có tiền sử khó đẻ kéo dài nhiều cá thể."
+      ]
+    },
+    {
+      "id": "new_arrival_5_7_days",
+      "title": "Mới nhập trại (5-7 ngày)",
+      "goal": "Giảm stress, bò quen chuồng, kích ăn lại xơ.",
+      "content": "Giữ yên 1-2 giờ đầu, không nhập đàn cũ, không tăng tinh, không tẩy giun ngày đầu.",
+      "bullets": [
+        "[Chuồng] Nền khô, nhám, không trượt. Che mưa tạt 1 phía ban đêm, giữ thoáng ban ngày.",
+        "[Nước uống] Nước mới, máng rửa sạch. Có thể pha điện giải - vitamin theo hướng dẫn nhãn.",
+        "[Thức ăn chính] Cỏ voi, rơm khô sạch, lá xanh mềm vừa. Tinh cực ít, chia 2-3 cữ/ngày.",
+        "[Ứng xử con nhạy cảm] Tránh ồn, không đuổi bò chạy, không để chó lùa trong chuồng.",
+        "[Không làm] Không tẩy giun, không tiêm phòng mới, không đổi hãng cám sớm."
+      ]
+    },
+    {
+      "id": "growth_frame_2_4_months",
+      "title": "Phát triển khung xương (2-4 tháng)",
+      "goal": "Lên khung rộng, chân thẳng, móng chắc, cơ nở dần.",
+      "content": "Giai đoạn này ưu tiên xơ thô + khoáng nền, không nhồi tinh để thừa mỡ.",
+      "bullets": [
+        "[Xơ chủ lực] Cỏ voi / rơm khô sạch, đặt máng không ẩm.",
+        "[Khoáng nền] Liếm khoáng canxi - photpho - vi khoáng theo nhãn.",
+        "[Vận động] Cho đi lại sân đất khô 20-40 phút/ngày, tránh trượt nền.",
+        "[Sàn đất lõm lõm] Chỗ nào lõm hố phải đầm lại, không để móng bò kẹt hoặc trượt.",
+        "[Dấu hiệu thiếu khoáng] Nếu bê xương nhỏ, chân hơi cong nhẹ kéo dài, chậm lại đỉnh spot → tăng bổ sung khoáng theo nhãn.",
+        "[Không tăng phụ phẩm ẩm] Hạn chế bã bia, cám rượu ẩm trong phase này."
+      ]
+    },
+    {
+      "id": "muscle_development_5_7_months",
+      "title": "Nở cơ, hoàn thiện tầm vóc (5-7 tháng)",
+      "goal": "Vai - ngực - hông nở rõ, chân vững, ăn thô khỏe, nhai lại đều.",
+      "content": "Bắt đầu tăng tinh 1 bước nhỏ mỗi 5-7 ngày, giữ nguyên 3-4 ngày theo dõi rồi mới tính bước tiếp.",
+      "bullets": [
+        "[Tăng tinh từ tốn] Ngô nghiền hoặc cám hỗn hợp sạch, chia 2-3 cữ/ngày.",
+        "[Giám sát tiêu hóa] Theo dõi phân 2-3 ngày sau mỗi lần tăng tinh. Ợ chua, phân nhão, bụng căng hơi → giảm tinh ngay, tăng lại xơ khô.",
+        "[Nhai lại] Không thay xơ thô bằng chỉ toàn tinh bột."
+      ]
+    },
+    {
+      "id": "reproductive_maturity_prepare_8_10_months",
+      "title": "Chuẩn bị thành thục sinh sản (8-10 tháng)",
+      "goal": "Bò thành thục, hormone cyclic êm, body cân đối, không phì mỡ.",
+      "content": "Đây là lúc setting phối giống. Nếu quá mỡ, phối sẽ khó và dài nợ.",
+      "bullets": [
+        "[Giám sát động dục] Ghi lại mốc thấy bò đứng yên cho nhảy, đuổi nhẹ bạn tình, hoặc cyclic tìm con đực.",
+        "[Body condition score] Sờ sống lưng và gốc đuôi: đầy thịt vừa phải → đạt spot; mỡ dày khó sờ xương → quá mỡ, cần giảm tinh, tăng xơ 2-3 tuần.",
+        "[Không phối nếu chưa reset body] Nếu quá mỡ hoặc quá stress gần đây → hoãn phối, chỉnh khẩu phần lại 14-21 ngày.",
+        "[Chuồng phối] Chuồng phối phải yên tĩnh, nền khô, không trượt, không người lạ ra vào."
+      ]
+    },
+    {
+      "id": "feeding_strategy_prepare",
+      "title": "Chiến lược ăn uống xuyên suốt quá trình nuôi hậu bị",
+      "goal": "Đảm bảo chất lượng đầu vào, không gây shock tiêu hoá.",
+      "content": "Tinh và khoáng là đòn bẩy nhưng phải QC chặt. Nước và xơ là runtime của bò.",
+      "bullets": [
+        "[Nước] Thay nước hàng ngày, không để máng rêu cặn.",
+        "[Cám - tinh] Chọn tinh sạch, không mốc, không dầu hôi, không vón.",
+        "[Lá xanh] Đa dạng lá mềm dễ tiêu để bò nhai lại tốt.",
+        "[Không cho ăn 1 bữa khổng lồ] Chia tinh - phụ phẩm năng lượng thành 2-3 cữ.",
+        "[Phụ phẩm] Đưa vào từ tốn, nếu sạch nguồn trong trại, nhưng không thay hoàn toàn xơ."
+      ]
+    },
+    {
+      "id": "season_resilience_replacement",
+      "title": "Thích nghi thời tiết theo mùa trong trại hậu bị",
+      "goal": "Không shock nhiệt, không viêm phổi mùa mưa - lạnh.",
+      "content": "Mỗi mùa đều phải có policy riêng để bò không crash tăng trưởng.",
+      "bullets": [
+        "[Mưa - ẩm kéo dài] Ưu tiên xơ khô sạch, rắc vôi nền theo nhãn để giảm ẩm, không dùng phụ phẩm ẩm mốc.",
+        "[Nắng nóng] Tối ưu lưu thông không khí, cho uống điện giải - vitamin theo hướng dẫn nhãn.",
+        "[Lạnh đột ngột] Chắn 1 phía gió, tăng xơ khô 2-3 cữ tối, không che kín 4 phía chuồng."
+      ]
+    }
+  ],
+  "notes": [
+    "Không đổi khẩu phần ồ ạt, tăng tinh phải qua checkpoint 5-7 ngày.",
+    "Thiếu khoáng thì body khung bất ổn, thừa mỡ sớm thì giảm khả năng phối.",
+    "Mỗi tổn thất tiêu hoá hay hô hấp nhẹ đều phải log lại để tối ưu lứa sau."
+  ],
+  "warning": "Thông tin tham khảo định tính. Khi bò hậu bị có dấu hiệu còi xương, đau chân kéo dài, thở bụng bất thường, bỏ ăn hàng loạt, gọi thú y để can thiệp trực tiếp."
+}

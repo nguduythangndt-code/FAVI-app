@@ -1,0 +1,98 @@
+{
+  "id": "cattle_silage",
+  "name": "Ủ cỏ, ủ thức ăn",
+  "species": "cattle",
+  "group": "silage",
+  "overview": "Hướng dẫn ủ thức ăn thô xanh cho bò để dùng quanh năm. Mục tiêu: ủ kín khí, lên men chuẩn, thơm dịu mùi chua nhẹ tự nhiên đặc trưng của ủ thô, không mốc, không rỉ nước đen, không sinh khí độc, không gây chướng hơi hoặc toan dạ cỏ khi cho đàn ăn.",
+  "sections": [
+    {
+      "id": "material_selection",
+      "title": "Chọn nguyên liệu",
+      "goal": "Đầu vào sạch - khô ráo vừa - giàu xơ - không nhiễm nấm.",
+      "content": "Nguyên liệu quyết định chất lượng lên men. Loại từ đầu những thứ nghi ngờ để tránh hỏng cả hố ủ.",
+      "bullets": [
+        "[Cỏ] Ưu tiên cỏ voi, cỏ ghine, cỏ tự nhiên cắt lúc nắng nhẹ (không phải sau mưa).",
+        "[Bắp] Thân - lá bắp sau thu hoạch, không dập nát đen đầu ngọn.",
+        "[QC loại bỏ] Không dùng cỏ có nấm trắng/đen, không dùng bắp thối ướt, không lẫn đất - cát - rác.",
+        "[Tỷ lệ ưu tiên] Có thể phối ủ hỗn hợp: cỏ 60-70% khối lượng + bắp 30-40% khối lượng để cân bằng đường và xơ."
+      ]
+    },
+    {
+      "id": "moisture_control",
+      "title": "Xử lý độ ẩm trước khi ủ",
+      "goal": "Đạt độ ẩm chuẩn để lên men lactic êm, tránh thối rữa.",
+      "content": "Cắt xong trải mỏng, để héo tự nhiên để giảm nước tự do. Khô quá khó lên men; ướt quá dễ thối.",
+      "bullets": [
+        "[Phơi héo] Trải cỏ và thân bắp mỏng 3-6 giờ dưới nắng nhẹ hoặc nơi có gió sạch, đến khi sờ thấy ẩm nhẹ (không sũng nước).",
+        "[Thuê dịch vụ chặt nhỏ] Dùng máy chặt cỏ/bắp thành đoạn ngắn 1,5-3 cm để dễ nén khí.",
+        "[Bổ sung đường] Nếu cỏ ít đường, có thể trộn mật rỉ đường hoặc ngô bột rải mỏng để kích lên men lactic đúng hướng dẫn nhãn phụ gia ủ.",
+        "[Không làm] Không ủ ngay khi nguyên liệu còn ướt sũng nước."
+      ]
+    },
+    {
+      "id": "packing_compression",
+      "title": "Nén, đóng và xếp hố ủ",
+      "goal": "Loại bỏ oxy tối đa, giữ kín khí ủ.",
+      "content": "Nén chặt từ từng lớp, đóng kín miệng hố ủ để bắt đầu chuyển hóa đường → axit lactic (lactic acid). Đây là loại axit tốt, tạo mùi thơm dịu và an toàn cho dạ cỏ.",
+      "bullets": [
+        "[Xếp từng lớp 20-30 cm] Đổ - nén từng lớp bằng chân/đầm nén cho đến khi chắc cứng, không thấy lỗ khí.",
+        "[Lót nilon 2-3 lớp dưới đáy] Nilon sạch, không rách, để chống nước đất thấm ngược.",
+        "[Phủ kín mặt trên] Sau khi nén lớp cuối, phủ nilon kín khí sát bề mặt, buộc mép không để hở.",
+        "[Đè nặng] Dùng bao cát, lốp xe, vật nặng sạch để tạo áp lực giữ kín khí liên tục.",
+        "[Làm 1 lần - 1 chiều] Không mở hố ủ trong 5-7 ngày đầu khi đang thiết lập men nền."
+      ]
+    },
+    {
+      "id": "fermentation_phase",
+      "title": "Giai đoạn lên men (21-30 ngày)",
+      "goal": "Tạo môi trường pH thấp do axit lactic tốt, ổn định ủ.",
+      "content": "Quá trình lên men chính là chuyển hóa đường → axit lactic nhờ vi khuẩn lactic (Lactic acid bacteria). Giai đoạn đầu (3-10 ngày) nhiệt tăng nhẹ, mùi chua nhẹ thơm; sau đó nguội và ổn định.",
+      "bullets": [
+        "[3-10 ngày đầu] Hố ủ có thể ấm nhẹ là bình thường (dấu hiệu men lactic hoạt động). Không được rỉ nước đen hoặc mùi thối.",
+        "[14-21 ngày] Mùi chua nhẹ dịu, không hăng, không khét là chuẩn.",
+        "[21-30 ngày] Khối ủ có màu xanh nâu tự nhiên, thơm, sợi xơ còn rõ.",
+        "[Tín hiệu lỗi] Mốc trắng/đen, mùi thối - cá tanh - khét, rỉ nước đen → không cho ăn."
+      ]
+    },
+    {
+      "id": "using_silage",
+      "title": "Cho bò ăn thức ăn ủ",
+      "goal": "Giữ nhai lại tốt, không chướng, không ợ hơi chua quá mức.",
+      "content": "Thức ăn ủ phải được cấp như gợi ý module: mở hố ủ → lấy lớp trên cùng cho ăn trước, không xới đảo lung tung.",
+      "bullets": [
+        "[Lấy theo lớp trên → dưới] Lấy mặt trên cho ăn trước, sâu dần mới lấy dưới.",
+        "[Tinh bổ trợ ít] Khi bò ăn ủ thô, tinh giảm nhẹ 1-2 cữ đầu nếu đàn chưa quen, tăng xơ khô bổ sung để cân bằng 2-3 ngày đầu.",
+        "[Giám sát] 2-3 ngày đầu bò ăn ủ xong không ợ chua, không căng bụng hơi, phân không nhão kéo dài → đạt spot.",
+        "[Không làm] Không lấy toàn 1 lần lượng lớn rồi mở toang miệng hố ủ."
+      ]
+    },
+    {
+      "id": "storage_management",
+      "title": "Quản lý bảo quản trong quá trình dùng",
+      "goal": "Luôn kín khí, luôn lấy 1 nẻo, tránh tắc khí.",
+      "content": "Bò ủ tốt là kho dữ liệu thức ăn của cả năm, nhưng phải giữ nguyên tắc quản lý chặt.",
+      "bullets": [
+        "[Buộc kín mép sau mỗi lần lấy] Phủ nilon lại, đè nặng lại vật nén.",
+        "[Tránh nước mưa tạt] Nếu mưa tạt 1 phía miệng hố ủ, che phủ mặt ngoài để không thấm nước vào.",
+        "[Nhiệt vị trí ủ] Nếu hố ủ quá nóng kéo dài bất thường hoặc phồng hơi nhiều → kiểm tra mép nilon có hở không, nén lại + phủ kín lại.",
+        "[Không tiếc] Ủ thô hỏng phải đổ bỏ, không trộn lại cho ăn."
+      ]
+    },
+    {
+      "id": "equipment_and_sanity",
+      "title": "Dụng cụ và an toàn vệ sinh ủ",
+      "goal": "Dụng cụ sạch, không tạp nhiễm, không rách nilon.",
+      "content": "Ủ thức ăn phải an toàn từ khâu công cụ.",
+      "bullets": [
+        "[Dụng cụ] Máy chặt, xẻng, chân nén, bao cát - lốp xe phải sạch, không rỉ dầu mỡ - đất đen.",
+        "[Nilon] Nilon lót hố ủ và phủ mặt không được rách hoặc sắc cạnh."
+      ]
+    }
+  ],
+  "notes": [
+    "Đầu vào sạch - phơi héo đúng checkpoint là điều kiện bắt buộc.",
+    "Tinh và phụ phẩm bổ trợ theo đúng nhãn phụ gia ủ, không tăng đặc hơn.",
+    "Lấy module an toàn: lớp trên cùng trước, buộc kín lại sau mỗi lần dùng."
+  ],
+  "warning": "Thông tin tham khảo định tính. Khi ủ có mùi thối, mốc, rỉ nước đen, khí phồng mạnh kéo dài, cần gọi kỹ thuật chuồng trại hoặc thú y đến kiểm tra trực tiếp."
+}

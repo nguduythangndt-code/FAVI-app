@@ -1,0 +1,113 @@
+{
+  "id": "chicken_sick",
+  "name": "Gà bệnh trong đàn",
+  "species": "chicken",
+  "group": "sick",
+  "overview": "Cẩm nang phát hiện sớm, phân loại nhanh và xử lý đàn gà xuất hiện gà bệnh. Mục tiêu: chặn lây lan, giảm chết thứ phát, giữ phần lớn đàn không suy giảm tăng trưởng, không hoảng loạn, không sốc nhiệt, không nhiễm nền ẩm - mốc. Quy tắc chính: tách sớm - hỗ trợ đúng nhóm thuốc - xử lý môi trường ngay - theo dõi 12-24h/lần.",
+  "sections": [
+    {
+      "id": "detect_symptoms",
+      "title": "Phát hiện dấu hiệu bệnh sớm trong đàn",
+      "goal": "Nhận diện nhanh con bất thường trước khi đàn có biểu hiện hàng loạt.",
+      "content": "Đầu buổi sáng hoặc chiều, quan sát cái cơ bản nhất trước: tiếng thở, cách đứng, phân và mức ăn. Gà bệnh cấp diễn rất nhanh, nên nhặt tín hiệu sớm hơn là dập lửa muộn.",
+      "bullets": [
+        "[Lắng nghe âm chuồng] Tiếng thở rít, khò dày, lẫn tiếng khẹc, tiếng ho thành tràng là tín hiệu cảnh báo đầu tiên.",
+        "[Quan sát dáng đứng] Gà bệnh thường đứng một góc, nhắm mắt nhẹ, xù lông, đầu rụt, ủ rũ, bỏ máng hoặc ít mổ.",
+        "[Mồng - mào] Mồng nhợt nhanh trong vài giờ/ngày, tím nhẹ, hoặc phù nề chảy dịch là dấu hiệu tuần hoàn kém.",
+        "[Phân] Phân trắng loãng, phân xanh nước, phân bọt, phân có máu, hoặc bết quanh hậu môn, mùi chua - tanh bất thường.",
+        "[Ăn uống] Tụ quanh máng nước nhưng không mổ cám, hoặc uống quá nhiều so với đàn → phải check tiếp tiêu hóa/hô hấp.",
+        "[Tỷ lệ chết tăng trong ngày] Nếu chết tập trung cùng ô trong 3-6h, không phải chết lẻ → có mầm dịch.",
+        "[Ghi chép sự kiện] Chạm thang sổ theo dõi hành vi: số con bất thường/ô, thời tiết, thời điểm, lô cám."
+      ]
+    },
+    {
+      "id": "isolate_and_mark",
+      "title": "Đánh dấu, phân loại và tách ô cách ly",
+      "goal": "Tách gà bệnh khỏi đàn khỏe để ưu tiên chăm hồi, giảm cạnh tranh và lây chéo.",
+      "content": "Không đợi gà nằm sấp 1 chỗ mới tách. Tách càng sớm, đàn chính càng an toàn, con bệnh càng dễ cứu.",
+      "bullets": [
+        "[Tách ô riêng ngay] Chuẩn bị sẵn 1-2 ô cách ly hoặc lồng riêng cho gà yếu/bệnh.",
+        "[Đánh dấu con bệnh] Dùng dây nhẹ chân hoặc màu an toàn không độc để khoanh vùng quản lý.",
+        "[Mật độ thưa] Ô cách ly nên thưa hơn 15-30% so với mật độ ô chính.",
+        "[Ưu tiên tiếp nước] Đặt máng uống/núm gần chỗ gà bệnh, cho tiếp cận ngay nước điện giải theo nhãn.",
+        "[Không dùng chung dụng cụ] Chổi, cào, xô, tay hót phân riêng biệt giữa ô bệnh và ô khỏe.",
+        "[Luân phiên lộ trình chăm] Vào ô khỏe trước, rồi ô bệnh sau, không đảo thứ tự lúc đang có dịch."
+      ]
+    },
+    {
+      "id": "environment_fix",
+      "title": "Xử lý đồng thời môi trường khi xuất hiện bệnh",
+      "goal": "Sửa môi trường ngay (gió lùa, ẩm nền, nóng bí) để không tạo điều kiện bùng bệnh thứ phát.",
+      "content": "Môi trường xấu là xưởng sản xuất mầm bệnh: bụi - ẩm - amoniac - gió lùa. Sửa trước khi thêm thuốc.",
+      "bullets": [
+        "[Che gió đúng hướng] Hạ rèm phía gió mùa, chỉ mở hé khe đối lưu nhẹ.",
+        "[Tăng đối lưu khí] Mở rèm cao ban ngày hoặc bật quạt hút êm, không thổi thẳng vào đàn.",
+        "[Hót đệm ướt] Hót bỏ đệm ướt/bết tới khi thấy lớp khô, rải trấu khô mới.",
+        "[Giảm nhiệt nếu quá nóng] Khi nóng, mở rèm, bật quạt hút. Cho gà tiếp nước ngay để tránh sốc nhiệt.",
+        "[Giảm khu ổ bệnh] Nếu 1 ô có 2-5 con cùng bệnh trong 12h, phải siết lại ô đó, sát trùng lối đi bên ngoài.",
+        "[Hạn chế người ra vào] Đặc biệt 24-48h đầu, giảm nhân sự vào chuồng, tránh ồn, tránh mang mầm mới."
+      ]
+    },
+    {
+      "id": "feed_water_adjust",
+      "title": "Điều chỉnh thức ăn và nước khi đàn có bệnh",
+      "goal": "Không để thiếu nước, không nhồi cám, tránh rối loạn ruột thêm.",
+      "content": "Bệnh xong hệ ruột và phổi yếu, nên nguyên tắc: ưu tiên nước sạch, tăng xơ, giữ cám đúng bữa.",
+      "bullets": [
+        "[Giữ nước sạch] Không được thiếu nước >1 giờ, nhất là khi nóng hoặc sau vaccine/bệnh.",
+        "[Pha điện giải đúng đợt] 24-72h đầu pha vitamin và điện giải theo đúng nhãn tư vấn.",
+        "[Thu cám tồn ẩm] Chỉ đổ vừa phần từng cữ, đàn ăn hết mới đổ cữ tiếp. Cám ẩm thừa phải bỏ.",
+        "[Tăng chất xơ] Thêm lá xanh dễ tiêu như rau muống, lá keo non (không ẩm mưa) trong 3-7 ngày đầu.",
+        "[Không đổi 2 loại cám cùng lúc] Chỉ trộn cám cũ-mới khi đàn đã khỏe và theo tỉ lệ tăng dần.",
+        "[Giảm thức ăn nghi mầm] Lô cám mốc, hạt cám đổi màu, mùi lạ phải loại ngay."
+      ]
+    },
+    {
+      "id": "supportive_drugs",
+      "title": "Ưu tiên thuốc hỗ trợ đúng nhóm cho đàn bệnh nhẹ",
+      "goal": "Hạ stress, giảm viêm - sốt, hỗ trợ ruột và phổi, không lạm dụng kéo dài.",
+      "content": "Chọn đúng nhóm thuốc qualitative trong FAVI Drugs module. Không ghi liều, nhưng ghi rõ cách dùng theo nhãn hướng dẫn.",
+      "bullets": [
+        "[Hạ viêm - giảm đau] Nhóm thuốc giảm viêm, giảm đau hỗ trợ gà đứng dậy sau ức chế bệnh.",
+        "[Điện giải] Điện giải là số 1 khi đàn bệnh nhiệt, tiêu hóa, sau vaccine.",
+        "[Men tiêu hóa] Dùng men enzyme/vi sinh để fix lại niêm mạc ruột.",
+        "[Bổ gan ADE] Tăng vitamin ADE hoặc thuốc bổ gan giúp đàn không chết kiệt thứ phát.",
+        "[Hỗ trợ phổi] Nhóm thuốc hỗ trợ hô hấp dùng đúng đợt, không liên tục dài ngày."
+      ]
+    },
+    {
+      "id": "monitor_12_24h",
+      "title": "Giám sát 12-24 giờ đầu sau khi phát hiện ô bệnh",
+      "goal": "Chặn bệnh thứ phát và hành vi chen lấn gây chết ngạt.",
+      "content": "Đây là giai đoạn bảo hiểm. Chỉ điều chỉnh môi trường và bổ trợ đúng mức. Quan sát theo ô chuồng, ghi chép diễn biến từng con.",
+      "bullets": [
+        "[Nhiệt độ] Ủ ấm nhẹ, nếu gà tụ kín dưới bóng thì tăng sưởi, nếu há mỏ thì giảm sưởi và tăng đối lưu.",
+        "[Phân] Nếu 20-30% đàn phân nhão trở lại, giảm cám tinh, tăng cỏ - lá xơ.",
+        "[Hô hấp] Nếu ho tăng theo tràng, mở quạt hút nhẹ, rèm che gió đúng hướng.",
+        "[Chết tập trung ô] Nếu 3 con chết cùng ô trong 6-12h, sát trùng lối ngoài và xem lại nước - nhiệt.",
+        "[Không bắt chạy] 24-48 giờ đầu không đuổi, không bắt chạy kiểm tra lung tung."
+      ]
+    },
+    {
+      "id": "call_vet_criteria",
+      "title": "Khi nào bắt buộc gọi thú y trực tiếp",
+      "goal": "Không để đàn chết hàng loạt vì chậm can thiệp chuyên môn.",
+      "content": "Tự xử lý ổ bệnh maximum 24-48h đầu cho môi trường và hỗ trợ cơ bản. Nếu không cải thiện hoặc có nhiều con cùng triệu chứng nặng, phải gọi thú y.",
+      "bullets": [
+        "[Bệnh hàng loạt] 5-10 con cùng triệu chứng trong 24h tại 1 chuồng → không tự xử kéo dài.",
+        "[Thở há mỏ ồ ạt] 10-20% đàn thở rít, vươn cổ, nằm sấp → check chuyên môn.",
+        "[Phân máu nhiều] 20-30% đàn phân máu trong 12-24h → nghi bệnh dịch ruột/cầu trùng nặng.",
+        "[Chết nhanh tăng theo giờ] Nếu 1 ngày chết >một vài con và tăng theo giờ → mời thú y.",
+        "[Mồng tím tái] Mồng tím lan nhanh trong 6-12h ở 5% đàn → nghi tuần hoàn/bệnh nhiễm khuẩn."
+      ]
+    }
+  ],
+  "notes": [
+    "Tách sớm là chìa khóa. Để chung là mầm bệnh chéo 100%.",
+    "Nước sạch và đệm lót khô là thứ chữa được 40% bệnh mà không cần đơn thuốc.",
+    "Đỉnh bệnh không được đổi cám cùng với hạ nhiệt trong cùng 1 ngày.",
+    "Theo dõi bệnh bằng ô chuồng giúp rollback khẩu phần nhanh nếu sai.",
+    "Khu cách ly nên được thiết lập trước khi thuốc bổ trợ."
+  ],
+  "warning": "Thông tin tham khảo. Khi triệu chứng xuất hiện nhiều con cùng lúc trong 24h và không cải thiện sớm, cần kiểm tra trực tiếp bởi thú y."
+}

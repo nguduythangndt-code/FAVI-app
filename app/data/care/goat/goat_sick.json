@@ -1,0 +1,110 @@
+{
+  "id": "goat_sick",
+  "name": "Dê bệnh",
+  "species": "goat",
+  "group": "sick",
+  "overview": "Hướng dẫn chăm sóc dê đang trong giai đoạn bệnh. Mục tiêu: giữ mạng sống, hạn chế di chứng, kiểm soát nguồn lây, hỗ trợ cơ quan sống quan trọng (phổi, dạ cỏ, máu, chân móng), đảm bảo xử lý an toàn - dứt điểm, tránh tự ý can thiệp sai hoặc kéo dài làm yếu đàn.",
+  "sections": [
+    {
+      "id": "triage_and_isolation",
+      "title": "Phân loại nhanh và cách ly",
+      "goal": "Không để 1 cá thể bệnh lây hoặc làm stress cả đàn.",
+      "content": "Ngay khi phát hiện dê bất thường, phải phân loại mức độ và chuyển đúng ô chuồng phù hợp. Đây là bước đầu tiên trong mọi phác đồ.",
+      "bullets": [
+        "[Cách ly tức thì] Chuẩn bị sẵn ô riêng cho dê nghi bệnh và dê bệnh. Chuyển ngay các con có dấu hiệu rõ (sốt - ho - thở bụng - phân lỏng - đi loạng choạng...).",
+        "[Phân nhóm mức độ] Nhẹ: vẫn đứng, vẫn ăn lắt nhắt; trung bình: ăn ít, nằm xen kẽ; nặng: bỏ ăn, nằm lì, thở khó rõ hoặc mất nước.",
+        "[Nguyên tắc gộp] Không gộp dê mới nhập với dê bệnh; không gộp hậu bị đang stress với dê bệnh nặng; không thả chung đàn khỏe vào ô bệnh chỉ vì thiếu chỗ.",
+        "[Kiểm soát người ra vào] Người chăm khu bệnh nên đi ủng riêng, rửa tay hoặc sát khuẩn nhanh, không cầm máng bệnh dùng lại cho đàn khỏe khi chưa vệ sinh.",
+        "[Đánh dấu cá thể] Đánh số tai hoặc buộc vòng cổ màu (nếu cần) để ghi chép chính xác bệnh - thuốc - tiến triển."
+      ]
+    },
+    {
+      "id": "vital_signs_monitoring",
+      "title": "Theo dõi dấu hiệu sống quan trọng",
+      "goal": "Bắt được tín hiệu xấu sớm trước khi dê sập nhanh.",
+      "content": "Dê bệnh có thể chuyển nặng đột ngột khi stress môi trường hoặc chuyển hóa. Phải quan sát liên tục các tín hiệu sinh lý.",
+      "bullets": [
+        "[Thân nhiệt gián tiếp] Sờ tai, chân, da lưng: lạnh bất thường (mưa, gió, cảm lạnh), nóng ran (sốt), đổ mồ hôi vùng cổ - vai là bất thường.",
+        "[Hô hấp] Thở bụng, thở rít, há miệng thở, vươn cổ thở, ho cụm → là tín hiệu chuyển nặng hô hấp.",
+        "[Tiêu hóa] Ợ chua liên tục, bụng căng hơi, nhai lại mất nhịp, phân lỏng hoặc dính bết đuôi → rối loạn dạ cỏ hoặc tiêu hóa.",
+        "[Mất nước/điện giải] Da kém đàn hồi, mắt trũng, miệng khô, nằm nhiều không đứng → nguy cơ mất nước, kiệt điện giải.",
+        "[Niêm mạc] Miệng - mắt hồng nhạt/vàng/nhợt → thiếu máu hoặc ảnh hưởng gan; màu bất thường cần được note lại.",
+        "[Vận động] Dê nằm lì, đứng khó 1 chân, run chân, đi vòng vòng mất thăng bằng → đau móng, thiếu khoáng cấp tính hoặc rối loạn thần kinh thứ phát."
+      ]
+    },
+    {
+      "id": "feeding_during_sickness",
+      "title": "Quản lý ăn uống khi dê đang bệnh",
+      "goal": "Không để rối loạn chuyển hóa nặng thêm trong khi cơ quan đang yếu.",
+      "content": "Giữ feed an toàn hơn feed mạnh. Ăn đúng giúp dê sống, ăn sai làm dê sụt nhanh.",
+      "bullets": [
+        "[Ưu tiên chất xơ] Cỏ khô sạch, lá non mềm, cỏ phơi tái. Không đổ ướt, không mốc, không đất - cát.",
+        "[Tinh nếu cần] Chỉ cho rất ít tinh, rải mỏng, chia nhiều cữ. Không dồn 1 cữ lớn buổi tối.",
+        "[Nước sạch] Nước phải sẵn, thay mới mỗi ngày. Có thể dùng điện giải + vitamin tổng hợp gia súc theo nhãn trong ca mất nước nhẹ đến vừa.",
+        "[Bỏ ăn] Nếu dê bỏ ăn 12-24 giờ kèm ợ chua hoặc chướng bụng nhẹ, dừng tinh, tăng cỏ khô và theo dõi. Không bơm ép nhiều tinh lúc dê chưa ổn.",
+        "[Không dùng phụ phẩm nóng ngay] Bã bia - cám ủ nhanh - bã rượu… là nguồn “nóng”, chỉ dùng sau giai đoạn cấp khi dê nhai lại bình thường và từ từ.",
+        "[Ghi chép feed] Ghi lại loại thức ăn cho từng con bệnh để tối ưu và tránh lặp sai."
+      ]
+    },
+    {
+      "id": "drug_use_policy",
+      "title": "Nguyên tắc an toàn khi dùng thuốc",
+      "goal": "Dùng thuốc đúng mục - đúng nhóm - đúng nhãn, không tự tăng liều hoặc tự phối thuốc rủi ro cao khi chưa có tư vấn.",
+      "content": "Thuốc trong app không hiển thị liều (định tính), nên phải tuân theo nhãn hoặc tư vấn thú y.",
+      "bullets": [
+        "[Nhóm thuốc ưu tiên] Sử dụng thuốc theo đúng nhóm trong module Thuốc của app: kháng sinh, hạ sốt/giảm đau, điện giải, men tiêu hóa, hỗ trợ hô hấp, tẩy ký sinh.",
+        "[Không tự tăng liều] Không tăng “đậm” vì nghĩ nhanh khỏi. Tăng liều sai có thể sốc gan, thận, RU hoặc thần kinh.",
+        "[Không phối thuốc bừa] Không phối 3-4 loại kháng sinh hoặc chống viêm cùng lúc chỉ vì nghĩ “mạnh tay sẽ khỏi”. Chỉ phối thuốc khi phác đồ rõ ràng đã được thú y chỉ định.",
+        "[Chọn thay thế có tư vấn] Khi thiếu thuốc chính, chọn hoạt chất thay thế từ app nhưng vẫn phải đọc nhãn thuốc hoặc hỏi thú y, không dùng quá sớm khi dê đang sập.",
+        "[Tiêm đúng kỹ thuật] Tiêm vùng cơ lớn, cần se antisepsis da. Không tiêm vùng mỡ gần vú khi dê còn sản dịch hoặc đang có nguy cơ viêm vú.",
+        "[Theo dõi phản ứng sau tiêm] Nếu sưng, nóng, có mủ ở chỗ tiêm vài ngày → nguy cơ áp xe, cần thú y kiểm tra và xử lý.",
+        "[Thời gian ngưng thuốc trước bán/sữa] Nếu dê bệnh nằm trong lô sắp bán hoặc dê đang cho sữa ướt mẹ-con, phải nhớ thời gian ngưng thuốc theo nhãn, tránh đưa sản phẩm ra thị trường khi chưa an toàn."
+      ]
+    },
+    {
+      "id": "respiratory_diseases_focus",
+      "title": "Điểm tập trung khi dê mắc bệnh hô hấp",
+      "goal": "Giảm tiến triển xấu của bệnh phổi, tránh kế phát bội nhiễm.",
+      "content": "Phổi là cơ quan gục sớm nhất khi stress nhiệt - ẩm - gió lùa. Nhốt sai → bệnh nặng thêm.",
+      "bullets": [
+        "[Môi trường] Chuồng khô, ấm đêm, thoáng ngày, không gió lùa trực tiếp.",
+        "[Tách nhóm ho cụm] Nếu 1 con ho cụm, cần tách ô, giảm mật độ ô bên cạnh.",
+        "[Thuốc hỗ trợ theo nhóm] Dùng kháng sinh và thuốc hỗ trợ hô hấp định tính theo nhãn.",
+        "[Tránh bụi, ẩm] Không cho nằm nơi ẩm - bụi - khí độc."
+      ]
+    },
+    {
+      "id": "digestive_diseases_focus",
+      "title": "Điểm tập trung khi dê mắc bệnh tiêu hóa",
+      "goal": "Giữ RU, giảm tiêu chảy, tránh kiệt nước.",
+      "content": "Rối loạn dạ cỏ/vi khuẩn ruột → tiêu chảy - ợ chua - chướng hơi… Nếu xử lý chậm dẫn tới kế phát cầu trùng hoặc RU thứ phát.",
+      "bullets": [
+        "[Chuồng] Giữ khô tuyệt đối vùng dê nằm.",
+        "[Feed] 70-90% xơ, tinh chỉ rất ít, bỏ tinh khi cần.",
+        "[Nước sạch + điện giải] Hỗ trợ định tính theo nhãn khi mất nước nhẹ đến vừa.",
+        "[Máng + nền] Rửa máng ăn, thay nước, không cho ăn lại đồ ẩm thừa."
+      ]
+    },
+    {
+      "id": "parasite_diseases_focus",
+      "title": "Điểm tập trung khi dê mắc bệnh ký sinh ngoài/ruột/máu",
+      "goal": "Giảm gánh ký sinh, tránh thiếu máu và di chứng da.",
+      "content": "Ve rận - ghẻ - giun sán ruột - ký sinh máu… là nhóm làm dê “gầy mòn từ trong”, mất ngủ vì ngứa, thiếu máu, miễn dịch giảm nhanh.",
+      "bullets": [
+        "[Tẩy giun] Khi dê đang khỏe lại (không sốt/không tiêu), cân nhắc tẩy giun bằng thuốc phù hợp trên nhãn, theo tư vấn thú y.",
+        "[Ve - ghẻ - rận] Chỉ dùng sản phẩm xịt/tắm chuyên cho gia súc theo nhãn, song song vệ sinh chuồng.",
+        "[Chân móng + kẽ chân] Dê ký sinh nặng thường ngại đứng lâu để ăn → ưu tiên sửa nền khô, sạch để dê đứng lại được dài hơn và ăn đều dễ hơn.",
+        "[Thiếu máu] Dê ký sinh máu/ruột nặng thường niêm mạc mắt nhợt. Không tự ý dùng thuốc sâu hoặc phối thuốc khi chưa được thú y kiểm tra.",
+        "[Ngủ - stress] Giữ yên, giảm xáo trộn, tránh nóng ẩm đêm."
+      ]
+    }
+  ],
+  "notes": [
+    "Dê đang bệnh phải tách riêng để đọc tín hiệu sống và xử lý rủi ro sớm.",
+    "Ưu tiên chất xơ, nước sạch, RU ổn định, môi trường khô - ấm đêm - thoáng ngày.",
+    "Không tự tăng liều, không phối thuốc bừa, không đổi khẩu phần ồ ạt.",
+    "Ghi chép diễn biến từng cá thể để dùng cho chăn nuôi và update phác đồ trong app FAVI.",
+    "Với dê ho - thở khó - tiêu chảy - thiếu máu lâu không cải thiện → gọi thú y là quyết định đúng nhất."
+  ],
+  "warning": "Thông tin tham khảo. Khi dê sốt trở lại - thở khó rõ - tiêu chảy kéo dài - nằm bẹp >24-36 giờ - niêm mạc đổi màu (vàng/nhợt nặng) - liệt/run chân - chỗ tiêm có mủ - nhiều con bệnh cùng lúc trong 48-72 giờ: liên hệ thú y để kiểm tra trực tiếp."
+}

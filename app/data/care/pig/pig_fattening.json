@@ -1,0 +1,140 @@
+{
+  "id": "pig_fattening",
+  "name": "Heo vỗ béo",
+  "species": "pig",
+  "group": "fattening",
+  "overview": "Cẩm nang vỗ béo heo thịt từ lúc nhập trại đến trước khi xuất chuồng. Mục tiêu: heo vào đàn êm, ăn khỏe, tăng trọng đều, phân ổn định, hạn chế tối đa tiêu chảy, bệnh hô hấp và hao hụt do quản lý kém. Toàn bộ các bước đều dựa trên 3 trụ cột: chuồng trại khô - sạch - thoáng, khẩu phần tăng dần có kiểm soát, phát hiện sớm và khoanh vùng heo bệnh.",
+  "sections": [
+    {
+      "id": "new_arrival",
+      "title": "Giai đoạn mới nhập heo về trại",
+      "goal": "Giảm stress sau vận chuyển, không để heo sụt cân mạnh trong 3-5 ngày đầu.",
+      "content": "3-5 ngày đầu sau khi nhập đàn là giai đoạn nhạy cảm nhất. Mục tiêu là cho heo nghỉ, quen chuồng, ổn định tiêu hóa và lọc sớm những con có dấu hiệu bệnh nặng.",
+      "bullets": [
+        "[Chuẩn bị chuồng trước khi heo về] Chuồng phải dọn sạch phân, cọ rửa máng ăn, máng uống, sát trùng và để khô thoáng trước ít nhất 1 ngày. Nền chuồng không đọng nước, không trơn trượt, có độ dốc thoát nước rõ ràng.",
+        "[Tách lô heo mới] Nhốt lô heo mới ở khu riêng, không dồn chung ngay với đàn cũ để giảm tranh ăn, cắn nhau và hạn chế lây bệnh giữa các lứa.",
+        "[Sau khi xuống xe] Lùa heo vào chuồng nhẹ nhàng, hạn chế hò hét, đuổi chạy nhiều vòng. Để heo yên 1-2 giờ đầu cho ổn định, không tắm ngay, nhất là lúc trời lạnh hoặc gió to.",
+        "[Kiểm tra nhanh từng con] Quan sát dáng đi (có khập khiễng không), tai (có rũ, tím không), mắt mũi (có ghèn, dịch đặc không), nhịp thở (thở gấp, thở bụng), bụng (chướng bất thường), phân dính quanh hậu môn.",
+        "[Đánh dấu con bất thường] Con nào gầy nhiều, đi tách đàn, thở khó, ho nhiều, phân dính đuôi, lông xù… nên đánh dấu và nhốt sát mé chuồng để tiện theo dõi, có thể tách riêng khi cần.",
+        "[Nước uống ngày đầu] Đảm bảo máng nước sạch, nước mới. Có thể pha thêm điện giải và vitamin tổng hợp theo hướng dẫn trên nhãn trong 1-2 ngày đầu để bù mất nước và giảm mệt do vận chuyển.",
+        "[Thức ăn ngày 1] Cho ăn lượng cám ít, chia 2-3 bữa nhỏ. Không đổ đầy máng ngay lần đầu. Nếu có dùng rau xanh/phụ phẩm, chỉ cho lượng rất nhỏ, mục tiêu là cho heo làm quen lại chứ chưa phải tăng trọng.",
+        "[Ứng xử với heo quá đói] Nếu heo đói lâu do chở đường dài, không đổ cám thật nhiều một lần. Cho ăn ít nhưng nhiều lần trong ngày, mỗi lần cách nhau vài giờ để dạ dày - ruột thích nghi dần.",
+        "[Điều tạm thời chưa làm] Không vội tẩy giun, không tiêm phòng, không đổi khẩu phần mạnh ngay trong 1-2 ngày đầu. Chờ heo ăn uống bình thường, phân ổn định rồi mới lên kế hoạch phòng - trị tiếp theo."
+      ]
+    },
+    {
+      "id": "stabilize_weight",
+      "title": "Ổn định thể trạng 7-10 ngày đầu",
+      "goal": "Heo ăn uống đều, phân thành khuôn, không tiêu chảy, không bỏ ăn.",
+      "content": "Sau 3-5 ngày đầu, trọng tâm là giữ ổn định môi trường và khẩu phần, không nóng vội tăng lượng cám quá nhanh. Giai đoạn này là nền tảng trước khi bước sang pha đẩy mạnh vỗ béo.",
+      "bullets": [
+        "[Môi trường chuồng] Giữ chuồng khô, sạch, thoáng. Phân phải được dọn mỗi ngày, chỗ heo nằm không bị ẩm lâu. Ban ngày cho thông thoáng, ban đêm che bớt gió lùa trực tiếp vào mình heo.",
+        "[Khẩu phần cơ bản] Duy trì một loại cám ổn định, cho ăn vừa sức, dễ tiêu. Nếu có phối thêm rau xanh/phụ phẩm thì giữ ở mức cố định, không tăng - giảm đột ngột.",
+        "[Dấu hiệu tiêu hóa ổn] Phân khuôn, màu đồng đều, không lỏng, không có bọt hoặc máu. Heo ăn hết khẩu phần, bụng căng vừa, không chướng, không đau.",
+        "[Hỗ trợ tiêu hóa] Có thể bổ sung men tiêu hóa hoặc chế phẩm lợi khuẩn theo hướng dẫn trên nhãn, đặc biệt với đàn vừa chuyển từ nguồn cám/điều kiện khác về.",
+        "[Theo dõi cá thể yếu] Ghi lại số tai hoặc đánh dấu màu những con ăn chậm, hay nằm, thân nóng hoặc lạnh khác thường. Các con này nên được để cạnh máng ăn thuận lợi hơn và theo dõi liên tục nhiều ngày.",
+        "[Liên kết với mục bệnh] Nếu thấy heo ho, thở khó, tiêu chảy, sốt, tím tai… cần đối chiếu ngay với mục bệnh tương ứng trong app để xử lý sớm, tránh để lan trong đàn.",
+        "[Tập thói quen giờ giấc] Cho ăn đúng giờ cố định sáng - chiều (có thể thêm bữa trưa/đêm tùy quy mô). Không cho ăn kiểu tùy hứng vì sẽ làm rối nhịp sinh học, heo tăng trưởng kém ổn định."
+      ]
+    },
+    {
+      "id": "parasite_and_vaccination",
+      "title": "Tẩy ký sinh trùng và tiêm phòng nền",
+      "goal": "Giảm gánh ký sinh trùng, tạo nền đề kháng tốt trước khi tăng khẩu phần mạnh.",
+      "content": "Khi đàn heo đã quen trại, ăn uống ổn định, đây là thời điểm phù hợp để tẩy giun, xử lý ký sinh trùng ngoài da và xây dựng lịch tiêm phòng cơ bản.",
+      "bullets": [
+        "[Đánh giá tổng thể đàn] Quan sát xem có con nào gầy mà bụng to, lông xù, da xấu, niêm mạc nhợt nhạt, ho kéo dài hay không. Những con này thường gánh ký sinh nặng hơn và cần lưu ý đặc biệt.",
+        "[Chọn thuốc tẩy giun] Ưu tiên dùng sản phẩm tẩy giun dành cho heo, hoạt chất nằm trong nhóm thuốc đã giới thiệu trong mục Thuốc của app. Dùng đúng theo hướng dẫn trên nhãn hoặc theo tư vấn thú y, không tự ý tăng liều.",
+        "[Thời điểm tẩy giun] Nên tẩy khi heo khỏe, ăn tốt, không sốt, không tiêu chảy nặng. Tránh tẩy vào những ngày thời tiết quá nóng, quá lạnh hoặc đang có dịch bệnh trong trại.",
+        "[Xử lý ký sinh ngoài da] Nếu thấy ghẻ, ve, rận, nên dùng thuốc xịt/tắm hoặc nhỏ lưng chuyên dùng cho gia súc, tuân thủ cách pha, thời gian tác động và khoảng cách giữa các lần xử lý trên nhãn.",
+        "[Xây dựng lịch tiêm phòng] Trao đổi với thú y địa phương về các bệnh phổ biến trong vùng (dịch tả, tụ huyết trùng, phó thương hàn, tai xanh…). Lên lịch tiêm nền phù hợp với độ tuổi và mục tiêu vỗ béo.",
+        "[Chăm sóc sau tiêm/tẩy] Sau các đợt tẩy giun hoặc tiêm phòng, cho heo nghỉ yên, khẩu phần giữ ổn định, có thể hỗ trợ thêm điện giải, vitamin theo hướng dẫn trên nhãn để heo hồi phục nhanh.",
+        "[Không làm khi heo đang bệnh] Không tẩy giun, không tiêm phòng cho heo đang sốt, tiêu chảy nặng, thở khó hoặc suy kiệt. Cần xử lý bệnh cấp trước, chờ heo ổn định rồi mới thực hiện lịch phòng."
+      ]
+    },
+    {
+      "id": "metabolic_push",
+      "title": "Tăng dần khẩu phần - đẩy trao đổi chất",
+      "goal": "Heo lên khung, tăng cơ, tích mỡ vừa phải mà không rối loạn tiêu hóa.",
+      "content": "Khi đàn đã ổn định và đã hoàn thành các bước phòng - tẩy cơ bản, bắt đầu giai đoạn tăng dần năng lượng khẩu phần. Nguyên tắc cốt lõi: tăng từ từ, theo dõi phản ứng tiêu hóa và hô hấp sau mỗi lần chỉnh khẩu phần.",
+      "bullets": [
+        "[Nguyên tắc tăng cám] Mỗi lần tăng lượng cám nên tăng từ từ, sau đó giữ vài ngày để quan sát phân và mức độ ăn. Không tăng gấp đôi hoặc đổi loại cám hoàn toàn chỉ trong 1-2 bữa.",
+        "[Giữ chất lượng cám] Cám phải khô, không mốc, không vón cục, không mùi lạ. Tránh dùng cám ẩm lâu ngày hoặc cám đã bị dính nước - rất dễ gây rối loạn tiêu hóa.",
+        "[Bổ sung khoáng - vitamin] Có thể bổ sung khoáng - vitamin hoặc premix theo hướng dẫn trên nhãn để hỗ trợ khung xương, cơ, miễn dịch và chất lượng da lông.",
+        "[Hỗ trợ tiêu hóa khi tăng khẩu phần] Trong những đợt tăng cám, có thể dùng men tiêu hóa, chế phẩm lợi khuẩn cho heo để ruột thích nghi tốt hơn với khẩu phần đậm đặc hơn.",
+        "[Dấu hiệu quá tải đường ruột] Nếu thấy heo chướng bụng, tiêu chảy, phân lỏng có bọt, ăn kém hoặc nằm nhiều, cần giảm ngay lượng cám về mức trước đó, giữ nước sạch và xem lại điều kiện chuồng.",
+        "[Chia nhóm theo thể trạng] Heo quá nhỏ, chậm lớn có thể tách nhóm riêng, cho ăn nơi ít tranh chấp hơn. Heo đã đạt khung tốt thì giữ mức cám ổn định, không cần đẩy thêm quá mạnh.",
+        "[Thận trọng với phụ phẩm] Nếu dùng phụ phẩm như bã đậu, bã bia, cám rượu… phải cho vào từ từ, lượng nhỏ tăng dần. Không dùng phụ phẩm ôi chua hoặc hôi mốc vì rất dễ bùng bệnh tiêu hóa."
+      ]
+    },
+    {
+      "id": "disease_watch",
+      "title": "Theo dõi bệnh trong giai đoạn vỗ béo",
+      "goal": "Không để bùng dịch trong đàn, phát hiện sớm để tránh tụt tăng trọng.",
+      "content": "Mật độ nuôi cao, khẩu phần đậm đặc và khí độc tích tụ là nền tốt cho bệnh hô hấp - tiêu hóa. Cần có quy trình quan sát mỗi ngày để bắt bệnh sớm và khoanh vùng nhanh.",
+      "bullets": [
+        "[Quan sát buổi sáng] Khi vào chuồng, đứng lùi lại và quan sát cả đàn: con nào đứng tách, ăn chậm, thở nhanh, ho nhiều, tai tím, bụng hóp hoặc phình bất thường, phân dính đuôi… đều phải ghi nhận.",
+        "[Thiết lập ô cách ly] Chuẩn bị sẵn một ô chuồng dành cho heo bệnh hoặc nghi bệnh. Khi phát hiện heo bất thường, nên chuyển sang ô này để tiện chăm và hạn chế lây cho đàn chính.",
+        "[Sử dụng nhóm thuốc hỗ trợ] Với những trường hợp nhẹ (ăn kém, mệt, tiêu chảy nhẹ, ho lẻ tẻ), có thể dùng điện giải, men tiêu hóa, thuốc hạ sốt - giảm đau, thuốc hỗ trợ hô hấp… theo đúng hướng dẫn trên nhãn.",
+        "[Dùng app để đối chiếu bệnh] Dựa trên triệu chứng thực tế, mở mục \"Danh mục bệnh\" trong app, chọn đúng loài heo và nhóm bệnh tương ứng để đọc kỹ phần nguyên nhân, triệu chứng, hướng xử lý.",
+        "[Giữ vệ sinh liên tục] Dọn phân hằng ngày, đặc biệt là khu vực quanh máng ăn, máng uống. Không để thức ăn thừa ẩm, mốc trong máng qua đêm. Khu heo bệnh sát trùng thường xuyên hơn.",
+        "[Ghi chép ca bệnh] Với mỗi ca bệnh, nên ghi lại ngày phát hiện, số tai, triệu chứng chính và loại thuốc đã dùng theo thực tế. Khi cần gọi thú y, thông tin sẽ rõ ràng, dễ chẩn đoán hơn.",
+        "[Khi nào cần thú y] Nếu có heo sốt cao kéo dài, thở khó rõ rệt, ho hàng loạt, tiêu chảy nặng, bại liệt, hoặc nhiều con cùng bệnh trong thời gian ngắn, cần gọi thú y đến kiểm tra trực tiếp, không tự xử lý kéo dài."
+      ]
+    },
+    {
+      "id": "weight_gain_and_peak",
+      "title": "Giai đoạn tăng trọng mạnh và đỉnh vỗ béo",
+      "goal": "Tối ưu tốc độ tăng trọng, giữ thân hình đẹp, không quá béo mỡ, không sụt vào cuối kỳ.",
+      "content": "Khi khẩu phần đã ổn định, đàn heo đáp ứng tốt, đây là giai đoạn duy trì nhịp tăng trọng đều, hạn chế thay đổi lớn và tập trung siết kỹ vệ sinh - môi trường.",
+      "bullets": [
+        "[Giữ khẩu phần ổn định] Khi đã tìm được mức cám cho tăng trọng tốt, không nên đổi hãng cám, đổi công thức hoặc thêm bớt phụ phẩm sát ngày xuất chuồng nếu không thật sự cần thiết.",
+        "[Theo dõi độ béo] Định kỳ sờ lưng, sườn, mông: nếu xương lộ rõ là heo còn gầy; nếu mỡ dày, khó cảm nhận xương là quá béo. Mục tiêu là thịt đầy, vừa tầm, phù hợp yêu cầu thương lái/nhà máy.",
+        "[Đảm bảo đủ máng ăn, máng uống] Kiểm tra số máng so với số con. Nếu heo phải tranh nhau quá nhiều, con yếu sẽ ăn thiếu, dẫn tới đàn không đồng đều khó bán.",
+        "[Hạn chế trượt ngã, chấn thương] Nền chuồng phải khô, không trơn. Nếu dùng song sắt hoặc sàn slat, kiểm tra không có thanh gãy, chỗ kẹt chân. Heo chấn thương sẽ ăn kém, khó đứng, giảm tăng trọng.",
+        "[Giữ đàn bình tĩnh] Tránh thường xuyên hò hét, xua đuổi mạnh, để chó chạy tự do trong khu chuồng. Heo bị dọa hoảng nhiều sẽ stress, giảm ăn, dễ bệnh hô hấp.",
+        "[Cân hoặc ước lượng định kỳ] 1-2 tuần/lần, chọn vài con đại diện ở các ô để cân hoặc ước lượng trọng lượng, so với lần trước để đánh giá xem tăng trọng có đạt mục tiêu hay đang chững lại.",
+        "[Không lơ là vệ sinh] Dù đã gần đến lúc xuất, vẫn phải dọn phân mỗi ngày, giữ khu vực máng ăn, máng uống sạch sẽ, tránh để bùng bệnh vào cuối kỳ, rất khó xoay trở."
+      ]
+    },
+    {
+  "id": "feeding_and_ration",
+  "title": "Thức ăn & khẩu phần trong suốt giai đoạn vỗ béo",
+  "goal": "Giữ khẩu phần ổn định, tăng dần có kiểm soát, không đổi cám và phụ phẩm kiểu 'sốc' làm heo rối loạn tiêu hóa.",
+  "content": "Thức ăn là trụ cột của vỗ béo. Quản lý tốt khẩu phần không chỉ ở lượng cám cho mỗi bữa, mà còn ở cách chọn loại cám, cách dùng phụ phẩm, nước uống và nhịp cho ăn hằng ngày.",
+  "bullets": [
+    "[Chọn cám nền] Ưu tiên dùng một dòng cám chính cho đúng lứa heo (theo tư vấn nhà sản xuất). Không vừa nuôi vừa đổi hãng liên tục vì mỗi hãng, mỗi dòng có công thức khác nhau, ruột heo khó thích nghi.",
+    "[Kiểm tra chất lượng cám] Cám phải khô, mùi thơm đặc trưng, không mốc, không vón cục, không có mùi chua, hôi lạ. Bao cám đã mở nên dùng hết trong thời gian hợp lý, tránh để ẩm lâu ngày.",
+    "[Nước uống luôn sẵn] Nước sạch phải có 24/7. Kiểm tra máng uống/ngậm uống xem có bị tắc, rò hay không. Nước bẩn, thiếu nước là lý do rất hay gặp khiến heo ăn kém và dễ táo/tiêu chảy.",
+    "[Phụ phẩm (bã bia, bã đậu, cám rượu…)] Chỉ dùng phụ phẩm khi nắm chắc nguồn sạch, không ôi chua, không mốc. Bắt đầu từ lượng nhỏ, trộn đều vào cám, tăng dần trong nhiều ngày. Không lấy phụ phẩm thay hết cám chính trong 1-2 bữa.",
+    "[Rau xanh, xơ thô] Nếu có dùng rau, thân cây, cỏ… thì phải rửa sạch, để ráo, không cho ăn rau úng, thối. Rau chỉ là phần hỗ trợ, không thay thế hoàn toàn cám đậm đặc trong vỗ béo.",
+    "[Nhịp cho ăn] Thiết lập giờ cho ăn cố định trong ngày (2-3 bữa tùy quy mô). Cho ăn xong khoảng thời gian nhất định thì thu cám thừa, không để cám ẩm, dính nước nằm cả ngày trong máng.",
+    "[Tăng - giảm khẩu phần] Khi tăng cám, tăng từ từ theo sức ăn thực tế và theo dõi phân. Khi thấy thời tiết xấu, heo có dấu hiệu rối loạn tiêu hóa, có thể giảm nhẹ khẩu phần 1-2 bữa rồi nâng lại khi ổn.",
+    "[Không trộn linh tinh] Tránh thói quen 'có gì đổ nấy' vào máng: cơm thừa, đồ ôi, thức ăn người… rất dễ gây ngộ độc hoặc rối loạn tiêu hóa, đặc biệt trong đàn đang vỗ béo với mật độ cao.",
+    "[Ghi chép khẩu phần] Nếu có thể, ghi lại loại cám đang dùng, phụ phẩm kèm theo, cảm nhận tăng trọng và phân trong từng giai đoạn. Những ghi chép này giúp rút kinh nghiệm rõ ràng cho các lứa sau."
+  ]
+},
+    {
+      "id": "pre_sale_trim",
+      "title": "Chuẩn bị trước khi xuất bán",
+      "goal": "Heo sạch sẽ, đẹp mã, vận chuyển an toàn, hạn chế sụt cân trước và sau khi bán.",
+      "content": "Trước khi xuất chuồng, tập trung vào khâu \"trình bày\" và vận chuyển: heo phải sạch, đứng vững, ít xây xát, chuẩn bị tốt để lên xe đi xa mà không sụt quá nhiều.",
+      "bullets": [
+        "[Vệ sinh thân thể] Có thể dùng chổi hoặc vòi nước nhẹ để rửa sạch bùn đất trên thân vào ngày nắng ấm, sau đó để heo khô hẳn. Không tắm sát giờ chiều nếu trời lạnh.",
+        "[Chuồng sạch vài ngày trước bán] Giữ chuồng nơi sẽ bắt heo sạch sẽ, khô ráo, mùi dễ chịu. Điều này vừa giúp heo ít bị nhiễm bẩn mới, vừa tạo thiện cảm với người mua.",
+        "[Điều chỉnh ăn uống trước khi chở] Không để heo đói hoàn toàn nhiều giờ liền trước khi lên xe, nhưng cũng không cho ăn quá no sát giờ bắt. Mục tiêu là heo thoải mái, ít ói - ỉa trên đường.",
+        "[Chuẩn bị giấy tờ] Chuẩn bị sẵn giấy kiểm dịch, lịch tiêm phòng (nếu có). Nếu đàn vừa dùng thuốc điều trị bệnh, cần nắm rõ thời gian ngưng thuốc ghi trên nhãn để trao đổi rõ với bên mua khi cần.",
+        "[Tổ chức bắt heo] Sắp xếp lối đi từ chuồng ra xe gọn, không phải lùa vòng vèo nhiều lần. Dùng tấm chắn, ván che để heo không chạy tán loạn, giảm trầy xước, gãy móng.",
+        "[Sắp xếp trên xe] Không nhét quá chật, cố gắng phân bố đều trên thùng xe. Nếu đi xa, nên trao đổi với tài xế về việc dừng nghỉ, kiểm tra tình trạng heo trên đường để kịp xử lý khi có bất thường.",
+        "[Giảm stress trong ngày bán] Hạn chế đổi chuồng liên tục trong ngày bắt bán. Càng ít xáo trộn, heo càng bớt stress và ít sụt cân hơn."
+      ]
+    }
+  ],
+  "notes": [
+    "Luôn tăng - giảm khẩu phần từ từ, không đổi thức ăn đột ngột.",
+    "Ưu tiên chất lượng cám và phụ phẩm, không ham rẻ nếu nguồn không đảm bảo vệ sinh.",
+    "Kết hợp 3 phần: khẩu phần hợp lý, chuồng trại khô - sạch - thoáng, kiểm soát bệnh và ký sinh trùng.",
+    "Ghi chép lại quá trình vỗ béo (loại cám, lượng ăn, tốc độ tăng trọng, các lần bệnh) để tối ưu dần cho những lứa sau."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi heo có dấu hiệu bệnh nặng (sốt cao, khó thở, tiêu chảy kéo dài, liệt, chết đột ngột…), nên liên hệ thú y để được kiểm tra trực tiếp."
+}

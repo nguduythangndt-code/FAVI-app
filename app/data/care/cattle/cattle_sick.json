@@ -1,0 +1,105 @@
+{
+  "id": "cattle_sick",
+  "name": "Bò bệnh",
+  "species": "cattle",
+  "group": "health",
+  "overview": "Hướng dẫn xử lý tổng quát khi bò có dấu hiệu bệnh trong trại. Mục tiêu: nhận diện nhanh mức độ bất thường, khoanh vùng - cách ly sớm, giữ đàn khoẻ không bị lây nhiễm chéo, hỗ trợ đúng nhóm thuốc theo nhãn, không can thiệp sai thời điểm, không gây stress thêm cho con đang bệnh.",
+  "sections": [
+    {
+      "id": "morning_checklist",
+      "title": "Checklist buổi sáng (bắt buộc làm trước khi cho ăn)",
+      "goal": "Phát hiện sớm cá thể có dấu hiệu bệnh hoặc suy kiệt.",
+      "content": "Buổi sáng là thời điểm lộ bug rõ nhất trên cơ thể bò. Stress cú qua đêm, dịch mũi, ho, phân nhão đều xuất hiện lúc này.",
+      "bullets": [
+        "[Quan sát dáng đứng] Con đứng co ro, đầu cúi gục, lưng cong bất thường, run nhẹ trong trời lạnh là tín hiệu sớm của mệt hoặc bệnh hô hấp.",
+        "[Quan sát mắt] Mắt lờ đờ, có dử xanh - vàng quanh khoé, niêm mạc nhợt màu là dấu hiệu mất sức hoặc gánh ký sinh - nhiễm trùng.",
+        "[Quan sát mũi - dịch] Dịch mũi trong suốt là bình thường khi lạnh nhẹ; dịch đục, đặc, kéo sợi, mùi hôi là bất thường.",
+        "[Nghe tiếng ho] Bò khoẻ ít ho. Ho khan liên tục hoặc ho có đờm là tín hiệu bệnh hô hấp.",
+        "[Quan sát phân] Phân khuôn sợi là bình thường. Phân nhão như nước, lỏng có bọt, mùi chua gắt hoặc lẫn máu là nguy cơ tiêu hoá cấp.",
+        "[Thở bụng mạnh] Con nào đứng nghỉ mà vẫn thở bụng rõ, thở nhanh, khò khè - phải xếp vào nhóm nguy cơ cao.",
+        "[Đo kiểm tra nhanh thân nhiệt bằng tay] Sờ tai, mũi, dưới bụng: quá nóng hoặc lạnh rõ từng vùng là dấu hiệu bất ổn về nhiệt - tuần hoàn.",
+        "[Đánh dấu cá thể bất thường] Gắn thẻ màu - vòng cổ, hoặc chuyển ô ngay nếu nghi nặng."
+      ]
+    },
+    {
+      "id": "isolation_zone",
+      "title": "Khu cách ly và quản lý 1 con bò bệnh (xử lý trong 30 phút đầu khi thấy bất thường)",
+      "goal": "Giảm nguy cơ lây nhiễm và giúp dễ theo dõi diễn biến điều trị.",
+      "content": "Cách ly sớm quan trọng hơn phán đoán mơ hồ. Không tốn ô chuồng riêng cho 1 con mới là lãng phí.",
+      "bullets": [
+        "[Tách ô ngay lập tức] Chuyển con tới ô riêng, nền khô, không trơn, không gió lùa trực diện.",
+        "[Lối đi cách ly] Tạo lối đi riêng cho con bệnh, tránh đi qua máng ăn - sân nằm của đàn khoẻ.",
+        "[Trang bị riêng] Máng ăn, máng nước riêng. Dụng cụ xoa bóp - khăn - xô - bàn chải dùng riêng cho con bệnh.",
+        "[Không nhập đàn trong phase này] Một con ho có thể thành dịch nếu nhập chung hoặc đổi chuồng liên tục.",
+        "[Khử mùi chuồng cách ly] Rắc vôi bột nền theo nhãn, tránh bê có mùi phân ướt dày trong ô cách ly.",
+        "[Người chăm tối thiểu] 1-2 người chăm là chuẩn, tránh 5-7 người vây ép gây stress thêm."
+      ]
+    },
+    {
+      "id": "disease_classification",
+      "title": "Phân loại mức độ bệnh trong trại (đánh giá trong 5-7 ngày đầu)",
+      "goal": "Chọn đúng hướng xử lý, tránh dùng sai nhóm thuốc cùng lúc.",
+      "content": "Đánh giá mức độ dựa trên phản xạ ăn - thở - sốt - chân - phân - thái độ, không dựa định lượng liều trình.",
+      "bullets": [
+        "[Nhẹ] Bò còn bú/ăn thô đều, ho lẻ tẻ, không bỏ ăn, không sốt kéo dài, phân hơi sệt 1-2 lần rồi khuôn lại.",
+        "[Trung bình] Ho rõ buổi sáng, ăn giảm, phân nhão vài lần/ngày, thân nhiệt cao ấm toàn thân hoặc lạnh rõ tai-mũi.",
+        "[Nặng] Sốt kéo dài, thở bụng rõ, bỏ ăn hoặc tiêu chảy nặng liên tục nhiều lần, đứng co rút khớp đau, có dấu hiệu nằm nhiều kiệt sức."
+      ]
+    },
+    {
+      "id": "symptomatic_support",
+      "title": "Hỗ trợ triệu chứng và chăm sóc định tính (ngày 1-ngày 5)",
+      "goal": "Giữ bò không mất nước nặng, giảm đau - hạ stress viêm, hỗ trợ hô hấp - tiêu hoá đúng mệnh vùng.",
+      "content": "Thuốc đều là gợi ý nhóm hoạt chất trong module Thuốc của app, dùng theo nhãn hoặc bác sĩ thú y.",
+      "bullets": [
+        "[Hạ stress viêm - giảm đau] Chọn 1 hoạt chất kháng viêm/giảm đau dành cho gia súc, không phối 3-4 hoạt chất trong 1 mũi nếu không có chỉ định.",
+        "[Hỗ trợ hô hấp] Nếu ho, thở khò, chọn nhóm thuốc hỗ trợ hô hấp theo nhãn hướng dẫn.",
+        "[Bù nước] Nếu phân nhão hoặc sốt nóng kéo dài, ưu tiên nước sạch + điện giải theo nhãn.",
+        "[Vitamin tổng lực nhẹ] 1 hoạt chất vitamin tổng hợp hoặc tonic theo nhãn để bò đỡ kiệt sức.",
+        "[Giữ thô chủ lực] Không cắt cỏ - rơm, dù bò mệt vẫn phải có xơ nhai lại.",
+        "[Giám sát đáp ứng thuốc] Ho giảm, phân khuôn dần, thở êm lại là tín hiệu spot tốt."
+      ]
+    },
+    {
+      "id": "multiple_symptom_events",
+      "title": "Kịch bản nhiều bò cùng có dấu hiệu bệnh (đánh giá trong 48 giờ đầu tiên)",
+      "goal": "Khoanh vùng sớm, tránh bùng dịch, và mời thú y vùng can thiệp đúng trọng tâm.",
+      "content": "Nhiều con cùng bệnh là tín hiệu nguy cơ dịch cấp, không tự ý xử lý kéo dài.",
+      "bullets": [
+        "[Cách ly theo lô] Tách cả lô nghi bệnh ra một khu riêng trong 48 giờ đầu.",
+        "[Dừng tăng tinh toàn đàn] Giảm tinh tránh thêm rối tiêu hoá.",
+        "[Đóng log triệu chứng] Ghi lại triệu chứng chung theo lô.",
+        "[Mời thú y vùng] Khi dịch mũi đục kéo dài, ho nhiều con, sốt nóng lan toàn thân nhiều cá thể, tiêu chảy kéo dài nhiều con → ưu tiên gọi Trạm Thú y địa phương để kiểm tra trực tiếp trong 48 giờ."
+      ]
+    },
+    {
+      "id": "treatment_drug_policy",
+      "title": "Chính sách dùng thuốc trong trại bò bệnh",
+      "goal": "Dùng đúng nhãn, 1 mũi 1 hoạt chất nếu không có chỉ định phối, không tăng liều định lượng sai nhãn.",
+      "content": "Thuốc phải được điều hành như module bất biến: chọn đúng, dùng đúng, không improv.",
+      "bullets": [
+        "[Kháng sinh] Khi có chỉ định thú y, ưu tiên 1 hoạt chất đúng mệnh vùng, đúng nhãn.",
+        "[Không dùng] Thuốc người, thuốc không cho gia súc, tinh ủ mốc.",
+        "[Gia giảm theo nhãn] Giảm thuốc nếu bò lạnh run, tăng lại xơ khô 1 phía khi thời tiết ẩm lạnh.",
+        "[Ghi chú thuốc đã dùng] Luôn log lại để thú y nắm nhanh."
+      ]
+    },
+    {
+      "id": "seasonal_emergencies",
+      "title": "Xử lý khẩn cấp theo thời tiết khi bò đang bệnh",
+      "goal": "Không để bò shock nhiệt, gánh ẩm hoặc hít bụi ẩm lạnh.",
+      "content": "Chọn policy phù hợp theo mùa vụ.",
+      "bullets": [
+        "[Nắng nóng] Treo quạt, tăng vùng bóng, luôn có nước sạch.",
+        "[Mưa ẩm] Tăng xơ thô khô, lót khô nền, rắc vôi nền theo nhãn.",
+        "[Lạnh đột ngột] Chắn 1 phía gió, ưu tiên xơ khô buổi tối, nước ấm sáng-chiều nếu có."
+      ]
+    }
+  ],
+  "notes": [
+    "Cách ly sớm quan trọng hơn điều trị lan man.",
+    "Tinh luôn phải sạch, xơ luôn phải đủ để nhai lại.",
+    "Thuốc ưu tiên 1 hoạt chất/1 mũi nếu chưa có chỉ định phối."
+  ],
+  "warning": "Thông tin tham khảo định tính, không thay thế chẩn đoán - chỉ định thú y."
+}

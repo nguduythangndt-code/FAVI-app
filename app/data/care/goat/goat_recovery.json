@@ -1,0 +1,127 @@
+{
+  "id": "goat_recovery",
+  "name": "Dê sau bệnh",
+  "species": "goat",
+  "group": "recovery",
+  "overview": "Cẩm nang chăm sóc dê sau khi qua giai đoạn bệnh cấp. Mục tiêu: ổn định lại dạ cỏ, phục hồi thể trạng, giảm di chứng của bệnh và thuốc, ngăn tái phát và đưa dê trở lại nhóm sản xuất (vỗ béo, sinh sản) một cách an toàn.",
+  "sections": [
+    {
+      "id": "post_acute_assessment",
+      "title": "Đánh giá lại dê ngay sau giai đoạn bệnh cấp",
+      "goal": "Nắm rõ tình trạng hiện tại của dê sau bệnh để xây kế hoạch hồi phục phù hợp.",
+      "content": "Khi triệu chứng cấp tính đã giảm (hết sốt, hết tiêu chảy nặng, thở đỡ khó, ăn uống bắt đầu quay lại), cần đánh giá lại tổng thể từng con để không chủ quan cho rằng \"hết bệnh là xong\".",
+      "bullets": [
+        "[Xác định loại bệnh vừa mắc] Ghi rõ dê vừa trải qua bệnh gì (hô hấp, tiêu hóa, ký sinh trùng, máu, sản khoa…), thời gian bệnh, thuốc đã dùng, kết quả đáp ứng.",
+        "[Đánh giá thể trạng] Quan sát khung xương, cơ, lớp mỡ dưới da: dê có sút cân nhiều không, lông có xù, xơ không, mắt có trũng không.",
+        "[Kiểm tra hô hấp] Nghe nhịp thở, xem còn thở nhanh, ho, chảy mũi, thở bụng không. Nếu còn, đây là di chứng cần lưu ý trong chế độ hồi phục.",
+        "[Kiểm tra tiêu hóa] Quan sát phân (đã khuôn lại chưa, còn nhầy - máu không), mức độ ăn, nhai lại, bụng có chướng bất thường không.",
+        "[Kiểm tra niêm mạc và mạch] Quan sát màu niêm mạc miệng, mắt (hồng, nhợt, vàng), cảm nhận nhiệt độ tai - chân (lạnh/nóng bất thường).",
+        "[Phân loại mức độ suy kiệt] Chia thành nhóm: suy nhẹ (sút ít, vẫn đi lại bình thường), suy vừa (gầy rõ, đi chậm), suy nặng (rất gầy, đi khó, hay nằm) để lựa chọn mức chăm sóc phù hợp."
+      ]
+    },
+    {
+      "id": "first_recovery_days",
+      "title": "3-5 ngày đầu giai đoạn hồi phục",
+      "goal": "Ổn định ăn uống, dạ cỏ và nước - điện giải, không để bệnh quay lại hoặc nặng thêm.",
+      "content": "Ngay sau khi bệnh cấp giảm, cơ thể dê vẫn còn yếu, dạ cỏ và các cơ quan chưa hồi phục hoàn toàn. Giai đoạn này cần đi chậm, ưu tiên ổn định trước khi nghĩ đến tăng trọng.",
+      "bullets": [
+        "[Khẩu phần nhẹ nhưng dễ tiêu] Ưu tiên cỏ xanh non, cỏ khô tốt, lá dễ tiêu; hạn chế tinh đậm, phụ phẩm khó tiêu trong vài ngày đầu.",
+        "[Tăng cường nước và điện giải] Đảm bảo nước uống sạch luôn sẵn. Có thể cho dùng dung dịch điện giải - vitamin tổng hợp theo hướng dẫn trên nhãn để hỗ trợ sau bệnh.",
+        "[Không tăng tinh đột ngột] Không chuyển ngay từ khẩu phần bệnh (ăn ít) sang khẩu phần vỗ béo bình thường. Mọi thay đổi phải tăng dần từng bước.",
+        "[Chia nhỏ khẩu phần] Nếu dê ăn yếu, nên chia nhiều cữ nhỏ trong ngày thay vì tập trung một - hai cữ lớn.",
+        "[Giảm stress] Tránh chuyển chuồng, nhập đàn, vận chuyển xa trong những ngày đầu hồi phục. Môi trường nên yên tĩnh, ít xáo trộn.",
+        "[Theo dõi sát triệu chứng] Ghi nhận mỗi ngày về ăn uống, phân, ho, thở, nhiệt độ (nếu có dụng cụ). Nếu triệu chứng quay trở lại hoặc nặng hơn, cần xem xét lại bệnh chưa khỏi hẳn."
+      ]
+    },
+    {
+      "id": "rumen_rebuilding",
+      "title": "Khôi phục dạ cỏ và hệ tiêu hóa",
+      "goal": "Dạ cỏ hoạt động lại đều, phân ổn định, dê ăn khỏe và nhai lại tốt.",
+      "content": "Nhiều bệnh (tiêu chảy, ký sinh trùng, dùng kháng sinh kéo dài…) làm hệ vi sinh vật dạ cỏ bị rối loạn. Hồi phục tiêu hóa là bước cần thiết để tăng cân trở lại.",
+      "bullets": [
+        "[Quan sát nhai lại] Dê khỏe sẽ nhai lại đều đặn khi nghỉ. Dê ít nhai lại, ợ hơi bất thường, chướng bụng nhẹ là dấu hiệu dạ cỏ chưa ổn định.",
+        "[Khẩu phần nhiều xơ chất lượng] Dùng cỏ khô sạch, không mốc, không lẫn đất - cát. Cỏ xanh nên phơi tái, tránh cho ăn cỏ vừa cắt ướt sũng sau mưa.",
+        "[Hạn chế thức ăn lên men nhanh] Bã bia, bã đậu, cám đậm đặc… dễ gây toan dạ cỏ nếu đưa vào quá nhanh. Chỉ bổ sung từ từ sau khi dạ cỏ đã hồi phục.",
+        "[Hỗ trợ men tiêu hóa] Có thể dùng sản phẩm men tiêu hóa, men vi sinh dành cho gia súc theo hướng dẫn trên nhãn, nhất là sau đợt điều trị kháng sinh dài ngày.",
+        "[Theo dõi phân] Phân khuôn, không quá nhão, không dính bết đuôi là dấu hiệu tiêu hóa ổn. Nếu phân vẫn lỏng, có mùi tanh, lẫn nhầy hoặc máu → cần xem lại bệnh nền hoặc khẩu phần.",
+        "[Tránh thay đổi thức ăn ồ ạt] Khi muốn đổi loại cỏ, loại tinh hoặc thêm phụ phẩm, cần trộn dần nhiều ngày để dạ cỏ kịp thích nghi."
+      ]
+    },
+    {
+      "id": "body_condition_recovery",
+      "title": "Phục hồi thể trạng và tăng cân trở lại",
+      "goal": "Dê tăng dần khối cơ, mỡ dưới da, lông mượt hơn, sức bền vận động được cải thiện.",
+      "content": "Sau khi dạ cỏ đã ổn định, có thể từng bước nâng khẩu phần để lấy lại thể trạng. Mục tiêu là tăng đều, không nhồi nhét gây quá tải chuyển hóa.",
+      "bullets": [
+        "[Đánh giá điểm thể trạng] Quan sát lưng, sườn, gốc đuôi để ước lượng mức độ gầy - béo. Ghi lại mốc ban đầu trước hồi phục để so sánh.",
+        "[Tăng tinh từng bước] Khi thấy dê ăn tốt, phân ổn định, có thể tăng nhẹ lượng tinh mỗi 3-5 ngày, luôn đi kèm đủ cỏ khô/cỏ xanh.",
+        "[Ưu tiên chất lượng thức ăn] Dùng cám, tinh hỗn hợp, phụ phẩm rõ nguồn gốc, không mốc, không vón cục, không mùi lạ. Thức ăn chất lượng kém khiến dê sau bệnh rất dễ tái rối loạn tiêu hóa.",
+        "[Bổ sung khoáng - vitamin] Sử dụng khoáng tổng hợp, vitamin, sản phẩm bổ sung theo hướng dẫn trên nhãn để hỗ trợ phục hồi cơ - xương - lông.",
+        "[Theo dõi mức tăng] Định kỳ 2-3 tuần cân hoặc ước lượng trọng lượng một số con đại diện để đánh giá hiệu quả hồi phục.",
+        "[Không nhồi nhét vì muốn tăng nhanh] Nhồi tinh hoặc phụ phẩm quá mức có thể gây toan dạ cỏ, chướng hơi, làm bệnh tiêu hóa quay lại."
+      ]
+    },
+    {
+      "id": "specific_disease_recovery",
+      "title": "Hồi phục theo từng nhóm bệnh điển hình",
+      "goal": "Lưu ý thêm khi dê hồi phục sau các nhóm bệnh thường gặp như tiêu hóa, hô hấp, ký sinh trùng, bệnh máu.",
+      "content": "Mỗi nhóm bệnh để lại dạng suy kiệt và di chứng khác nhau. Chăm sóc sau bệnh cần lưu ý các điểm đặc thù để tránh tái phát.",
+      "bullets": [
+        "[Sau bệnh tiêu chảy] Tập trung khôi phục dạ cỏ: khẩu phần nhiều xơ, ít tinh trong thời gian đầu, tăng nước sạch, có thể hỗ trợ men tiêu hóa; tránh thức ăn ẩm, lên men, mốc.",
+        "[Sau bệnh hô hấp] Giữ chuồng khô, ấm, không gió lùa; tránh nhốt quá đông. Hạn chế vận động gắng sức trong thời gian đầu. Quan sát ho, thở gấp; nếu còn kéo dài cần đánh giá lại.",
+        "[Sau bệnh ký sinh trùng đường ruột] Dê thường gầy, lông xù, niêm mạc nhợt. Cần kết hợp khẩu phần nâng dần, khoáng - vitamin và theo dõi phân; tránh tẩy giun lập lại quá sớm khi dê chưa phục hồi.",
+        "[Sau bệnh ký sinh trùng máu] Dê thường thiếu máu, yếu, dễ mệt. Chuồng phải yên tĩnh, tránh stress nhiệt, khẩu phần nâng dần, chú ý bổ sung khoáng - vitamin; theo dõi niêm mạc mắt, miệng và nhịp thở.",
+        "[Sau bệnh sản khoa (dê mẹ)] Kết hợp với hướng dẫn trong mục dê mẹ sinh sản: chú ý vú, sản dịch, thể trạng. Không vội tăng tinh mạnh sau khi hết bệnh sản khoa.",
+        "[Sau bệnh kéo dài hoặc tái phát nhiều lần] Cân nhắc loại thải những con tái bệnh thường xuyên, phục hồi kém, để tránh tiêu hao nguồn lực và tạo nguồn lây trong đàn."
+      ]
+    },
+    {
+      "id": "monitoring_drug_side_effects",
+      "title": "Theo dõi tác dụng phụ của thuốc sau đợt điều trị",
+      "goal": "Phát hiện sớm các vấn đề do thuốc để xử lý và điều chỉnh kế hoạch hồi phục.",
+      "content": "Một số thuốc (kháng sinh, thuốc diệt ký sinh trùng, thuốc chống viêm…) có thể ảnh hưởng đến gan, thận, dạ cỏ, máu. Sau khi kết thúc liệu trình, cần tiếp tục theo dõi chứ không coi là xong.",
+      "bullets": [
+        "[Tiêu hóa sau kháng sinh] Theo dõi phân và nhai lại sau đợt dùng kháng sinh. Nếu tiêu chảy, chán ăn kéo dài, cần xem lại khẩu phần và cân nhắc hỗ trợ men tiêu hóa.",
+        "[Nước tiểu và niêm mạc] Sau các đợt dùng thuốc nặng, quan sát màu nước tiểu, niêm mạc (vàng, nhợt, bất thường) để phát hiện sớm vấn đề gan - thận.",
+        "[Phản ứng tại chỗ tiêm] Kiểm tra chỗ tiêm xem có sưng, đau, áp xe không. Nếu có khối cứng hoặc áp xe, cần xử lý theo hướng dẫn chuyên môn.",
+        "[Theo dõi tổng quát] Sau khi ngừng thuốc 3-7 ngày, nếu dê đột ngột mệt, ăn ít, sốt, tiêu chảy hoặc thở khó trở lại, cần đánh giá lại cả bệnh nền và khả năng tác dụng phụ của thuốc.",
+        "[Tuân thủ thời gian ngưng thuốc] Đối với dê chuẩn bị bán hoặc sử dụng sản phẩm (thịt, sữa), phải tuân thủ đúng thời gian ngưng thuốc ghi trên nhãn để đảm bảo an toàn."
+      ]
+    },
+    {
+      "id": "biosecurity_and_housing_during_recovery",
+      "title": "Chuồng trại và an toàn sinh học trong giai đoạn hồi phục",
+      "goal": "Vừa tạo môi trường tốt cho dê hồi phục, vừa giảm nguy cơ lây bệnh cho đàn khỏe.",
+      "content": "Dê sau bệnh thường được tách riêng hoặc ở khu vực riêng. Cần duy trì môi trường an toàn, sạch và có kiểm soát luồng di chuyển người - vật để tránh lây chéo.",
+      "bullets": [
+        "[Khu hồi phục riêng] Nếu có điều kiện, nên bố trí ô/khu hồi phục riêng cho dê vừa khỏi bệnh, tách khỏi đàn khỏe nhưng vẫn dễ chăm sóc.",
+        "[Mật độ vừa phải] Không nhốt quá đông trong ô hồi phục. Dê yếu cần không gian nằm - đứng đủ rộng, tránh đè nhau, chen lấn.",
+        "[Nền và chất độn] Giữ nền khô, sạch, chất độn khô, thay hoặc xới tơi thường xuyên. Tránh để nền ẩm kéo dài gây viêm kẽ chân và tái phát bệnh hô hấp.",
+        "[Thông gió và nhiệt độ] Ô hồi phục phải thông thoáng nhưng không gió lùa trực tiếp; chú ý giữ ấm vào ban đêm và khi trời lạnh, ẩm.",
+        "[Dụng cụ riêng] Nếu được, sử dụng dụng cụ (xô, chổi, cào) riêng cho khu hồi phục; nếu dùng chung, cần vệ sinh trước khi dùng lại cho đàn khỏe.",
+        "[Quản lý người và động vật khác] Hạn chế người lạ và động vật khác (chó, mèo, gia cầm) ra vào khu hồi phục để giảm nguy cơ mang mầm bệnh."
+      ]
+    },
+    {
+      "id": "return_to_production_group",
+      "title": "Đưa dê trở lại đàn sản xuất (vỗ béo, sinh sản)",
+      "goal": "Chỉ đưa dê đã hồi phục đủ, hạn chế nguy cơ bệnh tái phát và lây cho đàn chính.",
+      "content": "Thời điểm đưa dê trở lại đàn chính cần được cân nhắc dựa trên thể trạng, kết quả theo dõi và loại bệnh đã mắc. Không nên vội vàng chỉ vì muốn đủ số lượng đàn.",
+      "bullets": [
+        "[Tiêu chí sức khỏe] Dê ăn uống bình thường, phân khuôn, không ho - thở khó - sốt, đi lại bình thường, không còn dấu hiệu suy kiệt rõ.",
+        "[Thể trạng tối thiểu] Chỉ đưa lại đàn khi dê đã đạt thể trạng chấp nhận được cho nhóm đó (vỗ béo, sinh sản, hậu bị), không quá gầy so với đàn.",
+        "[Đánh giá nguy cơ lây bệnh] Với các bệnh có khả năng lây lan cao, cần đảm bảo hoàn toàn hết triệu chứng và đã qua giai đoạn nguy cơ lây theo tư vấn thú y trước khi nhập lại đàn.",
+        "[Nhập đàn từ từ] Khi nhập lại đàn, theo dõi vài ngày đầu xem dê có bị đàn cũ húc, chèn ép quá mức không; điều chỉnh mật độ nếu cần.",
+        "[Cập nhật hồ sơ] Ghi lại thời điểm đưa dê trở lại đàn, kèm theo thông tin bệnh đã mắc và quá trình hồi phục để quản lý về sau (chọn lọc, loại thải…).",
+        "[Xem xét hướng sử dụng] Những con hồi phục kém, tái bệnh nhiều lần có thể cần cân nhắc hướng sử dụng khác hoặc loại thải, thay vì giữ lại đàn sinh sản lâu dài."
+      ]
+    }
+  ],
+  "notes": [
+    "Dê sau bệnh cần được coi là giai đoạn riêng, không thể áp dụng ngay chế độ nuôi bình thường như trước khi bệnh.",
+    "Ưu tiên ổn định dạ cỏ, hô hấp và môi trường trước, sau đó mới từ từ nâng khẩu phần để tăng trọng.",
+    "Mọi sự thay đổi về thức ăn, môi trường, nhóm nuôi trong thời gian hồi phục phải thực hiện từng bước, có theo dõi rõ ràng.",
+    "Ghi chép đầy đủ quá trình bệnh - điều trị - hồi phục giúp tối ưu dần phác đồ chăm sóc sau bệnh cho toàn đàn về lâu dài."
+  ],
+  "warning": "Thông tin trong mục chăm sóc chỉ mang tính tham khảo, không thay thế cho chẩn đoán và chỉ định điều trị của bác sĩ thú y. Khi dê sau bệnh có dấu hiệu sốt trở lại, bỏ ăn kéo dài, tiêu chảy nặng, thở khó, yếu dần hoặc có bất thường khác, cần liên hệ thú y để được kiểm tra trực tiếp và điều chỉnh phác đồ."
+}
