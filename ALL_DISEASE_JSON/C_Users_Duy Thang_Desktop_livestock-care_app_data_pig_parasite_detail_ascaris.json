@@ -1,0 +1,109 @@
+{
+  "id": "ascaris",
+  "name": "Giun đũa",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Giun đũa gây rối loạn tiêu hoá, ho khan, chậm lớn và phân sống. Ấu trùng di chuyển qua gan - phổi nên heo thường ho và gầy nhanh.",
+  "causes": [
+    "Nhiễm trứng giun đũa trong phân hoặc nền chuồng",
+    "Lây qua thức ăn, nước uống nhiễm bẩn",
+    "Ấu trùng di chuyển qua gan - phổi gây viêm"
+  ],
+  "risk_factors": [
+    "Chuồng nuôi ẩm, dơ, không dọn phân đều",
+    "Heo con cai sữa, heo hậu bị",
+    "Không tẩy giun định kỳ",
+    "Thức ăn rơi vãi dưới nền"
+  ],
+  "clinical_signs_detailed": [
+    "Heo ho khan từng cơn do ấu trùng di chuyển",
+    "Ăn giảm, phân sống, có giun trong phân",
+    "Gầy nhanh, bụng tóp, lông xỉu",
+    "Chậm lớn kéo dài dù ăn khá",
+    "Heo có thể nôn ra giun khi nhiễm nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ từng lúc",
+      "Phân mềm, hơi sống"
+    ],
+    "moderate": [
+      "Ho nhiều, ăn giảm",
+      "Phân sống rõ, bụng tóp"
+    ],
+    "severe": [
+      "Nôn ra giun hoặc giun theo phân",
+      "Gầy nhanh, chậm lớn kéo dài"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Albendazole",
+      "Fenbendazole"
+    ],
+    "alternative_drugs": [
+      "Levamisole",
+      "Ivermectin"
+    ],
+    "note_drugs": "Albendazole hoặc Fenbendazole là lựa chọn chính cho giun đường ruột. Levamisole hoặc Ivermectin có thể dùng khi không có thuốc chính.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giảm thức ăn khó tiêu 1-2 ngày đầu",
+      "Dọn phân ngay để giảm tái nhiễm",
+      "Giữ chuồng khô, thoáng khí",
+      "Ổn định khẩu phần sau điều trị"
+    ],
+    "dose_policy": "Dùng theo liều trên nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo có giun theo phân nhưng vẫn ăn và đi lại được.",
+      "guideline": [
+        "Dùng thuốc tẩy giun chính",
+        "Bổ sung men tiêu hoá",
+        "Theo dõi phân 2-3 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo nôn ra giun, ho nhiều, gầy nhanh.",
+      "guideline": [
+        "Giữ chuồng ấm và thoáng",
+        "Tăng vitamin và điện giải",
+        "Theo dõi sát đáp ứng điều trị"
+      ]
+    },
+    "note": "Cần tẩy giun cả đàn để tránh lây chéo."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ 1-2 tháng/lần",
+    "Dọn phân hằng ngày",
+    "Giữ nền chuồng khô",
+    "Không cho heo ăn thức ăn rơi dưới nền"
+  ],
+  "notes": [
+    "Giun đũa gây tổn thương gan-phổi nên heo thường ho.",
+    "Heo con và heo hậu bị dễ bị ảnh hưởng nhất."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

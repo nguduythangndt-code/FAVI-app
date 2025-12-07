@@ -1,0 +1,123 @@
+{
+  "id": "foot_rot",
+  "name": "Thối móng",
+  "species": "cattle",
+  "group": "other",
+
+  "summary": "Thối móng là bệnh viêm kẽ móng gây đau, sưng và đi khập khiễng. Bò giảm ăn, giảm sữa và nằm nhiều. Thường xảy ra khi nền chuồng ướt và bẩn.",
+
+  "causes": [
+    "Vi khuẩn xâm nhập vào kẽ móng",
+    "Nền chuồng ướt, bùn nhiều",
+    "Tổn thương kẽ móng do vật nhọn"
+  ],
+
+  "risk_factors": [
+    "Chuồng lầy lội",
+    "Kẽ móng bị nứt hoặc xây xước",
+    "Thiếu vệ sinh móng",
+    "Bò đi lại nhiều trên mặt nền gồ ghề"
+  ],
+
+  "clinical_signs_detailed": [
+    "Đi khập khiễng rõ",
+    "Kẽ móng sưng, nóng, đau",
+    "Có mùi hôi nhẹ",
+    "Bò nằm nhiều, giảm ăn",
+    "Giảm sữa rõ ở bò sữa"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đi hơi khập khiễng",
+      "Kẽ móng hơi đỏ"
+    ],
+    "moderate": [
+      "Kẽ móng sưng rõ",
+      "Đi rất khó",
+      "Giảm ăn"
+    ],
+    "severe": [
+      "Bò nằm nhiều",
+      "Sưng lan rộng",
+      "Nhiễm trùng sâu, nguy cơ mất móng"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "ceftiofur"
+    ],
+    "note_drugs": "Kháng sinh toàn thân giúp kiểm soát nhiễm trùng. Không tự cắt móng sâu khi không có kỹ thuật.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Rửa móng bằng nước sạch và giữ khô",
+      "Ngâm kẽ móng bằng dung dịch sát trùng nếu điều kiện cho phép",
+      "Nền chuồng sạch và khô",
+      "Hạn chế vận động mạnh"
+    ],
+
+    "dose_policy": "Dùng thuốc đúng nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đi khập khiễng nhưng vẫn đứng được.",
+      "guideline": [
+        "Kháng sinh sớm",
+        "Giữ móng sạch và khô",
+        "Theo dõi mức ăn"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò nằm nhiều, chân rất đau.",
+      "guideline": [
+        "Cần thú y kiểm tra móng",
+        "Không tự ý cắt móng sâu",
+        "Tiên lượng phụ thuộc mức độ lan rộng"
+      ]
+    },
+    "note": "Giữ chuồng khô sạch giảm rất nhiều nguy cơ thối móng."
+  },
+
+  "prevention": [
+    "Chuồng khô, sạch",
+    "Không để nền trơn trượt",
+    "Rà soát vật nhọn trên đường đi",
+    "Rửa móng định kỳ"
+  ],
+
+  "notes": [
+    "Bò béo hoặc bò sữa dễ bị thối móng.",
+    "Móng sưng nóng là dấu hiệu sớm.",
+    "Đi lại khó lâu ngày gây giảm sản lượng lớn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

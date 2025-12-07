@@ -3,8 +3,8 @@
   "name": "Bê con",
   "species": "cattle",
   "group": "calf",
-  "overview": "Cẩm nang chăm bê con từ lúc vừa lọt lòng đến sau cai sữa. Mục tiêu: bê thở đều, bú tốt, bụng không chướng, phân không nhão kéo dài, chân đứng vững, tăng cân đều theo giai đoạn. Tập trung vào 4 trụ cột: sữa đầu đủ và sớm, giữ ấm - khô - sạch, tập ăn sớm nhưng từ từ, phát hiện nhanh tiêu chảy và viêm phổi.",
-  "sections": [
+  "overview": "Bò con là giai đoạn quyết định nền tảng sống còn, sức đề kháng và tốc độ lớn của cả vòng đời sau này.\n\n Rủi ro lớn nhất không nằm ở việc thiếu thức ăn hay thuốc men, mà đến từ hệ miễn dịch non yếu, tiêu hóa chưa hoàn chỉnh và khả năng thích nghi môi trường kém.\n\nNhiều bò con chết sớm hoặc còi cọc kéo dài không phải do bệnh nguy hiểm ngay từ đầu, mà bắt nguồn từ sai lầm trong những ngày đầu: bú sữa đầu không đủ, chuồng lạnh ẩm, vệ sinh kém hoặc cai sữa quá sớm.\n\n Khi đã trượt nền ở giai đoạn này, bò rất khó bắt kịp đàn dù nuôi tốt về sau.\n\nMục tiêu của chăm sóc bò con không phải là cho ăn nhiều hay lớn nhanh sớm, mà là giữ cho bò con khỏe, ấm, ăn đều, tiêu hóa ổn định và tăng trưởng chắc.\n\n Cẩm nang này giúp người nuôi hiểu đúng rủi ro trọng yếu của giai đoạn bò con và tránh các sai lầm dễ gặp ngay từ đầu.", 
+   "sections": [
     {
       "id": "newborn_0_2_hours",
       "title": "Giai đoạn sơ sinh: 0-2 giờ đầu",
@@ -138,7 +138,21 @@
         "[Khu bê tách tương đối với bò lớn] Hạn chế cho bò lớn đi lại, giẫm đạp trong khu bê vì dễ gây chấn thương và mang nhiều mầm bệnh.",
         "[Giữ máng ăn, máng nước sạch] Rửa máng nước và máng thức ăn định kỳ. Không để rêu, cặn bẩn bám lâu ngày vì là nơi vi khuẩn phát triển."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện sớm các bệnh thường gặp ở bò con theo từng giai đoạn để giảm chết non và tránh chậm lớn kéo dài.",
+  "content": "Bò con thay đổi nhanh về miễn dịch và tiêu hóa trong những tháng đầu đời. Khi có dấu hiệu bất thường, nên đối chiếu đúng giai đoạn để tra cứu nhóm bệnh phù hợp trong mục Bệnh.",
+  "bullets": [
+    "[Sơ sinh – những ngày đầu] Nhiễm lạnh, viêm rốn, tiêu chảy sơ sinh do bú sữa đầu kém, yếu miễn dịch.",
+    "[Theo mẹ – bú sữa] Tiêu chảy dinh dưỡng, thiếu khoáng – vitamin, suy nhược nếu sữa mẹ kém.",
+    "[Tập ăn – cai sữa] Rối loạn tiêu hóa, tiêu chảy cai sữa, chướng hơi, stress do thay đổi thức ăn.",
+    "[Sau cai sữa – ổn định đàn] Viêm phổi, ký sinh trùng đường ruột, chậm lớn kéo dài.",
+    "[Giai đoạn bò nền yếu] Suy dinh dưỡng, bệnh hô hấp tái phát, dễ mắc bệnh kế phát."
+  ]
+}
+
   ],
   "notes": [
     "Sữa đầu trong 24 giờ đầu là nền miễn dịch quan trọng nhất cho bê.",

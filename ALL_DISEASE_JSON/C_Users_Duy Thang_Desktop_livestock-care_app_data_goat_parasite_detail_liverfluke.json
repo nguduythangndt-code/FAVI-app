@@ -1,0 +1,122 @@
+{
+  "id": "liverfluke",
+  "name": "Sán lá gan (Fasciola) ở dê",
+  "species": "goat",
+  "group": "parasite",
+
+  "summary": "Sán lá gan ký sinh trong ống mật và nhu mô gan, gây viêm gan, thiếu máu, phù hàm và sụt cân dai dẳng. Bệnh tiến triển âm ỉ nhưng gây thiệt hại nặng nếu không tẩy giun đúng loại thuốc.",
+
+  "causes": [
+    "Dê ăn cỏ ở khu vực có ốc nước ngọt (vật chủ trung gian).",
+    "Chăn thả ở vùng trũng, ẩm, bãi cỏ mọc ven mương.",
+    "Không tẩy giun sán định kỳ."
+  ],
+
+  "risk_factors": [
+    "Mùa mưa, độ ẩm cao.",
+    "Dê thả rông gần vùng nước tù.",
+    "Đàn có tiền sử từng bị sán lá."
+  ],
+
+  "clinical_signs_detailed": [
+    "Phù hàm dưới (bướu nước).",
+    "Sụt cân dù ăn vẫn bình thường.",
+    "Lông xù, chậm lớn.",
+    "Niêm mạc nhợt nhẹ.",
+    "Tiêu chảy từng đợt.",
+    "Gan sưng, ống mật viêm (trong ca nặng)."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sụt cân nhẹ.",
+      "Lông xù, chậm lớn."
+    ],
+    "moderate": [
+      "Phù hàm.",
+      "Thiếu máu nhẹ - vừa.",
+      "Tiêu chảy từng đợt."
+    ],
+    "severe": [
+      "Phù toàn thân.",
+      "Thiếu máu nặng.",
+      "Suy kiệt, nằm nhiều."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Closantel",
+      "Triclabendazole"
+    ],
+    "alternative_drugs": [
+      "Albendazole (tác dụng yếu hơn)",
+      "Oxyclozanide"
+    ],
+    "note_drugs": [
+      "Ivermectin - Doramectin KHÔNG diệt được sán lá gan.",
+      "Benzimidazole đời cũ hiệu lực thấp với Fasciola trưởng thành."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin B12",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá"
+      ]
+    },
+    "supportive_care": [
+      "Không chăn thả ở bãi ẩm - ven mương.",
+      "Bổ sung khoáng - vitamin.",
+      "Giữ chuồng khô, sạch."
+    ],
+    "dose_policy": [
+      "Dùng thuốc đặc trị sán lá đúng theo nhãn.",
+      "Không tự đổi thuốc vì hiệu lực từng nhóm khác nhau."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Có phù hàm, thiếu máu nhưng còn đứng.",
+      "guideline": [
+        "Closantel hoặc triclabendazole.",
+        "Vitamin B12 + điện giải.",
+        "Theo dõi phân và phù hàm."
+      ]
+    },
+    "case_type_2": {
+      "description": "Phù toàn thân, nằm nhiều.",
+      "guideline": [
+        "Thú y kiểm tra gan.",
+        "Thuốc diệt sán + hồi sức.",
+        "Điện giải - vitamin liên tục.",
+        "Tiên lượng dè dặt."
+      ]
+    },
+    "note": "Sán lá gan cần ốc nước làm trung gian — điều trị + thay đổi bãi chăn mới hết."
+  },
+
+  "prevention": [
+    "Không thả ở bãi cỏ ẩm.",
+    "Tẩy giun sán định kỳ (Closantel/Triclabendazole).",
+    "Luân chuyển bãi chăn.",
+    "Vệ sinh nguồn nước."
+  ],
+
+  "notes": [
+    "Phù hàm ở dê = nghĩ ngay đến sán lá gan.",
+    "Sán lá điều trị không đúng thuốc = không khỏi."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,106 @@
+{
+  "id": "enteric-colibacillosis",
+  "name": "Tiêu chảy do E. coli",
+  "species": "chicken",
+  "group": "digestive",
+  "summary": "Rối loạn tiêu hóa do E. coli ở ruột, làm gà tiêu chảy, chậm lớn, thường xuất hiện khi vệ sinh kém hoặc sau các bệnh làm suy đường ruột.",
+  "causes": [
+    "Escherichia coli phát triển quá mức trong ruột",
+    "Nước uống, thức ăn, nền chuồng nhiễm phân và vi khuẩn",
+    "Gà suy, ruột bị tổn thương sẵn do cầu trùng, viêm ruột, ký sinh trùng"
+  ],
+  "risk_factors": [
+    "Máng uống bẩn, nước không thay đều, có cặn hoặc rêu",
+    "Thức ăn rơi vãi, ẩm, gần phân, để lâu mới dọn",
+    "Nền chuồng ẩm, phân bết, mật độ cao",
+    "Dùng kháng sinh bừa bãi làm rối loạn hệ vi sinh ruột"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy, phân loãng, màu vàng, xanh hoặc nâu nhạt, mùi hôi",
+    "Bết phân quanh hậu môn, lông bụng bẩn",
+    "Gà giảm ăn, uống nước nhiều, chậm lớn, nhẹ cân",
+    "Lông xấu, da khô, ngực nhọn",
+    "Nếu nặng, mất nước, mắt trũng, ủ rũ, chết rải rác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân hơi lỏng, chuồng bẩn nhanh hơn bình thường",
+      "Gà giảm ăn nhẹ nhưng vẫn đi lại được",
+      "Khó nhận nếu không quan sát kỹ nền chuồng và hậu môn"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, phân loãng, bết quanh hậu môn",
+      "Gà xù lông, ít hoạt động, uống nước nhiều hơn ăn",
+      "Chậm lớn, nhiều con còi hơn so với đàn cùng tuổi khỏe"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, phân nước, mùi hôi rõ",
+      "Gà gầy, mất nước, mắt trũng, lờ đờ, nằm nhiều",
+      "Chết rải rác, nhất là những con đã yếu sẵn"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "neomycin"
+    ],
+    "note_drugs": "Chọn một phác đồ kháng sinh phù hợp nhắm vào E. coli và dùng đủ liệu trình. Sau đợt cấp, cần phục hồi hệ vi sinh đường ruột bằng men, không kéo dài kháng sinh quá mức.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước để bù nước và điện giải",
+        "alternative": "điện giải kèm glucose giúp giảm mệt"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp cho cả đàn",
+        "alternative": "vitamin nhóm B kích thích ăn trở lại"
+      },
+      "digestive_support": {
+        "main": "men vi sinh sau khi phân bắt đầu đặc lại dần",
+        "alternative": "thức ăn dễ tiêu, giảm bột cám mịn nếu đàn bị tiêu chảy lâu"
+      }
+    },
+    "supportive_care": [
+      "Rửa máng uống hằng ngày, thay nước sạch thường xuyên",
+      "Dọn thức ăn rơi vãi đã ẩm, không để lâu ngoài máng",
+      "Giữ nền chuồng khô hơn, thay chất độn ướt và dính phân",
+      "Tách những con quá yếu nếu có điều kiện để chăm riêng",
+      "Theo dõi phản ứng điều trị qua phân và thể trạng đàn"
+    ],
+    "dose_policy": "Luôn đọc kỹ hướng dẫn trên nhãn thuốc trước khi pha hoặc trộn. Không tự ý kết hợp nhiều kháng sinh khi chưa rõ tương tác."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt lớn, tiêu chảy do E. coli lan rộng, chuồng rất bẩn.",
+      "guideline": "Áp dụng phác đồ kháng sinh cho cả đàn, kết hợp làm sạch nền và máng uống. Chấp nhận thời gian tăng trọng chậm hơn để đàn hồi lại. Sau đợt bệnh, cần chỉnh chương trình vệ sinh và quản lý nước, thức ăn."
+    },
+    "case_type_2": {
+      "description": "Đàn giống nhỏ, tiêu chảy kéo dài, nhiều con còi, thể trạng kém.",
+      "guideline": "Điều trị tập trung theo nhóm nhỏ, vừa dùng kháng sinh, vừa hỗ trợ men vi sinh và vitamin. Loại dần những con quá yếu, khó phục hồi. Cải thiện chất lượng nước uống và thức ăn để tránh tái phát."
+    },
+    "note": "Colibacillosis ở ruột là dấu hiệu cho thấy hệ thống vệ sinh và quản lý nước, thức ăn đang có vấn đề cần sửa tận gốc."
+  },
+  "prevention": [
+    "Giữ máng uống, máng ăn sạch, rửa và phơi khô định kỳ",
+    "Không dùng thức ăn ẩm, mốc hoặc bảo quản kém",
+    "Giữ nền chuồng khô, thay chất độn bẩn kịp thời",
+    "Hạn chế dùng kháng sinh bừa bãi, ưu tiên men vi sinh trong các giai đoạn nhạy cảm",
+    "Theo dõi phân hằng ngày để phát hiện sớm các vấn đề tiêu hóa"
+  ],
+  "notes": [
+    "Tiêu chảy do E. coli thường đi kèm với các yếu tố stress khác như nhiệt độ, mật độ, chất lượng cám.",
+    "Phân tích các yếu tố quản lý xung quanh quan trọng không kém việc chọn đúng thuốc."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

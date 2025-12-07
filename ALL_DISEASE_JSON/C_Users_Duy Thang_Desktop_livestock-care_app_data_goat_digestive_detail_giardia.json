@@ -1,0 +1,119 @@
+{
+  "id": "giardia",
+  "name": "Ký sinh trùng đường ruột Giardia ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Giardia là ký sinh trùng đơn bào gây tiêu chảy dai dẳng, phân sệt - nhầy, chậm lớn, đặc biệt ở dê con. Lây nhanh qua nước uống và nền chuồng bẩn.",
+
+  "causes": [
+    "Nhiễm Giardia qua nước uống bẩn.",
+    "Chuồng ẩm, nhiều phân ướt.",
+    "Mật độ nuôi cao.",
+    "Dê con liếm nền chuồng."
+  ],
+
+  "risk_factors": [
+    "Dê con 1-6 tháng.",
+    "Nguồn nước không được thay thường xuyên.",
+    "Chuồng ít nắng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Tiêu chảy sệt, nhầy, dai dẳng.",
+    "Dê bụng tóp, chậm lớn.",
+    "Phân nâu - vàng, rất hôi.",
+    "Lông xù, thiếu máu nhẹ.",
+    "Không chết nhanh nhưng hao đàn mạnh."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân sệt kéo dài.",
+      "Dê ăn giảm nhẹ."
+    ],
+    "moderate": [
+      "Phân nhầy - hôi, chậm lớn rõ.",
+      "Lông xù, bụng tóp."
+    ],
+    "severe": [
+      "Tiêu chảy dai dẳng nhiều tuần.",
+      "Gầy rộc, thiếu máu.",
+      "Dê con ngã bệnh hàng loạt."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Albendazole",
+      "Fenbendazole"
+    ],
+    "alternative_drugs": [
+      "Men tiêu hoá",
+      "Vitamin B-complex",
+      "Điện giải nhẹ"
+    ],
+    "note_drugs": [
+      "Không dùng kháng sinh vì Giardia không phải vi khuẩn."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Điện giải nhẹ"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá",
+        "Chế phẩm bảo vệ niêm mạc ruột"
+      ]
+    },
+    "supportive_care": [
+      "Giữ chuồng cực khô - sạch.",
+      "Thay nước uống mỗi ngày.",
+      "Tách dê bệnh.",
+      "Cho ăn cỏ khô chất lượng."
+    ],
+    "dose_policy": [
+      "Thuốc trị ký sinh trùng phải theo nhãn.",
+      "Không tự ý tăng liều benzimidazole."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Tiêu chảy kéo dài nhưng dê còn đứng.",
+      "guideline": [
+        "Albendazole hoặc fenbendazole.",
+        "Điện giải nhẹ.",
+        "Men tiêu hoá."
+      ]
+    },
+    "case_type_2": {
+      "description": "Gầy rộc, chậm lớn nặng.",
+      "guideline": [
+        "Cần thú y thăm khám.",
+        "Hỗ trợ mạnh men tiêu hoá.",
+        "Vitamin - khoáng phục hồi."
+      ]
+    },
+    "note": "Giardia ít gây chết nhưng cực kỳ hao đàn."
+  },
+
+  "prevention": [
+    "Nước sạch, thay hằng ngày.",
+    "Vệ sinh chuồng khô ráo.",
+    "Tẩy giun định kỳ."
+  ],
+
+  "notes": [
+    "Giardia làm đàn phát triển không đồng đều.",
+    "Cần kiểm soát nguồn nước tốt."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo."
+}

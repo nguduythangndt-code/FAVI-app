@@ -1,0 +1,122 @@
+{
+  "name": "Viêm phổi Mannheimia nặng",
+
+  "summary": "Viêm phổi cấp do Mannheimia/Pasteurella bùng phát rất nhanh khi thời tiết lạnh ẩm hoặc đàn bị stress. Ca nặng dễ chết vì suy hô hấp.",
+
+  "causes": [
+    "Vi khuẩn Mannheimia haemolytica hoặc Pasteurella multocida xâm nhập đường hô hấp",
+    "Bội nhiễm sau ho - cảm, hoặc sau vận chuyển"
+  ],
+
+  "risk_factors": [
+    "Trời lạnh ẩm, mưa kéo dài",
+    "Chuồng kín, thông khí kém",
+    "Vận chuyển xa, tách mẹ, đổi đàn",
+    "Dê con sau cai sữa",
+    "Đàn bị ký sinh trùng làm giảm miễn dịch"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt cao, bỏ ăn nhanh",
+    "Thở nhanh, thở bụng mạnh",
+    "Ho khan rồi ho ướt",
+    "Khò khè, rên",
+    "Chảy mũi đục vàng/xanh",
+    "Có mùi hôi ở mũi",
+    "Niêm mạc tím tái",
+    "Tai lạnh",
+    "Đứng dạng chân, gục đầu",
+    "Nằm nhiều, không muốn dậy",
+    "Có thể chết đột ngột"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ, hắt hơi",
+      "Ăn giảm",
+      "Chảy mũi trong"
+    ],
+    "moderate": [
+      "Thở nhanh rõ",
+      "Ho liên tục",
+      "Chảy mũi đục",
+      "Mệt, đứng một chỗ"
+    ],
+    "severe": [
+      "Thở rất khó, thở bụng dữ",
+      "Khò khè, rên",
+      "Tím môi, tai lạnh",
+      "Nằm bệt, có thể chết nhanh do suy hô hấp"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Florfenicol"
+    ],
+    "alternative_drugs": [
+      "Cefquinome",
+      "Oxytetracycline LA"
+    ],
+    "note_drugs": "Kháng sinh phổ mạnh là nền tảng vì bệnh tiến rất nhanh. Kháng viêm - long đờm giúp giảm phù phổi và dễ thở hơn.",
+    
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Meloxicam", "Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Guaifenesin"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": ["B-complex", "vitamin tổng hợp"]
+      }
+    },
+
+    "supportive_care": [
+      "Giữ ấm tuyệt đối, tránh gió lùa",
+      "Nơi nằm khô sạch",
+      "Giảm vận động, giảm stress",
+      "Cho uống nước ấm sạch",
+      "Theo dõi nhịp thở mỗi ngày"
+    ],
+
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": [
+      "Ưu tiên kháng sinh mạnh, đủ ngày",
+      "Kết hợp hạ sốt - kháng viêm",
+      "Long đờm - hỗ trợ hô hấp",
+      "Bù điện giải và vitamin"
+    ],
+    "case_type_2": [
+      "Nếu có dấu hiệu phù phổi: giữ yên, nâng cao đầu nhẹ",
+      "Chỗ nằm thoáng ấm, không gió tạt",
+      "Theo dõi sát, gọi thú y nếu thở gấp tăng"
+    ],
+    "note": "Ca nặng cần xử lý sớm trong 1-2 ngày đầu, trễ là tỉ lệ chết cao."
+  },
+
+  "prevention_list": [
+    "Chuồng khô thoáng, tránh gió tạt",
+    "Giảm mật độ nuôi",
+    "Cách ly dê mới nhập",
+    "Tẩy ký sinh trùng định kỳ",
+    "Bổ sung khoáng - vitamin khi đổi mùa"
+  ],
+
+  "notes": [
+    "Hay bùng sau mưa lạnh hoặc sau vận chuyển."
+  ],
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+}

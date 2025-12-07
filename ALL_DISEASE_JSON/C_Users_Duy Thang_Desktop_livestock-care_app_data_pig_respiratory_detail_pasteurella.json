@@ -1,0 +1,110 @@
+{
+  "id": "pasteurella",
+  "name": "Viêm phổi do Pasteurella",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Viêm phổi do Pasteurella thường là nhiễm ghép trên nền bệnh hô hấp khác, làm heo sốt, ho, thở nặng và dễ chết nếu không điều trị kịp.",
+  "causes": [
+    "Vi khuẩn Pasteurella multocida",
+    "Thường ghép với Mycoplasma, PRRS, cúm hoặc PCV2",
+    "Chuồng ẩm, bí khí, heo stress kéo dài"
+  ],
+  "risk_factors": [
+    "Không tiêm phòng hô hấp đầy đủ",
+    "Mật độ nuôi dày, thông gió kém",
+    "Trộn đàn nhiều nguồn, nhiều lứa tuổi",
+    "Nhiễm bệnh nền nhưng không xử lý sớm"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt vừa đến cao",
+    "Ho ướt, có đờm",
+    "Thở nhanh, thở bụng",
+    "Nằm nhiều, ăn giảm rõ",
+    "Một số con tím tai, yếu nhanh"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho ít, hơi sốt",
+      "Ăn giảm nhẹ"
+    ],
+    "moderate": [
+      "Ho nhiều, thở nhanh",
+      "Nằm nhiều hơn, lớn chậm"
+    ],
+    "severe": [
+      "Thở bụng, nằm bẹp",
+      "Tai tím, nguy cơ chết cao",
+      "Dễ ghép với tụ huyết trùng, PRRS"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Florfenicol"
+    ],
+    "alternative_drugs": [
+      "Enrofloxacin",
+      "Amoxicillin"
+    ],
+    "note_drugs": "Ceftiofur và Florfenicol thấm phổi tốt, phù hợp cho viêm phổi nặng do Pasteurella. Enrofloxacin hoặc Amoxicillin có thể dùng khi không có thuốc chính.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoa",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng ấm, khô, không gió lùa",
+      "Giảm mật độ trong ô có heo bệnh",
+      "Không dồn đuổi, hạn chế bắt giữ heo yếu",
+      "Bù nước và điện giải khi sốt cao"
+    ],
+    "dose_policy": "Dùng đúng liều theo nhãn hoặc hướng dẫn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo ho nhiều, thở nhanh nhưng vẫn đứng được.",
+      "guideline": [
+        "Dùng kháng sinh chính sớm",
+        "Giảm viêm bằng Flunixin",
+        "Ổn định nhiệt độ và thông khí chuồng"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo thở bụng, tím tai, nằm nhiều.",
+      "guideline": [
+        "Điều trị tích cực bằng kháng sinh mạnh",
+        "Giữ chuồng yên tĩnh, ấm và khô",
+        "Theo dõi sát từng giờ, loại thải heo quá yếu nếu cần"
+      ]
+    },
+    "note": "Viêm phổi do Pasteurella thường là phần nổi của cả cụm bệnh hô hấp trong trại, cần xem lại toàn bộ chương trình phòng bệnh."
+  },
+  "prevention": [
+    "Tiêm phòng đầy đủ các bệnh hô hấp chủ lực",
+    "Giảm bụi chuồng, tăng thông thoáng",
+    "Hạn chế trộn đàn nhiều nguồn",
+    "Giải quyết sớm các ca ho kéo dài, không để thành mãn"
+  ],
+  "notes": [
+    "Pasteurella rất hay xuất hiện sau đợt PRRS hoặc cúm.",
+    "Heo khỏi bệnh thường còi nếu điều trị muộn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

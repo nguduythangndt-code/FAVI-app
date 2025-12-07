@@ -3,7 +3,7 @@
   "name": "Bò sau bệnh",
   "species": "cattle",
   "group": "recovery",
-  "overview": "Cẩm nang phục hồi thể trạng cho bò sau khi bệnh đã qua giai đoạn cấp tính và có dấu hiệu ổn định. Mục tiêu: bò ăn lại khỏe, phân cải thiện, hô hấp êm, chân vững, lông mượt dần, tăng cân trở lại mà không sốc tiêu hóa hoặc tái phát bệnh nền.",
+  "overview": "Sau bệnh, bò thường nhìn có vẻ đã khỏe nhưng hệ tiêu hóa, hô hấp và thể lực vẫn còn yếu.\n\n Rủi ro lớn nhất lúc này không phải là bệnh mới, mà là tái phát hoặc suy kéo dài do phục hồi quá nhanh hoặc ghép đàn sớm.\n\nNhiều đàn bò chậm lớn, sụt cân dai dẳng không phải vì điều trị kém, mà vì nuôi hồi phục sai nhịp: tăng khẩu phần sớm, thay đổi thức ăn đột ngột, để bò chịu stress môi trường khi thể trạng chưa ổn định.\n\nMục tiêu của giai đoạn hồi phục là đưa bò trở lại nhịp ăn đều, tiêu hóa ổn định, hô hấp thông thoáng và thể lực tăng dần.\n\n Cẩm nang này giúp người nuôi tránh tâm lý nôn nóng và phục hồi đàn bò một cách an toàn.",
   "sections": [
     {
       "id": "immediate_3_7_days",
@@ -85,7 +85,21 @@
         "[Ưu tiên 1 hoạt chất] Nếu phải dùng kháng sinh, kháng viêm hỗ trợ: ưu tiên 1 hoạt chất đúng nhãn trong 1 mũi/ngày.",
         "[Thuốc ký sinh máu] Khi có nghi ngờ, mời thú y, ưu tiên hoạt chất nằm trong module thuốc app như lựa chọn switching require file trong registry trại."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Phòng tái phát bệnh và biến chứng sau điều trị bằng cách theo dõi đúng các mốc hồi phục.",
+  "content": "Sau bệnh, bò hồi phục theo nhiều mốc khác nhau. Đối chiếu đúng mốc giúp tránh tái bệnh và chết ngầm.",
+  "bullets": [
+    "[Ngay sau hết triệu chứng] Tái phát bệnh cũ, suy nhược, tiêu chảy kéo dài.",
+    "[Ăn trở lại] Rối loạn tiêu hóa, chướng hơi do dạ cỏ yếu.",
+    "[Phục hồi thể lực] Viêm hô hấp mạn, ho kéo dài.",
+    "[Ghép đàn] Stress, bùng lại bệnh tiềm ẩn.",
+    "[Hồi phục hoàn toàn] Suy dinh dưỡng kéo dài nếu nuôi sai nhịp."
+  ]
+}
+
   ],
   "notes": [
     "Giữ khẩu phần cũ tối thiểu 7 ngày sau khi bò đỡ bệnh, không đổi ồ ạt.",

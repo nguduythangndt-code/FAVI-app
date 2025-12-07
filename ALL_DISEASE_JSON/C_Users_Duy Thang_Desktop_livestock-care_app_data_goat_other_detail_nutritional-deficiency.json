@@ -1,0 +1,119 @@
+{
+  "id": "nutritional-deficiency",
+  "name": "Thiếu khoáng - Thiếu vitamin ở dê",
+  "species": "goat",
+  "group": "other",
+
+  "summary": "Thiếu khoáng - vitamin gây chậm lớn, lông xù, thiếu máu, xương yếu, giảm sinh sản và miễn dịch. Gặp nhiều ở đàn ăn đơn điệu hoặc thiếu bổ sung khoáng khối.",
+
+  "causes": [
+    "Khẩu phần thiếu Ca, P, Mg, Zn, Se.",
+    "Không có khoáng liếm.",
+    "Ăn toàn cỏ nghèo chất.",
+    "Dê con lớn nhanh không được bổ sung đủ vi chất."
+  ],
+
+  "risk_factors": [
+    "Dê con - dê hậu bị.",
+    "Dê nuôi khô hạn, ít cỏ non.",
+    "Dê mẹ mang thai - cho sữa."
+  ],
+
+  "clinical_signs_detailed": [
+    "Lông xù, sần.",
+    "Chậm lớn.",
+    "Thiếu máu nhẹ.",
+    "Xương mềm, đi lảo đảo (thiếu Ca/P).",
+    "Teo cơ, yếu sức."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Lông xấu, chậm lớn nhẹ."
+    ],
+    "moderate": [
+      "Xương yếu, đi loạng choạng.",
+      "Giảm ăn."
+    ],
+    "severe": [
+      "Thiếu máu nặng.",
+      "Gầy, suy kiệt.",
+      "Ảnh hưởng sinh sản."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Vitamin - khoáng tổng hợp",
+      "Vitamin B-complex",
+      "Vitamin ADE",
+      "Vitamin E - Selenium"
+    ],
+    "alternative_drugs": [
+      "Khoáng liếm",
+      "Khoáng nước",
+      "Premix khoáng trộn cám"
+    ],
+    "note_drugs": [
+      "Không bổ sung khoáng quá liều.",
+      "Không dùng selenium quá mức — dễ ngộ độc."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS nếu mất nước"
+      ],
+      "vitamin": [
+        "Vitamin tổng hợp",
+        "B-complex",
+        "Vitamin E - Selenium"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Bổ sung khoáng hàng ngày.",
+      "Đa dạng khẩu phần: cỏ non + thân cây + phụ phẩm.",
+      "Tắm nắng giúp hấp thu vitamin D.",
+      "Giữ chuồng sạch, tránh stress."
+    ],
+    "dose_policy": [
+      "Dùng vitamin - khoáng theo hướng dẫn.",
+      "Selenium phải dùng đúng liều ghi trên nhãn."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Thiếu vừa — đi lảo đảo nhẹ.",
+      "guideline": [
+        "Vitamin tổng hợp + khoáng.",
+        "Bổ sung thức ăn giàu dinh dưỡng.",
+        "Theo dõi thay đổi sau 7-10 ngày."
+      ]
+    },
+    "case_type_2": {
+      "description": "Thiếu nặng, gầy, yếu.",
+      "guideline": [
+        "Thú y kiểm tra mức thiếu máu.",
+        "Bổ sung khoáng + hồi sức.",
+        "Hỗ trợ tiêu hóa nếu kém ăn."
+      ]
+    },
+    "note": "Thiếu khoáng kéo dài ảnh hưởng vĩnh viễn tăng trưởng."
+  },
+
+  "prevention": [
+    "Luôn có khoáng liếm trong chuồng.",
+    "Tăng cỏ non, đa dạng khẩu phần.",
+    "Bổ sung khoáng định kỳ.",
+    "Theo dõi thể trạng đàn thường xuyên."
+  ],
+
+  "notes": [
+    "Lông xù là dấu hiệu thiếu vi chất sớm nhất.",
+    "Vitamin E - Se giúp tăng miễn dịch đàn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

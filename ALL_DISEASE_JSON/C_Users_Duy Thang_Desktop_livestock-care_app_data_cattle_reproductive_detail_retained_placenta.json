@@ -1,0 +1,121 @@
+{
+  "id": "retained_placenta",
+  "name": "Sót nhau",
+  "species": "cattle",
+  "group": "reproductive",
+
+  "summary": "Sót nhau là khi nhau không rụng sau 12 giờ sau đẻ. Bò có mùi hôi từ âm hộ, ăn kém, giảm sữa và nếu kéo dài dễ dẫn đến viêm tử cung.",
+
+  "causes": [
+    "Đẻ khó, bê to, kéo thai nhiều",
+    "Thiếu vitamin và khoáng trước đẻ",
+    "Đẻ sớm hoặc thai yếu",
+    "Nhiễm khuẩn tử cung trước hoặc trong lúc đẻ"
+  ],
+
+  "risk_factors": [
+    "Khẩu phần thiếu khoáng",
+    "Can thiệp đỡ đẻ sâu",
+    "Bò già hoặc sinh nhiều lứa",
+    "Vệ sinh chuồng đẻ kém"
+  ],
+
+  "clinical_signs_detailed": [
+    "Nhau thò ra ngoài nhiều giờ",
+    "Âm hộ có mùi hôi nhẹ đến vừa",
+    "Ăn giảm, giảm sữa",
+    "Đi lại chậm, mệt"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Nhau chưa rụng sau 12 giờ",
+      "Bò vẫn ăn"
+    ],
+    "moderate": [
+      "Nhau hôi, bò ăn kém",
+      "Giảm sữa rõ"
+    ],
+    "severe": [
+      "Nhau hôi thối, sốt",
+      "Tiến triển sang viêm tử cung"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "ceftiofur"
+    ],
+    "note_drugs": "Không cố kéo nhau ra bằng tay vì dễ gây tổn thương. Kháng sinh toàn thân giúp hạn chế viêm kế phát.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Chuồng sạch và khô",
+      "Bổ sung điện giải",
+      "Theo dõi hằng ngày xem nhau có tự rụng",
+      "Không vận chuyển hoặc dùng sức bò"
+    ],
+
+    "dose_policy": "Dùng đúng liều trên nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nhau còn sót nhưng bò vẫn ăn nhẹ.",
+      "guideline": [
+        "Kháng sinh để hạn chế viêm",
+        "Hỗ trợ vitamin",
+        "Theo dõi mùi và mức ăn"
+      ]
+    },
+    "case_type_2": {
+      "description": "Nhau hôi mạnh, bò mệt và ăn rất kém.",
+      "guideline": [
+        "Cần thú y hỗ trợ trực tiếp",
+        "Giảm viêm và bù dịch",
+        "Tiên lượng phụ thuộc vào mức viêm tử cung"
+      ]
+    },
+    "note": "Sót nhau thường là dấu hiệu quản lý nuôi đẻ chưa tối ưu."
+  },
+
+  "prevention": [
+    "Khẩu phần giàu khoáng trước đẻ",
+    "Đỡ đẻ sạch và đúng kỹ thuật",
+    "Không để bò quá béo trước đẻ",
+    "Theo dõi sát giờ đẻ"
+  ],
+
+  "notes": [
+    "Không kéo nhau bằng tay.",
+    "Sản dịch bất thường sau sót nhau là dấu hiệu cảnh báo.",
+    "Kết hợp theo dõi thân nhiệt mỗi ngày."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -3,8 +3,7 @@
   "name": "Chuồng trại cho heo",
   "species": "pig",
   "group": "housing",
-  "overview": "Cẩm nang thiết kế và vận hành chuồng heo thịt trong trại theo tư duy sản xuất: input phải chuẩn để output mượt. KPI chuồng: khô - sạch - thoáng - ít khí độc - ít stress nhiệt - hạn chế mầm bệnh dây chuyền.",
-  "sections": [
+  "overview": "Chuồng trại là nền tảng quyết định sức khỏe đàn heo, nhưng thường bị xem nhẹ vì không tạo ra tăng trọng tức thì.\n\n Thực tế, phần lớn bệnh hô hấp, tiêu chảy kéo dài và suy nhược bắt nguồn từ chuồng ẩm, bí gió, vệ sinh kém và nhiệt độ không phù hợp, hơn là từ mầm bệnh cụ thể.\n\nNhiều người nuôi tập trung xử lý khi heo đã bệnh mà bỏ qua nguyên nhân gốc từ nền chuồng, thông gió và mật độ nuôi.\n\n Khi chuồng không ổn định, thuốc chỉ có tác dụng ngắn hạn, bệnh dễ tái phát và lan nhanh.\n\nMục tiêu của quản lý chuồng trại không phải là làm sạch tuyệt đối trong ngày một ngày hai, mà là giữ môi trường ổn định: khô, thoáng, nhiệt độ phù hợp và ít biến động.\n\n Nội dung trong cẩm nang này giúp người nuôi nhìn chuồng trại như một yếu tố chủ động phòng bệnh, không chỉ là nơi nhốt heo.",  "sections": [
     {
       "id": "foundation",
       "title": "Nền tảng và vật liệu lõi chuồng",

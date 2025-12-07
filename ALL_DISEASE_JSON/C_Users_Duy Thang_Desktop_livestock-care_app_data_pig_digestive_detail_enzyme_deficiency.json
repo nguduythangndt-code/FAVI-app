@@ -1,0 +1,107 @@
+{
+  "id": "enzyme_deficiency",
+  "name": "Thiếu men tiêu hoá",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Thiếu men tiêu hoá khiến heo chậm lớn, phân sống, bụng tóp, ăn nhiều nhưng hấp thu kém.",
+  "causes": [
+    "Men tiêu hoá bẩm sinh kém",
+    "Khẩu phần khó tiêu, quá nhiều tinh bột",
+    "Heo con cai sữa sớm",
+    "Rối loạn vi sinh đường ruột"
+  ],
+  "risk_factors": [
+    "Cai sữa dưới 21 ngày",
+    "Không bổ sung men tiêu hoá định kỳ",
+    "Khẩu phần thay đổi nhanh",
+    "Chuồng lạnh, heo stress"
+  ],
+  "clinical_signs_detailed": [
+    "Phân sống, lợn cợn thức ăn chưa tiêu",
+    "Heo đói nhanh, ăn nhiều nhưng không lớn",
+    "Bụng tóp, lông xỉu",
+    "Thiếu biểu hiện bệnh nặng nhưng kéo dài"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân hơi sống",
+      "Heo ăn nhiều, lớn chậm"
+    ],
+    "moderate": [
+      "Phân sống rõ, thức ăn chưa tiêu",
+      "Bụng tóp, lông xỉu"
+    ],
+    "severe": [
+      "Chậm lớn kéo dài",
+      "Heo còi, xương sườn lộ rõ"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Men tiêu hoá"
+    ],
+    "alternative_drugs": [
+      "Probiotic",
+      "Vitamin B1"
+    ],
+    "note_drugs": "Men tiêu hoá là thuốc chính. Probiotic và Vitamin B1 hỗ trợ phục hồi đường ruột.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Chia nhỏ bữa ăn",
+      "Giảm tinh bột khó tiêu",
+      "Tăng cường nhiệt độ chuồng khi lạnh",
+      "Cho uống đủ nước"
+    ],
+    "dose_policy": "Dùng đúng theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo phân sống nhưng còn ăn tốt.",
+      "guideline": [
+        "Tăng men tiêu hoá",
+        "Ổn định khẩu phần 3-5 ngày",
+        "Theo dõi tăng trưởng hàng ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo còi kéo dài, hấp thu rất kém.",
+      "guideline": [
+        "Thay đổi khẩu phần sang loại dễ tiêu",
+        "Bổ sung men và Probiotic liên tục",
+        "Xem xét loại thải nếu không cải thiện"
+      ]
+    },
+    "note": "Men tiêu hoá cần dùng đều ít nhất vài ngày để có hiệu quả."
+  },
+  "prevention": [
+    "Không cai sữa heo quá sớm",
+    "Ổn định khẩu phần sau cai sữa",
+    "Bổ sung men tiêu hoá định kỳ cho heo con"
+  ],
+  "notes": [
+    "Thường gặp ở heo con cai sữa hoặc heo thay đổi khẩu phần.",
+    "Không gây chết nhưng ảnh hưởng tăng trọng nặng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

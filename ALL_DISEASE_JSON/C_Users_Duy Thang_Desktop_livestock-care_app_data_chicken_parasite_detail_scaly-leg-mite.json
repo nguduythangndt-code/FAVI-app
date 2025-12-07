@@ -1,0 +1,105 @@
+{
+  "id": "scaly-leg-mite",
+  "name": "Mạt đóng vảy chân",
+  "species": "chicken",
+  "group": "parasite",
+  "summary": "Ký sinh trùng sống dưới vảy chân, làm vảy chân dày, sần sùi, nứt nẻ, gà đau và đi lại khó khăn nếu nặng.",
+  "causes": [
+    "Mạt ký sinh chui dưới vảy chân và sinh sản tại đó",
+    "Lây khi gà đứng chung trên máng đậu, nền, ổ đậu bẩn",
+    "Chuồng ẩm, bẩn, máng đậu không được vệ sinh"
+  ],
+  "risk_factors": [
+    "Máng đậu, ổ đậu bẩn, không vệ sinh định kỳ",
+    "Nền ẩm, phân tích tụ quanh khu gà hay đứng",
+    "Đàn gà già, nuôi lâu năm, ít thay đàn",
+    "Không kiểm tra chân định kỳ, để bệnh kéo dài mới xử lý"
+  ],
+  "clinical_signs_detailed": [
+    "Vảy chân dày lên, sần sùi, gồ ghề bất thường",
+    "Có lớp vảy bong, trắng xám, dễ nứt nẻ",
+    "Gà đi lại khó khăn, ít chịu nhảy lên máng đậu",
+    "Trong trường hợp nặng, chân biến dạng, có thể nhiễm trùng kế phát",
+    "Nhìn kỹ thấy lớp vảy hở, có chất bột, đôi khi mùi hôi nhẹ"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Vảy chân hơi dày hơn bình thường, ít người để ý",
+      "Gà vẫn đi lại bình thường"
+    ],
+    "moderate": [
+      "Vảy chân dày rõ, sần sùi, có lớp vảy bong",
+      "Gà đi lại khó khăn hơn, ít nhảy lên cao",
+      "Một số ngón chân có thể bắt đầu biến dạng nhẹ"
+    ],
+    "severe": [
+      "Vảy chân dày, nứt, biến dạng, có thể chảy dịch hoặc nhiễm trùng",
+      "Gà rất khó đi, ít hoạt động, gầy yếu",
+      "Đau khi di chuyển, dễ bị loại thải sớm"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "ectoparasiticide_spray",
+      "ivermectin_external"
+    ],
+    "alternative_drugs": [
+      "lime_sulfur_dip",
+      "mineral_oil_topical"
+    ],
+    "note_drugs": "Điều trị mạt đóng vảy chân thường kết hợp thuốc diệt ký sinh ngoài da với chăm sóc cơ học như ngâm, làm mềm vảy theo tư vấn. Cần kiên trì nhiều lần, không nóng vội bóc vảy mạnh tay làm gà chảy máu.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp hỗ trợ gà yếu, đi lại kém",
+        "alternative": "vitamin nhóm B giúp cải thiện thể trạng chung"
+      },
+      "digestive_support": {
+        "main": "",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Giữ nền và khu vực gà hay đứng khô, sạch, không để phân bết quanh chân",
+      "Vệ sinh máng đậu, ổ đậu, dùng vật liệu khó bám phân và ẩm",
+      "Có thể dùng phương pháp ngâm chân, làm mềm vảy theo hướng dẫn của thú y",
+      "Tách những con bị nặng để chăm riêng, tránh bị đè khi di chuyển chậm",
+      "Theo dõi chân định kỳ sau khi điều trị, phòng tái phát"
+    ],
+    "dose_policy": "Tuân thủ đúng hướng dẫn liều, cách dùng và thời gian cách ly của các thuốc dùng ngoài da. Không tự phối hợp nhiều loại hóa chất mạnh trên cùng một vùng da."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn nuôi lâu năm, nhiều con chân dày, biến dạng, đi lại khó.",
+      "guideline": "Xử lý đồng bộ: vệ sinh và thay máng đậu, nền, kết hợp điều trị trên chân theo tư vấn. Loại thải những con quá nặng, khó hồi phục. Cải thiện vệ sinh lâu dài để đàn mới không bị lặp lại."
+    },
+    "case_type_2": {
+      "description": "Một số con giá trị cao (gà giống, gà cảnh) bị mạt đóng vảy chân nặng.",
+      "guideline": "Chăm từng con: làm sạch chân, làm mềm vảy, kết hợp thuốc diệt ký sinh. Giữ nơi đứng sạch, khô, có lót mềm. Theo dõi từng đợt cải thiện và điều chỉnh tần suất xử lý cho phù hợp."
+    },
+    "note": "Mạt đóng vảy chân tiến triển chậm nhưng dai dẳng. Điều trị sớm khi thấy vảy chân bất thường sẽ đơn giản và ít tốn công hơn nhiều."
+  },
+  "prevention": [
+    "Giữ chuồng, máng đậu, ổ đậu sạch và khô",
+    "Tránh để phân bết, nước đọng quanh nơi gà đứng",
+    "Kiểm tra chân gà định kỳ, nhất là đàn giữ lâu",
+    "Sát trùng máng đậu và khu vực chân bám thường xuyên",
+    "Hạn chế mua gà từ đàn có chân xấu, vảy dày mà không rõ nguyên nhân"
+  ],
+  "notes": [
+    "Quan sát chân là việc thường bị bỏ qua nhưng phản ánh khá nhiều về tình trạng ký sinh của đàn.",
+    "Bắt đầu xử lý ngay khi thấy vảy chân có dấu hiệu dày bất thường sẽ đỡ tốn công hơn rất nhiều."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

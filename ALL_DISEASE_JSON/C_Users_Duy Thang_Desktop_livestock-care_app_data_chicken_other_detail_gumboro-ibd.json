@@ -1,0 +1,64 @@
+{
+  "name": "Gumboro/IBD (viêm túi Fabricius)",
+  "summary": "Bệnh virus gây suy sụp miễn dịch ở gà tơ, làm gà yếu nhanh và dễ bội nhiễm.",
+  "causes": [
+    "Virus IBDV tấn công túi Fabricius",
+    "Lây qua phân, nền chuồng, dụng cụ, người ra vào"
+  ],
+  "risk_factors": [
+    "Gà 3-6 tuần tuổi",
+    "Chuồng ẩm bẩn, mật độ cao",
+    "Chưa có miễn dịch mẹ hoặc lịch vaccine sai",
+    "Đàn bị stress thời tiết"
+  ],
+  "clinical_signs_detailed": [
+    "Ủ rũ, xù lông, đứng tụm",
+    "Ăn giảm nhanh",
+    "Tiêu chảy trắng loãng, dính hậu môn",
+    "Uống nước nhiều",
+    "Run nhẹ, mất sức",
+    "Chết rải rác tăng nhanh"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Ăn giảm, xù lông", "Tiêu chảy nhẹ"],
+    "moderate": ["Ủ rũ rõ", "Tiêu chảy trắng nhiều", "Mất sức"],
+    "severe": ["Nằm bệt, run", "Chết nhanh do suy kiệt/bội nhiễm"]
+  },
+  "treatment": {
+    "primary_drugs": ["ORS", "Vitamin C", "B-complex"],
+    "alternative_drugs": ["Florfenicol", "Amoxicillin"],
+    "note_drugs": "Không có thuốc diệt IBDV. Điện giải - vitamin là chính; kháng sinh chỉ để chống bội nhiễm khi gà yếu.",
+    "symptomatic_treatment": {
+      "electrolyte": { "main": "ORS", "alternative": ["điện giải khoáng tổng hợp"] },
+      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+    },
+    "supportive_care": [
+      "Giữ ấm, giảm gió lùa",
+      "Dọn phân ướt - thay chất độn",
+      "Tách gà yếu ra khu riêng",
+      "Cho uống điện giải liên tục 2-3 ngày đầu"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Gà tiêu chảy trắng nhiều, mất sức nhanh"],
+      "guideline": ["ORS liên tục", "Vitamin C/B-complex", "Giữ ấm tuyệt đối"]
+    },
+    "case_type_2": {
+      "description": ["Gà nằm bệt, thở yếu, bội nhiễm"],
+      "guideline": ["Kháng sinh chống bội nhiễm", "Trợ sức mạnh", "Theo dõi sát"]
+    },
+    "note": "IBD làm sập miễn dịch, nên bội nhiễm mới là thứ giết đàn."
+  },
+  "prevention_list": [
+    "Vaccine IBD đúng lịch theo vùng dịch",
+    "Chuồng khô - sạch, sát trùng định kỳ",
+    "All-in/all-out theo lứa",
+    "Giảm mật độ và stress"
+  ],
+  "notes": [
+    "Đàn qua IBD thường yếu lâu, dễ dính CRD/E.coli."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,106 @@
+{
+  "id": "necrotic-enteritis",
+  "name": "Viêm ruột hoại tử",
+  "species": "chicken",
+  "group": "digestive",
+  "summary": "Bệnh đường ruột do vi khuẩn, thường xảy ra sau cầu trùng hoặc rối loạn ruột, làm gà tiêu chảy hôi, chết rải rác đến hàng loạt nếu không xử lý kịp.",
+  "causes": [
+    "Tăng sinh Clostridium perfringens trong ruột",
+    "Tổn thương niêm mạc ruột do cầu trùng hoặc khẩu phần giàu đạm khó tiêu",
+    "Môi trường ruột mất cân bằng vi sinh, thiếu vi khuẩn có lợi"
+  ],
+  "risk_factors": [
+    "Đàn vừa bị hoặc đang bị cầu trùng, ruột tổn thương sẵn",
+    "Khẩu phần đạm cao, nhiều bột cá, bột thịt khó tiêu",
+    "Không dùng hoặc dùng ít men vi sinh trong giai đoạn chuyển khẩu phần",
+    "Nền chuồng ẩm, bẩn, áp lực vi khuẩn cao"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy, phân sẫm màu, rất hôi, có thể lẫn màng nhầy",
+    "Gà ủ rũ, xù lông, giảm hoặc bỏ ăn, uống nước nhiều",
+    "Gầy nhanh, hốc hác, ngực nhọn, da nhăn",
+    "Chết rải rác hoặc tăng nhanh, nhất là ở giai đoạn gà thịt đang lớn nhanh",
+    "Mổ khám: ruột dày, có mảng hoại tử dính vào niêm mạc, mùi hôi đặc trưng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tiêu chảy nhẹ, phân sẫm màu hơn bình thường, hơi hôi",
+      "Giảm ăn nhẹ, đàn vẫn còn linh hoạt",
+      "Khó phân biệt nếu không để ý mùi và tốc độ lớn"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, phân sẫm màu, mùi hôi khó chịu",
+      "Gà xù lông, giảm ăn, uống nước nhiều, gầy nhanh",
+      "Chết lác đác, nhất là những con tăng trưởng nhanh"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, phân có mảng nhầy, mùi hôi nồng",
+      "Gà rất yếu, ít di chuyển, nằm nhiều",
+      "Tỷ lệ chết tăng, mổ khám thấy ruột hoại tử điển hình"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "lincomycin_spectinomycin"
+    ],
+    "alternative_drugs": [
+      "tylosin",
+      "florfenicol"
+    ],
+    "note_drugs": "Chọn một phác đồ kháng sinh nhắm vào Clostridium theo tư vấn thú y. Tránh tự ý phối hợp nhiều kháng sinh mạnh cùng lúc vì dễ làm rối loạn vi sinh ruột nặng hơn.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước để bù nước cho đàn tiêu chảy",
+        "alternative": "điện giải kết hợp chất trợ gan thận nếu đàn suy nhiều"
+      },
+      "vitamin": {
+        "main": "vitamin nhóm B, vitamin K hỗ trợ đường ruột và cầm máu",
+        "alternative": "vitamin tổng hợp giúp phục hồi thể trạng"
+      },
+      "digestive_support": {
+        "main": "men vi sinh sau khi triệu chứng tiêu chảy giảm dần",
+        "alternative": "chế phẩm bảo vệ niêm mạc ruột theo tư vấn"
+      }
+    },
+    "supportive_care": [
+      "Giảm hoặc điều chỉnh khẩu phần đạm cao, tạm thời dùng thức ăn dễ tiêu hơn",
+      "Giữ nền chuồng khô, sạch, dọn phân tiêu chảy dính nền",
+      "Đảm bảo nước sạch luôn sẵn cho đàn, máng uống đủ",
+      "Theo dõi số chết từng ngày, đánh giá đáp ứng với phác đồ",
+      "Khi ổn định, xây lại chương trình men vi sinh và khẩu phần để tránh tái phát"
+    ],
+    "dose_policy": "Dùng thuốc đúng liều theo nhãn hoặc hướng dẫn thú y, không tự ý kéo dài quá lâu vì dễ gây rối loạn hệ vi sinh đường ruột."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt đang vào giai đoạn tăng trọng mạnh, viêm ruột hoại tử bùng lên, chết nhiều.",
+      "guideline": "Áp dụng phác đồ kháng sinh rõ ràng, điều chỉnh khẩu phần bớt đạm khó tiêu, tăng điện giải và vitamin. Xử lý nền chuồng, giảm ẩm. Sau giai đoạn cấp, tăng cường men vi sinh và theo dõi sát để tránh đợt bùng phát thứ hai."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc đàn nhỏ giá trị cao, có viêm ruột hoại tử kéo dài.",
+      "guideline": "Làm việc với thú y để chọn phác đồ phù hợp và điều chỉnh khẩu phần chính xác. Chăm kỹ từng nhóm nhỏ, theo dõi cân nặng và thể trạng. Xây dựng lại chương trình quản lý ruột: men vi sinh, phòng cầu trùng, vệ sinh nền và máng ăn uống."
+    },
+    "note": "Viêm ruột hoại tử thường gắn với cầu trùng và khẩu phần. Nếu không chỉnh lại cách nuôi, bệnh rất dễ quay lại."
+  },
+  "prevention": [
+    "Quản lý tốt cầu trùng để giảm tổn thương ruột nền",
+    "Điều chỉnh khẩu phần hợp lý, tránh đột ngột tăng đạm khó tiêu",
+    "Sử dụng men vi sinh trong các giai đoạn nhạy cảm (chuyển khẩu phần, sau bệnh)",
+    "Giữ nền chuồng khô, sạch, không để thức ăn rơi vãi lâu ngày",
+    "Sát trùng và kiểm soát mầm bệnh trong chuồng giữa các lứa nuôi"
+  ],
+  "notes": [
+    "Mức độ hôi và đặc điểm phân là gợi ý quan trọng để nghi ngờ viêm ruột hoại tử.",
+    "Có thể tồn tại song song với nhiều vấn đề tiêu hóa khác, nên cần nhìn tổng thể đàn để xử lý."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

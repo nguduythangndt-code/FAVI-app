@@ -1,0 +1,118 @@
+{
+  "id": "ecoli_diarrhea",
+  "name": "Tiêu chảy do E.coli",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "E.coli gây tiêu chảy cấp, heo con mất nước nhanh, đuôi bẩn, mắt trũng và có thể chết trong thời gian ngắn nếu không bù nước và điều trị kịp.",
+  "causes": [
+    "Vi khuẩn E.coli gây bệnh đường ruột trên heo con",
+    "Lây qua phân nhiễm khuẩn bám vào vú nái, nền chuồng, máng ăn uống",
+    "Môi trường ẩm bẩn tạo điều kiện cho E.coli phát triển mạnh"
+  ],
+  "risk_factors": [
+    "Chuồng ẩm, lạnh, nhiều gió lùa",
+    "Nền chuồng bẩn, không dọn phân thường xuyên",
+    "Heo con sơ sinh, sức đề kháng yếu",
+    "Nái ít sữa hoặc chất lượng sữa kém",
+    "Thay đổi thức ăn đột ngột cho nái hoặc heo con"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy nước, phân bắn tung, mùi hôi",
+    "Vùng hậu môn và đuôi dính bết phân",
+    "Heo con mất nước: mắt trũng, da khô, ít đàn hồi",
+    "Mệt, nằm nhiều, bú giảm hoặc bỏ bú",
+    "Có thể sốt nhẹ hoặc không rõ sốt",
+    "Gầy nhanh trong thời gian ngắn",
+    "Một số con chết nhanh do mất nước nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân hơi lỏng hơn bình thường",
+      "Heo vẫn còn bú nhưng kém hơn",
+      "Đuôi hơi bẩn, chưa mất nước rõ"
+    ],
+    "moderate": [
+      "Tiêu chảy nước rõ rệt",
+      "Đuôi và vùng hậu môn dính phân",
+      "Heo mệt, nằm nhiều hơn, mắt hơi trũng",
+      "Giảm bú rõ"
+    ],
+    "severe": [
+      "Tiêu chảy liên tục, phân toàn nước",
+      "Mất nước nặng: mắt trũng sâu, da khô",
+      "Heo nằm bẹp, phản xạ kém",
+      "Nguy cơ chết do sốc mất nước"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Colistin",
+      "Neomycin"
+    ],
+    "alternative_drugs": [
+      "Amoxicillin",
+      "Enrofloxacin"
+    ],
+    "note_drugs": "Ưu tiên dùng Colistin hoặc Neomycin cho tiêu chảy do E.coli. Chỉ đổi sang thuốc khác khi đáp ứng kém hoặc theo tư vấn thú y.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Cách ly heo tiêu chảy để hạn chế lây lan",
+      "Giữ ấm chuồng, tránh gió lùa, nền không trơn trượt",
+      "Bù nước và điện giải đều trong ngày cho heo tiêu chảy",
+      "Giữ vú nái và khu vực nằm của heo con luôn sạch sẽ"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo tiêu chảy nước, mất nước vừa nhưng vẫn còn đứng dậy bú được.",
+      "guideline": [
+        "Dùng ngay kháng sinh điều trị chính",
+        "Bổ sung điện giải đều trong ngày",
+        "Theo dõi tình trạng mất nước và số lần tiêu chảy"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo mất nước nặng, nằm nhiều, bú rất kém hoặc bỏ bú.",
+      "guideline": [
+        "Tập trung bù nước và điện giải trước, sau đó kết hợp kháng sinh",
+        "Giữ ấm tuyệt đối, lót ổ khô, tránh đè dập",
+        "Theo dõi sát, loại bỏ heo chết để tránh nhiễm bẩn chuồng"
+      ]
+    },
+    "note": "Heo con tiêu chảy thường diễn biến rất nhanh. Nếu xử lý chậm, tỷ lệ chết có thể cao."
+  },
+  "prevention": [
+    "Giữ chuồng nái và ô úm luôn khô, sạch, ấm",
+    "Vệ sinh vú nái và nền chuồng định kỳ",
+    "Không để gió lùa trực tiếp vào ô heo con",
+    "Tăng cường vitamin và khoáng cho nái mang thai và cho con bú",
+    "Xử lý phân và nước bẩn hợp lý để giảm ô nhiễm"
+  ],
+  "notes": [
+    "Tiêu chảy do E.coli thường bùng lên mạnh ở heo con sơ sinh và heo con sau cai sữa.",
+    "Nước và điện giải là phần quan trọng không kém kháng sinh trong điều trị."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

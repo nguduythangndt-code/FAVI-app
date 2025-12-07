@@ -3,7 +3,7 @@
   "name": "Bò hậu bị",
   "species": "cattle",
   "group": "replacement",
-  "overview": "Cẩm nang nuôi bò tơ hậu bị để chuẩn bị vào sinh sản hoặc khai thác sữa. Mục tiêu: lên khung xương chuẩn, cơ phát triển chắc, đề kháng nền tốt, không thừa mỡ sớm làm giảm khả năng phối giống và sinh sản sau này. Quy trình chia theo từng giai đoạn từ chọn giống - nuôi khung - thành thục - chuẩn bị phối.",
+  "overview": "Bò hậu bị là giai đoạn chuẩn bị cho sinh sản hoặc làm bò nền lâu dài. \n\n Sai lầm phổ biến là nuôi theo tư duy vỗ béo, dẫn đến phát triển lệch: khung yếu, mập sớm, thể trạng không phù hợp sinh sản.\n\nRủi ro lớn không nằm ở lớn chậm, mà ở lớn sai nhịp. Khi bò hậu bị thiếu khoáng, vận động kém hoặc dinh dưỡng không cân đối, hệ sinh sản và sức bền về sau bị ảnh hưởng rõ rệt.\n\nMục tiêu của nuôi bò hậu bị là phát triển khung xương vững, thể trạng cân đối, sẵn sàng bước vào sinh sản.\n\n Nội dung này giúp người nuôi tránh nhầm lẫn giữa hậu bị và vỗ béo.",
   "sections": [
     {
       "id": "breed_selection",
@@ -92,7 +92,21 @@
         "[Nắng nóng] Tối ưu lưu thông không khí, cho uống điện giải - vitamin theo hướng dẫn nhãn.",
         "[Lạnh đột ngột] Chắn 1 phía gió, tăng xơ khô 2-3 cữ tối, không che kín 4 phía chuồng."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện sớm các vấn đề sức khỏe ảnh hưởng đến nền sinh sản lâu dài.",
+  "content": "Bò hậu bị trải qua các mốc phát triển sinh lý. Đối chiếu đúng giai đoạn giúp phát hiện sớm rủi ro.",
+  "bullets": [
+    "[Tách đàn – chọn hậu bị] Stress, rối loạn tiêu hóa.",
+    "[Phát triển khung] Thiếu khoáng – vitamin, ký sinh trùng làm khung yếu.",
+    "[Gần thành thục sinh dục] Rối loạn động dục, thể trạng lệch.",
+    "[Trước phối giống] Suy thể trạng, bệnh nền tiềm ẩn.",
+    "[Chuẩn bị sinh sản] Viêm đường sinh dục nhẹ, ảnh hưởng phối giống."
+  ]
+}
+
   ],
   "notes": [
     "Không đổi khẩu phần ồ ạt, tăng tinh phải qua checkpoint 5-7 ngày.",

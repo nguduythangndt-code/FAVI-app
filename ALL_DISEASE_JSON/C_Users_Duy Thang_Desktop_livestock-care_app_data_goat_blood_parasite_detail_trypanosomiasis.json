@@ -1,0 +1,121 @@
+{
+  "id": "trypanosomiasis",
+  "name": "Nhiễm ký sinh trùng máu Trypanosoma ở dê",
+  "species": "goat",
+  "group": "blood_parasite",
+
+  "summary": "Trypanosoma gây suy kiệt, phù hàm, thiếu máu, sốt thất thường và sụt cân kéo dài. Bệnh tiến triển âm ỉ nhưng gây tổn hại nặng nề nếu không điều trị triệt để.",
+
+  "causes": [
+    "Ký sinh trùng Trypanosoma spp.",
+    "Truyền qua ruồi, mòng.",
+    "Chuồng ẩm, nhiều côn trùng.",
+    "Dụng cụ tiêm không sát trùng."
+  ],
+
+  "risk_factors": [
+    "Mùa mưa - nhiều ruồi mòng.",
+    "Dê yếu, suy dinh dưỡng.",
+    "Không tẩy ve - mòng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Sung phù hàm (bướu nước).",
+    "Gầy, gầy nhanh, lông xù.",
+    "Niêm mạc nhạt.",
+    "Đi đứng chậm chạp.",
+    "Sốt từng đợt (lúc có lúc không).",
+    "Suy kiệt kéo dài."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Lông hơi xù.",
+      "Ăn giảm."
+    ],
+    "moderate": [
+      "Phù hàm.",
+      "Sốt xen kẽ.",
+      "Thiếu máu vừa."
+    ],
+    "severe": [
+      "Gầy kiệt.",
+      "Phù toàn thân.",
+      "Nằm nhiều, khó hồi phục."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Azidin (Diminazene aceturate)",
+      "Imidocarb"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline (dùng hỗ trợ)",
+      "Doxycycline"
+    ],
+    "note_drugs": [
+      "Không dùng ivermectin để trị trypano — không có tác dụng.",
+      "Không ép đi lại - dê rất dễ kiệt sức."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Dextrose - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin B12",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Nền chuồng khô - sạch.",
+      "Cho ăn cỏ chất lượng cao.",
+      "Tẩy ve - mòng cả đàn.",
+      "Theo dõi phù hàm và màu niêm mạc."
+    ],
+    "dose_policy": [
+      "Thuốc đặc trị dùng theo nhãn.",
+      "Azidin cần theo dõi sát phản ứng sau tiêm."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Phù hàm - thiếu máu nhưng đứng được.",
+      "guideline": [
+        "Azidin hoặc imidocarb.",
+        "Vitamin B12.",
+        "Điện giải."
+      ]
+    },
+    "case_type_2": {
+      "description": "Suy kiệt, phù nặng, nằm.",
+      "guideline": [
+        "Thú y can thiệp.",
+        "Hồi sức + thuốc đặc trị.",
+        "Theo dõi 24-48 giờ."
+      ]
+    },
+    "note": "Trypanosoma tiến triển dai dẳng — cần điều trị đầy đủ và kiểm soát vector truyền bệnh."
+  },
+
+  "prevention": [
+    "Diệt ve - mòng - ruồi.",
+    "Khử trùng dụng cụ tiêm.",
+    "Cải thiện dinh dưỡng đàn.",
+    "Giảm ẩm chuồng."
+  ],
+
+  "notes": [
+    "Phù hàm không chỉ do sán lá — trypano cũng gây phù rất rõ.",
+    "B12 giúp phục hồi hồng cầu nhanh."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

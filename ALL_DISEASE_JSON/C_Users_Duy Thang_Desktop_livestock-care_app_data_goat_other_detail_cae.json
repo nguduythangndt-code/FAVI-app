@@ -1,0 +1,96 @@
+{
+  "name": "CAE (viêm khớp - não do virus)",
+
+  "summary": "Bệnh virus mạn tính, gây viêm khớp ở dê lớn và viêm não ở dê con. Không có thuốc đặc trị, chủ yếu quản lý đàn lâu dài.",
+
+  "causes": [
+    "Virus CAE (retrovirus) lây qua sữa, máu và tiếp xúc gần",
+    "Lây âm thầm, kéo dài nhiều năm"
+  ],
+
+  "risk_factors": [
+    "Dê con bú sữa từ mẹ nhiễm",
+    "Nuôi chung đàn lâu năm không sàng lọc",
+    "Dùng chung kim tiêm",
+    "Mật độ cao"
+  ],
+
+  "clinical_signs_detailed": [
+    "Khớp gối/sọc sưng to",
+    "Đi khập khiễng kéo dài",
+    "Đau khớp, đứng lên khó",
+    "Gầy chậm do vận động kém",
+    "Dê con: run rẩy, yếu chân sau",
+    "Dê con: đi vòng vòng, mất thăng bằng",
+    "Viêm phổi mạn kèm ho nhẹ",
+    "Sản lượng sữa giảm"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đi hơi cứng chân",
+      "Khớp hơi dày"
+    ],
+    "moderate": [
+      "Khớp sưng rõ",
+      "Khập khiễng, vận động kém"
+    ],
+    "severe": [
+      "Biến dạng khớp, đứng dậy rất khó",
+      "Dê con liệt dần hoặc viêm não nặng"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [
+     "Oxytetracycline"
+    ],
+"note_drugs": "Không có thuốc diệt CAE. Kháng viêm chỉ giúp giảm đau khớp; cần sàng lọc và quản lý giống là chính.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": ["Flunixin", "Ketoprofen"]
+      },
+      "vitamin": {
+        "main": "B-complex",
+        "alternative": ["vitamin tổng hợp"]
+      }
+    },
+
+    "supportive_care": [
+      "Giảm vận động mạnh, nền chuồng êm",
+      "Nuôi tách con bệnh để theo dõi",
+      "Tăng dinh dưỡng, khoáng",
+      "Không dùng chung kim tiêm"
+    ],
+
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": [
+      "Chủ yếu giảm đau - chống viêm để duy trì ăn uống",
+      "Cân nhắc loại thải con khớp biến dạng nặng"
+    ],
+    "case_type_2": [
+      "Dê con viêm não: trợ sức, giữ ấm, tránh va đập",
+      "Tỷ lệ hồi phục thấp"
+    ],
+    "note": "Không có thuốc diệt virus CAE, giải pháp chính là kiểm soát giống và đàn."
+  },
+
+  "prevention_list": [
+    "Sàng lọc đàn, không giữ giống từ con nghi nhiễm",
+    "Tách dê con khỏi mẹ nhiễm ngay sau sinh",
+    "Không cho bú sữa mẹ nghi nhiễm",
+    "Không dùng chung kim tiêm"
+  ],
+
+  "notes": [
+    "Bệnh tiến triển chậm, dễ bị bỏ qua giai đoạn đầu."
+  ],
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+}

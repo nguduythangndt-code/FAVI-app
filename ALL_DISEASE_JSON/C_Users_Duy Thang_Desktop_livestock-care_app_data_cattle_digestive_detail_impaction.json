@@ -1,0 +1,119 @@
+{
+  "id": "impaction",
+  "name": "Bó dạ cỏ",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Bó dạ cỏ xảy ra khi dạ cỏ chứa quá nhiều thức ăn khô cứng, khó tiêu hoặc dị vật, làm giảm hoặc mất nhu động, bò ăn kém, bụng to nhưng rắn, đi phân ít. Nếu không xử lý kịp có thể suy kiệt kéo dài.",
+  "causes": [
+    "Ăn quá nhiều rơm khô, cỏ già, thức ăn khô cứng khó tiêu",
+    "Thiếu nước uống trong thời gian dài",
+    "Nuốt dị vật thực vật dài, dây nilon, bao bì",
+    "Rối loạn vận động dạ cỏ do bệnh nền khác hoặc thiếu khoáng"
+  ],
+  "risk_factors": [
+    "Khẩu phần chủ yếu là rơm khô nghèo dinh dưỡng, ít cỏ xanh",
+    "Thiếu nước uống hoặc nước xa, bò lười uống",
+    "Bò bị xích, ít vận động",
+    "Không kiểm soát rác, nilon trong khu vực bò ăn",
+    "Thiếu khoáng và vitamin kéo dài"
+  ],
+  "clinical_signs_detailed": [
+    "Ăn kém dần, nhai lại giảm hoặc mất",
+    "Bụng to nhưng sờ thấy chắc, không căng bóng như chướng hơi",
+    "Đi phân ít, phân khô, nhỏ, có thể thỉnh thoảng táo bón rõ",
+    "Bò gầy dần, lông xù, sức làm việc hoặc sản xuất giảm",
+    "Đôi khi con vật tỏ ra khó chịu vùng bụng, đi lại chậm, cứng nhắc",
+    "Bệnh thường tiến triển kéo dài nếu không điều chỉnh khẩu phần và xử lý kịp thời"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn giảm nhẹ, nhai lại ít hơn",
+      "Đi phân khô hơn, số lần đi giảm",
+      "Thể trạng chưa thay đổi nhiều"
+    ],
+    "moderate": [
+      "Ăn kém rõ, nhai lại ít hoặc gián đoạn",
+      "Bụng to, sờ chắc, phân khô, ít",
+      "Bò gầy dần, lông xù, hoạt động chậm"
+    ],
+    "severe": [
+      "Ăn rất ít hoặc bỏ ăn, nhai lại mất gần như hoàn toàn",
+      "Bụng căng chắc, bò khó chịu, di chuyển nặng nề",
+      "Gầy rộc, thể trạng rất kém, dễ mắc thêm bệnh khác"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "paraffin_oil"
+    ],
+    "alternative_drugs": [
+      "magnesium_sulfate"
+    ],
+    "note_drugs": "Mục tiêu là làm mềm khối thức ăn và kích thích nhu động dạ cỏ trở lại. Điều trị thuốc phải đi kèm điều chỉnh khẩu phần và tăng nước uống.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Tăng lượng nước uống sạch, để nước luôn sẵn trong máng",
+      "Giảm rơm khô cứng, tăng cỏ xanh dễ tiêu và thức ăn thô chất lượng tốt",
+      "Cho bò vận động nhẹ nhàng mỗi ngày nếu điều kiện cho phép",
+      "Theo dõi phân, mức độ ăn uống và nhai lại từng ngày",
+      "Trong ca không đáp ứng, cần tham khảo thú y để xem xét can thiệp sâu hơn"
+    ],
+    "dose_policy": "Các thuốc làm mềm khối thức ăn và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo chỉ định của thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò ăn kém, bụng chắc, đi phân ít nhưng vẫn còn đi lại được.",
+      "guideline": [
+        "Dùng thuốc làm mềm khối thức ăn kết hợp tăng nước uống",
+        "Điều chỉnh khẩu phần giảm rơm khô, tăng cỏ xanh",
+        "Tăng vận động nhẹ, theo dõi đáp ứng vài ngày",
+        "Ghi chép lại để điều chỉnh khẩu phần chung của đàn"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò rất gầy, ăn rất ít, bụng bó nặng, nghi có dị vật hoặc bó dạ cỏ lâu ngày.",
+      "guideline": [
+        "Tham khảo thú y để đánh giá khả năng can thiệp, có cần phẫu thuật hay không",
+        "Nếu tiên lượng quá xấu hoặc không có điều kiện can thiệp, cân nhắc loại thải",
+        "Tập trung sửa khẩu phần và quản lý để tránh lặp lại ở con khác",
+        "Xem lại nguồn thức ăn, rác và nilon trong khu vực bò ăn"
+      ]
+    },
+    "note": "Bó dạ cỏ thường là hậu quả của khẩu phần nghèo nàn và thiếu nước. Sửa từ gốc luôn hiệu quả hơn cố cứu những ca đã quá nặng."
+  },
+  "prevention": [
+    "Không nuôi bò bằng khẩu phần toàn rơm khô nghèo dinh dưỡng trong thời gian dài",
+    "Đảm bảo bò luôn có nước uống sạch đủ trong ngày",
+    "Giữ khu vực ăn uống sạch rác, nilon, bao bì",
+    "Cho bò vận động đều, không xích cố định lâu ngày",
+    "Bổ sung khoáng và vitamin để hỗ trợ nhu động dạ cỏ ổn định"
+  ],
+  "notes": [
+    "Bó dạ cỏ là lời nhắc về khẩu phần và nước uống chứ không phải lỗi của con bò.",
+    "Khi đã có vài ca bó dạ cỏ, nên kiểm tra lại toàn bộ cách cho ăn của trại.",
+    "Ghi lại mùa, loại thức ăn đang dùng và nhóm bò bị ảnh hưởng để điều chỉnh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

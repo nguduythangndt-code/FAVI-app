@@ -1,0 +1,106 @@
+{
+  "id": "egg-peritonitis",
+  "name": "Viêm phúc mạc do trứng",
+  "species": "chicken",
+  "group": "reproductive",
+  "summary": "Trứng vỡ hoặc trứng lạc vào xoang bụng gây viêm phúc mạc, làm gà đẻ đau, bụng to, giảm đẻ và có thể chết nếu nặng.",
+  "causes": [
+    "Trứng vỡ trong ổ bụng do vỏ mỏng, va đập hoặc rối loạn sinh sản",
+    "Trứng lạc hướng, không đi đúng đường ống dẫn trứng",
+    "Nhiễm khuẩn kế phát từ đường sinh sản hoặc ổ bụng",
+    "Chọn giống hoặc nuôi dưỡng làm gà đẻ quá sớm, quá lâu, trứng quá to"
+  ],
+  "risk_factors": [
+    "Gà mái đẻ nhiều, nuôi lâu năm",
+    "Khẩu phần mất cân đối, thiếu khoáng và vitamin D làm vỏ trứng mỏng",
+    "Béo quá mức, nhiều mỡ trong ổ bụng",
+    "Chuồng chật, máng đậu cao, gà dễ té ngã, va đập vùng bụng"
+  ],
+  "clinical_signs_detailed": [
+    "Giảm đẻ hoặc bỏ đẻ, trước đó có thể đẻ trứng vỏ mỏng, méo",
+    "Bụng to, chướng, sờ mềm, gà đi lại nặng nề",
+    "Gà ủ rũ, lông xấu, giảm ăn, thở nhanh khi bệnh tiến triển",
+    "Có thể thấy dáng ngồi xổm, ít leo lên máng đậu",
+    "Trường hợp nặng có thể chết do nhiễm trùng toàn thân"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm đẻ nhẹ, thỉnh thoảng có trứng vỏ mỏng hoặc méo",
+      "Gà hơi nặng nề, nhưng vẫn ăn uống tương đối"
+    ],
+    "moderate": [
+      "Bụng to rõ, gà đi nặng nề, ít hoạt động",
+      "Giảm đẻ hoặc bỏ đẻ, lông xấu, kém linh hoạt",
+      "Ăn kém, thở nhanh hơn khi vận động"
+    ],
+    "severe": [
+      "Bụng rất to, gà khó đi, ngồi nhiều, thở nặng",
+      "Gà suy, gầy phần trên thân nhưng bụng lớn",
+      "Có thể chết do viêm phúc mạc nặng và nhiễm trùng toàn thân"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Điều trị viêm phúc mạc do trứng chủ yếu dùng kháng sinh, thuốc chống viêm và chăm sóc hỗ trợ. Những trường hợp quá nặng thường khó hồi phục hoàn toàn, cần cân nhắc loại thải.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải giúp gà suy đỡ mệt",
+        "alternative": "điện giải kèm glucose vài ngày đầu"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên vitamin A, D, E và khoáng",
+        "alternative": "vitamin nhóm B hỗ trợ ăn uống và hồi phục"
+      },
+      "digestive_support": {
+        "main": "khẩu phần dễ tiêu, giảm bớt năng lượng thừa",
+        "alternative": "men vi sinh hỗ trợ tiêu hóa nếu gà ăn kém lâu ngày"
+      }
+    },
+    "supportive_care": [
+      "Giảm vận động mạnh, hạn chế leo trèo, để gà nghỉ ở khu yên tĩnh",
+      "Theo dõi sát từng con nặng, cân nhắc loại thải nếu không hồi phục",
+      "Điều chỉnh khẩu phần, tránh cho gà quá béo hoặc thiếu khoáng kéo dài",
+      "Giữ chuồng khô, sạch, giảm stress để hỗ trợ hồi phục",
+      "Ghi chép lại các trường hợp để điều chỉnh chương trình nuôi và chọn giống"
+    ],
+    "dose_policy": "Dùng kháng sinh và thuốc kháng viêm theo đúng liều khuyến cáo trên nhãn hoặc hướng dẫn thú y. Không tự ý kéo dài dùng thuốc khi gà không có khả năng hồi phục."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà đẻ thương phẩm, một số con bụng to, giảm đẻ rõ.",
+      "guideline": "Điều trị thử cho một số con nhẹ, nhưng cần chấp nhận loại thải những con bụng quá to, suy nhiều. Điều chỉnh khẩu phần, kiểm soát trọng lượng gà mái và tuổi đàn đẻ để giảm tỷ lệ gặp lại."
+    },
+    "case_type_2": {
+      "description": "Gà mái giống hoặc gà cảnh giá trị, viêm phúc mạc do trứng nặng.",
+      "guideline": "Tham khảo thú y về khả năng can thiệp và điều trị tích cực hơn. Chăm riêng, theo dõi sát, kết hợp dinh dưỡng, vitamin và chăm sóc môi trường tốt. Cân nhắc giá trị con giống với chi phí và khả năng hồi phục."
+    },
+    "note": "Viêm phúc mạc do trứng thường gắn với vấn đề quản lý dinh dưỡng và tuổi đàn. Phòng từ đầu hiệu quả hơn là trông chờ điều trị."
+  },
+  "prevention": [
+    "Không để gà mái quá béo, kiểm soát khẩu phần năng lượng",
+    "Bổ sung đầy đủ canxi, phospho, vitamin D và khoáng vi lượng",
+    "Quản lý tuổi đàn đẻ, không giữ đàn quá già vượt khả năng sinh sản",
+    "Giữ chuồng sạch, giảm té ngã và va đập vùng bụng",
+    "Theo dõi chất lượng vỏ trứng để phát hiện sớm vấn đề dinh dưỡng"
+  ],
+  "notes": [
+    "Khi thấy bụng gà to bất thường và giảm đẻ kéo dài, nên nghĩ đến nhóm bệnh sinh sản, trong đó có viêm phúc mạc do trứng.",
+    "Điều trị chỉ cải thiện một phần, phần còn lại là kinh nghiệm quản lý đàn và khẩu phần."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

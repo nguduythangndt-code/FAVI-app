@@ -1,0 +1,117 @@
+{
+  "id": "heat_stress",
+  "name": "Stress nhiệt",
+  "species": "cattle",
+  "group": "other",
+
+  "summary": "Stress nhiệt xảy ra khi bò bị nóng kéo dài. Bò thở nhanh, giảm ăn, giảm sữa và có thể kiệt sức nếu không giảm nhiệt kịp.",
+  "causes": [
+    "Nắng nóng kéo dài",
+    "Độ ẩm cao",
+    "Chuồng bí, không thoáng",
+    "Thiếu nước sạch"
+  ],
+  "risk_factors": [
+    "Bò sữa cao sản",
+    "Chuồng kín, thiếu quạt",
+    "Thời tiết nắng gắt liên tục"
+  ],
+  "clinical_signs_detailed": [
+    "Thở nhanh và mạnh",
+    "Đứng tách đàn",
+    "Giảm ăn",
+    "Giảm sữa rõ",
+    "Đổ mồ hôi nhiều vùng cổ và vai"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Thở nhanh",
+      "Giảm ăn nhẹ"
+    ],
+    "moderate": [
+      "Thở gấp",
+      "Sữa giảm rõ"
+    ],
+    "severe": [
+      "Bò mệt, đi không vững",
+      "Nguy cơ gục"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "electrolyte"
+    ],
+    "alternative_drugs": [
+      "vitamin_bc"
+    ],
+    "note_drugs": "Điện giải giúp bò hồi phục nhanh trong nắng nóng. Vitamin hỗ trợ giảm stress và tăng sức bền.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Phun nước làm mát",
+      "Bật quạt hoặc tăng thông gió",
+      "Cho uống nhiều nước mát",
+      "Giảm vận động giữa trưa"
+    ],
+
+    "dose_policy": "Điện giải dùng theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Thở nhanh nhưng vẫn đi lại.",
+      "guideline": [
+        "Phun nước làm mát",
+        "Điện giải",
+        "Theo dõi nhiệt độ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò gục hoặc không đi nổi.",
+      "guideline": [
+        "Làm mát khẩn cấp",
+        "Điện giải ngay",
+        "Thú y cần kiểm tra"
+      ]
+    },
+    "note": "Stress nhiệt dễ gây tụt sữa mạnh."
+  },
+
+  "prevention": [
+    "Chuồng thoáng và có quạt",
+    "Có bóng mát ngoài trời",
+    "Nước uống luôn đầy",
+    "Không vận động giữa trưa"
+  ],
+
+  "notes": [
+    "Bò sữa là đối tượng bị nặng nhất.",
+    "Theo dõi thở nhanh để phát hiện sớm.",
+    "Thời tiết nắng gắt kéo dài dễ gây stress nhiệt."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

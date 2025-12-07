@@ -1,0 +1,110 @@
+{
+  "id": "strongyloides",
+  "name": "Giun lươn",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Giun lươn Strongyloides thường gây bệnh ở bê non, làm tiêu chảy, mất nước, chậm lớn và có thể gây tổn thương phổi khi ấu trùng di chuyển.",
+  "causes": [
+    "Bê nhiễm ấu trùng Strongyloides qua da, qua đường tiêu hóa hoặc từ sữa mẹ",
+    "Môi trường chuồng ẩm ướt, nền bẩn, tích tụ phân, nước đọng",
+    "Bê nằm dài trên nền ẩm, dơ",
+    "Mật độ nuôi nhốt cao, thông thoáng kém"
+  ],
+  "risk_factors": [
+    "Bê sơ sinh và bê dưới vài tháng tuổi",
+    "Chuồng đẻ và ô nuôi bê không được vệ sinh kỹ",
+    "Không có chương trình tẩy giun cho bò mẹ và bê",
+    "Thời tiết nóng ẩm tạo điều kiện cho ấu trùng phát triển"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy nước ở bê, phân bắn tung, vùng đuôi bẩn",
+    "Mất nước: mắt trũng, da mất đàn hồi, mũi khô",
+    "Bê yếu, nằm nhiều, giảm bú hoặc bỏ bú",
+    "Chậm lớn, sụt cân nhanh nếu không điều trị",
+    "Có thể ho, thở nhanh khi ấu trùng di chuyển qua phổi",
+    "Trong đàn thường thấy nhiều bê mắc cùng lúc"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tiêu phân sệt, thi thoảng lỏng",
+      "Ăn bú giảm nhẹ nhưng vẫn linh hoạt",
+      "Khó nhận ra nếu không so với bê khỏe cùng lứa"
+    ],
+    "moderate": [
+      "Tiêu chảy nước rõ, đuôi và chân sau bẩn",
+      "Bê mệt, hoạt động ít, bú giảm rõ",
+      "Có dấu hiệu mất nước nhẹ đến vừa"
+    ],
+    "severe": [
+      "Tiêu chảy liên tục, phân toàn nước",
+      "Mất nước nặng, mắt trũng, da mất đàn hồi lâu",
+      "Bê nằm nhiều, khó đứng, có thể ho, thở gấp",
+      "Nếu không can thiệp kịp có thể chết do mất nước và suy kiệt"
+    ]
+},
+  "treatment": {
+    "primary_drugs": [
+      "ivermectin",
+      "fenbendazole"
+    ],
+    "alternative_drugs": [
+      "levamisole (theo hướng dẫn liều cho bê)",
+      "phác đồ tẩy giun do thú y xây dựng phù hợp từng trại"
+    ],
+    "note_drugs": "Chú ý liều dùng cho bê non, dễ bị quá liều nếu ước lượng khối lượng sai. Nên cân hoặc ước lượng trọng lượng sát thực tế trước khi dùng thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin khi bê đau nhiều hoặc sốt",
+        "alternative": "meloxicam theo tư vấn thú y"
+      },
+      "respiratory_support": {
+        "main": "bromhexine khi có ho, khó thở",
+        "alternative": "thuốc giãn phế quản khác do thú y chỉ định nếu tổn thương phổi rõ"
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải uống cho bê tiêu chảy",
+        "alternative": "truyền dịch điện giải, dung dịch đẳng trương do thú y thực hiện"
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "vitamin tổng hợp kèm khoáng giúp hồi phục"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa cho bê",
+        "alternative": "chế phẩm vi sinh đường ruột"
+      }
+    },
+    "supportive_care": [
+      "Cách ly bê bệnh để dễ chăm sóc và tránh lây lan bẩn",
+      "Giữ ấm, tránh nằm lâu trên nền ẩm, lót đệm khô",
+      "Bổ sung sữa hoặc thức ăn thay thế phù hợp, chia nhiều bữa nhỏ",
+      "Bù nước thường xuyên bằng điện giải uống theo hướng dẫn",
+      "Theo dõi sát dấu hiệu mất nước và hô hấp"
+    ],
+    "dose_policy": "Tuân thủ liều và cách dùng ghi trên nhãn thuốc hoặc theo hướng dẫn thú y, đặc biệt cẩn trọng với bê non. Không dùng lặp lại quá sát nếu chưa hết tác dụng của liều trước."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bê tiêu chảy nặng, vẫn còn đứng được nhưng rất yếu, mất nước vừa.",
+      "guideline": "Tiến hành tẩy giun, bù điện giải tích cực, giữ ấm và dùng men tiêu hóa. Theo dõi liên tục tình trạng mất nước, thân nhiệt và hô hấp để báo thú y khi có dấu hiệu xấu đi."
+    },
+    "case_type_2": {
+      "description": "Bê nằm nhiều, không chịu đứng, mắt trũng sâu, da rất khô, thở nhanh.",
+      "guideline": "Xem là ca cấp cứu, cần thú y can thiệp truyền dịch, hỗ trợ hô hấp và đánh giá khả năng cứu chữa. Chuẩn bị chuồng ấm, khô, hạn chế di chuyển bê trong quá trình điều trị."
+    },
+    "note": "Giun lươn ở bê có thể diễn tiến nhanh, bà con không nên chờ đợi quá lâu mới xử lý khi thấy tiêu chảy và mất nước."
+  },
+  "prevention": [
+    "Vệ sinh chuồng đẻ, ô nuôi bê sạch và khô",
+    "Dọn phân, thay chất độn chuồng thường xuyên",
+    "Tẩy giun cho bò mẹ trước khi phối giống và quanh thời điểm đẻ theo tư vấn thú y",
+    "Quan sát phân và tình trạng bê hàng ngày để phát hiện sớm",
+    "Giảm ẩm, tránh nước đọng trong chuồng và xung quanh khu nuôi bê"
+  ],
+  "notes": [
+    "Giun lươn thường gây bệnh rõ ở bê non, cần chú ý giai đoạn đầu đời.",
+    "Chuồng ẩm và bẩn là điều kiện thuận lợi nhất cho ấu trùng phát triển.",
+    "Phòng tốt ngay từ chuồng đẻ giúp giảm rất nhiều ca tiêu chảy ở bê."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

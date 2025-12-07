@@ -1,0 +1,110 @@
+{
+  "id": "mange",
+  "name": "Ghẻ",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Ghẻ do ve bét (mite) ký sinh trong hoặc trên da gây ngứa dữ dội, viêm da, đóng vảy dày, rụng lông và suy giảm thể trạng rõ rệt nếu kéo dài.",
+  "causes": [
+    "Tiếp xúc trực tiếp với bò bị ghẻ trong đàn",
+    "Dùng chung chuồng, dụng cụ chải lông, dây buộc, cọc với bò bệnh",
+    "Chuồng trại bẩn, ẩm, nền ướt, ít nắng chiếu vào",
+    "Không phát hiện và điều trị sớm những trường hợp ghẻ nhẹ"
+  ],
+  "risk_factors": [
+    "Đàn nuôi nhốt đông, tiếp xúc gần nhau liên tục",
+    "Chuồng tối, ẩm, thông thoáng kém",
+    "Thể trạng kém, thiếu dinh dưỡng, thiếu khoáng, vitamin",
+    "Không chải lông, tắm rửa, kiểm tra da lông định kỳ"
+  ],
+  "clinical_signs_detailed": [
+    "Ngứa dữ dội, bò liên tục gãi, cọ vào tường, cột, vật cứng",
+    "Xuất hiện mảng đỏ, nổi sần, sau đó đóng vảy dày, nứt nẻ",
+    "Rụng lông nhiều vùng: cổ, vai, lưng, gốc đuôi, quanh chân",
+    "Da dày, sạm màu, nhăn nheo, có thể chảy dịch ở vết nứt",
+    "Bò bứt rứt, khó nằm yên, giảm ăn, sụt cân rõ",
+    "Trong ca nặng, toàn thân xấu mã, da thô cứng, bò suy kiệt"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Xuất hiện vài vùng nhỏ đỏ, sần, hơi ngứa",
+      "Bò gãi, cọ mình tăng nhẹ ở vị trí tổn thương",
+      "Lông thưa nhẹ, khó phát hiện nếu không quan sát kỹ"
+    ],
+    "moderate": [
+      "Vùng tổn thương lan rộng, đóng vảy, rụng lông thành mảng",
+      "Ngứa nhiều, bò liên tục cọ, gãi, ảnh hưởng thời gian ăn",
+      "Bò gầy dần, lông xấu, da dày, sạm màu"
+    ],
+    "severe": [
+      "Tổn thương da rộng, nhiều vùng thân mình, cổ, gốc đuôi",
+      "Vảy dày, nứt, có thể chảy dịch, dễ nhiễm trùng thứ phát",
+      "Bò suy kiệt, gầy rộc, ít ăn, xấu mã rõ rệt"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "ivermectin",
+      "doramectin",
+      "moxidectin"
+    ],
+    "alternative_drugs": [
+      "amitraz dùng tắm hoặc phun ngoài da",
+      "các thuốc diệt ve bét ngoài da khác theo hướng dẫn thú y"
+    ],
+    "note_drugs": "Điều trị ghẻ cần kết hợp thuốc tiêm toàn thân và/hoặc thuốc tắm ngoài da theo đúng hướng dẫn. Cần lặp lại điều trị theo nhịp khuyến cáo trên nhãn để diệt hết thế hệ mới. Tránh để thuốc dây vào mắt, miệng, vú. Với bò sữa, đọc kỹ phần thời gian ngưng thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin khi bò đau, viêm da nặng, bứt rứt nhiều",
+        "alternative": "meloxicam theo tư vấn thú y"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "multivitamin, khoáng tổng hợp để hỗ trợ hồi phục"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa khi bò kém ăn, sụt cân do bệnh kéo dài",
+        "alternative": "chế phẩm vi sinh hỗ trợ tiêu hóa"
+      }
+    },
+    "supportive_care": [
+      "Cách ly tương đối bò bị ghẻ nặng để điều trị và chăm sóc riêng",
+      "Cạo bớt vảy dày, lông bẩn tại vùng tổn thương trước khi tắm thuốc (nếu an toàn và không làm chảy máu nhiều)",
+      "Giữ chuồng khô, sạch, phơi nắng các dụng cụ chăn nuôi",
+      "Tăng khẩu phần, bổ sung khoáng, vitamin để bò nhanh phục hồi da lông",
+      "Theo dõi sát vùng da bệnh sau điều trị, xử lý lặp lại nếu còn tổn thương hoạt động"
+    ],
+    "dose_policy": "Dùng thuốc tiêm và thuốc tắm đúng liều, đúng cách pha và lịch lặp lại theo nhãn hoặc chỉ định thú y. Không tự ý tăng liều hoặc pha đặc hơn vì dễ gây kích ứng da và ngộ độc."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò ghẻ lan rộng, ngứa nhiều, gầy nhưng vẫn đi lại, ăn uống được.",
+      "guideline": "Điều trị bằng thuốc tiêm toàn thân kết hợp tắm thuốc ngoài da, cải thiện chuồng trại và nâng dinh dưỡng. Theo dõi đáp ứng từng đợt điều trị, kiên trì cho đến khi da lông hồi phục."
+    },
+    "case_type_2": {
+      "description": "Bò ghẻ rất nặng, toàn thân xấu mã, gầy rộc, ít ăn, nghi ngờ có nhiễm trùng da thứ phát.",
+      "guideline": "Thú y cần thăm khám trực tiếp, có thể kết hợp thêm kháng sinh điều trị nhiễm trùng da nếu cần. Đánh giá khả năng hồi phục và chi phí điều trị để quyết định giữ lại hay loại thải."
+    },
+    "note": "Ghẻ ảnh hưởng lớn đến phúc lợi, năng suất và giá trị bán bò. Phát hiện sớm và điều trị dứt điểm sẽ tiết kiệm hơn nhiều so với để bệnh kéo dài."
+  },
+  "prevention": [
+    "Giữ chuồng khô, sạch, thông thoáng, có nắng chiếu vào khi có thể",
+    "Chải lông, kiểm tra da lông định kỳ để phát hiện sớm tổn thương nhỏ",
+    "Không dùng chung dụng cụ chăn nuôi giữa đàn khỏe và đàn nghi ngờ có ghẻ",
+    "Khi nhập bò mới, nên cách ly, kiểm tra và xử lý ký sinh trùng ngoài da trước khi nhập đàn",
+    "Kết hợp chương trình tắm, phun thuốc phòng ký sinh trùng ngoài da định kỳ"
+  ],
+  "notes": [
+    "Ghẻ thường tiến triển từ vài mảng nhỏ nếu không để ý sẽ lan rộng toàn thân.",
+    "Đàn xấu mã, da thô cứng, lông rụng từng mảng là dấu hiệu cần kiểm tra ghẻ.",
+    "Giải quyết đồng thời vấn đề vệ sinh chuồng trại và điều trị trên bò thì bệnh mới ít tái phát."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

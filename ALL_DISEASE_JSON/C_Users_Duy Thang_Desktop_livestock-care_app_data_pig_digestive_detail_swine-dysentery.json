@@ -1,0 +1,37 @@
+{
+  "name": "Hồng lỵ (Swine dysentery)",
+  "summary": "Bệnh do Brachyspira gây tiêu chảy nhầy máu, heo gầy nhanh.",
+  "causes": ["Brachyspira hyodysenteriae lây qua phân - nền chuồng"],
+  "risk_factors": ["Chuồng ẩm bẩn", "Nuôi dày", "Thay đổi thức ăn đột ngột"],
+  "clinical_signs_detailed": [
+    "Tiêu chảy nhầy đặc, mùi hôi",
+    "Có máu tươi hoặc sẫm",
+    "Heo gầy nhanh, mất nước",
+    "Bẩn quanh hậu môn",
+    "Tỷ lệ chết tăng khi kéo dài"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Tiêu chảy loãng"],
+    "moderate": ["Nhầy máu rõ", "Gầy"],
+    "severe": ["Kiệt nước", "Chết do suy sụp"]
+  },
+  "treatment": {
+    "primary_drugs": ["Tiamulin", "Lincomycin"],
+    "alternative_drugs": ["Valnemulin", "Tylosin"],
+    "note_drugs": "Tiamulin/Lincomycin là lựa chọn hiệu quả nếu dùng sớm.",
+    "symptomatic_treatment": {
+      "electrolyte": {"main": "ORS", "alternative": []},
+      "digestive_support": {"main": "Probiotic", "alternative": []}
+    },
+    "supportive_care": ["Tách con bệnh", "Nền khô, thay chất độn", "Giảm stress"],
+    "dose_policy": "Theo nhãn hoặc thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {"description": "Tiêu chảy máu kéo dài", "guideline": ["Tiamulin sớm", "ORS mạnh"]},
+    "case_type_2": {"description": "Ổ dịch lây lan", "guideline": ["Điều trị toàn ô", "Tổng vệ sinh sát trùng"]},
+    "note": "Trễ sẽ thành hồng lỵ mạn, heo không lớn."
+  },
+  "prevention_list": ["All-in/all-out", "Vệ sinh nền chuồng", "Kiểm soát phân thải"],
+  "notes": ["Dễ nhầm salmonella/cầu trùng, đối chiếu mùi và nhầy."],
+  "disclaimer": "Thông tin tham khảo."
+}

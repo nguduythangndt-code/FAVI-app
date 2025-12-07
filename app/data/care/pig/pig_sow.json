@@ -3,7 +3,7 @@
   "name": "Heo nái sinh sản",
   "species": "pig",
   "group": "sow",
-  "overview": "Cẩm nang quản lý heo nái sinh sản từ trước phối giống, mang thai, đẻ, nuôi con đến cai sữa và chuẩn bị cho lứa tiếp theo. Mục tiêu: nái khỏe, chân cẳng vững, lên giống đều, chửa chắc, đẻ gọn, nuôi con tốt, không tụt thể trạng nặng sau cai. Trọng tâm quản lý: thể trạng (body condition), chân - móng, tử cung - vú, dinh dưỡng và môi trường chuồng.",
+  "overview": "Heo nái là trung tâm của năng suất trại, nơi một sai lệch nhỏ ở từng giai đoạn sinh sản có thể ảnh hưởng cả lứa sau.\n\n Rủi ro lớn không nằm ở thiếu thuốc hay thiếu cám, mà ở việc không giữ được nhịp sinh lý ổn định: thay đổi thể trạng, khẩu phần, môi trường và stress dồn dập.\n\nNhiều đàn nái gặp vấn đề phối khó đậu, sảy thai, ít sữa hoặc viêm hậu sản không phải do bệnh nặng, mà do quản lý thiếu nhất quán giữa các giai đoạn.\n\n Khi dinh dưỡng và môi trường không ổn định, hệ nội tiết rối loạn, sức đề kháng giảm, bệnh dễ bùng phát và kéo dài.\n\nMục tiêu của nuôi heo nái không phải là cho ăn nhiều ở một thời điểm, mà là giữ nhịp đều xuyên suốt: thể trạng cân đối, động dục rõ, thai ổn định, đẻ an toàn và nuôi con bền.\n\n Nội dung trong cẩm nang này tập trung giúp người nuôi nhìn đúng rủi ro theo từng giai đoạn sinh sản và xử lý đúng trọng tâm.",  
   "sections": [
     {
       "id": "gilt_selection",
@@ -129,7 +129,21 @@
         "[Bệnh mạn tính] Nái ho mạn, viêm tử cung tái diễn, viêm vú nhiều lần là tín hiệu nên bàn với thú y/kỹ thuật về việc loại thải hoặc điều chỉnh quản lý.",
         "[Kết nối với mục bệnh] Khi gặp bất kỳ vấn đề sinh sản (sảy thai, chết lưu, dịch âm hộ, mất sữa…), nên đối chiếu mục bệnh Sinh sản trong app để hiểu bản chất và có hướng xử lý phù hợp."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện đúng nguy cơ bệnh ở từng giai đoạn sinh sản để bảo toàn tỷ lệ phối đậu, số con/lứa và sức nái.",
+  "content": "Mỗi giai đoạn sinh sản của heo nái có nhóm bệnh đặc trưng. Khi có biểu hiện bất thường, cần đối chiếu với giai đoạn hiện tại để tra cứu đúng nhóm bệnh trong mục Bệnh.",
+  "bullets": [
+    "[Trước phối giống] Rối loạn động dục, suy thể trạng, nhiễm bệnh nền hô hấp – tiêu hóa.",
+    "[Mang thai sớm] Sảy thai sớm, rối loạn sinh lý do stress, thay đổi môi trường hoặc khẩu phần.",
+    "[Mang thai giữa] Rối loạn tiêu hóa, ký sinh trùng làm nái gầy, thai phát triển kém.",
+    "[Mang thai cuối] Tai biến thai kỳ, suy nhược, nguy cơ khó đẻ do thể trạng lệch.",
+    "[Sau sinh – nuôi con] Viêm vú, viêm tử cung, ít sữa, nhiễm trùng hậu sản."
+  ]
+}
+
   ],
   "notes": [
     "Heo nái là tài sản dài hạn của trại, cần được quản lý như một \"dự án nhiều năm\" chứ không chỉ nhìn vào một lứa đẻ.",

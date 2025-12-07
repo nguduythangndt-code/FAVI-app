@@ -1,0 +1,132 @@
+{
+  "id": "rumen-alkalosis",
+  "name": "Kiềm dạ cỏ (Alkalosis) ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Kiềm dạ cỏ thường xảy ra khi dê ăn quá nhiều đạm hoà tan (urê, bánh dầu, cỏ non quá đạm), làm pH dạ cỏ tăng, sinh nhiều khí và amoniac. Dê có thể chướng hơi, thần kinh kích thích, thở khó, thậm chí ngã lăn.",
+
+  "causes": [
+    "Dùng urê trộn thức ăn nhưng pha sai tỉ lệ.",
+    "Cho ăn quá nhiều bánh dầu, đậu, bã đậu, cỏ non giàu đạm.",
+    "Dê phá bao urê, liếm ăn trực tiếp.",
+    "Khẩu phần mất cân đối: đạm quá cao, thiếu năng lượng và xơ."
+  ],
+
+  "risk_factors": [
+    "Trang trại dùng urê nhưng không nắm kỹ cách phối trộn.",
+    "Đàn đang đói mà cho ăn khẩu phần giàu đạm đột ngột.",
+    "Không có cỏ khô đi kèm khẩu phần đạm.",
+    "Dê nuôi nhốt hoàn toàn, ít vận động."
+  ],
+
+  "clinical_signs_detailed": [
+    "Bồn chồn, đi lại, kêu, khó chịu.",
+    "bụng trái phình to, bụng căng, đặc biệt bên trái.",
+    "Thở nhanh, thở khó, có mùi amoniac từ miệng.",
+    "Chảy nước dãi, run cơ, có thể co giật.",
+    "Nặng có thể ngã lăn, đạp chân, chết nhanh."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Dê hơi bồn chồn, giảm ăn.",
+      "Bụng trái hơi căng, vẫn còn ợ hơi.",
+      "Có thể nhai lại giảm."
+    ],
+    "moderate": [
+      "Chướng hơi rõ, bụng to, khó chịu.",
+      "Thở nhanh, thở gấp.",
+      "Chảy nước dãi, run nhẹ.",
+      "Giảm ăn mạnh hoặc bỏ ăn."
+    ],
+    "severe": [
+      "Chướng hơi nhiều, khó thở, ngạt.",
+      "Run mạnh, co giật, ngã lăn.",
+      "Có thể chết rất nhanh nếu không can thiệp."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Dung dịch acid nhẹ (theo hướng dẫn thú y) để điều chỉnh pH dạ cỏ.",
+      "Thuốc chống chướng hơi dạ cỏ.",
+      "Men tiêu hoá dạ cỏ giúp ổn định vi sinh."
+    ],
+    "alternative_drugs": [
+      "Điện giải - gluco hỗ trợ tuần hoàn.",
+      "Vitamin B1, B-complex hỗ trợ thần kinh.",
+      "Than hoạt hoặc chất hấp phụ độc tố."
+    ],
+    "note_drugs": [
+      "Urê là nguồn đạm rẻ nhưng dùng sai rất nguy hiểm; không dùng nếu không nắm chắc kỹ thuật.",
+      "Không tự ý dùng thuốc an thần mạnh nếu chưa có thú y chỉ định."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin"
+      ],
+      "respiratory_support": [
+        "Thuốc hỗ trợ hô hấp nếu có chỉ định thú y."
+      ],
+      "electrolyte": [
+        "ORS",
+        "Dung dịch điện giải - gluco"
+      ],
+      "vitamin": [
+        "Vitamin B1",
+        "B-complex",
+        "Vitamin C"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá dạ cỏ"
+      ]
+    },
+    "supportive_care": [
+      "Ngừng toàn bộ thức ăn giàu đạm (urê, bánh dầu, bã đậu…).",
+      "Cho đi lại nhẹ, xoa bóp vùng dạ cỏ hỗ trợ thoát hơi.",
+      "Giữ ấm, tránh nằm nền lạnh.",
+      "Theo dõi sát nhịp thở, mức độ chướng hơi."
+    ],
+    "dose_policy": [
+      "Thuốc điều chỉnh pH và điện giải dùng đúng liều trên nhãn hoặc theo thú y.",
+      "Không tự ý pha dung dịch acid/kiềm theo cảm tính."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê chướng hơi, thở khó nhưng còn đứng được.",
+      "guideline": [
+        "Gọi thú y càng sớm càng tốt.",
+        "Dùng thuốc chống chướng hơi và điều chỉnh pH theo chỉ định.",
+        "Hỗ trợ điện giải, vitamin B1, men tiêu hoá.",
+        "Cho dê đi lại nhẹ nhàng để thoát hơi."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê ngã, co giật, thở ngáp, nguy cơ tử vong.",
+      "guideline": [
+        "Đây là ca cấp cứu, cần bác sĩ thú y ngay.",
+        "Có thể cần giải áp dạ cỏ, dùng thuốc đặc hiệu theo tay nghề thú y.",
+        "Hỗ trợ hô hấp, tuần hoàn, chống co giật.",
+        "Tiên lượng thận trọng, mỗi phút đều quan trọng."
+      ]
+    },
+    "note": "Đa số ca kiềm dạ cỏ liên quan trực tiếp đến quản lý urê; sau khi cứu được phải xem lại hoàn toàn cách dùng urê trong trại."
+  },
+
+  "prevention": [
+    "Không dùng urê nếu không nắm kỹ kỹ thuật.",
+    "Nếu dùng, phải trộn đều, liều thấp, cho ăn kèm nhiều cỏ khô.",
+    "Không để dê đói rồi cho ăn nhiều khẩu phần giàu đạm đột ngột.",
+    "Quản lý chặt kho chứa urê, không để dê phá bao liếm ăn."
+  ],
+
+  "notes": [
+    "Kiềm dạ cỏ không phổ biến bằng toan dạ cỏ nhưng nguy hiểm không kém khi liên quan urê.",
+    "Giá rẻ của urê không bù được rủi ro nếu dùng sai."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
+}

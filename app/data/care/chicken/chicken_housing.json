@@ -1,10 +1,60 @@
 {
   "id": "chicken_housing",
-  "name": "Chuồng trại nuôi gà",
+  "name": "Thức ăn & Chuồng trại",
   "species": "chicken",
   "group": "housing",
-  "overview": "Cẩm nang thiết kế và vận hành chuồng trại nuôi gà: chọn vị trí, hướng chuồng, nền - mái - vách, thông thoáng - ánh sáng, chống nóng - chống lạnh, bố trí máng ăn - máng uống, vệ sinh và an toàn sinh học. Mục tiêu: chuồng khô - thoáng - sạch, ít mùi, hạn chế bệnh hô hấp - tiêu hóa, giúp gà ăn khỏe, lớn đều, tỷ lệ chết thấp.",
+  "overview": "Thức ăn và chuồng trại là nền sống quyết định trực tiếp sức khỏe, tăng trưởng và khả năng chống chịu bệnh của đàn gà. Phần lớn vấn đề ở gà không bắt đầu từ mầm bệnh rõ ràng, mà hình thành dần từ môi trường nuôi và cách quản lý thức ăn hằng ngày.\n\nGà là loài rất nhạy với thay đổi: nhiệt độ, độ ẩm, không khí, ánh sáng và chất lượng thức ăn. Những sai lệch nhỏ nhưng lặp lại liên tục như chuồng ẩm, thông khí kém, nước uống bẩn hoặc thay đổi cám thiếu kiểm soát sẽ âm thầm làm gà stress và suy giảm miễn dịch.\n\nNhiều đàn gà chết rải rác, chậm lớn, hao cám hoặc bùng bệnh không phải vì dịch nguy hiểm, mà vì nền chuồng và cách cho ăn làm cơ thể gà luôn ở trạng thái căng thẳng kéo dài. Khi đó, bệnh chỉ là hệ quả cuối cùng.\n\nRủi ro lớn nhất nằm ở việc người nuôi thường tách rời thức ăn và chuồng trại ra để xử lý. Trên thực tế, chuồng ẩm hoặc bí sẽ làm gà ăn kém, tiêu hóa rối loạn; thức ăn không phù hợp môi trường sẽ khiến đệm lót nhanh bẩn và bệnh phát sinh mạnh hơn.\n\nSai lầm phổ biến là liên tục đổi cám, bổ sung nhiều thứ hoặc can thiệp khi gà đã yếu, trong khi nền chuồng, nước uống và điều kiện nuôi vẫn chưa được xử lý triệt để.\n\nTư duy đúng trong quản lý thức ăn và chuồng trại cho gà là ưu tiên sự ổn định. Chuồng phải khô, thoáng và dễ kiểm soát; thức ăn phải đều, sạch và mọi thay đổi cần được đặt trong bối cảnh môi trường nuôi thực tế.\n\nKhi nền sống ổn định, đàn gà sẽ giảm rõ rệt áp lực bệnh, tăng trưởng đều hơn và ít cần can thiệp hơn. Phần nội dung phía dưới giúp người nuôi nhìn đúng vai trò sống còn của thức ăn và chuồng trại như một hệ bảo vệ trực tiếp cho đàn gà, chứ không chỉ là điều kiện nuôi thông thường.",
   "sections": [
+    {
+      "id": "part_1_feeding_header",
+      "title": "PHẦN 1 - THỨC ĂN & ỔN ĐỊNH TIÊU HÓA",
+      "goal": "Ở gà, hệ tiêu hóa rất nhạy cảm với môi trường. Thức ăn nếu không phù hợp điều kiện chuồng trại sẽ nhanh chóng gây rối loạn tiêu hóa, suy giảm miễn dịch và tạo nền cho bệnh phát sinh.",
+      "content": "Phần này tập trung vào tư duy nền tảng khi quản lý thức ăn cho gà trong mối liên hệ trực tiếp với môi trường nuôi. Người nuôi nên đọc toàn bộ phần này trước khi đổi cám, điều chỉnh khẩu phần hoặc xử lý các giai đoạn nhạy cảm.",
+      "bullets": []
+    },
+    {
+      "id": "feeding_intro",
+      "title": "Thức ăn và vai trò trung tâm trong sức khỏe đàn gà",
+      "goal": "Đặt thức ăn ở đúng vị trí: là yếu tố tác động trực tiếp lên sức khỏe, tiêu hóa và sức đề kháng của gà.",
+      "content": "Với gà, thức ăn không chỉ quyết định tốc độ tăng trưởng mà còn ảnh hưởng trực tiếp đến đường ruột và hệ miễn dịch. Cùng một loại thức ăn, nhưng trong điều kiện chuồng khác nhau, phản ứng của đàn gà có thể hoàn toàn khác.",
+      "bullets": [
+        "Gà khỏe thường ăn đều, phân khô vừa, đàn đồng đều và ít stress.",
+        "Gà yếu dần thường bắt đầu bằng các dấu hiệu nhỏ: phân xấu, ăn thất thường, lông xù, đứng tách đàn.",
+        "Không phải cứ đổi sang cám 'tốt hơn' là gà sẽ khỏe hơn nếu môi trường nuôi chưa phù hợp.",
+        "Mỗi thay đổi về thức ăn đều cần được xem xét trong bối cảnh chuồng trại và tình trạng đàn gà tại thời điểm đó."
+      ]
+    },
+    {
+      "id": "feeding_stability",
+      "title": "Nguyên tắc ổn định thức ăn cho gà",
+      "goal": "Giảm rủi ro rối loạn tiêu hóa và stress do thay đổi cám hoặc khẩu phần thiếu kiểm soát.",
+      "content": "Ổn định luôn quan trọng hơn tối ưu quá nhanh. Thức ăn có thể chưa hoàn hảo, nhưng ổn định và sạch sẽ an toàn hơn rất nhiều so với việc đổi cám liên tục.",
+      "bullets": [
+        "Không đổi nhiều loại cám cùng lúc; mỗi lần thay đổi đều là giai đoạn nhạy cảm.",
+        "Không tăng lượng ăn đột ngột chỉ vì gà ăn khỏe; tăng quá nhanh dễ kéo theo tiêu chảy và stress.",
+        "Tránh sử dụng thức ăn ẩm mốc, vón cục hoặc có mùi lạ dù nhìn còn dùng được.",
+        "Khi môi trường chuồng xấu (ẩm, nóng, bí), khả năng tiêu hóa của gà giảm rõ rệt dù thức ăn không đổi."
+      ]
+    },
+    {
+      "id": "water_and_digestion",
+      "title": "Nước uống và mối liên hệ với tiêu hóa",
+      "goal": "Duy trì chức năng tiêu hóa và chuyển hóa ổn định thông qua nước uống sạch.",
+      "content": "Nước uống là yếu tố thường bị xem nhẹ nhưng có vai trò sống còn với gà. Nước bẩn, thiếu hoặc thay đổi bất thường đều làm gà giảm uống, kéo theo giảm ăn và rối loạn tiêu hóa.",
+      "bullets": [
+        "Luôn đảm bảo có nước sạch sẵn cho gà uống; thiếu nước làm gà stress rất nhanh.",
+        "Không để nước có cặn bẩn, rong rêu hoặc lẫn phân.",
+        "Khi thay đổi nguồn nước, cần theo dõi phản ứng tiêu hóa của đàn trong vài ngày đầu.",
+        "Gà con và gà yếu nhạy cảm với nước bẩn hơn gà khỏe."
+      ]
+    },
+    {
+      "id": "part_2_housing_header",
+      "title": "PHẦN 2 - CHUỒNG TRẠI & MÔI TRƯỜNG SỐNG",
+      "goal": "Chuồng trại quyết định mức độ stress, tỷ lệ bệnh nền và khả năng phát triển ổn định của đàn gà.",
+      "content": "Phần này tập trung vào tư duy nền khi quản lý môi trường sống cho gà: từ vị trí, tiểu khí hậu, đệm lót đến an toàn sinh học. Chuồng trại không chỉ là nơi che mưa nắng mà là yếu tố tác động liên tục lên hành vi ăn uống, nghỉ ngơi và sức đề kháng của đàn.",
+      "bullets": []
+    },
     {
       "id": "location_and_orientation",
       "title": "Chọn vị trí và hướng chuồng",
@@ -119,7 +169,21 @@
         "[Kho cám kín, khô] Cám phải cất trong kho riêng, khô, kín, tránh chuột bọ. Bao cám đã mở cần buộc miệng, kê cao khỏi nền để không hút ẩm.",
         "[Ghi lại các đợt bệnh] Khi có bệnh, ghi chép lại thời gian, triệu chứng, dịch tễ để về sau xem lại và siết chặt thêm khâu an toàn sinh học nếu cần."
       ]
-    }
+    },
+    {
+  "id": "environment_related_diseases",
+  "title": "Nguy cơ bệnh liên quan đến chuồng trại và thức ăn",
+  "goal": "Giúp người nuôi nhận diện sớm các nhóm bệnh phát sinh từ điều kiện chuồng trại và dinh dưỡng để điều chỉnh kịp thời, không để bùng bệnh.",
+  "content": "Phần lớn bệnh ở gà phát sinh theo điều kiện nuôi hơn là theo giai đoạn tuổi. Nhận đúng mối liên hệ giữa môi trường, thức ăn và sức khỏe đàn gà giúp xử lý tận gốc nguyên nhân.",
+  "bullets": [
+    "[Chuồng ẩm, đệm lót kém] Viêm hô hấp, tiêu chảy, bệnh kế phát.",
+    "[Thông khí kém] CRD, viêm phổi, suy giảm tăng trọng.",
+    "[Mật độ nuôi cao] Stress, mổ cắn, chết rải rác.",
+    "[Thức ăn không phù hợp] Rối loạn tiêu hóa, tiêu chảy kéo dài.",
+    "[Thay đổi môi trường đột ngột] Suy giảm miễn dịch, bệnh cấp tính."
+  ]
+}
+
   ],
   "notes": [
     "Chuồng trại tốt giúp giảm đáng kể chi phí thuốc và tỷ lệ chết, dù công làm ban đầu có thể nhiều hơn.",

@@ -3,7 +3,7 @@
   "name": "Dê bệnh",
   "species": "goat",
   "group": "sick",
-  "overview": "Hướng dẫn chăm sóc dê đang trong giai đoạn bệnh. Mục tiêu: giữ mạng sống, hạn chế di chứng, kiểm soát nguồn lây, hỗ trợ cơ quan sống quan trọng (phổi, dạ cỏ, máu, chân móng), đảm bảo xử lý an toàn - dứt điểm, tránh tự ý can thiệp sai hoặc kéo dài làm yếu đàn.",
+  "overview": "Dê ở trạng thái bệnh là giai đoạn cần nhất sự tỉnh táo của người nuôi.\n\n Sai lầm phổ biến không nằm ở thiếu thuốc, mà ở việc đánh giá lệch mức độ bệnh: coi nhẹ khi bệnh mới khởi phát hoặc can thiệp dồn dập, thiếu chọn lọc khi dê đã yếu. Cả hai đều làm bệnh diễn tiến nhanh hơn và khó kiểm soát.\n\nRủi ro lớn nhất trong giai đoạn này là xử lý theo cảm tính: nghe kinh nghiệm truyền miệng, thử nhiều hướng cùng lúc hoặc bỏ theo dõi các dấu hiệu nền như ăn, thở, đứng - nằm, phân - nước tiểu.\n\n Khi những biểu hiện này bị bỏ qua, người nuôi rất dễ can thiệp trễ hoặc xử lý sai trọng tâm.\n\nTư duy đúng khi chăm sóc dê bệnh là tập trung nhận diện tình trạng tổng thể trước khi nghĩ đến giải pháp. Hiểu dê đang yếu ở hệ nào, mức độ ra sao và diễn biến nhanh hay chậm quan trọng hơn việc tìm ngay thuốc gì.\n\n Phần nội dung phía dưới giúp người nuôi nhận diện các nhóm vấn đề thường gặp theo diễn biến của bệnh để biết khi nào cần tra cứu sâu hơn trong mục Bệnh hoặc dùng thanh tìm kiếm nhanh theo triệu chứng nhằm xác định hướng xử lý phù hợp.",
   "sections": [
     {
       "id": "triage_and_isolation",
@@ -97,7 +97,21 @@
         "[Thiếu máu] Dê ký sinh máu/ruột nặng thường niêm mạc mắt nhợt. Không tự ý dùng thuốc sâu hoặc phối thuốc khi chưa được thú y kiểm tra.",
         "[Ngủ - stress] Giữ yên, giảm xáo trộn, tránh nóng ẩm đêm."
       ]
-    }
+    },
+      {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng diễn biến",
+  "goal": "Giúp phân biệt nhanh các nhóm bệnh thường gặp theo mức độ và diễn biến của dê bệnh để tránh xử lý sai hướng và bỏ lỡ thời điểm can thiệp phù hợp.",
+  "content": "Khi dê vào trạng thái bệnh, biểu hiện có thể thay đổi rất nhanh từ nhẹ sang nặng. Mỗi giai đoạn diễn biến đều có những nhóm vấn đề đặc trưng. Việc nhận diện đúng giai đoạn giúp người nuôi tập trung quan sát các dấu hiệu then chốt và tra cứu chính xác trong mục Bệnh hoặc Quicksearch.",
+  "bullets": [
+    "[Bệnh khởi phát] Ăn kém, mệt nhẹ, rối loạn tiêu hóa hoặc hô hấp mức độ nhẹ.",
+    "[Bệnh tiến triển] Sốt, bỏ ăn rõ, tiêu chảy nặng, thở khó, suy nhược nhanh.",
+    "[Bệnh kéo dài] Suy kiệt, giảm miễn dịch, bệnh nền chưa dứt hoặc chuyển sang mạn tính.",
+    "[Bệnh tái phát] Tái viêm phổi, tiêu chảy quay lại, dấu hiệu bệnh cũ xuất hiện khi thời tiết hoặc thức ăn thay đổi.",
+    "[Biến chứng nặng] Tổn thương đa hệ, nhiễm trùng lan rộng, nguy cơ chết cao."
+  ]
+}
+
   ],
   "notes": [
     "Dê đang bệnh phải tách riêng để đọc tín hiệu sống và xử lý rủi ro sớm.",

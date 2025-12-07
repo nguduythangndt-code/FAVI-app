@@ -1,0 +1,92 @@
+{
+  "name": "Nấm da (Dermatophytosis)",
+
+  "summary": "Bệnh nấm da tạo mảng tròn rụng lông, lan dần. Lây qua tiếp xúc và dụng cụ. Hiếm khi chết nhưng làm đàn xấu mã, chậm lớn.",
+
+  "causes": [
+    "Nấm Dermatophytes (Trichophyton/Microsporum)",
+    "Lây qua tiếp xúc da, nền chuồng, dụng cụ"
+  ],
+
+  "risk_factors": [
+    "Chuồng ẩm, thiếu nắng",
+    "Nuôi dày",
+    "Dê con/ dê suy yếu",
+    "Gãi cọ làm trầy xước"
+  ],
+
+  "clinical_signs_detailed": [
+    "Mảng tròn rụng lông",
+    "Da dày, khô, có vảy trắng",
+    "Ngứa, hay cọ tường",
+    "Lan từ đầu - cổ ra thân",
+    "Một số con có vết loét nông bội nhiễm"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đốm tròn nhỏ rụng lông",
+      "Ít ngứa"
+    ],
+    "moderate": [
+      "Mảng rộng, nhiều vảy",
+      "Ngứa rõ"
+    ],
+    "severe": [
+      "Lan khắp thân",
+      "Bội nhiễm mủ nhẹ"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "thuốc bôi chống nấm",
+      "sát trùng ngoài da"
+    ],
+    "alternative_drugs": [
+      "kháng sinh nếu bội nhiễm",
+      "vitamin"
+    ],
+"note_drugs": "Thuốc bôi chống nấm phải duy trì đủ lâu mới dứt. Khử trùng chuồng và dụng cụ là phần bắt buộc để tránh tái lây.",
+
+    "symptomatic_treatment": {
+      "vitamin": {
+        "main": "B-complex",
+        "alternative": ["vitamin tổng hợp"]
+      }
+    },
+
+    "supportive_care": [
+      "Cạo sạch lông vùng tổn thương",
+      "Bôi chống nấm đều và kéo dài đủ thời gian",
+      "Khử trùng chuồng - máng - dụng cụ",
+      "Cách ly con bệnh"
+    ],
+
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": [
+      "Nếu lan mạnh: điều trị cả đàn vì dễ lây",
+      "Tăng cường vệ sinh nền chuồng"
+    ],
+    "case_type_2": [
+      "Nếu có mủ bội nhiễm: kết hợp kháng sinh và sát trùng"
+    ],
+    "note": "Bệnh lây sang người, nên đeo găng khi bôi thuốc."
+  },
+
+  "prevention_list": [
+    "Chuồng khô, có nắng",
+    "Không nuôi dày",
+    "Khử trùng định kỳ",
+    "Cách ly con mới nhập"
+  ],
+
+  "notes": [
+    "Nấm khỏi chậm, phải bôi đều và đủ thời gian."
+  ],
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+}

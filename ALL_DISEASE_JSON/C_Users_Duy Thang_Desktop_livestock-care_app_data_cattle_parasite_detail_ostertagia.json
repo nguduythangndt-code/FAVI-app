@@ -1,0 +1,112 @@
+{
+  "id": "ostertagia",
+  "name": "Giun Ostertagia",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Giun Ostertagia ký sinh ở dạ múi khế, gây viêm niêm mạc, rối loạn tiêu hóa, tiêu chảy kéo dài và giảm tăng trọng, thường gặp ở bò non và bò nuôi tập trung.",
+  "causes": [
+    "Bò ăn phải ấu trùng giun Ostertagia trên cỏ hoặc trong nước bẩn",
+    "Môi trường chuồng trại ẩm, phân không được xử lý tốt",
+    "Không tẩy giun dạ múi khế định kỳ hoặc tẩy không đúng loại thuốc",
+    "Thể trạng kém, stress kéo dài"
+  ],
+  "risk_factors": [
+    "Bãi chăn bị ô nhiễm phân, chăn thả liên tục không nghỉ bãi",
+    "Bò tơ, bê sau cai sữa, bò mới nhập đàn",
+    "Khẩu phần thiếu đạm, khoáng, vitamin",
+    "Thời tiết mát ẩm kéo dài tạo điều kiện cho ấu trùng phát triển"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy dai dẳng, phân lỏng, bám quanh đuôi",
+    "Giảm ăn, chậm lớn, sút cân dù vẫn được cho ăn đủ",
+    "Lông xơ xác, xỉn màu, mất bóng",
+    "Niêm mạc nhạt màu, đôi khi hơi phù nhẹ",
+    "Có thể giảm sữa ở bò đang vắt",
+    "Đôi khi kèm đầy bụng nhẹ, khó tiêu",
+    "Nếu ký sinh nhiều: suy kiệt, cơ bắp tóp lại, da lỏng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân không thành khuôn, lúc lỏng lúc sệt",
+      "Ăn kém hơn bình thường nhưng vẫn còn ăn",
+      "Lông kém bóng, khó nhận ra nếu không so đàn"
+    ],
+    "moderate": [
+      "Tiêu chảy kéo dài nhiều ngày, phân bám quanh đuôi",
+      "Gầy rõ, tăng trọng gần như dừng lại",
+      "Niêm mạc mắt nhạt, thể trạng mệt, ít vận động"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, mất nước, da nhăn",
+      "Suy kiệt, xương hông, xương sườn lộ rõ",
+      "Có thể phù nhẹ vùng ngực, bụng",
+      "Bò dễ ngã, ít đứng, sức đề kháng giảm, dễ mắc bệnh kế phát"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "albendazole",
+      "fenbendazole",
+      "ivermectin"
+    ],
+    "alternative_drugs": [
+      "moxidectin",
+      "phác đồ tẩy giun dạ múi khế do thú y xây dựng theo tình hình kháng thuốc địa phương"
+    ],
+    "note_drugs": "Chọn thuốc tẩy giun có tác dụng mạnh trên giun dạ múi khế. Nên điều trị cho cả đàn có nguy cơ, không chỉ riêng cá thể đang tiêu chảy để giảm tái nhiễm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải uống giúp bù nước và khoáng",
+        "alternative": "truyền dịch điện giải dưới sự giám sát của thú y khi bò mất nước nhiều"
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "multivitamin kết hợp khoáng vi lượng"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa cho bò trong và sau điều trị",
+        "alternative": "chế phẩm vi sinh đường ruột để phục hồi hệ vi khuẩn có lợi"
+      }
+    },
+    "supportive_care": [
+      "Tạm giảm thức ăn khó tiêu, tăng cỏ non, thức ăn thô xanh chất lượng tốt",
+      "Cho uống nước sạch tự do, có thể pha thêm điện giải theo hướng dẫn",
+      "Giữ chuồng trại khô, sạch, giảm gió lùa",
+      "Tách riêng bò tiêu chảy nặng để dễ chăm sóc và theo dõi",
+      "Theo dõi cân nặng, tình trạng lông da trong và sau điều trị"
+    ],
+    "dose_policy": "Dùng thuốc tẩy giun theo đúng hướng dẫn trên nhãn hoặc chỉ định thú y, đảm bảo đủ thời gian. Không dùng lại thuốc cùng nhóm liên tục trong thời gian ngắn để hạn chế kháng thuốc. Tuân thủ thời gian ngưng thuốc trước khi lấy thịt, sữa."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò tiêu chảy nặng, mất nước nhưng vẫn còn đứng, phản ứng còn nhanh.",
+      "guideline": "Điều trị tẩy giun kết hợp bù nước, điện giải và men tiêu hóa. Theo dõi sát lượng phân, tình trạng da, niêm mạc. Điều chỉnh khẩu phần sang dễ tiêu cho đến khi phân ổn định."
+    },
+    "case_type_2": {
+      "description": "Bò suy kiệt, gầy trơ xương, tiêu chảy kéo dài, đứng khó hoặc nằm nhiều.",
+      "guideline": "Coi là ca nặng, cần thú y thăm khám. Kết hợp tẩy giun, truyền dịch, bổ sung vitamin, khoáng và dinh dưỡng hỗ trợ. Quyết định có tiếp tục điều trị hay loại thải dựa trên khả năng hồi phục và điều kiện thực tế của trại."
+    },
+    "note": "Không nên tự ý truyền dịch liều lớn khi chưa được đào tạo. Các quyết định can thiệp mạnh nên tham khảo bác sĩ thú y."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ, dùng luân phiên nhóm thuốc để giảm kháng",
+    "Quản lý phân tốt, hạn chế để phân đọng trong bãi chăn",
+    "Luân chuyển bãi chăn, tránh chăn dày trên diện tích nhỏ",
+    "Đảm bảo khẩu phần cân đối, tránh để bò gầy kéo dài",
+    "Theo dõi phân và tăng trọng của bò tơ, bê sau cai sữa"
+  ],
+  "notes": [
+    "Ostertagia gây tiêu chảy kéo dài, đôi khi bà con nhầm với bệnh tiêu chảy do thức ăn.",
+    "Tình trạng gầy kéo dài dù vẫn cho ăn đủ là dấu hiệu cần nghĩ đến ký sinh trùng đường tiêu hóa.",
+    "Đánh giá đáp ứng điều trị dựa trên phân, tăng trọng và thể trạng, không chỉ dựa vào số ngày dùng thuốc."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

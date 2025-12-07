@@ -1,0 +1,60 @@
+
+{
+  "name": "CRD phức hợp nặng (Mycoplasma + bội nhiễm)",
+  "summary": "CRD nặng do Mycoplasma gallisepticum kết hợp E.coli/vi khuẩn khác gây viêm túi khí, viêm phổi kéo dài.",
+  "causes": [
+    "Mycoplasma gallisepticum",
+    "Bội nhiễm E.coli khi miễn dịch yếu"
+  ],
+  "risk_factors": [
+    "Chuồng bí, bụi, ammonia cao",
+    "Stress lạnh - ẩm",
+    "Đàn nhiều lứa tuổi"
+  ],
+  "clinical_signs_detailed": [
+    "Khò khè, ho, hắt hơi",
+    "Chảy mũi, mắt sưng",
+    "Thở rít, vươn cổ",
+    "Ăn giảm, chậm lớn",
+    "Đàn kéo dài không dứt"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Khò khè nhẹ", "Hắt hơi"],
+    "moderate": ["Chảy mũi, mắt sưng", "Ăn giảm rõ"],
+    "severe": ["Thở há miệng, tụm đàn", "Chết do viêm túi khí nặng"]
+  },
+  "treatment": {
+    "primary_drugs": ["Doxycycline", "Tylosin"],
+    "alternative_drugs": ["Tiamulin", "Enrofloxacin"],
+    "note_drugs": "CRD nền Mycoplasma đáp ứng tốt Doxycycline/Tylosin; khi nặng thường phải trị cả bội nhiễm.",
+    "symptomatic_treatment": {
+      "respiratory_support": { "main": "Bromhexine", "alternative": ["Ambroxol"] },
+      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] },
+      "electrolyte": { "main": "ORS", "alternative": [] }
+    },
+    "supportive_care": [
+      "Tăng thông thoáng, giảm khí độc",
+      "Giảm bụi, thay chất độn khô",
+      "Tách đàn yếu"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Thở rít mạnh, mắt sưng, gà tụm"],
+      "guideline": ["Doxycycline + Tylosin sớm", "Long đờm hỗ trợ", "Điện giải"]
+    },
+    "case_type_2": {
+      "description": ["Đàn kéo dài, chết rải rác"],
+      "guideline": ["Điều trị toàn ô", "Xử lý chuồng bí/ẩm", "Bổ sung trợ sức"]
+    },
+    "note": "CRD nặng mà không xử lý khí độc thì thuốc chỉ giảm được một nửa."
+  },
+  "prevention_list": [
+    "Thông thoáng chuồng, kiểm soát ammonia",
+    "Vệ sinh sát trùng định kỳ",
+    "Nuôi tách lứa tuổi"
+  ],
+  "notes": ["CRD hay tái lại khi trời đổi lạnh ẩm."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

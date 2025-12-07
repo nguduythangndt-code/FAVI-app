@@ -1,0 +1,124 @@
+{
+  "id": "indigestion",
+  "name": "Rối loạn tiêu hoá ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Rối loạn tiêu hoá ở dê xảy ra khi thức ăn thay đổi đột ngột, dạ cỏ hoạt động kém hoặc do stress. Không nguy hiểm như toan/kiềm dạ cỏ nhưng kéo dài sẽ làm dê yếu và chậm lớn.",
+
+  "causes": [
+    "Thay đổi thức ăn quá nhanh.",
+    "Ăn nhiều tinh bột, ít xơ.",
+    "Thức ăn ẩm mốc, lên men mạnh.",
+    "Stress, lạnh, vận chuyển xa."
+  ],
+
+  "risk_factors": [
+    "Dê con cai sữa.",
+    "Đàn đang thay khẩu phần.",
+    "Không có cỏ khô trong khẩu phần.",
+    "Chuồng ẩm lạnh."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ăn giảm, nhai lại kém.",
+    "Phân lúc sệt lúc lỏng, có mùi chua.",
+    "Bụng sôi, đầy nhẹ.",
+    "Lông xù, giảm hoạt động.",
+    "Kéo dài gây gầy, chậm lớn."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn giảm nhẹ.",
+      "Phân hơi sệt, mùi khác thường."
+    ],
+    "moderate": [
+      "Nhai lại ít, tiêu chảy nhẹ.",
+      "Bụng sôi, khó chịu."
+    ],
+    "severe": [
+      "Dê lờ đờ, mất nước nhẹ.",
+      "Bỏ ăn rõ, bụng đầy hơn.",
+      "Nếu không xử lý sẽ chuyển sang toan dạ cỏ."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Men tiêu hoá dạ cỏ.",
+      "Probiotics hỗ trợ hệ vi sinh.",
+      "Chế phẩm bảo vệ niêm mạc ruột."
+    ],
+    "alternative_drugs": [
+      "Vitamin B1",
+      "B-complex",
+      "Điện giải nhẹ",
+      "Thảo dược hỗ trợ tiêu hoá"
+    ],
+    "note_drugs": [
+      "Không dùng kháng sinh khi không nghi nhiễm khuẩn.",
+      "Không dùng thuốc giảm nhu động ruột."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Điện giải nhẹ"
+      ],
+      "vitamin": [
+        "B-complex",
+        "Vitamin C"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá",
+        "Niêm mạc ruột"
+      ]
+    },
+    "supportive_care": [
+      "Giảm thức ăn tinh, tăng cỏ khô.",
+      "Giữ ấm, tránh gió lùa.",
+      "Không cho ăn phụ phẩm lên men mạnh.",
+      "Theo dõi phân mỗi ngày."
+    ],
+    "dose_policy": [
+      "Thuốc tiêu hoá dùng đúng liều nhãn.",
+      "Không tự ý trộn nhiều loại men."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê rối loạn vừa, còn đi lại.",
+      "guideline": [
+        "Men tiêu hoá + vitamin B1.",
+        "Điện giải nhẹ.",
+        "Giảm tinh 2-3 ngày."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê bỏ ăn nhiều, bụng đầy rõ.",
+      "guideline": [
+        "Gọi thú y để loại trừ toan/kiềm dạ cỏ.",
+        "Hỗ trợ mạnh men tiêu hoá dạ cỏ.",
+        "Theo dõi nhai lại và phân 6 giờ/lần."
+      ]
+    },
+    "note": "Rối loạn tiêu hoá kéo dài làm dê chậm lớn; cần điều chỉnh khẩu phần ngay."
+  },
+
+  "prevention": [
+    "Thay đổi thức ăn từ từ.",
+    "Luôn có cỏ khô trong khẩu phần.",
+    "Không cho ăn nhiều phụ phẩm lên men mạnh.",
+    "Tránh cho ăn khi dê quá đói."
+  ],
+
+  "notes": [
+    "Bệnh không nguy hiểm nhưng kéo dài rất hao đàn.",
+    "Hệ vi sinh dạ cỏ nhạy cảm, nên dùng men đều."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo."
+}

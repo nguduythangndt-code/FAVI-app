@@ -3,7 +3,7 @@
   "name": "Heo hậu bị",
   "species": "pig",
   "group": "gilt",
-  "overview": "Cẩm nang chăm sóc heo cái hậu bị trước khi đưa vào đàn nái. Mục tiêu: khung xương chắc, chân móng vững, hệ sinh sản khỏe, ruột phổi ổn và tâm lý bớt loạn khi vào môi trường phối giống. Hậu bị khỏe = nái bền về sau, ít loại thải sớm.",
+  "overview": "Heo hậu bị là giai đoạn mang tính nền móng cho toàn bộ chu kỳ sinh sản sau này. Nếu nuôi giai đoạn này lệch nhịp, hậu quả không thể sửa bằng thuốc hay cám ở các lứa tiếp theo.\n\n Rủi ro lớn nhất không nằm ở việc heo hậu bị chậm lớn, mà nằm ở phát triển lệch: thân to nhưng khung yếu, mập sớm, rối loạn động dục hoặc suy giảm khả năng mang thai.\n\nNhiều người nuôi mắc sai lầm khi áp dụng tư duy vỗ béo cho heo hậu bị: tăng cám nhanh, ít vận động, thiếu theo dõi thể trạng và thời điểm động dục. Kết quả là heo động dục yếu, phối khó đậu, dễ sảy thai sớm hoặc giảm số con/lứa. Những vấn đề này thường chỉ lộ ra khi đã bước vào sinh sản, lúc đó rất khó cứu vãn.\n\nMục tiêu của nuôi heo hậu bị không phải là lớn nhanh, mà là lớn đúng: khung xương phát triển tốt, thể trạng cân đối, động dục rõ – đúng thời điểm và sẵn sàng bước vào sinh sản bền.\n\n Nội dung trong cẩm nang này giúp người nuôi nhìn đúng rủi ro, tránh sai lầm thường gặp và nuôi heo hậu bị theo nhịp phát triển sinh lý tự nhiên.",
   "sections": [
     {
       "id": "frame_bone_6_12w",
@@ -88,7 +88,21 @@
         "[Loại thải sớm không thương tiếc] Con chân yếu mạn, dịch âm hộ đục lặp lại, giống quá trễ nhiều vòng, khung vẹo - móng xoắn → không phù hợp làm nái bền.",
         "[Ghi log đánh giá] Ghi lại nhóm heo đã loại theo lý do: giúp tối ưu purchase selection cho lứa sau."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện sớm các vấn đề sức khỏe thường gặp trong giai đoạn nuôi heo hậu bị để không ảnh hưởng đến động dục và khả năng sinh sản sau này.",
+  "content": "Heo hậu bị trải qua nhiều giai đoạn chuyển tiếp về thể trạng và sinh lý. Khi xuất hiện dấu hiệu bất thường, cần đối chiếu đúng giai đoạn đang nuôi để tra cứu nhóm bệnh phù hợp trong mục Bệnh.",
+  "bullets": [
+    "[Mới tách đàn – chọn hậu bị] Tiêu chảy dinh dưỡng, viêm đường hô hấp do stress tách đàn, thay đổi chuồng và khẩu phần.",
+    "[Giai đoạn phát triển khung – tăng trưởng] Ký sinh trùng đường ruột, thiếu khoáng – vitamin khiến heo chậm lớn, khung yếu, lông xấu.",
+    "[Giai đoạn gần động dục] Rối loạn động dục, động dục yếu hoặc im lặng do thể trạng lệch, dinh dưỡng không cân đối.",
+    "[Sau khi xuất hiện động dục] Viêm đường sinh dục, rối loạn sinh lý do stress, vận chuyển, thay đổi môi trường đột ngột.",
+    "[Trước phối giống] Suy nhược thể trạng, nhiễm bệnh nền tiềm ẩn (hô hấp, tiêu hóa) làm giảm tỷ lệ phối đậu."
+  ]
+}
+
   ],
   "notes": [
     "Heo hậu bị khỏe sẽ quyết định độ bền đàn nái sau này.",

@@ -1,0 +1,133 @@
+{
+  "id": "ketosis",
+  "name": "Nhiễm xeton",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Nhiễm xeton xảy ra chủ yếu ở bò sữa giai đoạn đầu sau đẻ, do mất cân bằng năng lượng, cơ thể huy động mỡ quá mức, gây tích tụ thể xeton, làm bò chán ăn, sụt cân, giảm sữa.",
+
+  "causes": [
+    "Thiếu năng lượng trong khẩu phần so với nhu cầu sản xuất sữa",
+    "Bò đẻ lứa đầu hoặc bò năng suất cao không được chuẩn bị khẩu phần hợp lý trước và sau đẻ",
+    "Giảm ăn sau đẻ do các rối loạn khác (viêm tử cung, bệnh chân, viêm vú...)",
+    "Rối loạn chuyển hóa mỡ ở gan"
+  ],
+
+  "risk_factors": [
+    "Bò sữa năng suất cao trong 4-6 tuần đầu sau đẻ",
+    "Thể trạng béo quá mức trước khi đẻ",
+    "Khẩu phần nghèo năng lượng, thiếu tinh hoặc chất béo dễ sử dụng",
+    "Bệnh hậu sản khác làm bò ăn kém kéo dài",
+    "Quản lý stress, chuồng chật, cạnh tranh thức ăn nhiều"
+  ],
+
+  "clinical_signs_detailed": [
+    "Giảm ăn, đặc biệt không thích thức ăn tinh, ưu tiên ăn thô xanh",
+    "Sụt cân nhanh, lưng tóp, hông gầy",
+    "Giảm sản lượng sữa rõ rệt, sữa có thể loãng hơn",
+    "Lờ đờ, ít vận động, vẻ mặt buồn",
+    "Một số trường hợp có mùi xeton (mùi trái cây chín) nhẹ ở hơi thở hoặc sữa",
+    "Trong ca nặng có thể thấy thần kinh bất thường: đi loạng choạng, đẩy đầu vào tường"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn nhẹ, đặc biệt giảm ăn tinh",
+      "Sụt sữa nhẹ, khó nhận ra nếu không theo dõi kỹ",
+      "Tính tình hơi thay đổi, ít hoạt động hơn"
+    ],
+    "moderate": [
+      "Sụt sữa rõ, ăn giảm nhiều",
+      "Sụt cân thấy rõ, lông xù, thân hình tóp lại",
+      "Có thể thấy mùi xeton nhẹ ở hơi thở hoặc sữa",
+      "Đứng tách đàn, ít tương tác"
+    ],
+    "severe": [
+      "Rối loạn thần kinh: đi vòng quanh, đẩy đầu vào tường hoặc vật cứng",
+      "Ăn rất kém, gần như bỏ ăn",
+      "Gầy nhanh, thể trạng xấu",
+      "Nếu không điều chỉnh kịp, có thể phải loại thải sớm"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "propylene_glycol"
+    ],
+    "alternative_drugs": [
+      "dextrose"
+    ],
+    "note_drugs": "Điều trị nhiễm xeton chủ yếu là cung cấp nguồn năng lượng dễ sử dụng cho bò, đồng thời điều chỉnh lại khẩu phần. Thuốc chỉ là phần hỗ trợ, phần chính vẫn là dinh dưỡng.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Điều chỉnh khẩu phần tăng năng lượng, nhưng chia nhỏ bữa, không dồn nhiều một lúc",
+      "Bổ sung thêm thức ăn tinh hoặc nguồn năng lượng dễ tiêu theo tư vấn dinh dưỡng",
+      "Đảm bảo bò có môi trường yên tĩnh, giảm stress, đủ chỗ nằm và đứng",
+      "Kiểm tra và xử lý các bệnh hậu sản khác nếu có (viêm tử cung, viêm vú, bệnh chân...)",
+      "Theo dõi sát sản lượng sữa, thể trạng, và mức độ ăn uống trong nhiều ngày"
+    ],
+
+    "dose_policy": "Các chế phẩm năng lượng và vitamin dùng theo liều khuyến cáo trên nhãn hoặc theo tư vấn của thú y/dinh dưỡng viên."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò giảm sữa rõ, ăn kém, gầy nhanh nhưng chưa có rối loạn thần kinh.",
+      "guideline": [
+        "Tăng cường bổ sung năng lượng dễ sử dụng",
+        "Điều chỉnh khẩu phần tổng thể với chuyên gia dinh dưỡng hoặc thú y",
+        "Bổ sung vitamin nhóm B để hỗ trợ chuyển hóa",
+        "Theo dõi sát trong 1-2 tuần đầu điều chỉnh"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò có dấu hiệu thần kinh, rất gầy, ít phản ứng.",
+      "guideline": [
+        "Tham khảo thú y để xây dựng phác đồ điều trị tích cực, có thể kết hợp truyền dịch, năng lượng",
+        "Đánh giá khả năng hồi phục thực tế, cân nhắc loại thải nếu tiên lượng quá xấu",
+        "Ghi chép lại ca bệnh để điều chỉnh chiến lược nuôi dưỡng đàn bò sữa",
+        "Tập trung phòng bệnh cho các bò đang mang thai sắp đẻ"
+      ]
+    },
+    "note": "Nhiễm xeton là bệnh của quản lý dinh dưỡng và năng lượng. Sửa khẩu phần và quản lý tốt còn quan trọng hơn đơn thuốc."
+  },
+
+  "prevention": [
+    "Chuẩn bị khẩu phần cho bò cạn sữa và bò gần đẻ một cách bài bản",
+    "Không để bò quá béo trước khi đẻ",
+    "Đảm bảo năng lượng đủ ngay từ đầu giai đoạn cho sữa",
+    "Giảm stress, đảm bảo không gian, tránh cạnh tranh thức ăn quá mức",
+    "Theo dõi thể trạng và sản lượng từng con để phát hiện sớm"
+  ],
+
+  "notes": [
+    "Một ca ketosis thường báo hiệu cả nhóm bò cùng lứa có nguy cơ.",
+    "Chi phí phòng bằng dinh dưỡng hợp lý thường rẻ hơn nhiều so với điều trị.",
+    "Ghi lại khẩu phần, thể trạng và thời điểm phát bệnh để rút kinh nghiệm cho mùa sau."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

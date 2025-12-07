@@ -1,0 +1,110 @@
+{
+  "id": "newcastle-disease",
+  "name": "Newcastle (dịch tả gà)",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Bệnh virus rất ác tính, lây nhanh, gây tổn thương hô hấp, tiêu hoá và thần kinh, thường chết hàng loạt nếu không được phòng bằng vaccine.",
+  "causes": [
+    "Virus Newcastle (Paramyxovirus týp 1)",
+    "Lây qua không khí, dịch tiết mũi miệng, phân và dụng cụ chăn nuôi",
+    "Đàn không được tiêm phòng hoặc tiêm phòng không đầy đủ"
+  ],
+  "risk_factors": [
+    "Mật độ nuôi dày, chuồng bí, ẩm, nhiều khí độc",
+    "Không tiêm hoặc tiêm vaccine Newcastle không đúng lịch",
+    "Đàn gà đang stress: thời tiết thay đổi, vận chuyển, ghép đàn",
+    "Vệ sinh - sát trùng kém, nhiều mầm bệnh tồn lưu trong khu vực"
+  ],
+  "clinical_signs_detailed": [
+    "Gà sốt, ủ rũ, xù lông, giảm ăn, tụm đám",
+    "Thở nhanh, thở khò khè, há mỏ thở, chảy nước mũi",
+    "Tiêu chảy phân xanh, mùi hôi, bết lông quanh hậu môn",
+    "Giảm đẻ rõ rệt, trứng vỏ mỏng, méo, không đều",
+    "Triệu chứng thần kinh: vẹo cổ, liệt chân, đi vòng tròn, co giật",
+    "Tỷ lệ chết có thể rất cao trong thời gian ngắn"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn nhẹ, uống nước nhiều hơn",
+      "Xù lông, tụm đám, chậm chạp",
+      "Thỉnh thoảng ho, hắt hơi, chảy nước mũi trong",
+      "Đàn vẫn còn đi lại, chưa thấy thần kinh rõ"
+    ],
+    "moderate": [
+      "Thở khó, há mỏ, vươn cổ để thở",
+      "Tiêu chảy phân xanh, mùi khó chịu",
+      "Giảm đẻ đột ngột, trứng vỏ mỏng, xấu",
+      "Một số con bắt đầu có dấu hiệu vẹo cổ, run rẩy"
+    ],
+    "severe": [
+      "Liệt, vẹo cổ nặng, mất thăng bằng, co giật",
+      "Nằm bẹp, thở gấp, tím mào - tích",
+      "Chết nhanh, chết đồng loạt nhiều con trong ngày",
+      "Khó kiểm soát dù đã dùng thuốc hỗ trợ"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "enrofloxacin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "doxycycline",
+      "amoxicillin"
+    ],
+    "note_drugs": "Kháng sinh chỉ dùng để kiểm soát nhiễm khuẩn kế phát, không điều trị được virus Newcastle. Ưu tiên lựa chọn một phác đồ chính, tránh đổi thuốc liên tục.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "thuốc long đờm - giãn phế quản dạng uống"
+      },
+      "electrolyte": {
+        "main": "dung dịch điện giải + vitamin C pha nước uống",
+        "alternative": "điện giải - giải độc gan thận dạng bột"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp (A, D, E, B-complex)",
+        "alternative": "vitamin C liều hỗ trợ chống sốc"
+      },
+      "digestive_support": {
+        "main": "men tiêu hoá - men sống trộn thức ăn",
+        "alternative": "chế phẩm vi sinh đường ruột"
+      }
+    },
+    "supportive_care": [
+      "Cách ly và loại bỏ sớm những con quá nặng, không còn khả năng hồi phục",
+      "Giảm mật độ, tăng lưu thông không khí nhưng tránh gió lùa trực tiếp",
+      "Giữ chuồng khô, ấm vừa phải, lót chuồng sạch, thay chất độn bẩn",
+      "Tăng nước uống sạch, luôn có sẵn điện giải và vitamin",
+      "Vệ sinh - sát trùng khu vực chuồng và dụng cụ hàng ngày"
+    ],
+    "dose_policy": "Dùng thuốc theo đúng hướng dẫn trên nhãn và tư vấn thú y. Không tự ý tăng liều hoặc kéo dài thời gian dùng kháng sinh hơn khuyến cáo."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt, số lượng lớn, tỷ lệ chết tăng nhanh, triệu chứng điển hình Newcastle.",
+      "guideline": "Tập trung điều trị hỗ trợ cho đàn còn khả năng hồi phục, kết hợp loại thải những con quá nặng. Thông báo thú y cơ sở để được hướng dẫn về xử lý ổ dịch, tiêu huỷ xác và sát trùng diện rộng. Chuẩn bị kế hoạch tiêm phòng lại cho các lứa sau khi dịch được khống chế."
+    },
+    "case_type_2": {
+      "description": "Đàn giống, đàn nhỏ có giá trị cao, có thể đầu tư nhiều công chăm sóc.",
+      "guideline": "Chia đàn theo mức độ bệnh, ưu tiên chăm sóc nhóm nhẹ và vừa: không để thiếu nước, thiếu điện giải - vitamin, duy trì kháng sinh kiểm soát kế phát và thuốc giảm viêm - long đờm theo tư vấn thú y. Theo dõi sát những con có triệu chứng thần kinh kéo dài, cân nhắc loại bỏ để giảm nguồn lây và áp lực chăm sóc."
+    },
+    "note": "Newcastle là bệnh phải phòng là chính bằng vaccine. Khi đã bùng dịch, khó phục hồi hoàn toàn năng suất đàn, cần tính toán thiệt hại và kế hoạch tái đàn an toàn."
+  },
+  "prevention": [
+    "Tiêm phòng Newcastle đầy đủ và đúng lịch cho toàn đàn",
+    "Nhập giống từ nguồn có lịch sử tiêm phòng và an toàn dịch bệnh rõ ràng",
+    "Giữ chuồng thoáng, khô, mật độ vừa phải, giảm stress tối đa",
+    "Thực hiện nguyên tắc cùng vào - cùng ra, sát trùng giữa các lứa nuôi",
+    "Hạn chế người lạ, phương tiện, gia cầm hoang dại ra vào khu nuôi"
+  ],
+  "notes": [
+    "Newcastle dễ nhầm với cúm gia cầm ở giai đoạn đầu, khi nghi ngờ nên báo thú y để được tư vấn kỹ hơn.",
+    "Sau ổ dịch nặng, cần vệ sinh - sát trùng kỹ và để trống chuồng đủ thời gian trước khi tái đàn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

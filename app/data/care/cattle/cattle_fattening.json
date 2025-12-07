@@ -3,7 +3,7 @@
   "name": "Bò vỗ béo",
   "species": "cattle",
   "group": "fattening",
-  "overview": "Cẩm nang nuôi vỗ béo bò thịt từ lúc mới nhập về trại đến trước khi xuất bán. Mục tiêu: bò tăng cân đều, khung thịt đầy, không rối loạn tiêu hóa, không bùng bệnh do thay khẩu phần quá nhanh. Tất cả dựa trên 3 trụ cột: chuồng trại khô - sạch - thoáng, khẩu phần tăng dần có kiểm soát, phát hiện sớm và khoanh vùng nhanh bò bệnh.",
+  "overview": "Vỗ béo bò là giai đoạn nhạy cảm vì thay đổi khẩu phần mạnh và yêu cầu tăng trọng cao trong thời gian ngắn.\n\n Rủi ro chính không đến từ thiếu thức ăn, mà từ tăng tinh quá nhanh, quản lý chuồng trại kém và stress do gom đàn – vận chuyển.\n\nNhiều đàn bò sụt tăng trọng hoặc bùng bệnh hô hấp – tiêu hóa không phải vì bệnh sẵn có, mà vì dạ cỏ chưa kịp thích nghi với khẩu phần mới.\n\n Khi dạ cỏ rối loạn, bò ăn kém, chướng hơi, toan dạ cỏ và suy nhược xuất hiện liên tiếp.\n\nMục tiêu của vỗ béo bò là tăng trọng chắc, ăn đều, dạ cỏ ổn định và hạn chế bệnh vặt.\n\n Nội dung trong cẩm nang này tập trung giúp người nuôi tránh sai lầm tăng nhanh – can thiệp dồn và giữ nhịp nuôi bền suốt quá trình.",
   "sections": [
     {
       "id": "new_arrival",
@@ -125,7 +125,21 @@
         "[Sắp xếp trên xe] Không nhét quá chật, cố gắng phân bổ đều tải trong thùng xe. Hạn chế để bò chen ép quá mức vì dễ trượt, gãy chân hoặc đè nhau.",
         "[Giảm stress trong ngày xuất bán] Không đổi chuồng liên tục, không dí bò chạy vòng vèo nhiều lần. Chuẩn bị sẵn đường dẫn từ chuồng ra xe gọn, ít chướng ngại, có người hướng dẫn nhẹ nhàng."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện đúng các nguy cơ bệnh trong từng giai đoạn vỗ béo để hạn chế hụt tăng trọng.",
+  "content": "Trong quá trình vỗ béo, mỗi giai đoạn có nhóm rủi ro khác nhau liên quan đến khẩu phần và môi trường.",
+  "bullets": [
+    "[Mới nhập về] Stress vận chuyển, viêm phổi, cảm lạnh.",
+    "[Ổn định đàn – làm quen khẩu phần] Rối loạn tiêu hóa, tiêu chảy nhẹ, chướng hơi.",
+    "[Tăng khẩu phần tinh] Toan dạ cỏ, chướng hơi, tiêu chảy do tăng tinh nhanh.",
+    "[Vỗ béo mạnh] Suy nhược, viêm phổi tái phát ở bò nền yếu.",
+    "[Trước xuất bán] Bệnh cấp tính do stress gom đàn – vận chuyển."
+  ]
+}
+
   ],
   "notes": [
     "Mọi thay đổi khẩu phần đều phải từ từ và theo dõi phản ứng đàn ít nhất 2-3 ngày.",

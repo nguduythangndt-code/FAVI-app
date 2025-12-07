@@ -1,0 +1,112 @@
+{
+  "id": "streptococcus_pneumonia",
+  "name": "Viêm phổi do Streptococcus",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Streptococcus có thể gây viêm phổi, sốt và suy nhanh, nhất là trên heo con và heo cai sữa, thường đi kèm nhiễm trùng máu hoặc viêm khớp.",
+  "causes": [
+    "Nhiễm Streptococcus suis hoặc các chủng Streptococcus khác",
+    "Lây qua đường hô hấp hoặc vết xây xát",
+    "Chuồng ẩm bẩn, heo stress"
+  ],
+  "risk_factors": [
+    "Thay đổi nhiệt độ đột ngột",
+    "Chuồng ẩm, nền ướt",
+    "Mật độ cao, ít thông thoáng",
+    "Nhiễm bệnh nền như cúm, PRRS, Mycoplasma"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao",
+    "Ho, thở nhanh",
+    "Ăn giảm, mệt, nằm nhiều",
+    "Một số con cứng khớp, đi loạng choạng",
+    "Có thể thần kinh: xoay vòng, co giật nếu nhiễm trùng nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ",
+      "Ho ít",
+      "Ăn giảm nhẹ"
+    ],
+    "moderate": [
+      "Sốt cao rõ",
+      "Thở nhanh, ho ướt",
+      "Heo nằm nhiều"
+    ],
+    "severe": [
+      "Rất mệt, thở nặng",
+      "Có thể kèm thần kinh và viêm khớp",
+      "Nguy cơ chết cao nếu không can thiệp"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Amoxicillin"
+    ],
+    "alternative_drugs": [
+      "Penicillin",
+      "Florfenicol"
+    ],
+    "note_drugs": "Ceftiofur và Amoxicillin phù hợp trong các ca viêm phổi do Streptococcus. Penicillin vẫn còn giá trị nếu dùng đúng.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoa",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ heo bệnh ở nơi yên tĩnh, khô, ấm",
+      "Không dồn đuổi lùa chạy",
+      "Bổ sung điện giải khi sốt cao",
+      "Theo dõi kỹ các biểu hiện thần kinh và khớp"
+    ],
+    "dose_policy": "Dùng thuốc đúng theo nhãn hoặc hướng dẫn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo sốt cao, thở nhanh, mệt nhưng chưa có thần kinh.",
+      "guideline": [
+        "Dùng kháng sinh chính sớm",
+        "Kết hợp giảm đau, hạ viêm",
+        "Bổ sung vitamin hỗ trợ hồi phục"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo suy nhiều, có thể cứng khớp, thần kinh.",
+      "guideline": [
+        "Điều trị mạnh, liên tục",
+        "Giữ chuồng rất yên và mềm nền để tránh tổn thương khớp",
+        "Đánh giá từng con, cân nhắc loại thải nếu tiên lượng xấu"
+      ]
+    },
+    "note": "Streptococcus có thể lây sang người. Khi xử lý heo bệnh cần bảo hộ tốt."
+  },
+  "prevention": [
+    "Giữ chuồng khô, tránh gió lùa",
+    "Giảm stress khi chuyển chuồng, cai sữa",
+    "Tiêm phòng các bệnh nền hô hấp để giảm nguy cơ ghép",
+    "Không để heo nằm trên nền ướt hoặc lạnh"
+  ],
+  "notes": [
+    "Streptococcus thường gây bệnh nặng trên heo cai sữa.",
+    "Khi thấy dấu thần kinh hoặc viêm khớp cùng với ho và sốt, cần nghĩ tới nhóm này."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ringworm",
+  "name": "Nấm da",
+  "species": "cattle",
+  "group": "other",
+
+  "summary": "Nấm da gây rụng lông thành mảng tròn, da khô và sần. Lây lan nhanh trong điều kiện ẩm và chật. Bệnh không nguy hiểm nhưng làm bò khó chịu và giảm thẩm mỹ.",
+
+  "causes": [
+    "Nấm da Trichophyton hoặc Microsporum",
+    "Chuồng ẩm và tối",
+    "Dụng cụ chăm sóc dùng chung"
+  ],
+
+  "risk_factors": [
+    "Bò tơ",
+    "Chuồng thiếu nắng",
+    "Ẩm ướt kéo dài",
+    "Vệ sinh kém"
+  ],
+
+  "clinical_signs_detailed": [
+    "Mảng tròn rụng lông",
+    "Da khô, sần",
+    "Ngứa nhẹ",
+    "Lan nhiều vùng quanh đầu và cổ"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Vài mảng nhỏ",
+      "Da khô nhẹ"
+    ],
+    "moderate": [
+      "Lan nhiều vùng",
+      "Da sần rõ"
+    ],
+    "severe": [
+      "Lan toàn thân",
+      "Da dày và xấu",
+      "Bò khó chịu"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "vitamin_bc"
+    ],
+    "alternative_drugs": [
+      "men_vi_sinh"
+    ],
+    "note_drugs": "Thuốc chính là sát trùng da và giữ chuồng khô. Các thuốc hỗ trợ giúp bò cải thiện miễn dịch và hồi phục da.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Phơi nắng nhẹ mỗi ngày",
+      "Giữ chuồng khô",
+      "Không dùng chung bàn chải, dây buộc",
+      "Có thể cạo nhẹ lông vùng nấm"
+    ],
+
+    "dose_policy": "Dùng hỗ trợ theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nấm lan nhưng bò vẫn ăn và hoạt động.",
+      "guideline": [
+        "Vệ sinh da",
+        "Phơi nắng",
+        "Bổ sung vitamin"
+      ]
+    },
+    "case_type_2": {
+      "description": "Nấm lan rộng gây khó chịu.",
+      "guideline": [
+        "Cần thú y tư vấn thêm",
+        "Kiểm tra lại vệ sinh chuồng",
+        "Cách ly để tránh lây"
+      ]
+    },
+    "note": "Nấm da lan nhanh trong chuồng ẩm."
+  },
+
+  "prevention": [
+    "Chuồng thoáng, có ánh sáng",
+    "Không dùng chung dụng cụ",
+    "Giữ nền khô",
+    "Vệ sinh da định kỳ"
+  ],
+
+  "notes": [
+    "Không nguy hiểm nhưng khó chịu.",
+    "Bò tơ dễ bị nhất.",
+    "Mảng tròn rụng lông là dấu hiệu rõ ràng."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

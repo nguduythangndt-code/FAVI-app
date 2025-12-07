@@ -1,0 +1,55 @@
+{
+  "name": "Cầu trùng hỗn hợp mạn tính",
+  "summary": "Cầu trùng nhiều thể gây tiêu chảy kéo dài, gà gầy và kém lớn, dễ viêm ruột kế phát.",
+  "causes": ["Eimeria spp. (nhiều type)"],
+  "risk_factors": [
+    "Nền chuồng ẩm, phân dày",
+    "Nuôi dày, thay lứa không vệ sinh",
+    "Thức ăn rơi vãi ướt"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy kéo dài, phân nâu/sẫm",
+    "Có thể lẫn máu nhẹ",
+    "Gà gầy, lông xù",
+    "Ăn kém, lớn chậm"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Phân loãng", "Ăn giảm nhẹ"],
+    "moderate": ["Tiêu chảy dai dẳng", "Gầy rõ"],
+    "severe": ["Phân máu, suy kiệt", "Chết do mất nước/viêm ruột"]
+  },
+  "treatment": {
+    "primary_drugs": ["Amprolium", "Toltrazuril"],
+    "alternative_drugs": ["Sulfa drugs"],
+    "note_drugs": "Amprolium/Toltrazuril là lựa chọn phổ biến để cắt cầu trùng.",
+    "symptomatic_treatment": {
+      "electrolyte": { "main": "ORS", "alternative": [] },
+      "digestive_support": { "main": "Probiotic", "alternative": ["men tiêu hóa"] },
+      "vitamin": { "main": "Vitamin K", "alternative": ["B-complex"] }
+    },
+    "supportive_care": [
+      "Làm khô nền chuồng, thay chất độn",
+      "Dọn phân mỗi ngày",
+      "Giảm mật độ"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Tiêu chảy kéo dài, gà gầy nhanh"],
+      "guideline": ["Cắt cầu trùng sớm", "ORS + probiotic"]
+    },
+    "case_type_2": {
+      "description": ["Phân máu, mất nước rõ"],
+      "guideline": ["Cắt cầu trùng mạnh", "Vitamin K", "Theo dõi sát"]
+    },
+    "note": "Cầu trùng mạn làm ruột tổn thương lâu, nên gà chậm lớn dài ngày."
+  },
+  "prevention_list": [
+    "Giữ nền chuồng khô",
+    "Dùng thuốc cầu trùng phòng đúng lịch",
+    "All-in/all-out"
+  ],
+  "notes": ["Nếu nền còn ẩm bẩn thì trị xong vẫn tái."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

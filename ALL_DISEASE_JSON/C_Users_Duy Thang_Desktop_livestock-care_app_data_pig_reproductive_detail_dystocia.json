@@ -1,0 +1,114 @@
+{
+  "id": "dystocia",
+  "name": "Đẻ khó",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Đẻ khó là tình trạng nái rặn lâu nhưng ít hoặc không ra con, thai to, kẹt hoặc tư thế thai sai. Nếu không xử lý sớm có thể chết cả mẹ lẫn con.",
+  "causes": [
+    "Thai quá to so với khung chậu nái",
+    "Tư thế thai sai, cong, xoay ngang",
+    "Cơn co tử cung yếu, nái kiệt sức",
+    "Nái quá béo hoặc quá gầy",
+    "Đẻ kéo dài, can thiệp không đúng cách"
+  ],
+  "risk_factors": [
+    "Nái tơ lứa đầu, khung xương hẹp",
+    "Nái quá béo, ít vận động",
+    "Khẩu phần không cân đối trong giai đoạn chửa",
+    "Thiếu người theo dõi sát lúc đẻ"
+  ],
+  "clinical_signs_detailed": [
+    "Nái rặn lâu mà không ra heo con",
+    "Đã ra vài con rồi ngưng rất lâu không ra tiếp",
+    "Nái mệt, thở gấp, nằm nhiều",
+    "Có thể thấy chân hoặc mũi thai kẹt ở âm hộ",
+    "Dịch âm hộ có thể lẫn máu hoặc mùi hôi nếu kéo dài"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Đẻ hơi lâu nhưng vẫn ra con đều",
+      "Nái còn tỉnh, rặn có lực"
+    ],
+    "moderate": [
+      "Khoảng cách giữa hai con kéo dài bất thường",
+      "Nái mệt dần, rặn yếu",
+      "Có dấu thai kẹt nhẹ"
+    ],
+    "severe": [
+      "Rặn lâu không ra con",
+      "Nái kiệt sức, nằm thở gấp",
+      "Thai kẹt rõ hoặc nghi chết trong tử cung"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Oxytocin",
+      "Calcium"
+    ],
+    "alternative_drugs": [
+      "Thuốc trợ sức - vitamin",
+      "Thuốc sát trùng dùng ngoài âm hộ"
+    ],
+    "note_drugs": "Oxytocin chỉ dùng khi chắc chắn không có tắc cơ học (thai to, xoay ngang). Calcium hỗ trợ co bóp tử cung. Khi nghi thai kẹt cơ học cần thú y can thiệp, không tự ý lạm dụng Oxytocin.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng đẻ yên tĩnh, không làm nái hoảng loạn",
+      "Vệ sinh vùng âm hộ sạch trước khi can thiệp tay",
+      "Nếu phải can thiệp tay, dùng gel bôi trơn và thao tác nhẹ nhàng",
+      "Không kéo thô bạo, tránh làm rách đường sinh dục",
+      "Sau đẻ khó, cần theo dõi sát viêm tử cung và viêm vú"
+    ],
+    "dose_policy": "Dùng Oxytocin và Calcium đúng liều, đúng thời điểm, theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đã đẻ được vài con, sau đó dừng lâu, nái còn tỉnh, rặn yếu.",
+      "guideline": [
+        "Đánh giá lại tư thế thai bằng sờ trong nếu có kinh nghiệm",
+        "Nếu không kẹt cơ học, có thể dùng Oxytocin theo tư vấn thú y",
+        "Theo dõi sát phản ứng trong và sau khi tiêm"
+      ]
+    },
+    "case_type_2": {
+      "description": "Nái rặn rất lâu không ra con, rất mệt, nghi thai kẹt.",
+      "guideline": [
+        "Không tự ý lạm dụng Oxytocin khi nghi thai to hoặc xoay ngang",
+        "Giữ nái yên, tránh dồn đuổi, chờ thú y có kinh nghiệm",
+        "Sau khi giải quyết đẻ khó, cần phác đồ kháng sinh và chống viêm để phòng viêm tử cung"
+      ]
+    },
+    "note": "Đẻ khó là tình trạng cấp cứu, nếu xử lý chậm có thể thiệt hại cả mẹ lẫn đàn con."
+  },
+  "prevention": [
+    "Quản lý thể trạng nái trong suốt thai kỳ, tránh quá béo hoặc quá gầy",
+    "Cho nái vận động nhẹ hàng ngày",
+    "Theo dõi sát lúc đẻ, đặc biệt nái tơ và nái đẻ lứa đầu",
+    "Chuồng đẻ phải sạch, khô, có người trực"
+  ],
+  "notes": [
+    "Ghi chép chi tiết từng ca đẻ khó để rút kinh nghiệm cho lứa sau.",
+    "Những nái nhiều lần đẻ khó nên cân nhắc loại khỏi đàn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

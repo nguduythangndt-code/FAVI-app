@@ -3,7 +3,7 @@
   "name": "Đệm lót / nền chuồng",
   "species": "chicken",
   "group": "litter",
-  "overview": "Cẩm nang quản lý đệm lót chuồng gà: chọn vật liệu (trấu, mùn cưa, dăm bào…), độ dày, cách trải, cách đảo trộn, xử lý chỗ ướt - bết - bốc mùi, liên quan giữa đệm lót và bệnh chân, khớp, hô hấp, cầu trùng. Mục tiêu: nền luôn khô - tơi - êm, không hôi nặng, không trơn trượt, giúp chân gà khỏe, hạn chế bệnh do nền bẩn.",
+  "overview": "Đệm lót chuồng gà là yếu tố thường bị xem nhẹ, nhưng lại ảnh hưởng trực tiếp đến sức khỏe đàn gà trong suốt quá trình nuôi. Đệm lót kém không chỉ gây ẩm ướt, mùi hôi mà còn là nguồn tích tụ mầm bệnh.\n\nNhiều vấn đề hô hấp, tiêu hóa và bệnh kế phát không xuất hiện rõ ràng, mà phát triển âm thầm từ môi trường chuồng nuôi mất cân bằng.\n\nMục tiêu của quản lý đệm lót không phải là thay mới liên tục, mà là giữ môi trường khô ráo, thông thoáng và hạn chế stress nền cho đàn gà.",
   "sections": [
     {
       "id": "choose_material",
@@ -106,7 +106,19 @@
         "[Điều chỉnh độ dày theo mùa] Mùa lạnh, có thể tăng độ dày để giữ ấm; mùa nóng, giữ độ dày vừa phải để không giữ nhiệt quá nhiều.",
         "[Theo dõi phản ứng đàn] Nếu gà nằm nhiều ở một khu vực nhất định, cần kiểm tra xem khu đó đệm có ấm/khô hơn không, từ đó điều chỉnh trải đệm cho đều hoặc làm chỗ nghỉ phù hợp."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Giúp người nuôi nhận diện các nguy cơ bệnh phát sinh từ điều kiện chuồng trại.",
+  "content": "Bệnh liên quan đệm lót thường diễn tiến chậm và khó nhận biết sớm.",
+  "bullets": [
+    "[Đệm lót ẩm kéo dài] Viêm hô hấp, viêm da, tổn thương chân.",
+    "[Môi trường ô nhiễm] Bệnh kế phát, suy miễn dịch.",
+    "[Thay đổi đột ngột] Stress, giảm ăn, chết rải rác."
+  ]
+}
+
   ],
   "notes": [
     "Đệm lót tốt là đệm lót khô tương đối, tơi, không bốc mùi nặng, không làm cay mắt khi bước vào chuồng.",

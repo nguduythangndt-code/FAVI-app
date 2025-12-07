@@ -1,0 +1,106 @@
+{
+  "id": "egg-drop-syndrome",
+  "name": "Hội chứng giảm đẻ",
+  "species": "chicken",
+  "group": "reproductive",
+  "summary": "Đàn đẻ giảm sản lượng rõ rệt, trứng nhỏ, vỏ xấu, do nhiều nguyên nhân liên quan đến sinh sản, dinh dưỡng và bệnh lý.",
+  "causes": [
+    "Nhiễm một số tác nhân virus, vi khuẩn ảnh hưởng đường sinh sản",
+    "Khẩu phần thiếu canxi, khoáng, vitamin D và các vi chất khác",
+    "Stress do thay đổi thời tiết, tiếng ồn, vận chuyển, chương trình chiếu sáng",
+    "Các bệnh sinh sản như viêm ống dẫn trứng, viêm phúc mạc, kẹt trứng"
+  ],
+  "risk_factors": [
+    "Không ghi chép và quản lý lịch chiếu sáng rõ ràng",
+    "Khẩu phần không ổn định, thay đổi thức ăn đột ngột",
+    "Chuồng chật, nóng, thông gió kém, nhiều tiếng ồn",
+    "Đàn gà có tuổi không đồng đều, khó quản lý đỉnh đẻ"
+  ],
+  "clinical_signs_detailed": [
+    "Sản lượng trứng giảm nhanh hoặc giảm dần nhưng kéo dài",
+    "Trứng nhỏ hơn, vỏ mỏng, vỏ nhăn, màu vỏ không đều",
+    "Đàn có thể vẫn ăn bình thường hoặc hơi giảm ăn",
+    "Một số con gầy dần nếu kèm bệnh sinh sản khác",
+    "Không phải lúc nào cũng thấy dấu hiệu bệnh rõ ràng trên từng con"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm đẻ nhẹ so với mức mong đợi theo tuổi đàn",
+      "Trứng có vài quả vỏ hơi xấu, nhưng khó nhận nếu không ghi chép"
+    ],
+    "moderate": [
+      "Giảm đẻ rõ, trứng nhỏ, vỏ mỏng, màu vỏ xấu",
+      "Một số con lông xấu, thể trạng kém hơn",
+      "Nếu do bệnh, có thể kèm dấu hiệu ủ rũ, giảm ăn"
+    ],
+    "severe": [
+      "Giảm đẻ mạnh, khó kéo đàn trở lại mức cũ",
+      "Trứng xấu kéo dài, vỏ mỏng, dễ vỡ, tỉ lệ trứng loại nhiều",
+      "Đàn gầy, lông xấu nếu kèm các bệnh sinh sản và dinh dưỡng"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "tinh_chinh_dinh_duong",
+      "chuong_trinh_bo_sung_khoang_va_vitamin"
+    ],
+    "alternative_drugs": [
+      "amoxicillin",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Hội chứng giảm đẻ thường không giải quyết chỉ bằng thuốc. Trọng tâm là điều chỉnh lại dinh dưỡng, ánh sáng, môi trường và xử lý các bệnh nền sinh sản. Kháng sinh chỉ cân nhắc nếu có dấu hiệu nhiễm khuẩn rõ.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên canxi, vitamin D và khoáng",
+        "alternative": "các chế phẩm tăng chất lượng vỏ trứng theo tư vấn"
+      },
+      "digestive_support": {
+        "main": "khẩu phần ổn định, chất lượng tốt, dễ tiêu",
+        "alternative": "men vi sinh khi đàn có rối loạn tiêu hóa kèm theo"
+      }
+    },
+    "supportive_care": [
+      "Rà soát lại khẩu phần, chất lượng cám, bổ sung khoáng và vitamin",
+      "Kiểm tra và ổn định chương trình chiếu sáng theo lứa tuổi",
+      "Cải thiện thông gió, giảm nóng, giảm tiếng ồn và những yếu tố gây stress",
+      "Theo dõi biểu đồ sản lượng để đánh giá lại mục tiêu và khả năng đàn",
+      "Kiểm tra xem có bệnh sinh sản cụ thể nào chiếm tỷ lệ cao để xử lý riêng"
+    ],
+    "dose_policy": "Các sản phẩm bổ sung khoáng, vitamin, chất hỗ trợ vỏ trứng dùng theo khuyến cáo trên nhãn hoặc tư vấn thú y, không pha quá đậm hoặc kéo dài liên tục mà không có mục tiêu rõ ràng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn đẻ thương phẩm giảm đẻ mạnh trong thời gian ngắn.",
+      "guideline": "Kiểm tra ngay các yếu tố đột ngột như thay cám, thay ánh sáng, sốc nhiệt, tiếng ồn. Kết hợp điều chỉnh dinh dưỡng, môi trường và nếu cần làm việc với thú y để loại trừ các bệnh truyền nhiễm. Chấp nhận rằng việc phục hồi có thể cần thời gian."
+    },
+    "case_type_2": {
+      "description": "Đàn giống, giảm đẻ kéo dài, khó trả đàn về đỉnh cũ.",
+      "guideline": "Đánh giá lại mục tiêu khai thác đàn, cân nhắc thay đàn mới nếu hiệu quả kinh tế không còn. Ghi chép kỹ chương trình nuôi để rút kinh nghiệm cho đàn sau về dinh dưỡng, tuổi nhập đàn và lịch chiếu sáng."
+    },
+    "note": "Hội chứng giảm đẻ là kết quả của nhiều yếu tố cộng lại. Sửa từng điểm nhỏ nhưng đều đặn thường hiệu quả hơn là chỉ trông vào thuốc."
+  },
+  "prevention": [
+    "Xây dựng khẩu phần rõ ràng, ổn định theo từng giai đoạn nuôi",
+    "Thiết kế và tuân thủ chương trình chiếu sáng phù hợp với đàn đẻ",
+    "Giữ môi trường chuồng nuôi thoáng, nhiệt độ hợp lý, ít tiếng ồn",
+    "Phòng và theo dõi các bệnh sinh sản từ sớm",
+    "Ghi chép sản lượng trứng hằng ngày để phát hiện bất thường sớm"
+  ],
+  "notes": [
+    "Khi đàn giảm đẻ, nên nhìn tổng thể cả khẩu phần, môi trường và bệnh sinh sản, không chỉ tập trung vào một yếu tố.",
+    "Ghi chép và so sánh nhiều lứa nuôi giúp tìm ra mô hình phù hợp nhất với điều kiện trại."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

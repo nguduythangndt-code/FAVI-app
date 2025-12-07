@@ -1,0 +1,101 @@
+{
+  "id": "rickets",
+  "name": "Còi xương, mềm xương",
+  "species": "chicken",
+  "group": "other",
+  "summary": "Thiếu canxi, phospho, vitamin D hoặc mất cân đối khoáng làm xương mềm, chân yếu, gà chậm lớn, dễ biến dạng khung xương.",
+  "causes": [
+    "Khẩu phần thiếu canxi, phospho, vitamin D",
+    "Tỉ lệ Ca:P mất cân đối trong thời gian dài",
+    "Chất lượng khoáng, premix kém hoặc pha trộn không đều",
+    "Thiếu ánh sáng hoặc môi trường nuôi kín hoàn toàn mà không điều chỉnh khẩu phần"
+  ],
+  "risk_factors": [
+    "Tự phối trộn cám mà không tính kỹ Ca:P và vitamin D",
+    "Dùng cám kém chất lượng hoặc hết hạn",
+    "Tốc độ lớn nhanh nhưng khẩu phần không theo kịp nhu cầu",
+    "Nuôi trong chuồng kín lâu dài mà không điều chỉnh công thức cám"
+  ],
+  "clinical_signs_detailed": [
+    "Gà chậm lớn, khung xương to, thịt ít",
+    "Chân yếu, đi loạng choạng, dễ ngồi nhiều",
+    "Xương ức, cột sống, khớp có thể biến dạng, cong vẹo",
+    "Ở đàn đẻ, vỏ trứng mỏng, dễ vỡ, sản lượng giảm",
+    "Trong trường hợp nặng, gà không đứng nổi, nằm lâu, dễ bị đè"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tăng trọng không đạt chuẩn, chân hơi yếu",
+      "Khó nhận nếu không so với đàn chuẩn hoặc lịch cân"
+    ],
+    "moderate": [
+      "Chân yếu rõ, gà đi khó, hay nằm",
+      "Xương ức, khớp bắt đầu có hình dạng bất thường",
+      "Đàn đẻ vỏ trứng mỏng, méo"
+    ],
+    "severe": [
+      "Biến dạng khung xương, chân cong, gà không đứng nổi",
+      "Đàn rất khó đạt trọng lượng mong muốn",
+      "Nhiều con bị loại thải sớm vì không đi lại được"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+    ],
+    "alternative_drugs": [],
+    "note_drugs": "Còi xương do dinh dưỡng chủ yếu xử lý bằng cách sửa khẩu phần và bổ sung khoáng, vitamin. Xương đã biến dạng nặng ít khi trở lại như cũ, nên phát hiện sớm rất quan trọng.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "meloxicam",
+        "alternative": "flunixin"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": "electrolyte-glucose"
+      },
+      "vitamin": {
+        "main": "vitamin-d3-calcium",
+        "alternative": "vitamin-complex"
+      },
+      "digestive_support": {
+        "main": "",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Sửa lại công thức cám, đảm bảo tỉ lệ Ca:P phù hợp từng giai đoạn",
+      "Dùng premix khoáng, vitamin đáng tin cậy, trộn đều",
+      "Giảm mật độ, tạo điều kiện gà vận động dễ hơn",
+      "Loại thải những con biến dạng quá nặng, không thể đi lại",
+      "Theo dõi đàn mới sau điều chỉnh khẩu phần để đánh giá hiệu quả"
+    ],
+    "dose_policy": "Các sản phẩm bổ sung canxi, phospho, vitamin D dùng đúng liều khuyến cáo. Không bổ sung quá mức kéo dài gây lắng đọng khoáng bất thường."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt tự phối trộn cám, nhiều con chân yếu, chậm lớn.",
+      "guideline": "Chuyển qua dùng cám có công thức rõ ràng hoặc nhờ tư vấn dinh dưỡng chỉnh lại công thức. Bổ sung khoáng, vitamin trong thời gian đầu. Chấp nhận loại thải những con quá nặng."
+    },
+    "case_type_2": {
+      "description": "Đàn đẻ hoặc đàn giống có dấu hiệu còi xương, vỏ trứng mỏng.",
+      "guideline": "Điều chỉnh ngay khẩu phần Ca:P, bổ sung khoáng và vitamin D. Kiểm tra chất lượng nguồn canxi và premix đang sử dụng. Theo dõi chất lượng vỏ trứng trong vài tuần sau đó để đánh giá cải thiện."
+    },
+    "note": "Còi xương là bài học về dinh dưỡng. Sửa một lần cho đúng sẽ đỡ rất nhiều lứa sau."
+  },
+  "prevention": [
+    "Dùng cám có uy tín hoặc công thức được tư vấn rõ ràng",
+    "Đảm bảo tỉ lệ Ca:P và vitamin D theo từng giai đoạn nuôi",
+    "Không kéo dài sử dụng cám hết hạn hoặc ẩm mốc",
+    "Theo dõi tăng trọng và vóc dáng đàn theo thời gian",
+    "Định kỳ xem lại khung xương và chân một số con trong đàn"
+  ],
+  "notes": [
+    "Chỉ nhìn cân nặng mà không để ý dáng xương sẽ bỏ sót nhiều trường hợp còi xương.",
+    "Còi xương ở đàn đẻ ảnh hưởng trực tiếp đến chất lượng vỏ trứng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

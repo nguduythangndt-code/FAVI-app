@@ -3,7 +3,7 @@
   "name": "Bò bệnh",
   "species": "cattle",
   "group": "health",
-  "overview": "Hướng dẫn xử lý tổng quát khi bò có dấu hiệu bệnh trong trại. Mục tiêu: nhận diện nhanh mức độ bất thường, khoanh vùng - cách ly sớm, giữ đàn khoẻ không bị lây nhiễm chéo, hỗ trợ đúng nhóm thuốc theo nhãn, không can thiệp sai thời điểm, không gây stress thêm cho con đang bệnh.",
+  "overview": "Khi bò đã phát bệnh, điều quan trọng nhất là đánh giá đúng mức độ và kiểm soát lây lan, không phải dồn dập dùng thuốc.\n\n Nhiều thiệt hại xảy ra do phát hiện muộn, xử lý rối và để bệnh lan khắp đàn.\n\nSai lầm thường gặp là tập trung vào con bệnh nặng mà bỏ qua môi trường, khẩu phần và đàn xung quanh.\n\n Bò đã stress nếu bị can thiệp dồn sẽ suy nhanh hơn.\n\nMục tiêu của giai đoạn này là khoanh vùng, giảm stress, ổn định ăn uống và theo dõi sát diễn biến.\n\n Nội dung này giúp xử lý bò bệnh tỉnh táo, theo từng bước.",
   "sections": [
     {
       "id": "morning_checklist",
@@ -94,7 +94,21 @@
         "[Mưa ẩm] Tăng xơ thô khô, lót khô nền, rắc vôi nền theo nhãn.",
         "[Lạnh đột ngột] Chắn 1 phía gió, ưu tiên xơ khô buổi tối, nước ấm sáng-chiều nếu có."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Phân biệt mức độ bệnh để xử lý đúng thời điểm và tránh chuyển nặng.",
+  "content": "Bệnh ở bò thường diễn tiến theo mức độ. Đối chiếu đúng giai đoạn giúp ưu tiên xử lý.",
+  "bullets": [
+    "[Khởi phát] Bỏ ăn nhẹ, sốt thoáng, tiêu chảy nhẹ.",
+    "[Triệu chứng rõ] Viêm phổi, tiêu chảy nặng, sụt cân.",
+    "[Kéo dài] Ho mạn, suy nhược, ăn kém.",
+    "[Biến chứng] Viêm khớp, viêm ruột kéo dài.",
+    "[Nguy kịch] Kiệt sức, nguy cơ chết hoặc buộc thải loại."
+  ]
+}
+
   ],
   "notes": [
     "Cách ly sớm quan trọng hơn điều trị lan man.",

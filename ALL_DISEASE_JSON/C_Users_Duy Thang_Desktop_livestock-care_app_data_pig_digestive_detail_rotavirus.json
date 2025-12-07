@@ -1,0 +1,110 @@
+{
+  "id": "rotavirus",
+  "name": "Tiêu chảy do Rotavirus",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Rotavirus gây tiêu chảy ở heo con với phân loãng, màu trắng-vàng, mất nước và chậm lớn. Bệnh thường ghép với các tác nhân khác làm nặng thêm.",
+  "causes": [
+    "Virus đường ruột Rotavirus",
+    "Lây qua phân nhiễm virus, dụng cụ, máng ăn uống và nền chuồng"
+  ],
+  "risk_factors": [
+    "Vệ sinh kém, chuồng nhiều phân sót",
+    "Không vệ sinh kỹ ô úm giữa các lứa",
+    "Heo con sau cai sữa, sức đề kháng giảm",
+    "Nái không được tăng cường miễn dịch đầy đủ"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy phân loãng, màu trắng-vàng hoặc xám nhạt",
+    "Phân bắn tung, đuôi và chân sau dính phân",
+    "Có thể nôn ói nhẹ trước khi tiêu chảy",
+    "Heo con mất nước: mắt trũng, da kém đàn hồi",
+    "Ăn kém hoặc bỏ ăn, lớn chậm",
+    "Thường không chết đột ngột nếu không ghép nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân mềm, hơi loãng",
+      "Heo vẫn còn ăn nhưng kém sung",
+      "Đuôi hơi bẩn"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, phân loãng trắng-vàng",
+      "Mắt hơi trũng, heo mệt hơn",
+      "Giảm ăn, chậm tăng trọng"
+    ],
+    "severe": [
+      "Tiêu chảy liên tục, phân toàn nước",
+      "Mất nước nặng, da nhăn, mắt trũng sâu",
+      "Heo nằm nhiều, phản xạ chậm",
+      "Dễ chết nếu ghép E.coli hoặc bệnh khác"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [
+      "Amoxicillin",
+      "Neomycin"
+    ],
+    "note_drugs": "Không có thuốc đặc hiệu cho Rotavirus. Điều trị chủ yếu là bù nước, điện giải và dùng kháng sinh để kiểm soát nhiễm khuẩn kế phát.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Tập trung bù nước và điện giải đều trong ngày",
+      "Giữ chuồng ấm, tránh gió lùa trực tiếp vào heo con",
+      "Không để heo con nằm trên nền ướt do phân và nước tiêu chảy",
+      "Xem xét tách heo bệnh nặng ra khu riêng để chăm sóc"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo tiêu chảy nhiều nhưng còn đứng dậy ăn hoặc bú được.",
+      "guideline": [
+        "Bù điện giải đều mỗi ngày",
+        "Có thể phối hợp kháng sinh phòng nhiễm khuẩn kế phát",
+        "Theo dõi số lần tiêu chảy và mức độ mất nước"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo mất nước nặng, nằm nhiều, bỏ ăn, có dấu hiệu suy.",
+      "guideline": [
+        "Ưu tiên bù nước và điện giải trước",
+        "Giữ ấm tuyệt đối, lót ổ khô, tăng chăm sóc",
+        "Kết hợp kháng sinh theo hướng dẫn để hạn chế nhiễm khuẩn kế phát"
+      ]
+    },
+    "note": "Trong các ổ dịch tiêu chảy, Rotavirus thường đi cùng E.coli hoặc Coccidia, cần xem xét điều trị phối hợp và cải thiện vệ sinh chuồng."
+  },
+  "prevention": [
+    "Vệ sinh kỹ ô úm giữa hai lứa heo con",
+    "Khử trùng định kỳ nền chuồng và dụng cụ",
+    "Giữ ổ đẻ và khu vực heo con luôn khô, ấm, sạch",
+    "Tăng cường dinh dưỡng và vitamin cho nái mang thai"
+  ],
+  "notes": [
+    "Rotavirus thường gây bệnh ở heo con từ 1-6 tuần tuổi.",
+    "Tỷ lệ chết tăng cao khi có ghép với E.coli hoặc Coronavirus đường ruột."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

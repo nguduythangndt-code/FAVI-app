@@ -1,0 +1,105 @@
+{
+  "id": "ascaridia-galli",
+  "name": "Giun đũa (Ascaridia galli)",
+  "species": "chicken",
+  "group": "parasite",
+  "summary": "Giun đũa sống trong ruột non, cạnh tranh dinh dưỡng với gà, làm gà chậm lớn, gầy và đôi khi tắc ruột nếu nhiễm nặng.",
+  "causes": [
+    "Gà ăn phải trứng giun đũa có ấu trùng từ phân, nền chuồng, thức ăn, nước uống",
+    "Trứng giun tồn tại lâu ngoài môi trường, nhất là nền ẩm và bẩn",
+    "Không tẩy giun định kỳ cho đàn gà"
+  ],
+  "risk_factors": [
+    "Nuôi nền đất hoặc nền trấu bẩn, ít dọn phân",
+    "Mật độ nuôi dày, nhiều lứa tuổi chung một khu",
+    "Không có chương trình tẩy giun định kỳ",
+    "Nhiều côn trùng, giun đất, trung gian cơ học mang trứng giun"
+  ],
+  "clinical_signs_detailed": [
+    "Gà chậm lớn, ăn nhiều nhưng tăng trọng kém",
+    "Lông xơ, xấu, da nhăn, ngực nhọn",
+    "Tiêu hóa kém, phân không ổn định, lúc táo lúc lỏng",
+    "Ở mức nặng có thể thấy giun trong phân hoặc khi mổ gà",
+    "Gà còi, thể trạng kém, dễ mắc thêm bệnh khác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Khó nhận ra, chỉ hơi chậm lớn hơn so với đàn khỏe",
+      "Lông kém bóng, thể trạng không thật sự tốt"
+    ],
+    "moderate": [
+      "Chậm lớn rõ, gầy, xương to thịt ít",
+      "Phân thất thường, đôi khi có nhớt",
+      "Một số con bụng hơi to, kém linh hoạt"
+    ],
+    "severe": [
+      "Gà rất gầy, còi, chậm chạp",
+      "Đôi khi thấy giun theo phân ra ngoài",
+      "Nếu tắc ruột có thể chết đột ngột, bụng trướng"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "albendazole",
+      "fenbendazole"
+    ],
+    "alternative_drugs": [
+      "levamisole",
+      "ivermectin_internal"
+    ],
+    "note_drugs": "Chọn một thuốc tẩy giun phù hợp và dùng đúng liệu trình. Thường điều trị lặp lại sau một khoảng thời gian theo tư vấn thú y để cắt vòng đời giun.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải hỗ trợ cho những đàn gầy yếu nhiều",
+        "alternative": "điện giải kèm vitamin C trong vài ngày đầu sau tẩy giun"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp giúp đàn hồi sức sau khi tẩy giun",
+        "alternative": "vitamin nhóm B kích thích ăn trở lại"
+      },
+      "digestive_support": {
+        "main": "men vi sinh giúp ổn định tiêu hóa sau khi giun bị tống ra",
+        "alternative": "thức ăn dễ tiêu trong vài ngày đầu sau điều trị"
+      }
+    },
+    "supportive_care": [
+      "Dọn phân, thay chất độn chuồng để giảm trứng giun ngoài môi trường",
+      "Giảm mật độ, hạn chế để gà bới ăn trực tiếp trên nền bẩn",
+      "Bố trí máng ăn uống sạch, hạn chế thức ăn rơi vãi lâu",
+      "Theo dõi phân sau khi tẩy giun để đánh giá hiệu quả",
+      "Lên kế hoạch tẩy giun định kỳ cho các lứa sau"
+    ],
+    "dose_policy": "Tuân thủ đúng liều tẩy giun ghi trên nhãn hoặc theo thú y. Không tự ý tăng liều mạnh vì có thể gây độc cho gà."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt lớn, nhiều con còi, giun ra theo phân sau khi tẩy.",
+      "guideline": "Tẩy giun toàn đàn theo phác đồ thống nhất. Sau tẩy, dọn phân và thay chất độn kịp thời để tránh gà ăn lại trứng giun. Tăng cường dinh dưỡng, vitamin và men vi sinh để đàn bắt kịp tăng trưởng."
+    },
+    "case_type_2": {
+      "description": "Đàn giống hoặc gà cảnh giá trị cao, giun nhiều, gà suy.",
+      "guideline": "Tẩy giun theo từng nhóm nhỏ, theo dõi phản ứng từng ngày. Bổ sung vitamin, điện giải, men tiêu hóa. Điều chỉnh khẩu phần hợp lý, tránh để gà quá đói hoặc quá béo, lập kế hoạch tẩy giun định kỳ lâu dài."
+    },
+    "note": "Giun đũa dễ tái nhiễm nếu môi trường bẩn. Điều trị chỉ là bước đầu, quản lý phân và nền chuồng mới là phần quyết định."
+  },
+  "prevention": [
+    "Tẩy giun định kỳ theo lịch cho đàn gà",
+    "Giữ nền chuồng khô, sạch, dọn phân thường xuyên",
+    "Không nuôi quá dày, không để gà đào bới trực tiếp trong lớp phân dày",
+    "Hạn chế côn trùng, giun đất và động vật trung gian ra vào khu nuôi",
+    "Sát trùng chuồng trại giữa các lứa nuôi"
+  ],
+  "notes": [
+    "Giun đũa là một trong những loại giun phổ biến nhất ở gà nuôi nền.",
+    "Lịch tẩy giun hợp lý giúp giảm nhiều bệnh kế tiếp liên quan đến dinh dưỡng kém."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

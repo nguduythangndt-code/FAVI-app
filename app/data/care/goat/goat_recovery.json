@@ -3,8 +3,8 @@
   "name": "Dê sau bệnh",
   "species": "goat",
   "group": "recovery",
-  "overview": "Cẩm nang chăm sóc dê sau khi qua giai đoạn bệnh cấp. Mục tiêu: ổn định lại dạ cỏ, phục hồi thể trạng, giảm di chứng của bệnh và thuốc, ngăn tái phát và đưa dê trở lại nhóm sản xuất (vỗ béo, sinh sản) một cách an toàn.",
-  "sections": [
+  "overview": " Giai đoạn hồi phục sau bệnh là thời điểm dễ bị đánh giá sai nhất: nhìn bề ngoài dê đã đứng dậy, ăn lại nhưng bên trong cơ thể vẫn còn yếu, miễn dịch chưa phục hồi hoàn toàn.\n\n Rất nhiều ca tái phát nặng không đến từ mầm bệnh mới, mà do phục hồi nửa vời, ép ăn - ép lớn quá sớm hoặc nhập đàn khi cơ thể chưa sẵn sàng.\n\nRủi ro lớn nhất ở giai đoạn này là 'tưởng đã khỏi rồi'. Người nuôi thường nôn nóng quay lại khẩu phần và nhịp chăm sóc cũ, trong khi hệ tiêu hóa, hô hấp và chuyển hóa của dê vẫn đang trong trạng thái mong manh.\n\n Sai lầm hay gặp là thay đổi thức ăn đột ngột, thả vận động mạnh, hoặc bỏ theo dõi các biểu hiện nhỏ như ăn chậm, thở nặng, phân chưa ổn định.\n\nTư duy đúng trong giai đoạn hồi phục là coi đây là một giai đoạn nuôi riêng, không phải phần kéo dài của lúc bệnh cũng không phải bước quay lại nuôi bình thường. Hồi phục cần được làm chậm, có kiểm soát và ưu tiên ổn định toàn thân.\n\n Nội dung bên dưới giúp người nuôi nhận diện các nguy cơ còn tồn tại theo từng chặng hồi phục để biết lúc nào cần tiếp tục theo dõi và khi nào nên tra cứu lại mục Bệnh nếu xuất hiện dấu hiệu lệch chuẩn.",
+   "sections": [
     {
       "id": "post_acute_assessment",
       "title": "Đánh giá lại dê ngay sau giai đoạn bệnh cấp",
@@ -115,7 +115,21 @@
         "[Cập nhật hồ sơ] Ghi lại thời điểm đưa dê trở lại đàn, kèm theo thông tin bệnh đã mắc và quá trình hồi phục để quản lý về sau (chọn lọc, loại thải…).",
         "[Xem xét hướng sử dụng] Những con hồi phục kém, tái bệnh nhiều lần có thể cần cân nhắc hướng sử dụng khác hoặc loại thải, thay vì giữ lại đàn sinh sản lâu dài."
       ]
-    }
+    },
+      {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn hồi phục",
+  "goal": "Nhận diện các nguy cơ bệnh còn tồn tại hoặc dễ tái phát trong quá trình hồi phục để tránh phát bệnh trở lại và giúp dê phục hồi bền vững.",
+  "content": "Sau khi qua giai đoạn bệnh cấp, cơ thể dê cần thời gian để phục hồi hoàn toàn. Trong mỗi chặng hồi phục, những nhóm vấn đề khác nhau có thể xuất hiện nếu việc chăm sóc và theo dõi không phù hợp. Nhận diện đúng nguy cơ theo từng chặng giúp người nuôi theo dõi trọng điểm và tra cứu đúng hướng trong mục Bệnh hoặc Quicksearch khi cần.",
+  "bullets": [
+    "[Vừa qua cơn bệnh] Suy nhược, mất nước kéo dài, rối loạn tiêu hóa hoặc hô hấp còn âm ỉ.",
+    "[Ăn lại nhưng yếu] Tiêu chảy tái diễn, chướng hơi nhẹ, dê ăn nhưng chậm hồi sức.",
+    "[Phục hồi chưa ổn định] Bệnh cũ tái phát, viêm phổi hoặc tiêu hóa quay lại khi thay đổi thức ăn sớm.",
+    "[Chuẩn bị nhập đàn] Stress tái phát, bùng bệnh do chênh lệch môi trường hoặc tiếp xúc đàn.",
+    "[Hồi phục kéo dài] Suy kiệt, chậm lớn, sức đề kháng yếu dễ mắc bệnh thứ phát."
+  ]
+}
+
   ],
   "notes": [
     "Dê sau bệnh cần được coi là giai đoạn riêng, không thể áp dụng ngay chế độ nuôi bình thường như trước khi bệnh.",

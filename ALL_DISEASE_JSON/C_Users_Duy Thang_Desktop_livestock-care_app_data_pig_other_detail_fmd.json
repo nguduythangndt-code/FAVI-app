@@ -1,0 +1,45 @@
+{
+  "name": "Lở mồm long móng (FMD)",
+  "summary": "Bệnh virus gây mụn nước ở miệng - chân, sốt, bỏ ăn; lây rất nhanh.",
+  "causes": [
+    "Virus FMDV lây qua tiếp xúc, gió, dụng cụ, người",
+    "Bùng phát mạnh khi đàn chưa miễn dịch"
+  ],
+  "risk_factors": ["Chưa tiêm phòng FMD", "Mật độ cao", "Thời tiết ẩm lạnh"],
+  "clinical_signs_detailed": [
+    "Sốt, bỏ ăn",
+    "Chảy nước dãi, lở loét miệng",
+    "Mụn nước ở kẽ móng, đi cà nhắc",
+    "Nằm nhiều, đau chân",
+    "Heo con có thể chết nhanh do viêm cơ tim"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Sốt nhẹ", "Ăn giảm, chảy dãi"],
+    "moderate": ["Loét miệng rõ", "Đi khập khiễng"],
+    "severe": ["Nhiễm trùng vết loét", "Heo con chết nhanh"]
+  },
+  "treatment": {
+    "primary_drugs": ["Povidone-iodine","Oxytetracycline"],
+    "alternative_drugs": ["Meloxicam", "Vitamin C", "B-complex"],
+    "note_drugs": "Không có thuốc diệt FMDV. Povidone-iodine sát trùng vết loét; kháng sinh chỉ để chống bội nhiễm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {"main": "Meloxicam", "alternative": []},
+      "electrolyte": {"main": "ORS", "alternative": []},
+      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+    },
+    "supportive_care": [
+      "Cho ăn mềm dễ nuốt",
+      "Giữ nền khô, tránh trơn",
+      "Cách ly, sát trùng chuồng hằng ngày"
+    ],
+    "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {"description": "Loét miệng nặng", "guideline": ["Sát trùng miệng hằng ngày", "Trợ sức mạnh"]},
+    "case_type_2": {"description": "Heo con yếu nhanh", "guideline": ["Giữ ấm", "Bù điện giải", "Báo thú y"]},
+    "note": "Cần báo thú y khi nghi FMD."
+  },
+  "prevention_list": ["Tiêm phòng FMD", "Cách ly đàn bệnh", "Vệ sinh sát trùng định kỳ"],
+  "notes": ["Không vận chuyển bán chạy khi đang dịch."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Xử lý dịch bắt buộc theo hướng dẫn thú y."
+}

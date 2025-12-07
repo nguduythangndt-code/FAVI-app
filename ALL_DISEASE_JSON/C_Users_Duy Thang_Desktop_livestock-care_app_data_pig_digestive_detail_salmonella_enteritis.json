@@ -1,0 +1,113 @@
+{
+  "id": "salmonella_enteritis",
+  "name": "Viêm ruột dạ dày do Salmonella",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Salmonella gây tiêu chảy kéo dài, phân thối, có thể kèm sốt và suy nhược. Một số chủng có thể gây nhiễm trùng huyết, làm heo chết nhanh.",
+  "causes": [
+    "Vi khuẩn Salmonella spp.",
+    "Lây qua thức ăn, nước uống và phân nhiễm khuẩn",
+    "Có thể tồn tại lâu trong môi trường chuồng trại bẩn"
+  ],
+  "risk_factors": [
+    "Chuồng ẩm bẩn, ít khử trùng",
+    "Nguồn nước uống không sạch",
+    "Thức ăn tồn đọng, bị nhiễm phân hoặc chuột bọ",
+    "Heo stress, thay đổi thời tiết, vận chuyển xa"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy kéo dài, phân thối, đôi khi có nhầy hoặc máu",
+    "Heo sốt, mệt, giảm ăn rõ",
+    "Một số con thở nhanh do nhiễm trùng nặng",
+    "Gầy nhanh nếu bệnh kéo dài",
+    "Có trường hợp chết đột ngột do nhiễm trùng huyết"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Tiêu chảy nhẹ, phân mềm hơn bình thường",
+      "Giảm ăn nhẹ",
+      "Mệt vừa, vẫn đi lại"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, phân hôi, có nhầy",
+      "Sốt, mệt, giảm ăn nhiều",
+      "Gầy dần theo thời gian"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, phân rất thối, có thể lẫn máu",
+      "Heo đứng không vững hoặc nằm nhiều",
+      "Thở nhanh, suy nhược rõ",
+      "Nguy cơ nhiễm trùng huyết và tử vong"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Enrofloxacin",
+      "Florfenicol"
+    ],
+    "alternative_drugs": [
+      "Amoxicillin",
+      "Sulfa-trimethoprim"
+    ],
+    "note_drugs": "Enrofloxacin hoặc Florfenicol thường được ưu tiên cho các ca Salmonella nặng. Amoxicillin hoặc Sulfa-trimethoprim có thể dùng cho trường hợp nhẹ hơn hoặc theo tư vấn thú y.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Bù nước và điện giải đều cho heo tiêu chảy",
+      "Giữ chuồng sạch, khô, loại phân bẩn sớm",
+      "Tách heo bệnh nặng ra khu riêng để theo dõi",
+      "Đảm bảo thức ăn, nước uống không bị nhiễm bẩn thêm"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo tiêu chảy nặng nhưng còn đứng được, đáp ứng tốt khi chăm sóc.",
+      "guideline": [
+        "Dùng Enrofloxacin hoặc Florfenicol theo khuyến cáo",
+        "Bổ sung điện giải, vitamin hằng ngày",
+        "Theo dõi thân nhiệt và sắc thái phân"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo rất suy, nằm nhiều, thở nhanh, có nguy cơ nhiễm trùng huyết.",
+      "guideline": [
+        "Tập trung điều trị tích cực bằng kháng sinh mạnh",
+        "Giữ ấm, hạn chế vận động, tránh dồn đuổi",
+        "Theo dõi sát phản ứng điều trị trong 1-2 ngày đầu"
+      ]
+    },
+    "note": "Salmonella có thể lây sang người, cần chú ý vệ sinh cá nhân khi chăm sóc heo bệnh."
+  },
+  "prevention": [
+    "Giữ nước uống sạch, không dùng nước ao tù bẩn",
+    "Kiểm soát chuột bọ và côn trùng quanh kho thức ăn",
+    "Vệ sinh máng ăn uống hằng ngày",
+    "Khử trùng chuồng và khu vực chăn nuôi định kỳ"
+  ],
+  "notes": [
+    "Salmonella có thể tồn tại lâu trong môi trường ẩm bẩn.",
+    "Các đợt tiêu chảy kéo dài, sốt và gầy nhanh trong đàn cần nghĩ đến Salmonella."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

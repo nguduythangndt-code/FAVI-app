@@ -3,7 +3,7 @@
   "name": "Gà con (1 ngày - 4 tuần)",
   "species": "chicken",
   "group": "chick",
-  "overview": "Cẩm nang chăm sóc gà con từ lúc mới nở/nhập về (1 ngày tuổi) đến khoảng 4 tuần tuổi. Mục tiêu: gà con khô lông nhanh, rốn lành, không mất nước, không tiêu chảy hàng loạt, phát triển khung xương và hệ miễn dịch nền tốt. Toàn bộ bước chăm sóc xoay quanh: nhiệt độ - ẩm độ chuẩn, nước uống - cám starter đúng cách, quản lý mật độ và phát hiện sớm gà con yếu.",
+  "overview": "Giai đoạn gà con quyết định nền thể trạng cho toàn bộ chu kỳ nuôi phía sau. Sai lệch ở giai đoạn này thường không gây chết hàng loạt ngay, nhưng để lại hậu quả kéo dài như gà còi, lớn không đều và dễ bùng bệnh về sau.\n\nPhần lớn rủi ro đến từ việc úm không ổn định: nhiệt độ, độ ẩm, không khí và nhịp sinh hoạt thay đổi liên tục. Khi gà con bị stress sớm, hệ miễn dịch chưa hoàn chỉnh sẽ suy yếu, khiến gà rất nhạy cảm với các tác nhân hô hấp và tiêu hóa.\n\nMục tiêu của giai đoạn gà con không phải là thúc ăn sớm, mà là giúp gà thích nghi êm, ăn đều, khỏe đồng loạt và giảm tối đa stress. Nếu giai đoạn này được xử lý đúng, các giai đoạn nuôi sau sẽ nhẹ rủi ro hơn nhiều.",
   "sections": [
     {
       "id": "first_24h",
@@ -109,7 +109,19 @@
         "[Hành vi uống nước bất thường] Gà chỉ tụ quanh máng uống, uống nhiều nhưng ít ăn có thể là do nhiệt cao, cám có vấn đề hoặc bệnh đang khởi phát.",
         "[Khi nào nên gọi thú y] Khi đã điều chỉnh nhiệt, nước, cám mà đàn vẫn xấu đi, hoặc có nhiều con bệnh với triệu chứng nặng (thở há mỏ, tiêu chảy máu, chết nhanh), cần mời thú y đến kiểm tra trực tiếp."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Định hướng theo dõi sớm các nhóm bệnh hay gặp ở gà con để phát hiện và xử lý kịp thời.",
+  "content": "Ở gà con, bệnh thường là hệ quả trực tiếp của điều kiện úm và stress môi trường.",
+  "bullets": [
+    "[Những ngày đầu] Cảm lạnh, viêm rốn, suy yếu do úm không ổn định.",
+    "[Cuối tuần đầu] Tiêu chảy sớm, rối loạn tiêu hóa.",
+    "[Trước chuyển giai đoạn] Viêm đường hô hấp, gà còi cọc, chậm lớn."
+  ]
+}
+
   ],
   "notes": [
     "Chăm sóc gà con chuẩn từ đầu sẽ quyết định thành công cho cả lứa nuôi, cả gà thịt lẫn gà đẻ sau này.",

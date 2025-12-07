@@ -3,7 +3,7 @@
   "name": "Dê hậu bị",
   "species": "goat",
   "group": "replacement",
-  "overview": "Cẩm nang chăm sóc dê hậu bị từ sau cai sữa đến trước khi phối giống. Mục tiêu: dê lớn khung tốt, chân móng chắc, không béo mỡ quá sớm, không còi, không mang bệnh nền nặng, đến tuổi phối giống với thể trạng và sức khỏe tối ưu.",
+  "overview": "Dê hậu bị là khoản đầu tư dài hạn của trại, nhưng cũng là nhóm dễ bị nuôi lệch hướng nhất.\n\n Nhìn bề ngoài dê vẫn lớn, vẫn ăn, nhưng nếu tăng trưởng sai nhịp hoặc can thiệp quá sớm, hậu quả thường xuất hiện muộn: phối khó đậu, đẻ kém, sức sinh sản yếu hoặc tuổi thọ khai thác ngắn.\n\nRủi ro lớn nhất trong giai đoạn này không nằm ở bệnh cấp tính, mà ở tăng trưởng mất cân đối và tích lũy sai.\n\n Nhiều người nuôi nóng ruột, ép tăng trọng sớm hoặc nuôi theo kiểu vỗ béo, khiến dê phát triển khung xương và cơ quan sinh sản không đồng đều.\n\n Sai lầm thường gặp là coi dê hậu bị như dê thịt nhỏ, trong khi mục tiêu thực sự là tạo nền thể trạng bền cho sinh sản lâu dài.\n\nTư duy đúng khi chăm sóc dê hậu bị là ưu tiên phát triển ổn định, đúng nhịp sinh lý, không chạy theo cân nặng trước mắt. Mỗi giai đoạn tuổi đều có nguy cơ riêng cần nhận diện sớm để tránh làm sai từ đầu.\n\n Nội dung phía dưới giúp người nuôi xác định các vấn đề thường phát sinh theo từng chặng phát triển và biết khi nào cần cảnh giác để chuyển sang tra cứu bệnh nếu xuất hiện dấu hiệu lệch chuẩn.",
   "sections": [
     {
       "id": "selection_from_kids",
@@ -102,7 +102,21 @@
         "[Thay đổi khẩu phần đột ngột] Đột ngột thay đổi loại cỏ, loại tinh, thêm phụ phẩm nhiều làm rối loạn dạ cỏ, tiêu chảy, chững lớn.",
         "[Không kiểm tra chân móng] Để móng dài, viêm kẽ kéo dài mà không xử lý khiến dê hậu bị mang nhược điểm chân móng suốt đời."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện sớm các vấn đề sức khỏe hay gặp ở dê hậu bị theo từng giai đoạn phát triển để nuôi đúng nhịp, tránh ảnh hưởng đến khả năng sinh sản về sau.",
+  "content": "Trong quá trình nuôi dê hậu bị, nguy cơ bệnh và rối loạn thay đổi theo tốc độ tăng trưởng và môi trường nuôi. Nhiều vấn đề không bùng phát ngay mà tích lũy dần nếu chăm sóc sai. Việc nhận diện đúng nguy cơ theo từng giai đoạn giúp người nuôi theo dõi trọng điểm và tra cứu chính xác trong mục Bệnh hoặc Quicksearch khi cần.",
+  "bullets": [
+    "[Giai đoạn hậu cai sữa] Tiêu chảy kéo dài, ký sinh trùng đường ruột, chậm lớn.",
+    "[Giai đoạn tăng trưởng khung xương] Rối loạn tiêu hóa, suy nhược, thiếu cân đối thể trạng.",
+    "[Giai đoạn phát dục sớm] Động dục không rõ, rối loạn sinh lý do nuôi ép hoặc tăng trọng quá nhanh.",
+    "[Giai đoạn gần phối giống] Thể trạng không đạt chuẩn, suy nhược, dễ rối loạn sinh sản.",
+    "[Nuôi sai nhịp kéo dài] Giảm khả năng sinh sản, phối khó đậu, sức đề kháng kém."
+  ]
+}
+
   ],
   "notes": [
     "Dê hậu bị là cầu nối giữa giai đoạn dê con và dê mẹ sinh sản. Chăm sóc đúng giai đoạn này sẽ giảm nhiều rủi ro đẻ khó, nuôi con kém và bệnh mạn tính ở dê mẹ sau này.",

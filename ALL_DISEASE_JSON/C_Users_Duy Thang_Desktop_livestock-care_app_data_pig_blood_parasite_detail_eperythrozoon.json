@@ -1,0 +1,112 @@
+{
+  "id": "eperythrozoon",
+  "name": "Nhiễm Mycoplasma suis (Eperythrozoon)",
+  "species": "pig",
+  "group": "blood_parasite",
+  "summary": "Mycoplasma suis bám ngoài hồng cầu, gây thiếu máu kéo dài, heo con lớn chậm, lông xỉu và có lúc sốt cao, lúc lại bình thường.",
+  "causes": [
+    "Vi khuẩn Mycoplasma suis (trước đây gọi là Eperythrozoon)",
+    "Lây qua côn trùng hút máu hoặc tiếp xúc máu giữa các con"
+  ],
+  "risk_factors": [
+    "Heo con 3-12 tuần tuổi",
+    "Chuồng ẩm, nhiều muỗi, ruồi",
+    "Suy giảm miễn dịch",
+    "Stress kéo dài, dinh dưỡng yếu"
+  ],
+  "clinical_signs_detailed": [
+    "Heo con lớn chậm, lông xù, da nhăn",
+    "Niêm mạc nhợt, đôi lúc vàng nhẹ",
+    "Sốt thất thường: lúc cao, lúc gần bình thường",
+    "Mệt kéo dài, ít vận động",
+    "Ăn kém, bụng tóp lại",
+    "Có thể tiêu chảy nhẹ trong vài ngày"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Lông xỉu, kém sung",
+      "Ăn giảm nhẹ",
+      "Niêm mạc hơi nhợt"
+    ],
+    "moderate": [
+      "Sốt từng cơn",
+      "Gầy, lớn chậm",
+      "Mệt nhiều hơn, ít chạy nhảy"
+    ],
+    "severe": [
+      "Thiếu máu rõ",
+      "Lông dựng, da sạm",
+      "Heo nằm nhiều, kém phản xạ",
+      "Dễ nhiễm khuẩn kế phát"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Oxytetracycline LA",
+      "Doxycycline"
+    ],
+    "alternative_drugs": [
+      "Tylosin"
+    ],
+    "note_drugs": "Oxytetracycline LA hoặc Doxycycline là thuốc chính. Tylosin chỉ dùng hỗ trợ khi có nhiễm khuẩn kế phát.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng ấm và khô",
+      "Bổ sung nước sạch liên tục",
+      "Không dồn đuổi heo con yếu",
+      "Cho ăn thức ăn mềm, dễ tiêu"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo con sốt thất thường, gầy rõ nhưng vẫn còn đi lại.",
+      "guideline": [
+        "Dùng thuốc điều trị chính ngay",
+        "Bổ sung điện giải 1-2 lần/ngày",
+        "Theo dõi cân nặng mỗi 2-3 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo suy nhiều, nằm nhiều, thiếu máu nặng.",
+      "guideline": [
+        "Giữ ấm hoàn toàn",
+        "Điện giải và vitamin hỗ trợ liên tục",
+        "Hạn chế vận động tối đa"
+      ]
+    },
+    "note": "Heo con hồi phục chậm, cần chăm sóc đều và tránh stress trong suốt quá trình điều trị."
+  },
+  "prevention": [
+    "Kiểm soát muỗi, ruồi và côn trùng hút máu",
+    "Giữ chuồng khô thoáng",
+    "Tăng cường vitamin định kỳ cho heo con",
+    "Không dùng chung kim tiêm giữa các con"
+  ],
+  "notes": [
+    "Bệnh thường dai dẳng, dễ tái phát nếu heo bị stress.",
+    "Heo điều trị khỏi vẫn có thể chậm lớn thêm vài tuần."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

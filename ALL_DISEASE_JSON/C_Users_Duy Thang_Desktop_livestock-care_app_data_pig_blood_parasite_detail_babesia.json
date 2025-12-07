@@ -1,0 +1,113 @@
+{
+  "id": "babesia",
+  "name": "Nhiễm ký sinh trùng máu Babesia",
+  "species": "pig",
+  "group": "blood_parasite",
+  "summary": "Babesia gây phá huỷ hồng cầu rất nhanh, làm heo sốt cao, vàng niêm mạc và có thể chết đột ngột nếu không xử lý kịp.",
+  "causes": [
+    "Ký sinh trùng Babesia spp.",
+    "Truyền qua ve hút máu, đặc biệt ve sống trong môi trường ẩm."
+  ],
+  "risk_factors": [
+    "Chuồng nuôi ẩm và nhiều ve",
+    "Heo mới cai sữa, heo yếu",
+    "Stress do thời tiết hoặc vận chuyển",
+    "Mật độ nuôi cao"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao, bỏ ăn đột ngột",
+    "Niêm mạc nhợt hoặc vàng nhạt",
+    "Tai và bụng tích máu, đỏ bầm",
+    "Thở nhanh, mệt nhiều",
+    "Nước tiểu sậm màu",
+    "Gầy nhanh trong 1-2 ngày",
+    "Một số con chết đột ngột"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn kém nhẹ",
+      "Niêm mạc hơi nhạt",
+      "Mệt ít"
+    ],
+    "moderate": [
+      "Sốt cao",
+      "Niêm mạc vàng nhạt rõ",
+      "Thở nhanh",
+      "Gầy sút nhanh"
+    ],
+    "severe": [
+      "Đứng không vững",
+      "Khó thở nặng",
+      "Nước tiểu rất sậm",
+      "Nguy cơ tử vong cao"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Imidocarb",
+      "Buparvaquone"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline LA"
+    ],
+    "note_drugs": "Chỉ chọn 1 thuốc điều trị chính. Heo yếu thì ưu tiên thuốc tác dụng nhanh và không đổi thuốc giữa chừng.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng ấm và khô",
+      "Cho uống đủ nước",
+      "Cách ly heo bệnh để giảm stress"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo nằm lâu, thở nhanh, niêm mạc vàng đậm.",
+      "guideline": [
+        "Dùng thuốc điều trị chính càng sớm càng tốt",
+        "Bổ sung điện giải liên tục trong ngày",
+        "Theo dõi nhịp thở mỗi 2-3 giờ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo yếu nhiều, phản xạ kém, nguy cơ tử vong.",
+      "guideline": [
+        "Hỗ trợ hô hấp ngay",
+        "Giữ ấm hoàn toàn",
+        "Giảm tối đa vận động để tránh sốc"
+      ]
+    },
+    "note": "Heo con và heo nái mang thai diễn biến nặng nhanh, cần xử lý sớm."
+  },
+  "prevention": [
+    "Diệt ve định kỳ",
+    "Giảm ẩm nền chuồng",
+    "Bổ sung vitamin định kỳ để tăng sức đề kháng",
+    "Kiểm soát ve trên heo mới nhập"
+  ],
+  "notes": [
+    "Bệnh có thể xuất hiện rải rác hoặc thành từng cụm.",
+    "Heo sau khi khỏi bệnh vẫn yếu 5-7 ngày do mất máu."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

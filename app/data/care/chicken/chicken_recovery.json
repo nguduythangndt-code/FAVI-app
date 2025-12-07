@@ -3,7 +3,7 @@
   "name": "Gà sau bệnh (hồi phục)",
   "species": "chicken",
   "group": "recovery",
-  "overview": "Cẩm nang xử lý đàn gà ngay sau giai đoạn bệnh cấp tính (sốt, ho, tiêu chảy, bỏ ăn, xù lông). Mục tiêu: kéo đàn về quỹ đạo tăng trưởng bình thường, sửa lại xương - phổi - ruột bị tổn thương do bệnh/stress, giảm tối đa hao hụt thứ phát, hồi màu mào đẹp dần và ăn uống khỏe lại. Trọng tâm: môi trường tối ưu, nước - cám đúng nhịp, bổ trợ đúng loại và siết chặt theo dõi từng ô chuồng.",
+  "overview": "Giai đoạn hồi phục là thời điểm cơ thể gà cần thời gian để tái cân bằng sau bệnh, stress hoặc suy kiệt. Sai lầm phổ biến là can thiệp quá sớm hoặc ép trở lại nhịp nuôi cũ khi gà chưa hồi phục hoàn toàn.\n\nViệc nóng vội ở giai đoạn này dễ khiến bệnh tái phát, kéo dài thời gian nuôi và làm tăng hao hụt.\n\nMục tiêu của hồi phục là giúp gà lấy lại thể trạng ổn định, ăn uống bình thường và phục hồi sức đề kháng trước khi bước vào giai đoạn nuôi tiếp theo.",
   "sections": [
     {
       "id": "post_sick_isolation",
@@ -92,7 +92,19 @@
         "[Phân] Nếu 30% đàn phân nhão hoặc mùi chua quay lại, hạ lượng tinh và tăng xơ.",
         "[Hô hấp] Nếu nghe tiếng rít, tụ dày một góc, kiểm tra rèm + quạt + amoniac."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Theo dõi các vấn đề thường gặp trong quá trình hồi phục để tránh tái phát.",
+  "content": "Ở giai đoạn hồi phục, bệnh thường quay lại dưới dạng nhẹ nhưng kéo dài.",
+  "bullets": [
+    "[Đầu hồi phục] Suy nhược, giảm ăn, chậm hồi thể lực.",
+    "[Giữa hồi phục] Tái phát bệnh cũ, rối loạn tiêu hóa.",
+    "[Cuối hồi phục] Stress nếu chuyển giai đoạn quá sớm."
+  ]
+}
+
   ],
   "notes": [
     "Hồi bệnh là giữ ổn định trước, rồi tăng dần khẩu phần, không làm ồ ạt 1 lần.",

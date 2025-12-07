@@ -1,0 +1,124 @@
+{
+  "id": "metritis",
+  "name": "Viêm tử cung sau đẻ",
+  "species": "cattle",
+  "group": "reproductive",
+
+  "summary": "Viêm tử cung sau đẻ thường xảy ra khi sót nhau, đẻ khó hoặc nhiễm bẩn lúc đỡ đẻ. Bò sốt nhẹ, ăn kém, sản dịch hôi và giảm sữa rõ.",
+
+  "causes": [
+    "Sót nhau hoặc can thiệp đỡ đẻ không sạch",
+    "Đẻ khó, bê to, xoay thai nhiều",
+    "Tử cung nhiễm khuẩn sau đẻ",
+    "Chuồng trại bẩn, nền ướt"
+  ],
+
+  "risk_factors": [
+    "Ở chuồng ẩm và bẩn",
+    "Dụng cụ đỡ đẻ không sát trùng",
+    "Bò thể trạng yếu trước đẻ",
+    "Sót nhau kéo dài"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sản dịch hôi, màu nâu hoặc đục",
+    "Ăn kém, giảm sữa mạnh",
+    "Sốt nhẹ hoặc sốt dao động",
+    "Tử cung mềm, ấn đau",
+    "Bò mệt, đứng tách đàn"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn kém nhẹ",
+      "Sản dịch hơi hôi"
+    ],
+    "moderate": [
+      "Sản dịch rất hôi",
+      "Giảm sữa rõ",
+      "Mệt, đi lại chậm"
+    ],
+    "severe": [
+      "Sốt, mệt nặng",
+      "Tử cung viêm sâu",
+      "Tiên lượng xấu nếu kéo dài"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "ceftiofur"
+    ],
+    "note_drugs": "Kháng sinh đường toàn thân là chính. Không thụt rửa tử cung nếu không có thú y vì dễ gây tổn thương thêm.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Chuồng sạch, khô, tránh gió lùa",
+      "Bổ sung điện giải và vitamin",
+      "Theo dõi sản dịch hằng ngày",
+      "Không vắt kiệt, không ép bò làm việc"
+    ],
+
+    "dose_policy": "Dùng theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò còn đứng nhưng sản dịch hôi và giảm sữa rõ.",
+      "guideline": [
+        "Dùng kháng sinh ngay",
+        "Hỗ trợ vitamin và điện giải",
+        "Theo dõi thân nhiệt trong 48 giờ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò mệt nặng, sốt và ăn rất kém.",
+      "guideline": [
+        "Thú y kiểm tra trực tiếp nếu có điều kiện",
+        "Bù dịch và giảm viêm",
+        "Tiên lượng thận trọng nếu kéo dài"
+      ]
+    },
+    "note": "Metritis thường cải thiện sau vài ngày nếu điều trị sớm."
+  },
+
+  "prevention": [
+    "Dụng cụ đỡ đẻ sạch",
+    "Chuồng đẻ khô và yên tĩnh",
+    "Theo dõi sát sau đẻ",
+    "Hạn chế can thiệp sâu không cần thiết"
+  ],
+
+  "notes": [
+    "Sản dịch hôi là dấu hiệu đặc trưng.",
+    "Thể trạng trước đẻ ảnh hưởng lớn đến nguy cơ.",
+    "Ghi lại lịch đẻ giúp phát hiện sớm bất thường."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

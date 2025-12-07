@@ -1,10 +1,76 @@
 {
   "id": "goat_housing",
-  "name": "Chuồng trại dê",
+  "name": "Thức ăn & Chuồng trại",
   "species": "goat",
   "group": "housing",
-  "overview": "Cẩm nang thiết kế, xây dựng và vận hành chuồng trại chuyên cho dê. Mục tiêu: chuồng luôn sạch - khô - thoáng - ấm đêm - mát ngày; dễ chia ô, dễ dọn vệ sinh, dễ cách ly khi có dê bệnh. Chuồng tốt giảm rất nhiều bệnh hô hấp, tiêu hóa, ký sinh trùng và tai nạn trượt ngã.",
+  "overview": "Thức ăn và chuồng trại là hai trụ chính giữ đàn dê khỏe mạnh, trong đó thức ăn và sự ổn định của dạ cỏ phải được đặt lên hàng đầu.\n\n Mọi bệnh tật, sụt sức, chậm lớn hay bùng dịch cuối cùng đều quay về hai yếu tố này. Dê có thể chịu đói ngắn ngày, nhưng không chịu được khẩu phần thiếu ổn định, thức ăn bẩn, lên men sai hoặc dạ cỏ liên tục bị xáo trộn.\n\nỞ dê, dạ cỏ giữ vai trò trung tâm trong sức khỏe tổng thể và hệ miễn dịch. Một dạ cỏ ổn định gần như đồng nghĩa với việc cơ thể được bảo vệ; ngược lại, dạ cỏ rối loạn sẽ kéo theo tiêu chảy, chướng hơi, suy nhược và mở cửa cho hàng loạt bệnh khác.\n\n Nhiều ca bệnh tưởng do thời tiết hay mầm bệnh, nhưng gốc rễ lại nằm ở nền chuồng ẩm, gió lùa kéo dài hoặc khẩu phần ăn thay đổi thiếu kiểm soát.\n\nRủi ro lớn nhất nằm ở chỗ người nuôi thường tách rời thức ăn và chuồng trại ra để xử lý, trong khi với dê đây là một thể thống nhất. Chuồng ẩm làm dê stress và giảm ăn; thức ăn thay đổi làm rối loạn dạ cỏ; hai yếu tố này cộng hưởng sẽ bào mòn sức đề kháng từng ngày mà không bộc lộ rõ ngay từ đầu.\n\nSai lầm hay gặp là chỉ tập trung bổ sung thức ăn tinh, thuốc bổ hoặc can thiệp khi dê đã yếu, nhưng lại bỏ qua những yếu tố tưởng như đơn giản: nền chuồng có thật sự khô không, phân có thoát kịp không, nguồn cỏ có ổn định từng ngày không, dê có ăn theo nhịp quen thuộc hay luôn bị xáo trộn. Những sai lệch này không gây bệnh tức thì, nhưng âm thầm làm đàn dê tụt sức và dễ sập khi gặp tác động nhỏ.\n\nTư duy đúng khi quản lý thức ăn và chuồng trại cho dê là đặt mục tiêu ổn định lên hàng đầu. Chuồng phải khô, thoáng, ít stress; thức ăn phải đều, sạch và mọi thay đổi đều cần được kiểm soát.\n\n Khi môi trường sống và dạ cỏ được giữ ổn định, đàn dê có khả năng tự duy trì trạng thái khỏe mạnh và giảm tối đa nhu cầu can thiệp.\n\n Phần nội dung phía dưới giúp người nuôi hiểu rõ vai trò sống còn của thức ăn và chuồng trại như những yếu tố bảo vệ trực tiếp “tính mạng” của con vật, chứ không chỉ là điều kiện nuôi thông thường.",
   "sections": [
+    {
+  "id": "part_1_feeding_header",
+  "title": "PHẦN 1 - THỨC ĂN & ỔN ĐỊNH DẠ CỎ",
+  "goal": "Ở dê, dạ cỏ là bộ phận quyết định sức khỏe tổng thể, khả năng tăng trưởng và sức đề kháng. Mọi quyết định về thức ăn nếu làm sai đều có thể kéo theo rối loạn tiêu hóa, suy nhược và bệnh tật dây chuyền trong đàn.",
+  "content": "Phần này tập trung vào những nguyên tắc nền tảng liên quan đến thức ăn và sự ổn định của dạ cỏ. Người nuôi nên đọc toàn bộ trước khi điều chỉnh khẩu phần, đổi nguồn thức ăn hoặc can thiệp trong các giai đoạn nhạy cảm.",
+  "bullets": []
+},
+
+    {
+  "id": "feeding_intro",
+  "title": "Thức ăn & Dạ cỏ ổn định",
+  "goal": "Đặt thức ăn và dạ cỏ ở đúng vị trí trung tâm trong tư duy chăm sóc dê.",
+  "content": "Ở dê, dạ cỏ là bộ phận quyết định sức khỏe tổng thể. Thức ăn cho vào không chỉ là chuyện no đói, mà là tác động trực tiếp lên hệ vi sinh dạ cỏ. Mọi thay đổi khẩu phần đều có giá phải trả, dù là đổi sang thức ăn 'tốt hơn'. Hiểu đúng vai trò này giúp người nuôi cẩn trọng hơn với từng lần đổi thức ăn.",
+  "bullets": [
+    "Dê khỏe là dê nhai lại đều, phân ổn định, ăn theo nhịp quen thuộc mỗi ngày.",
+    "Dê yếu dần thường bắt đầu bằng những thay đổi rất nhỏ: ăn chậm lại, nhai lại ít, phân đổi dạng.",
+    "Một quyết định thay thức ăn vội vàng có thể làm hỏng cả mẻ nuôi, dù chuồng trại vẫn sạch và không có bệnh rõ ràng.",
+    "Khi đã xem thức ăn và dạ cỏ là trung tâm, mọi thay đổi khẩu phần đều phải được coi là bước 'thử nhạy cảm' và theo dõi sát."
+  ]
+},
+{
+  "id": "feeding_stability",
+  "title": "Nguyên tắc ổn định thức ăn",
+  "goal": "Tránh làm sập dạ cỏ chỉ vì đổi thức ăn hoặc tăng khẩu phần quá nhanh.",
+  "content": "Ổn định khẩu phần là nguyên tắc số một. Thức ăn có thể chưa thật tối ưu, nhưng ổn định và sạch vẫn tốt hơn là liên tục đổi cho 'đa dạng' để rồi dạ cỏ không kịp thích nghi.",
+  "bullets": [
+    "Không đổi nhiều thứ cùng lúc: nếu đổi nguồn cỏ thì giữ nguyên tinh; nếu đổi tinh thì giữ nguyên cỏ.",
+    "Bất kỳ khi nào đổi nguồn cỏ, phụ phẩm hoặc tỷ lệ tinh - thô đều phải coi là giai đoạn nhạy cảm, cần theo dõi kỹ phân và nhịp ăn.",
+    "Không tăng khẩu phần đột ngột chỉ vì thấy dê ăn khỏe; tăng từ từ theo nhiều ngày, ưu tiên dạ cỏ ổn định trước rồi mới nghĩ đến tăng cân.",
+    "Không dùng thức ăn ẩm mốc, lên men nóng, có mùi lạ dù nhìn còn 'ăn được' - đây là nguồn gây rối loạn tiêu hóa và ngộ độc âm ỉ."
+  ]
+},
+{
+  "id": "feeding_in_special_states",
+  "title": "Quản lý thức ăn trong các giai đoạn nhạy cảm",
+  "goal": "Giữ an toàn cho dạ cỏ khi dê đang bệnh, mới khỏi bệnh, mang thai, nuôi con hoặc bị stress.",
+  "content": "Những giai đoạn cơ thể dê đang yếu hoặc chịu thêm stress (thời tiết, vận chuyển, cai sữa…) là lúc dạ cỏ dễ sập nhất. Nếu vẫn xử lý thức ăn như bình thường hoặc muốn 'bù nhanh' bằng cách cho ăn nhiều hơn, rất dễ phản tác dụng.",
+  "bullets": [
+    "Khi dê đang bệnh: ưu tiên thức ăn quen thuộc, dễ tiêu; không thử thức ăn mới, không ép ăn nhiều trong một lần.",
+    "Ngay sau khi dê vừa qua bệnh: coi đây là giai đoạn hồi phục riêng, tăng khẩu phần từ từ, không đẩy tinh quá sớm dù dê đã ăn lại.",
+    "Dê mang thai và dê nuôi con: giữ khẩu phần đều, tránh để đói quá rồi cho ăn bù thật nhiều; nhịp ăn thất thường làm dạ cỏ luôn trong trạng thái căng thẳng.",
+    "Dê con, dê hậu bị: tuyệt đối tránh cai sữa gấp kết hợp đổi thức ăn cùng lúc; dạ cỏ non rất dễ rơi vào tiêu chảy kéo dài và chậm lớn.",
+    "Khi thời tiết đảo chiều (nóng-lạnh-ẩm): ưu tiên ổn định khẩu phần, hạn chế thêm phụ phẩm mới trong đúng thời điểm giao mùa."
+  ]
+},
+{
+  "id": "water_and_rumen",
+  "title": "Nước uống và mối liên hệ với dạ cỏ",
+  "goal": "Đảm bảo dạ cỏ hoạt động bình thường thông qua nước uống sạch và ổn định.",
+  "content": "Nước uống thường bị xem nhẹ, nhưng dạ cỏ không thể ổn định nếu nước bẩn, thiếu hoặc thay đổi thất thường. Nhiều đàn dê giảm ăn, phân xấu, lông xấu chỉ vì nước uống luôn ở trạng thái 'tạm dùng được'.",
+  "bullets": [
+    "Luôn có nước sạch sẵn trong chuồng; thiếu nước làm thức ăn lên men sai hướng trong dạ cỏ.",
+    "Không để nước xanh rêu, đục, có cặn bẩn, lông, phân, cỏ thối; đây là nguồn gây giảm uống và rối loạn tiêu hóa.",
+    "Khi đổi nguồn nước (giếng khác, đường ống khác…), nên theo dõi phân và nhịp ăn vài ngày đầu.",
+    "Dê bệnh, dê con, dê hậu bị rất nhạy với chất lượng nước; ở các ô này cần kiểm tra máng nước kỹ hơn ô dê khỏe.",
+    "Trong thời tiết cực đoan (nắng nóng kéo dài), nước sạch mát và đủ là yếu tố bắt buộc để giữ dạ cỏ không bị 'quá nhiệt'."
+  ]
+},
+{
+  "id": "part_2_housing_header",
+  "title": "PHẦN 2 - CHUỒNG TRẠI & MÔI TRƯỜNG SỐNG",
+  "goal": "Chuồng trại quyết định mức độ stress, khả năng chống chịu và nguy cơ bùng bệnh của đàn dê. Một môi trường sống sai sẽ âm thầm bào mòn sức đề kháng, dù khẩu phần thức ăn đang được quản lý tốt.",
+  "content": "Phần này tập trung vào các nguyên tắc nền tảng khi thiết kế và quản lý chuồng trại cho dê, từ vị trí đặt chuồng, bố trí tổng thể đến tiểu khí hậu, vệ sinh và an toàn sinh học. Chuồng trại không chỉ là nơi che mưa nắng mà là môi trường sống tác động liên tục lên nhịp ăn, nhịp nghỉ và trạng thái stress của con vật.\n\nNgười nuôi nên đọc toàn bộ phần này trước khi xây mới, cải tạo hoặc thay đổi cách bố trí chuồng, đặc biệt trong các giai đoạn nhạy cảm như thời tiết cực đoan, nhập đàn mới, dê mang thai hoặc nuôi con.",
+  "bullets": []
+},
+
     {
       "id": "site_selection_layout",
       "title": "Vị trí và bố trí tổng thể chuồng dê",

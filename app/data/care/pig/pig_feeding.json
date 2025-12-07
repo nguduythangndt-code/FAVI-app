@@ -3,7 +3,7 @@
   "name": "Thức ăn & khẩu phần heo",
   "species": "pig",
   "group": "feeding",
-  "overview": "Cẩm nang quản lý thức ăn cho heo thịt trong trại. Mục tiêu: khẩu phần trơn tru, cám sạch - khô, nước đủ 24/7, tăng trọng đều và hạn chế stress ruột. Quản lý tốt phần này giúp giảm bệnh nền và tránh hao hụt ngân sách.",
+  "overview": "Thức ăn là yếu tố quyết định tốc độ lớn và chi phí nuôi heo, nhưng cũng là nguyên nhân gây rủi ro nhiều nhất nếu thay đổi sai cách.\n\n Phần lớn các đợt tiêu chảy, bỏ ăn, gầy đàn hoặc chậm lớn không xuất phát từ bệnh truyền nhiễm, mà bắt đầu từ khẩu phần không phù hợp với giai đoạn hoặc thay đổi quá đột ngột.\n\nNhiều người nuôi có xu hướng tăng cám nhanh để heo lớn sớm, hoặc đổi cám theo giá thị trường mà không có giai đoạn chuyển tiếp. Heo chưa kịp thích nghi sẽ rối loạn tiêu hóa, giảm ăn, tạo áp lực lên gan ruột và kéo theo hàng loạt bệnh kế phát. Chuồng nóng, nước uống bẩn hoặc máng ăn không ổn định càng làm rủi ro này rõ hơn.\n\nMục tiêu của quản lý thức ăn không phải là khẩu phần ‘nhiều đạm nhất’ hay ‘tăng trọng nhanh nhất’, mà là khẩu phần phù hợp đúng giai đoạn, giúp heo ăn đều, tiêu hóa ổn định và phát huy tối đa hiệu quả tăng trọng.\n\n Nội dung trong mục này tập trung giúp người nuôi nhận diện rủi ro từ thức ăn và xây dựng tư duy cho ăn bền, thay vì chạy theo tăng cân ngắn hạn.",
   "sections": [
     {
       "id": "feed_core",
@@ -89,7 +89,21 @@
         "[Đo hiệu quả] Cân mẫu định kỳ hoặc ước lượng body frame tăng trọng để đánh giá cost/gram thịt.",
         "[Cắt cost ẩn] Mùi khí gắt, phân rối, giảm ăn là cost ẩn cần sửa trước khi tính đổi giá cám."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện các vấn đề bệnh tật dễ phát sinh liên quan đến thức ăn ở từng giai đoạn để điều chỉnh sớm, tránh tiêu chảy kéo dài và chậm lớn.",
+  "content": "Những sai lệch trong khẩu phần, cách cho ăn và thay đổi cám thường gây bệnh theo từng giai đoạn khác nhau. Khi heo có dấu hiệu bất thường về phân, ăn uống hoặc thể trạng, cần đối chiếu với giai đoạn đang cho ăn để tra cứu đúng nhóm bệnh trong mục Bệnh.",
+  "bullets": [
+    "[Giai đoạn làm quen thức ăn] Tiêu chảy dinh dưỡng, rối loạn tiêu hóa do đổi cám đột ngột, heo bỏ ăn sau bữa.",
+    "[Giai đoạn tăng dần khẩu phần] Tiêu chảy do dư đạm – tinh bột, phân loãng kéo dài, chướng bụng nhẹ, tiêu hóa kém.",
+    "[Giai đoạn ăn mạnh – cám đậm đặc] Loét dạ dày, rối loạn tiêu hóa mạn tính, heo ăn ít dần nhưng không sốt.",
+    "[Giai đoạn nóng ẩm – stress nhiệt] Tiêu chảy do giảm uống nước, rối loạn điện giải, heo nằm nhiều, ít vận động.",
+    "[Giai đoạn cuối – ăn tối đa] Suy nhược do gan ruột quá tải, táo bón – tiêu chảy xen kẽ, giảm tăng trọng."
+  ]
+}
+
   ],
   "notes": [
     "Giữ 1 dòng cám ổn định cho cả lứa.",

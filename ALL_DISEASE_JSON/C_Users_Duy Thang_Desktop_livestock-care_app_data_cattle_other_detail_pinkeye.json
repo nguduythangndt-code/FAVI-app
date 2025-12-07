@@ -1,0 +1,122 @@
+{
+  "id": "pinkeye",
+  "name": "Viêm mắt",
+  "species": "cattle",
+  "group": "other",
+
+  "summary": "Viêm mắt làm bò chảy nước mắt, mắt đỏ, nhắm nhiều và sợ ánh sáng. Nếu không xử lý có thể loét giác mạc.",
+
+  "causes": [
+    "Vi khuẩn Moraxella",
+    "Ruồi nhiều",
+    "Bụi và nắng gắt",
+    "Cỏ sắc làm trầy mắt"
+  ],
+
+  "risk_factors": [
+    "Đồng cỏ nhiều bụi",
+    "Ruồi bay nhiều",
+    "Không che mát",
+    "Thiếu vệ sinh mắt"
+  ],
+
+  "clinical_signs_detailed": [
+    "Chảy nước mắt nhiều",
+    "Mắt đỏ và sưng nhẹ",
+    "Nhắm mắt liên tục",
+    "Sợ ánh sáng",
+    "Có thể loét giác mạc"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Mắt đỏ nhẹ",
+      "Chảy nước mắt"
+    ],
+    "moderate": [
+      "Nhắm mắt nhiều",
+      "Sợ sáng"
+    ],
+    "severe": [
+      "Loét giác mạc",
+      "Mất thị lực tạm thời"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "ceftiofur"
+    ],
+    "note_drugs": "Kháng sinh toàn thân hoặc xịt mắt tùy điều kiện. Không dùng thuốc cay hoặc chất lạ vào mắt.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Giảm ruồi bằng phun thuốc chuồng",
+      "Che mát cho bò",
+      "Không để bò dụi mắt vào vật cứng",
+      "Nếu có loét cần thú y hỗ trợ"
+    ],
+
+    "dose_policy": "Dùng thuốc theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Mắt đỏ và nhắm nhiều.",
+      "guideline": [
+        "Kháng sinh sớm",
+        "Che mát và tránh bụi",
+        "Theo dõi loét giác mạc"
+      ]
+    },
+    "case_type_2": {
+      "description": "Loét giác mạc.",
+      "guideline": [
+        "Cần thú y can thiệp",
+        "Tránh ánh sáng mạnh",
+        "Theo dõi hàng ngày"
+      ]
+    },
+    "note": "Viêm mắt thường khỏi nhanh nếu điều trị kịp."
+  },
+
+  "prevention": [
+    "Giảm ruồi và bụi",
+    "Có mái che",
+    "Kiểm tra đồng cỏ",
+    "Vệ sinh mắt định kỳ"
+  ],
+
+  "notes": [
+    "Bò tơ dễ bị hơn bò lớn.",
+    "Ruồi đóng góp lớn vào lây lan.",
+    "Không để bụi thổi trực tiếp vào chuồng."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

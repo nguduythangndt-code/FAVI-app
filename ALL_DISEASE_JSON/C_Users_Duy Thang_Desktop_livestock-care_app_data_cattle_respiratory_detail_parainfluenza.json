@@ -1,0 +1,136 @@
+{
+  "id": "parainfluenza",
+  "name": "Viêm phổi do Parainfluenza-3",
+  "species": "cattle",
+  "group": "respiratory",
+
+  "summary": "Bệnh hô hấp do virus Parainfluenza-3, thường gây ho, chảy nước mũi, sốt nhẹ đến vừa và dễ bội nhiễm vi khuẩn. Đa số diễn tiến từ nhẹ đến trung bình nhưng nếu chuồng trại kém sẽ chuyển sang viêm phổi nặng.",
+
+  "causes": [
+    "Nhiễm virus Parainfluenza-3 qua đường hô hấp",
+    "Mật độ nuôi cao, thông gió kém tạo điều kiện virus phát tán",
+    "Bội nhiễm vi khuẩn hô hấp khi sức đề kháng giảm",
+    "Stress do vận chuyển, cai sữa, thay chuồng, thay khẩu phần"
+  ],
+
+  "risk_factors": [
+    "Bê cai sữa, bò trẻ",
+    "Đàn không tiêm hoặc tiêm phòng không đủ mũi bệnh hô hấp",
+    "Chuồng nuôi kín, ẩm, ít không khí lưu thông",
+    "Chênh lệch nhiệt độ ngày - đêm lớn",
+    "Nhập đàn không cách ly, quản lý kém"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt nhẹ đến vừa, giảm ăn",
+    "Chảy nước mũi trong, sau có thể đục nhẹ",
+    "Ho khan, ho thành tràng khi lùa đi",
+    "Thở nhanh hơn bình thường, đôi khi nghe ran nhẹ",
+    "Đàn có nhiều con cùng ho, sổ mũi trong khoảng thời gian ngắn",
+    "Nếu bội nhiễm vi khuẩn có thể sốt cao hơn, khó thở rõ hơn",
+    "Giảm tăng trọng, giảm sữa"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ, ăn giảm ít",
+      "Chảy nước mũi trong, ho lác đác",
+      "Thở nhanh nhẹ nhưng chưa rõ khó thở"
+    ],
+    "moderate": [
+      "Sốt vừa, nước mũi nhiều hơn, có thể hơi đục",
+      "Ho rõ, đặc biệt khi vận động",
+      "Nghe phổi có ran nhẹ, con vật mệt, giảm hoạt động",
+      "Giảm sữa và tăng trọng"
+    ],
+    "severe": [
+      "Thường do bội nhiễm: sốt cao, thở khó, ho nhiều",
+      "Nước mũi đục, đặc, có thể lẫn mủ",
+      "Con vật mệt, nằm nhiều, ăn rất kém",
+      "Nguy cơ chuyển sang viêm phổi nặng nếu không điều trị"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "tulathromycin"
+    ],
+    "note_drugs": "Kháng sinh dùng để kiểm soát bội nhiễm vi khuẩn khi đường hô hấp đã bị virus làm tổn thương. Không nên lạm dụng kháng sinh khi bệnh nhẹ và tự giới hạn tốt.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Giảm mật độ trong ô chuồng nếu đang quá đông",
+      "Đảm bảo chuồng thoáng khí nhưng tránh gió lùa trực tiếp",
+      "Cho uống nước sạch đầy đủ, thêm điện giải nếu cần",
+      "Giảm lùa chạy, không ép làm việc trong giai đoạn bệnh",
+      "Theo dõi diễn biến, nếu khó thở tăng cần nâng phác đồ điều trị"
+    ],
+
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo chỉ định thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ca trung bình: ho rõ, sốt, thở nhanh nhưng vẫn còn ăn ít và đứng được.",
+      "guideline": [
+        "Dùng kháng sinh nếu nghi bội nhiễm vi khuẩn",
+        "Thêm kháng viêm, vitamin, điện giải",
+        "Theo dõi thân nhiệt, nhịp thở, mức độ ho hằng ngày",
+        "Ghi lại số con bệnh và kiểu biểu hiện trong đàn"
+      ]
+    },
+    "case_type_2": {
+      "description": "Ca nặng: khó thở, sốt cao, nước mũi đục, mệt nhiều.",
+      "guideline": [
+        "Xem xét phác đồ kháng sinh mạnh hơn và kéo dài hơn",
+        "Liên hệ thú y nếu sau 2 - 3 ngày điều trị không đáp ứng tốt",
+        "Giảm tối đa stress và vận động",
+        "Cân nhắc loại thải con có tổn thương hô hấp mạn tính lâu dài"
+      ]
+    },
+    "note": "Nhiều đàn có thể xuất hiện đợt ho, sổ mũi do Parainfluenza-3 tương đối nhẹ, nhưng nếu chuồng trại kém thì dễ chuyển thành đợt viêm phổi nặng do vi khuẩn."
+  },
+
+  "prevention": [
+    "Duy trì chương trình tiêm phòng bệnh hô hấp phù hợp",
+    "Quản lý mật độ nuôi, tránh quá đông",
+    "Giữ chuồng khô, sạch, đủ thông gió",
+    "Hạn chế thay đổi chuồng, ghép đàn đột ngột ở bê và bò trẻ",
+    "Theo dõi đàn sát trong giai đoạn giao mùa"
+  ],
+
+  "notes": [
+    "Parainfluenza-3 thường là một phần trong hội chứng hô hấp phức hợp.",
+    "Nếu đã từng có đợt bùng phát mạnh trong trại, nên xem lại đầy đủ mảng tiêm phòng và chuồng trại.",
+    "Điều kiện thông gió tốt nhiều khi hiệu quả hơn tăng thuốc."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -3,7 +3,8 @@
   "name": "Dê con",
   "species": "goat",
   "group": "kid",
-  "overview": "Cẩm nang chăm sóc dê con từ lúc sinh đến sau cai sữa. Mục tiêu: dê con sống khỏe, nhận đủ sữa đầu, giữ ấm tốt, không nhiễm trùng rốn, hạn chế tối đa tiêu chảy và viêm phổi, tăng trưởng đều, tạo nền thể trạng tốt cho giai đoạn hậu bị.",
+  "overview": "Dê con là giai đoạn mong manh nhất trong toàn bộ chu kỳ nuôi, nơi rủi ro không nằm ở bệnh nặng xuất hiện đột ngột mà ở những sai sót nhỏ ngay từ đầu.\n\n Phần lớn tình trạng chết non, chậm lớn hoặc yếu kéo dài không phải do một bệnh cụ thể, mà do nền tảng sinh học ban đầu không được thiết lập đúng: thiếu sữa đầu, mất nhiệt, môi trường ẩm bẩn, hoặc stress sớm.\n\nSai lầm hay gặp là đánh giá dê con dựa trên việc “còn đứng được hay không”, trong khi các yếu tố quyết định sức sống lại diễn ra âm thầm bên trong.\n\n Nhiều trường hợp dê con nhìn vẫn bú, vẫn đi lại nhưng đã suy yếu từ vài ngày trước do lạnh, thiếu sữa đầu hoặc rối loạn tiêu hóa nhẹ không được để ý. Khi bệnh bùng rõ ràng thì khả năng cứu đã giảm rất nhiều.\n\nTư duy đúng khi chăm sóc dê con là coi đây là giai đoạn thiết lập nền móng cho cả đời con vật, không phải giai đoạn tăng trưởng. Ưu tiên hàng đầu là ổn định sinh lý và môi trường hơn là can thiệp nhiều hay thúc đẩy sớm.\n\n Nội dung phía dưới giúp người nuôi nhận diện đúng các mốc nhạy cảm, hiểu mình cần bảo vệ điều gì và biết lúc nào dấu hiệu đã lệch chuẩn để chuyển sang tra cứu bệnh kịp thời.",
+
   "sections": [
     {
       "id": "pre_kidding_preparation",
@@ -130,7 +131,22 @@
         "[Tai nạn chuồng trại] Trượt ngã, kẹt chân, kẹt đầu vào song chuồng: kiểm tra kỹ các thanh sàn, thanh vách, độ trơn nền; sửa chữa, gia cố hoặc điều chỉnh thiết kế để giảm nguy cơ tái diễn.",
         "[Ghi chép] Ghi lại các ca bệnh, cách xử lý và kết quả để rút kinh nghiệm cho các lứa sau và điều chỉnh quy trình chăm sóc."
       ]
-    }
+    },
+      {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Giúp nhận diện sớm các vấn đề sức khỏe thường gặp ở dê con theo từng giai đoạn phát triển để theo dõi đúng hướng, giảm tỷ lệ chết non và chậm lớn.",
+  "content": "Dê con có sức đề kháng yếu và thay đổi rất nhanh theo từng giai đoạn tuổi. Nhiều vấn đề không biểu hiện rõ ngay mà bùng lên sau vài ngày nếu người nuôi không để ý. Nhận diện đúng nguy cơ theo từng giai đoạn giúp chủ động theo dõi và tra cứu chính xác trong mục Bệnh hoặc Quicksearch.",
+  "bullets": [
+    "[Sơ sinh - 3 ngày tuổi] Suy yếu bẩm sinh, nhiễm trùng rốn, không bú được sữa đầu.",
+    "[Giai đoạn bú mẹ] Tiêu chảy dê con, nhiễm khuẩn đường ruột, viêm phổi sớm.",
+    "[Bắt đầu ăn tập] Rối loạn tiêu hóa do tập ăn sớm, tiêu chảy dinh dưỡng.",
+    "[Cai sữa] Stress cai sữa, suy nhược, giảm sức đề kháng, dễ bùng bệnh hô hấp.",
+    "[Sau cai sữa] Ký sinh trùng đường ruột, chậm lớn, tiêu chảy kéo dài.",
+    "[Giai đoạn thích nghi đàn] Viêm phổi, bệnh truyền nhiễm do thay đổi môi trường và tiếp xúc đàn."
+  ]
+}
+
   ],
   "notes": [
     "Dê con là nền tảng cho đàn sau này. Chăm sóc kỹ giai đoạn từ sinh đến sau cai sữa sẽ giúp giảm rõ rệt tỷ lệ chết, tỷ lệ còi và chi phí thuốc.",

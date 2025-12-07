@@ -1,12 +1,12 @@
 [
   {
     "id": "chicken_broiler",
-    "name": "Gà thịt (broiler)",
+    "name": "Gà thịt",
     "summary": "Quy trình nuôi gà thịt từ lúc nhập gà con đến khi xuất bán: úm, lên chuồng, tăng trọng, quản lý thức ăn - nước uống - mật độ, giảm stress và hạn chế hao hụt."
   },
   {
     "id": "chicken_layer",
-    "name": "Gà đẻ (layer)",
+    "name": "Gà đẻ",
     "summary": "Chăm sóc gà đẻ trứng theo từng giai đoạn: hậu bị, vào đẻ, đỉnh đẻ, cuối kỳ. Tập trung vào dinh dưỡng, ánh sáng, canxi, quản lý sản lượng và chất lượng vỏ trứng."
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "id": "chicken_housing",
-    "name": "Chuồng trại nuôi gà",
+    "name": "Thức ăn & Chuồng trại",
     "summary": "Nguyên tắc làm chuồng gà: nền, mái, hướng chuồng, thông thoáng, ánh sáng, chống nóng - chống lạnh, che gió lùa, bố trí máng ăn - uống hợp lý theo tuổi gà."
   },
   {

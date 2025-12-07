@@ -1,0 +1,111 @@
+{
+  "id": "pcv2_respiratory",
+  "name": "PCV2 thể hô hấp",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "PCV2 thể hô hấp làm heo ho, thở khó, gầy nhanh và lông xấu. Thường ghép với Mycoplasma, PRRS, Pasteurella làm bệnh nặng hơn.",
+  "causes": [
+    "Virus PCV2 (circovirus heo)",
+    "Lây qua tiếp xúc trực tiếp, dịch tiết và phân",
+    "Chuồng bẩn, mật độ cao, quản lý yếu"
+  ],
+  "risk_factors": [
+    "Không tiêm phòng PCV2",
+    "Nhiễm PRRS hoặc Mycoplasma trước đó",
+    "Chuồng ẩm, bí khí, nhiều bụi",
+    "Heo stress kéo dài, dinh dưỡng kém"
+  ],
+  "clinical_signs_detailed": [
+    "Ho kéo dài, thở nhanh hoặc thở bụng",
+    "Heo gầy sút kéo dài dù ăn không quá kém",
+    "Lông dựng, xấu, da nhợt",
+    "Có thể sưng hạch bẹn, hạch cổ",
+    "Một số con kèm tiêu chảy hoặc triệu chứng khác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho ít, lông hơi xấu",
+      "Ăn vẫn bình thường"
+    ],
+    "moderate": [
+      "Ho kéo dài, thở nhanh nhẹ",
+      "Gầy dần, lớn chậm",
+      "Lông dựng, da nhợt"
+    ],
+    "severe": [
+      "Thở nặng, ho nhiều",
+      "Rất gầy, không tăng trọng",
+      "Dễ ghép thêm bệnh khác và chết"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Florfenicol",
+      "Ceftiofur"
+    ],
+    "alternative_drugs": [
+      "Tylosin",
+      "Doxycycline"
+    ],
+    "note_drugs": "PCV2 là virus, không có thuốc đặc trị. Kháng sinh dùng để kiểm soát nhiễm khuẩn ghép ở phổi.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoa",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng thoáng, giảm mật độ",
+      "Tăng chất lượng khẩu phần cho heo bệnh và heo yếu",
+      "Hạn chế tối đa các stress: chuyển chuồng, dồn đuổi",
+      "Tách heo gầy, ho nhiều để chăm riêng"
+    ],
+    "dose_policy": "Dùng thuốc theo đúng liều trên nhãn hoặc tư vấn thú y, tránh kéo dài quá mức."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho kéo dài, gầy dần nhưng heo còn đi lại và ăn được.",
+      "guideline": [
+        "Dùng kháng sinh thấm phổi để xử lý nhiễm ghép",
+        "Bổ sung vitamin và khoáng",
+        "Cải thiện môi trường chuồng trại"
+      ]
+    },
+    "case_type_2": {
+      "description": "Rất gầy, thở nặng, ho nhiều, nghi PCV2 ghép nhiều bệnh.",
+      "guideline": [
+        "Điều trị hỗ trợ nhưng tiên lượng dè dặt",
+        "Cân nhắc loại thải heo quá yếu để giảm lây lan và chi phí",
+        "Tập trung phòng tốt cho đàn khỏe bằng tiêm phòng và quản lý"
+      ]
+    },
+    "note": "Khi PCV2 đã bùng trong đàn, việc cải thiện quản lý và tiêm phòng cho đàn còn khỏe quan trọng hơn cố gắng giữ từng con quá yếu."
+  },
+  "prevention": [
+    "Tiêm phòng PCV2 đúng lịch",
+    "Giảm mật độ, cải thiện thông thoáng",
+    "Giảm trộn đàn nhiều nguồn",
+    "Kiểm soát tốt các bệnh hô hấp nền khác"
+  ],
+  "notes": [
+    "PCV2 thường khiến heo vừa ho vừa gầy kéo dài, rất khó lấy lại tăng trọng.",
+    "Quản lý và phòng bệnh là then chốt, điều trị chỉ mang tính hỗ trợ."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

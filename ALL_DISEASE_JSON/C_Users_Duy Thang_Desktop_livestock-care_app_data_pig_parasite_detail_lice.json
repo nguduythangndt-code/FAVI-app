@@ -1,0 +1,107 @@
+{
+  "id": "lice",
+  "name": "Chấy rận",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Chấy rận hút máu làm heo ngứa, cọ nhiều, da xấu và chậm lớn. Nhiễm nặng có thể gây thiếu máu nhẹ kéo dài.",
+  "causes": [
+    "Ký sinh trùng ngoài da hút máu (chấy, rận)",
+    "Lây qua tiếp xúc trực tiếp giữa các con",
+    "Dùng chung dụng cụ, dây buộc, chổi cọ"
+  ],
+  "risk_factors": [
+    "Chuồng bẩn, nhiều bụi và chất hữu cơ",
+    "Mật độ nuôi dày",
+    "Không tẩy ký sinh trùng ngoài da định kỳ",
+    "Heo hậu bị, heo nái nuôi nhốt lâu"
+  ],
+  "clinical_signs_detailed": [
+    "Heo ngứa, cọ liên tục vào tường hoặc nền",
+    "Lông xơ, rối, dễ rụng",
+    "Có thể nhìn thấy chấm nhỏ di chuyển trên da và lông",
+    "Heo mệt, ăn kém, chậm lớn",
+    "Heo thường khó chịu, ngủ không yên"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ngứa nhẹ",
+      "Heo cọ vài lần trong ngày"
+    ],
+    "moderate": [
+      "Ngứa rõ, cọ nhiều",
+      "Lông xấu, da xám"
+    ],
+    "severe": [
+      "Ngứa dữ dội, heo mất ngủ",
+      "Lông rụng từng mảng",
+      "Gầy, chậm lớn rõ rệt"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin"
+    ],
+    "alternative_drugs": [
+      "Doramectin",
+      "Phun Permethrin"
+    ],
+    "note_drugs": "Ivermectin là thuốc chính, xử lý cả ký sinh trùng ngoài da và một số ký sinh trùng trong. Phun Permethrin chỉ dùng ngoài da, tránh để heo liếm phải.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Vệ sinh chuồng, thay lót khô",
+      "Phun sát trùng nền và vách",
+      "Giặt hoặc thay dây buộc, dụng cụ tiếp xúc nhiều với heo"
+    ],
+    "dose_policy": "Dùng đúng theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo ngứa nhiều nhưng vẫn ăn khá.",
+      "guideline": [
+        "Tiêm Ivermectin",
+        "Vệ sinh chuồng và phun sát trùng",
+        "Theo dõi sau 7-10 ngày"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo rất ngứa, lông rụng nhiều, gầy.",
+      "guideline": [
+        "Tẩy ký sinh trùng nhắc lại theo hướng dẫn",
+        "Bổ sung vitamin và dinh dưỡng",
+        "Tách chăm riêng nếu bị cắn xước nhiều"
+      ]
+    },
+    "note": "Nên xử lý cả đàn cùng lúc để tránh lây chéo."
+  },
+  "prevention": [
+    "Tẩy ký sinh trùng định kỳ",
+    "Giữ chuồng khô, sạch, ít bụi",
+    "Không dùng chung dây, dụng cụ bẩn từ đàn khác"
+  ],
+  "notes": [
+    "Chấy rận ít gây chết nhưng làm heo rất khó chịu và chậm lớn.",
+    "Thường đi kèm với vệ sinh chuồng trại kém."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

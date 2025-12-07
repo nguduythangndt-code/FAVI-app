@@ -1,0 +1,127 @@
+{
+  "id": "aspiration-pneumonia",
+  "name": "Viêm phổi do hít sặc ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm phổi do hít sặc xảy ra khi thức ăn, sữa hoặc nước lọt vào khí quản - phổi. Gặp nhiều ở dê con bú bình, dê yếu, hoặc sau các đợt sặc thức ăn. Bệnh tiến triển nhanh và nguy hiểm nếu không xử lý đúng.",
+
+  "causes": [
+    "Cho dê con bú bình sai tư thế, dòng sữa chảy quá mạnh.",
+    "Dê con sặc khi bú mẹ do đầu - cổ bị kẹp.",
+    "Dê lớn bị sặc nước hoặc thức ăn dạng bột.",
+    "Hít phải dịch nôn, nước bẩn."
+  ],
+
+  "risk_factors": [
+    "Dê con 1-30 ngày tuổi.",
+    "Dê yếu, phản xạ bú kém.",
+    "Bú bình không đúng kỹ thuật.",
+    "Dê lớn ăn quá nhanh."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho mạnh ngay sau sặc.",
+    "Thở rít hoặc thở khó.",
+    "Chảy nước mũi có mùi sữa thức ăn.",
+    "Sốt sau 2-12 giờ do viêm phổi hóa học.",
+    "Nặng: nằm, thở ngáp, tử vong."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho sau sặc nhưng thở bình thường trở lại.",
+      "Ăn giảm nhẹ."
+    ],
+    "moderate": [
+      "Ho liên tục, thở nhanh.",
+      "Chảy mũi đục, mùi thức ăn.",
+      "Sốt nhẹ - vừa."
+    ],
+    "severe": [
+      "Khó thở, tím niêm mạc.",
+      "Nằm, phản xạ yếu.",
+      "Nguy cơ tử vong cao."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Cefquinome",
+      "Florfenicol"
+    ],
+    "alternative_drugs": [
+      "Amoxicillin (ca nhẹ - vừa)",
+      "Enrofloxacin (theo thú y)"
+    ],
+    "note_drugs": [
+      "Không dùng doxycycline hoặc tylosin đơn lẻ cho hít sặc (hiệu quả thấp)."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Giữ ấm ngay sau khi sặc.",
+      "Tách dê con ra khu vực khô - yên tĩnh.",
+      "Không cho bú lại trong 1-2 giờ sau sặc.",
+      "Cho uống nước ấm ít một sau khi ổn.",
+      "Theo dõi thở từng giờ."
+    ],
+    "dose_policy": [
+      "Kháng sinh mạnh dùng theo nhãn hoặc thú y.",
+      "Không tự ý đổi thuốc trong 24 giờ đầu."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho nhiều, thở nhanh nhưng còn đứng.",
+      "guideline": [
+        "Florfenicol hoặc ceftiofur.",
+        "Chống viêm + long đờm.",
+        "Điện giải ấm."
+      ]
+    },
+    "case_type_2": {
+      "description": "Khó thở, tím niêm mạc, phản xạ yếu.",
+      "guideline": [
+        "Cần thú y ngay lập tức.",
+        "Kháng sinh mạnh + hồi sức.",
+        "Giữ ấm, thở oxy nếu có điều kiện.",
+        "Tiên lượng dè dặt."
+      ]
+    },
+    "note": "Hít sặc dễ gây chết ở dê con - phòng quan trọng hơn chữa."
+  },
+
+  "prevention": [
+    "Cho bú bình đúng tư thế: đầu cao vừa, không để sữa chảy quá mạnh.",
+    "Không ép bú khi dê con yếu.",
+    "Không cho dê lớn ăn thức ăn bột khô khi quá đói.",
+    "Giữ nền sạch để tránh dê hít phải dị vật."
+  ],
+
+  "notes": [
+    "Hầu hết ca hít sặc ở dê con đến từ bú bình sai tư thế.",
+    "Cần hướng dẫn kỹ cho người chăm sóc."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

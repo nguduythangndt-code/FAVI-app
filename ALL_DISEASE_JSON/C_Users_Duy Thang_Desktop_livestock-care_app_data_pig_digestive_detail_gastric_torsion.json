@@ -1,0 +1,109 @@
+{
+  "id": "gastric_torsion",
+  "name": "Phình dạ dày cấp (torsion nhẹ)",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Phình dạ dày cấp làm heo chướng bụng nhanh, khó thở, suy rất nhanh. Đây là tình trạng cấp cứu, có thể dẫn đến tử vong nếu chậm xử lý.",
+  "causes": [
+    "Ăn quá nhanh hoặc quá nhiều",
+    "Dạ dày xoay nhẹ gây tắc thoát thức ăn",
+    "Thức ăn lên men mạnh",
+    "Vận động mạnh ngay sau khi ăn"
+  ],
+  "risk_factors": [
+    "Khẩu phần thay đổi đột ngột",
+    "Heo đói lâu rồi ăn bù nhiều",
+    "Giống heo có dạ dày nhạy cảm",
+    "Stress hoặc giật mình sau ăn"
+  ],
+  "clinical_signs_detailed": [
+    "Chướng bụng rất nhanh",
+    "Thở khó, thở nông",
+    "Heo nằm nhiều, đứng dậy khó",
+    "Nôn khan hoặc bọt trắng",
+    "Da tái, mắt lờ đờ",
+    "Có thể chết chỉ sau vài giờ"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Chướng nhẹ nhưng nhanh tăng",
+      "Heo khó chịu, giảm ăn"
+    ],
+    "moderate": [
+      "Bụng căng lớn",
+      "Thở khó, nằm nhiều"
+    ],
+    "severe": [
+      "Chướng toàn bụng",
+      "Thở rất nông",
+      "Heo suy, nguy cơ tử vong cao"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Simethicone"
+    ],
+    "alternative_drugs": [
+      "Vitamin B1"
+    ],
+    "note_drugs": "Simethicone giúp giảm hơi nhưng nếu dạ dày xoay, thuốc chỉ hỗ trợ tạm thời.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Không cho ăn thêm",
+      "Giữ heo đứng nhẹ nếu có thể",
+      "Tránh vận động mạnh",
+      "Theo dõi khó thở và màu da"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo chướng lớn nhưng còn thở được.",
+      "guideline": [
+        "Dùng Simethicone sớm",
+        "Theo dõi 1-2 giờ đầu",
+        "Giữ nơi nằm thoáng, không dồn đuổi"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo thở rất nông, mắt lờ đờ, nằm không dậy.",
+      "guideline": [
+        "Giữ heo tránh ngã",
+        "Theo dõi dấu hiệu xoay dạ dày",
+        "Liên hệ thú y vì có thể cần can thiệp"
+      ]
+    },
+    "note": "Phình dạ dày cấp dễ gây chết nhanh trong vài giờ."
+  },
+  "prevention": [
+    "Không cho heo ăn quá nhanh",
+    "Chia bữa ăn hợp lý",
+    "Tránh vận động mạnh sau ăn"
+  ],
+  "notes": [
+    "Thường gặp ở heo lớn hoặc heo ăn quá nhanh.",
+    "Nặng có thể gây tử vong đột ngột."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

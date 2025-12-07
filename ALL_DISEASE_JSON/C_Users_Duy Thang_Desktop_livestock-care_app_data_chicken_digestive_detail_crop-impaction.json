@@ -1,0 +1,99 @@
+{
+  "id": "crop-impaction",
+  "name": "Tắc diều",
+  "species": "chicken",
+  "group": "digestive",
+  "summary": "Tình trạng diều bị ứ đầy thức ăn, rơm rác hoặc dị vật, làm gà đầy diều, ăn kém và có thể suy nếu kéo dài.",
+  "causes": [
+    "Gà ăn quá nhiều thức ăn thô, xơ, rơm rác, cỏ dài khó tiêu",
+    "Ăn phải dị vật như dây, nilon, sợi vải, túi rác",
+    "Thiếu sỏi tiêu hóa, khẩu phần mất cân đối, cho ăn không đều"
+  ],
+  "risk_factors": [
+    "Nuôi thả nơi có nhiều rác, dây nilon, bao bì vương vãi",
+    "Cung cấp khẩu phần quá nhiều xơ thô, ít nghiền nhỏ",
+    "Không có sỏi tiêu hóa cho gà, nhất là đàn ăn nhiều thức ăn thô",
+    "Cho ăn thất thường, lúc đói quá gà ăn nhồi nhiều"
+  ],
+  "clinical_signs_detailed": [
+    "Diều phồng to, sờ cứng hoặc bột bột, buổi sáng sớm diều vẫn còn đầy",
+    "Gà giảm ăn, gầy dần, lông xấu, hoạt động kém",
+    "Có thể ợ ra mùi chua, hôi khi diều lên men",
+    "Một số trường hợp gà khát nước nhiều nhưng ăn rất ít",
+    "Nếu tắc nặng lâu ngày, gà suy kiệt, chết do kiệt sức"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Diều căng hơn bình thường sau ăn, nhưng vẫn xẹp bớt sau một đêm",
+      "Gà hơi giảm ăn nhưng còn hoạt động tương đối"
+    ],
+    "moderate": [
+      "Buổi sáng sờ diều vẫn còn đầy, có cảm giác cứng hoặc vón cục",
+      "Gà ăn ít, chậm lớn, lông không bóng",
+      "Có thể ợ ra mùi chua nhẹ"
+    ],
+    "severe": [
+      "Diều căng, cứng, kéo dài nhiều ngày không xẹp",
+      "Gà rất gầy, yếu, ăn rất ít, uống nước nhiều",
+      "Có mùi chua, hôi rõ từ miệng, nguy cơ suy kiệt và chết"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": "Điều trị tắc diều chủ yếu là xử lý cơ học và điều chỉnh khẩu phần. Thuốc chỉ hỗ trợ khi có viêm hoặc nhiễm trùng kéo theo, theo tư vấn thú y.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải cho những con suy kiệt, uống nước kém",
+        "alternative": "điện giải có thêm glucose cho gà quá gầy"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp sau khi diều được xử lý bớt",
+        "alternative": "vitamin nhóm B kích thích ăn trở lại"
+      },
+      "digestive_support": {
+        "main": "chế độ ăn mềm, dễ tiêu sau khi diều bắt đầu thông",
+        "alternative": "men tiêu hóa hỗ trợ giai đoạn hồi phục"
+      }
+    },
+    "supportive_care": [
+      "Nhịn ăn một thời gian ngắn theo tư vấn, cho uống nước sạch đầy đủ",
+      "Xoa bóp nhẹ nhàng vùng diều để làm tơi thức ăn nếu không có dị vật sắc nhọn",
+      "Điều chỉnh khẩu phần sang thức ăn mềm, dễ tiêu, lượng vừa phải trong ngày",
+      "Nếu nghi có dị vật lớn, sắc nhọn hoặc tắc kéo dài, cần nhờ thú y can thiệp",
+      "Theo dõi từng con đã bị tắc diều, không cho ăn nhồi dồn sau khi vừa đỡ"
+    ],
+    "dose_policy": "Khi có chỉ định dùng thuốc giảm viêm hoặc kháng sinh, tuân thủ liều trên nhãn hoặc hướng dẫn thú y. Không tự ý dùng thuốc mạnh khi chưa rõ nguyên nhân tắc."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn thả vườn, nhiều con diều to, ăn rơm rác, giảm ăn hàng loạt.",
+      "guideline": "Thu gom rác, dây, nilon trong khu chăn thả. Điều chỉnh khẩu phần, tăng thức ăn tinh, giảm nguồn xơ thô dài. Kiểm tra từng con nghi tắc nặng để xử lý riêng, tránh để suy kiệt."
+    },
+    "case_type_2": {
+      "description": "Một vài con giá trị cao (gà cảnh, gà giống), diều tắc lâu ngày, rất gầy.",
+      "guideline": "Không cố xoa bóp mạnh khi nghi có dị vật sắc. Đưa thú y kiểm tra và xử lý nếu cần mở diều. Sau can thiệp, cho ăn khẩu phần mềm, dễ tiêu, từng ít một, kết hợp điện giải và vitamin để hồi phục."
+    },
+    "note": "Tắc diều là bệnh gắn liền với quản lý thức ăn và môi trường. Giải quyết triệt để bằng cách chỉnh lại cách cho ăn và dọn sạch khu vực gà có thể nuốt phải dị vật."
+  },
+  "prevention": [
+    "Dọn sạch rác, dây, nilon, túi bọc ở khu chăn thả hoặc trong chuồng",
+    "Cung cấp khẩu phần cân đối, không quá nhiều cỏ dài, rơm rạ thô",
+    "Bổ sung sỏi tiêu hóa phù hợp cho gà ăn thức ăn thô",
+    "Cho ăn theo bữa đều, không để gà đói quá rồi ăn nhồi nhiều",
+    "Quan sát diều vào buổi sáng sớm để phát hiện sớm trường hợp bất thường"
+  ],
+  "notes": [
+    "Tắc diều đơn thuần không gây chết nhanh nhưng làm gà suy kiệt nếu để kéo dài.",
+    "Kiểm tra diều buổi sáng là thói quen đơn giản giúp phát hiện sớm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

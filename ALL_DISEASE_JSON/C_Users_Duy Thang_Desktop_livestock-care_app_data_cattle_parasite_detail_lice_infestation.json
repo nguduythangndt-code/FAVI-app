@@ -1,0 +1,110 @@
+{
+  "id": "lice_infestation",
+  "name": "Chí - rận",
+  "species": "cattle",
+  "group": "parasite",
+  "summary": "Chí - rận ký sinh trên da và lông, hút máu hoặc ăn biểu bì da, gây ngứa dữ dội, rụng lông, trầy xước da và làm giảm tăng trọng, giảm sữa.",
+  "causes": [
+    "Tiếp xúc trực tiếp với bò mang nhiều chí - rận",
+    "Dùng chung chuồng, máng ăn, dụng cụ chải lông với đàn nhiễm",
+    "Chuồng trại bẩn, ẩm, không được vệ sinh định kỳ",
+    "Đàn bò nuôi nhốt dày, thông thoáng kém"
+  ],
+  "risk_factors": [
+    "Mùa lạnh, bò mọc lông dày, ít tắm chải",
+    "Nuôi nhốt trong chuồng chật, chuồng bẩn",
+    "Không kiểm tra, chải lông, tắm rửa thường xuyên",
+    "Bê, bò tơ thể trạng kém, sức đề kháng thấp"
+  ],
+  "clinical_signs_detailed": [
+    "Bò ngứa nhiều, liên tục gãi, cọ mình vào thành chuồng, cột, cây",
+    "Rụng lông từng mảng ở cổ, vai, lưng, gốc đuôi, hai bên sườn",
+    "Da đỏ, trầy xước, đóng vảy, đôi khi có vết rướm máu",
+    "Lông dựng, bẩn, dính bụi và vảy da",
+    "Bê và bò tơ có thể gầy nhanh, tăng trọng kém do stress và ngứa kéo dài",
+    "Trong mùa lạnh, bệnh thường nặng hơn, bò xấu mã rõ"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ngứa nhẹ, bò thỉnh thoảng gãi, cọ mình",
+      "Lông hơi xấu, vài vùng lưa thưa lông",
+      "Khó phát hiện nếu không quan sát kỹ sát da"
+    ],
+    "moderate": [
+      "Ngứa rõ, bò gãi, cọ mình thường xuyên, mất tập trung ăn",
+      "Rụng lông thành mảng nhỏ, da đỏ, có vảy",
+      "Giảm tăng trọng, xấu mã, đàn nhìn không đều"
+    ],
+    "severe": [
+      "Ngứa dữ dội, bò bứt rứt, hoạt động liên tục để gãi",
+      "Rụng lông nhiều vùng trên cơ thể, da dày, sậm màu, nứt nẻ",
+      "Bê gầy, tăng trưởng kém, sức đề kháng giảm, dễ mắc bệnh khác"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "deltamethrin dùng dạng pour-on hoặc phun",
+      "cypermethrin dùng dạng pour-on hoặc phun",
+      "ivermectin dùng tiêm dưới da theo hướng dẫn"
+    ],
+    "alternative_drugs": [
+      "amitraz dùng tắm hoặc phun ngoài da",
+      "các thuốc diệt côn trùng ngoài da khác theo khuyến cáo thú y"
+    ],
+    "note_drugs": "Khi điều trị chí - rận, cần xử lý cho toàn đàn cùng lúc và lặp lại theo hướng dẫn trên nhãn để diệt hết lứa ký sinh mới nở. Không dùng quá liều, không pha đặc hơn khuyến cáo. Với bò sữa, chú ý kỹ thời gian ngưng thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin khi da viêm, bò đau, khó chịu nhiều",
+        "alternative": "meloxicam theo tư vấn thú y"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin B-complex",
+        "alternative": "multivitamin và khoáng giúp phục hồi thể trạng"
+      },
+      "digestive_support": {
+        "main": "men tiêu hóa khi bò kém ăn, sụt cân do ngứa kéo dài",
+        "alternative": "chế phẩm vi sinh hỗ trợ tiêu hóa"
+      }
+    },
+    "supportive_care": [
+      "Chải lông kỹ, có thể tắm nước ấm trước khi phun, tắm thuốc theo hướng dẫn",
+      "Giặt, phơi nắng chăn, dây buộc, vật dụng tiếp xúc với bò",
+      "Giảm mật độ nuôi nhốt, tăng thông thoáng chuồng",
+      "Bổ sung thức ăn đủ năng lượng, đạm, khoáng, vitamin để cải thiện thể trạng",
+      "Theo dõi lông da sau điều trị, xử lý lại nếu thấy chí - rận xuất hiện trở lại"
+    ],
+    "dose_policy": "Tuân thủ đúng liều, cách pha, khoảng cách lặp lại và thời gian ngưng thuốc ghi trên nhãn. Không pha đậm hơn để tránh kích ứng da và tồn dư thuốc."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn bò ngứa nhiều, rụng lông rõ nhưng vẫn ăn uống, đi lại bình thường.",
+      "guideline": "Điều trị đồng loạt cả đàn bằng thuốc diệt chí - rận, kết hợp vệ sinh chuồng, chải lông, cải thiện dinh dưỡng. Theo dõi trong vài tuần, xử lý nhắc lại theo hướng dẫn thuốc."
+    },
+    "case_type_2": {
+      "description": "Bê và bò tơ gầy, xấu mã, rụng lông nặng, da dày, nứt, có dấu hiệu suy nhược.",
+      "guideline": "Ngoài điều trị diệt chí - rận, cần thú y đánh giá thêm các bệnh kế phát, bổ sung dinh dưỡng, vitamin, khoáng và chăm sóc sát sao. Cân nhắc phân loại, chăm riêng những con yếu để hồi phục tốt hơn."
+    },
+    "note": "Chí - rận hiếm khi gây chết trực tiếp nhưng làm giảm năng suất nghiêm trọng nếu tồn tại kéo dài. Xử lý sớm giúp đàn khỏe, đẹp mã và tăng hiệu quả kinh tế."
+  },
+  "prevention": [
+    "Giữ chuồng trại khô, sạch, thoáng khí",
+    "Chải lông, quan sát da lông định kỳ, nhất là mùa lạnh",
+    "Hạn chế mua thêm bò không rõ tình trạng ký sinh trùng ngoài da",
+    "Khi nhập bò mới nên cách ly và kiểm tra, xử lý ký sinh trùng trước khi nhập đàn",
+    "Kết hợp tắm, phun thuốc phòng ký sinh trùng ngoài da định kỳ theo mùa"
+  ],
+  "notes": [
+    "Mùa lạnh là thời điểm chí - rận thường bùng lên mạnh nhất.",
+    "Đàn xấu mã, lông dựng, gầy nhưng vẫn ăn khá cần nghĩ tới ký sinh trùng ngoài da.",
+    "Chăm sóc da lông tốt là một phần quan trọng trong quản lý đàn bò thâm canh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

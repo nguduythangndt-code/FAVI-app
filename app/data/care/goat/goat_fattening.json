@@ -3,7 +3,8 @@
   "name": "Dê vỗ béo",
   "species": "goat",
   "group": "fattening",
-  "overview": "Cẩm nang vỗ béo dê thịt từ lúc bắt về trại đến trước khi xuất bán. Mục tiêu: dê tăng cân đều, lông mượt, không rối loạn tiêu hóa, không bùng bệnh do thay khẩu phần quá nhanh. Toàn bộ các bước đều dựa trên 3 trụ cột: chuồng trại sạch - khô - thoáng, khẩu phần tăng dần có kiểm soát, phát hiện sớm và khoanh vùng dê bệnh.",
+  "overview": "Vỗ béo dê là giai đoạn dễ lãi nhưng cũng dễ mất đàn nếu chăm sai nhịp. Rủi ro không nằm ở việc thiếu thức ăn, mà chủ yếu đến từ thay đổi quá nhanh: đổi chuồng, đổi thức ăn, đổi môi trường và can thiệp dồn dập trong thời gian ngắn.\n\nNhiều đàn dê sụt cân, bỏ ăn hoặc bùng bệnh ngay từ tuần đầu không phải do bệnh sẵn có, mà do stress và rối loạn tiêu hóa sau vận chuyển. Nếu vượt qua được giai đoạn đầu này một cách êm, phần còn lại của quá trình vỗ béo sẽ nhẹ hơn rất nhiều.\n\nMục tiêu của vỗ béo không phải là cho dê ăn thật nhiều, mà là giữ cho dê ăn đều, tiêu hóa ổn định, ít bệnh vặt và tăng trọng chắc. Toàn bộ các bước trong cẩm nang này tập trung vào việc giúp người nuôi tránh các sai lầm thường gặp và xử lý đúng ở từng thời điểm.",
+
   "sections": [
     {
       "id": "new_arrival",
@@ -67,16 +68,18 @@
         "[Không đổi thức ăn ồ ạt] Nếu muốn thêm phụ phẩm (cám rượu, bã đậu, bã bia…), phải trộn từ từ: vài ngày đầu lượng nhỏ, tăng dần; không thay toàn bộ cỏ/tinh bằng phụ phẩm một phát."
       ]
     },
-    {
+   {
   "id": "concentrate_feed_fattening",
   "title": "Thức ăn tinh cho dê vỗ béo",
-  "content": [
-    "Dê vỗ béo dùng thức ăn tinh là chủ lực để lên thịt, nhưng phải tăng cám có kiểm soát, không nhồi nhét 1 lần.",
-    "Giai đoạn mới nhập chuồng hoặc mới chuyển sang khẩu phần vỗ béo chỉ cho ăn ít cám, tăng dần từng bước theo phản ứng của đàn.",
-    "Chia cám thành nhiều cữ trong ngày, tránh cho ăn cám quá nhiều ở 1 cữ, đặc biệt là buổi tối khi khó kiểm soát chướng hơi.",
-    "Nếu thấy dê ợ hơi chua, bụng căng hơi, phân nhão hoặc nhày sau khi tăng cám thì dừng tăng, giảm bớt cám và tăng lại cỏ khô, lá xanh dễ tiêu.",
-    "Không dùng cám mốc, vón cục, có mùi khét hoặc mùi lạ; những lô cám nghi ngờ nên loại bỏ, không tiếc.",
-    "Dù vỗ béo, vẫn phải duy trì đủ xơ (cỏ khô, lá) để dê nhai lại tốt, không dùng khẩu phần chỉ toàn tinh bột."
+  "goal": "Tăng thịt hiệu quả nhưng không làm rối loạn dạ cỏ.",
+  "content": "Thức ăn tinh là yếu tố quan trọng giúp dê lên thịt nhanh trong giai đoạn vỗ béo. Tuy nhiên, nếu tăng cám không kiểm soát hoặc dùng nguồn kém chất lượng, dê rất dễ bị rối loạn tiêu hóa, chướng hơi và tụt đàn.",
+  "bullets": [
+    "Chỉ tăng cám từ từ, không nhồi nhét một lần; mỗi lần điều chỉnh cần theo dõi phản ứng ăn và phân của đàn.",
+    "Giai đoạn mới nhập chuồng hoặc mới chuyển sang khẩu phần vỗ béo chỉ cho ăn ít cám, sau đó tăng dần theo khả năng tiêu hóa.",
+    "Chia cám thành nhiều cữ trong ngày, tránh dồn nhiều cám vào một cữ, đặc biệt là buổi tối.",
+    "Nếu thấy dê ợ hơi chua, bụng căng, phân nhão hoặc nhầy sau khi tăng cám thì dừng tăng, giảm cám và tăng lại cỏ khô, lá xanh dễ tiêu.",
+    "Không sử dụng cám mốc, vón cục, có mùi khét hoặc mùi lạ; những lô cám nghi ngờ nên loại bỏ, không tiếc.",
+    "Dù vỗ béo, vẫn phải duy trì đủ chất xơ (cỏ khô, lá xanh) để dê nhai lại tốt; không dùng khẩu phần chỉ toàn tinh bột."
   ]
 },
     {
@@ -109,6 +112,20 @@
         "[Không lơ là vệ sinh] Dù đã gần đỉnh vỗ béo, vẫn phải giữ chuồng sạch, khu vực máng nước không bùn lầy, không để bệnh bùng lên vào phút cuối."
       ]
     },
+    {
+      "id": "related_diseases_by_stage",
+      "title": "Bệnh thường liên quan theo từng giai đoạn",
+      "goal": "Nhận diện đúng nhóm bệnh hay gặp ở từng giai đoạn vỗ béo để xử lý sớm, không để bùng dịch và hụt tăng trọng.",
+      "content": "Mỗi giai đoạn vỗ béo có những nguy cơ bệnh khác nhau. Nhận diện sớm giúp người nuôi chủ động theo dõi và tra cứu đúng hướng trong mục Bệnh.",
+      "bullets": [
+        "[Mới nhập về] Cảm lạnh, viêm phổi, rối loạn tiêu hóa do đổi môi trường và thức ăn.",
+        "[Ổn định thể trạng] Tiêu chảy dinh dưỡng, ký sinh trùng đường ruột.",
+        "[Tăng khẩu phần] Chướng hơi dạ cỏ, toan dạ cỏ, tiêu chảy do tăng tinh nhanh.",
+        "[Tăng cân mạnh] Viêm phổi tái phát, suy nhược ở dê nền yếu.",
+        "[Trước xuất bán] Bệnh cấp tính do stress vận chuyển hoặc gom đàn."
+      ]
+    },
+
     {
       "id": "pre_sale_trim",
       "title": "Chuẩn bị trước khi xuất bán",

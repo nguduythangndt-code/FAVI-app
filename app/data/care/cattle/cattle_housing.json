@@ -1,10 +1,61 @@
 {
   "id": "cattle_housing",
-  "name": "Chuồng trại bò",
+  "name": "Thức ăn & chuồng trại",
   "species": "cattle",
   "group": "housing",
-  "overview": "Cẩm nang xây dựng và quản lý chuồng trại cho bò thịt, bò sinh sản. Mục tiêu: không đọng nước, không trơn trượt, không kẹt chân, thông khí tốt, hạn chế bụi và khí độc, bò nằm - đứng - ăn - uống thoải mái, dễ vệ sinh mỗi ngày. Chuồng trại là nền tảng ẩn quyết định năng suất tăng trọng lẫn an toàn đẻ.",
+  "overview": "Chuồng trại và thức ăn là nền sống quyết định trực tiếp sức khỏe, năng suất và khả năng chống chịu bệnh của đàn bò.\n\n Bò có thể chịu thiếu ăn ngắn ngày, nhưng rất nhạy với nền chuồng ẩm bẩn, khí độc, trơn trượt và khẩu phần thay đổi thất thường.\n\nNhiều bệnh hô hấp, tiêu hóa, viêm móng, suy nhược kéo dài không bắt đầu từ mầm bệnh nguy hiểm, mà từ chuồng ẩm, bí, nền bẩn, nước uống kém và cách sử dụng thức ăn không phù hợp với điều kiện nuôi. Khi môi trường và khẩu phần không ổn định, mọi can thiệp bằng thuốc và bổ sung chỉ mang tính đối phó, khó cho hiệu quả bền.\n\nỞ bò, hiệu quả của khẩu phần chỉ thực sự phát huy khi được đặt trên nền chuồng khô ráo, thoáng khí, ít dao động nhiệt và mật độ phù hợp. Chuồng trại tốt giúp bò ăn khỏe, nằm nghỉ thoải mái, nhai lại đều; đó là nền tảng cho tăng trọng, sinh sản và sức đề kháng.\n\nMục tiêu của quản lý chuồng trại và thức ăn không phải là đạt “chuẩn đẹp” trên giấy, mà là tạo ra một môi trường ổn định, dễ làm sạch, dễ quan sát và ít gây stress cho đàn bò.\n\n Nội dung trong cẩm nang này giúp người nuôi coi chuồng trại và cách cho ăn là công cụ phòng bệnh chủ động, chứ không chỉ là nơi nhốt bò.",
   "sections": [
+    {
+  "id": "part_1_feeding_header",
+  "title": "PHẦN 1 - THỨC ĂN & MỐI LIÊN HỆ VỚI CHUỒNG TRẠI",
+  "goal": "Ở bò, hiệu quả của thức ăn phụ thuộc trực tiếp vào môi trường sống. Thức ăn tốt nhưng chuồng ẩm, bí hoặc mật độ cao vẫn dẫn đến rối loạn tiêu hóa, giảm tăng trọng và suy nhược kéo dài.",
+  "content": "Phần này tập trung vào tư duy nền khi quản lý thức ăn cho bò trong điều kiện chuồng trại thực tế. Người nuôi nên hiểu mối liên hệ này trước khi điều chỉnh khẩu phần hoặc xử lý các vấn đề tiêu hóa.",
+  "bullets": []
+},
+{
+  "id": "feeding_intro",
+  "title": "Thức ăn và nền tiêu hóa của bò",
+  "goal": "Đặt thức ăn trong đúng bối cảnh môi trường nuôi của bò.",
+  "content": "Ở bò, tiêu hóa không chỉ phụ thuộc vào khẩu phần mà còn phụ thuộc rất lớn vào nền chuồng, độ ẩm, nhiệt độ và mức độ vận động. Cùng một khẩu phần, nhưng trong chuồng ẩm hoặc quá nóng, khả năng tiêu hóa và chuyển hóa sẽ giảm rõ rệt.",
+  "bullets": [
+    "Bò khỏe thường ăn theo nhịp đều, nhai lại ổn định, phân khuôn rõ.",
+    "Bò suy thường bắt đầu bằng ăn chậm, nhai lại kém, phân nát hoặc mùi nặng.",
+    "Không thể dùng tăng thức ăn để bù cho một môi trường chuồng trại kém.",
+    "Mọi đánh giá về thức ăn cần đặt trong bối cảnh bò đang sống như thế nào."
+  ]
+},
+{
+  "id": "feeding_stability",
+  "title": "Ổn định thức ăn theo điều kiện chuồng trại",
+  "goal": "Giảm rủi ro sập tiêu hóa và stress nền do thay đổi thức ăn thiếu kiểm soát.",
+  "content": "Thức ăn cho bò cần ổn định theo nền chuồng. Khi chuồng ẩm, nóng hoặc mật độ cao, khả năng tiêu hóa giảm, mọi thay đổi khẩu phần đều trở nên rủi ro hơn.",
+  "bullets": [
+    "Không tăng mạnh tinh khi chuồng đang ẩm hoặc bò bị nóng kéo dài.",
+    "Không đổi nhiều nguồn thức ăn cùng lúc khi chưa cải thiện điều kiện chuồng.",
+    "Thức ăn ủ, phụ phẩm cần được quản lý chặt trong điều kiện chuồng nóng ẩm.",
+    "Chuồng càng ổn định, biên độ điều chỉnh thức ăn càng an toàn."
+  ]
+},
+{
+  "id": "water_and_digestive_health",
+  "title": "Nước uống và sức khỏe tiêu hóa bò",
+  "goal": "Giữ tiêu hóa và khả năng ăn ổn định thông qua nước uống sạch.",
+  "content": "Nước uống có vai trò trực tiếp đến lượng ăn, nhai lại và chuyển hóa. Trong chuồng nóng hoặc ẩm, bò càng nhạy cảm với nước bẩn hoặc thiếu nước.",
+  "bullets": [
+    "Thiếu nước làm bò giảm ăn rất nhanh.",
+    "Nước bẩn làm tăng nguy cơ tiêu chảy và ký sinh.",
+    "Khi thay đổi nguồn nước cần theo dõi phân và nhịp ăn vài ngày đầu.",
+    "Máng nước cần đặt ở vị trí bò tiếp cận dễ dàng, không trơn trượt."
+  ]
+},
+{
+  "id": "part_2_housing_header",
+  "title": "PHẦN 2 - CHUỒNG TRẠI & MÔI TRƯỜNG SỐNG",
+  "goal": "Chuồng trại quyết định mức độ stress, nguy cơ chấn thương và nền bệnh hô hấp – tiêu hóa của đàn bò. Một chuồng sai thiết kế hoặc khó vệ sinh sẽ âm thầm bào mòn sức khỏe đàn bò dù khẩu phần đang được quản lý tốt.",
+  "content": "Phần này tập trung vào các nguyên tắc nền khi chọn vị trí, thiết kế và vận hành chuồng bò: từ mặt bằng, nền – sàn, mái – vách, thoát nước cho đến mật độ và lịch vệ sinh. Chuồng trại không chỉ là nơi che mưa nắng, mà là môi trường sống tác động liên tục lên nhịp ăn, nhịp nghỉ, móng chân và hệ hô hấp của bò.\n\nNgười nuôi nên đọc kỹ phần này trước khi xây mới, cải tạo hoặc tăng đàn, đặc biệt trong các giai đoạn thời tiết cực đoan hoặc khi trại bắt đầu xuất hiện nhiều ca bệnh lặp lại.",
+  "bullets": []
+},
+
     {
       "id": "site_selection",
       "title": "Chọn vị trí và mặt bằng",

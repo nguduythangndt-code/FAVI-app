@@ -1,0 +1,106 @@
+{
+  "name": "Uốn ván (Tetanus)",
+
+  "summary": "Bệnh do độc tố Clostridium tetani sau vết thương sâu. Dê cứng cơ, kẹt hàm, tiến triển nhanh và tỉ lệ chết cao nếu không xử lý sớm.",
+
+  "causes": [
+    "Clostridium tetani xâm nhập qua vết thương, thiến, cắt đuôi, đạp đinh",
+    "Độc tố gây co cứng cơ toàn thân"
+  ],
+
+  "risk_factors": [
+    "Vết thương sâu bẩn",
+    "Thiến/cắt sừng không sát trùng",
+    "Chuồng nền đất bẩn, nhiều đinh, gai",
+    "Không tiêm phòng uốn ván"
+  ],
+
+  "clinical_signs_detailed": [
+    "Cứng cơ, đi như robot",
+    "Kẹt hàm, khó nhai",
+    "Tai dựng, đuôi dựng",
+    "Nhạy tiếng động, giật mình",
+    "Ngã cứng người",
+    "Co giật khi bị kích thích",
+    "Thở khó do co cơ ngực",
+    "Không uống được nước",
+    "Có thể chết do suy hô hấp"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Cứng nhẹ, đi chậm",
+      "Ăn giảm"
+    ],
+    "moderate": [
+      "Cứng rõ, kẹt hàm",
+      "Giật mình mạnh"
+    ],
+    "severe": [
+      "Co giật liên tục",
+      "Ngã cứng người",
+      "Khó thở, dễ chết"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Penicillin",
+      "kháng độc tố uốn ván (nếu có)"
+    ],
+    "alternative_drugs": [
+      "Metronidazole"
+    ],
+"note_drugs": "Kháng độc tố (nếu có) + kháng sinh phải dùng càng sớm càng tốt. Môi trường yên tĩnh quyết định sống còn vì dê rất nhạy kích thích.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Meloxicam"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "B-complex",
+        "alternative": ["vitamin tổng hợp"]
+      }
+    },
+
+    "supportive_care": [
+      "Đưa vào nơi tối yên tĩnh, hạn chế kích thích",
+      "Xử lý sạch vết thương, sát trùng sâu",
+      "Bù nước, trợ sức",
+      "Giữ ấm"
+    ],
+
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": [
+      "Ưu tiên kháng sinh + kháng độc tố càng sớm càng tốt",
+      "Giữ tuyệt đối yên tĩnh",
+      "Trợ sức liên tục"
+    ],
+    "case_type_2": [
+      "Nếu khó thở nặng: gọi thú y ngay",
+      "Không ép đứng dậy vì dễ co giật"
+    ],
+    "note": "Thời gian vàng là khi mới cứng nhẹ. Trễ là rất khó cứu."
+  },
+
+  "prevention_list": [
+    "Tiêm phòng uốn ván",
+    "Thiến/cắt sừng đúng vệ sinh",
+    "Chuồng sạch, tránh vật nhọn",
+    "Xử lý vết thương sớm"
+  ],
+
+  "notes": [
+    "Bệnh không lây nhưng chết cao nếu xử lý muộn."
+  ],
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+}

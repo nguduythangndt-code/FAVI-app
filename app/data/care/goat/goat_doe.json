@@ -3,7 +3,7 @@
   "name": "Dê mẹ sinh sản",
   "species": "goat",
   "group": "doe",
-  "overview": "Cẩm nang chăm sóc dê cái sinh sản từ trước phối giống, trong thời kỳ mang thai cho đến sau sinh và nuôi con. Mục tiêu: phối đậu cao, thai phát triển tốt, đẻ thuận, ít biến chứng, sữa đủ và chất, dê mẹ không suy kiệt, không viêm vú, không bại chân do thiếu khoáng cuối thai kỳ.",
+  "overview": "Dê mẹ sinh sản là nhóm nhạy cảm nhất trong toàn đàn vì mọi sai lệch nhỏ đều để lại hậu quả kéo dài: không chỉ mất một lứa con, mà còn ảnh hưởng đến sức sinh sản về sau, khả năng tiết sữa và độ bền của con mẹ.\n\n Phần lớn rủi ro không đến từ bệnh một cách đột ngột, mà đến từ chăm sóc thiếu ổn định, can thiệp sớm hoặc đánh giá sai giai đoạn sinh lý.\n\n Sai lầm thường gặp là chỉ chú ý khi dê đã mang thai rõ, trong khi giai đoạn trước phối và đầu thai mới là nơi dễ “đổ vỡ” nhất.\n\n Nhiều trường hợp sảy thai, ít sữa, chết con non không phải do bệnh cụ thể, mà do thay đổi thức ăn, stress, chuồng ẩm, hoặc chăm sóc theo kinh nghiệm cũ không còn phù hợp với thể trạng hiện tại của dê.\n\nTư duy đúng khi chăm sóc dê mẹ là: ổn định trước - quan sát kỹ - can thiệp có chọn lọc. Mỗi giai đoạn sinh sản đòi hỏi cách nhìn khác nhau; làm đúng chưa chắc thấy kết quả ngay, nhưng làm sai thường trả giá rất nhanh.\n\n Phần nội dung dưới đây giúp nhận diện sớm các vấn đề có thể phát sinh theo từng giai đoạn để người nuôi biết lúc nào cần cảnh giác và chuyển sang kiểm tra bệnh.",
   "sections": [
     {
       "id": "pre_breeding_conditioning",
@@ -142,7 +142,22 @@
         "[Điều chỉnh khẩu phần dê mẹ] Sau khi cai, hạ tinh về mức duy trì, xơ vẫn đầy đủ để dê mẹ phục hồi cơ và mỡ dự trữ, chuẩn bị cho chu kỳ sinh sản tiếp theo.",
         "[Gộp đàn hợp lý] Khi cai sữa xong, có thể điều chỉnh ô chuồng, gộp đàn lại nhưng tránh nhồi quá đông hoặc ghép ngay với những con quá hung dữ."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện sớm các vấn đề sức khỏe hay gặp ở dê mẹ theo từng giai đoạn sinh sản để chủ động theo dõi, xử lý kịp thời và bảo vệ cả dê mẹ lẫn dê con.",
+  "content": "Trong suốt chu kỳ sinh sản, dê mẹ trải qua nhiều giai đoạn sinh lý khác nhau. Mỗi giai đoạn mang theo những nguy cơ bệnh đặc trưng. Việc nhận diện đúng thời điểm giúp người nuôi không xử lý mù mờ mà tra cứu đúng nhóm bệnh trong mục Bệnh hoặc Quicksearch.",
+  "bullets": [
+    "[Trước phối giống] Rối loạn thể trạng, động dục yếu, suy nhược do dinh dưỡng không cân đối.",
+    "[Mang thai sớm] Sảy thai sớm, rối loạn sinh lý do stress, thay đổi thức ăn hoặc vận chuyển.",
+    "[Mang thai giữa] Rối loạn tiêu hóa, chướng hơi, vấn đề chuyển hóa ảnh hưởng sự phát triển thai.",
+    "[Mang thai cuối] Tai biến thai kỳ, suy nhược, nguy cơ khó đẻ do thai lớn hoặc thể trạng yếu.",
+    "[Sau sinh sớm] Viêm vú, ít hoặc mất sữa, nhiễm trùng sau sinh.",
+    "[Nuôi con] Suy kiệt dê mẹ, giảm sữa kéo dài, dê con chậm lớn do sữa kém."
+  ]
+}
+
   ],
   "notes": [
     "Dê mẹ sinh sản là hạt nhân của đàn, sai 1 lứa sẽ kéo dài nhiều tháng. Luôn ưu tiên bảo vệ sức khỏe lâu dài thay vì chạy theo sản lượng ngắn hạn.",

@@ -1,0 +1,105 @@
+{
+  "id": "salpingitis",
+  "name": "Viêm ống dẫn trứng",
+  "species": "chicken",
+  "group": "reproductive",
+  "summary": "Vi khuẩn xâm nhập và gây viêm ống dẫn trứng, làm gà giảm đẻ, trứng méo, vỏ xấu hoặc không đẻ được.",
+  "causes": [
+    "Nhiễm khuẩn từ cloaca đi ngược lên ống dẫn trứng",
+    "Vi khuẩn E. coli, Salmonella, các vi khuẩn cơ hội khác",
+    "Tổn thương niêm mạc do trứng lớn, vỏ sần, hoặc các bệnh sinh sản khác"
+  ],
+  "risk_factors": [
+    "Chuồng bẩn, chất độn chuồng ẩm, phân dính quanh hậu môn",
+    "Gà đẻ nhiều, trứng lớn, dễ tổn thương đường sinh sản",
+    "Khẩu phần thiếu khoáng và vitamin làm vỏ trứng không bình thường",
+    "Không vệ sinh máng đẻ, ổ đẻ, trứng bẩn"
+  ],
+  "clinical_signs_detailed": [
+    "Giảm đẻ rõ, trứng méo, vỏ nhăn, mỏng hoặc không đều",
+    "Lông vùng hậu môn bẩn, dính phân hoặc dịch",
+    "Gà ủ rũ, kém linh hoạt, ăn giảm, gầy dần",
+    "Có thể có trứng dị dạng, trứng không vỏ, trứng có máu",
+    "Trường hợp nặng: bụng to nhẹ, có dịch, gà suy yếu"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm đẻ nhẹ, một số trứng vỏ hơi xấu",
+      "Gà vẫn ăn uống tương đối, khó nhận nếu không ghi chép sản lượng"
+    ],
+    "moderate": [
+      "Giảm đẻ rõ, nhiều trứng méo, vỏ mỏng, trứng không vỏ",
+      "Gà kém linh hoạt, lông vùng hậu môn bẩn hơn",
+      "Gầy dần, thể trạng xấu"
+    ],
+    "severe": [
+      "Gần như bỏ đẻ, bụng có thể to nhẹ do dịch hoặc trứng bất thường",
+      "Gà rất suy, ăn ít, đi lại chậm",
+      "Có thể chết nếu nhiễm trùng lan rộng"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "amoxicillin",
+      "florfenicol"
+    ],
+    "alternative_drugs": [
+      "enrofloxacin",
+      "oxytetracycline"
+    ],
+    "note_drugs": "Điều trị viêm ống dẫn trứng cần kháng sinh đủ liệu trình và chăm sóc môi trường sạch. Khả năng gà trở lại sản lượng như cũ thường không cao, nhất là đàn đẻ lâu năm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "điện giải giúp gà suy đỡ mệt",
+        "alternative": "điện giải kèm vitamin C vài ngày đầu"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, ưu tiên A, D, E, khoáng",
+        "alternative": "vitamin nhóm B hỗ trợ ăn và chuyển hóa"
+      },
+      "digestive_support": {
+        "main": "khẩu phần dễ tiêu, chất lượng tốt",
+        "alternative": "men vi sinh hỗ trợ đường ruột khi dùng kháng sinh"
+      }
+    },
+    "supportive_care": [
+      "Giữ ổ đẻ sạch, khô, thay lót thường xuyên",
+      "Vệ sinh vùng hậu môn nếu gà bẩn nhiều, tránh viêm kéo dài",
+      "Giảm mật độ, giảm stress để gà có sức hồi phục",
+      "Theo dõi phản ứng điều trị qua sản lượng và thể trạng",
+      "Cân nhắc loại thải những con không còn khả năng đẻ tốt"
+    ],
+    "dose_policy": "Kháng sinh phải dùng theo tư vấn hoặc liều trên nhãn, không tự giảm hoặc ngừng sớm khi thấy gà hơi đỡ, vì dễ tái phát."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn đẻ thương phẩm giảm đẻ mạnh, nhiều trứng xấu nghi do viêm ống dẫn trứng.",
+      "guideline": "Áp dụng phác đồ kháng sinh cho cả đàn hoặc nhóm bị ảnh hưởng rõ. Cải thiện vệ sinh ổ đẻ, nền chuồng và dinh dưỡng. Theo dõi, nếu không cải thiện, cân nhắc điều chỉnh kế hoạch loại thải đàn."
+    },
+    "case_type_2": {
+      "description": "Gà giống hoặc gà cảnh giá trị có viêm ống dẫn trứng nặng.",
+      "guideline": "Điều trị tích cực cho từng con, chăm riêng, kiểm soát dinh dưỡng, khoáng và vitamin. Cân nhắc mục tiêu giữ giống với khả năng sinh sản thực tế sau điều trị."
+    },
+    "note": "Viêm ống dẫn trứng là bệnh dễ tái phát nếu môi trường và khẩu phần không được chỉnh sửa triệt để."
+  },
+  "prevention": [
+    "Giữ ổ đẻ, nền chuồng, khu hậu môn của gà sạch sẽ",
+    "Bổ sung khoáng, canxi, vitamin D để vỏ trứng khỏe, ít trứng méo",
+    "Không để gà quá béo hoặc quá gầy",
+    "Giảm stress, tránh bắt bế, víu gà quá nhiều trong giai đoạn đẻ",
+    "Theo dõi chất lượng trứng hằng ngày để phát hiện sớm bất thường"
+  ],
+  "notes": [
+    "Trứng xấu kéo dài là tín hiệu để xem lại sức khỏe đường sinh sản và khẩu phần.",
+    "Kết hợp quan sát trứng, thể trạng và vệ sinh hậu môn để đánh giá tình hình."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

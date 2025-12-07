@@ -1,0 +1,109 @@
+{
+  "id": "mycoplasma",
+  "name": "Viêm phổi địa phương (Mycoplasma)",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Mycoplasma gây ho kéo dài, tăng trưởng chậm, thở khò khè nhưng ít chết. Bùng lên khi thời tiết thay đổi.",
+  "causes": [
+    "Vi khuẩn Mycoplasma hyopneumoniae",
+    "Lây qua không khí, heo ho phát tán mầm bệnh",
+    "Chuồng bí khí, ẩm hoặc thay đổi nhiệt độ"
+  ],
+  "risk_factors": [
+    "Nuôi dày",
+    "Thiếu thông gió",
+    "Trộn đàn nhiều lứa tuổi",
+    "Thời tiết thay đổi đột ngột"
+  ],
+  "clinical_signs_detailed": [
+    "Ho kéo dài nhiều tuần",
+    "Thở khò khè nhẹ",
+    "Ăn giảm, tăng trọng kém",
+    "Đầu trễ, hoạt động ít",
+    "Một số con sốt nhẹ"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ",
+      "Ăn vẫn khá"
+    ],
+    "moderate": [
+      "Ho nhiều hơn khi thay đổi nhiệt độ",
+      "Thở khò khè rõ",
+      "Lớn chậm"
+    ],
+    "severe": [
+      "Heo gầy, ho liên tục",
+      "Thở bụng nhẹ",
+      "Tụt trọng kéo dài"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Tylosin",
+      "Doxycycline"
+    ],
+    "alternative_drugs": [
+      "Florfenicol",
+      "Enrofloxacin"
+    ],
+    "note_drugs": "Tylosin và Doxycycline thấm phổi tốt, rất phù hợp cho Mycoplasma.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ chuồng khô và thoáng",
+      "Giảm bụi chuồng",
+      "Ổn định nhiệt độ ngày đêm"
+    ],
+    "dose_policy": "Dùng đúng liều theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho nhiều nhưng còn ăn.",
+      "guideline": [
+        "Dùng Tylosin hoặc Doxycycline",
+        "Bổ sung vitamin",
+        "Ổn định nhiệt độ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo gầy, ho kéo dài nhiều tuần.",
+      "guideline": [
+        "Điều trị nhắc lại theo phác đồ",
+        "Tách nuôi riêng heo yếu",
+        "Đánh giá lại mật độ và thông khí trại"
+      ]
+    },
+    "note": "Mycoplasma ít gây chết nhưng làm chậm lớn mạnh."
+  },
+  "prevention": [
+    "Tiêm phòng Mycoplasma",
+    "Giảm bụi",
+    "Giảm trộn đàn nhiều lứa tuổi"
+  ],
+  "notes": [
+    "Ho dai dẳng nhiều tuần là đặc trưng của Mycoplasma.",
+    "Ghép nhiễm với PRRS hoặc PCV2 sẽ nặng hơn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

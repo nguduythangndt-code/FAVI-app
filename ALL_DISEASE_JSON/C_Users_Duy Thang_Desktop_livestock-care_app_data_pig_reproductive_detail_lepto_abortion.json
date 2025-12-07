@@ -1,0 +1,107 @@
+{
+  "id": "lepto_abortion",
+  "name": "Leptospira gây sảy thai",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Leptospira gây sảy thai đồng loạt, sốt, vàng da và nước tiểu sẫm màu. Bệnh lây nhanh qua nước bẩn.",
+  "causes": [
+    "Vi khuẩn Leptospira từ nước bẩn, ao tù",
+    "Lây qua nước tiểu, dịch tiết sinh dục",
+    "Nhiễm từ chuột trong khu chăn nuôi"
+  ],
+  "risk_factors": [
+    "Nguồn nước uống không sạch",
+    "Chuồng ẩm ướt",
+    "Chuột phá hoại",
+    "Không tiêm phòng Lepto cho đàn nái"
+  ],
+  "clinical_signs_detailed": [
+    "Sảy thai hàng loạt",
+    "Sốt, da hơi vàng",
+    "Nước tiểu vàng nâu",
+    "Heo mệt, bỏ ăn",
+    "Heo con sinh ra yếu hoặc chết"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn giảm nhẹ",
+      "Sốt nhẹ"
+    ],
+    "moderate": [
+      "Da vàng nhẹ",
+      "Tiểu sẫm màu"
+    ],
+    "severe": [
+      "Sảy thai hàng loạt",
+      "Nái suy yếu",
+      "Heo con chết cao"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Streptomycin"
+    ],
+    "alternative_drugs": [
+      "Penicillin",
+      "Tylosin"
+    ],
+    "note_drugs": "Streptomycin hiệu quả tốt với Lepto. Khi thiếu, có thể dùng Penicillin.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Tăng nước uống sạch",
+      "Kiểm soát chuột quanh trại",
+      "Sát trùng chuồng lặp lại"
+    ],
+    "dose_policy": "Theo liều ghi trên sản phẩm hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Có biểu hiện vàng nhẹ, ăn giảm.",
+      "guideline": [
+        "Dùng Streptomycin",
+        "Bù nước",
+        "Theo dõi nước tiểu"
+      ]
+    },
+    "case_type_2": {
+      "description": "Vàng rõ, sảy thai nhiều.",
+      "guideline": [
+        "Điều trị tích cực",
+        "Cách ly đàn nái",
+        "Tiêm phòng bổ sung đàn khỏe"
+      ]
+    },
+    "note": "Lepto rất dễ lây qua nước, cần xử lý khu vực ẩm ngay."
+  },
+  "prevention": [
+    "Tiêm phòng Leptospira định kỳ",
+    "Giữ nguồn nước uống sạch",
+    "Bịt kín lỗ chuột"
+  ],
+  "notes": [
+    "Lepto có thể lây sang người.",
+    "Mùa mưa nguy cơ bùng phát cao."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

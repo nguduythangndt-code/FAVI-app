@@ -1,0 +1,107 @@
+{
+  "id": "liver_fluke",
+  "name": "Sán lá",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Sán lá ký sinh ở gan và đường mật, làm gan hư hại, heo gầy, lông xấu, niêm mạc nhợt và chậm lớn.",
+  "causes": [
+    "Nhiễm ấu trùng sán lá qua cỏ, nước ao tù",
+    "Vòng đời liên quan đến ốc nước ngọt",
+    "Heo uống nước hoặc ăn cỏ vùng trũng nhiễm ấu trùng"
+  ],
+  "risk_factors": [
+    "Nuôi heo gần ao hồ, đầm lầy",
+    "Dùng nước ao, mương để cho heo uống",
+    "Heo ăn cỏ xanh cắt từ vùng trũng không kiểm soát",
+    "Không tẩy sán định kỳ"
+  ],
+  "clinical_signs_detailed": [
+    "Gầy kéo dài, lông xấu",
+    "Niêm mạc nhợt, có thể vàng nhẹ",
+    "Ăn giảm, mệt nhiều",
+    "Bụng hơi to, sờ vùng gan có thể đau",
+    "Một số con tiêu chảy nhẹ từng đợt"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ăn giảm nhẹ",
+      "Lông bớt bóng"
+    ],
+    "moderate": [
+      "Gầy rõ, lông xỉu",
+      "Niêm mạc nhợt"
+    ],
+    "severe": [
+      "Yếu, mệt nhiều",
+      "Có thể vàng da nhẹ",
+      "Chậm lớn nặng"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Triclabendazole"
+    ],
+    "alternative_drugs": [
+      "Closantel"
+    ],
+    "note_drugs": "Triclabendazole được ưu tiên cho sán lá gan. Closantel có thể dùng thay thế tùy điều kiện thuốc.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ khẩu phần dễ tiêu, không quá nhiều mỡ",
+      "Cho uống đủ nước sạch",
+      "Giảm stress, không dồn đuổi heo yếu"
+    ],
+    "dose_policy": "Dùng theo nhãn thuốc hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo gầy, mệt nhưng vẫn còn ăn.",
+      "guideline": [
+        "Dùng Triclabendazole",
+        "Tăng vitamin và men tiêu hoá",
+        "Theo dõi cân nặng mỗi tuần"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo rất gầy, niêm mạc nhợt, nghi gan tổn thương nặng.",
+      "guideline": [
+        "Giữ nơi nằm yên tĩnh, giảm stress",
+        "Hỗ trợ dinh dưỡng nhẹ, chia thành nhiều bữa",
+        "Đánh giá khả năng hồi phục để quyết định giữ hay loại thải"
+      ]
+    },
+    "note": "Sán lá thường gây tổn thương gan kéo dài, hồi phục chậm."
+  },
+  "prevention": [
+    "Không dùng nước ao tù cho heo uống",
+    "Hạn chế cho heo ăn cỏ từ vùng trũng ẩm",
+    "Tẩy sán định kỳ nếu nuôi gần vùng có nguy cơ",
+    "Quản lý nước thải và khu vực ẩm quanh chuồng"
+  ],
+  "notes": [
+    "Thường thấy gan heo tổn thương khi giết mổ.",
+    "Heo nhiễm sán lá thường chậm lớn dù khẩu phần bình thường."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

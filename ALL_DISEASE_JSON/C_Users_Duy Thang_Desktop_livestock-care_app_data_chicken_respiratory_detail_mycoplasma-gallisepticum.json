@@ -1,0 +1,108 @@
+{
+  "id": "mycoplasma-gallisepticum",
+  "name": "CRD - Mycoplasma",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Bệnh hô hấp mạn tính thường gặp, tiến triển chậm, hay kết hợp với các bệnh virus hô hấp khác, làm đàn gà ho khò khè kéo dài, chậm lớn, giảm đẻ.",
+  "causes": [
+    "Nhiễm Mycoplasma gallisepticum",
+    "Lây qua không khí, bụi, dịch tiết mũi, truyền qua trứng có thể xảy ra",
+    "Hay bùng phát sau stress hoặc bệnh virus hô hấp"
+  ],
+  "risk_factors": [
+    "Nuôi mật độ cao, chuồng bí, nhiều bụi và khí độc",
+    "Nhập giống mang mầm Mycoplasma nhưng không được kiểm soát",
+    "Không sát trùng định kỳ, ít cắt đứt vòng lây truyền",
+    "Đàn thường xuyên bị stress (thay đổi thức ăn, nhiệt độ, vận chuyển)"
+  ],
+  "clinical_signs_detailed": [
+    "Ho kéo dài, khò khè, chảy nước mũi, hắt hơi",
+    "Thở nặng, có tiếng rít, đặc biệt khi trời lạnh - ẩm",
+    "Sưng nhẹ quanh mắt, xoang, có thể chảy bọt ở khoé mắt",
+    "Gà chậm lớn, gầy, lông xấu, tiêu tốn thức ăn tăng",
+    "Gà đẻ giảm sản lượng, trứng vỏ mỏng, chất lượng kém",
+    "Khi bội nhiễm E. coli, bệnh nặng hơn, tỷ lệ chết tăng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho, hắt hơi lác đác, nghe khò khè nhẹ khi lại gần",
+      "Giảm ăn nhẹ nhưng đàn vẫn hoạt động",
+      "Ít con sưng mắt, chảy nước mũi"
+    ],
+    "moderate": [
+      "Khò khè rõ, thở nặng, kém linh hoạt",
+      "Giảm ăn, giảm tăng trọng, gầy dần",
+      "Đàn đẻ giảm sản lượng, trứng kém chất lượng",
+      "Một số con sưng xoang, viêm mắt"
+    ],
+    "severe": [
+      "Thở khó, vươn cổ, há mỏ, nằm nhiều",
+      "Gầy, suy kiệt, một số con chết do bội nhiễm",
+      "Nếu không xử lý, đàn kéo dài bệnh, khó hồi phục năng suất"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "tilmicosin",
+      "tylosin"
+    ],
+    "alternative_drugs": [
+      "doxycycline",
+      "enrofloxacin"
+    ],
+    "note_drugs": "Ưu tiên nhóm macrolid (tilmicosin, tylosin) hoặc doxycycline cho Mycoplasma. Không lạm dụng fluoroquinolone kéo dài vì dễ gây kháng thuốc và phải tuân thủ thời gian ngừng thuốc nghiêm ngặt.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "chế phẩm hỗ trợ hô hấp chứa tinh dầu, menthol"
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước, dùng liên tục 3-5 ngày",
+        "alternative": "điện giải kết hợp chất giải độc gan thận"
+      },
+      "vitamin": {
+        "main": "vitamin ADE + B-complex cho cả đàn",
+        "alternative": "vitamin C liều hỗ trợ trong giai đoạn stress"
+      },
+      "digestive_support": {
+        "main": "men vi sinh, men tiêu hoá để giữ đường ruột ổn định",
+        "alternative": "chế phẩm trợ tiêu hoá nếu đàn có hiện tượng phân xấu do dùng kháng sinh"
+      }
+    },
+    "supportive_care": [
+      "Giảm mật độ nuôi, cải thiện thông gió, hạn chế bụi chuồng",
+      "Giữ nền chuồng khô, sạch, tránh ẩm ướt kéo dài",
+      "Loại thải dần những con suy kiệt, quá gầy, khó hồi phục",
+      "Lập kế hoạch phác đồ điều trị đủ dài (theo tư vấn thú y) để tránh tái phát nhanh",
+      "Sau đợt điều trị, tăng cường vitamin và dinh dưỡng để đàn hồi phục"
+    ],
+    "dose_policy": "Tuân thủ đúng liều, thời gian điều trị và thời gian ngừng thuốc theo hướng dẫn trên nhãn hoặc thú y. Không tự ý rút ngắn hoặc kéo dài hơn khuyến cáo."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà thịt lớn, CRD lan toàn đàn, khò khè kéo dài, hao tốn cám.",
+      "guideline": "Chọn một phác đồ kháng sinh phù hợp (ví dụ tylosin + bromhexine) và duy trì đủ liệu trình. Giảm mật độ, cải thiện môi trường, bổ sung men tiêu hoá và vitamin để hạn chế sút cân. Đánh giá khả năng kinh tế: nếu đàn quá gầy, bệnh kéo dài khó dứt, cân nhắc xuất bán sớm ở mức chấp nhận được."
+    },
+    "case_type_2": {
+      "description": "Đàn gà giống hoặc gà đẻ có giá trị cao, bị CRD nặng.",
+      "guideline": "Điều trị tích cực: phác đồ kháng sinh phù hợp với Mycoplasma, kết hợp hỗ trợ hô hấp, vitamin, điện giải. Tách riêng những con bệnh nặng, theo dõi sát khả năng phục hồi. Sau đợt bệnh, đánh giá lại khả năng sinh sản của đàn, loại bỏ những cá thể kém để tránh kéo dài thiệt hại."
+    },
+    "note": "CRD là bệnh mạn tính, yếu tố môi trường quyết định rất lớn. Nếu chỉ dùng thuốc mà bỏ qua cải thiện chuồng trại thì bệnh rất dễ tái phát."
+  },
+  "prevention": [
+    "Mua giống từ trại có kiểm soát Mycoplasma, có chứng nhận rõ ràng",
+    "Giữ chuồng thông thoáng, ít bụi, không nuôi quá dày",
+    "Sát trùng định kỳ, dọn phân, thay chất độn chuồng bẩn",
+    "Hạn chế trộn lẫn nhiều lứa tuổi trong cùng một khu",
+    "Giảm tối đa các đợt stress mạnh (vận chuyển, thay đổi đột ngột điều kiện nuôi)"
+  ],
+  "notes": [
+    "CRD thường đi kèm với IB, Newcastle, E. coli nên triệu chứng có thể chồng lấp.",
+    "Quản lý nguồn giống và môi trường là hai yếu tố cốt lõi để giảm nguy cơ bùng phát CRD."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

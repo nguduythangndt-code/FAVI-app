@@ -1,0 +1,59 @@
+{
+  "name": "Tụ huyết trùng gà (Fowl cholera)",
+  "summary": "Bệnh do Pasteurella multocida gây sốt cao, khó thở và chết nhanh, lây mạnh trong đàn.",
+  "causes": [
+    "Vi khuẩn Pasteurella multocida",
+    "Lây qua phân, nước uống, chuồng trại bẩn"
+  ],
+  "risk_factors": [
+    "Chuồng ẩm bẩn, gió lùa",
+    "Mật độ cao",
+    "Đàn chưa tiêm phòng"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt, bỏ ăn",
+    "Thở nhanh, há miệng",
+    "Mào tím, niêm mạc tái",
+    "Tiêu chảy xanh nhớt",
+    "Chết đột ngột"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Ăn giảm, sốt nhẹ"],
+    "moderate": ["Khó thở, tiêu chảy", "Mào tím"],
+    "severe": ["Chết nhanh hàng loạt"]
+  },
+  "treatment": {
+    "primary_drugs": ["Oxytetracycline", "Sulfadimethoxine"],
+    "alternative_drugs": ["Amoxicillin", "Florfenicol"],
+    "note_drugs": "Tụ huyết trùng đáp ứng tốt nhóm tetracycline hoặc sulfa nếu dùng sớm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": { "main": "Meloxicam", "alternative": [] },
+      "electrolyte": { "main": "ORS", "alternative": [] },
+      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+    },
+    "supportive_care": [
+      "Cách ly đàn bệnh",
+      "Giữ ấm, tăng thông thoáng",
+      "Sát trùng nước uống - máng"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Gà sốt cao, tím mào, khó thở"],
+      "guideline": ["Kháng sinh mạnh sớm", "Kháng viêm - điện giải"]
+    },
+    "case_type_2": {
+      "description": ["Chết đột ngột lan nhanh"],
+      "guideline": ["Điều trị toàn đàn nguy cơ", "Sát trùng khẩn"]
+    },
+    "note": "Bệnh cấp tính, chậm vài giờ là tụt đàn rất nhanh."
+  },
+  "prevention_list": [
+    "Tiêm vaccine tụ huyết trùng theo vùng dịch",
+    "Nước uống sạch, máng sạch",
+    "Giảm mật độ, nền khô"
+  ],
+  "notes": ["Hay bùng khi mưa lạnh hoặc đổi cám đột ngột."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

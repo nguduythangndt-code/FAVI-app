@@ -1,0 +1,112 @@
+{
+  "id": "necrotic_enteritis",
+  "name": "Viêm ruột hoại tử",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Viêm ruột hoại tử thường do vi khuẩn gây tổn thương nặng niêm mạc ruột, heo đau bụng, tiêu chảy nặng, phân thối, có thể lẫn máu và chết nhanh ở trường hợp cấp.",
+  "causes": [
+    "Thường liên quan đến Clostridium và các vi khuẩn gây bệnh đường ruột khác",
+    "Thức ăn bẩn, ôi thiu hoặc thay đổi khẩu phần đột ngột",
+    "Môi trường chuồng trại ẩm bẩn kéo dài"
+  ],
+  "risk_factors": [
+    "Chuồng bẩn, phân tích tụ lâu ngày",
+    "Thức ăn tồn đọng, máng không vệ sinh",
+    "Heo stress, sức đề kháng kém",
+    "Khẩu phần nhiều đạm khó tiêu hoặc thay đổi đột ngột"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy nặng, phân thối, có thể lẫn máu hoặc mảng niêm mạc",
+    "Heo đau bụng, đi lại khó chịu, có thể cong lưng",
+    "Giảm ăn rõ, nhanh suy, gầy nhanh",
+    "Một số con chết nhanh trong giai đoạn cấp",
+    "Heo sống sót thường còi cọc, chậm lớn"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân sệt, mùi nặng hơn bình thường",
+      "Heo giảm ăn nhẹ",
+      "Hơi khó chịu vùng bụng"
+    ],
+    "moderate": [
+      "Tiêu chảy rõ, phân hôi, có nhầy hoặc tia máu",
+      "Heo mệt, giảm ăn nhiều",
+      "Bụng trướng nhẹ, sờ đau"
+    ],
+    "severe": [
+      "Tiêu chảy nặng, phân thối khắm, có máu hoặc mảng niêm mạc",
+      "Heo suy nhanh, nằm nhiều, mắt trũng",
+      "Một số con chết trong thời gian ngắn"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Amoxicillin",
+      "Ampicillin"
+    ],
+    "alternative_drugs": [
+      "Tylosin",
+      "Lincomycin"
+    ],
+    "note_drugs": "Chọn một trong các kháng sinh phổ trên vi khuẩn đường ruột. Amoxicillin hoặc Ampicillin thường được ưu tiên. Tylosin hoặc Lincomycin dùng khi đáp ứng kém hoặc theo hướng dẫn thú y.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Ngừng hoặc giảm các thức ăn khó tiêu, nhiều đạm",
+      "Bù nước và điện giải để hạn chế mất nước",
+      "Giữ chuồng khô, sạch để giảm thêm nhiễm trùng",
+      "Vệ sinh máng ăn, máng uống mỗi ngày"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo tiêu chảy nặng nhưng vẫn còn đứng được và ăn ít.",
+      "guideline": [
+        "Dùng kháng sinh điều trị chính ngay",
+        "Điện giải và men tiêu hoá hỗ trợ hằng ngày",
+        "Theo dõi phân xem có máu hoặc mảng hoại tử"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo suy nhiều, nằm nhiều, phân rất thối, có thể lẫn máu rõ.",
+      "guideline": [
+        "Hạn chế vận động, giữ nơi nằm khô và sạch",
+        "Tập trung bù nước, điện giải, vitamin",
+        "Đánh giá đáp ứng điều trị sau 1-2 ngày, xem xét loại thải nếu không cải thiện"
+      ]
+    },
+    "note": "Viêm ruột hoại tử thường để lại hậu quả nặng trên tăng trọng, cần chú ý vệ sinh và khẩu phần để tránh tái phát."
+  },
+  "prevention": [
+    "Giữ máng ăn, máng uống luôn sạch",
+    "Không cho heo ăn thức ăn mốc, ôi thiu",
+    "Tránh thay đổi khẩu phần đột ngột",
+    "Khử trùng chuồng định kỳ, dọn phân hằng ngày"
+  ],
+  "notes": [
+    "Thường xuất hiện rời rạc hoặc theo cụm trong đàn.",
+    "Nếu trong đàn có nhiều con tiêu chảy nặng, phân thối và gầy nhanh, cần xem xét nhóm bệnh viêm ruột nặng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

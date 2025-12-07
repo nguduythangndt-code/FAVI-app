@@ -3,7 +3,7 @@
   "name": "Gà bệnh trong đàn",
   "species": "chicken",
   "group": "sick",
-  "overview": "Cẩm nang phát hiện sớm, phân loại nhanh và xử lý đàn gà xuất hiện gà bệnh. Mục tiêu: chặn lây lan, giảm chết thứ phát, giữ phần lớn đàn không suy giảm tăng trưởng, không hoảng loạn, không sốc nhiệt, không nhiễm nền ẩm - mốc. Quy tắc chính: tách sớm - hỗ trợ đúng nhóm thuốc - xử lý môi trường ngay - theo dõi 12-24h/lần.",
+  "overview": "Khi đàn gà đã có dấu hiệu bệnh, rủi ro lớn nhất không chỉ nằm ở bản thân bệnh, mà ở cách phản ứng vội vàng và thiếu định hướng. Xử lý sai thời điểm hoặc không đúng trọng tâm dễ khiến bệnh lan rộng và kéo dài.\n\nNhiều trường hợp bệnh trở nặng không phải do mầm bệnh nguy hiểm, mà do stress tăng thêm từ việc can thiệp dồn dập.\n\nMục tiêu của giai đoạn này là khoanh vùng đúng vấn đề, giảm stress cho đàn gà và xử lý theo hướng an toàn, có kiểm soát.",
   "sections": [
     {
       "id": "detect_symptoms",
@@ -100,7 +100,19 @@
         "[Chết nhanh tăng theo giờ] Nếu 1 ngày chết >một vài con và tăng theo giờ → mời thú y.",
         "[Mồng tím tái] Mồng tím lan nhanh trong 6-12h ở 5% đàn → nghi tuần hoàn/bệnh nhiễm khuẩn."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Định hướng nhận diện tình trạng bệnh để tránh xử lý lan man và gây thêm rủi ro.",
+  "content": "Khi gà đã bệnh, nhiều vấn đề có thể chồng chéo và che mờ nguyên nhân ban đầu.",
+  "bullets": [
+    "[Bệnh mới xuất hiện] Hô hấp, tiêu hóa, stress.",
+    "[Bệnh lan đàn] Suy miễn dịch, chết rải rác.",
+    "[Sau can thiệp] Bệnh kế phát, kéo dài thời gian hồi phục."
+  ]
+}
+
   ],
   "notes": [
     "Tách sớm là chìa khóa. Để chung là mầm bệnh chéo 100%.",

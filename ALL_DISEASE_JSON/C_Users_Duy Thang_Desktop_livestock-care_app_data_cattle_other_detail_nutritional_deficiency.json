@@ -1,0 +1,118 @@
+{
+  "id": "nutritional_deficiency",
+  "name": "Thiếu dinh dưỡng",
+  "species": "cattle",
+  "group": "other",
+
+  "summary": "Thiếu dinh dưỡng làm bò gầy, giảm sữa, lông xấu và sức đề kháng giảm. Thường do khẩu phần thiếu khoáng, vitamin hoặc thiếu năng lượng.",
+  "causes": [
+    "Khẩu phần thiếu khoáng và vitamin",
+    "Thiếu năng lượng kéo dài",
+    "Bò già, răng mòn ăn kém",
+    "Chuồng vệ sinh kém ảnh hưởng mức ăn"
+  ],
+  "risk_factors": [
+    "Bò nuôi thả đồng cỏ nghèo dinh dưỡng",
+    "Khẩu phần không bổ sung khoáng",
+    "Bò sữa cao sản",
+    "Thời điểm sau đẻ"
+  ],
+  "clinical_signs_detailed": [
+    "Lông xù, xấu",
+    "Bò gầy dần",
+    "Giảm sữa rõ",
+    "Ăn kém hoặc nhai lại yếu",
+    "Dễ mắc bệnh khác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Lông hơi xấu",
+      "Ăn chậm"
+    ],
+    "moderate": [
+      "Gầy rõ",
+      "Sữa giảm"
+    ],
+    "severe": [
+      "Gầy trơ",
+      "Mệt, đi lại yếu"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "vitamin_bc"
+    ],
+    "alternative_drugs": [
+      "multivitamin_tonic"
+    ],
+    "note_drugs": "Bổ sung khoáng và vitamin giúp bò hồi phục nhanh hơn. Điều trị chính vẫn là chỉnh khẩu phần.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Bổ sung khoáng tổng hợp",
+      "Tăng cỏ chất lượng hoặc tăng khẩu phần tinh",
+      "Theo dõi mức ăn hàng ngày",
+      "Không để bò đói kéo dài"
+    ],
+
+    "dose_policy": "Vitamin và khoáng dùng theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò gầy nhưng còn ăn.",
+      "guideline": [
+        "Tăng khẩu phần",
+        "Bổ sung vitamin",
+        "Theo dõi mức ăn"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò gầy trơ và yếu.",
+      "guideline": [
+        "Cần theo dõi sát",
+        "Điện giải và vitamin",
+        "Kiểm tra bệnh đi kèm"
+      ]
+    },
+    "note": "Thiếu dinh dưỡng dễ đi kèm nhiễm ký sinh trùng."
+  },
+
+  "prevention": [
+    "Khẩu phần đầy đủ khoáng",
+    "Bổ sung vitamin định kỳ",
+    "Không thả trên đồng cỏ nghèo lâu ngày",
+    "Theo dõi thể trạng"
+  ],
+
+  "notes": [
+    "Bò sữa rất nhạy với thiếu khoáng.",
+    "Biểu hiện gầy kéo dài cần xử lý sớm.",
+    "Cải thiện khẩu phần là mấu chốt."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

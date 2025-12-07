@@ -1,0 +1,105 @@
+{
+  "id": "mite-infestation",
+  "name": "Ve, mạt gà",
+  "species": "chicken",
+  "group": "parasite",
+  "summary": "Ký sinh ngoài da hút máu gà, thường hoạt động ban đêm, làm gà ngứa, thiếu máu, giảm đẻ và suy nếu nhiễm nặng.",
+  "causes": [
+    "Ve, mạt trú ngụ trong khe kẽ chuồng, ổ đẻ, máng đậu, chờ lên gà hút máu",
+    "Gà tiếp xúc với gà đã nhiễm ve mạt hoặc môi trường có sẵn ký sinh",
+    "Chuồng lâu năm, ít được vệ sinh và sát trùng kỹ"
+  ],
+  "risk_factors": [
+    "Chuồng gỗ cũ, nhiều khe kẽ, ổ đẻ bẩn",
+    "Mật độ nuôi cao, gà chen chúc trên máng đậu",
+    "Không sát trùng định kỳ, chỉ dọn phân mà không xử lý khe kẽ",
+    "Gà nuôi lâu năm, ít thay đàn, ít làm lại chuồng"
+  ],
+  "clinical_signs_detailed": [
+    "Gà đứng không yên, nhảy khỏi máng đậu, rũ lông, gãi nhiều, nhất là ban đêm",
+    "Lông xấu, rụng từng mảng, da dày, thô, có chấm đỏ nhỏ",
+    "Thiếu máu, mào nhạt, gà gầy, giảm tăng trưởng",
+    "Gà đẻ giảm sản lượng, bỏ ổ, không chịu ngủ trên máng đậu cũ",
+    "Nếu nhiễm nặng, gà suy, dễ mắc thêm bệnh khác"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Gà hơi bứt rứt, gãi nhiều hơn bình thường",
+      "Khó nhận nếu không kiểm tra chuồng ban đêm"
+    ],
+    "moderate": [
+      "Gà nhảy khỏi máng đậu, ngủ dưới nền hoặc chỗ khác",
+      "Lông xấu, rụng thưa, mào nhạt hơn",
+      "Có thể thấy mạt nhỏ trên máng đậu hoặc vách chuồng"
+    ],
+    "severe": [
+      "Thiếu máu rõ, gà rất gầy, mào nhợt nhạt",
+      "Đàn đẻ giảm sản lượng mạnh, khó phục hồi nhanh",
+      "Ve, mạt bám dày ở khe kẽ, ổ đẻ, trên thân gà"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "ectoparasiticide_spray",
+      "pyrethroid_spray"
+    ],
+    "alternative_drugs": [
+      "ivermectin_external",
+      "lime_sulfur_spray"
+    ],
+    "note_drugs": "Xử lý ve, mạt cần kết hợp phun thuốc lên chuồng, ổ đẻ, máng đậu và xử lý trên thân gà theo hướng dẫn. Có thể phải lặp lại sau một khoảng thời gian để diệt các lứa mới nở.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": ""
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": ""
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp, đặc biệt vitamin nhóm B và khoáng cho đàn thiếu máu",
+        "alternative": "chế phẩm bổ sung sắt nếu có gợi ý thiếu máu nặng"
+      },
+      "digestive_support": {
+        "main": "",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Tháo bỏ, làm sạch hoặc thay mới ổ đẻ, máng đậu, vật liệu gỗ cũ",
+      "Phun thuốc diệt ve mạt vào khe kẽ, vách chuồng, ổ đẻ theo hướng dẫn an toàn",
+      "Thay chất độn chuồng, xử lý phân và lót cũ đúng cách",
+      "Giảm mật độ, cải thiện thông gió để chuồng khô, thoáng",
+      "Bổ sung dinh dưỡng, vitamin để đàn hồi phục sau khi giảm được ký sinh"
+    ],
+    "dose_policy": "Tuân thủ liều và thời gian cách ly sau khi dùng thuốc diệt ve, mạt theo nhãn hoặc tư vấn thú y. Không phun trực tiếp vào mặt, mắt gà, và không dùng thuốc ngoài khuyến cáo cho gia cầm."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn đẻ trên chuồng cũ, ve mạt nhiều, gà giảm đẻ mạnh.",
+      "guideline": "Xử lý đồng thời cả chuồng và gà: phun thuốc diệt ve mạt, thay ổ đẻ, lót đệm, làm lại máng đậu nếu cần. Bổ sung dinh dưỡng và vitamin để khôi phục thể trạng và sản lượng trứng. Theo dõi trong vài tuần và xử lý lặp lại nếu ve, mạt tái xuất hiện."
+    },
+    "case_type_2": {
+      "description": "Đàn thả vườn ngủ trong chuồng gỗ lâu năm, ve mạt dày.",
+      "guideline": "Có thể cần di chuyển đàn sang khu chuồng tạm đã sát trùng, sau đó xử lý chuồng cũ kỹ lưỡng hoặc thay mới. Kết hợp điều trị trên thân gà, bù dinh dưỡng và theo dõi hiệu quả trong thời gian dài hơn."
+    },
+    "note": "Ve, mạt gà sống nhiều trong môi trường hơn là trên thân gà. Làm sạch chuồng thường quan trọng không kém so với xử lý trên gà."
+  },
+  "prevention": [
+    "Sát trùng chuồng, ổ đẻ, máng đậu định kỳ",
+    "Giữ chuồng khô ráo, ít khe kẽ, hạn chế chỗ trú ngụ của ve, mạt",
+    "Thay chất độn và lót ổ đẻ thường xuyên",
+    "Kiểm tra chuồng ban đêm để phát hiện sớm ve, mạt",
+    "Hạn chế dùng lại vật liệu gỗ cũ bị nhiễm nặng mà không xử lý"
+  ],
+  "notes": [
+    "Nếu gà không chịu ngủ trên máng đậu mà xuống nền, nên nghi ngờ ve, mạt.",
+    "Xử lý tốt một lần nhưng không làm công tác phòng định kỳ thì ve, mạt vẫn dễ quay lại."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

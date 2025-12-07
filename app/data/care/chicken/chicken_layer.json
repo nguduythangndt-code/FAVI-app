@@ -3,7 +3,7 @@
   "name": "Gà đẻ (layer)",
   "species": "chicken",
   "group": "layer",
-  "overview": "Cẩm nang chăm sóc gà đẻ trứng từ giai đoạn hậu bị (sau úm) đến khi hết chu kỳ đẻ. Mục tiêu: gà vào đẻ đúng tuổi, sản lượng đều, vỏ trứng chắc, ít vỡ, thân gà không suy kiệt sớm. Tất cả xoay quanh: nuôi hậu bị đúng khung, chuyển sang giai đoạn đẻ êm, khẩu phần canxi - đạm - năng lượng hợp lý, chương trình ánh sáng ổn định và phát hiện sớm các vấn đề về sản lượng, vỏ trứng, sức khỏe chân - xương - đường sinh dục.",
+  "overview": "Nuôi gà đẻ là quá trình dài và đòi hỏi sự ổn định cao. Rủi ro lớn nhất không đến từ dịch bệnh cấp tính, mà từ mất cân bằng lâu dài về thể trạng, dinh dưỡng và môi trường nuôi.\n\nNhiều đàn gà đẻ giảm trứng, trứng xấu hoặc hao mòn nhanh không phải do bệnh rõ ràng, mà do áp lực duy trì sản lượng kéo dài khiến cơ thể gà suy yếu dần.\n\nMục tiêu của giai đoạn này là giữ gà khỏe bền, ăn ổn định, sinh sản đều và giảm stress tích lũy. Mọi quyết định chăm sóc cần ưu tiên sự cân bằng thay vì chạy theo năng suất ngắn hạn.",
   "sections": [
     {
       "id": "pullet_phase",
@@ -107,7 +107,19 @@
         "[Bệnh tiêu hóa] Phân loãng, phân máu, phân có mùi hôi bất thường, gà sụt cân nhanh là dấu hiệu bệnh đường ruột. Phải đối chiếu mục bệnh và có thể liên hệ thú y.",
         "[Tham khảo mục bệnh trong app] Khi thấy bất thường, nên mở mục “Danh mục bệnh” trong app, chọn đúng loài gà và nhóm bệnh tương ứng để đọc kỹ nguyên nhân, triệu chứng và hướng xử lý."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện nhóm vấn đề sức khỏe thường gặp ở gà đẻ để tránh suy giảm sản lượng kéo dài.",
+  "content": "Bệnh ở gà đẻ thường gắn liền với cường độ sinh sản và thời gian khai thác.",
+  "bullets": [
+    "[Trước vào đẻ] Suy thể trạng, rối loạn chuyển hóa.",
+    "[Đẻ ổn định] Viêm đường sinh dục, tiêu chảy nhẹ, suy miễn dịch.",
+    "[Đẻ kéo dài] Hao mòn thể lực, giảm trứng, bệnh mạn tính."
+  ]
+}
+
   ],
   "notes": [
     "Nuôi gà đẻ không chỉ là cho ăn nhiều mà là nuôi đúng giai đoạn: hậu bị - vào đẻ - đỉnh đẻ - cuối kỳ.",

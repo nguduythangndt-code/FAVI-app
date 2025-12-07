@@ -1,0 +1,123 @@
+{
+  "id": "rhinitis-sinusitis",
+  "name": "Viêm mũi - viêm xoang ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm mũi - xoang là tình trạng viêm đường hô hấp trên, gây chảy nước mũi, nghẹt mũi, ho nhẹ, thở tiếng và ăn giảm. Bệnh nhẹ nhưng kéo dài sẽ làm dê yếu và dễ chuyển thành viêm phế quản hoặc viêm phổi.",
+
+  "causes": [
+    "Virus, vi khuẩn đường mũi - họng.",
+    "Kích ứng do bụi, khói, khí độc.",
+    "Chuồng ẩm, lạnh, gió lùa.",
+    "Nấm mốc, mạt bụi trong rơm - cỏ."
+  ],
+
+  "risk_factors": [
+    "Chuồng bụi, bí khí.",
+    "Thời tiết lạnh, mưa kéo dài.",
+    "Không che chắn tốt.",
+    "Dê con và dê hậu bị."
+  ],
+
+  "clinical_signs_detailed": [
+    "Chảy nước mũi trong hoặc đục.",
+    "Nghẹt mũi, thở tiếng khụt khịt.",
+    "Ho nhẹ - vừa.",
+    "Hắt hơi, dụi mũi.",
+    "Ăn giảm, lông xấu nếu kéo dài."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Nước mũi trong.",
+      "Hắt hơi ít.",
+      "Ăn bình thường."
+    ],
+    "moderate": [
+      "Nghẹt mũi, thở tiếng.",
+      "Nước mũi đục.",
+      "Ho nhẹ - vừa."
+    ],
+    "severe": [
+      "Thở khó do nghẹt nặng.",
+      "Chảy mũi nhiều, mùi hôi.",
+      "Dê ăn giảm mạnh."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Doxycycline",
+      "Tylosin",
+      "Amoxicillin"
+    ],
+    "alternative_drugs": [
+      "Enrofloxacin (ca dai dẳng)",
+      "Thuốc nhỏ mũi sát khuẩn nhẹ (theo thú y)"
+    ],
+    "note_drugs": [
+      "Không dùng kháng sinh mạnh nếu chỉ viêm mũi nhẹ."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine"
+      ],
+      "electrolyte": [
+        "ORS"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Giảm bụi - mạt chuồng.",
+      "Che chắn gió lùa.",
+      "Giữ chuồng khô - thoáng.",
+      "Phơi nắng cỏ - rơm."
+    ],
+    "dose_policy": [
+      "Kháng sinh dùng đúng liều nhãn.",
+      "Không kéo dài điều trị không cần thiết."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nghẹt mũi nhiều nhưng dê vẫn ăn.",
+      "guideline": [
+        "Doxycycline hoặc amoxicillin.",
+        "Bromhexine hỗ trợ long đờm.",
+        "Vitamin C."
+      ]
+    },
+    "case_type_2": {
+      "description": "Nghẹt mũi nặng, ăn giảm mạnh.",
+      "guideline": [
+        "Enrofloxacin theo thú y.",
+        "Xử lý môi trường: giảm khí độc.",
+        "Theo dõi chuyển thành viêm phổi."
+      ]
+    },
+    "note": "Viêm xoang kéo dài dễ thành viêm phổi; cần can thiệp sớm."
+  },
+
+  "prevention": [
+    "Chuồng thông thoáng, không bụi.",
+    "Che chắn gió mùa.",
+    "Thức ăn khô, không mốc.",
+    "Bổ sung vitamin mùa lạnh."
+  ],
+
+  "notes": [
+    "Bệnh dễ tái nếu môi trường ẩm bụi.",
+    "Không cần kháng sinh mạnh nếu triệu chứng nhẹ."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

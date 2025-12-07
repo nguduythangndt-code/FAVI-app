@@ -1,0 +1,134 @@
+{
+  "id": "rumen-acidosis",
+  "name": "Toan dạ cỏ (Acidosis) ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Toan dạ cỏ xảy ra khi dê ăn quá nhiều tinh bột, cỏ non, phụ phẩm giàu đường trong thời gian ngắn, làm pH dạ cỏ giảm sâu, vi sinh bị rối loạn. Dê đau bụng, giảm nhai lại, có thể nhiễm độc toàn thân nếu nặng.",
+
+  "causes": [
+    "Ăn quá nhiều cám, bắp, mì, phụ phẩm đậm đặc trong thời gian ngắn.",
+    "Thay đổi khẩu phần từ thô sang tinh quá nhanh.",
+    "Dê phá chuồng, ăn tràn cám trong kho.",
+    "Cỏ non, lúa non, rau tươi quá nhiều mà ít cỏ khô."
+  ],
+
+  "risk_factors": [
+    "Đàn mới chuyển từ chăn thả sang nuôi nhốt bổ sung nhiều tinh.",
+    "Thiếu cỏ khô, ít chất xơ trong khẩu phần.",
+    "Dê đói lâu rồi cho ăn no đột ngột.",
+    "Quản lý thức ăn lỏng lẻo, để dê dễ tiếp cận kho cám."
+  ],
+
+  "clinical_signs_detailed": [
+    "Giảm ăn, bỏ ăn đột ngột sau bữa nhiều tinh.",
+    "Nhai lại giảm hoặc mất; ít hoặc không ợ hơi.",
+    "bụng trái phình to, căng, sờ dạ cỏ cứng hơn bình thường.",
+    "Đi lại bứt rứt, đau bụng, thở nhanh.",
+    "Tiêu chảy hoặc phân sệt chua, mùi lạ.",
+    "Trường hợp nặng: nằm, yếu, có thể chết nhanh."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn nhẹ sau bữa ăn nhiều tinh.",
+      "Nhai lại thưa, ợ hơi ít.",
+      "Bụng hơi căng, dê khó chịu nhưng vẫn đi lại."
+    ],
+    "moderate": [
+      "Bỏ ăn, chỉ đứng hoặc nằm thừ.",
+      "Không thấy nhai lại, ợ hơi hầu như mất.",
+      "Bụng trái căng, gõ vào nghe âm đục.",
+      "Tiêu chảy hoặc phân sệt chua, mùi gắt."
+    ],
+    "severe": [
+      "Dê nằm, khó đứng dậy, thở nhanh.",
+      "Mắt trũng, niêm mạc nhợt, mất nước.",
+      "Có dấu hiệu nhiễm độc toàn thân: lờ đờ, bủn rủn.",
+      "Nguy cơ tử vong nếu không xử lý cấp cứu."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Dung dịch kiềm hoá dạ cỏ (ví dụ bicarbonat) dùng theo hướng dẫn thú y.",
+      "Men tiêu hoá chuyên cho dạ cỏ.",
+      "Chế phẩm vi sinh phục hồi hệ vi sinh dạ cỏ."
+    ],
+    "alternative_drugs": [
+      "Than hoạt hoặc chất hấp phụ độc tố.",
+      "Vitamin B1 (thiamin) hỗ trợ hệ thần kinh và chuyển hoá.",
+      "Điện giải - gluco giúp hồi phục tuần hoàn."
+    ],
+    "note_drugs": [
+      "Kháng sinh chỉ dùng khi có dấu hiệu nhiễm khuẩn kế phát, theo chỉ định thú y.",
+      "Không tự ý dùng thuốc ức chế nhu động ruột trong giai đoạn đầu."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Dextrose - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin B1",
+        "B-complex",
+        "Vitamin C"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá dạ cỏ",
+        "Chế phẩm cấy dịch dạ cỏ (nếu có điều kiện)"
+      ]
+    },
+    "supportive_care": [
+      "Ngừng ngay thức ăn tinh, chỉ cho cỏ khô ít một.",
+      "Cho dê đi lại nhẹ để hỗ trợ nhu động dạ cỏ.",
+      "Giữ ấm cơ thể, tránh nằm nền lạnh.",
+      "Theo dõi nhịp thở, tình trạng nhai lại, ợ hơi."
+    ],
+    "dose_policy": [
+      "Dung dịch kiềm hoá, điện giải, vitamin dùng theo nhãn hoặc hướng dẫn thú y.",
+      "Không tự ý pha liều đậm đặc hoặc phối nhiều loại không rõ tương tác."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê còn đứng được nhưng rất mệt, không nhai lại, bụng căng rõ.",
+      "guideline": [
+        "Gọi thú y sớm để đánh giá mức độ toan dạ cỏ.",
+        "Dùng dung dịch kiềm hoá dạ cỏ theo chỉ định.",
+        "Kết hợp men tiêu hoá, điện giải, vitamin B1.",
+        "Theo dõi 2-3 giờ/lần: nhai lại, ợ hơi, phân."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê nằm, thở nhanh, lờ đờ, nghi nhiễm độc nặng.",
+      "guideline": [
+        "Cần can thiệp thú y khẩn cấp.",
+        "Có thể phải truyền dịch, điều chỉnh toan-kiềm toàn thân.",
+        "Xem xét can thiệp dạ cỏ chuyên sâu (rửa, tháo bớt dịch dạ cỏ) nếu điều kiện cho phép.",
+        "Tiên lượng dè dặt, cần xử lý càng sớm càng tốt."
+      ]
+    },
+    "note": "Toan dạ cỏ thường do quản lý thức ăn; xử lý xong phải điều chỉnh lại toàn bộ chế độ cho ăn để tránh tái diễn."
+  },
+
+  "prevention": [
+    "Không tăng lượng cám, bắp, tinh bột quá nhanh.",
+    "Luôn có cỏ khô chất lượng tốt trong khẩu phần.",
+    "Không để dê đói lâu rồi cho ăn no đột ngột.",
+    "Quản lý kho cám, không để dê phá chuồng vào ăn tràn."
+  ],
+
+  "notes": [
+    "Toan dạ cỏ cấp có thể giết dê nhanh không kém tụ huyết trùng nếu bỏ qua.",
+    "Dê vỗ béo bằng tinh cần được làm quen từ từ, ít nhất vài ngày đến một tuần."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
+}

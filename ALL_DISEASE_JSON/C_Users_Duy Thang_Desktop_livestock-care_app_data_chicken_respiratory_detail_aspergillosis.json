@@ -1,0 +1,100 @@
+{
+  "id": "aspergillosis",
+  "name": "Nấm phổi (Aspergillosis)",
+  "species": "chicken",
+  "group": "respiratory",
+  "summary": "Bệnh hô hấp do nấm, thường gặp ở gà con khi hít phải bào tử nấm từ chất độn chuồng, trứng ấp hoặc thức ăn mốc, gây khó thở kéo dài và chết rải rác.",
+  "causes": [
+    "Nhiễm nấm Aspergillus spp. qua đường hô hấp",
+    "Chất độn chuồng, rơm rạ, cám, ngô… bị ẩm mốc, nhiều bào tử nấm",
+    "Trứng ấp, máy ấp, khay ấp bị nhiễm nấm, gà con nở ra đã mang theo tổn thương"
+  ],
+  "risk_factors": [
+    "Chuồng ẩm, chất độn không được thay, tích tụ lâu ngày",
+    "Thức ăn bảo quản kém, bị ẩm mốc nhưng vẫn sử dụng",
+    "Máy ấp, khay ấp, khu ấp trứng vệ sinh - sát trùng không đúng cách",
+    "Đàn con nuôi mật độ cao, thông gió kém, nhiều bụi"
+  ],
+  "clinical_signs_detailed": [
+    "Gà con thở khó, thở há mỏ, vươn cổ, thở nhanh",
+    "Nghe tiếng thở rít, đôi khi như khò khè nhưng không nhiều dịch mũi",
+    "Gà ủ rũ, tụm đám, kém ăn, chậm lớn",
+    "Một số con có mắt mờ, sưng quanh mắt nếu tổn thương lan rộng",
+    "Tỷ lệ chết rải rác nhưng kéo dài, ít đáp ứng với kháng sinh",
+    "Mổ khám thường thấy các nốt trắng - vàng trên phổi, túi khí"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Một số gà con thở nhanh hơn, xù lông nhẹ, tách đàn",
+      "Triệu chứng hô hấp không quá rõ, dễ nhầm với lạnh hoặc thông gió kém"
+    ],
+    "moderate": [
+      "Thở khó, há mỏ, vươn cổ, nghe tiếng rít khi lại gần",
+      "Kém ăn, chậm lớn, phân không đặc nhưng đàn không khoẻ",
+      "Chết lác đác, dùng kháng sinh không cải thiện rõ"
+    ],
+    "severe": [
+      "Gà con thở rất khó, nằm nhiều, phản ứng chậm",
+      "Tỷ lệ chết kéo dài, dù đã dùng nhiều phác đồ kháng sinh",
+      "Mổ khám thấy nhiều nốt nấm trên phổi, túi khí, đôi khi trong xoang khí khác"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": "Điều trị nấm phổi ở gia cầm bằng thuốc đặc hiệu thường khó và tốn kém, hiệu quả không cao trong điều kiện chăn nuôi thực tế. Trọng tâm là loại bỏ nguồn nấm trong môi trường và hỗ trợ sức khoẻ đàn.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "chế phẩm giúp thông đường hô hấp, giảm khó thở"
+      },
+      "electrolyte": {
+        "main": "điện giải pha nước cho đàn con suy yếu",
+        "alternative": "điện giải có vitamin C giúp hồi phục tốt hơn"
+      },
+      "vitamin": {
+        "main": "vitamin tổng hợp (A, D, E) cho đàn con",
+        "alternative": "chế phẩm tăng sức đề kháng phù hợp cho gà con"
+      },
+      "digestive_support": {
+        "main": "men vi sinh để hỗ trợ tiêu hoá, giúp gà con ăn trở lại",
+        "alternative": "thức ăn dễ tiêu, chất lượng tốt, tránh thức ăn cứng - thô"
+      }
+    },
+    "supportive_care": [
+      "Thay toàn bộ chất độn chuồng nghi ngờ có nấm, phơi khô khu nuôi trước khi cho gà vào lại",
+      "Bỏ toàn bộ thức ăn ẩm mốc, dọn sạch khu vực chứa thức ăn cũ",
+      "Sát trùng chuồng, nền, vách, máng ăn - uống, chú ý các góc khuất ẩm mốc",
+      "Cải thiện thông gió, nhưng tránh gió lùa trực tiếp lên đàn con",
+      "Theo dõi đàn còn lại, loại bỏ những con quá suy nếu không có khả năng hồi phục"
+    ],
+    "dose_policy": "Nếu sử dụng bất kỳ thuốc hỗ trợ nào, luôn tuân thủ đúng hướng dẫn trên nhãn hoặc tư vấn thú y. Không lạm dụng kháng sinh vì không có tác dụng trên nấm mà còn làm rối loạn hệ vi khuẩn có lợi."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đàn gà con mới nở, nhiều con khó thở, chết rải rác kéo dài, mổ ra thấy nhiều nốt nấm ở phổi.",
+      "guideline": "Xem lại toàn bộ quy trình ấp nở: vệ sinh máy ấp, khay, khu ấp. Thay chất độn, sát trùng khu nuôi, loại bỏ hết thức ăn nghi mốc. Tập trung chăm sóc đàn con còn khoẻ, bù điện giải, vitamin, giữ ấm và thông gió hợp lý. Cân nhắc giảm đàn nếu quá nhiều con suy."
+    },
+    "case_type_2": {
+      "description": "Đàn gà con nuôi nền, sử dụng rơm - trấu ẩm lâu ngày, xuất hiện nấm phổi trên nhiều lứa.",
+      "guideline": "Thay đổi hẳn cách quản lý chất độn: dùng chất độn khô, dày vừa phải, thay sớm khi ẩm. Làm lại khu vực chứa thức ăn, chỉ dùng thức ăn bảo quản tốt. Sau khi xử lý môi trường, theo dõi lứa sau xem mức độ tái phát để đánh giá hiệu quả."
+    },
+    "note": "Aspergillosis là bệnh gắn chặt với quản lý môi trường. Không thể giải quyết dứt điểm chỉ bằng thuốc nếu vẫn giữ chất độn và thức ăn mốc."
+  },
+  "prevention": [
+    "Sử dụng chất độn chuồng khô, sạch, không bị mốc trước khi trải nền",
+    "Bảo quản thức ăn nơi khô ráo, tránh ẩm, tránh để sát nền đất",
+    "Vệ sinh và sát trùng máy ấp, khay ấp, phòng ấp định kỳ",
+    "Không để nước rò rỉ lên nền, lên bao cám, chất độn",
+    "Giảm bụi, tăng thông gió vừa phải trong khu nuôi gà con"
+  ],
+  "notes": [
+    "Nên mổ kiểm tra một vài con điển hình để phân biệt nấm phổi với các bệnh hô hấp khác.",
+    "Khi đã xuất hiện nấm phổi trên đàn con, cần xem lại toàn bộ chuỗi ấp - nuôi, không chỉ xử lý tại ô chuồng."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,120 @@
+{
+  "id": "fatty_liver",
+  "name": "Gan nhiễm mỡ",
+  "species": "cattle",
+  "group": "digestive",
+
+  "summary": "Gan nhiễm mỡ thường gặp ở bò sữa năng suất cao giai đoạn quanh đẻ. Cơ thể huy động mỡ quá nhiều, gan quá tải, làm bò chán ăn, giảm sữa và dễ kèm nhiều rối loạn chuyển hóa khác.",
+  "causes": [
+    "Bò béo quá mức trước khi đẻ, huy động mỡ mạnh sau khi bắt đầu cho sữa",
+    "Thiếu năng lượng trong khẩu phần đầu kỳ cho sữa",
+    "Giảm ăn do bệnh hậu sản như viêm tử cung, viêm vú, bệnh chân",
+    "Rối loạn chuyển hóa mỡ và đường trong gan"
+  ],
+  "risk_factors": [
+    "Bò sữa năng suất cao, đặc biệt trong 4 tuần trước và sau đẻ",
+    "Thể trạng béo ở giai đoạn cạn sữa",
+    "Chuồng trại chật, bò ít vận động",
+    "Khẩu phần không được điều chỉnh phù hợp quanh giai đoạn đẻ",
+    "Bò có tiền sử ketosis hoặc rối loạn chuyển hóa"
+  ],
+  "clinical_signs_detailed": [
+    "Giảm ăn kéo dài, đặc biệt không thích ăn thức ăn tinh",
+    "Giảm sữa rõ rệt và khó hồi phục năng suất",
+    "Sụt cân, thân tóp, lưng hóp",
+    "Lờ đờ, ít vận động, đứng tách đàn",
+    "Có thể kèm dấu hiệu của các rối loạn khác như nhiễm xeton, rối loạn sinh sản",
+    "Một số trường hợp có thể vàng nhẹ niêm mạc nếu tổn thương gan nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Giảm ăn nhẹ, giảm sữa vừa phải",
+      "Thân hình bắt đầu tóp lại sau đẻ",
+      "Ít biểu hiện rõ rệt nếu không theo dõi kỹ"
+    ],
+    "moderate": [
+      "Giảm sữa nhiều, khó đạt lại mức sữa mục tiêu",
+      "Giảm ăn kéo dài, sụt cân nhanh",
+      "Lờ đờ, ít hoạt động, lông xù"
+    ],
+    "severe": [
+      "Bò rất gầy, thể trạng kém, ăn rất ít",
+      "Thường kèm nhiều bệnh chuyển hóa khác và bệnh hậu sản",
+      "Tiên lượng xấu, có thể phải loại thải sớm"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "choline",
+      "methionine"
+    ],
+    "alternative_drugs": [
+      "vitamin_bc"
+    ],
+    "note_drugs": "Thuốc chỉ hỗ trợ chuyển hóa mỡ ở gan. Phần quyết định vẫn là điều chỉnh khẩu phần, giảm béo trước đẻ và cải thiện ăn uống sau đẻ.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+    "supportive_care": [
+      "Điều chỉnh khẩu phần tăng năng lượng dễ tiêu, nhưng không dồn quá nhiều một lần",
+      "Tăng cường chất xơ tốt và nguồn protein chất lượng",
+      "Giảm stress môi trường, đảm bảo không gian và chỗ nằm thoải mái",
+      "Kiểm tra và xử lý các bệnh hậu sản kèm theo nếu có",
+      "Theo dõi thể trạng và sản lượng sữa trong thời gian dài, không nóng vội"
+    ],
+    "dose_policy": "Các chế phẩm hỗ trợ gan và chuyển hóa dùng theo liều khuyến cáo hoặc theo tư vấn của bác sĩ thú y và chuyên gia dinh dưỡng."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò giảm sữa nhiều, gầy rõ nhưng vẫn ăn một phần khẩu phần.",
+      "guideline": [
+        "Tăng cường khẩu phần hợp lý với nguồn năng lượng cân đối",
+        "Bổ sung thuốc hỗ trợ gan và vitamin",
+        "Giảm áp lực sản xuất, chấp nhận giảm sữa để cứu thể trạng bò",
+        "Theo dõi thể trạng, ăn uống và sữa từng tuần để đánh giá"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò rất gầy, ăn rất ít, nhiều bệnh kèm theo, khó hồi phục.",
+      "guideline": [
+        "Tham khảo thú y để đánh giá khả năng hồi phục thực tế",
+        "Trong nhiều trường hợp phải cân nhắc loại thải để giảm thiệt hại kéo dài",
+        "Ghi lại ca bệnh để điều chỉnh chiến lược nuôi dưỡng đàn bò sữa",
+        "Tập trung phòng bệnh cho các bò đang mang thai chuẩn bị đẻ"
+      ]
+    },
+    "note": "Gan nhiễm mỡ là bệnh của quản lý dinh dưỡng quanh giai đoạn đẻ. Phòng bằng chiến lược khẩu phần hợp lý sẽ hiệu quả hơn rất nhiều so với điều trị."
+  },
+  "prevention": [
+    "Không để bò quá béo ở giai đoạn cạn sữa",
+    "Xây dựng khẩu phần riêng cho bò trước và sau đẻ",
+    "Giảm stress khi chuyển chuồng, phối hợp cho ăn hợp lý",
+    "Theo dõi thể trạng thường xuyên, điều chỉnh thức ăn kịp thời",
+    "Ghi chép thể trạng và sản lượng sữa để nhận ra sớm xu hướng bất thường"
+  ],
+  "notes": [
+    "Một con bò bị gan nhiễm mỡ thường là dấu hiệu của chiến lược nuôi dưỡng chưa hợp lý.",
+    "Đôi khi chấp nhận giảm chút sản lượng sữa để bảo vệ sức khỏe gan lại là quyết định có lợi lâu dài.",
+    "Việc ghi chép dữ liệu thể trạng và khẩu phần sẽ giúp cải thiện từng năm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

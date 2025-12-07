@@ -1,0 +1,113 @@
+{
+  "id": "bloat",
+  "name": "Đầy hơi - bội thực",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Heo bị đầy hơi, chướng bụng do ăn quá nhiều, thức ăn khó tiêu hoặc lên men. Heo khó chịu, thở nhanh và có thể chết nếu xoắn ruột hoặc chèn ép hô hấp.",
+  "causes": [
+    "Ăn quá nhiều trong thời gian ngắn",
+    "Thức ăn lên men, ôi thiu, nhiều tinh bột",
+    "Thay đổi khẩu phần đột ngột",
+    "Hạn chế vận động, nền chuồng trơn"
+  ],
+  "risk_factors": [
+    "Thức ăn không ổn định giữa các bữa",
+    "Cho ăn dồn cục, không chia bữa",
+    "Thức ăn có độ lên men cao",
+    "Chuồng nóng đột ngột làm giảm vận động"
+  ],
+  "clinical_signs_detailed": [
+    "Bụng căng phồng, gõ vào có tiếng vang",
+    "Heo ít vận động, đi lại khó khăn",
+    "Thở nhanh hoặc thở nông",
+    "Nằm nghiêng nhiều, khó đứng",
+    "Ăn giảm hoặc bỏ ăn",
+    "Nếu nặng: xanh tím, suy hô hấp"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Chướng nhẹ, bụng căng ít",
+      "Heo hơi khó chịu",
+      "Giảm ăn nhẹ"
+    ],
+    "moderate": [
+      "Bụng căng rõ, khó đứng dậy",
+      "Thở nhanh, nôn khan",
+      "Ít chạy nhảy"
+    ],
+    "severe": [
+      "Chướng rất lớn, khó thở",
+      "Nằm nhiều, phản xạ kém",
+      "Nguy cơ xoắn ruột và tử vong"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Simethicone"
+    ],
+    "alternative_drugs": [
+      "Vitamin B1",
+      "Men tiêu hoá"
+    ],
+    "note_drugs": "Simethicone giúp giảm đầy hơi. Vitamin B1 và men tiêu hoá hỗ trợ phục hồi nhu động ruột.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Cho heo đi lại nhẹ để xì hơi tự nhiên",
+      "Không cho ăn thêm đến khi bụng xẹp",
+      "Giữ chuồng thoáng, giảm stress",
+      "Theo dõi phân xem có tắc nghẽn"
+    ],
+    "dose_policy": "Dùng theo liều trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bụng căng lớn, heo thở nhanh nhưng vẫn đứng được.",
+      "guideline": [
+        "Dùng Simethicone sớm",
+        "Xoa bụng nhẹ và cho vận động chậm",
+        "Theo dõi 2-3 giờ đầu"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo nằm nhiều, chướng rất lớn, khó thở.",
+      "guideline": [
+        "Giữ chuồng mát, giảm stress",
+        "Theo dõi dấu hiệu xoắn ruột",
+        "Xem xét can thiệp thú y nếu bụng không xẹp"
+      ]
+    },
+    "note": "Trường hợp xoắn ruột thường không đáp ứng điều trị, cần can thiệp sớm."
+  },
+  "prevention": [
+    "Chia khẩu phần ăn thành nhiều bữa nhỏ",
+    "Không để heo ăn đồ lên men",
+    "Giữ nền chuồng thoáng, sạch",
+    "Không thay đổi thức ăn đột ngột"
+  ],
+  "notes": [
+    "Heo bị đầy hơi nhẹ thường hồi phục nhanh sau 12-24 giờ.",
+    "Luôn kiểm tra thức ăn trước khi cho ăn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

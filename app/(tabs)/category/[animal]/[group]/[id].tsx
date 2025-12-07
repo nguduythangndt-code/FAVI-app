@@ -1,7 +1,8 @@
 // app/(tabs)/category/[animal]/[group]/[id].tsx
 
 import { Ionicons } from "@expo/vector-icons";
-import { useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
+import { getDrugRouteByName } from "../../../../../src/constants/drugLinks";
 import React, { useEffect, useRef } from "react";
 import {
   SafeAreaView,
@@ -115,10 +116,12 @@ const renderSymptomaticTreatment = (
           | string[];
       }
     | string[]
-    | undefined
+    | undefined,
+  onDrugPress?: (name: string) => void
 ) => {
   if (!symptomatic) return null;
 
+  // Trường hợp schema cũ: chỉ là mảng string
   if (Array.isArray(symptomatic)) {
     return renderBullets(symptomatic);
   }
@@ -141,19 +144,24 @@ const renderSymptomaticTreatment = (
 
         if (Array.isArray(value)) {
           if (value.length > 0) {
-            main = String(value[0]);
-            alternatives = value.slice(1).map((v) => String(v));
+            main = String(value[0]).trim();
+            alternatives = value
+              .slice(1)
+              .map((v) => String(v).trim())
+              .filter(Boolean);
           }
         } else if (value && typeof value === "object") {
           // @ts-ignore
-          main = value.main as string;
+          main = (value.main as string | undefined)?.trim();
           // @ts-ignore
           const altRaw = value.alternative as string | string[] | undefined;
           if (typeof altRaw === "string") {
             const t = altRaw.trim();
             if (t) alternatives = [t];
           } else if (Array.isArray(altRaw)) {
-            alternatives = altRaw.map((v) => String(v));
+            alternatives = altRaw
+              .map((v) => String(v).trim())
+              .filter(Boolean);
           }
         }
 
@@ -162,14 +170,43 @@ const renderSymptomaticTreatment = (
         return (
           <View key={key} style={{ marginBottom: 8 }}>
             <Text style={styles.symptomaticGroupTitle}>{getLabel(key)}</Text>
+
+            {/* Thuốc chính */}
             <Text style={styles.bulletText}>
               • <Text style={{ fontWeight: "600" }}>Thuốc chính: </Text>
-              {main}
+              {onDrugPress ? (
+                <Text
+                  style={styles.drugLink}
+                  onPress={() => onDrugPress(main!)}
+                >
+                  {main}
+                </Text>
+              ) : (
+                main
+              )}
             </Text>
+
+            {/* Thuốc thay thế */}
             {alternatives.length > 0 && (
               <Text style={styles.bulletText}>
                 • <Text style={{ fontWeight: "600" }}>Thay thế: </Text>
-                {alternatives.join(", ")}
+                {alternatives.map((alt, idx) =>
+                  onDrugPress ? (
+                    <Text
+                      key={`${alt}-${idx}`}
+                      style={styles.drugLink}
+                      onPress={() => onDrugPress(alt)}
+                    >
+                      {idx > 0 ? ", " : ""}
+                      {alt}
+                    </Text>
+                  ) : (
+                    <Text key={`${alt}-${idx}`}>
+                      {idx > 0 ? ", " : ""}
+                      {alt}
+                    </Text>
+                  )
+                )}
               </Text>
             )}
           </View>
@@ -178,6 +215,7 @@ const renderSymptomaticTreatment = (
     </View>
   );
 };
+
 
 const Section = ({
   title,
@@ -207,6 +245,8 @@ const Section = ({
 // =======================
 
 export default function DiseaseDetailScreen() {
+  const router = useRouter();
+
   const params = useLocalSearchParams<Record<string, string | string[]>>();
 
   const getParam = (key: string): string => {
@@ -231,6 +271,22 @@ export default function DiseaseDetailScreen() {
     (detail && detail.name) ||
     (typeof params.name === "string" ? params.name : "") ||
     id;
+  
+    // ====== ĐIỀU HƯỚNG SANG CHI TIẾT THUỐC ======
+  const handleOpenDrug = (drugName: string) => {
+  const route = getDrugRouteByName(drugName);
+  if (!route) return;
+
+  router.push({
+    pathname: "/drug-detail/[group]/[id]",   // 👈 dùng stack riêng
+    params: {
+      group: route.group,
+      id: route.id,
+    },
+  });
+};
+
+
 
   // ====== LOG HÀNH VI XEM BỆNH ======
   const viewStartRef = useRef<number | null>(null);
@@ -317,6 +373,37 @@ export default function DiseaseDetailScreen() {
 
   const advanced = detail as any;
   const headerIcon = (ANIMAL_ICONS[animal] as any) || "medkit-outline";
+
+    const renderDrugList = (drugs?: any) => {
+    if (!drugs) return null;
+
+    // chuẩn hoá về mảng string
+    const list: string[] = Array.isArray(drugs)
+      ? drugs.map((d) => String(d).trim()).filter(Boolean)
+      : [String(drugs).trim()].filter(Boolean);
+
+    if (list.length === 0) return null;
+
+    return (
+      <View style={{ marginTop: 4 }}>
+        {list.map((name, idx) => (
+          <Text
+            key={`${name}-${idx}`}
+            style={styles.bulletText}
+          >
+            {"\u2022"}{" "}
+            <Text
+              style={styles.drugLink}
+              onPress={() => handleOpenDrug(name)}
+            >
+              {name}
+            </Text>
+          </Text>
+        ))}
+      </View>
+    );
+  };
+
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -437,27 +524,29 @@ export default function DiseaseDetailScreen() {
             icon="pulse-outline"
           >
             {advanced.treatment?.primary_drugs && (
-              <>
-                <Text style={styles.stageTitle}>💊 Thuốc ưu tiên</Text>
-                {renderBullets(advanced.treatment.primary_drugs)}
-              </>
-            )}
+  <>
+    <Text style={styles.stageTitle}>💊 Thuốc ưu tiên</Text>
+    {renderDrugList(advanced.treatment.primary_drugs)}
+  </>
+)}
 
-            {advanced.treatment?.alternative_drugs && (
-              <>
-                <Text style={styles.stageTitle}>🔁 Thuốc có thể thay thế</Text>
-                {renderBullets(advanced.treatment.alternative_drugs)}
-              </>
-            )}
+{advanced.treatment?.alternative_drugs && (
+  <>
+    <Text style={styles.stageTitle}>🔁 Thuốc có thể thay thế</Text>
+    {renderDrugList(advanced.treatment.alternative_drugs)}
+  </>
+)}
 
             {advanced.treatment?.symptomatic_treatment && (
-              <>
-                <Text style={styles.stageTitle}>🩺 Điều trị triệu chứng</Text>
-                {renderSymptomaticTreatment(
-                  advanced.treatment.symptomatic_treatment
-                )}
-              </>
-            )}
+  <>
+    <Text style={styles.stageTitle}>🩺 Điều trị triệu chứng</Text>
+    {renderSymptomaticTreatment(
+      advanced.treatment.symptomatic_treatment,
+      handleOpenDrug   // 👈 truyền callback vào đây
+    )}
+  </>
+)}
+
 
             {advanced.treatment?.supportive_care && (
               <>
@@ -539,6 +628,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.background,
   },
+  
   scroll: {
     flex: 1,
   },
@@ -617,6 +707,11 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     color: colors.text,
     marginBottom: 2,
+  },
+  drugLink: {
+    color: "#16a34a",
+    fontWeight: "500",
+    textDecorationLine: "underline",
   },
   symptomaticGroupTitle: {
     fontSize: 15,

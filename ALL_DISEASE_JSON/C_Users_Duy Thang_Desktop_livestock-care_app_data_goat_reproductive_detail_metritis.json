@@ -1,0 +1,129 @@
+{
+  "id": "metritis",
+  "name": "Viêm tử cung ở dê",
+  "species": "goat",
+  "group": "reproductive",
+
+  "summary": "Viêm tử cung thường xảy ra sau khi đẻ khó, sót nhau, can thiệp đỡ đẻ không vô trùng hoặc nhiễm khuẩn từ môi trường. Dê có mùi hôi âm hộ, dịch bẩn, sốt, ăn giảm và sản lượng sữa giảm mạnh.",
+
+  "causes": [
+    "Đẻ khó, can thiệp đỡ đẻ bằng tay không vệ sinh.",
+    "Sót nhau hoặc nhau bong chậm.",
+    "Vi khuẩn xâm nhập từ nền chuồng bẩn.",
+    "Nhiễm khuẩn sau sảy thai.",
+    "Dê suy yếu sau đẻ."
+  ],
+
+  "risk_factors": [
+    "Chuồng ẩm, bẩn.",
+    "Đỡ đẻ không dụng cụ vô trùng.",
+    "Thiếu khoáng - vitamin cuối thai kỳ.",
+    "Đẻ kéo dài."
+  ],
+
+  "clinical_signs_detailed": [
+    "Âm hộ chảy dịch đục, vàng, nâu hoặc hôi.",
+    "Sốt, ăn giảm, lờ đờ.",
+    "Sữa giảm mạnh, dê mẹ đứng tách đàn.",
+    "Tử cung căng, đau khi sờ.",
+    "Trong trường hợp nặng có thể nhiễm trùng huyết."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Dịch âm hộ đục, mùi nhẹ.",
+      "Ăn giảm nhưng vẫn đứng nhiều."
+    ],
+    "moderate": [
+      "Dịch hôi rõ, sốt, bỏ ăn.",
+      "Lờ đờ, giảm sữa."
+    ],
+    "severe": [
+      "Dịch hôi nặng, màu nâu - đen.",
+      "Sốt cao, mất nước, đứng khó.",
+      "Nguy cơ nhiễm trùng huyết."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ceftiofur",
+      "Amoxicillin",
+      "Oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "Metronidazole (theo hướng dẫn thú y, dùng ca nặng do vi khuẩn yếm khí).",
+      "Doxycycline nếu không có thuốc chính."
+    ],
+    "note_drugs": [
+      "Không tự ý thụt rửa tử cung bằng hóa chất mạnh vì dễ làm bỏng niêm mạc.",
+      "Chỉ thụt rửa bằng dung dịch sinh lý hoặc chế phẩm chuyên dụng nếu thú y hướng dẫn."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Ketoprofen",
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex",
+        "Khoáng - vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho dê ăn giảm."
+      ]
+    },
+    "supportive_care": [
+      "Giữ chuồng khô - sạch sau sinh.",
+      "Tách dê mẹ khỏi khu vực ẩm bẩn.",
+      "Hỗ trợ uống nước ấm dễ tiêu.",
+      "Theo dõi dịch âm hộ hằng ngày."
+    ],
+    "dose_policy": [
+      "Dùng kháng sinh đúng liều - đúng thời gian theo nhãn hoặc thú y.",
+      "Không dừng thuốc sớm khi mới thấy đỡ."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dịch hôi, sốt nhưng còn đứng.",
+      "guideline": [
+        "Kháng sinh phổ rộng (ceftiofur/amoxicillin).",
+        "Chống viêm + vitamin C.",
+        "Điện giải, hỗ trợ ăn uống.",
+        "Theo dõi 24-48 giờ."
+      ]
+    },
+    "case_type_2": {
+      "description": "Rất yếu, sốt cao, dịch đen, nghi nhiễm trùng huyết.",
+      "guideline": [
+        "Kháng sinh mạnh + hồi sức.",
+        "Điện giải, trợ tim theo thú y.",
+        "Giữ ấm, tránh stress.",
+        "Cần can thiệp thú y ngay."
+      ]
+    },
+    "note": "Viêm tử cung xử lý sớm sẽ hồi nhanh; để nặng dễ giảm khả năng sinh sản lâu dài."
+  },
+
+  "prevention": [
+    "Đỡ đẻ vô trùng, vệ sinh tay - dụng cụ.",
+    "Giữ chuồng sạch, khô, lót nền mới cho dê đẻ.",
+    "Bổ sung khoáng - vitamin cuối thai kỳ.",
+    "Kiểm tra nhau sau đẻ để phát hiện sót."
+  ],
+
+  "notes": [
+    "Ca viêm nặng thường do môi trường xấu.",
+    "Đàn có nhiều ca lặp lại cần xem lại quy trình đỡ đẻ."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

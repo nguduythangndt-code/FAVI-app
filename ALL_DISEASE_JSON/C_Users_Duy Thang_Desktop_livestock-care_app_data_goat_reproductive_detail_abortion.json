@@ -1,0 +1,131 @@
+{
+  "id": "abortion",
+  "name": "Sảy thai truyền nhiễm ở dê",
+  "species": "goat",
+  "group": "reproductive",
+
+  "summary": "Sảy thai truyền nhiễm thường do vi khuẩn Brucella, Chlamydia, viêm tử cung do Mycoplasma hoặc ký sinh trùng Toxoplasma. Nguy hiểm vì dễ lan cả đàn, gây sảy thai hàng loạt và giảm khả năng sinh sản lâu dài.",
+
+  "causes": [
+    "Brucella melitensis (cực nguy hiểm, lây sang người).",
+    "Chlamydia abortus.",
+    "Mycoplasma spp.",
+    "Toxoplasma gondii.",
+    "Viêm tử cung mạn trước đó.",
+    "Nhiễm khuẩn từ nền chuồng bẩn."
+  ],
+
+  "risk_factors": [
+    "Dê cái mang thai tiếp xúc dê sảy thai trước.",
+    "Không cách ly dê mới nhập đàn.",
+    "Dinh dưỡng kém, thiếu khoáng - vitamin.",
+    "Chuồng ẩm, nhiều mầm bệnh.",
+    "Có mèo trong khu chuồng (nguồn Toxoplasma)."
+  ],
+
+  "clinical_signs_detailed": [
+    "Chảy dịch âm hộ trước khi sảy.",
+    "Dê bỏ ăn, lờ đờ.",
+    "Thai rơi ra trước hạn, nhau bẩn - hôi.",
+    "Nhiều con trong đàn đẻ non liên tiếp.",
+    "Có thể viêm vú, sốt, giảm sữa sau khi sảy."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Bỏ ăn nhẹ, chảy dịch trong.",
+      "Sảy thai lẻ tẻ."
+    ],
+    "moderate": [
+      "Sảy thai nhiều lứa liên tục.",
+      "Dịch âm hộ đục - hôi.",
+      "Dê yếu, giảm sữa."
+    ],
+    "severe": [
+      "Sảy thai hàng loạt.",
+      "Sốt, viêm tử cung kế phát.",
+      "Nguy cơ vô sinh."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Oxytetracycline",
+      "Doxycycline",
+      "Amoxicillin (nếu nghi nhiễm khuẩn tử cung kèm theo)"
+    ],
+    "alternative_drugs": [
+      "Tylosin (nghi Mycoplasma).",
+      "Sulfa (một số ca nghi ký sinh Toxoplasma)."
+    ],
+    "note_drugs": [
+      "Brucella gần như không điều trị triệt để — cần loại thải, báo thú y địa phương.",
+      "Không tái nhập những con đã sảy thai do bệnh truyền nhiễm nặng."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam",
+        "Flunixin"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin E - Selenium",
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho dê yếu."
+      ]
+    },
+    "supportive_care": [
+      "Cách ly hoàn toàn dê sảy thai.",
+      "Dọn sạch nhau - thai, tiêu huỷ đúng cách.",
+      "Khử trùng chuồng bằng chế phẩm an toàn.",
+      "Tăng cường khoáng - vitamin cho đàn."
+    ],
+    "dose_policy": [
+      "Kháng sinh phải dùng đủ ngày theo nhãn hoặc thú y.",
+      "Không dùng thuốc bừa bãi cho toàn đàn khi chưa xác định nguyên nhân."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Sảy thai lẻ tẻ, dê còn ăn, còn đứng.",
+      "guideline": [
+        "Oxytetracycline/doxycycline.",
+        "Chống viêm + vitamin.",
+        "Theo dõi dịch âm hộ."
+      ]
+    },
+    "case_type_2": {
+      "description": "Sảy thai hàng loạt, dịch hôi, sốt.",
+      "guideline": [
+        "Kháng sinh phổ rộng cho nhóm nghi nhiễm.",
+        "Khử trùng chuồng toàn bộ.",
+        "Cách ly đàn mang thai.",
+        "Liên hệ thú y địa phương kiểm tra Brucella."
+      ]
+    },
+    "note": "Sảy thai truyền nhiễm là vấn đề đàn — không chỉ là điều trị từng con."
+  },
+
+  "prevention": [
+    "Cách ly dê mới mua 30 ngày.",
+    "Khử trùng chuồng định kỳ.",
+    "Không để mèo vào khu đẻ để tránh Toxoplasma.",
+    "Bổ sung Selenium - Vitamin E.",
+    "Tiêm phòng bệnh truyền nhiễm theo vùng (nếu có vaccine)."
+  ],
+
+  "notes": [
+    "Nếu có 2 con liên tiếp sảy trong 1 tuần → coi là dịch.",
+    "Brucella lây sang người — cần hết sức cẩn thận."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

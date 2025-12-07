@@ -1,0 +1,111 @@
+{
+  "id": "coccidia",
+  "name": "Tiêu chảy do Coccidia (Isospora)",
+  "species": "pig",
+  "group": "digestive",
+  "summary": "Coccidia thường gây tiêu chảy kéo dài ở heo con, phân sệt hoặc nhão, heo lớn chậm, lông xấu và ít khi chết nhanh nhưng ảnh hưởng mạnh đến tăng trọng.",
+  "causes": [
+    "Ký sinh trùng đường ruột Isospora suis và các loài Coccidia khác",
+    "Lây qua phân nhiễm trùng dính vào nền chuồng, vú nái, máng ăn uống"
+  ],
+  "risk_factors": [
+    "Chuồng úm ẩm, bẩn, khó khô",
+    "Không dọn phân thường xuyên",
+    "Mật độ nuôi heo con dày",
+    "Heo con từ 5-21 ngày tuổi",
+    "Chuồng khó khử trùng do nhiều kẽ hở, nền xốp"
+  ],
+  "clinical_signs_detailed": [
+    "Tiêu chảy nhão, phân sệt hoặc sệt có nước",
+    "Phân dính quanh hậu môn và đuôi",
+    "Heo con lớn chậm, bụng tóp, xương sườn lộ",
+    "Lông xỉu, da nhăn, nhìn gầy gò",
+    "Thường không sốt cao, diễn biến âm ỉ",
+    "Ít chết cấp nhưng kéo đàn xuống rõ rệt"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Phân mềm hơn bình thường",
+      "Heo vẫn ăn nhưng không sung",
+      "Lông hơi xỉu, chậm tăng trọng"
+    ],
+    "moderate": [
+      "Tiêu chảy nhão, phân dính nhiều ở đuôi",
+      "Gầy dần, bụng tóp",
+      "Heo con ít chạy nhảy, hay nằm"
+    ],
+    "severe": [
+      "Tiêu chảy kéo dài nhiều ngày",
+      "Gầy rõ, da nhăn, lông dựng",
+      "Heo rất chậm lớn, dễ ghép bệnh khác"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Toltrazuril"
+    ],
+    "alternative_drugs": [
+      "Sulfonamide",
+      "Sulfa-trimethoprim"
+    ],
+    "note_drugs": "Toltrazuril là lựa chọn chính cho Coccidia trên heo con. Các thuốc Sulfonamide hoặc phối hợp Sulfa-trimethoprim chỉ dùng khi không có Toltrazuril hoặc theo hướng dẫn thú y.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen", "Meloxicam"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["ADE B-complex", "Vitamin tổng hợp"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ ô heo con khô, sạch, thay lót thường xuyên",
+      "Không để heo nằm trực tiếp trên nền ẩm",
+      "Bổ sung vitamin và khoáng cho heo con trong giai đoạn điều trị"
+    ],
+    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Heo tiêu chảy kéo dài, gầy nhưng vẫn còn đi lại và ăn ít.",
+      "guideline": [
+        "Dùng Toltrazuril theo khuyến cáo",
+        "Bổ sung men tiêu hoá và vitamin đều mỗi ngày",
+        "Giữ chuồng khô và sạch phân"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo rất gầy, lông dựng, tiêu chảy nhiều ngày, sức đề kháng kém.",
+      "guideline": [
+        "Hạn chế dồn đuổi, tránh dẫm đạp",
+        "Tập trung dinh dưỡng dễ tiêu và hỗ trợ vitamin",
+        "Theo dõi kỹ để phát hiện bệnh ghép như E.coli hoặc bệnh hô hấp"
+      ]
+    },
+    "note": "Coccidia làm heo chậm lớn kéo dài, thiệt hại chính là mất tăng trọng chứ ít khi chết cấp."
+  },
+  "prevention": [
+    "Vệ sinh chuồng úm hàng ngày, dọn phân sớm",
+    "Giữ nền khô, hạn chế ẩm đọng",
+    "Khử trùng định kỳ bằng thuốc sát trùng phù hợp",
+    "Không nuôi heo con quá dày trong một ô"
+  ],
+  "notes": [
+    "Thường gặp ở heo con khoảng 1-3 tuần tuổi.",
+    "Nếu trong đàn có nhiều con cùng chậm lớn và phân nhão kéo dài, cần nghĩ đến Coccidia."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Orf (loét miệng truyền nhiễm)",
+
+  "summary": "Bệnh virus gây mụn - loét ở môi, mép miệng, đôi khi ở bầu vú. Lây nhanh nhưng hiếm khi chết, chủ yếu làm dê bỏ ăn và chậm lớn.",
+
+  "causes": [
+    "Virus Orf (parapoxvirus)",
+    "Lây qua tiếp xúc trực tiếp hoặc qua vết xước"
+  ],
+
+  "risk_factors": [
+    "Dê con mọc răng, hay xây xước miệng",
+    "Chuồng bẩn, nhiều vật sắc",
+    "Đàn nuôi dày",
+    "Dùng chung máng ăn - nước"
+  ],
+
+  "clinical_signs_detailed": [
+    "Mụn nhỏ ở môi, mép miệng",
+    "Đóng vảy dày màu nâu",
+    "Loét đau, chảy máu nhẹ",
+    "Bỏ ăn, nhai chậm",
+    "Chảy dãi",
+    "Gầy sút do đau miệng",
+    "Có thể loét ở núm vú dê mẹ",
+    "Dê con khó bú"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Nổi mụn nhỏ quanh môi",
+      "Ăn giảm nhẹ"
+    ],
+    "moderate": [
+      "Vảy dày, loét rõ",
+      "Bỏ ăn nhiều, chảy dãi"
+    ],
+    "severe": [
+      "Loét lan rộng, bội nhiễm",
+      "Dê con kiệt sức do không bú"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Oxytetracycline",
+      "Povidone-iodine"
+    ],
+    "alternative_drugs": [
+      "Florfenicol"
+    ],
+"note_drugs": "Thuốc bôi sát trùng giúp khô vết loét; kháng sinh chỉ dùng khi có bội nhiễm. Đeo găng vì bệnh có thể lây sang người.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": ["Ketoprofen"]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": ["vitamin tổng hợp"]
+      }
+    },
+
+    "supportive_care": [
+      "Rửa sạch vảy, bôi sát trùng nhẹ hằng ngày",
+      "Cho ăn thức ăn mềm dễ nuốt",
+      "Cách ly con bệnh",
+      "Vệ sinh máng ăn - nước"
+    ],
+
+    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": [
+      "Nếu bội nhiễm nặng: ưu tiên kháng sinh phổ rộng",
+      "Giảm đau để dê ăn lại"
+    ],
+    "case_type_2": [
+      "Dê con không bú được: hỗ trợ sữa bằng tay",
+      "Theo dõi mất nước"
+    ],
+    "note": "Bệnh lây sang người khi có vết thương, nên đeo găng tay."
+  },
+
+  "prevention_list": [
+    "Tiêm vaccine Orf nếu vùng có dịch",
+    "Tránh vật sắc trong chuồng",
+    "Khử trùng chuồng và máng định kỳ",
+    "Cách ly con mới nhập"
+  ],
+
+  "notes": [
+    "Thường tự khỏi sau vài tuần nếu chăm tốt, nhưng rất dễ lây."
+  ],
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+}

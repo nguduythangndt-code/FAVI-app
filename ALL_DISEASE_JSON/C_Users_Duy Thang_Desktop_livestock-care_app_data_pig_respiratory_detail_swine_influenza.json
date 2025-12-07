@@ -1,0 +1,108 @@
+{
+  "id": "swine_influenza",
+  "name": "Cúm heo (Swine Influenza)",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Cúm heo gây sốt cao, ho khan, chảy mũi và yếu nhanh. Bùng phát rất nhanh trong đàn.",
+  "causes": [
+    "Virus cúm type A (H1N1, H3N2)",
+    "Lây qua không khí cực nhanh",
+    "Thời tiết lạnh, thay đổi nhiệt độ đột ngột"
+  ],
+  "risk_factors": [
+    "Chuồng lạnh",
+    "Gió lùa",
+    "Đàn đông",
+    "Nuôi nhiều lứa tuổi cùng chuồng"
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao 40-41",
+    "Ho khan mạnh",
+    "Chảy mũi, mắt đỏ nhẹ",
+    "Ăn giảm nhanh, nằm nhiều",
+    "Thở mạnh hoặc thở bụng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ",
+      "Ăn giảm ít"
+    ],
+    "moderate": [
+      "Sốt cao",
+      "Ho nhiều, thở nhanh"
+    ],
+    "severe": [
+      "Nằm bẹp",
+      "Thở bụng mạnh",
+      "Mất nước do sốt"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Kháng sinh kiểm soát nhiễm ghép (Tylosin, Florfenicol)"
+    ],
+    "alternative_drugs": [
+      "Amoxicillin",
+      "Doxycycline"
+    ],
+    "note_drugs": "Cúm là virus, không có thuốc đặc trị. Dùng kháng sinh để hạn chế viêm phổi ghép.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": ["Ketoprofen"]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": ["Ambroxol"]
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": ["Glucose-Electrolyte"]
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": ["Vitamin C"]
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": ["Probiotic"]
+      }
+    },
+    "supportive_care": [
+      "Giữ ấm chuồng",
+      "Không để gió lùa",
+      "Bù nước điện giải",
+      "Giảm mật độ đàn"
+    ],
+    "dose_policy": "Dùng thuốc đúng liều theo nhãn."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Sốt cao, ho nhiều nhưng còn đứng.",
+      "guideline": [
+        "Giảm viêm",
+        "Kháng sinh phòng nhiễm ghép",
+        "Ổn định nhiệt độ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Heo nằm bẹp, thở bụng.",
+      "guideline": [
+        "Điều trị tích cực",
+        "Bù điện giải liên tục",
+        "Tách ô khô, yên tĩnh"
+      ]
+    },
+    "note": "Cúm lan cực nhanh, thường bùng cả đàn."
+  },
+  "prevention": [
+    "Tiêm phòng cúm định kỳ",
+    "Giữ chuồng ấm và khô",
+    "Không trộn đàn"
+  ],
+  "notes": [
+    "Heo khỏi cúm thường hồi nhanh nếu môi trường tốt.",
+    "Đợt cúm thường kéo dài 5-7 ngày trong đàn."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

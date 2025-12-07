@@ -1,0 +1,119 @@
+{
+  "id": "heat-stress",
+  "name": "Sốc nhiệt ở dê",
+  "species": "goat",
+  "group": "other",
+
+  "summary": "Sốc nhiệt xảy ra khi dê ở trong môi trường quá nóng, ẩm hoặc thiếu thông thoáng. Cơ thể không thoát nhiệt được dẫn đến mệt, thở mạnh, mất nước và có thể sụp đổ đột ngột.",
+
+  "causes": [
+    "Nắng nóng kéo dài.",
+    "Chuồng bí, không có gió.",
+    "Không có nước uống đủ.",
+    "Dê vận động mạnh hoặc chen chúc trong không gian hẹp."
+  ],
+
+  "risk_factors": [
+    "Dê vỗ béo, dê béo mỡ.",
+    "Dê mang thai cuối kỳ.",
+    "Dê con mới cai sữa.",
+    "Nền chuồng nóng, mái tôn không cách nhiệt."
+  ],
+
+  "clinical_signs_detailed": [
+    "Thở gấp mạnh.",
+    "Há miệng thở, lưỡi thè.",
+    "Mệt rũ, đi loạng choạng.",
+    "Tai nóng, mình nóng, chân run.",
+    "Có thể ngã quỵ, co giật nếu quá nặng."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Thở nhanh.",
+      "Đứng nép góc, tìm bóng mát."
+    ],
+    "moderate": [
+      "Há miệng thở.",
+      "Mệt, đi loạng choạng.",
+      "Giảm ăn."
+    ],
+    "severe": [
+      "Ngã quỵ.",
+      "Co giật.",
+      "Hôn mê do sốc nhiệt."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Điện giải - gluco",
+      "Vitamin C"
+    ],
+    "alternative_drugs": [
+      "B-complex",
+      "Thuốc trợ tim nhẹ (dùng theo thú y)"
+    ],
+    "note_drugs": [
+      "Không xối nước đá trực tiếp lên dê — gây sốc nhiệt ngược.",
+      "Không ép uống quá nhanh khi dê đang thở gấp."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS",
+        "Dextrose - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Đưa dê vào bóng mát ngay lập tức.",
+      "Dùng khăn ướt lau người (không dùng nước đá).",
+      "Tạo quạt gió nhẹ.",
+      "Cho uống điện giải nhiều lần trong ngày."
+    ],
+    "dose_policy": [
+      "Điện giải dùng theo hướng dẫn.",
+      "Không dùng thuốc trợ tim bừa bãi."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê mệt nhưng còn đứng được.",
+      "guideline": [
+        "Đưa vào bóng mát.",
+        "Điện giải + vitamin C.",
+        "Lau người bằng khăn ướt."
+      ]
+    },
+    "case_type_2": {
+      "description": "Ngã quỵ, thở gấp, co giật.",
+      "guideline": [
+        "Thú y xử lý ngay.",
+        "Điện giải - trợ tim theo chỉ định.",
+        "Làm mát từ từ, không dùng nước lạnh đột ngột."
+      ]
+    },
+    "note": "Sốc nhiệt nặng có thể chết trong 15-30 phút nếu không xử lý."
+  },
+
+  "prevention": [
+    "Che mát chuồng, cải thiện thông gió.",
+    "Bố trí nhiều máng nước.",
+    "Không dồn đàn vào buổi trưa nóng.",
+    "Cho uống điện giải khi thời tiết cực nóng."
+  ],
+
+  "notes": [
+    "Dê vỗ béo rất dễ bị sốc nhiệt.",
+    "Mái tôn + chuồng kín = nguy cơ cao."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

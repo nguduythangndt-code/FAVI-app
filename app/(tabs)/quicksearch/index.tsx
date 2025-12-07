@@ -2,8 +2,9 @@
 
 // ================== IMPORT ICON / ROUTER / RN ==================
 import { Ionicons } from "@expo/vector-icons";
-import { useRouter } from "expo-router";
+import { useRouter, useLocalSearchParams } from "expo-router";
 import React, { useEffect, useMemo, useState } from "react";
+import { useIsFocused } from "@react-navigation/native";
 
 import {
   SafeAreaView,
@@ -158,12 +159,77 @@ type SearchHistoryItem = {
 };
 
 // ================== UI MÀN TÌM KIẾM ==================
+
+// đặt ngoài component
+const ALLOWED_ANIMALS: AnimalType[] = ["goat", "pig", "cattle", "chicken"];
+
 const QuickSearchScreen = () => {
   const router = useRouter();
+  const isFocused = useIsFocused();
+
+  const params = useLocalSearchParams<{
+    animal?: string;
+    fromCare?: string;
+    careSession?: string;
+  }>();
+
+  // 👉 STATE
   const [selectedAnimal, setSelectedAnimal] = useState<AnimalType | null>(null);
   const [query, setQuery] = useState("");
-  const [history] = useState<SearchHistoryItem[]>([]); // sau này load từ storage nếu cần
+  const [history] = useState<SearchHistoryItem[]>([]);
   const [lastLogKey, setLastLogKey] = useState<string>("");
+  const [isListening, setIsListening] = useState(false);
+  const [showBackFromCare, setShowBackFromCare] = useState(false);
+  const [lastCareSession, setLastCareSession] = useState<string | null>(null);
+
+  // animal truyền từ Care (nếu có) + validate
+  const initialAnimalParam: AnimalType | null =
+    params.animal && ALLOWED_ANIMALS.includes(params.animal as AnimalType)
+      ? (params.animal as AnimalType)
+      : null;
+
+  // mỗi lần param animal đổi (đi từ Care sang loài khác) thì ép lại selectedAnimal
+  useEffect(() => {
+    if (initialAnimalParam) {
+      setSelectedAnimal(initialAnimalParam);
+    }
+  }, [initialAnimalParam]);
+
+  // 👉 Mỗi lần có careSession mới từ Care thì bật nút quay lại
+  useEffect(() => {
+    const fromCareParam = params.fromCare === "1";
+    const careSession = params.careSession as string | undefined;
+
+    if (fromCareParam && careSession && careSession !== lastCareSession) {
+      setShowBackFromCare(true);
+      setLastCareSession(careSession);
+    }
+  }, [params.fromCare, params.careSession, lastCareSession]);
+
+  // 👉 rời Quicksearch thì tắt nút quay lại
+  useEffect(() => {
+    if (!isFocused) {
+      setShowBackFromCare(false);
+    }
+  }, [isFocused]);
+
+  // toggle mic (hiện tại chỉ là hiệu ứng UI)
+  const handleToggleVoice = () => {
+    if (!selectedAnimal) return;
+    setIsListening((prev) => !prev);
+  };
+
+
+
+
+
+
+  // 👉 Mỗi lần param animal đổi (đi từ Care sang loài khác) thì ép lại selectedAnimal
+  useEffect(() => {
+    if (initialAnimalParam) {
+      setSelectedAnimal(initialAnimalParam);
+    }
+  }, [initialAnimalParam]);
 
   const results: QuicksearchResult[] = useMemo(() => {
     if (!selectedAnimal) return [];
@@ -188,6 +254,9 @@ const QuickSearchScreen = () => {
 
     setLastLogKey(key);
   }, [selectedAnimal, query, results.length, lastLogKey]);
+
+  // ⬇⬇⬇ TỪ ĐÂY TRỞ XUỐNG LÀ JSX CŨ CỦA M (return ... )
+  // TUYỆT ĐỐI KHÔNG ĐƯỢC ĐÓNG `};` TRƯỚC RETURN
 
   // render nút chọn loài - đặt trong component để dùng được state
   const renderAnimalButton = (animal: AnimalType, label: string) => {
@@ -225,6 +294,16 @@ const QuickSearchScreen = () => {
       },
     });
   };
+const handleBackFromCare = () => {
+  setShowBackFromCare(false);
+  if (router.canGoBack()) {
+    router.back();
+  } else {
+    router.push("/(tabs)/category");
+  }
+};
+
+
 
   const showHistory =
     selectedAnimal && query.trim().length === 0 && history.length > 0;
@@ -236,6 +315,23 @@ const QuickSearchScreen = () => {
         contentContainerStyle={styles.contentContainer}
         keyboardShouldPersistTaps="handled"
       >
+ {/* NÚT QUAY LẠI KHI ĐI TỪ CARE SANG */}
+{showBackFromCare && (
+  <TouchableOpacity
+    style={styles.backRow}
+    onPress={handleBackFromCare}
+  >
+    <Ionicons
+      name="chevron-back"
+      size={18}
+      color={"#16a34a"}
+      style={{ marginRight: 4 }}
+    />
+    <Text style={styles.backText}>Quay lại mục chăm sóc</Text>
+  </TouchableOpacity>
+)}
+
+
         {/* CHỌN LOÀI */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Chọn loài</Text>
@@ -253,22 +349,43 @@ const QuickSearchScreen = () => {
           <Text style={styles.sectionTitle}>Nhập triệu chứng</Text>
 
           <View
-            style={[
-              styles.searchBar,
-              !selectedAnimal && styles.searchBarDisabled,
-            ]}
-          >
-            <Ionicons name="search-outline" size={18} color={colors.textMuted} />
-            <TextInput
-              style={styles.searchInput}
-              placeholder="Ví dụ: lờ đờ, tiêu chảy, khó thở..."
-              placeholderTextColor={colors.textMuted}
-              value={query}
-              onChangeText={setQuery}
-              editable={!!selectedAnimal}
-              returnKeyType="search"
-            />
-          </View>
+  style={[
+    styles.searchBar,
+    !selectedAnimal && styles.searchBarDisabled,
+  ]}
+>
+  <Ionicons name="search-outline" size={18} color={colors.textMuted} />
+
+  <TextInput
+    style={styles.searchInput}
+    placeholder="Ví dụ: lờ đờ, tiêu chảy, khó thở..."
+    placeholderTextColor={colors.textMuted}
+    value={query}
+    onChangeText={setQuery}
+    editable={!!selectedAnimal}
+    returnKeyType="search"
+  />
+
+  {selectedAnimal && (
+    <TouchableOpacity
+      onPress={handleToggleVoice}
+      style={styles.micButton}
+    >
+      <Ionicons
+        name={isListening ? "mic" : "mic-outline"}
+        size={18}
+        color={isListening ? colors.primary : colors.textMuted}
+      />
+    </TouchableOpacity>
+  )}
+</View>
+
+{isListening && selectedAnimal && (
+  <Text style={styles.helperText}>
+    Đang nghe... hãy nói rõ triệu chứng rồi bấm lại icon mic để dừng.
+  </Text>
+)}
+
 
           {!selectedAnimal && (
             <Text style={styles.helperText}>
@@ -365,6 +482,33 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.lg,
     paddingTop: spacing.lg,
     paddingBottom: spacing.xl,
+  },
+
+    micButton: {
+    marginLeft: spacing.sm,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+
+
+  // back từ Care
+  backRow: {
+  flexDirection: "row",
+  alignItems: "center",
+  marginBottom: spacing.md,
+  paddingVertical: 6,
+  paddingHorizontal: 8,
+  borderRadius: 999,
+  backgroundColor: "#ecfdf3", // nền xanh lá rất nhạt (tuỳ m)
+},
+
+  backText: {
+    fontSize: 14,
+    color: "#16a34a",
+    fontWeight: "500",
   },
 
   section: { marginBottom: spacing.lg },

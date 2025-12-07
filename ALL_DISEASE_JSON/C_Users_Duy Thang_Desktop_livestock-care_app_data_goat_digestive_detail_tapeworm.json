@@ -1,0 +1,117 @@
+{
+  "id": "tapeworm",
+  "name": "Sán dây đường ruột ở dê",
+  "species": "goat",
+  "group": "digestive",
+
+  "summary": "Sán dây gây rối loạn tiêu hoá, phân có đốt sán trắng, dê chậm lớn, thiếu máu nhẹ và lông xù. Gặp nhiều ở dê con và dê non 1-6 tháng tuổi.",
+
+  "causes": [
+    "Ăn phải trứng sán từ cỏ bẩn.",
+    "Nước uống nhiễm trứng sán.",
+    "Chuồng nuôi ẩm thấp."
+  ],
+
+  "risk_factors": [
+    "Dê con 1-6 tháng.",
+    "Chăn thả ở bãi cỏ gần khu vực ô nhiễm.",
+    "Không tẩy giun định kỳ."
+  ],
+
+  "clinical_signs_detailed": [
+    "Phân có đốt sán trắng.",
+    "Dê chậm lớn, bụng tóp.",
+    "Phân lúc sệt lúc lỏng.",
+    "Ăn nhiều nhưng không tăng cân.",
+    "Thiếu máu nhẹ, lông xù."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ít đốt sán, phân bình thường.",
+      "Ăn giảm nhẹ."
+    ],
+    "moderate": [
+      "Phân sệt, đốt sán nhiều.",
+      "Bụng tóp, lông xấu."
+    ],
+    "severe": [
+      "Rất nhiều đốt sán.",
+      "Chậm lớn rõ, thiếu máu.",
+      "Dê non yếu, dễ nhiễm thêm bệnh khác."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Praziquantel",
+      "Albendazole"
+    ],
+    "alternative_drugs": [
+      "Fenbendazole",
+      "Vitamin B-complex",
+      "Men tiêu hoá"
+    ],
+    "note_drugs": [
+      "Không dùng kháng sinh."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "ORS"
+      ],
+      "vitamin": [
+        "B-complex",
+        "Vitamin C"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá",
+        "Niêm mạc ruột"
+      ]
+    },
+    "supportive_care": [
+      "Giữ chuồng khô ráo.",
+      "Thay nước sạch mỗi ngày.",
+      "Tách dê bệnh.",
+      "Bổ sung cỏ khô."
+    ],
+    "dose_policy": [
+      "Thuốc tẩy sán dùng đúng ngày - đúng liều trên nhãn.",
+      "Không tăng liều benzimidazole."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Đốt sán nhiều nhưng dê còn ăn.",
+      "guideline": [
+        "Praziquantel hoặc albendazole.",
+        "Men tiêu hoá + vitamin.",
+        "Theo dõi phân 2-3 ngày."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê non gầy rộc, thiếu máu.",
+      "guideline": [
+        "Cần thú y thăm khám.",
+        "Tẩy sán theo chỉ định.",
+        "Bổ sung khoáng - vitamin."
+      ]
+    },
+    "note": "Sán dây làm chậm lớn mạnh; cần tẩy định kỳ cho dê con."
+  },
+
+  "prevention": [
+    "Tẩy giun định kỳ.",
+    "Không chăn thả ở bãi ẩm thấp nhiều phân.",
+    "Nước sạch, thay mỗi ngày."
+  ],
+
+  "notes": [
+    "Sán dây không gây chết nhanh nhưng hao đàn.",
+    "Kiểm soát môi trường chăn thả là quan trọng nhất."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

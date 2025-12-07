@@ -1,0 +1,57 @@
+{
+  "name": "Mycoplasma synoviae (viêm khớp - viêm túi khí nhẹ)",
+  "summary": "Bệnh Mycoplasma gây viêm khớp, sưng bao hoạt dịch và giảm tăng trọng.",
+  "causes": [
+    "Mycoplasma synoviae lây qua hô hấp và trứng"
+  ],
+  "risk_factors": [
+    "Trộn đàn, thay đổi thời tiết",
+    "Chuồng ẩm, khí độc cao",
+    "Đồng nhiễm CRD/IB"
+  ],
+  "clinical_signs_detailed": [
+    "Khớp cổ chân/đầu gối sưng",
+    "Đi cà nhắc, đứng một chỗ",
+    "Ăn giảm, chậm lớn",
+    "Có thể kèm ho nhẹ, khò khè"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Đi hơi cứng", "Ăn giảm nhẹ"],
+    "moderate": ["Khớp sưng rõ", "Đi khập khiễng"],
+    "severe": ["Nằm nhiều, khớp đau nặng", "Gầy nhanh"]
+  },
+  "treatment": {
+    "primary_drugs": ["Tylosin", "Tiamulin"],
+    "alternative_drugs": ["Doxycycline", "Tylvalosin"],
+    "note_drugs": "MS thường đáp ứng tốt nhóm macrolide/pleuromutilin như Tylosin - Tiamulin.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": { "main": "Meloxicam", "alternative": [] },
+      "vitamin": { "main": "B-complex", "alternative": [] }
+    },
+    "supportive_care": [
+      "Giữ nền khô, giảm trơn trượt",
+      "Giảm trộn đàn, giảm stress",
+      "Thông thoáng chuồng"
+    ],
+    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": ["Khớp sưng đau rõ"],
+      "guideline": ["Tylosin/Tiamulin sớm", "Kháng viêm hỗ trợ"]
+    },
+    "case_type_2": {
+      "description": ["Đàn bị lan nhanh"],
+      "guideline": ["Điều trị cả ô", "Tăng thông thoáng", "Bổ sung trợ sức"]
+    },
+    "note": "Đánh sớm thì khỏi nhanh, để lâu dễ thành viêm khớp mạn."
+  },
+  "prevention_list": [
+    "Giữ trại thông thoáng, giảm bụi",
+    "Hạn chế trộn đàn",
+    "Kiểm soát CRD nền"
+  ],
+  "notes": ["MS hay làm gà đi cà nhắc kéo dài."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

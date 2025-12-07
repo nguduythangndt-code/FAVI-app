@@ -1,0 +1,136 @@
+{
+  "id": "mycoplasmosis",
+  "name": "Viêm phổi Mycoplasma ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm phổi Mycoplasma thường tiến triển chậm hơn tụ huyết trùng, hay gặp dạng ho kéo dài, gầy dần, ho tái đi tái lại. Nếu ghép với Pasteurella thì bệnh nặng và khó trị hơn.",
+
+  "causes": [
+    "Nhiễm Mycoplasma qua giọt bắn, tiếp xúc gần.",
+    "Mật độ nuôi dày, không khí tù, ẩm, nhiều khí độc.",
+    "Stress kéo dài, dinh dưỡng kém.",
+    "Ghép đàn, nhập dê mới mang mầm bệnh."
+  ],
+
+  "risk_factors": [
+    "Đàn nuôi nhốt lâu ngày, chuồng ít thoáng.",
+    "Nuôi nhiều lứa tuổi chung chuồng.",
+    "Không có chương trình cách ly dê mới.",
+    "Dê suy dinh dưỡng, thiếu khoáng - vitamin."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho khan kéo dài, nhất là sáng sớm hoặc khi vận động.",
+    "Thở nhanh khi chạy hoặc bị đuổi.",
+    "Chảy mũi trong hoặc đục nhẹ.",
+    "Ăn giảm, gầy từ từ, lông xù.",
+    "Có thể kèm khập khiễng, viêm khớp ở một số chủng Mycoplasma.",
+    "Nếu ghép Pasteurella: sốt cao, khó thở, bệnh nặng hơn."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho lẻ tẻ, chủ yếu sáng sớm.",
+      "Thỉnh thoảng chảy nước mũi trong.",
+      "Ăn giảm nhẹ."
+    ],
+    "moderate": [
+      "Ho nhiều lần trong ngày, từng tràng.",
+      "Thở nhanh khi vận động nhẹ.",
+      "Chảy mũi đục, ăn kém, gầy dần."
+    ],
+    "severe": [
+      "Ho liên tục, thở khó ngay cả khi nghỉ.",
+      "Gầy rõ, xương lộ, lông xù.",
+      "Có thể sốt nhẹ - vừa kéo dài.",
+      "Nếu ghép vi khuẩn khác sẽ có triệu chứng giống viêm phổi cấp."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Tulathromycin",
+      "Tylosin",
+      "Doxycycline"
+    ],
+    "alternative_drugs": [
+      "Enrofloxacin",
+      "Florfenicol",
+      "Tilmicosin (chỉ dùng theo hướng dẫn thú y, vì độc tính cao nếu dùng sai)"
+    ],
+    "note_drugs": [
+      "Các kháng sinh nhóm beta-lactam (amoxicillin, penicillin, cephalosporin) không hiệu quả tốt trên Mycoplasma vì vi khuẩn không có vách tế bào như vi khuẩn thường.",
+      "Không nên dựa hoàn toàn vào amoxicillin/penicillin khi nghi Mycoplasma là nguyên nhân chính."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "Gluco - điện giải",
+        "ORS"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho những con gầy, ăn kém."
+      ]
+    },
+    "supportive_care": [
+      "Cải thiện thông thoáng chuồng: mở cửa, tăng lưu thông không khí nhưng tránh gió lùa trực tiếp.",
+      "Giảm mật độ nuôi, tách dê yếu sang ô riêng.",
+      "Nền luôn khô, giảm ẩm mốc và khí độc.",
+      "Tăng chất lượng khẩu phần: đủ đạm, khoáng, vitamin."
+    ],
+    "dose_policy": [
+      "Thuốc nhóm macrolide, tetracycline, fluoroquinolone phải dùng đúng liều trên nhãn hoặc theo thú y.",
+      "Không tự ý kéo dài thời gian dùng tulathromycin/tilmicosin vượt khuyến cáo."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho nhiều, thở nhanh nhưng dê vẫn đứng, còn ăn ít.",
+      "guideline": [
+        "Dùng tulathromycin hoặc tylosin/doxycycline theo nhãn.",
+        "Kết hợp thuốc ho - long đờm (bromhexine, guaifenesin).",
+        "Bổ sung vitamin C, B-complex.",
+        "Theo dõi mức độ ho, nhịp thở từng ngày."
+      ]
+    },
+    "case_type_2": {
+      "description": "Gầy nhiều, thở khó, nghi ghép Pasteurella.",
+      "guideline": [
+        "Cân nhắc phối hợp kháng sinh có tác dụng trên cả Mycoplasma và vi khuẩn thường (ví dụ: florfenicol hoặc enrofloxacin) theo chỉ định thú y.",
+        "Hỗ trợ điện giải, chống viêm, thuốc ho - long đờm.",
+        "Cải thiện môi trường, tách chuồng, giảm stress.",
+        "Gọi thú y để đánh giá phổi và phác đồ kéo dài."
+      ]
+    },
+    "note": "Mycoplasma thường mang tính dai dẳng, dễ tái phát nếu môi trường và dinh dưỡng không được cải thiện song song với dùng thuốc."
+  },
+
+  "prevention": [
+    "Không nuôi nhốt quá dày, đặc biệt trong mùa lạnh.",
+    "Chuồng thông thoáng nhưng tránh gió lùa trực tiếp.",
+    "Cách ly dê mới nhập ít nhất 2 tuần trước khi nhập đàn.",
+    "Bổ sung khoáng - vitamin để nâng sức đề kháng.",
+    "Giảm stress: không dồn ép, không bắt - lùa quá nhiều."
+  ],
+
+  "notes": [
+    "Ho kéo dài, gầy dần cả đàn thường phải nghĩ đến Mycoplasma.",
+    "Dùng kháng sinh không phù hợp dễ làm bệnh kéo dài, tốn kém mà không dứt."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
+}

@@ -1,0 +1,133 @@
+{
+  "id": "shipping-fever",
+  "name": "Viêm phổi do stress / vận chuyển ở dê",
+  "species": "goat",
+  "group": "respiratory",
+
+  "summary": "Viêm phổi do stress (shipping fever) xảy ra sau khi vận chuyển xa, dồn ép, nhốt chật hoặc thay đổi môi trường đột ngột. Bệnh thường là sự kết hợp giữa stress nặng + nhiễm Pasteurella/Mycoplasma, làm phổi tổn thương nhanh.",
+
+  "causes": [
+    "Vận chuyển xa trong thời tiết nóng - lạnh thất thường.",
+    "Nhốt chật, thiếu oxy, bí hơi trong xe.",
+    "Ghép đàn mới, bị dồn ép hoặc đánh bắt mạnh tay.",
+    "Khẩu phần thay đổi đột ngột sau khi nhập đàn."
+  ],
+
+  "risk_factors": [
+    "Dê hậu bị, dê thịt mới mua.",
+    "Đường vận chuyển dài > 2-3 giờ.",
+    "Xe kín, bí, nóng hoặc ẩm.",
+    "Dê đang suy, thiếu khoáng - vitamin."
+  ],
+
+  "clinical_signs_detailed": [
+    "Sốt ngay sau ngày vận chuyển hoặc sau 24-48 giờ.",
+    "Thở nhanh, thở bụng, ho từng cơn.",
+    "Chảy mũi đục, ăn giảm mạnh.",
+    "Lờ đờ, đứng tách đàn.",
+    "Một số con trở nặng rất nhanh giống tụ huyết trùng cấp."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ, thở nhanh khi vận động.",
+      "Ăn giảm nhưng vẫn còn đứng theo đàn."
+    ],
+    "moderate": [
+      "Ho nhiều, chảy mũi đục.",
+      "Bỏ ăn, mắt lờ đờ.",
+      "Thở bụng nhẹ - vừa."
+    ],
+    "severe": [
+      "Khó thở, nằm nhiều, tím niêm mạc.",
+      "Một số ca tiến triển như tụ huyết trùng cấp.",
+      "Nguy cơ chết nếu không xử lý kịp."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Florfenicol",
+      "Ceftiofur",
+      "Tulathromycin"
+    ],
+    "alternative_drugs": [
+      "Doxycycline",
+      "Tylosin",
+      "Enrofloxacin (theo hướng dẫn thú y)"
+    ],
+    "note_drugs": [
+      "Tránh phối hợp quá nhiều kháng sinh khi chưa đánh giá mức độ.",
+      "Những con trở nặng nhanh xử lý như tụ huyết trùng cấp."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Flunixin",
+        "Ketoprofen"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "ORS",
+        "Gluco - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "B-complex"
+      ],
+      "digestive_support": [
+        "Men tiêu hoá cho những con bỏ ăn."
+      ]
+    },
+    "supportive_care": [
+      "Cho nghỉ 1-3 ngày sau vận chuyển.",
+      "Giữ chuồng khô - thoáng - ấm.",
+      "Tách những con yếu sang ô riêng.",
+      "Không dồn ép hoặc lùa chạy mạnh.",
+      "Tăng cường vitamin - khoáng, nước sạch."
+    ],
+    "dose_policy": [
+      "Dùng đúng liều nhãn hoặc theo thú y.",
+      "Không tự ý tăng liều tulathromycin hoặc enrofloxacin."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Dê nặng nhưng còn đứng.",
+      "guideline": [
+        "Dùng florfenicol hoặc ceftiofur.",
+        "Chống viêm + thuốc ho - long đờm.",
+        "Bù điện giải, vitamin C.",
+        "Theo dõi nhịp thở 3-4 giờ/lần."
+      ]
+    },
+    "case_type_2": {
+      "description": "Dê khó thở, nằm, rất yếu.",
+      "guideline": [
+        "Xử lý như tụ huyết trùng cấp.",
+        "Cần thú y hỗ trợ hô hấp - tuần hoàn.",
+        "Giữ ấm, hạn chế di chuyển.",
+        "Tiên lượng dè dặt."
+      ]
+    },
+    "note": "Shipping fever là dạng viêm phổi ghép. Chống stress + hỗ trợ đúng cách là chìa khoá hạn chế nặng."
+  },
+
+  "prevention": [
+    "Không vận chuyển xa khi trời mưa lạnh hoặc nắng gắt.",
+    "Xe phải thoáng, không kín hơi.",
+    "Không nhốt quá chật.",
+    "Bổ sung vitamin - điện giải trước và sau vận chuyển.",
+    "Cách ly dê mới mua 7-10 ngày."
+  ],
+
+  "notes": [
+    "Nhiều đàn bị bùng viêm phổi sau khi nhập dê mới về.",
+    "Stress là nguyên nhân gốc - nếu không giải quyết, bệnh tái hoài."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

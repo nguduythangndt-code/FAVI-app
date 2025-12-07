@@ -1,0 +1,109 @@
+{
+  "id": "lice",
+  "name": "Chí - rận ở dê",
+  "species": "goat",
+  "group": "parasite",
+
+  "summary": "Chí - rận gây ngứa, rụng lông, giảm tăng trọng và dễ lây lan trong đàn. Không nguy hiểm chết nhưng gây stress, giảm ăn và ảnh hưởng miễn dịch.",
+
+  "causes": [
+    "Tiếp xúc dê nhiễm chí.",
+    "Dùng chung máng ăn, nơi nằm.",
+    "Chuồng ẩm, vệ sinh kém."
+  ],
+
+  "risk_factors": [
+    "Dê con và dê hậu bị.",
+    "Đàn nuôi dày.",
+    "Thiếu tắm nắng."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ngứa liên tục.",
+    "Rụng lông thành vệt.",
+    "Da đỏ nhẹ.",
+    "Nhiều con còi do stress kéo dài."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ngứa nhẹ, rụng ít."
+    ],
+    "moderate": [
+      "Ngứa nhiều, cọ liên tục.",
+      "Rụng lông từng mảng."
+    ],
+    "severe": [
+      "Viêm da kế phát.",
+      "Gầy, giảm ăn.",
+      "Da dày, nứt nhẹ."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Permethrin (phun/xịt)",
+      "Ivermectin"
+    ],
+    "alternative_drugs": [
+      "Fipronil",
+      "Amitraz"
+    ],
+    "note_drugs": [
+      "Không dùng permethrin cho mèo.",
+      "Không xịt quá liều."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [],
+      "vitamin": [
+        "Vitamin B-complex"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Vệ sinh chuồng.",
+      "Tách dê bệnh.",
+      "Phơi nắng đàn thường xuyên."
+    ],
+    "dose_policy": [
+      "Thuốc xịt phải pha đúng hướng dẫn.",
+      "Ivermectin dùng đúng nhãn."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Nhiễm chí vừa, chưa viêm da.",
+      "guideline": [
+        "Xịt permethrin.",
+        "Vệ sinh chuồng.",
+        "Lặp lại theo hướng dẫn."
+      ]
+    },
+    "case_type_2": {
+      "description": "Viêm da, stress nặng.",
+      "guideline": [
+        "Xịt nhẹ nhàng, tránh làm rát da.",
+        "Thú y kiểm tra nhiễm trùng da.",
+        "Bổ sung vitamin."
+      ]
+    },
+    "note": "Điều trị chí - rận cần xử lý cả chuồng."
+  },
+
+  "prevention": [
+    "Phơi nắng chuồng trại.",
+    "Không nuôi quá dày.",
+    "Vệ sinh nền thường xuyên.",
+    "Tẩy ký sinh ngoài định kỳ."
+  ],
+
+  "notes": [
+    "Chí gây ngứa nhưng không hút máu mạnh như ve.",
+    "Điều trị đúng cách là hết sạch."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

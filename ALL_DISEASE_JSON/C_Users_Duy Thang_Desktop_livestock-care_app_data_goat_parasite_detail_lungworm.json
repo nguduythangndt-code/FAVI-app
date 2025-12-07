@@ -1,0 +1,120 @@
+{
+  "id": "lungworm",
+  "name": "Giun phổi ở dê",
+  "species": "goat",
+  "group": "parasite",
+
+  "summary": "Giun phổi ký sinh ở khí quản - phế quản, gây ho kéo dài, khó thở, viêm phổi dai dẳng và chậm lớn. Dễ nhầm với bệnh hô hấp thường nên hay bị bỏ sót.",
+
+  "causes": [
+    "Dê ăn phải ấu trùng giun phổi trong cỏ ẩm.",
+    "Môi trường ẩm thấp, nhiều bùn.",
+    "Không tẩy giun định kỳ.",
+    "Nhiễm chéo từ dê bệnh trong đàn."
+  ],
+
+  "risk_factors": [
+    "Dê nuôi thả ở vùng ẩm.",
+    "Cỏ cao - đọng sương nhiều.",
+    "Chuồng ẩm, thông khí kém."
+  ],
+
+  "clinical_signs_detailed": [
+    "Ho khan kéo dài.",
+    "Ho tăng khi vận động.",
+    "Thở khó, thở bụng.",
+    "Sút cân, lông xù.",
+    "Có thể xuất hiện tiếng ran ẩm ở phổi."
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Ho nhẹ vài ngày.",
+      "Ăn giảm chút ít."
+    ],
+    "moderate": [
+      "Ho kéo dài, thở nhanh.",
+      "Dễ mệt khi vận động."
+    ],
+    "severe": [
+      "Khó thở rõ, há miệng thở.",
+      "Sút cân nặng.",
+      "Nguy cơ viêm phổi nặng kế phát."
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin",
+      "Doramectin"
+    ],
+    "alternative_drugs": [
+      "Levamisole"
+    ],
+    "note_drugs": [
+      "Không dùng kháng sinh khi chỉ có giun phổi — chỉ dùng khi có nhiễm khuẩn kế phát."
+    ],
+    "symptomatic_treatment": {
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [
+        "Bromhexine",
+        "Guaifenesin"
+      ],
+      "electrolyte": [
+        "ORS",
+        "Dextrose - điện giải"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "Vitamin tổng hợp"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Chuồng thoáng, không gió lùa.",
+      "Giảm căng thẳng.",
+      "Cỏ khô thay vì cỏ ướt.",
+      "Vệ sinh máng ăn - nước."
+    ],
+    "dose_policy": [
+      "Tẩy giun đúng theo nhãn.",
+      "Không lặp tẩy quá gần."
+    ]
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Ho nặng nhưng còn đứng - ăn.",
+      "guideline": [
+        "Ivermectin/doramectin.",
+        "Thuốc long đờm.",
+        "Nghỉ ngơi, thoáng khí."
+      ]
+    },
+    "case_type_2": {
+      "description": "Thở khó, đứng không vững.",
+      "guideline": [
+        "Thú y kiểm tra phổi.",
+        "Tẩy giun + hỗ trợ hô hấp.",
+        "Điện giải + vitamin."
+      ]
+    },
+    "note": "Giun phổi dễ nhầm với viêm phổi — cần phân biệt."
+  },
+
+  "prevention": [
+    "Không chăn thả lúc cỏ ướt.",
+    "Giữ chuồng thông thoáng.",
+    "Tẩy giun định kỳ.",
+    "Luân chuyển bãi chăn."
+  ],
+
+  "notes": [
+    "Ho hơn 2 tuần → nghi giun phổi.",
+    "Tẩy giun sai kỹ thuật = điều trị không hiệu quả."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

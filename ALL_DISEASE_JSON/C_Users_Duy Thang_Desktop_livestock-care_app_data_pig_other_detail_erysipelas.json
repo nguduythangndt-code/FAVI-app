@@ -1,0 +1,37 @@
+{
+  "name": "Đóng dấu lợn (Erysipelas)",
+  "summary": "Bệnh nhiễm khuẩn gây sốt cao, mảng da hình thoi, viêm khớp và chết đột ngột.",
+  "causes": ["Vi khuẩn Erysipelothrix rhusiopathiae"],
+  "risk_factors": ["Nền chuồng bẩn ẩm", "Chưa tiêm phòng", "Stress vận chuyển"],
+  "clinical_signs_detailed": [
+    "Sốt cao, bỏ ăn",
+    "Da đỏ tím từng mảng, hình thoi",
+    "Heo đứng run, yếu",
+    "Khớp đau, đi khập khiễng",
+    "Có thể chết nhanh"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": ["Sốt, ăn giảm"],
+    "moderate": ["Mảng đỏ da rõ", "Khớp đau"],
+    "severe": ["Nằm liệt, khó thở", "Chết do nhiễm trùng huyết"]
+  },
+  "treatment": {
+    "primary_drugs": ["Penicillin"],
+    "alternative_drugs": ["Ampicillin", "Ceftiofur"],
+    "note_drugs": "Penicillin là lựa chọn hiệu quả nhất nếu dùng sớm.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {"main": "Meloxicam", "alternative": []},
+      "electrolyte": {"main": "ORS", "alternative": []}
+    },
+    "supportive_care": ["Cách ly", "Giữ chuồng khô ấm", "Bổ sung nước - điện giải"],
+    "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {"description": "Da đóng dấu lan rộng", "guideline": ["Penicillin sớm", "Kháng viêm hỗ trợ"]},
+    "case_type_2": {"description": "Viêm khớp nặng", "guideline": ["Kháng sinh kéo đủ liệu trình", "Nền mềm"]},
+    "note": "Nặng có thể để lại viêm khớp mạn."
+  },
+  "prevention_list": ["Tiêm phòng đóng dấu", "Vệ sinh định kỳ", "Tránh stress đàn"],
+  "notes": ["Thường gặp ở heo thịt và nái."],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo.:"
+}

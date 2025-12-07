@@ -3,7 +3,7 @@
   "name": "Heo con & sau cai sữa",
   "species": "pig",
   "group": "piglet",
-  "overview": "Cẩm nang chăm sóc heo con từ lúc mới sinh đến vài tuần sau cai sữa. Mục tiêu: heo con ấm, bú đều, phân đẹp, phổi êm, không tiêu chảy hàng loạt, không tụt tăng trưởng sau cai. Trọng tâm quản lý: nhiệt độ ổ, sữa mẹ, ruột, phổi và vệ sinh chuồng.",
+  "overview": "Heo con là giai đoạn nhạy cảm nhất trong toàn bộ chu kỳ nuôi, nơi chỉ một sai lệch nhỏ cũng có thể gây chết nhanh hoặc để lại hậu quả kéo dài về sức đề kháng và tăng trưởng.\n\n Rủi ro lớn không nằm ở việc thiếu thuốc hay thiếu cám, mà đến từ cai sữa sai thời điểm, môi trường lạnh – ẩm và hệ tiêu hóa non yếu chưa thích nghi.\n\nNhiều đàn heo con suy yếu ngay từ những ngày đầu do tách mẹ đột ngột, thay sữa – cám quá nhanh, trong khi nhiệt độ chuồng và vệ sinh không được kiểm soát.\n\n Tiêu chảy, mất nước, viêm phổi thường không xuất hiện riêng lẻ mà kéo theo nhau, khiến heo con gầy nhanh, chậm lớn, tỉ lệ hao hụt cao.\n\nMục tiêu của giai đoạn này không phải là ép ăn sớm, mà là giúp heo con thích nghi êm: ăn từng chút nhưng đều, giữ ấm tốt, tiêu hóa ổn định và tránh stress.\n\n Nội dung trong cẩm nang này tập trung giúp người nuôi hiểu đúng rủi ro của heo con và xử lý nhẹ tay theo từng thời điểm.",
   "sections": [
     {
       "id": "newborn_0_24h",
@@ -86,7 +86,21 @@
         "[Giữ vệ sinh chuồng] Dọn phân hằng ngày, nhất là góc đi vệ sinh và quanh máng. Không để nền quá ẩm vì đây là yếu tố bùng lại tiêu chảy và viêm phổi.",
         "[Chuyển sang giai đoạn tiếp theo] Khi heo con đã ăn tốt, tăng đều, có thể đưa vào quy trình nuôi hậu bị hoặc vỗ béo, áp dụng các hướng dẫn tương ứng trong mục chăm sóc khác của heo."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện sớm các vấn đề hay gặp ở heo con để giảm hao hụt và không làm gãy đà tăng trưởng.",
+  "content": "Heo con thay đổi rất nhanh về sinh lý tiêu hóa và miễn dịch. Khi có biểu hiện bất thường, nên đối chiếu với giai đoạn hiện tại để tra cứu đúng nhóm bệnh.",
+  "bullets": [
+    "[Sơ sinh – theo mẹ] Tiêu chảy sơ sinh, nhiễm lạnh, viêm rốn, suy yếu do bú kém.",
+    "[Trước cai sữa] Tiêu chảy dinh dưỡng, thiếu khoáng – vitamin, chậm lớn.",
+    "[Cai sữa] Tiêu chảy cai sữa, mất nước, stress nặng, viêm phổi kế phát.",
+    "[Sau cai sữa] Rối loạn tiêu hóa kéo dài, ký sinh trùng đường ruột, suy nhược.",
+    "[Ổn định đàn con] Viêm hô hấp, tiêu chảy mạn tính làm heo chậm tăng trọng."
+  ]
+}
+
   ],
   "notes": [
     "Heo con khỏe là nền tảng cho cả chu kỳ nuôi: ưu tiên ấm - khô - sạch trước khi nghĩ đến chuyện đạm cao hay cám đắt.",

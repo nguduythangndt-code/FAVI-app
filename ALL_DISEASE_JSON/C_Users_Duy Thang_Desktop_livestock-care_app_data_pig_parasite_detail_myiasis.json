@@ -1,0 +1,110 @@
+{
+  "id": "myiasis",
+  "name": "Ấu trùng ruồi, côn trùng gây viêm da",
+  "species": "pig",
+  "group": "parasite",
+  "summary": "Ấu trùng ruồi ký sinh trong vết thương hoặc vùng da ẩm bẩn, làm da viêm, chảy dịch, lở loét và heo rất khó chịu.",
+  "causes": [
+    "Ruồi đẻ trứng lên vết thương hoặc vùng da bẩn",
+    "Trứng nở thành ấu trùng ăn mô chết và mô lành",
+    "Chuồng trại nhiều ruồi, vệ sinh kém"
+  ],
+  "risk_factors": [
+    "Có vết thương hở không xử lý",
+    "Chuồng bẩn, nhiều phân và nước tiểu",
+    "Nhiều ruồi quanh khu chăn nuôi",
+    "Không sát trùng vết thương sau khi thiến, bấm răng, cắt đuôi"
+  ],
+  "clinical_signs_detailed": [
+    "Vùng da viêm, ướt, có dịch hôi",
+    "Thấy ấu trùng trắng nhỏ di chuyển trong vết thương",
+    "Heo rất ngứa và đau, cắn hoặc cọ vào chỗ tổn thương",
+    "Giảm ăn, mệt, nằm nhiều",
+    "Có thể sốt nhẹ nếu nhiễm trùng nặng"
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Vết viêm nhỏ, ít dịch",
+      "Heo cọ nhẹ vào chỗ đau"
+    ],
+    "moderate": [
+      "Vết loét có dịch hôi",
+      "Có thể thấy vài ấu trùng",
+      "Heo mệt, giảm ăn"
+    ],
+    "severe": [
+      "Vết loét rộng, nhiều ấu trùng",
+      "Mùi hôi rõ, da quanh vùng tổn thương sưng",
+      "Heo rất đau và yếu"
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ivermectin"
+    ],
+    "alternative_drugs": [
+      "Phun Permethrin",
+      "Thuốc sát trùng vết thương"
+    ],
+    "note_drugs": "Ivermectin hỗ trợ diệt ký sinh trùng. Phun Permethrin quanh vùng da giúp xua ruồi. Cần sát trùng vết thương thường xuyên.",
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "ORS",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Men tiêu hoá",
+        "alternative": []
+      }
+    },
+    "supportive_care": [
+      "Làm sạch vết thương, loại bỏ ấu trùng bằng cơ học",
+      "Sát trùng đều, giữ vùng tổn thương khô",
+      "Giảm ruồi quanh chuồng bằng bẫy hoặc phun xua ruồi",
+      "Giữ heo yên, tránh cắn gặm vào vết thương"
+    ],
+    "dose_policy": "Dùng theo nhãn hoặc hướng dẫn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Vết loét vừa, có ít ấu trùng.",
+      "guideline": [
+        "Lấy ấu trùng ra bằng cơ học",
+        "Rửa sát trùng hằng ngày",
+        "Phun xua ruồi quanh chuồng"
+      ]
+    },
+    "case_type_2": {
+      "description": "Vết loét rộng, nhiều ấu trùng, mùi hôi rõ.",
+      "guideline": [
+        "Làm sạch vết thương kỹ nhiều lần trong ngày",
+        "Dùng thuốc giảm đau và hỗ trợ",
+        "Cân nhắc tư vấn thú y nếu tổn thương quá sâu"
+      ]
+    },
+    "note": "Nếu không xử lý, vết thương có thể lan rộng và gây nhiễm trùng huyết."
+  },
+  "prevention": [
+    "Xử lý vết thương nhỏ sớm, không để ướt bẩn",
+    "Giảm mật độ ruồi bằng bẫy, phun xua ruồi",
+    "Giữ chuồng khô, dọn phân đều",
+    "Sát trùng tốt sau các thao tác như thiến, cắt đuôi"
+  ],
+  "notes": [
+    "Myiasis thường gặp ở vùng đuôi, tai, vết thương hở.",
+    "Phát hiện sớm, xử lý cơ học và vệ sinh tốt sẽ hồi phục nhanh."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

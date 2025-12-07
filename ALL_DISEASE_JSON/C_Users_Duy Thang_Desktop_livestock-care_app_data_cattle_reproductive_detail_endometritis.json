@@ -1,0 +1,122 @@
+{
+  "id": "endometritis",
+  "name": "Viêm nội mạc tử cung",
+  "species": "cattle",
+  "group": "reproductive",
+
+  "summary": "Viêm nội mạc tử cung là tình trạng viêm nhẹ ở lớp niêm tử cung, thường xảy ra sau đẻ hoặc sau viêm tử cung cấp. Bò ít biểu hiện rõ nhưng giảm khả năng động dục và chậm lên giống.",
+
+  "causes": [
+    "Nhiễm khuẩn tử cung sau đẻ",
+    "Sót nhau kéo dài",
+    "Viêm tử cung cấp không điều trị triệt để",
+    "Chuồng trại ẩm và bẩn"
+  ],
+
+  "risk_factors": [
+    "Không theo dõi sau đẻ",
+    "Khẩu phần kém và thiếu khoáng",
+    "Nền chuồng ướt, bẩn",
+    "Bò suy yếu sau đẻ"
+  ],
+
+  "clinical_signs_detailed": [
+    "Sản dịch đục, ít hôi",
+    "Âm hộ dính dịch",
+    "Ăn giảm nhẹ",
+    "Bò chậm động dục hoặc lặp lại giống nhiều lần"
+  ],
+
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sản dịch ít",
+      "Ăn vẫn bình thường"
+    ],
+    "moderate": [
+      "Dịch đục hơn",
+      "Giảm sữa nhẹ",
+      "Chậm lên giống"
+    ],
+    "severe": [
+      "Hiếm khi nặng nhưng có thể kéo dài nhiều tuần",
+      "Bò lặp giống nhiều lần"
+    ]
+  },
+
+  "treatment": {
+    "primary_drugs": [
+      "oxytetracycline"
+    ],
+    "alternative_drugs": [
+      "ceftiofur"
+    ],
+    "note_drugs": "Điều trị chủ yếu là kháng sinh toàn thân và chăm sóc dinh dưỡng tốt hơn. Không thụt rửa tử cung nếu không có thú y.",
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "flunixin",
+        "alternative": "meloxicam"
+      },
+      "respiratory_support": {
+        "main": "bromhexine",
+        "alternative": "ambroxol"
+      },
+      "electrolyte": {
+        "main": "electrolyte",
+        "alternative": ""
+      },
+      "vitamin": {
+        "main": "vitamin_bc",
+        "alternative": "multivitamin_tonic"
+      },
+      "digestive_support": {
+        "main": "men_vi_sinh",
+        "alternative": ""
+      }
+    },
+
+    "supportive_care": [
+      "Chuồng sạch và thoáng",
+      "Bổ sung khoáng và vitamin",
+      "Theo dõi sản dịch",
+      "Không cho phối giống quá sớm"
+    ],
+
+    "dose_policy": "Dùng theo nhãn hoặc theo thú y."
+  },
+
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Bò tiết dịch đục, chậm lên giống.",
+      "guideline": [
+        "Kháng sinh đều đặn",
+        "Vitamin nhóm B",
+        "Theo dõi chu kỳ động dục"
+      ]
+    },
+    "case_type_2": {
+      "description": "Bò giảm sữa và dịch đục kéo dài.",
+      "guideline": [
+        "Cần thú y xem trực tiếp",
+        "Kiểm tra lại tử cung và buồng trứng",
+        "Không ép phối giống"
+      ]
+    },
+    "note": "Điều trị tốt sẽ giúp bò lên giống lại trong vài chu kỳ."
+  },
+
+  "prevention": [
+    "Quản lý tốt sau đẻ",
+    "Vệ sinh chuồng sạch",
+    "Khẩu phần đầy đủ khoáng",
+    "Không can thiệp đỡ đẻ quá mức"
+  ],
+
+  "notes": [
+    "Bò lặp giống nhiều lần thường do nội mạc chưa hồi phục.",
+    "Theo dõi sản dịch là chìa khóa phát hiện.",
+    "Bò đẻ khó thường dễ bị hơn."
+  ],
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

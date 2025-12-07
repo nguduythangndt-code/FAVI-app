@@ -1,0 +1,98 @@
+{
+  "summary": "Theileriosis (nhiễm Theileria) là bệnh ký sinh trùng máu do Theileria spp. gây ra, lây qua ve hút máu. Bệnh phá hủy hồng cầu và tế bào miễn dịch, gây sốt cao, thiếu máu, hạch sưng và suy nhược toàn thân. Nếu không điều trị sớm, dê dễ kiệt sức và tỷ lệ chết cao.",
+  "causes": [
+    "Ký sinh trùng Theileria spp. xâm nhập qua ve hút máu, đặc biệt là ve nâu và ve tai.",
+    "Lây lan mạnh trong mùa ve hoặc khu vực có đàn dê thả rông nhiều.",
+    "Dùng chung kim tiêm, dụng cụ chọc máu giữa các con trong đàn.",
+    "Dê suy yếu, thiếu khoáng - vitamin khiến sức đề kháng kém."
+  ],
+  "risk_factors": [
+    "Chuồng trại ẩm thấp, nhiều ve, không phun sát trùng định kỳ.",
+    "Đàn thả đồi hoặc khu vực có nhiều ve ký sinh.",
+    "Thời tiết nóng ẩm kéo dài làm ve sinh sôi nhanh.",
+    "Dê mới nhập đàn mang mầm bệnh.",
+    "Dê chửa, dê con đang bú, dê già - nhóm dễ bị nặng."
+  ],
+  "clinical_signs_detailed": [
+    "Sốt cao từng đợt hoặc sốt liên tục.",
+    "Thiếu máu rõ, niêm mạc mắt nhợt hoặc vàng.",
+    "Sưng hạch bạch huyết trước vai, dưới hàm, bẹn.",
+    "Dê mệt, đi chậm, dễ nằm một chỗ.",
+    "Thở nhanh, tim đập nhanh.",
+    "Giảm ăn, sút cân nhanh.",
+    "Một số con có tiêu chảy nhẹ hoặc táo bón xen kẽ.",
+    "Nước tiểu có thể đậm màu nếu hồng cầu bị phá hủy nhiều."
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Sốt nhẹ hoặc sốt thoáng qua.",
+      "Ăn giảm nhẹ, hơi mệt.",
+      "Niêm mạc mắt nhạt màu nhẹ.",
+      "Hạch trước vai hơi to nhưng chưa rõ ràng."
+    ],
+    "moderate": [
+      "Sốt vừa đến cao, kéo dài.",
+      "Thở nhanh, tim đập mạnh.",
+      "Thiếu máu rõ, niêm mạc nhợt hoặc vàng.",
+      "Sưng hạch bạch huyết dễ nhận thấy.",
+      "Giảm ăn rõ rệt, dê bắt đầu gầy.",
+      "Lông xơ, đứng tách đàn."
+    ],
+    "severe": [
+      "Thiếu máu nặng, niêm mạc cực nhạt hoặc vàng đậm.",
+      "Hạch sưng to, đau khi sờ.",
+      "Thở nhanh ngay cả khi đứng yên.",
+      "Dê rất yếu, dễ nằm và khó đứng dậy.",
+      "Có thể phù vùng ngực, bụng.",
+      "Tỷ lệ chết cao nếu không điều trị kịp thời."
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      "Ưu tiên thuốc chuyên trị ký sinh trùng máu Theileria theo khuyến cáo thú y.",
+      "Kết hợp kháng sinh phù hợp khi có bội nhiễm vi khuẩn (theo hướng dẫn thú y)."
+    ],
+    "alternative_drugs": [
+      "Các thuốc có phổ tác dụng tương tự theo tư vấn thú y khi không có thuốc đặc hiệu.",
+      "Phác đồ khác có thể được chỉ định tùy tình trạng và khu vực."
+    ],
+    "symptomatic_treatment": [
+      "Hạ sốt khi sốt cao.",
+      "Thuốc trợ tim - trợ hô hấp khi dê mệt nhiều.",
+      "Điện giải - glucose - vitamin B để cải thiện sức.",
+      "Thuốc giảm đau - chống viêm khi dê khó chịu."
+    ],
+    "supportive_care": [
+      "Bổ sung vitamin, khoáng, đặc biệt nhóm B và khoáng vi lượng.",
+      "Thức ăn dễ tiêu, cỏ non, tránh khẩu phần kém chất lượng.",
+      "Giữ chuồng trại khô ráo, sát trùng, kiểm soát ve.",
+      "Giảm tối đa stress: hạn chế lùa chạy, vận chuyển."
+    ],
+    "dose_policy": "Dùng theo liều trên nhãn hoặc tư vấn thú y."
+  },
+  "severe_case_treatment": {
+    "case_type_1": [
+      "Truyền dịch theo hướng dẫn thú y khi mất nước hoặc sốc.",
+      "Hỗ trợ hô hấp - tuần hoàn khi dê thở nhanh, tim đập mạnh.",
+      "Thuốc trị ký sinh trùng máu liều theo chỉ định thú y."
+    ],
+    "case_type_2": [
+      "Kết hợp thêm thuốc trợ tim và nâng huyết áp nếu dê quá yếu.",
+      "Theo dõi sát trong 24-48 giờ đầu."
+    ],
+    "note": "Các ca nặng cần bác sĩ thú y trực tiếp theo dõi."
+  },
+  "prevention": [
+    "Vệ sinh chuồng sạch, khô ráo, thông thoáng.",
+    "Phun thuốc diệt ve định kỳ, đặc biệt mùa mưa - nóng.",
+    "Không dùng chung kim tiêm giữa các con.",
+    "Cách ly dê mới nhập đàn ít nhất 14 ngày.",
+    "Bổ sung khoáng, vitamin định kỳ để tăng sức đề kháng."
+  ],
+  "notes": [
+    "Bệnh nặng khi dê đang stress hoặc suy nhược.",
+    "Cần theo dõi sát dê chửa và dê con vì diễn tiến nhanh.",
+    "Không nên lùa chạy khi dê đang sốt hoặc thiếu máu."
+  ],
+  "disclaimer": "Thông tin mang tính tham khảo, không thay thế bác sĩ thú y."
+}

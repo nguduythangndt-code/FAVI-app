@@ -3,8 +3,7 @@
   "name": "Heo sau bệnh",
   "species": "pig",
   "group": "recovery",
-  "overview": "Cẩm nang phục hồi heo sau khi qua bệnh cấp. Mục tiêu: heo lấy lại nhịp ăn nhanh, đường ruột ổn, hô hấp êm, vết bệnh không tái bùng, tăng trọng bật lại mà không tạo cost ẩn mới (stress, chấn thương, toan ruột/phổi). Trọng tâm: dinh dưỡng hồi phục, nước - điện giải, quản lý nền chuồng, khoanh vùng theo cá thể, và siết quy trình không thử nghiệm mới khi chưa đủ dữ liệu.",
-  "sections": [
+  "overview": "Giai đoạn hồi phục sau bệnh quyết định heo có quay lại nhịp tăng trưởng hay không.\n\n Sai lầm lớn nhất là nghĩ heo vừa hết triệu chứng thì có thể nuôi như bình thường. Thực tế, gan ruột và hô hấp của heo sau bệnh còn rất yếu, dễ tái phát nếu ăn uống hoặc môi trường thay đổi quá nhanh.\n\nNhiều đàn heo bị sụt cân kéo dài hoặc tái bệnh không phải do bệnh mới, mà do phục hồi sai nhịp: tăng khẩu phần sớm, dồn cám đậm đặc, hoặc ghép đàn khi heo chưa đủ thể lực. Khi đó, heo nhìn ngoài có vẻ khỏe nhưng bên trong chưa hồi phục hoàn toàn.\n\nMục tiêu của giai đoạn này là giúp heo lấy lại sức từ từ, ăn đều trở lại, phân ổn định và không tái phát bệnh cũ.\n\n Nội dung trong cẩm nang này tập trung định hướng cách nuôi hồi phục an toàn, tránh nôn nóng khiến bệnh quay lại.",  "sections": [
     {
       "id": "post_acute_0_72h",
       "title": "0-72 giờ sau khi qua bệnh cấp",
@@ -74,7 +73,21 @@
         "[Người ra vào] Hạn chế người lạ, vật lạ gần ô phục hồi.", 
         "[Di chuyển] Nếu buộc chuyển ô, là 1 lần và dứt khoát 1 chiều, không vòng vo."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Phòng tái phát bệnh và biến chứng sau điều trị bằng cách theo dõi sát từng giai đoạn hồi phục.",
+  "content": "Sau bệnh, heo trải qua nhiều mốc hồi phục khác nhau. Việc nhận diện đúng nguy cơ ở từng mốc giúp tránh tái bệnh và chết ngầm.",
+  "bullets": [
+    "[Ngay sau hết triệu chứng] Tái phát bệnh cũ, tiêu chảy kéo dài, suy nhược.",
+    "[Giai đoạn ăn trở lại] Rối loạn tiêu hóa, phân sống, chướng hơi do gan ruột yếu.",
+    "[Hồi phục thể trạng] Viêm hô hấp mạn, ho kéo dài, giảm ăn ban ngày.",
+    "[Ghép đàn – tăng mật độ] Stress, bùng lại bệnh truyền nhiễm tiềm ẩn.",
+    "[Hồi phục hoàn toàn] Suy dinh dưỡng kéo dài nếu nuôi sai nhịp."
+  ]
+}
+
   ],
   "notes": [
     "Không đổi khẩu phần hoặc đổi hãng cám quá nhanh khi heo chưa ăn lại đều.",

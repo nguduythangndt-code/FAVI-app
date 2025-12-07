@@ -3,8 +3,7 @@
   "name": "Heo bệnh",
   "species": "pig",
   "group": "sick",
-  "overview": "Cẩm nang chăm sóc heo đang bệnh trong trại. Mục tiêu: phát hiện sớm, tách chuồng kịp thời, giữ heo uống được - ăn được - thở êm - phân bớt rối, dùng thuốc theo hướng dẫn (nhãn hoặc thú y) và không làm nặng thêm do chuồng ẩm, gió lùa hoặc đổi khẩu phần đột ngột.",
-  "sections": [
+"overview": "Khi heo đã phát bệnh, điều quan trọng nhất không phải là tìm thuốc nhanh, mà là đánh giá đúng tình trạng và kiểm soát lây lan.\n\n Nhiều đàn heo thiệt hại nặng không phải vì bệnh quá nguy hiểm, mà vì phát hiện muộn, xử lý rối và để bệnh lan rộng toàn chuồng.\n\nSai lầm thường gặp là chỉ tập trung vào con bệnh nặng mà bỏ qua đàn xung quanh, hoặc dùng thuốc dồn dập khi chưa ổn định môi trường và khẩu phần. Heo vốn đã stress lại càng suy nhanh hơn, khiến bệnh kéo dài và khó kiểm soát.\n\nMục tiêu của giai đoạn này là khoanh vùng đúng, giảm stress cho đàn, ổn định ăn uống và theo dõi sát diễn biến.\n\n Nội dung trong cẩm nang này giúp người nuôi có tư duy xử lý heo bệnh tỉnh táo, từng bước, tránh hoảng loạn và tránh làm mọi thứ cùng lúc.",  "sections": [
     {
       "id": "early_detection",
       "title": "Nhận diện sớm heo bệnh trong đàn",
@@ -101,7 +100,21 @@
         "[Dịch bất thường] Có dịch lạ ở miệng, mũi, hậu môn, âm hộ (đặc, đục, mùi hôi mạnh) mà không rõ nguyên nhân.",
         "[Bệnh tái đi tái lại] Heo ho mãn, tiêu chảy tái lại sau mỗi đợt điều trị, hoặc từng ô chuồng luôn có bệnh lặp lại."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Phân biệt mức độ bệnh để xử lý đúng thời điểm, tránh để bệnh lan rộng hoặc chuyển nặng.",
+  "content": "Diễn biến bệnh ở heo thường đi theo từng mức độ khác nhau. Việc nhận diện đúng giai đoạn giúp ưu tiên xử lý và tra cứu chính xác.",
+  "bullets": [
+    "[Khởi phát] Ho nhẹ, bỏ ăn, sốt nhẹ, tiêu chảy thoáng qua.",
+    "[Bệnh rõ triệu chứng] Viêm phổi, tiêu chảy nặng, mất nước, sụt cân nhanh.",
+    "[Bệnh kéo dài] Suy nhược, ho mạn tính, tiêu hóa kém kéo dài.",
+    "[Biến chứng] Viêm khớp, viêm phúc mạc, suy đa cơ quan.",
+    "[Giai đoạn nguy kịch] Heo kiệt sức, nằm nhiều, nguy cơ chết cao hoặc thải loại."
+  ]
+}
+
   ],
   "notes": [
     "Khi heo bệnh, việc đầu tiên là tách chuồng và giữ nước sạch, nền khô, gió hợp lý; thuốc chỉ hiệu quả khi những điều này tương đối ổn.",

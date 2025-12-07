@@ -42,8 +42,8 @@ function loadDrugDetail(group: string, id: string): any | null {
   // Nhóm 1: Kháng viêm - giảm đau
   if (group === "antiinflammatory_analgesic") {
     switch (id) {
-      case "flunixin":
-        return require("../../../data/drugs/antiinflammatory_analgesic/flunixin.json");
+      case "Flunixin":
+        return require("../../../data/drugs/antiinflammatory_analgesic/Flunixin.json");
       case "meloxicam":
         return require("../../../data/drugs/antiinflammatory_analgesic/meloxicam.json");
       case "ketoprofen":

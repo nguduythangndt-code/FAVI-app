@@ -3,8 +3,8 @@
   "name": "Bò cái sinh sản",
   "species": "cattle",
   "group": "reproductive",
-  "overview": "Cẩm nang chăm bò cái từ lúc xác định có thai đến khi đẻ xong và nuôi bê. Mục tiêu là đẻ an toàn, không viêm vú, không sót nhau, bê bú được sữa đầu sớm, bò mẹ hồi phục tử tế. Việc điều trị, bù khoáng, hỗ trợ sinh sản đều định tính theo hướng dẫn nhãn thuốc hoặc tư vấn thú y vùng, bao quát mùa vụ và phản ứng cá thể.",
-  "sections": [
+  "overview": "Bò cái sinh sản là trụ cột duy trì đàn, nơi sai lệch nhỏ ở dinh dưỡng, môi trường hoặc nhịp sinh lý có thể ảnh hưởng cả chu kỳ sinh sản kế tiếp. Rủi ro lớn không nằm ở thiếu thuốc, mà ở quản lý không đều theo từng giai đoạn: trước phối giống, mang thai và sau sinh.\n\nNhiều đàn bò gặp vấn đề phối khó đậu, sảy thai hoặc ít sữa không phải do bệnh nặng, mà do thể trạng không ổn định, stress kéo dài hoặc khẩu phần thiếu cân đối. Khi cơ thể bò cái không được giữ nhịp sinh lý ổn định, sức đề kháng giảm và bệnh dễ bùng phát.\n\nMục tiêu của nuôi bò cái sinh sản không phải là vỗ béo hay tiết kiệm cám ngắn hạn, mà là duy trì thể trạng cân đối, động dục rõ, mang thai an toàn và nuôi con bền. Nội dung trong cẩm nang này giúp người nuôi nhìn đúng rủi ro theo từng giai đoạn sinh sản và xử lý đúng trọng tâm.", 
+   "sections": [
     {
       "id": "pregnancy_confirm",
       "title": "Xác định có thai và lập kế hoạch",
@@ -102,7 +102,21 @@
         "[Giám sát cyclic động dục] Ghi lại nếu thấy động dục.",
         "[Giữ chân móng] Không cho bò đứng lâu trên nền trơn."
       ]
-    }
+    },
+    {
+  "id": "related_diseases_by_stage",
+  "title": "Bệnh thường liên quan theo từng giai đoạn",
+  "goal": "Nhận diện các vấn đề sức khỏe hay gặp ở bò sinh sản để bảo toàn khả năng phối giống, mang thai và nuôi con.",
+  "content": "Mỗi giai đoạn sinh sản của bò cái có nhóm nguy cơ riêng. Đối chiếu đúng giai đoạn giúp tra cứu và xử lý chính xác.",
+  "bullets": [
+    "[Trước phối giống] Rối loạn động dục, suy thể trạng, thiếu khoáng – vitamin.",
+    "[Mang thai sớm] Sảy thai sớm, stress dinh dưỡng và môi trường.",
+    "[Mang thai giữa] Rối loạn tiêu hóa, ký sinh trùng làm bò gầy yếu.",
+    "[Mang thai cuối] Tai biến thai kỳ, khó đẻ do thể trạng lệch.",
+    "[Sau sinh – nuôi con] Viêm vú, viêm tử cung, ít sữa, nhiễm trùng hậu sản."
+  ]
+}
+
   ],
   "notes": [
     "Thai kỳ sớm và cận đẻ cần xơ thô + khoáng nền theo nhãn, không đổi ồ ạt.",
