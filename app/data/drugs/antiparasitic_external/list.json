@@ -1,9 +1,9 @@
 [
-  { "id": "permethrin", "name": "Permethrin" },
-  { "id": "cypermethrin", "name": "Cypermethrin" },
-  { "id": "deltamethrin", "name": "Deltamethrin" },
-  { "id": "amitraz", "name": "Amitraz" },
-  { "id": "fipronil", "name": "Fipronil" },
-  { "id": "imidacloprid", "name": "Imidacloprid" },
-  { "id": "fluralaner", "name": "Fluralaner" }
+  { "id": "permethrin",    "name": "Permethrin" },
+  { "id": "cypermethrin",  "name": "Cypermethrin" },
+  { "id": "deltamethrin",  "name": "Deltamethrin" },
+  { "id": "amitraz",       "name": "Amitraz" },
+  { "id": "fipronil",      "name": "Fipronil" },
+  { "id": "imidacloprid",  "name": "Imidacloprid" },
+  { "id": "fluralaner",    "name": "Fluralaner" }
 ]

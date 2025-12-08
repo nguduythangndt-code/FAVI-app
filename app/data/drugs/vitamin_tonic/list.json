@@ -1,21 +1,23 @@
 [
-  { "id": "vitamin_bc", "name": "Vitamin BC" },
-  { "id": "multivitamin", "name": "Multivitamin tổng hợp" },
-  { "id": "vitamin_ade", "name": "Vitamin ADE" },
-  { "id": "vitamin_c", "name": "Vitamin C" },
-  { "id": "vitamin_e_selenium", "name": "Vitamin E - Selenium" },
-  { "id": "b1",  "name": "Vitamin B1" },
-  { "id": "b12", "name": "Vitamin B12" },
-  { "id": "choline_chloride", "name": "Choline chloride" },
-  { "id": "sorbitol_amino", "name": "Sorbitol + Acid amin" },
-  { "id": "hepetol", "name": "Hepetol (bổ gan - giải độc)" },
-  { "id": "atp", "name": "ATP (tăng lực - phục hồi)" },
-  { "id": "calcium_mag_b6", "name": "Calcium - Magnesium - B6" },
-  { "id": "calcium_d3", "name": "Calcium - D3 (xương - sinh sản)" },
-  { "id": "amino_peptide", "name": "Amino peptide phục hồi" },
-  { "id": "electrolyte_amino_premium", "name": "Electrolyte + Amino Premium" },
-  { "id": "liver_kidney_tonic", "name": "Bổ gan + thận tổng hợp" },
-  { "id": "butafosfan_b12", "name": "Butafosfan + B12 (tăng lực - phục hồi)" },
-  { "id": "mineral_premix_feed", "name": "Khoáng premix trộn thức ăn" }
+  { "id": "vitamin_bc",              "name": "Vitamin BC" },
+  { "id": "multivitamin",            "name": "Multivitamin tổng hợp" },
+  { "id": "vitamin_ade",             "name": "Vitamin ADE" },
+  { "id": "vitamin_c",               "name": "Vitamin C" },
+  { "id": "vitamin_e_selenium",      "name": "Vitamin E - Selenium" },
+  { "id": "b1",                      "name": "Vitamin B1" },
+  { "id": "b12",                     "name": "Vitamin B12" },
 
+  { "id": "choline_chloride",        "name": "Choline chloride" },
+  { "id": "sorbitol_amino",          "name": "Sorbitol + Acid amin" },
+  { "id": "hepetol",                 "name": "Hepetol (bổ gan - giải độc)" },
+  { "id": "atp",                     "name": "ATP (tăng lực - phục hồi)" },
+
+  { "id": "calcium_mag_b6",          "name": "Calcium - Magnesium - B6" },
+  { "id": "calcium_d3",              "name": "Calcium - D3 (xương - sinh sản)" },
+
+  { "id": "amino_peptide",           "name": "Amino peptide phục hồi" },
+  { "id": "electrolyte_amino",       "name": "Điện giải + Amino acid" },
+  { "id": "liver_kidney_tonic",      "name": "Bổ gan + thận tổng hợp" },
+  { "id": "butafosfan_b12",          "name": "Butafosfan + B12 (tăng lực - phục hồi)" },
+  { "id": "mineral_premix_feed",     "name": "Khoáng premix trộn thức ăn" }
 ]

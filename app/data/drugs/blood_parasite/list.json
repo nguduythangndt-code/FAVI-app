@@ -1,6 +1,5 @@
 [
-  { "id": "azidin", "name": "Azidin (Diminazene aceturate)" },
-  { "id": "imidocarb", "name": "Imidocarb" },
-  { "id": "oxytetracycline_la", "name": "Oxytetracycline LA (trị Anaplasma)" },
-  { "id": "buparvaquone", "name": "Buparvaquone (trị Theileria)" }
+  { "id": "diminazene",        "name": "Diminazene (Azidin)" },
+  { "id": "imidocarb",         "name": "Imidocarb" },
+  { "id": "buparvaquone",      "name": "Buparvaquone (trị Theileria)" }
 ]

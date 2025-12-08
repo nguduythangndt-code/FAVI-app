@@ -1,11 +1,11 @@
 [
-  { "id": "albendazole", "name": "Albendazole" },
-  { "id": "fenbendazole", "name": "Fenbendazole" },
-  { "id": "levamisole", "name": "Levamisole" },
-  { "id": "ivermectin", "name": "Ivermectin" },
-  { "id": "doramectin", "name": "Doramectin" },
-  { "id": "praziquantel", "name": "Praziquantel" },
-  { "id": "closantel", "name": "Closantel" },
-  { "id": "oxyclozanide", "name": "Oxyclozanide" },
-  { "id": "triclabendazole", "name": "Triclabendazole" }
+  { "id": "albendazole",      "name": "Albendazole" },
+  { "id": "fenbendazole",     "name": "Fenbendazole" },
+  { "id": "levamisole",       "name": "Levamisole" },
+  { "id": "ivermectin",       "name": "Ivermectin" },
+  { "id": "doramectin",       "name": "Doramectin" },
+  { "id": "praziquantel",     "name": "Praziquantel" },
+  { "id": "closantel",        "name": "Closantel" },
+  { "id": "oxyclozanide",     "name": "Oxyclozanide" },
+  { "id": "triclabendazole",  "name": "Triclabendazole" }
 ]
