@@ -16,18 +16,38 @@
     "Có thể kèm ho nhẹ, khò khè"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Đi hơi cứng", "Ăn giảm nhẹ"],
-    "moderate": ["Khớp sưng rõ", "Đi khập khiễng"],
-    "severe": ["Nằm nhiều, khớp đau nặng", "Gầy nhanh"]
+    "mild": [
+      "Đi hơi cứng",
+      "Ăn giảm nhẹ"
+    ],
+    "moderate": [
+      "Khớp sưng rõ",
+      "Đi khập khiễng"
+    ],
+    "severe": [
+      "Nằm nhiều, khớp đau nặng",
+      "Gầy nhanh"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Tylosin", "Tiamulin"],
-    "alternative_drugs": ["Doxycycline", "Tylvalosin"],
+    "primary_drugs": [
+      "Tylosin",
+      "Tiamulin"
+    ],
+    "alternative_drugs": [
+      "Doxycycline",
+      "Tylvalosin"
+    ],
     "note_drugs": "MS thường đáp ứng tốt nhóm macrolide/pleuromutilin như Tylosin - Tiamulin.",
-
     "symptomatic_treatment": {
-      "antiinflammatory": { "main": "Meloxicam", "alternative": [] },
-      "vitamin": { "main": "B-complex", "alternative": [] }
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin BC",
+        "alternative": []
+      }
     },
     "supportive_care": [
       "Giữ nền khô, giảm trơn trượt",
@@ -38,12 +58,23 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": ["Khớp sưng đau rõ"],
-      "guideline": ["Tylosin/Tiamulin sớm", "Kháng viêm hỗ trợ"]
+      "description": [
+        "Khớp sưng đau rõ"
+      ],
+      "guideline": [
+        "Tylosin/Tiamulin sớm",
+        "Kháng viêm hỗ trợ"
+      ]
     },
     "case_type_2": {
-      "description": ["Đàn bị lan nhanh"],
-      "guideline": ["Điều trị cả ô", "Tăng thông thoáng", "Bổ sung trợ sức"]
+      "description": [
+        "Đàn bị lan nhanh"
+      ],
+      "guideline": [
+        "Điều trị cả ô",
+        "Tăng thông thoáng",
+        "Bổ sung trợ sức"
+      ]
     },
     "note": "Đánh sớm thì khỏi nhanh, để lâu dễ thành viêm khớp mạn."
   },
@@ -52,6 +83,8 @@
     "Hạn chế trộn đàn",
     "Kiểm soát CRD nền"
   ],
-  "notes": ["MS hay làm gà đi cà nhắc kéo dài."],
+  "notes": [
+    "MS hay làm gà đi cà nhắc kéo dài."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

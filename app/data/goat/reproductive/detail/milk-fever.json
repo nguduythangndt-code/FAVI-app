@@ -3,23 +3,19 @@
   "name": "Hạ canxi sau đẻ (Milk fever) ở dê",
   "species": "goat",
   "group": "reproductive",
-
   "summary": "Hạ canxi sau đẻ là tình trạng dê mẹ mất canxi đột ngột khi tiết sữa mạnh sau sinh. Dê run cơ, đi loạng choạng, nằm bệt, lạnh tai chân. Nếu xử lý chậm có thể tử vong.",
-
   "causes": [
     "Canxi huy động không kịp trong giai đoạn tiết sữa mạnh.",
     "Khẩu phần nghèo khoáng, thiếu Ca - P - Mg.",
     "Dê sinh đôi - sinh ba, tiêu hao quá nhiều khoáng.",
     "Dê già sinh nhiều lứa."
   ],
-
   "risk_factors": [
     "Dê sữa, dê sinh đôi - ba.",
     "Khẩu phần thiếu khoáng cuối thai kỳ.",
     "Đàn không được bổ sung khoáng - vitamin đều.",
     "Thời tiết lạnh sau khi đẻ."
   ],
-
   "clinical_signs_detailed": [
     "Run cơ, chân yếu.",
     "Đi loạng choạng hoặc đứng không vững.",
@@ -27,7 +23,6 @@
     "Nằm bệt, thở chậm.",
     "Có thể co giật nếu hạ canxi nặng."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Run nhẹ, ăn giảm.",
@@ -42,7 +37,6 @@
       "Hôn mê, nguy cơ tử vong."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Canxi tiêm (theo hướng dẫn thú y).",
@@ -60,13 +54,13 @@
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin D3",
         "Khoáng tổng hợp",
-        "Vitamin B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": []
     },
@@ -81,7 +75,6 @@
       "Không tự ý tiêm nhanh gây sốc tim."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê còn đứng được hoặc nằm nhưng tỉnh.",
@@ -102,18 +95,15 @@
     },
     "note": "Hạ canxi đáp ứng rất nhanh nếu xử lý đúng - nhưng nguy hiểm nếu chậm vài giờ."
   },
-
   "prevention": [
     "Bổ sung khoáng cuối thai kỳ.",
     "Không để dê gầy quá trước đẻ.",
     "Cho ăn đa dạng cỏ + tinh + khoáng.",
     "Theo dõi sát dê mẹ 1-3 ngày đầu sau đẻ."
   ],
-
   "notes": [
     "Milk fever không phải bệnh truyền nhiễm.",
     "Dê sữa, dê sinh đôi có nguy cơ cao hơn rõ rệt."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

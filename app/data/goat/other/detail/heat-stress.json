@@ -3,23 +3,19 @@
   "name": "Sốc nhiệt ở dê",
   "species": "goat",
   "group": "other",
-
   "summary": "Sốc nhiệt xảy ra khi dê ở trong môi trường quá nóng, ẩm hoặc thiếu thông thoáng. Cơ thể không thoát nhiệt được dẫn đến mệt, thở mạnh, mất nước và có thể sụp đổ đột ngột.",
-
   "causes": [
     "Nắng nóng kéo dài.",
     "Chuồng bí, không có gió.",
     "Không có nước uống đủ.",
     "Dê vận động mạnh hoặc chen chúc trong không gian hẹp."
   ],
-
   "risk_factors": [
     "Dê vỗ béo, dê béo mỡ.",
     "Dê mang thai cuối kỳ.",
     "Dê con mới cai sữa.",
     "Nền chuồng nóng, mái tôn không cách nhiệt."
   ],
-
   "clinical_signs_detailed": [
     "Thở gấp mạnh.",
     "Há miệng thở, lưỡi thè.",
@@ -27,7 +23,6 @@
     "Tai nóng, mình nóng, chân run.",
     "Có thể ngã quỵ, co giật nếu quá nặng."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Thở nhanh.",
@@ -44,14 +39,13 @@
       "Hôn mê do sốc nhiệt."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "Điện giải - gluco",
+      "Điện giải tổng hợp (Na/K/Cl)",
       "Vitamin C"
     ],
     "alternative_drugs": [
-      "B-complex",
+      "Vitamin BC",
       "Thuốc trợ tim nhẹ (dùng theo thú y)"
     ],
     "note_drugs": [
@@ -62,12 +56,12 @@
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Dextrose - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "Vitamin tổng hợp"
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": []
     },
@@ -82,7 +76,6 @@
       "Không dùng thuốc trợ tim bừa bãi."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê mệt nhưng còn đứng được.",
@@ -102,18 +95,15 @@
     },
     "note": "Sốc nhiệt nặng có thể chết trong 15-30 phút nếu không xử lý."
   },
-
   "prevention": [
     "Che mát chuồng, cải thiện thông gió.",
     "Bố trí nhiều máng nước.",
     "Không dồn đàn vào buổi trưa nóng.",
     "Cho uống điện giải khi thời tiết cực nóng."
   ],
-
   "notes": [
     "Dê vỗ béo rất dễ bị sốc nhiệt.",
     "Mái tôn + chuồng kín = nguy cơ cao."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

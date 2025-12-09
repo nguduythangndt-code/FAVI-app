@@ -1,13 +1,10 @@
 {
   "name": "Dịch tả dê (PPR)",
-
   "summary": "Bệnh virus lây cực nhanh, gây sốt cao, loét miệng, tiêu chảy và viêm phổi. Dê con và dê đang stress dễ chết nếu không phát hiện sớm.",
-
   "causes": [
     "Virus PPR (morbillivirus) lây qua hô hấp và tiếp xúc dịch tiết",
     "Lây mạnh khi nuôi dày, giao thương đàn"
   ],
-
   "risk_factors": [
     "Nhập dê mới không cách ly",
     "Chuồng ẩm lạnh, gió lùa",
@@ -15,7 +12,6 @@
     "Dê con 3-10 tháng tuổi",
     "Thiếu dinh dưỡng, ký sinh trùng làm giảm miễn dịch"
   ],
-
   "clinical_signs_detailed": [
     "Sốt cao, bỏ ăn đột ngột",
     "Lờ đờ, đứng tách đàn",
@@ -33,7 +29,6 @@
     "Đi loạng choạng do kiệt sức",
     "Nằm nhiều, khó đứng dậy"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ, hắt hơi",
@@ -52,44 +47,51 @@
       "Có thể chết nhanh do viêm phổi - sốc nhiễm trùng"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "kháng sinh phổ rộng hỗ trợ phổi",
-      "điện giải",
-      "vitamin"
+      "Điện giải tổng hợp (Na/K/Cl)",
+      "Multivitamin tổng hợp"
     ],
     "alternative_drugs": [
       "kháng viêm giảm sốt",
       "thuốc long đờm"
     ],
-
     "note_drugs": "Không có thuốc diệt virus PPR. Kháng sinh dùng để chống bội nhiễm phổi; điện giải và vitamin giúp chống mất nước, nâng sức.",
-
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": ["Meloxicam", "Ketoprofen"]
+        "alternative": [
+          "Meloxicam",
+          "Ketoprofen"
+        ]
       },
       "respiratory_support": {
         "main": "Bromhexine",
-        "alternative": ["Guaifenesin"]
+        "alternative": [
+          "Guaifenesin"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["điện giải khoáng tổng hợp"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
-        "alternative": ["B-complex", "vitamin tổng hợp"]
+        "alternative": [
+          "Vitamin BC",
+          "Multivitamin tổng hợp"
+        ]
       },
       "digestive_support": {
-        "main": "men tiêu hóa",
-        "alternative": ["than hoạt tính"]
+        "main": "Enzyme tiêu hoá",
+        "alternative": [
+          "Than hoạt tính (giải độc tiêu hoá)"
+        ]
       }
     },
-
     "supportive_care": [
       "Cách ly gắt đàn bệnh",
       "Giữ ấm, tránh gió",
@@ -97,10 +99,8 @@
       "Vệ sinh miệng loét bằng dung dịch sát trùng nhẹ",
       "Theo dõi nhịp thở và thân nhiệt ngày 2 lần"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Ưu tiên hỗ trợ hô hấp và kháng sinh mạnh để chống bội nhiễm",
@@ -114,17 +114,14 @@
     ],
     "note": "PPR lây mạnh, cần báo thú y địa phương và kiểm soát đàn."
   },
-
   "prevention_list": [
     "Tiêm vaccine PPR định kỳ",
     "Cách ly dê mới nhập tối thiểu 2-3 tuần",
     "Chuồng khô thoáng, không nuôi dày",
     "Bổ sung khoáng - vitamin tăng sức đề kháng"
   ],
-
   "notes": [
     "Khi có ca đầu tiên phải khoanh vùng ngay vì tốc độ lây rất nhanh."
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

@@ -18,18 +18,42 @@
     "Chết đột ngột"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Ăn giảm, sốt nhẹ"],
-    "moderate": ["Khó thở, tiêu chảy", "Mào tím"],
-    "severe": ["Chết nhanh hàng loạt"]
+    "mild": [
+      "Ăn giảm, sốt nhẹ"
+    ],
+    "moderate": [
+      "Khó thở, tiêu chảy",
+      "Mào tím"
+    ],
+    "severe": [
+      "Chết nhanh hàng loạt"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Oxytetracycline", "Sulfadimethoxine"],
-    "alternative_drugs": ["Amoxicillin", "Florfenicol"],
+    "primary_drugs": [
+      "Oxytetracycline",
+      "Sulfadimethoxine"
+    ],
+    "alternative_drugs": [
+      "Amoxicillin",
+      "Florfenicol"
+    ],
     "note_drugs": "Tụ huyết trùng đáp ứng tốt nhóm tetracycline hoặc sulfa nếu dùng sớm.",
     "symptomatic_treatment": {
-      "antiinflammatory": { "main": "Meloxicam", "alternative": [] },
-      "electrolyte": { "main": "ORS", "alternative": [] },
-      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
     "supportive_care": [
       "Cách ly đàn bệnh",
@@ -40,12 +64,22 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": ["Gà sốt cao, tím mào, khó thở"],
-      "guideline": ["Kháng sinh mạnh sớm", "Kháng viêm - điện giải"]
+      "description": [
+        "Gà sốt cao, tím mào, khó thở"
+      ],
+      "guideline": [
+        "Kháng sinh mạnh sớm",
+        "Kháng viêm - điện giải"
+      ]
     },
     "case_type_2": {
-      "description": ["Chết đột ngột lan nhanh"],
-      "guideline": ["Điều trị toàn đàn nguy cơ", "Sát trùng khẩn"]
+      "description": [
+        "Chết đột ngột lan nhanh"
+      ],
+      "guideline": [
+        "Điều trị toàn đàn nguy cơ",
+        "Sát trùng khẩn"
+      ]
     },
     "note": "Bệnh cấp tính, chậm vài giờ là tụt đàn rất nhanh."
   },
@@ -54,6 +88,8 @@
     "Nước uống sạch, máng sạch",
     "Giảm mật độ, nền khô"
   ],
-  "notes": ["Hay bùng khi mưa lạnh hoặc đổi cám đột ngột."],
+  "notes": [
+    "Hay bùng khi mưa lạnh hoặc đổi cám đột ngột."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

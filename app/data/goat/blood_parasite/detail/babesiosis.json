@@ -3,23 +3,19 @@
   "name": "Nhiễm ký sinh trùng máu Babesia ở dê",
   "species": "goat",
   "group": "blood_parasite",
-
   "summary": "Babesia ký sinh trong hồng cầu gây tan máu cấp, sốt cao, nước tiểu đỏ và suy kiệt rất nhanh. Đây là một trong những bệnh ký sinh trùng máu nguy hiểm nhất ở dê nếu không điều trị kịp thời.",
-
   "causes": [
     "Ký sinh trùng Babesia spp.",
     "Truyền qua ve hút máu.",
     "Chuồng ẩm, nhiều ký sinh ngoài da.",
     "Thiếu tẩy ve định kỳ."
   ],
-
   "risk_factors": [
     "Dê yếu hoặc thiếu máu sẵn.",
     "Dê nuôi thả vùng có nhiều ve.",
     "Thời tiết mưa ẩm.",
     "Không vệ sinh chuồng trại."
   ],
-
   "clinical_signs_detailed": [
     "Sốt cao.",
     "Nước tiểu ra máu màu đỏ sẫm (tan máu).",
@@ -28,7 +24,6 @@
     "Có thể sụp nhanh trong 24-48 giờ.",
     "ở thể nặng dê bỏ ăn, nằm bẹp"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ.",
@@ -45,14 +40,13 @@
       "Thiếu máu cấp - tử vong nhanh."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Imidocarb",
-      "Azidin (Diminazene aceturate)"
+      "Diminazene (Azidin)"
     ],
     "alternative_drugs": [
-      "Oxytetracycline (dùng hỗ trợ)",
+      "Oxytetracycline",
       "Doxycycline"
     ],
     "note_drugs": [
@@ -65,13 +59,13 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin B12",
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": []
     },
@@ -86,7 +80,6 @@
       "Imidocarb cần theo dõi phản ứng sau tiêm."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Nước tiểu đỏ - dê còn đứng.",
@@ -107,18 +100,15 @@
     },
     "note": "Babesia diễn biến rất nhanh — nhiều ca chết trong ngày nếu không xử lý."
   },
-
   "prevention": [
     "Tẩy ve định kỳ.",
     "Giữ chuồng khô.",
     "Khử trùng dụng cụ tiêm.",
     "Giám sát nước tiểu đàn vào mùa mưa."
   ],
-
   "notes": [
     "Nước tiểu đỏ = Babesia cho đến khi chứng minh được ngược lại.",
     "Vitamin B12 cực quan trọng trong giai đoạn hồi phục."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

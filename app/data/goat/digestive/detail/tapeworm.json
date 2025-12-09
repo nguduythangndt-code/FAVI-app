@@ -3,21 +3,17 @@
   "name": "Sán dây đường ruột ở dê",
   "species": "goat",
   "group": "digestive",
-
   "summary": "Sán dây gây rối loạn tiêu hoá, phân có đốt sán trắng, dê chậm lớn, thiếu máu nhẹ và lông xù. Gặp nhiều ở dê con và dê non 1-6 tháng tuổi.",
-
   "causes": [
     "Ăn phải trứng sán từ cỏ bẩn.",
     "Nước uống nhiễm trứng sán.",
     "Chuồng nuôi ẩm thấp."
   ],
-
   "risk_factors": [
     "Dê con 1-6 tháng.",
     "Chăn thả ở bãi cỏ gần khu vực ô nhiễm.",
     "Không tẩy giun định kỳ."
   ],
-
   "clinical_signs_detailed": [
     "Phân có đốt sán trắng.",
     "Dê chậm lớn, bụng tóp.",
@@ -25,7 +21,6 @@
     "Ăn nhiều nhưng không tăng cân.",
     "Thiếu máu nhẹ, lông xù."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ít đốt sán, phân bình thường.",
@@ -41,7 +36,6 @@
       "Dê non yếu, dễ nhiễm thêm bệnh khác."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Praziquantel",
@@ -49,8 +43,8 @@
     ],
     "alternative_drugs": [
       "Fenbendazole",
-      "Vitamin B-complex",
-      "Men tiêu hoá"
+      "Vitamin BC",
+      "Enzyme tiêu hoá"
     ],
     "note_drugs": [
       "Không dùng kháng sinh."
@@ -59,15 +53,15 @@
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS"
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
-        "B-complex",
+        "Vitamin BC",
         "Vitamin C"
       ],
       "digestive_support": [
-        "Men tiêu hoá",
-        "Niêm mạc ruột"
+        "Enzyme tiêu hoá",
+        "Pectin - Kaolin"
       ]
     },
     "supportive_care": [
@@ -81,7 +75,6 @@
       "Không tăng liều benzimidazole."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Đốt sán nhiều nhưng dê còn ăn.",
@@ -101,17 +94,14 @@
     },
     "note": "Sán dây làm chậm lớn mạnh; cần tẩy định kỳ cho dê con."
   },
-
   "prevention": [
     "Tẩy giun định kỳ.",
     "Không chăn thả ở bãi ẩm thấp nhiều phân.",
     "Nước sạch, thay mỗi ngày."
   ],
-
   "notes": [
     "Sán dây không gây chết nhanh nhưng hao đàn.",
     "Kiểm soát môi trường chăn thả là quan trọng nhất."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -40,11 +40,11 @@
   },
   "treatment": {
     "primary_drugs": [
-      "ectoparasiticide_spray",
-      "pyrethroid_spray"
+      "Deltamethrin",
+      "Deltamethrin"
     ],
     "alternative_drugs": [
-      "ivermectin_external",
+      "Ivermectin",
       "sulfur_powder"
     ],
     "note_drugs": "Dùng thuốc xịt hoặc bột diệt ký sinh ngoài da theo hướng dẫn, tránh xịt trực tiếp vào mắt, miệng và không lạm dụng quá dày. Có thể cần lặp lại sau một khoảng thời gian để diệt lứa mới nở.",

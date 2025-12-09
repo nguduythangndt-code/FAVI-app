@@ -3,16 +3,13 @@
   "name": "Viêm phổi do giun phổi",
   "species": "cattle",
   "group": "respiratory",
-
   "summary": "Bệnh do giun phổi ký sinh ở đường hô hấp, gây ho kéo dài, khó thở, sụt cân. Thường gặp ở bò chăn thả trên bãi cỏ ẩm, có điều kiện cho ấu trùng phát triển.",
-
   "causes": [
     "Nhiễm giun phổi qua việc ăn phải ấu trùng trên cỏ hoặc nước uống",
     "Chăn thả trên bãi cỏ ẩm, kém quản lý vòng đời ký sinh trùng",
     "Không tẩy giun định kỳ cho đàn",
     "Suy giảm miễn dịch khiến cơ thể khó kiểm soát ký sinh trùng"
   ],
-
   "risk_factors": [
     "Bò chăn thả trên bãi cỏ ẩm, nhiều vùng trũng đọng nước",
     "Không có chương trình tẩy giun định kỳ",
@@ -20,7 +17,6 @@
     "Mật độ chăn thả dày",
     "Bê và bò trẻ dễ mẫn cảm hơn với giun phổi"
   ],
-
   "clinical_signs_detailed": [
     "Ho kéo dài, ho thành cơn, ho nhiều khi vận động",
     "Thở nhanh, đôi khi thở khó, nghe phổi có ran khò khè",
@@ -28,7 +24,6 @@
     "Trong đàn có nhiều con cùng ho trong mùa ẩm",
     "Ở ca nặng, bò thở khó, yếu, dễ kiệt sức"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho lác đác, nhất là sau vận động",
@@ -48,7 +43,6 @@
       "Có thể chết nếu không tẩy giun và hỗ trợ kịp thời"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "ivermectin",
@@ -58,7 +52,6 @@
       "fenbendazole"
     ],
     "note_drugs": "Tẩy giun cho cả nhóm hoặc cả đàn có nguy cơ, không chỉ điều trị cho từng con lẻ. Cần lặp lại tẩy giun theo khuyến cáo để cắt vòng đời ký sinh trùng.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -69,19 +62,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Giảm cường độ vận động trong giai đoạn điều trị",
       "Bổ sung thức ăn tốt, dễ tiêu, đủ năng lượng cho bò gầy",
@@ -89,10 +81,8 @@
       "Theo dõi phân, ho và nhịp thở sau tẩy giun để đánh giá hiệu quả",
       "Lên kế hoạch tẩy giun định kỳ cho đàn"
     ],
-
     "dose_policy": "Thuốc tẩy giun dùng theo liều trên nhãn hoặc theo tư vấn thú y, tránh lạm dụng."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò ho nhiều, gầy nhưng vẫn đi lại được.",
@@ -114,7 +104,6 @@
     },
     "note": "Lungworm là bệnh mang tính đàn, cần nhìn ở góc độ cả hệ thống chăn thả chứ không chỉ một vài cá thể."
   },
-
   "prevention": [
     "Xây dựng lịch tẩy giun định kỳ rõ ràng cho đàn",
     "Quản lý bãi chăn thả, tránh để cỏ quá ẩm, nước đọng",
@@ -122,12 +111,10 @@
     "Ưu tiên chăn thả luân phiên, để bãi nghỉ đủ thời gian",
     "Theo dõi và ghi lại mùa, thời điểm dễ bùng phát bệnh để chủ động phòng"
   ],
-
   "notes": [
     "Nếu thấy nhiều bò ho khi chăn ngoài đồng, cần nghĩ sớm đến giun phổi.",
     "Tẩy giun đơn lẻ vài con thường không giải quyết được gốc vấn đề.",
     "Quản lý cỏ, nước uống và lịch tẩy giun là chìa khóa."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

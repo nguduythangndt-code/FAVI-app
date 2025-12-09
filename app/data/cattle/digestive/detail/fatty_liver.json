@@ -3,7 +3,6 @@
   "name": "Gan nhiễm mỡ",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Gan nhiễm mỡ thường gặp ở bò sữa năng suất cao giai đoạn quanh đẻ. Cơ thể huy động mỡ quá nhiều, gan quá tải, làm bò chán ăn, giảm sữa và dễ kèm nhiều rối loạn chuyển hóa khác.",
   "causes": [
     "Bò béo quá mức trước khi đẻ, huy động mỡ mạnh sau khi bắt đầu cho sữa",
@@ -49,7 +48,7 @@
       "methionine"
     ],
     "alternative_drugs": [
-      "vitamin_bc"
+      "Vitamin BC"
     ],
     "note_drugs": "Thuốc chỉ hỗ trợ chuyển hóa mỡ ở gan. Phần quyết định vẫn là điều chỉnh khẩu phần, giảm béo trước đẻ và cải thiện ăn uống sau đẻ.",
     "symptomatic_treatment": {
@@ -62,15 +61,15 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },

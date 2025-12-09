@@ -3,22 +3,18 @@
   "name": "Nhiễm ký sinh trùng máu Trypanosoma ở dê",
   "species": "goat",
   "group": "blood_parasite",
-
   "summary": "Trypanosoma gây suy kiệt, phù hàm, thiếu máu, sốt thất thường và sụt cân kéo dài. Bệnh tiến triển âm ỉ nhưng gây tổn hại nặng nề nếu không điều trị triệt để.",
-
   "causes": [
     "Ký sinh trùng Trypanosoma spp.",
     "Truyền qua ruồi, mòng.",
     "Chuồng ẩm, nhiều côn trùng.",
     "Dụng cụ tiêm không sát trùng."
   ],
-
   "risk_factors": [
     "Mùa mưa - nhiều ruồi mòng.",
     "Dê yếu, suy dinh dưỡng.",
     "Không tẩy ve - mòng."
   ],
-
   "clinical_signs_detailed": [
     "Sung phù hàm (bướu nước).",
     "Gầy, gầy nhanh, lông xù.",
@@ -27,7 +23,6 @@
     "Sốt từng đợt (lúc có lúc không).",
     "Suy kiệt kéo dài."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Lông hơi xù.",
@@ -44,14 +39,13 @@
       "Nằm nhiều, khó hồi phục."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "Azidin (Diminazene aceturate)",
+      "Diminazene (Azidin)",
       "Imidocarb"
     ],
     "alternative_drugs": [
-      "Oxytetracycline (dùng hỗ trợ)",
+      "Oxytetracycline",
       "Doxycycline"
     ],
     "note_drugs": [
@@ -64,12 +58,12 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Dextrose - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin B12",
-        "Vitamin tổng hợp"
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": []
     },
@@ -84,7 +78,6 @@
       "Azidin cần theo dõi sát phản ứng sau tiêm."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Phù hàm - thiếu máu nhưng đứng được.",
@@ -104,18 +97,15 @@
     },
     "note": "Trypanosoma tiến triển dai dẳng — cần điều trị đầy đủ và kiểm soát vector truyền bệnh."
   },
-
   "prevention": [
     "Diệt ve - mòng - ruồi.",
     "Khử trùng dụng cụ tiêm.",
     "Cải thiện dinh dưỡng đàn.",
     "Giảm ẩm chuồng."
   ],
-
   "notes": [
     "Phù hàm không chỉ do sán lá — trypano cũng gây phù rất rõ.",
     "B12 giúp phục hồi hồng cầu nhanh."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

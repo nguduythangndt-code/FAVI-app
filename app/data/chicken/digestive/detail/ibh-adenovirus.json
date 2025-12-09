@@ -1,7 +1,9 @@
 {
   "name": "Viêm gan thể vùi do Adenovirus (IBH)",
   "summary": "Bệnh adenovirus gây viêm gan cấp, chết nhanh ở gà thịt 3-7 tuần tuổi.",
-  "causes": ["Fowl adenovirus (FAdV)"],
+  "causes": [
+    "Fowl adenovirus (FAdV)"
+  ],
   "risk_factors": [
     "Gà tơ 3-7 tuần",
     "Đồng nhiễm IBD/CAV",
@@ -14,17 +16,38 @@
     "Phân vàng loãng"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Ăn giảm, ủ rũ nhẹ"],
-    "moderate": ["Yếu rõ, chết rải rác tăng"],
-    "severe": ["Chết nhanh từng lứa, tỷ lệ cao"]
+    "mild": [
+      "Ăn giảm, ủ rũ nhẹ"
+    ],
+    "moderate": [
+      "Yếu rõ, chết rải rác tăng"
+    ],
+    "severe": [
+      "Chết nhanh từng lứa, tỷ lệ cao"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["ORS", "Vitamin C", "B-complex"],
-    "alternative_drugs": ["Amoxicillin", "Florfenicol"],
+    "primary_drugs": [
+      "Oresol (điện giải uống)",
+      "Vitamin C",
+      "Vitamin BC"
+    ],
+    "alternative_drugs": [
+      "Amoxicillin",
+      "Florfenicol"
+    ],
     "note_drugs": "IBH không có thuốc đặc trị; chủ yếu trợ sức và chống bội nhiễm. Phòng bằng vaccine và biosecurity.",
     "symptomatic_treatment": {
-      "electrolyte": { "main": "ORS", "alternative": [] },
-      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
     "supportive_care": [
       "Giảm stress, giữ ấm",
@@ -35,12 +58,22 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": ["Chết rải rác tăng nhanh"],
-      "guideline": ["Trợ sức toàn đàn", "Kháng sinh chống bội nhiễm"]
+      "description": [
+        "Chết rải rác tăng nhanh"
+      ],
+      "guideline": [
+        "Trợ sức toàn đàn",
+        "Kháng sinh chống bội nhiễm"
+      ]
     },
     "case_type_2": {
-      "description": ["Chết dồn dập theo lứa"],
-      "guideline": ["Báo thú y kiểm tra nguồn giống", "Khử trùng chuồng triệt để"]
+      "description": [
+        "Chết dồn dập theo lứa"
+      ],
+      "guideline": [
+        "Báo thú y kiểm tra nguồn giống",
+        "Khử trùng chuồng triệt để"
+      ]
     },
     "note": "IBH bùng rất nhanh, xử lý sớm giúp giảm chết nhưng không chặn được virus."
   },
@@ -49,6 +82,8 @@
     "Chọn giống sạch bệnh",
     "Biosecurity và sát trùng định kỳ"
   ],
-  "notes": ["Gà qua IBH hay tụt tăng trọng mạnh."],
+  "notes": [
+    "Gà qua IBH hay tụt tăng trọng mạnh."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

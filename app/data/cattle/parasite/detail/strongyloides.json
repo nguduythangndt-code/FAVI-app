@@ -41,7 +41,7 @@
       "Bê nằm nhiều, khó đứng, có thể ho, thở gấp",
       "Nếu không can thiệp kịp có thể chết do mất nước và suy kiệt"
     ]
-},
+  },
   "treatment": {
     "primary_drugs": [
       "ivermectin",
@@ -55,23 +55,23 @@
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin khi bê đau nhiều hoặc sốt",
-        "alternative": "meloxicam theo tư vấn thú y"
+        "alternative": "Meloxicam"
       },
       "respiratory_support": {
         "main": "bromhexine khi có ho, khó thở",
         "alternative": "thuốc giãn phế quản khác do thú y chỉ định nếu tổn thương phổi rõ"
       },
       "electrolyte": {
-        "main": "dung dịch điện giải uống cho bê tiêu chảy",
+        "main": "Oresol (điện giải uống)",
         "alternative": "truyền dịch điện giải, dung dịch đẳng trương do thú y thực hiện"
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "vitamin tổng hợp kèm khoáng giúp hồi phục"
       },
       "digestive_support": {
         "main": "men tiêu hóa cho bê",
-        "alternative": "chế phẩm vi sinh đường ruột"
+        "alternative": "Probiotic (men vi sinh)"
       }
     },
     "supportive_care": [

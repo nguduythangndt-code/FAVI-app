@@ -1,0 +1,39 @@
+{
+  "id": "diclazuril",
+  "name": "Diclazuril",
+  "group": "antiparasitic_internal",
+  "mechanism": "Diclazuril ức chế sự phát triển của cầu trùng trong ruột, chủ yếu ở giai đoạn sớm, giúp giảm mức độ nhiễm và hạn chế tổn thương niêm mạc.",
+  "clinical_uses": [
+    "Phòng cầu trùng ở dê, heo, gia cầm trong giai đoạn nguy cơ cao.",
+    "Điều trị cầu trùng thể nhẹ đến trung bình, phát hiện sớm.",
+    "Kết hợp trong chương trình kiểm soát cầu trùng định kỳ tại trại."
+  ],
+  "pros": [
+    "Tương đối an toàn, ít ghi nhận tác dụng phụ nặng.",
+    "Thích hợp dùng phòng hoặc dùng sớm khi mới xuất hiện triệu chứng.",
+    "Có thể tích hợp vào chương trình quản lý đàn lâu dài."
+  ],
+  "cons": [
+    "Hiệu quả hạn chế trong ca cầu trùng nặng hoặc đã tổn thương ruột nhiều.",
+    "Không thay thế việc cải thiện vệ sinh, thông thoáng và mật độ chuồng nuôi.",
+    "Lạm dụng kéo dài có thể làm giảm hiệu quả phòng về sau."
+  ],
+  "mild_side_effects": [
+    "Hầu như không ghi nhận tác dụng phụ đáng kể khi dùng đúng khuyến cáo.",
+    "Một số trường hợp có thể giảm ăn nhẹ trong thời gian dùng."
+  ],
+  "usage_recommendations": [
+    "Dùng đúng giai đoạn nguy cơ theo hướng dẫn thú y hoặc hướng dẫn nhãn.",
+    "Kết hợp song song việc giữ chuồng khô, dọn phân, tránh ẩm ướt kéo dài.",
+    "Theo dõi đàn, nếu tiêu chảy nặng hoặc không cải thiện cần đánh giá lại và cân nhắc thuốc khác."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho đàn không có nguy cơ rõ ràng chỉ để  'cho yên tâm'.",
+    "Không dùng đơn độc trong ổ dịch cầu trùng nặng mà không có biện pháp hỗ trợ khác."
+  ],
+  "alternative_drugs": [
+    "Toltrazuril trong các ca nặng hơn hoặc cần tác động nhiều giai đoạn phát triển.",
+    "Amprolium theo phác đồ thú y.",
+    "Các biện pháp quản lý nền chuồng, dinh dưỡng và mật độ nuôi."
+  ]
+}

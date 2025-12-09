@@ -1,0 +1,40 @@
+{
+  "id": "niclosamide",
+  "name": "Niclosamide",
+  "group": "antiparasitic_internal",
+  "mechanism": "Niclosamide là thuốc đặc hiệu cho sán dây, ức chế quá trình hô hấp và chuyển hoá năng lượng của sán trong ruột, làm sán mất khả năng bám và bị tống thải theo phân.",
+  "clinical_uses": [
+    "Điều trị nhiễm sán dây ở dê, bò và một số loài gia súc khác.",
+    "Trường hợp phân có đốt sán hoặc xác sán, nghi ngờ rõ nhiễm sán dây.",
+    "Can thiệp tẩy sán dây định kỳ trong đàn có nguy cơ cao."
+  ],
+  "pros": [
+    "Đặc hiệu với sán dây, ít ảnh hưởng đến các loài ký sinh khác.",
+    "Tác dụng chủ yếu tại ruột, ít hấp thu toàn thân.",
+    "Thường cho kết quả rõ khi dùng đúng chỉ định."
+  ],
+  "cons": [
+    "Không có tác dụng với giun tròn, sán gan hoặc ký sinh ngoài ruột.",
+    "Nếu không dọn phân và vệ sinh chuồng, đàn dễ tái nhiễm trở lại.",
+    "Không xử lý được ổ ấu trùng ở cơ hoặc phủ tạng (cần phác đồ khác)."
+  ],
+  "mild_side_effects": [
+    "Có thể gây tiêu phân lỏng nhẹ trong 1–2 ngày do sán chết được tống ra.",
+    "Một số con giảm ăn tạm thời sau khi dùng thuốc.",
+    "Tác dụng phụ nặng hiếm gặp nếu dùng đúng liều theo nhãn."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi xác định hoặc nghi ngờ rõ nhiễm sán dây.",
+    "Kết hợp dọn phân ngay sau tẩy, tránh vật nuôi khác ăn phải đốt sán.",
+    "Xem xét kiểm soát thêm vật chủ trung gian (ốc, côn trùng…) nếu có."
+  ],
+  "when_not_to_use": [
+    "Động vật suy kiệt nặng, mất nước nặng mà chưa được hỗ trợ tổng trạng.",
+    "Không dùng thay thế cho thuốc giun tròn hoặc sán gan khi đó mới là vấn đề chính.",
+    "Không tẩy sán dây chỉ vì 'đến lịch' khi không có nguy cơ hoặc dấu hiệu."
+  ],
+  "alternative_drugs": [
+    "Praziquantel trong các phác đồ tẩy sán dây khác.",
+    "Các thuốc tẩy giun – sán khác theo đánh giá thú y tuỳ vùng và điều kiện trại."
+  ]
+}

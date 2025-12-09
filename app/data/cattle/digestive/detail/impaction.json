@@ -3,7 +3,6 @@
   "name": "Bó dạ cỏ",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Bó dạ cỏ xảy ra khi dạ cỏ chứa quá nhiều thức ăn khô cứng, khó tiêu hoặc dị vật, làm giảm hoặc mất nhu động, bò ăn kém, bụng to nhưng rắn, đi phân ít. Nếu không xử lý kịp có thể suy kiệt kéo dài.",
   "causes": [
     "Ăn quá nhiều rơm khô, cỏ già, thức ăn khô cứng khó tiêu",
@@ -61,15 +60,15 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },

@@ -3,23 +3,19 @@
   "name": "Viêm phế quản - khí quản ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phế quản - khí quản thường biểu hiện ho nhiều, tiếng ho khan hoặc có đờm, chảy nước mũi, nhưng chưa tổn thương sâu nhu mô phổi. Nếu không xử lý, bệnh có thể lan xuống phổi.",
-
   "causes": [
     "Virus, vi khuẩn đường hô hấp trên.",
     "Kích ứng do khí độc, bụi, khói.",
     "Gió lùa trực tiếp, tắm mưa, lạnh đột ngột.",
     "Lan từ viêm mũi - xoang xuống."
   ],
-
   "risk_factors": [
     "Chuồng bí, ít thông gió, mùi khai - hôi nồng.",
     "Đốt rơm rạ, hun khói gần chuồng.",
     "Dê con và dê hậu bị, miễn dịch chưa tốt.",
     "Thay đổi thời tiết liên tục."
   ],
-
   "clinical_signs_detailed": [
     "Ho khan hoặc ho có tiếng khụt khịt, từng cơn.",
     "Ho nhiều khi vận động, khi trời lạnh hoặc lúc sáng sớm.",
@@ -27,7 +23,6 @@
     "Thở nhanh nhẹ nhưng chưa khó thở rõ.",
     "Ăn giảm nhẹ, đa số vẫn đi lại bình thường."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho ít, chủ yếu sáng sớm.",
@@ -45,7 +40,6 @@
       "Nếu kéo dài không trị có thể chuyển thành viêm phổi."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Doxycycline",
@@ -71,12 +65,12 @@
         "Guaifenesin"
       ],
       "electrolyte": [
-        "Điện giải nhẹ",
-        "ORS"
+        "electrolyte_mix",
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": [
         "Men tiêu hoá cho những con giảm ăn."
@@ -94,7 +88,6 @@
       "Không kéo dài điều trị quá mức cần thiết nếu triệu chứng đã hết."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Ho nhiều, ăn giảm nhưng chưa khó thở rõ.",
@@ -115,18 +108,15 @@
     },
     "note": "Viêm phế quản - khí quản là “cửa ngõ” lên viêm phổi; phát hiện và điều trị sớm giúp tránh tốn kém về sau."
   },
-
   "prevention": [
     "Giữ chuồng thoáng nhưng tránh gió lùa.",
     "Không đốt rơm rạ, than, khói ngay sát chuồng.",
     "Chống lạnh tốt khi chuyển mùa.",
     "Bổ sung vitamin - khoáng cho dê con, dê hậu bị."
   ],
-
   "notes": [
     "Ho kéo dài nhiều ngày dù nhẹ vẫn nên xem lại môi trường và can thiệp, tránh để chuyển nặng.",
     "Không phải ca nào ho cũng cần dùng kháng sinh mạnh; môi trường và miễn dịch là chìa khoá."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

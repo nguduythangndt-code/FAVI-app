@@ -40,11 +40,11 @@
   },
   "treatment": {
     "primary_drugs": [
-      "ectoparasiticide_spray",
-      "pyrethroid_spray"
+      "Deltamethrin",
+      "Deltamethrin"
     ],
     "alternative_drugs": [
-      "ivermectin_external",
+      "Ivermectin",
       "lime_sulfur_spray"
     ],
     "note_drugs": "Xử lý ve, mạt cần kết hợp phun thuốc lên chuồng, ổ đẻ, máng đậu và xử lý trên thân gà theo hướng dẫn. Có thể phải lặp lại sau một khoảng thời gian để diệt các lứa mới nở.",

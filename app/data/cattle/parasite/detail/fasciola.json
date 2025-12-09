@@ -43,7 +43,7 @@
       "Phù rõ vùng hàm, ngực, bụng, chi dưới",
       "Dễ mắc thêm bệnh khác, khó hồi phục, có thể chết nếu không xử lý"
     ]
-},
+  },
   "treatment": {
     "primary_drugs": [
       "triclabendazole",
@@ -57,22 +57,22 @@
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin khi bò đau vùng gan hoặc sốt",
-        "alternative": "meloxicam theo tư vấn thú y"
+        "alternative": "Meloxicam"
       },
       "respiratory_support": {
         "main": "",
         "alternative": ""
       },
       "electrolyte": {
-        "main": "dung dịch điện giải uống khi bò mệt, ăn kém",
+        "main": "Oresol (điện giải uống)",
         "alternative": "truyền dịch hỗ trợ tuần hoàn ở ca suy kiệt do thú y thực hiện"
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "vitamin, khoáng hỗ trợ chức năng gan theo tư vấn thú y"
       },
       "digestive_support": {
-        "main": "men tiêu hóa cho bò",
+        "main": "Enzyme tiêu hoá",
         "alternative": "chế phẩm hỗ trợ gan, mật do thú y khuyến nghị"
       }
     },

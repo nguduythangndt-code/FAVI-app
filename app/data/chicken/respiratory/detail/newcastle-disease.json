@@ -60,19 +60,19 @@
       },
       "respiratory_support": {
         "main": "bromhexine",
-        "alternative": "thuốc long đờm - giãn phế quản dạng uống"
+        "alternative": "Bromhexine"
       },
       "electrolyte": {
         "main": "dung dịch điện giải + vitamin C pha nước uống",
         "alternative": "điện giải - giải độc gan thận dạng bột"
       },
       "vitamin": {
-        "main": "vitamin tổng hợp (A, D, E, B-complex)",
+        "main": "Multivitamin tổng hợp",
         "alternative": "vitamin C liều hỗ trợ chống sốc"
       },
       "digestive_support": {
         "main": "men tiêu hoá - men sống trộn thức ăn",
-        "alternative": "chế phẩm vi sinh đường ruột"
+        "alternative": "Probiotic (men vi sinh)"
       }
     },
     "supportive_care": [

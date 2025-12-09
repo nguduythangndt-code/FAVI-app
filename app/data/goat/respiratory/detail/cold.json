@@ -3,23 +3,19 @@
   "name": "Cảm lạnh ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Cảm lạnh là tình trạng dê bị lạnh đột ngột, dính mưa, gió lùa, làm cơ thể suy yếu tạm thời. Đa số chỉ chảy nước mũi, ho nhẹ, mệt, nhưng nếu môi trường xấu kéo dài có thể chuyển sang viêm hô hấp nặng hơn.",
-
   "causes": [
     "Dính mưa, tắm mưa, bị ướt mà không được hong khô.",
     "Gió lùa trực tiếp vào chuồng khi trời lạnh.",
     "Nằm nền ẩm, lạnh trong đêm.",
     "Chênh lệch nhiệt độ ngày - đêm lớn, không che chắn."
   ],
-
   "risk_factors": [
     "Dê con, dê hậu bị, dê mới cai sữa.",
     "Đàn nuôi vùng gió lộng, không che chắn tốt.",
     "Đêm lạnh, mưa phùn nhiều ngày.",
     "Dê gầy, thiếu dinh dưỡng, sức đề kháng kém."
   ],
-
   "clinical_signs_detailed": [
     "Chảy nước mũi trong, hắt hơi.",
     "Ho nhẹ, chủ yếu lúc sáng sớm hoặc tối.",
@@ -27,7 +23,6 @@
     "Lông hơi xù, đứng co ro khi trời lạnh.",
     "Nếu không chăm sóc tốt có thể chuyển thành viêm phế quản - phổi."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Nước mũi trong ít.",
@@ -44,7 +39,6 @@
       "Có dấu hiệu chuyển sang viêm hô hấp dưới (cần xem xét theo hướng viêm phổi)."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Không phải ca nào cũng cần kháng sinh; trọng tâm là GIỮ ẤM và HỖ TRỢ MIỄN DỊCH.",
@@ -71,8 +65,8 @@
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex",
-        "Vitamin tổng hợp"
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
         "Men tiêu hoá cho những con ăn giảm."
@@ -90,7 +84,6 @@
       "Không tự ý dùng kháng sinh mạnh cho ca chỉ cảm lạnh nhẹ."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Cảm lạnh mức trung bình: chảy mũi, ho nhẹ, ăn giảm.",
@@ -110,18 +103,15 @@
     },
     "note": "Cảm lạnh bản thân không đáng sợ; điều đáng sợ là nó bị xem nhẹ, để kéo dài rồi chuyển thành viêm phổi."
   },
-
   "prevention": [
     "Chuồng phải có mái che tốt, không bị hắt mưa, không gió lùa.",
     "Chuẩn bị chuồng mùa đông: thêm bạt che, thêm chất độn khô.",
     "Không nhốt quá đông, để dê có chỗ tránh gió.",
     "Nâng khẩu phần khi rét để dê đủ năng lượng chống lạnh."
   ],
-
   "notes": [
     "Đàn nào qua mùa lạnh mà không ít nhất vài con bị cảm là… hiếm, mục tiêu thực tế là giảm tối đa số con bị chuyển nặng.",
     "Quan sát thói quen đứng co ro, né gió của dê là tín hiệu để chỉnh chuồng."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

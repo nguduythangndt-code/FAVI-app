@@ -3,16 +3,13 @@
   "name": "Viêm phổi - màng phổi do Pasteurella",
   "species": "cattle",
   "group": "respiratory",
-
   "summary": "Bệnh viêm phổi - màng phổi cấp do vi khuẩn Pasteurella multocida. Thường bùng phát sau khi đàn bò bị stress, vận chuyển xa, thay đổi thời tiết hoặc nhốt chuồng bí. Diễn tiến nhanh, nếu không xử lý sớm có thể chết đột ngột.",
-
   "causes": [
     "Nhiễm vi khuẩn Pasteurella multocida ở đường hô hấp",
     "Stress do vận chuyển, thay đổi thời tiết, ghép đàn, thay khẩu phần đột ngột",
     "Chuồng trại ẩm, bí khí, thông gió kém làm suy giảm sức đề kháng đường hô hấp",
     "Bội nhiễm sau các bệnh virus hô hấp khác"
   ],
-
   "risk_factors": [
     "Vận chuyển đường xa, nhốt xe lâu, không nghỉ",
     "Mật độ nuôi dày, chuồng ẩm, gió lùa hoặc bí khí",
@@ -20,7 +17,6 @@
     "Chưa được tiêm phòng các bệnh hô hấp hoặc tiêm phòng không đều",
     "Thay đổi khẩu phần đột ngột, thiếu khoáng - vitamin kéo dài"
   ],
-
   "clinical_signs_detailed": [
     "Sốt cao, bỏ ăn hoặc ăn rất ít, mệt mỏi, lù rù",
     "Thở nhanh, thở gấp, dùng nhiều cơ bụng khi thở",
@@ -31,7 +27,6 @@
     "Giảm sản lượng sữa rõ rệt ở bò sữa",
     "Trường hợp nặng có thể thở há mồm, tím niêm mạc, ngã vật và chết nhanh"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ, thân nhiệt hơi tăng",
@@ -54,7 +49,6 @@
       "Một số trường hợp chết đột ngột mà chưa kịp thấy ho nhiều"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "oxytetracycline",
@@ -65,7 +59,6 @@
       "ceftiofur"
     ],
     "note_drugs": "Ưu tiên chọn 1 kháng sinh chính và dùng đủ thời gian. Tránh phối nhiều loại kháng sinh mạnh cùng lúc để không làm nặng gan thận và khó đánh giá đáp ứng điều trị.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -76,19 +69,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": "dung dịch bù nước - điện giải khác"
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": "chế phẩm hỗ trợ tiêu hóa khác"
       }
     },
-
     "supportive_care": [
       "Nhốt bò bệnh ở ô riêng, chuồng khô, sạch, thoáng nhưng tránh gió lùa trực tiếp",
       "Chuẩn bị đủ nước sạch, có thể pha thêm điện giải để bò uống từng ít nhiều lần",
@@ -96,10 +88,8 @@
       "Giảm stress: hạn chế tiếng ồn, không đổi đàn, không vận chuyển bò đang sốt hoặc khó thở",
       "Theo dõi thân nhiệt, nhịp thở, mức độ ăn uống mỗi ngày để đánh giá đáp ứng điều trị"
     ],
-
     "dose_policy": "Kháng sinh và các thuốc hỗ trợ dùng theo liều khuyến cáo trên nhãn hoặc theo hướng dẫn của bác sĩ thú y. Không tự ý tăng liều hoặc rút ngắn liệu trình khi chưa tham khảo ý kiến chuyên môn."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bê hoặc bò trẻ sốt cao, thở gấp nhưng vẫn còn đứng được, còn phản ứng với môi trường xung quanh.",
@@ -121,7 +111,6 @@
     },
     "note": "Bò bị viêm phổi nặng nếu không đáp ứng với kháng sinh sau 2-3 ngày điều trị tích cực thì tiên lượng thường xấu. Cần ghi chép lại ca bệnh, thuốc đã dùng và thời gian đáp ứng để rút kinh nghiệm cho đàn sau."
   },
-
   "prevention": [
     "Quản lý tốt khâu vận chuyển: không nhốt quá dày, có nghỉ giữa chặng, cho uống nước đầy đủ",
     "Giữ chuồng trại khô, thoáng, tránh ẩm lạnh, hạn chế gió lùa trực tiếp vào bò",
@@ -130,12 +119,10 @@
     "Xem xét chương trình tiêm phòng các bệnh hô hấp phù hợp điều kiện trại",
     "Cách ly và theo dõi bò mới nhập đàn trước khi cho nhập chung"
   ],
-
   "notes": [
     "Bệnh thường không đi một mình mà nằm trong hội chứng bệnh hô hấp phức hợp, có thể kèm tổn thương do virus khác.",
     "Nếu thấy cả đàn ho đồng loạt, chảy nước mũi trong, mắt chảy nước, cần nghĩ thêm đến các bệnh virus hô hấp rồi đánh giá lại đường điều trị.",
     "Kháng sinh chỉ kiểm soát phần nhiễm khuẩn, không thay thế được việc cải thiện chuồng trại và giảm stress cho đàn."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Quyết định chẩn đoán và điều trị cần dựa trên khám thực tế và tư vấn của bác sĩ thú y."
 }

@@ -1,0 +1,44 @@
+{
+  "id": "povidone_iodine",
+  "name": "Povidone-iodine",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Hợp chất iod giải phóng iod tự do, oxy hóa và phá vỡ cấu trúc protein – màng tế bào vi sinh vật, diệt vi khuẩn, virus, nấm và một phần bào tử.",
+  "clinical_uses": [
+    "Sát trùng vết thương ngoài da, áp-xe đã rạch, vết rách, trầy xước.",
+    "Sát trùng rốn dê con, bê con, heo con sau sinh để giảm nhiễm trùng rốn.",
+    "Sát trùng vùng da trước khi tiêm, chích, truyền dịch.",
+    "Vệ sinh vùng âm hộ, tầng sinh môn ngoài trong chăm sóc hậu sản (theo hướng dẫn thú y)."
+  ],
+  "pros": [
+    "Phổ sát trùng rất rộng, diệt được nhiều loại vi khuẩn, virus, nấm.",
+    "Dễ kiếm, giá hợp lý, có nhiều dạng chế phẩm trên thị trường.",
+    "Có thể dùng cho nhiều loài vật nuôi nếu dùng đúng cách và đúng vị trí."
+  ],
+  "cons": [
+    "Dùng nồng độ cao hoặc kéo dài trên vết thương rộng có thể làm chậm quá trình lành.",
+    "Có nguy cơ gây kích ứng da ở con mẫn cảm với iod.",
+    "Hiệu lực giảm nếu bề mặt quá bẩn, nhiều chất hữu cơ chưa được vệ sinh sơ bộ."
+  ],
+  "mild_side_effects": [
+    "Kích ứng nhẹ, hơi rát tại vùng bôi, nhất là mô nhạy cảm.",
+    "Da có thể bị khô, bong nhẹ khi dùng liên tục nhiều ngày.",
+    "Có thể để lại màu nâu trên lông, da hoặc quần áo người chăm sóc."
+  ],
+  "usage_recommendations": [
+    "Luôn vệ sinh sơ bộ vết bẩn, phân, chất hữu cơ trước khi sát trùng.",
+    "Dùng vừa đủ phủ bề mặt, không lạm dụng bôi quá nhiều lần trong ngày.",
+    "Ưu tiên dùng cho sát trùng tại chỗ, không dùng như kháng sinh toàn thân.",
+    "Luôn đọc nhãn sản phẩm và làm theo khuyến cáo nhà sản xuất hoặc thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con có tiền sử dị ứng với iod hoặc các chế phẩm có iod.",
+    "Không đổ trực tiếp lượng lớn dung dịch đậm đặc vào vết thương sâu, khoang kín.",
+    "Không dùng kéo dài nhiều ngày trên vùng tổn thương rộng đang lên da non.",
+    "Thận trọng khi bôi gần mắt, niêm mạc mỏng và vùng da rất nhạy cảm."
+  ],
+  "alternative_drugs": [
+    "Iodophor cho sát trùng dụng cụ, bề mặt, núm vú.",
+    "Chlorine_compound cho sát trùng chuồng trại và nước uống (khi phù hợp).",
+    "Bio_disinfectant khi mục tiêu là duy trì môi trường sạch, ít mùi một cách nhẹ nhàng hơn."
+  ]
+}

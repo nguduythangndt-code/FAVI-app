@@ -17,17 +17,39 @@
     "Một số con mù do đục thủy tinh thể"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Run nhẹ", "Ăn giảm"],
-    "moderate": ["Run rõ, đi không vững", "Yếu"],
-    "severe": ["Nằm liệt, không mổ được", "Chết do suy kiệt"]
+    "mild": [
+      "Run nhẹ",
+      "Ăn giảm"
+    ],
+    "moderate": [
+      "Run rõ, đi không vững",
+      "Yếu"
+    ],
+    "severe": [
+      "Nằm liệt, không mổ được",
+      "Chết do suy kiệt"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Vitamin E-Selenium", "B-complex"],
-    "alternative_drugs": ["ORS"],
+    "primary_drugs": [
+      "vitamin_e_selenium",
+      "Vitamin BC"
+    ],
+    "alternative_drugs": [
+      "Oresol (điện giải uống)"
+    ],
     "note_drugs": "AE không có thuốc đặc hiệu. Điều trị chỉ trợ sức và nuôi tách riêng con yếu.",
     "symptomatic_treatment": {
-      "vitamin": { "main": "Vitamin E-Selenium", "alternative": ["B-complex"] },
-      "electrolyte": { "main": "ORS", "alternative": [] }
+      "vitamin": {
+        "main": "vitamin_e_selenium",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      }
     },
     "supportive_care": [
       "Nuôi riêng ổ úm nhỏ, tránh bị đè",
@@ -38,12 +60,22 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": ["Run nhiều nhưng còn ăn"],
-      "guideline": ["Trợ sức vitamin", "Ổ úm ấm và yên tĩnh"]
+      "description": [
+        "Run nhiều nhưng còn ăn"
+      ],
+      "guideline": [
+        "Trợ sức vitamin",
+        "Ổ úm ấm và yên tĩnh"
+      ]
     },
     "case_type_2": {
-      "description": ["Liệt, mổ không được"],
-      "guideline": ["Nuôi tách riêng", "Chăm uống nước - điện giải"]
+      "description": [
+        "Liệt, mổ không được"
+      ],
+      "guideline": [
+        "Nuôi tách riêng",
+        "Chăm uống nước - điện giải"
+      ]
     },
     "note": "Qua được 3-5 ngày đầu thì khả năng hồi phục tốt hơn."
   },
@@ -52,6 +84,8 @@
     "Giữ chuồng khô ấm",
     "Không trộn lứa tuổi"
   ],
-  "notes": ["Gà khỏi có thể còn run nhẹ hoặc chậm lớn."],
+  "notes": [
+    "Gà khỏi có thể còn run nhẹ hoặc chậm lớn."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

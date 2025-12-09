@@ -44,7 +44,7 @@
     ],
     "alternative_drugs": [
       "fenbendazole",
-      "niclosamide"
+      "Niclosamide"
     ],
     "note_drugs": "Tẩy sán thường dùng thuốc chuyên cho sán dây hoặc thuốc phổ rộng có hiệu lực trên sán. Cần lặp lại theo chu kỳ để phá vỡ vòng đời sán theo tư vấn thú y.",
     "symptomatic_treatment": {
@@ -61,8 +61,8 @@
         "alternative": "điện giải kèm vitamin C khi đàn stress sau tẩy sán"
       },
       "vitamin": {
-        "main": "vitamin tổng hợp giúp phục hồi thể trạng",
-        "alternative": "vitamin nhóm B kích thích ăn"
+        "main": "Multivitamin tổng hợp",
+        "alternative": "Vitamin BC"
       },
       "digestive_support": {
         "main": "men vi sinh sau tẩy sán để ổn định ruột",

@@ -40,8 +40,8 @@
   },
   "treatment": {
     "primary_drugs": [
-      "ectoparasiticide_spray",
-      "ivermectin_external"
+      "Deltamethrin",
+      "Ivermectin"
     ],
     "alternative_drugs": [
       "lime_sulfur_dip",

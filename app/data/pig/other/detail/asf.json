@@ -20,18 +20,46 @@
     "Thở khó, chết nhanh trong vài ngày"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Sốt nhẹ, ăn giảm", "Lờ đờ thoáng qua"],
-    "moderate": ["Sốt cao liên tục", "Da đỏ tím", "Tiêu chảy/nôn"],
-    "severe": ["Xuất huyết rõ", "Thở khó, đi loạng choạng", "Chết nhanh, tỷ lệ chết cao"]
+    "mild": [
+      "Sốt nhẹ, ăn giảm",
+      "Lờ đờ thoáng qua"
+    ],
+    "moderate": [
+      "Sốt cao liên tục",
+      "Da đỏ tím",
+      "Tiêu chảy/nôn"
+    ],
+    "severe": [
+      "Xuất huyết rõ",
+      "Thở khó, đi loạng choạng",
+      "Chết nhanh, tỷ lệ chết cao"
+    ]
   },
   "treatment": {
     "primary_drugs": [],
-    "alternative_drugs": ["Oxytetracycline"],
+    "alternative_drugs": [
+      "Oxytetracycline"
+    ],
     "note_drugs": "Không có thuốc chuyên trị ASFV. Chỉ trợ sức - hạ sốt; kháng sinh (như Oxytetracycline) chỉ để phòng bội nhiễm.",
     "symptomatic_treatment": {
-      "antiinflammatory": {"main": "Meloxicam", "alternative": ["Flunixin"]},
-      "electrolyte": {"main": "ORS", "alternative": ["điện giải khoáng tổng hợp"]},
-      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": [
+          "Flunixin"
+        ]
+      },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
     "supportive_care": [
       "Cách ly ngay con nghi bệnh",
@@ -44,11 +72,19 @@
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Heo sốt cao, xuất huyết",
-      "guideline": ["Cách ly khẩn", "Trợ sức - điện giải", "Báo thú y xử lý dịch"]
+      "guideline": [
+        "Cách ly khẩn",
+        "Trợ sức - điện giải",
+        "Báo thú y xử lý dịch"
+      ]
     },
     "case_type_2": {
       "description": "Heo nằm liệt, thở khó",
-      "guideline": ["Không vận chuyển bán chạy", "Tiêu hủy theo quy định", "Tổng vệ sinh sát trùng"]
+      "guideline": [
+        "Không vận chuyển bán chạy",
+        "Tiêu hủy theo quy định",
+        "Tổng vệ sinh sát trùng"
+      ]
     },
     "note": "ASF là bệnh bắt buộc báo cáo và xử lý theo quy định phòng dịch."
   },
@@ -58,6 +94,9 @@
     "Cách ly heo mới 2-3 tuần",
     "Sát trùng định kỳ chuồng và dụng cụ"
   ],
-  "notes": ["Không tự ý bán chạy heo nghi ASF.", "Phát hiện sớm giúp giảm thiệt hại đàn."],
+  "notes": [
+    "Không tự ý bán chạy heo nghi ASF.",
+    "Phát hiện sớm giúp giảm thiệt hại đàn."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Xử lý dịch bắt buộc theo hướng dẫn thú y."
 }

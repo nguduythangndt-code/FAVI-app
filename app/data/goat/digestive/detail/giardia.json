@@ -3,22 +3,18 @@
   "name": "Ký sinh trùng đường ruột Giardia ở dê",
   "species": "goat",
   "group": "digestive",
-
   "summary": "Giardia là ký sinh trùng đơn bào gây tiêu chảy dai dẳng, phân sệt - nhầy, chậm lớn, đặc biệt ở dê con. Lây nhanh qua nước uống và nền chuồng bẩn.",
-
   "causes": [
     "Nhiễm Giardia qua nước uống bẩn.",
     "Chuồng ẩm, nhiều phân ướt.",
     "Mật độ nuôi cao.",
     "Dê con liếm nền chuồng."
   ],
-
   "risk_factors": [
     "Dê con 1-6 tháng.",
     "Nguồn nước không được thay thường xuyên.",
     "Chuồng ít nắng."
   ],
-
   "clinical_signs_detailed": [
     "Tiêu chảy sệt, nhầy, dai dẳng.",
     "Dê bụng tóp, chậm lớn.",
@@ -26,7 +22,6 @@
     "Lông xù, thiếu máu nhẹ.",
     "Không chết nhanh nhưng hao đàn mạnh."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Phân sệt kéo dài.",
@@ -42,16 +37,15 @@
       "Dê con ngã bệnh hàng loạt."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Albendazole",
       "Fenbendazole"
     ],
     "alternative_drugs": [
-      "Men tiêu hoá",
-      "Vitamin B-complex",
-      "Điện giải nhẹ"
+      "Enzyme tiêu hoá",
+      "Vitamin BC",
+      "electrolyte_mix"
     ],
     "note_drugs": [
       "Không dùng kháng sinh vì Giardia không phải vi khuẩn."
@@ -60,16 +54,16 @@
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Điện giải nhẹ"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": [
-        "Men tiêu hoá",
-        "Chế phẩm bảo vệ niêm mạc ruột"
+        "Enzyme tiêu hoá",
+        "Pectin - Kaolin"
       ]
     },
     "supportive_care": [
@@ -83,7 +77,6 @@
       "Không tự ý tăng liều benzimidazole."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Tiêu chảy kéo dài nhưng dê còn đứng.",
@@ -103,17 +96,14 @@
     },
     "note": "Giardia ít gây chết nhưng cực kỳ hao đàn."
   },
-
   "prevention": [
     "Nước sạch, thay hằng ngày.",
     "Vệ sinh chuồng khô ráo.",
     "Tẩy giun định kỳ."
   ],
-
   "notes": [
     "Giardia làm đàn phát triển không đồng đều.",
     "Cần kiểm soát nguồn nước tốt."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo."
 }

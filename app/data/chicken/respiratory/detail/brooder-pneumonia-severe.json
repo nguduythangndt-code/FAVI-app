@@ -17,17 +17,38 @@
     "Nhiều con chết mà không kịp tiêu chảy"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Khò khè nhẹ", "Ăn giảm"],
-    "moderate": ["Thở gấp rõ", "Tụm đàn"],
-    "severe": ["Thở há miệng, ngã lăn", "Chết nhanh"]
+    "mild": [
+      "Khò khè nhẹ",
+      "Ăn giảm"
+    ],
+    "moderate": [
+      "Thở gấp rõ",
+      "Tụm đàn"
+    ],
+    "severe": [
+      "Thở há miệng, ngã lăn",
+      "Chết nhanh"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Itraconazole"],
-    "alternative_drugs": ["Nystatin"],
+    "primary_drugs": [
+      "Itraconazole"
+    ],
+    "alternative_drugs": [
+      "Nystatin"
+    ],
     "note_drugs": "Viêm phổi ổ úm là aspergillosis, điều trị khó; ưu tiên thuốc kháng nấm + xử lý nguồn mốc.",
     "symptomatic_treatment": {
-      "respiratory_support": { "main": "nebulizer nước muối ấm", "alternative": [] },
-      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+      "respiratory_support": {
+        "main": "nebulizer nước muối ấm",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
     "supportive_care": [
       "Thay toàn bộ chất độn khô sạch",
@@ -39,12 +60,23 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": ["Gà thở há miệng nhưng còn đứng"],
-      "guideline": ["Kháng nấm sớm", "Ổ úm thoáng - khô"]
+      "description": [
+        "Gà thở há miệng nhưng còn đứng"
+      ],
+      "guideline": [
+        "Kháng nấm sớm",
+        "Ổ úm thoáng - khô"
+      ]
     },
     "case_type_2": {
-      "description": ["Chết nhanh lan trong ổ úm"],
-      "guideline": ["Xử lý mốc là chính", "Thay chất độn - cám", "Khử trùng ổ úm"]
+      "description": [
+        "Chết nhanh lan trong ổ úm"
+      ],
+      "guideline": [
+        "Xử lý mốc là chính",
+        "Thay chất độn - cám",
+        "Khử trùng ổ úm"
+      ]
     },
     "note": "Nếu không dọn mốc tận gốc thì thuốc không kịp cứu."
   },
@@ -53,6 +85,8 @@
     "Ổ úm thoáng khí",
     "Cám bảo quản kín, không mốc"
   ],
-  "notes": ["Bệnh thường bùng trong 3-10 ngày tuổi."],
+  "notes": [
+    "Bệnh thường bùng trong 3-10 ngày tuổi."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

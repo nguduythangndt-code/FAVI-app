@@ -1,0 +1,42 @@
+{
+  "id": "ampicillin",
+  "name": "Ampicillin",
+  "group": "antibiotic",
+  "mechanism": "Ampicillin ức chế tổng hợp vách tế bào vi khuẩn, làm vi khuẩn mất khả năng duy trì cấu trúc và bị tiêu diệt. Phổ tác dụng rộng hơn penicillin, bao phủ thêm một phần vi khuẩn Gram âm.",
+  "clinical_uses": [
+    "Nhiễm trùng hô hấp mức độ nhẹ đến trung bình, phát hiện sớm.",
+    "Nhiễm khuẩn đường tiêu hoá có dấu hiệu nhiễm trùng.",
+    "Nhiễm trùng da, mô mềm, nhiễm khuẩn rốn ở thú non.",
+    "Một số nhiễm khuẩn sau can thiệp khi nghi ngờ tác nhân nhạy cảm với beta-lactam."
+  ],
+  "pros": [
+    "Phổ tác dụng rộng hơn penicillin, linh hoạt hơn trong thực tế.",
+    "Có thể dùng cho nhiều loài vật nuôi theo hướng dẫn thú y.",
+    "Thích hợp cho ca bệnh nhẹ – trung bình khi chưa dùng kháng sinh trước đó."
+  ],
+  "cons": [
+    "Hiệu lực giảm rõ tại vùng đã có hiện tượng kháng beta-lactam.",
+    "Không phải lựa chọn tối ưu cho ca nhiễm trùng nặng hoặc kéo dài.",
+    "Dùng không đủ liều hoặc lặp lại nhiều đợt dễ tạo kháng thuốc."
+  ],
+  "mild_side_effects": [
+    "Rối loạn tiêu hoá nhẹ: phân mềm, giảm ăn tạm thời.",
+    "Hiếm gặp phản ứng dị ứng da.",
+    "Tiêm bắp có thể gây đau hoặc sưng nhẹ tại chỗ."
+  ],
+  "usage_recommendations": [
+    "Dùng cho ca bệnh còn ở giai đoạn sớm, chưa điều trị kháng sinh.",
+    "Theo dõi sát tình trạng ăn uống, nhiệt độ, nhịp thở trong khi điều trị.",
+    "Nếu sau thời gian hợp lý không cải thiện, cần đánh giá lại và cân nhắc đổi nhóm kháng sinh."
+  ],
+  "when_not_to_use": [
+    "Tiền sử dị ứng với beta-lactam (penicillin, amoxicillin, cephalosporin…).",
+    "Động vật suy gan, suy thận nặng trừ khi có chỉ định và theo dõi chặt.",
+    "Ca bệnh nghi ngờ nhiễm khuẩn nặng cần kháng sinh mạnh hơn ngay từ đầu."
+  ],
+  "alternative_drugs": [
+    "Amoxicillin cho các ca tương tự nhưng muốn dung nạp đường tiêu hoá tốt hơn.",
+    "Ceftiofur hoặc florfenicol khi bệnh nặng hơn hoặc đáp ứng kém với ampicillin.",
+    "Oxytetracycline trong trường hợp cần thay sang nhóm khác với phổ rộng."
+  ]
+}

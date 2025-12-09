@@ -1,20 +1,16 @@
 {
   "name": "Viêm mắt (Pinkeye)",
-
   "summary": "Viêm kết mạc - giác mạc do vi khuẩn/virus kết hợp bụi, nắng gắt. Lây nhanh, làm mắt đục và có thể mù nếu để lâu.",
-
   "causes": [
     "Mycoplasma/Chlamydia/Moraxella và các tác nhân cơ hội",
     "Bụi, gió, cỏ cứa mắt gây tổn thương"
   ],
-
   "risk_factors": [
     "Chuồng nhiều bụi",
     "Nắng gắt - gió mạnh",
     "Cỏ khô sắc nhọn",
     "Đàn nuôi dày"
   ],
-
   "clinical_signs_detailed": [
     "Mắt đỏ, sưng mí",
     "Chảy nước mắt liên tục",
@@ -24,7 +20,6 @@
     "Có ghèn vàng",
     "Nặng có loét giác mạc"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Mắt đỏ, chảy nước mắt",
@@ -39,7 +34,6 @@
       "Nguy cơ mù"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Oxytetracycline",
@@ -48,29 +42,29 @@
     "alternative_drugs": [
       "Florfenicol"
     ],
-"note_drugs": "Oxytetracycline/nhỏ mắt kháng sinh giúp chặn vi khuẩn gây loét giác mạc. Trị sớm thì khỏi nhanh, trễ dễ mù.",
-
+    "note_drugs": "Oxytetracycline/nhỏ mắt kháng sinh giúp chặn vi khuẩn gây loét giác mạc. Trị sớm thì khỏi nhanh, trễ dễ mù.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
-        "alternative": ["Flunixin"]
+        "alternative": [
+          "Flunixin"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin A",
-        "alternative": ["vitamin tổng hợp"]
+        "main": "Vitamin ADE",
+        "alternative": [
+          "Multivitamin tổng hợp"
+        ]
       }
     },
-
     "supportive_care": [
       "Vệ sinh mắt bằng nước muối sinh lý",
       "Nhỏ thuốc đều, tránh bụi bay vào",
       "Cách ly con bệnh",
       "Giảm bụi trong chuồng"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Nếu loét giác mạc: cần thú y đánh giá và xử lý",
@@ -82,17 +76,14 @@
     ],
     "note": "Điều trị sớm thì khỏi nhanh, trễ dễ mù."
   },
-
   "prevention_list": [
     "Giảm bụi chuồng",
     "Cắt cỏ tránh sắc nhọn",
     "Cách ly con bệnh",
     "Bổ sung vitamin A định kỳ"
   ],
-
   "notes": [
     "Hay bùng theo đàn khi thời tiết khô bụi."
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

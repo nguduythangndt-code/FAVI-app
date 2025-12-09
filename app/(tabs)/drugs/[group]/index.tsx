@@ -30,6 +30,8 @@ const GROUP_LABELS: Record<DrugGroupId, string> = {
   respiratory_support: "Hỗ trợ hô hấp",
   digestive_support: "Hỗ trợ tiêu hoá - đường ruột",
   blood_parasite: "Ký sinh trùng máu",
+  hormone: "Hormone sinh sản",
+  disinfectant_hygiene: "Thuốc khử trùng, sát trùng"
 };
 
 export default function DrugListScreen() {

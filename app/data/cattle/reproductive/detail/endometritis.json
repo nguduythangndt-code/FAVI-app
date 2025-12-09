@@ -3,30 +3,25 @@
   "name": "Viêm nội mạc tử cung",
   "species": "cattle",
   "group": "reproductive",
-
   "summary": "Viêm nội mạc tử cung là tình trạng viêm nhẹ ở lớp niêm tử cung, thường xảy ra sau đẻ hoặc sau viêm tử cung cấp. Bò ít biểu hiện rõ nhưng giảm khả năng động dục và chậm lên giống.",
-
   "causes": [
     "Nhiễm khuẩn tử cung sau đẻ",
     "Sót nhau kéo dài",
     "Viêm tử cung cấp không điều trị triệt để",
     "Chuồng trại ẩm và bẩn"
   ],
-
   "risk_factors": [
     "Không theo dõi sau đẻ",
     "Khẩu phần kém và thiếu khoáng",
     "Nền chuồng ướt, bẩn",
     "Bò suy yếu sau đẻ"
   ],
-
   "clinical_signs_detailed": [
     "Sản dịch đục, ít hôi",
     "Âm hộ dính dịch",
     "Ăn giảm nhẹ",
     "Bò chậm động dục hoặc lặp lại giống nhiều lần"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sản dịch ít",
@@ -42,7 +37,6 @@
       "Bò lặp giống nhiều lần"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "oxytetracycline"
@@ -51,7 +45,6 @@
       "ceftiofur"
     ],
     "note_drugs": "Điều trị chủ yếu là kháng sinh toàn thân và chăm sóc dinh dưỡng tốt hơn. Không thụt rửa tử cung nếu không có thú y.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -62,29 +55,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Chuồng sạch và thoáng",
       "Bổ sung khoáng và vitamin",
       "Theo dõi sản dịch",
       "Không cho phối giống quá sớm"
     ],
-
     "dose_policy": "Dùng theo nhãn hoặc theo thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò tiết dịch đục, chậm lên giống.",
@@ -104,19 +94,16 @@
     },
     "note": "Điều trị tốt sẽ giúp bò lên giống lại trong vài chu kỳ."
   },
-
   "prevention": [
     "Quản lý tốt sau đẻ",
     "Vệ sinh chuồng sạch",
     "Khẩu phần đầy đủ khoáng",
     "Không can thiệp đỡ đẻ quá mức"
   ],
-
   "notes": [
     "Bò lặp giống nhiều lần thường do nội mạc chưa hồi phục.",
     "Theo dõi sản dịch là chìa khóa phát hiện.",
     "Bò đẻ khó thường dễ bị hơn."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

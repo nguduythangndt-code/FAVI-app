@@ -1,20 +1,16 @@
 {
   "name": "Lở mồm long móng (FMD)",
-
   "summary": "Bệnh virus lây cực mạnh, gây loét miệng và chân, đi lại đau. Dễ bùng phát diện rộng nếu không khoanh vùng.",
-
   "causes": [
     "Virus FMD lây qua tiếp xúc, khí dung và dịch tiết",
     "Mầm bệnh tồn tại trong môi trường và dụng cụ"
   ],
-
   "risk_factors": [
     "Giao thương đàn, chợ gia súc",
     "Chuồng ẩm bẩn",
     "Không tiêm phòng định kỳ",
     "Nuôi chung nhiều loài móng guốc"
   ],
-
   "clinical_signs_detailed": [
     "Sốt, bỏ ăn",
     "Loét miệng, lợi, lưỡi",
@@ -26,7 +22,6 @@
     "Vú có thể loét nhẹ",
     "Dê con có thể chết do suy kiệt"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ",
@@ -43,33 +38,35 @@
       "Dê con suy kiệt chết"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Oxytetracycline",
       "Povidone-iodine (sát trùng ngoài)"
-     
     ],
     "alternative_drugs": [
-       "Florfenicol"
+      "Florfenicol"
     ],
-"note_drugs": "Không có thuốc đặc trị FMD. Kháng sinh chỉ chống bội nhiễm vết loét; sát trùng miệng - chân và trợ sức là chủ lực.",
-
+    "note_drugs": "Không có thuốc đặc trị FMD. Kháng sinh chỉ chống bội nhiễm vết loét; sát trùng miệng - chân và trợ sức là chủ lực.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": ["Meloxicam"]
+        "alternative": [
+          "Meloxicam"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["điện giải khoáng tổng hợp"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
-        "alternative": ["B-complex"]
+        "alternative": [
+          "Vitamin BC"
+        ]
       }
     },
-
     "supportive_care": [
       "Cách ly và khoanh vùng đàn bệnh",
       "Rửa miệng bằng sát trùng nhẹ, tránh mạnh tay",
@@ -77,10 +74,8 @@
       "Cho ăn mềm dễ nuốt, nước sạch",
       "Theo dõi sốt và ăn uống mỗi ngày"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Nếu loét nặng không ăn: trợ sức, bù điện giải liên tục",
@@ -92,17 +87,14 @@
     ],
     "note": "FMD là bệnh bắt buộc kiểm soát dịch, cần báo thú y địa phương."
   },
-
   "prevention_list": [
     "Tiêm vaccine FMD",
     "Khử trùng chuồng và lối ra vào",
     "Cách ly dê mới nhập",
     "Không cho người/xe lạ vào khu nuôi khi có dịch"
   ],
-
   "notes": [
     "Tốc độ lây rất cao, phải làm nhanh từ ca đầu tiên."
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

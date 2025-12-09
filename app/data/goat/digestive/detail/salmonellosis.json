@@ -3,23 +3,19 @@
   "name": "Tiêu chảy do Salmonella ở dê",
   "species": "goat",
   "group": "digestive",
-
   "summary": "Salmonella gây tiêu chảy cấp, phân lẫn máu, mùi hôi khẳm, kèm sốt và suy kiệt nhanh. Dễ gây tử vong nếu không xử lý kịp, đặc biệt ở dê con và dê đang suy yếu.",
-
   "causes": [
     "Nhiễm Salmonella từ phân, nước ô nhiễm.",
     "Chuồng trại dơ bẩn, ẩm thấp, nhiều ruồi.",
     "Thức ăn mốc hoặc nhiễm phân chuột.",
     "Suy miễn dịch: stress, lạnh, cai sữa."
   ],
-
   "risk_factors": [
     "Dê con 1-4 tháng tuổi.",
     "Thời tiết lạnh - ẩm.",
     "Mật độ nuôi dày.",
     "Chuồng ít nắng."
   ],
-
   "clinical_signs_detailed": [
     "Sốt cao, bỏ ăn.",
     "Tiêu chảy nước, hôi mạnh, có máu đỏ hoặc đen.",
@@ -27,7 +23,6 @@
     "Dê lờ đờ, đứng tách đàn hoặc nằm nhiều.",
     "Một số con chết nhanh trước khi thấy máu rõ."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Phân sệt, hôi hơn bình thường.",
@@ -43,7 +38,6 @@
       "Sốc nhiễm trùng."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Florfenicol",
@@ -65,16 +59,16 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex",
-        "Vitamin tổng hợp"
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá - probiotics",
+        "Probiotic (men vi sinh)",
         "Thuốc bảo vệ niêm mạc ruột"
       ]
     },
@@ -89,7 +83,6 @@
       "Không phối nhiều kháng sinh cùng lúc."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Tiêu chảy máu nhưng còn đứng, còn phản xạ.",
@@ -110,18 +103,15 @@
     },
     "note": "Salmonella lan rất nhanh giữa dê con; xử lý 1 con thì phải kiểm soát toàn đàn."
   },
-
   "prevention": [
     "Không để thức ăn nhiễm chuột - ruồi.",
     "Vệ sinh chuồng sạch hằng ngày.",
     "Nước uống phải thay mỗi ngày.",
     "Tẩy giun và bổ sung vitamin định kỳ."
   ],
-
   "notes": [
     "Salmonella dễ gây chết nếu chậm xử lý.",
     "Phân máu + sốt cao = nghi Salmonella."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo."
 }

@@ -1,0 +1,43 @@
+{
+  "id": "chlorine_dioxide",
+  "name": "Chlorine dioxide",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Chất oxy hóa mạnh hoạt động ở dạng khí hòa tan trong nước, phá vỡ màng tế bào và cấu trúc protein của vi khuẩn, virus, nấm, hiệu quả cả trong môi trường có một phần chất hữu cơ.",
+  "clinical_uses": [
+    "Khử trùng nước uống trong hệ thống chăn nuôi tập trung khi dùng đúng kỹ thuật.",
+    "Sát trùng bề mặt chuồng trại, tường, thiết bị trong giai đoạn dọn chuồng sâu.",
+    "Hỗ trợ kiểm soát mùi và mầm bệnh trong khu xử lý chất thải chăn nuôi.",
+    "Xử lý khu vực có nguy cơ dịch bệnh cao cần kiểm soát vi sinh vật mạnh."
+  ],
+  "pros": [
+    "Hiệu lực sát trùng mạnh, ổn định hơn một số dạng chlorine truyền thống.",
+    "Tác dụng tốt với nhiều vi khuẩn, virus gây bệnh đường ruột và hô hấp.",
+    "Có thể dùng với nồng độ thấp trong nước uống (theo hướng dẫn kỹ thuật) để giảm mầm bệnh."
+  ],
+  "cons": [
+    "Cần pha đúng kỹ thuật, sai cách có thể mất tác dụng hoặc tạo khí khó chịu.",
+    "Chi phí thường cao hơn so với chlorine thông thường.",
+    "Không nên tự ý dùng nếu không có kiến thức về xử lý nước và an toàn lao động."
+  ],
+  "mild_side_effects": [
+    "Có thể gây kích ứng nhẹ đường hô hấp nếu hít phải hơi đậm đặc lúc pha chế.",
+    "Mùi đặc trưng làm một số người khó chịu nếu khu vực kém thông gió.",
+    "Tiếp xúc tay trần thường xuyên với dung dịch đậm đặc có thể làm khô da."
+  ],
+  "usage_recommendations": [
+    "Tuân thủ chặt chẽ hướng dẫn pha và nồng độ từ nhà sản xuất.",
+    "Trang bị găng tay, khẩu trang, kính bảo hộ khi pha chế dung dịch đậm đặc.",
+    "Đảm bảo thông gió tốt khi phun hoặc sử dụng trong khu vực kín.",
+    "Với nước uống, chỉ dùng khi có khuyến cáo rõ ràng về nồng độ an toàn."
+  ],
+  "when_not_to_use": [
+    "Không tự ý pha nồng độ cao rồi cho trực tiếp vào máng nước khi chưa rõ liều an toàn.",
+    "Không dùng trong không gian kín, thiếu thông gió với lượng lớn.",
+    "Không dùng thay thế hoàn toàn bước vệ sinh cơ học (dọn phân, rửa nền)."
+  ],
+  "alternative_drugs": [
+    "Chlorine_compound cho sát trùng nền chuồng đơn giản, chi phí thấp.",
+    "Iodophor cho sát trùng bề mặt, núm vú, dụng cụ vắt sữa.",
+    "Bio_disinfectant khi mục tiêu chính là giảm mùi và ổn định môi trường lâu dài."
+  ]
+}

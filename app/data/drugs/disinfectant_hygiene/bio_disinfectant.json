@@ -1,0 +1,43 @@
+{
+  "id": "bio_disinfectant",
+  "name": "Chế phẩm sinh học sát trùng",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Thường chứa vi sinh vật có lợi và/hoặc enzyme giúp cạnh tranh, ức chế vi khuẩn gây bệnh, phân hủy chất hữu cơ, giảm mùi và ổn định hệ vi sinh trong môi trường chuồng trại.",
+  "clinical_uses": [
+    "Phun, tưới nền chuồng, hố phân, khu vực ẩm ướt để giảm mùi và ổn định vi sinh.",
+    "Dùng định kỳ trong trại nuôi tập trung để hỗ trợ giảm tải vi khuẩn gây bệnh môi trường.",
+    "Kết hợp với biện pháp dọn phân, vệ sinh cơ học để giữ chuồng sạch hơn giữa hai lần sát trùng hóa chất.",
+    "Hỗ trợ cải thiện chất lượng phân ủ, hố chứa phân trong các mô hình xử lý chất thải."
+  ],
+  "pros": [
+    "Thường an toàn hơn cho người và vật nuôi nếu dùng đúng cách.",
+    "Giúp giảm mùi hôi, ổn định môi trường một cách mềm, ít gây sốc.",
+    "Có thể dùng thường xuyên hơn giữa các đợt sát trùng hóa chất mạnh."
+  ],
+  "cons": [
+    "Hiệu lực sát trùng không tức thì, không thay thế được hóa chất khi có dịch nặng.",
+    "Kết quả phụ thuộc nhiều vào quy trình dùng, tần suất và điều kiện chuồng trại.",
+    "Dễ bị hiểu nhầm là ‘thần dược’, dẫn đến bỏ qua bước dọn chuồng và sát trùng cơ bản."
+  ],
+  "mild_side_effects": [
+    "Thường ít gây kích ứng, nhưng vẫn có thể gây dị ứng nhẹ ở người rất nhạy cảm.",
+    "Một số sản phẩm có mùi đặc trưng, có thể gây khó chịu cho người chưa quen.",
+    "Nếu pha quá đặc hoặc phun quá nhiều có thể làm nền trơn tạm thời."
+  ],
+  "usage_recommendations": [
+    "Luôn coi chế phẩm sinh học là giải pháp hỗ trợ, không phải biện pháp duy nhất.",
+    "Dọn phân, rác, vệ sinh cơ học trước khi phun chế phẩm để tăng hiệu quả.",
+    "Pha đúng liều theo hướng dẫn, dùng định kỳ để duy trì hiệu quả ổn định.",
+    "Kết hợp xen kẽ với các đợt sát trùng hóa chất khi cần kiểm soát dịch bệnh."
+  ],
+  "when_not_to_use": [
+    "Không dùng thay thế hoàn toàn sát trùng hóa chất trong đợt bùng dịch nặng.",
+    "Không phun lên thức ăn, nước uống của vật nuôi nếu sản phẩm không được khuyến cáo.",
+    "Không hy vọng hiệu quả ngay lập tức trong môi trường quá bẩn, không dọn phân."
+  ],
+  "alternative_drugs": [
+    "Chlorine_compound hoặc glutaraldehyde cho sát trùng sâu khi có dịch.",
+    "Lime_powder để hỗ trợ làm khô nền, giảm mùi ở khu hố phân, nền ẩm.",
+    "Iodophor hoặc povidone_iodine cho các vùng cần sát trùng trực tiếp, tập trung."
+  ]
+}

@@ -48,10 +48,22 @@ export function loadDrugListByGroup(
       );
     case "antibiotic":
       return require("../../app/data/drugs/antibiotic/list.json");
+
+    // 🔹 NHÓM MỚI: Sát trùng chuồng trại & môi trường
+    case "disinfectant_hygiene":
+      return require(
+        "../../app/data/drugs/disinfectant_hygiene/list.json"
+      );
+
+    // 🔹 NHÓM MỚI: Hormone sinh sản
+    case "hormone":
+      return require("../../app/data/drugs/hormone/list.json");
+
     default:
       return [];
   }
 }
+
 
 // ====== CHI TIẾT THUỐC – DÙNG REGISTRY ======
 export function loadDrugDetail(

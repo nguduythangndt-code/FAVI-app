@@ -1,8 +1,14 @@
 {
   "name": "Viêm hồi tràng Lawsonia (Ileitis)",
   "summary": "Bệnh do Lawsonia gây dày ruột, tiêu chảy kéo dài và tụt tăng trọng.",
-  "causes": ["Lawsonia intracellularis lây qua phân"],
-  "risk_factors": ["Chuồng dày, trộn đàn", "Stress", "Miễn dịch kém"],
+  "causes": [
+    "Lawsonia intracellularis lây qua phân"
+  ],
+  "risk_factors": [
+    "Chuồng dày, trộn đàn",
+    "Stress",
+    "Miễn dịch kém"
+  ],
   "clinical_signs_detailed": [
     "Tiêu chảy xám nâu hoặc sẫm",
     "Heo gầy, nhợt nhạt",
@@ -10,28 +16,74 @@
     "Một số con tiêu chảy máu nhẹ"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Tiêu chảy rải rác", "Lớn chậm"],
-    "moderate": ["Tiêu chảy kéo dài", "Gầy rõ"],
-    "severe": ["Tiêu chảy sẫm/máu", "Suy kiệt hoặc chết đột ngột"]
+    "mild": [
+      "Tiêu chảy rải rác",
+      "Lớn chậm"
+    ],
+    "moderate": [
+      "Tiêu chảy kéo dài",
+      "Gầy rõ"
+    ],
+    "severe": [
+      "Tiêu chảy sẫm/máu",
+      "Suy kiệt hoặc chết đột ngột"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Tylosin", "Tiamulin"],
-    "alternative_drugs": ["Doxycycline", "Lincomycin"],
+    "primary_drugs": [
+      "Tylosin",
+      "Tiamulin"
+    ],
+    "alternative_drugs": [
+      "Doxycycline",
+      "Lincomycin"
+    ],
     "note_drugs": "Bệnh đáp ứng nhóm macrolide/pleuromutilin nếu đánh sớm cả ô.",
     "symptomatic_treatment": {
-      "electrolyte": {"main": "ORS", "alternative": []},
-      "digestive_support": {"main": "Probiotic", "alternative": []},
-      "vitamin": {"main": "B-complex", "alternative": []}
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Probiotic",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin BC",
+        "alternative": []
+      }
     },
-    "supportive_care": ["Tách con yếu", "Giảm stress, không trộn đàn", "Nền khô sạch"],
+    "supportive_care": [
+      "Tách con yếu",
+      "Giảm stress, không trộn đàn",
+      "Nền khô sạch"
+    ],
     "dose_policy": "Theo nhãn hoặc thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": {"description": "Tiêu chảy kéo dài, tụt cân", "guideline": ["Điều trị toàn ô với Tylosin/Tiamulin", "ORS + probiotic"]},
-    "case_type_2": {"description": "Tiêu chảy sẫm/máu", "guideline": ["Kháng sinh mạnh sớm", "Theo dõi mất nước"]},
+    "case_type_1": {
+      "description": "Tiêu chảy kéo dài, tụt cân",
+      "guideline": [
+        "Điều trị toàn ô với Tylosin/Tiamulin",
+        "ORS + probiotic"
+      ]
+    },
+    "case_type_2": {
+      "description": "Tiêu chảy sẫm/máu",
+      "guideline": [
+        "Kháng sinh mạnh sớm",
+        "Theo dõi mất nước"
+      ]
+    },
     "note": "Nếu trễ, heo kéo dài kém lớn."
   },
-  "prevention_list": ["All-in/all-out", "Vaccine Lawsonia nếu trại lưu hành", "Giảm stress"],
-  "notes": ["Rất hay gặp ở heo hậu bị/nuôi thịt."],
+  "prevention_list": [
+    "All-in/all-out",
+    "Vaccine Lawsonia nếu trại lưu hành",
+    "Giảm stress"
+  ],
+  "notes": [
+    "Rất hay gặp ở heo hậu bị/nuôi thịt."
+  ],
   "disclaimer": "Thông tin tham khảo."
 }

@@ -1,0 +1,10 @@
+[
+  { "id": "povidone_iodine", "name": "Povidone-iodine" },
+  { "id": "iodophor", "name": "Iodophor (iod sát trùng)" },
+  { "id": "chlorine_compound", "name": "Chlorine / Cloramin" },
+  { "id": "chlorine_dioxide", "name": "Chlorine dioxide" },
+  { "id": "benzalkonium_chloride", "name": "Benzalkonium chloride" },
+  { "id": "glutaraldehyde", "name": "Glutaraldehyde" },
+  { "id": "lime_powder", "name": "Vôi bột" },
+  { "id": "bio_disinfectant", "name": "Chế phẩm sinh học sát trùng" }
+]

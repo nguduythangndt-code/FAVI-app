@@ -1,0 +1,40 @@
+{
+  "id": "simethicone",
+  "name": "Simethicone",
+  "group": "digestive_support",
+  "mechanism": "Simethicone là thuốc chống tạo bọt tại đường tiêu hoá, làm vỡ các bóng khí nhỏ và giúp hơi thoát ra dễ hơn, từ đó giảm cảm giác chướng và căng bụng.",
+  "clinical_uses": [
+    "Chướng hơi, đầy bụng mức độ nhẹ do sinh nhiều khí sau khi đổi thức ăn.",
+    "Hỗ trợ trong rối loạn tiêu hoá có kèm sình bụng, ợ hơi nhiều.",
+    "Dùng kèm với các biện pháp điều chỉnh khẩu phần khi đàn có xu hướng sinh hơi."
+  ],
+  "pros": [
+    "Tác dụng tại chỗ, gần như không hấp thu vào máu.",
+    "An toàn, có thể dùng hỗ trợ sớm khi mới xuất hiện chướng hơi nhẹ.",
+    "Dễ phối hợp với các biện pháp xử lý khác."
+  ],
+  "cons": [
+    "Chỉ hỗ trợ giảm hơi, không xử lý nguyên nhân bệnh.",
+    "Hiệu quả hạn chế trong ca chướng hơi nặng, xoắn dạ cỏ hoặc tắc nghẽn.",
+    "Lạm dụng dễ khiến người nuôi chủ quan, chậm xử lý nguyên nhân chính."
+  ],
+  "mild_side_effects": [
+    "Hầu như không ghi nhận tác dụng phụ đáng kể.",
+    "Một số trường hợp có thể thay đổi khuôn phân nhẹ, thường tự hết."
+  ],
+  "usage_recommendations": [
+    "Dùng sớm khi thấy dấu hiệu đầy bụng, ợ hơi, sình nhẹ.",
+    "Kết hợp điều chỉnh khẩu phần: giảm thức ăn dễ sinh hơi, tăng cỏ khô chất lượng.",
+    "Nếu chướng hơi không giảm hoặc nặng lên, cần can thiệp thú y ngay, không chỉ dựa vào simethicone."
+  ],
+  "when_not_to_use": [
+    "Không dùng như biện pháp duy nhất trong ca chướng hơi nặng, khó thở, vật nuôi nằm không đứng dậy nổi.",
+    "Không dùng để che triệu chứng khi chưa đánh giá nguyên nhân chính.",
+    "Không tự ý kéo dài quá lâu nếu không cải thiện."
+  ],
+  "alternative_drugs": [
+    "Than hoạt tính trong một số trường hợp rối loạn tiêu hoá.",
+    "Các biện pháp cơ học, thăm dò dạ cỏ hoặc can thiệp thú y khi chướng hơi nặng.",
+    "Điều chỉnh triệt để khẩu phần và cách cho ăn."
+  ]
+}

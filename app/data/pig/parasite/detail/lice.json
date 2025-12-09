@@ -43,7 +43,7 @@
     ],
     "alternative_drugs": [
       "Doramectin",
-      "Phun Permethrin"
+      "Permethrin"
     ],
     "note_drugs": "Ivermectin là thuốc chính, xử lý cả ký sinh trùng ngoài da và một số ký sinh trùng trong. Phun Permethrin chỉ dùng ngoài da, tránh để heo liếm phải.",
     "symptomatic_treatment": {
@@ -56,15 +56,15 @@
         "alternative": []
       },
       "electrolyte": {
-        "main": "ORS",
+        "main": "Oresol (điện giải uống)",
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": []
       },
       "digestive_support": {
-        "main": "Men tiêu hoá",
+        "main": "Enzyme tiêu hoá",
         "alternative": []
       }
     },

@@ -19,18 +19,45 @@
     "Chết rải rác hoặc bùng phát"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Sốt, ăn giảm", "Lờ đờ"],
-    "moderate": ["Tiêu chảy", "Xuất huyết da", "Run"],
-    "severe": ["Co giật, liệt", "Tiêu chảy máu", "Chết nhanh"]
+    "mild": [
+      "Sốt, ăn giảm",
+      "Lờ đờ"
+    ],
+    "moderate": [
+      "Tiêu chảy",
+      "Xuất huyết da",
+      "Run"
+    ],
+    "severe": [
+      "Co giật, liệt",
+      "Tiêu chảy máu",
+      "Chết nhanh"
+    ]
   },
   "treatment": {
     "primary_drugs": [],
-    "alternative_drugs": ["Oxytetracycline", "Florfenicol"],
+    "alternative_drugs": [
+      "Oxytetracycline",
+      "Florfenicol"
+    ],
     "note_drugs": "Không có thuốc diệt CSFV. Điều trị chỉ trợ sức và chống bội nhiễm.",
     "symptomatic_treatment": {
-      "antiinflammatory": {"main": "Meloxicam", "alternative": ["Flunixin"]},
-      "electrolyte": {"main": "ORS", "alternative": []},
-      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": [
+          "Flunixin"
+        ]
+      },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
     "supportive_care": [
       "Cách ly đàn nghi bệnh",
@@ -43,11 +70,19 @@
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Heo sốt cao + xuất huyết",
-      "guideline": ["Cách ly", "Trợ sức mạnh", "Theo dõi sát và báo thú y"]
+      "guideline": [
+        "Cách ly",
+        "Trợ sức mạnh",
+        "Theo dõi sát và báo thú y"
+      ]
     },
     "case_type_2": {
       "description": "Heo thần kinh, co giật",
-      "guideline": ["Hạn chế kích thích", "Giữ ấm", "Xử lý dịch theo thú y"]
+      "guideline": [
+        "Hạn chế kích thích",
+        "Giữ ấm",
+        "Xử lý dịch theo thú y"
+      ]
     },
     "note": "Tiêm phòng CSF là biện pháp phòng hiệu quả nhất."
   },
@@ -57,6 +92,8 @@
     "All-in/all-out theo lứa",
     "Vệ sinh sát trùng định kỳ"
   ],
-  "notes": ["CSF dễ nhầm ASF, cần xét nghiệm phân biệt."],
+  "notes": [
+    "CSF dễ nhầm ASF, cần xét nghiệm phân biệt."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Xử lý dịch bắt buộc theo hướng dẫn thú y."
 }

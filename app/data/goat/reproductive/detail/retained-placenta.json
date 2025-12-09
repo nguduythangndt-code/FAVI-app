@@ -3,30 +3,25 @@
   "name": "Sót nhau ở dê",
   "species": "goat",
   "group": "reproductive",
-
   "summary": "Sót nhau là tình trạng nhau thai không rơi ra sau 4-6 giờ sau khi dê đẻ. Nếu để lâu có nguy cơ nhiễm trùng tử cung, viêm huyết và giảm khả năng sinh sản.",
-
   "causes": [
     "Dê đẻ khó, đẻ lâu.",
     "Thiếu khoáng - vitamin (đặc biệt Selenium, Vitamin E).",
     "Viêm tử cung trước đó.",
     "Dinh dưỡng kém cuối thai kỳ."
   ],
-
   "risk_factors": [
     "Dê già, dê sinh nhiều lứa.",
     "Thiếu khoáng lâu ngày.",
     "Đẻ trong chuồng ẩm bẩn.",
     "Không chăm sóc tốt cuối thai kỳ."
   ],
-
   "clinical_signs_detailed": [
     "Nhau lòi ra nhưng không rơi, kéo dài nhiều giờ.",
     "Âm hộ có dịch trong - đục.",
     "Dê khó chịu, ăn giảm.",
     "Nếu để lâu → dịch hôi, sốt, viêm tử cung."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Nhau treo, dê vẫn ăn.",
@@ -41,7 +36,6 @@
       "Chuyển sang viêm tử cung cấp."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Oxytocin (theo hướng dẫn thú y).",
@@ -63,13 +57,13 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
+        "Oresol (điện giải uống)",
         "Nước ấm dễ uống"
       ],
       "vitamin": [
         "Vitamin E - Selenium",
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": []
     },
@@ -84,7 +78,6 @@
       "Không lạm dụng oxytocin ở dê đẻ khó."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Nhau treo nhưng dê chưa sốt.",
@@ -105,18 +98,15 @@
     },
     "note": "Sót nhau là cửa ngõ dẫn đến viêm tử cung - xử lý càng sớm càng tốt."
   },
-
   "prevention": [
     "Bổ sung Selenium - Vitamin E trước khi đẻ.",
     "Dinh dưỡng đầy đủ cuối thai kỳ.",
     "Chuồng đẻ sạch, khô.",
     "Đỡ đẻ đúng kỹ thuật, tránh can thiệp thô bạo."
   ],
-
   "notes": [
     "Không kéo nhau bằng tay.",
     "Theo dõi dịch âm hộ 1-3 ngày sau đẻ."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

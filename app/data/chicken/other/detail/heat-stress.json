@@ -53,12 +53,12 @@
         "alternative": ""
       },
       "electrolyte": {
-        "main": "electrolyte",
-        "alternative": "electrolyte-glucose"
+        "main": "electrolyte_mix",
+        "alternative": "Glucose"
       },
       "vitamin": {
-        "main": "vitamin-c",
-        "alternative": "vitamin-complex"
+        "main": "Vitamin C",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
         "main": "",

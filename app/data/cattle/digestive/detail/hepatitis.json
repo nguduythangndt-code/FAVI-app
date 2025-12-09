@@ -3,23 +3,19 @@
   "name": "Viêm gan",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Viêm gan ở bò làm gan hoạt động kém, bò mệt, ăn kém, gầy dần và giảm sữa. Thường liên quan đến khẩu phần nhiều độc tố, nhiễm ký sinh trùng gan hoặc nhiễm khuẩn.",
-
   "causes": [
     "Ăn phải thức ăn mốc có độc tố nấm mốc",
     "Nhiễm ký sinh trùng gan như sán lá gan",
     "Nhiễm khuẩn huyết lan đến gan",
     "Khẩu phần nhiều mỡ hoặc đạm khó tiêu kéo dài"
   ],
-
   "risk_factors": [
     "Nguồn thức ăn ẩm mốc, bảo quản kém",
     "Đồng cỏ trũng ẩm nhiều sán lá gan",
     "Thiếu tẩy ký sinh trùng định kỳ",
     "Bò sữa cao sản, khẩu phần căng năng lượng"
   ],
-
   "clinical_signs_detailed": [
     "Ăn kém, giảm dần theo thời gian",
     "Gầy, lưng tóp, lông xù",
@@ -28,7 +24,6 @@
     "Mệt, ít vận động, nằm nhiều hơn",
     "Phân đôi khi nhạt màu hoặc không đều"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ăn giảm nhẹ",
@@ -46,16 +41,14 @@
       "Dễ mắc kèm các bệnh khác do sức đề kháng giảm"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "vitamin_bc"
+      "Vitamin BC"
     ],
     "alternative_drugs": [
-      "multivitamin_tonic"
+      "Multivitamin tổng hợp"
     ],
     "note_drugs": "Thuốc chủ yếu hỗ trợ gan, vitamin và khoáng. Cần xử lý song song các nguyên nhân gốc như sán lá gan hoặc thức ăn mốc.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -66,19 +59,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Loại bỏ ngay thức ăn mốc hoặc nghi nhiễm độc tố",
       "Giảm bớt tinh, tăng cỏ tốt, dễ tiêu",
@@ -86,10 +78,8 @@
       "Nếu nghi có sán lá gan cần tham khảo thú y về phác đồ tẩy sán phù hợp",
       "Theo dõi thể trạng, mức ăn và sản lượng sữa từng tuần"
     ],
-
     "dose_policy": "Vitamin, điện giải và các thuốc hỗ trợ dùng theo liều trên nhãn hoặc theo tư vấn thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò gầy, ăn kém nhưng vẫn đi lại được.",
@@ -111,19 +101,16 @@
     },
     "note": "Viêm gan tiến triển âm thầm. Thường chỉ phát hiện khi bò đã gầy và giảm sữa rõ."
   },
-
   "prevention": [
     "Không dùng thức ăn mốc hoặc ủ kém chất lượng",
     "Tẩy ký sinh trùng gan định kỳ ở vùng có nguy cơ",
     "Cân đối khẩu phần, tránh quá nhiều mỡ hoặc đạm khó tiêu",
     "Theo dõi thể trạng và sản lượng sữa từng con để phát hiện sớm bò tụt nhanh"
   ],
-
   "notes": [
     "Thức ăn mốc là nguyên nhân hay gặp nhưng dễ bị bỏ qua.",
     "Sán lá gan kéo dài cũng làm gan suy dần và khó hồi phục.",
     "Ghi chép thể trạng theo tháng giúp nhận ra những con tụt cân bất thường."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

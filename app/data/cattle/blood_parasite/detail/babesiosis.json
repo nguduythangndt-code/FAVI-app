@@ -3,22 +3,18 @@
   "name": "Nhiễm Babesia",
   "species": "cattle",
   "group": "blood_parasite",
-
   "summary": "Nhiễm Babesia là bệnh ký sinh trùng máu lây qua ve, làm bò sốt cao, thiếu máu, nước tiểu đỏ và yếu nhanh. Nếu không điều trị sớm có thể chết do suy tuần hoàn.",
-
   "causes": [
     "Ký sinh trùng Babesia truyền qua ve ký sinh",
     "Bò suy giảm đề kháng, mắc ve nặng",
     "Môi trường ẩm nóng tạo điều kiện ve phát triển"
   ],
-
   "risk_factors": [
     "Bò nuôi thả vườn, nhiều cỏ rậm",
     "Không tắm thuốc diệt ve định kỳ",
     "Bò yếu, bò tơ chưa có miễn dịch",
     "Khu vực nhiều ve và trâu bò qua lại"
   ],
-
   "clinical_signs_detailed": [
     "Sốt cao, mệt rõ, ăn rất kém",
     "Niêm nhạt, mắt tái, mũi nhợt do thiếu máu",
@@ -27,7 +23,6 @@
     "Bò nằm nhiều, phản ứng chậm",
     "Một số con có run cơ, lờ đờ"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ, giảm ăn",
@@ -44,7 +39,6 @@
       "Nguy cơ chết cao nếu không điều trị kịp"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "imidocarb",
@@ -54,7 +48,6 @@
       "oxytetracycline"
     ],
     "note_drugs": "Imidocarb hoặc buparvaquone là thuốc chính. Không dùng quá liều, tránh gây độc gan thận. Luôn kết hợp giảm ve để tránh tái nhiễm.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -65,29 +58,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Tăng cường nước uống và điện giải",
       "Giữ bò trong chuồng thoáng, tránh nắng nóng",
       "Không bắt bò làm việc, không vận chuyển",
       "Theo dõi niêm, nhịp thở, nước tiểu từng ngày"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo chỉ định thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò thiếu máu rõ nhưng vẫn đứng và uống nước.",
@@ -107,19 +97,16 @@
     },
     "note": "Babesia gây tan máu nhanh. Điều trị càng sớm thì khả năng cứu càng cao."
   },
-
   "prevention": [
     "Tắm thuốc diệt ve định kỳ",
     "Giữ chuồng khô, dọn cỏ xung quanh",
     "Tránh thả chung đàn với khu vực nhiều ve",
     "Theo dõi niêm và phân đàn thường xuyên"
   ],
-
   "notes": [
     "Thiếu máu và nước tiểu đỏ là dấu hiệu đặc trưng.",
     "Điều trị chậm thường mất bò do suy tuần hoàn.",
     "Phòng ve tốt thường giảm 80 phần trăm nguy cơ."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

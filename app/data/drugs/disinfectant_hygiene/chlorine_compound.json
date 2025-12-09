@@ -1,0 +1,44 @@
+{
+  "id": "chlorine_compound",
+  "name": "Chlorine / Cloramin",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Giải phóng clo hoạt tính trong nước, oxy hóa mạnh các cấu trúc tế bào vi sinh vật, diệt vi khuẩn, virus và một phần nấm trên bề mặt và trong nước.",
+  "clinical_uses": [
+    "Sát trùng nền chuồng, hành lang, khu thu gom phân sau khi đã dọn cơ học.",
+    "Khử trùng bể nước, đường ống nước uống theo hướng dẫn kỹ thuật.",
+    "Xử lý khu vực cách ly trong giai đoạn có dịch bệnh hô hấp, tiêu chảy.",
+    "Sát trùng giày dép, lối ra vào khu chuồng bằng thảm tẩm dung dịch."
+  ],
+  "pros": [
+    "Giá rẻ, dễ mua, quen thuộc trong chăn nuôi và sinh hoạt.",
+    "Hiệu lực sát trùng mạnh nếu dùng đúng nồng độ và bề mặt đã tương đối sạch.",
+    "Có thể dùng cho cả nước và bề mặt cứng (tường, nền chuồng, hành lang)."
+  ],
+  "cons": [
+    "Hiệu lực giảm mạnh khi môi trường nhiều chất hữu cơ chưa được dọn sạch.",
+    "Dung dịch đậm đặc có thể gây kích ứng da, mắt, hô hấp cho người và vật nuôi.",
+    "Có mùi clo khó chịu, một số người chăm sóc và vật nuôi rất nhạy cảm."
+  ],
+  "mild_side_effects": [
+    "Kích ứng nhẹ mắt, mũi, họng khi hít hơi clo ở khu vực kém thông gió.",
+    "Khô da, nứt tay ở người chăm sóc nếu thường xuyên tiếp xúc mà không có bảo hộ.",
+    "Con vật có thể ho, khó chịu nếu xịt phun quá nhiều khi chúng đang ở trong chuồng."
+  ],
+  "usage_recommendations": [
+    "Luôn dọn phân, chất độn, rác hữu cơ trước khi phun dung dịch sát trùng.",
+    "Pha đúng tỉ lệ ghi trên nhãn và dùng ngay, không để dung dịch quá lâu mất tác dụng.",
+    "Ưu tiên phun sát trùng mạnh khi chuồng đang trống, sau đó phơi khô rồi mới nhập đàn.",
+    "Đảm bảo thông gió tốt, hạn chế cho con vật ở trong chuồng khi xịt nồng độ cao."
+  ],
+  "when_not_to_use": [
+    "Không trộn chlorine với các chất tẩy rửa có chứa acid hoặc amoniac (nguy cơ sinh khí độc).",
+    "Không đổ trực tiếp lượng lớn dung dịch đậm đặc vào ao, hồ nhỏ có nuôi cá, thủy sinh.",
+    "Không phun nồng độ cao trong chuồng kín đang có nhiều con vật bên trong.",
+    "Thận trọng với người chăm sóc có bệnh đường hô hấp mạn tính."
+  ],
+  "alternative_drugs": [
+    "Chlorine_dioxide cho khử trùng nước và bề mặt cần kiểm soát mùi clo tốt hơn.",
+    "Glutaraldehyde khi cần sát trùng mạnh chuồng trống hoặc khu cách ly.",
+    "Iodophor cho sát trùng dụng cụ, khu vắt sữa với yêu cầu khác về mùi và tồn lưu."
+  ]
+}

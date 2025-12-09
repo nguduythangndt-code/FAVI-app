@@ -3,23 +3,19 @@
   "name": "Giun lươn Strongyloides ở dê",
   "species": "goat",
   "group": "parasite",
-
   "summary": "Giun lươn gây tiêu chảy kéo dài, chậm lớn, lông xù và mất nước ở dê con. Lây qua da và môi trường ẩm, phát triển mạnh ở các chuồng sàn thấp - dơ bẩn.",
-
   "causes": [
     "Ấu trùng xâm nhập qua da.",
     "Dê liếm nền bẩn.",
     "Chuồng ẩm thấp, phân tích tụ.",
     "Không tẩy giun định kỳ cho dê mẹ."
   ],
-
   "risk_factors": [
     "Dê con dưới 3 tháng.",
     "Chuồng ẩm, sàn đất.",
     "Mật độ nuôi cao.",
     "Mùa mưa."
   ],
-
   "clinical_signs_detailed": [
     "Tiêu chảy lỏng kéo dài.",
     "Lông xù, chậm lớn.",
@@ -27,7 +23,6 @@
     "Niêm mạc nhợt nhẹ.",
     "Có thể kế phát nhiễm khuẩn ruột."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Phân sệt, con hơi còi.",
@@ -43,7 +38,6 @@
       "Dễ tử vong nếu không bù nước."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Ivermectin",
@@ -60,16 +54,16 @@
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Dextrose - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
-        "Vitamin B-complex",
+        "Vitamin BC",
         "Vitamin C"
       ],
       "digestive_support": [
-        "Men tiêu hoá",
-        "Chế phẩm phục hồi niêm mạc ruột"
+        "Enzyme tiêu hoá",
+        "Pectin - Kaolin"
       ]
     },
     "supportive_care": [
@@ -83,7 +77,6 @@
       "Không phối hợp lung tung các nhóm tẩy giun."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê tiêu chảy nhưng còn đứng.",
@@ -103,18 +96,15 @@
     },
     "note": "Dê con <2 tháng rất nhạy cảm — cần xử lý sớm."
   },
-
   "prevention": [
     "Tẩy giun cho dê mẹ trước đẻ.",
     "Giữ chuồng khô - sạch.",
     "Không nuôi quá dày.",
     "Thường xuyên thay chất độn chuồng."
   ],
-
   "notes": [
     "Giun lươn làm dê còi dai dẳng nếu bỏ sót.",
     "Tẻ sau cai sữa cần kiểm tra phân định kỳ."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

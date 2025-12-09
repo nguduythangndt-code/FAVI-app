@@ -3,16 +3,13 @@
   "name": "Viêm phổi cấp do Mannheimia",
   "species": "cattle",
   "group": "respiratory",
-
   "summary": "Viêm phổi cấp tính do vi khuẩn Mannheimia haemolytica. Bệnh tiến triển nhanh, sốt cao, thở gấp và suy kiệt mạnh nếu không xử lý sớm. Thường xuất hiện sau stress, thay đổi thời tiết, vận chuyển hoặc ghép đàn.",
-
   "causes": [
     "Nhiễm vi khuẩn Mannheimia haemolytica, tác nhân gây viêm phổi cấp",
     "Suy giảm miễn dịch sau vận chuyển, nhốt dày, thay đổi môi trường đột ngột",
     "Chuồng ẩm, bí, thông gió kém làm tăng nguy cơ bội nhiễm",
     "Bội nhiễm sau các bệnh virus hô hấp như IBR, BRSV, PI3"
   ],
-
   "risk_factors": [
     "Vận chuyển xa, thay đổi trại đột ngột",
     "Bê cai sữa sức đề kháng yếu",
@@ -20,7 +17,6 @@
     "Mật độ nuôi cao, độn đàn không hợp lý",
     "Không tiêm phòng đầy đủ các bệnh hô hấp"
   ],
-
   "clinical_signs_detailed": [
     "Sốt rất cao, bỏ ăn hoàn toàn",
     "Thở cực nhanh, thở gấp, há mồm khi thở",
@@ -31,7 +27,6 @@
     "Nằm nhiều, kiệt sức nhanh, tụt thể trạng rõ rệt",
     "Có thể chết nhanh trong 12-48 giờ nếu không điều trị"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ, hoạt động chậm",
@@ -51,7 +46,6 @@
       "Có thể ngã vật và chết nhanh"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "florfenicol",
@@ -62,7 +56,6 @@
       "ceftiofur"
     ],
     "note_drugs": "Chọn 1 trong các thuốc chính và dùng đủ liệu trình. Không phối kháng sinh mạnh chồng nhau để tránh suy gan thận và khó đánh giá đáp ứng điều trị.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -73,19 +66,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Nhốt riêng, chuồng thoáng nhưng tránh gió tạt trực tiếp",
       "Bổ sung nước và điện giải liên tục",
@@ -93,10 +85,8 @@
       "Giảm stress môi trường: tiếng ồn, đổi đàn, vận chuyển",
       "Theo dõi thân nhiệt, nhịp thở, mức độ ăn uống hằng ngày"
     ],
-
     "dose_policy": "Tuân thủ liều trên nhãn hoặc theo thú y. Không tự ý tăng liều hoặc rút ngắn liệu trình."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bê hoặc bò trẻ sốt cao, khó thở nhưng vẫn còn đứng được.",
@@ -118,7 +108,6 @@
     },
     "note": "Viêm phổi Mannheimia thường nặng và tiến triển nhanh. Nếu không cải thiện sau 2-3 ngày điều trị mạnh, tiên lượng rất xấu."
   },
-
   "prevention": [
     "Tiêm phòng đầy đủ bệnh hô hấp",
     "Quản lý tốt vận chuyển: nghỉ giữa chặng, giảm stress",
@@ -126,12 +115,10 @@
     "Bổ sung khoáng - vitamin giai đoạn thay đổi thời tiết",
     "Cách ly bò mới nhập đàn"
   ],
-
   "notes": [
     "Mannheimia haemolytica thường gây tổn thương phổi rất nặng, tiến triển nhanh hơn Pasteurella.",
     "Thường gặp trong hội chứng BRD (bovine respiratory disease).",
     "Quan sát đàn kỹ: nếu nhiều con ho - chảy mũi cùng lúc, nghĩ đến bệnh virus kết hợp."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

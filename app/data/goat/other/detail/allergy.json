@@ -3,29 +3,24 @@
   "name": "Dị ứng ở dê",
   "species": "goat",
   "group": "other",
-
   "summary": "Dị ứng xảy ra khi dê phản ứng quá mức với thức ăn, thuốc, vắc xin hoặc côn trùng đốt. Biểu hiện từ nhẹ (nổi mẩn) đến nặng (phù mặt, khó thở).",
-
   "causes": [
     "Thức ăn lạ.",
     "Thuốc hoặc vắc xin.",
     "Côn trùng đốt.",
     "Hóa chất trong chuồng."
   ],
-
   "risk_factors": [
     "Dê con.",
     "Dê mới thay khẩu phần.",
     "Tiêm vắc xin lần đầu."
   ],
-
   "clinical_signs_detailed": [
     "Mẩn đỏ, nổi cục nhỏ.",
     "Ngứa, cọ xát.",
     "Sưng môi - mặt.",
     "Khó thở (phản vệ nặng)."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Mẩn đỏ nhẹ.",
@@ -41,15 +36,14 @@
       "Nguy cơ tử vong."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Thuốc kháng dị ứng (dùng theo thú y)",
       "Vitamin C"
     ],
     "alternative_drugs": [
-      "Điện giải",
-      "B-complex"
+      "Điện giải tổng hợp (Na/K/Cl)",
+      "Vitamin BC"
     ],
     "note_drugs": [
       "Phản vệ nặng cần thú y ngay lập tức."
@@ -60,7 +54,7 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS"
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
         "Vitamin C"
@@ -77,7 +71,6 @@
       "Không dùng quá liều."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dị ứng vừa - sưng mặt nhưng thở bình thường.",
@@ -97,17 +90,14 @@
     },
     "note": "Phản vệ diễn biến trong phút - xử lý càng nhanh càng tốt."
   },
-
   "prevention": [
     "Thay khẩu phần từ từ.",
     "Theo dõi sau tiêm vắc xin.",
     "Giữ chuồng sạch, tránh hóa chất mạnh."
   ],
-
   "notes": [
     "Dị ứng nhẹ khỏi nhanh.",
     "Phản vệ nặng rất nguy hiểm."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

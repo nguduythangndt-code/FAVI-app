@@ -1,0 +1,41 @@
+{
+  "id": "tiamulin",
+  "name": "Tiamulin",
+  "group": "antibiotic",
+  "mechanism": "Tiamulin là kháng sinh tác động lên ribosome, ức chế tổng hợp protein của vi khuẩn. Thuốc đặc biệt hữu ích với Mycoplasma và một số tác nhân hô hấp đặc hiệu ở heo và gia cầm.",
+  "clinical_uses": [
+    "Hội chứng hô hấp ở heo, gia cầm có nghi ngờ Mycoplasma.",
+    "Điều trị theo đàn khi bệnh hô hấp lây lan, đáp ứng kém với beta-lactam.",
+    "Một số rối loạn tiêu hoá liên quan tác nhân nhạy cảm với tiamulin (tuỳ phác đồ thú y)."
+  ],
+  "pros": [
+    "Hiệu quả tốt trên Mycoplasma – tác nhân khó kiểm soát bằng nhiều kháng sinh khác.",
+    "Phù hợp điều trị đồng loạt trong đàn khi bệnh đã lan rộng.",
+    "Có thể dùng thay thế khi các đợt điều trị trước với beta-lactam không hiệu quả."
+  ],
+  "cons": [
+    "Phổ tác dụng không rộng cho mọi loại vi khuẩn, không dùng cho mọi ca nhiễm trùng.",
+    "Cần chú ý tương tác với một số thuốc khác (đặc biệt một số ionophore).",
+    "Lạm dụng dễ dẫn đến kháng thuốc trong đàn."
+  ],
+  "mild_side_effects": [
+    "Một số con giảm ăn, mệt hơn trong thời gian dùng thuốc.",
+    "Hiếm khi gặp rối loạn tiêu hoá nhẹ.",
+    "Các phản ứng nặng thường liên quan dùng sai hoặc phối hợp thuốc không phù hợp."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi có cơ sở nghi ngờ Mycoplasma hoặc tác nhân nhạy với tiamulin.",
+    "Tuân thủ chặt hướng dẫn sản phẩm về phối hợp với các thuốc khác, đặc biệt cám trộn ionophore.",
+    "Theo dõi đàn trong suốt quá trình dùng để phát hiện sớm phản ứng bất lợi."
+  ],
+  "when_not_to_use": [
+    "Không dùng đồng thời với một số kháng sinh hoặc phụ gia có nguy cơ tương tác (xem kỹ nhãn).",
+    "Đàn đang suy kiệt nặng, stress cao mà chưa được hỗ trợ tổng trạng.",
+    "Không dùng chỉ vì muốn ‘đổi gió’ khi chưa đánh giá lại nguyên nhân bệnh."
+  ],
+  "alternative_drugs": [
+    "Tylosin trong các ca Mycoplasma hô hấp.",
+    "Doxycycline cho hội chứng hô hấp hỗn hợp.",
+    "Các phác đồ khác theo chỉ định thú y khi bệnh phức tạp."
+  ]
+}

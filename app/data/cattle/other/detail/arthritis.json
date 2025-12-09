@@ -3,7 +3,6 @@
   "name": "Viêm khớp",
   "species": "cattle",
   "group": "other",
-
   "summary": "Viêm khớp làm bò sưng khớp, đau và đi khó. Có thể do chấn thương, nhiễm trùng hoặc thiếu khoáng. Bò giảm ăn và giảm sữa nếu kéo dài.",
   "causes": [
     "Chấn thương khớp",
@@ -38,7 +37,6 @@
       "Rất đau"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "flunixin"
@@ -47,7 +45,6 @@
       "meloxicam"
     ],
     "note_drugs": "Trường hợp nghi nhiễm khuẩn khớp cần thú y can thiệp. Thuốc giảm đau giúp bò đi lại tốt hơn.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -58,29 +55,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Chuồng khô và êm",
       "Hạn chế vận động",
       "Bổ sung khoáng",
       "Theo dõi mức ăn"
     ],
-
     "dose_policy": "Dùng giảm đau theo nhãn hoặc thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Đi khó nhưng vẫn đứng được.",
@@ -100,19 +94,16 @@
     },
     "note": "Viêm khớp kéo dài làm giảm năng suất."
   },
-
   "prevention": [
     "Nền chuồng êm",
     "Không để trơn trượt",
     "Bổ sung khoáng",
     "Kiểm tra dáng đi hằng ngày"
   ],
-
   "notes": [
     "Bò già dễ bị hơn.",
     "Sưng nóng khớp là dấu hiệu rõ nhất.",
     "Hỗ trợ giảm đau giúp bò ăn lại."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

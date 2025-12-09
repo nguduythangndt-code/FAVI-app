@@ -1,0 +1,43 @@
+{
+  "id": "iodophor",
+  "name": "Iodophor (iod sát trùng)",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Dung dịch iod ở dạng phức hợp được giải phóng từ từ, diệt vi khuẩn, nấm và virus trên bề mặt da, núm vú, dụng cụ và một số bề mặt tiếp xúc với gia súc.",
+  "clinical_uses": [
+    "Sát trùng núm vú trước và sau vắt sữa ở dê, bò sữa.",
+    "Sát trùng tay, dụng cụ, xô, bình bú, núm vú giả trong hệ thống nuôi con non.",
+    "Vệ sinh chuồng trại, khu vắt sữa, khu úm con khi dùng đúng pha loãng.",
+    "Hỗ trợ kiểm soát mầm bệnh trên bề mặt tiếp xúc trực tiếp với con vật."
+  ],
+  "pros": [
+    "Tương đối an toàn khi dùng đúng nồng độ và đúng đối tượng.",
+    "Ít gây kích ứng hơn iod đậm đặc, phù hợp cho sát trùng định kỳ.",
+    "Có thể pha theo nhiều nồng độ khác nhau để dùng cho nhiều mục đích."
+  ],
+  "cons": [
+    "Hiệu lực giảm rõ khi môi trường nhiều chất hữu cơ, bề mặt không được cọ rửa trước.",
+    "Có mùi đặc trưng, một số người chăm sóc không thích.",
+    "Có thể để lại vệt màu trên dụng cụ, núm vú, lông."
+  ],
+  "mild_side_effects": [
+    "Kích ứng nhẹ tại da hoặc núm vú ở con rất nhạy cảm.",
+    "Da người chăm sóc có thể bị khô, hơi ngứa nếu tiếp xúc thường xuyên mà không đeo găng.",
+    "Một số con có thể phản xạ tránh hoặc khó chịu khi mới tiếp xúc mùi iod."
+  ],
+  "usage_recommendations": [
+    "Luôn pha đúng tỉ lệ theo hướng dẫn trên nhãn sản phẩm.",
+    "Vệ sinh sơ bộ bằng nước sạch hoặc cọ rửa trước, sau đó mới sát trùng bằng iodophor.",
+    "Dùng khăn sạch hoặc cốc nhúng riêng, hạn chế tái dùng dung dịch quá nhiều ngày.",
+    "Thay dung dịch mới định kỳ để đảm bảo hiệu lực sát trùng."
+  ],
+  "when_not_to_use": [
+    "Không dùng dung dịch quá đậm đặc trực tiếp lên da bị tổn thương lớn.",
+    "Không dùng cho con có tiền sử dị ứng nặng với iod.",
+    "Không sử dụng cho mục đích điều trị nhiễm trùng toàn thân."
+  ],
+  "alternative_drugs": [
+    "Povidone_iodine cho sát trùng vết thương, rốn, vùng tổn thương hở.",
+    "Chlorine_compound cho sát trùng nền chuồng, hành lang.",
+    "Bio_disinfectant cho xử lý mùi và giảm mầm bệnh nền chuồng một cách nhẹ nhàng."
+  ]
+}

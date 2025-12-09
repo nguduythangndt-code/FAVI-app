@@ -50,7 +50,7 @@
       "ivermectin"
     ],
     "alternative_drugs": [
-      "moxidectin",
+      "Moxidectin",
       "phác đồ tẩy giun dạ múi khế do thú y xây dựng theo tình hình kháng thuốc địa phương"
     ],
     "note_drugs": "Chọn thuốc tẩy giun có tác dụng mạnh trên giun dạ múi khế. Nên điều trị cho cả đàn có nguy cơ, không chỉ riêng cá thể đang tiêu chảy để giảm tái nhiễm.",
@@ -68,11 +68,11 @@
         "alternative": "truyền dịch điện giải dưới sự giám sát của thú y khi bò mất nước nhiều"
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "multivitamin kết hợp khoáng vi lượng"
       },
       "digestive_support": {
-        "main": "men tiêu hóa cho bò trong và sau điều trị",
+        "main": "Enzyme tiêu hoá",
         "alternative": "chế phẩm vi sinh đường ruột để phục hồi hệ vi khuẩn có lợi"
       }
     },

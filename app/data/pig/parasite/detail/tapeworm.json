@@ -56,16 +56,18 @@
         "alternative": []
       },
       "electrolyte": {
-        "main": "ORS",
+        "main": "Oresol (điện giải uống)",
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": []
       },
       "digestive_support": {
-        "main": "Men tiêu hoá",
-        "alternative": ["Probiotic"]
+        "main": "Enzyme tiêu hoá",
+        "alternative": [
+          "Probiotic"
+        ]
       }
     },
     "supportive_care": [

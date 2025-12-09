@@ -52,23 +52,29 @@
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
-        "alternative": ["Ketoprofen"]
+        "alternative": [
+          "Ketoprofen"
+        ]
       },
       "respiratory_support": {
         "main": "Bromhexine",
         "alternative": []
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["Glucose-Electrolyte"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": []
       },
       "digestive_support": {
-        "main": "Men tiêu hoá",
-        "alternative": ["Probiotic"]
+        "main": "Enzyme tiêu hoá",
+        "alternative": [
+          "Probiotic"
+        ]
       }
     },
     "supportive_care": [

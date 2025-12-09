@@ -1,8 +1,14 @@
 {
   "name": "Tiêu chảy cấp PED",
   "summary": "Bệnh coronavirus gây nôn - tiêu chảy nặng, chết cao ở heo con.",
-  "causes": ["Virus PEDV lây qua phân, không khí chuồng kín, dụng cụ"],
-  "risk_factors": ["Heo con nhỏ", "Trại mới nhiễm", "Mùa lạnh ẩm"],
+  "causes": [
+    "Virus PEDV lây qua phân, không khí chuồng kín, dụng cụ"
+  ],
+  "risk_factors": [
+    "Heo con nhỏ",
+    "Trại mới nhiễm",
+    "Mùa lạnh ẩm"
+  ],
   "clinical_signs_detailed": [
     "Nôn",
     "Tiêu chảy nước",
@@ -11,28 +17,76 @@
     "Heo nái tiêu chảy nhẹ"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Nôn nhẹ", "Tiêu chảy loãng"],
-    "moderate": ["Tiêu chảy ồ ạt", "Mất nước"],
-    "severe": ["Kiệt nước", "Chết nhanh ở heo con"]
+    "mild": [
+      "Nôn nhẹ",
+      "Tiêu chảy loãng"
+    ],
+    "moderate": [
+      "Tiêu chảy ồ ạt",
+      "Mất nước"
+    ],
+    "severe": [
+      "Kiệt nước",
+      "Chết nhanh ở heo con"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["ORS", "Probiotic"],
-    "alternative_drugs": ["Oxytetracycline", "Vitamin C"],
+    "primary_drugs": [
+      "Oresol (điện giải uống)",
+      "Probiotic"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline",
+      "Vitamin C"
+    ],
     "note_drugs": "Không có thuốc diệt PEDV. Bù nước - điện giải là chính.",
     "symptomatic_treatment": {
-      "electrolyte": {"main": "ORS", "alternative": []},
-      "digestive_support": {"main": "Probiotic", "alternative": []},
-      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Probiotic",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
-    "supportive_care": ["Giữ ấm, nền khô", "Tăng miễn dịch sữa mẹ"],
+    "supportive_care": [
+      "Giữ ấm, nền khô",
+      "Tăng miễn dịch sữa mẹ"
+    ],
     "dose_policy": "Theo nhãn hoặc thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": {"description": "Heo con tiêu chảy nặng", "guideline": ["ORS liên tục", "Giữ ấm", "Cách ly"]},
-    "case_type_2": {"description": "Ổ dịch mới vào trại", "guideline": ["Biosecurity chặt", "Theo dõi toàn đàn"]},
-     "note": "ORS sớm và đủ là yếu tố sống còn khi heo mất nước liên tục."
+    "case_type_1": {
+      "description": "Heo con tiêu chảy nặng",
+      "guideline": [
+        "ORS liên tục",
+        "Giữ ấm",
+        "Cách ly"
+      ]
+    },
+    "case_type_2": {
+      "description": "Ổ dịch mới vào trại",
+      "guideline": [
+        "Biosecurity chặt",
+        "Theo dõi toàn đàn"
+      ]
+    },
+    "note": "ORS sớm và đủ là yếu tố sống còn khi heo mất nước liên tục."
   },
-  "prevention_list": ["Vaccine PED cho nái", "Biosecurity", "All-in/all-out"],
-  "notes": ["Mất nước là nguyên nhân chết chính."],
+  "prevention_list": [
+    "Vaccine PED cho nái",
+    "Biosecurity",
+    "All-in/all-out"
+  ],
+  "notes": [
+    "Mất nước là nguyên nhân chết chính."
+  ],
   "disclaimer": "Thông tin tham khảo."
 }

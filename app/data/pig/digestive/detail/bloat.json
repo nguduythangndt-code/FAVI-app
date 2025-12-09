@@ -47,28 +47,38 @@
     ],
     "alternative_drugs": [
       "Vitamin B1",
-      "Men tiêu hoá"
+      "Enzyme tiêu hoá"
     ],
     "note_drugs": "Simethicone giúp giảm đầy hơi. Vitamin B1 và men tiêu hoá hỗ trợ phục hồi nhu động ruột.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": ["Ketoprofen", "Meloxicam"]
+        "alternative": [
+          "Ketoprofen",
+          "Meloxicam"
+        ]
       },
       "respiratory_support": {
         "main": "Bromhexine",
-        "alternative": ["Ambroxol"]
+        "alternative": [
+          "Ambroxol"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["Glucose-Electrolyte", "Điện giải khoáng tổng hợp"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix",
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
-        "alternative": ["Vitamin tổng hợp"]
+        "main": "Vitamin BC",
+        "alternative": [
+          "Multivitamin tổng hợp"
+        ]
       },
       "digestive_support": {
-        "main": "Men tiêu hoá",
+        "main": "Enzyme tiêu hoá",
         "alternative": []
       }
     },

@@ -2,6 +2,7 @@
 
 // Tất cả group thuốc đang có trong app
 export type DrugGroupId =
+  | "antibiotic"
   | "antiinflammatory_analgesic"
   | "electrolyte"
   | "vitamin_tonic"
@@ -10,7 +11,9 @@ export type DrugGroupId =
   | "respiratory_support"
   | "digestive_support"
   | "blood_parasite"
-  | "antibiotic";
+  | "disinfectant_hygiene"
+  | "hormone";
+
 
 // Dùng cho app/data/drugs/group/list.json
 export interface DrugGroupItem {

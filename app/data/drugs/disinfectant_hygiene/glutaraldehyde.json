@@ -1,0 +1,44 @@
+{
+  "id": "glutaraldehyde",
+  "name": "Glutaraldehyde",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Hợp chất aldehyde có khả năng gắn chéo protein và acid nucleic, phá hủy cấu trúc tế bào của vi khuẩn, virus và một số bào tử, tạo hiệu lực sát trùng rất mạnh trên bề mặt khi dùng đúng cách.",
+  "clinical_uses": [
+    "Sát trùng sâu chuồng trại trước khi nhập đàn mới (dồn dọn tổng vệ sinh).",
+    "Khử trùng khu cách ly, khu điều trị sau khi đã hết đàn bệnh.",
+    "Sát trùng dụng cụ, thiết bị chăn nuôi không tiếp xúc trực tiếp với thức ăn, nước uống.",
+    "Dùng trong chương trình 'dọn trắng' trại sau các đợt dịch nặng."
+  ],
+  "pros": [
+    "Hiệu lực sát trùng rất mạnh nếu được pha và sử dụng đúng cách.",
+    "Tác dụng tốt trên nhiều loại vi khuẩn, virus, một phần bào tử nấm.",
+    "Phù hợp cho các đợt tổng vệ sinh sâu, dọn trại giữa các chu kỳ nuôi."
+  ],
+  "cons": [
+    "Hơi độc với người và vật nuôi nếu tiếp xúc đậm đặc hoặc trong không gian kín.",
+    "Có mùi khó chịu, cần thông gió tốt và bảo hộ lao động đầy đủ.",
+    "Không phù hợp để dùng hàng ngày hoặc trong khi chuồng đang có con nuôi."
+  ],
+  "mild_side_effects": [
+    "Kích ứng mắt, mũi, họng khi hít phải hơi trong lúc pha hoặc phun mà không bảo hộ.",
+    "Kích ứng da, đỏ, rát nếu dính dung dịch đậm đặc lên da tay.",
+    "Có thể gây ho, khó chịu cho con vật nếu chưa thoát hết mùi mà đã nhập đàn."
+  ],
+  "usage_recommendations": [
+    "Chỉ sử dụng khi chuồng trống, sau khi đã dọn phân và rửa sạch cơ học.",
+    "Pha đúng tỉ lệ, đeo đầy đủ găng, khẩu trang, kính khi pha và phun.",
+    "Phun xong cần để chuồng thông thoáng, khô, thoát hết mùi rồi mới nhập đàn.",
+    "Không dùng thường xuyên như sát trùng duy trì; chỉ nên dùng theo đợt."
+  ],
+  "when_not_to_use": [
+    "Không dùng trong chuồng đang có con, nhất là con non, con yếu.",
+    "Không dùng ở khu vực người hoặc vật nuôi phải ở liên tục mà không thông gió.",
+    "Không dùng để sát trùng nước uống, máng ăn trực tiếp cho vật nuôi.",
+    "Không dùng cho người chăm sóc không được trang bị bảo hộ tối thiểu."
+  ],
+  "alternative_drugs": [
+    "Chlorine_compound cho sát trùng nền chuồng thường ngày.",
+    "Benzalkonium_chloride cho vệ sinh định kỳ, nhẹ hơn trong điều kiện ít dịch.",
+    "Bio_disinfectant để duy trì môi trường sau khi đã sát trùng hóa chất mạnh."
+  ]
+}

@@ -52,11 +52,11 @@
         "alternative": ""
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin-complex",
+        "main": "Multivitamin tổng hợp",
         "alternative": ""
       },
       "digestive_support": {

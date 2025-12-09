@@ -1,7 +1,9 @@
 {
   "name": "Parvo - SMEDI",
   "summary": "Bệnh virus gây sảy thai, thai chết lưu, thai khô và đẻ ít con; chủ yếu ở nái hậu bị.",
-  "causes": ["Porcine parvovirus (PPV) lây khi phối, qua tinh, phân"],
+  "causes": [
+    "Porcine parvovirus (PPV) lây khi phối, qua tinh, phân"
+  ],
   "risk_factors": [
     "Nái hậu bị chưa có miễn dịch",
     "Chưa tiêm vaccine Parvo",
@@ -14,23 +16,55 @@
     "Con sơ sinh yếu, chết sớm"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Chậm động dục lại", "Đẻ ít"],
-    "moderate": ["Thai chết lưu/khô nhiều"],
-    "severe": ["Sảy thai hàng loạt", "Đàn con chết cao"]
+    "mild": [
+      "Chậm động dục lại",
+      "Đẻ ít"
+    ],
+    "moderate": [
+      "Thai chết lưu/khô nhiều"
+    ],
+    "severe": [
+      "Sảy thai hàng loạt",
+      "Đàn con chết cao"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["ORS", "Vitamin E-Selenium"],
-    "alternative_drugs": ["B-complex"],
+    "primary_drugs": [
+      "Oresol (điện giải uống)",
+      "vitamin_e_selenium"
+    ],
+    "alternative_drugs": [
+      "Vitamin BC"
+    ],
     "note_drugs": "Không có thuốc diệt PPV. Điều trị chỉ trợ sức; phòng bằng vaccine là chính.",
     "symptomatic_treatment": {
-      "vitamin": {"main": "Vitamin E-Selenium", "alternative": ["B-complex"]}
+      "vitamin": {
+        "main": "vitamin_e_selenium",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
-    "supportive_care": ["Theo dõi sinh sản, loại thải nái lặp lại nhiều lần"],
+    "supportive_care": [
+      "Theo dõi sinh sản, loại thải nái lặp lại nhiều lần"
+    ],
     "dose_policy": "Theo nhãn hoặc thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": {"description": "Thai khô nhiều trong lứa", "guideline": ["Xác định miễn dịch đàn", "Tiêm phòng hậu bị trước phối"]},
-    "case_type_2": {"description": "Sảy thai rải rác kéo dài", "guideline": ["Kiểm tra lại lịch vaccine", "Cách ly hậu bị"]},
+    "case_type_1": {
+      "description": "Thai khô nhiều trong lứa",
+      "guideline": [
+        "Xác định miễn dịch đàn",
+        "Tiêm phòng hậu bị trước phối"
+      ]
+    },
+    "case_type_2": {
+      "description": "Sảy thai rải rác kéo dài",
+      "guideline": [
+        "Kiểm tra lại lịch vaccine",
+        "Cách ly hậu bị"
+      ]
+    },
     "note": "Bệnh không chữa tận gốc được khi đã nhiễm trong thai kỳ."
   },
   "prevention_list": [
@@ -38,6 +72,8 @@
     "Tiêm nhắc định kỳ nái sinh sản",
     "Quản lý tinh - phối an toàn"
   ],
-  "notes": ["PPV thường âm thầm, thấy rõ nhất ở kết quả đẻ."],
+  "notes": [
+    "PPV thường âm thầm, thấy rõ nhất ở kết quả đẻ."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

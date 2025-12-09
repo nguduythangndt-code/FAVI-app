@@ -7,5 +7,10 @@
   { "id": "praziquantel",     "name": "Praziquantel" },
   { "id": "closantel",        "name": "Closantel" },
   { "id": "oxyclozanide",     "name": "Oxyclozanide" },
-  { "id": "triclabendazole",  "name": "Triclabendazole" }
+  { "id": "triclabendazole",  "name": "Triclabendazole" },
+    { "id": "toltrazuril", "name": "Toltrazuril" },
+  { "id": "diclazuril",  "name": "Diclazuril" },
+  { "id": "niclosamide", "name": "Niclosamide" },
+ {"id": "amprolium",   "name": "Amprolium" },
+  { "id": "moxidectin",  "name": "Moxidectin" }
 ]

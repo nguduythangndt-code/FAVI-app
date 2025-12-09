@@ -1,8 +1,14 @@
 {
   "name": "Bệnh Glässer (Glaesserella parasuis)",
   "summary": "Nhiễm khuẩn gây viêm đa màng (phổi - tim - bụng), viêm khớp, chết nhanh ở heo cai sữa.",
-  "causes": ["Glaesserella parasuis xâm nhập đường hô hấp rồi vào máu"],
-  "risk_factors": ["Cai sữa stress", "Chuồng kín ẩm", "Trộn đàn, vận chuyển"],
+  "causes": [
+    "Glaesserella parasuis xâm nhập đường hô hấp rồi vào máu"
+  ],
+  "risk_factors": [
+    "Cai sữa stress",
+    "Chuồng kín ẩm",
+    "Trộn đàn, vận chuyển"
+  ],
   "clinical_signs_detailed": [
     "Sốt cao, bỏ ăn",
     "Thở khó, ho",
@@ -11,28 +17,75 @@
     "Nhiều con chết đột ngột"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Sốt, ho nhẹ"],
-    "moderate": ["Thở khó, khớp đau"],
-    "severe": ["Nằm liệt, tím tái, chết nhanh"]
+    "mild": [
+      "Sốt, ho nhẹ"
+    ],
+    "moderate": [
+      "Thở khó, khớp đau"
+    ],
+    "severe": [
+      "Nằm liệt, tím tái, chết nhanh"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Ceftiofur", "Ampicillin"],
-    "alternative_drugs": ["Florfenicol", "Enrofloxacin"],
+    "primary_drugs": [
+      "Ceftiofur",
+      "Ampicillin"
+    ],
+    "alternative_drugs": [
+      "Florfenicol",
+      "Enrofloxacin"
+    ],
     "note_drugs": "Bệnh đáp ứng tốt kháng sinh nếu tiêm sớm; trễ dễ chết nhanh.",
     "symptomatic_treatment": {
-      "antiinflammatory": {"main": "Meloxicam", "alternative": ["Flunixin"]},
-      "respiratory_support": {"main": "Bromhexine", "alternative": ["Ambroxol"]},
-      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": [
+          "Flunixin"
+        ]
+      },
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": [
+          "Ambroxol"
+        ]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
-    "supportive_care": ["Giữ ấm, giảm stress", "Cách ly và điều trị cả nhóm nguy cơ"],
+    "supportive_care": [
+      "Giữ ấm, giảm stress",
+      "Cách ly và điều trị cả nhóm nguy cơ"
+    ],
     "dose_policy": "Theo nhãn hoặc thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": {"description": "Sốt cao + thở khó", "guideline": ["Ceftiofur/Ampicillin sớm", "Kháng viêm hỗ trợ"]},
-    "case_type_2": {"description": "Khớp sưng rõ", "guideline": ["Kháng sinh + nền mềm khô"]},
+    "case_type_1": {
+      "description": "Sốt cao + thở khó",
+      "guideline": [
+        "Ceftiofur/Ampicillin sớm",
+        "Kháng viêm hỗ trợ"
+      ]
+    },
+    "case_type_2": {
+      "description": "Khớp sưng rõ",
+      "guideline": [
+        "Kháng sinh + nền mềm khô"
+      ]
+    },
     "note": "Con khỏe, ăn mạnh thường là con sốt trước khi bệnh bùng lên.."
   },
-  "prevention_list": ["Giảm stress cai sữa", "Thông thoáng chuồng", "Vaccine nếu trại lưu hành"],
-  "notes": ["Dễ nhầm APP/PRRS, cần đối chiếu triệu chứng."],
+  "prevention_list": [
+    "Giảm stress cai sữa",
+    "Thông thoáng chuồng",
+    "Vaccine nếu trại lưu hành"
+  ],
+  "notes": [
+    "Dễ nhầm APP/PRRS, cần đối chiếu triệu chứng."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -45,7 +45,7 @@
     ],
     "alternative_drugs": [
       "levamisole",
-      "ivermectin_internal"
+      "Ivermectin"
     ],
     "note_drugs": "Điều trị giun tóc thường dùng chung phác đồ tẩy giun đường tiêu hóa. Cần đảm bảo dùng đủ liệu trình và xử lý môi trường để giun không nhanh chóng quay lại.",
     "symptomatic_treatment": {
@@ -62,8 +62,8 @@
         "alternative": "điện giải có vitamin C trong vài ngày đầu"
       },
       "vitamin": {
-        "main": "vitamin tổng hợp giúp phục hồi thể trạng",
-        "alternative": "vitamin nhóm B kích thích ăn"
+        "main": "Multivitamin tổng hợp",
+        "alternative": "Vitamin BC"
       },
       "digestive_support": {
         "main": "men vi sinh để ổn định đường ruột sau khi tẩy giun",

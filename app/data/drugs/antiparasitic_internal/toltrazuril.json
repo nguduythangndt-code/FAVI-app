@@ -1,0 +1,40 @@
+{
+  "id": "toltrazuril",
+  "name": "Toltrazuril",
+  "group": "antiparasitic_internal",
+  "mechanism": "Toltrazuril tác động lên nhiều giai đoạn phát triển của cầu trùng trong ruột, làm gián đoạn chu kỳ sinh sản và tiêu diệt ký sinh trùng tại chỗ.",
+  "clinical_uses": [
+    "Tiêu chảy do cầu trùng ở dê, heo, gia cầm được xác định hoặc nghi ngờ rõ.",
+    "Đàn có biểu hiện gầy nhanh, phân loãng, phân lẫn nhầy hoặc máu trong điều kiện chuồng ẩm, mật độ cao.",
+    "Can thiệp kiểm soát cầu trùng khi có ổ dịch lặp lại trong trại."
+  ],
+  "pros": [
+    "Hiệu lực mạnh với cầu trùng, kể cả ở nhiều giai đoạn phát triển.",
+    "Có thể dùng đồng loạt cho đàn khi cần can thiệp nhanh.",
+    "Dùng trong thời gian ngắn nhưng có tác dụng rõ nếu dùng đúng lúc."
+  ],
+  "cons": [
+    "Không có tác dụng với tiêu chảy do vi khuẩn, virus hoặc các nguyên nhân khác.",
+    "Hiệu quả giảm nếu điều kiện chuồng trại ẩm bẩn, không cải thiện đồng thời quản lý.",
+    "Lạm dụng dùng phòng thường xuyên có thể làm lệ thuộc thuốc, bỏ qua yếu tố vệ sinh."
+  ],
+  "mild_side_effects": [
+    "Một số con có thể giảm ăn nhẹ 1–2 ngày.",
+    "Hiếm gặp rối loạn tiêu hoá nặng khi dùng đúng liều theo nhãn."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi có bằng chứng hoặc nghi ngờ rõ ràng về cầu trùng.",
+    "Ưu tiên xử lý đồng loạt cho nhóm nguy cơ thay vì chỉ dùng lẻ tẻ vài con.",
+    "Kết hợp dọn phân, làm khô nền chuồng, giảm mật độ nuôi để hạn chế tái nhiễm."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho các ca tiêu chảy chưa rõ nguyên nhân chỉ để ‘thử thuốc’.",
+    "Động vật suy kiệt nặng mà chưa được hồi sức phù hợp.",
+    "Không lặp lại nhiều đợt phòng liên tiếp nếu không có đánh giá lại nguy cơ."
+  ],
+  "alternative_drugs": [
+    "Diclazuril trong chương trình phòng hoặc ca nhẹ – trung bình.",
+    "Amprolium theo phác đồ thú y.",
+    "Các biện pháp quản lý chuồng trại và dinh dưỡng để giảm áp lực cầu trùng."
+  ]
+}

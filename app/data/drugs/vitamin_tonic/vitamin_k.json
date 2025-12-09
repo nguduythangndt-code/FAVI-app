@@ -1,0 +1,38 @@
+{
+  "id": "vitamin_k",
+  "name": "Vitamin K",
+  "group": "vitamin_tonic",
+  "mechanism": "Vitamin K tham gia tổng hợp các yếu tố đông máu tại gan, giúp ổn định quá trình đông máu và hạn chế chảy máu kéo dài khi cơ thể bị thiếu vitamin K.",
+  "clinical_uses": [
+    "Hỗ trợ điều trị chảy máu kéo dài nghi do rối loạn đông máu liên quan đến thiếu vitamin K.",
+    "Trường hợp nghi ngờ hoặc xác định ngộ độc thuốc diệt chuột ức chế vitamin K.",
+    "Hỗ trợ sau các đợt xuất huyết, phẫu thuật hoặc can thiệp có nguy cơ chảy máu."
+  ],
+  "pros": [
+    "Tác dụng rõ ràng trong trường hợp thiếu vitamin K hoặc bị ức chế vitamin K.",
+    "Thường dùng trong thời gian ngắn theo chỉ định thú y.",
+    "Có thể kết hợp với các biện pháp điều trị nguyên nhân khác."
+  ],
+  "cons": [
+    "Không xử lý nguyên nhân chảy máu do chấn thương nặng, xoắn dạ dày, tử cung vỡ…",
+    "Không có tác dụng nếu rối loạn đông máu không liên quan đến vitamin K.",
+    "Dùng tràn lan khi không cần thiết làm khó đánh giá đúng nguyên nhân."
+  ],
+  "mild_side_effects": [
+    "Có thể gây kích ứng nhẹ tại chỗ tiêm nếu dùng dạng tiêm.",
+    "Tác dụng phụ toàn thân hiếm gặp khi dùng đúng liều theo nhãn."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi có chỉ định rõ ràng hoặc nghi ngờ mạnh rối loạn đông máu liên quan vitamin K.",
+    "Luôn kết hợp xử lý nguyên nhân nền gây xuất huyết (chấn thương, bệnh toàn thân…).",
+    "Theo dõi niêm mạc, phân, nước tiểu để đánh giá đáp ứng sau khi dùng."
+  ],
+  "when_not_to_use": [
+    "Không lạm dụng trong các trường hợp chảy máu mà chưa đánh giá nguyên nhân.",
+    "Không dùng kéo dài khi không có theo dõi của thú y."
+  ],
+  "alternative_drugs": [
+    "Truyền máu hoặc huyết tương khi có chỉ định chuyên môn.",
+    "Các phác đồ điều trị nguyên nhân nền (phẫu thuật, xử lý vết thương, điều trị bệnh gan…)."
+  ]
+}

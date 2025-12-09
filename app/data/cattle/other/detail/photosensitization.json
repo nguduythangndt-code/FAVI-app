@@ -3,28 +3,23 @@
   "name": "Mẫn cảm ánh nắng",
   "species": "cattle",
   "group": "other",
-
   "summary": "Mẫn cảm ánh nắng khiến da đỏ, phồng rộp và đau khi bò phơi nắng. Thường gặp khi bò ăn cỏ có độc hoặc gan suy không thải được độc tố.",
-
   "causes": [
     "Ăn phải cây cỏ có độc gây nhạy cảm ánh sáng",
     "Gan suy hoặc viêm gan",
     "Tiếp xúc nắng mạnh kéo dài"
   ],
-
   "risk_factors": [
     "Đồng cỏ lẫn cây độc",
     "Nắng gắt kéo dài",
     "Bò trắng hoặc ít sắc tố da"
   ],
-
   "clinical_signs_detailed": [
     "Da đỏ và nóng rát",
     "Da phồng rộp hoặc bong tróc",
     "Bò đứng trong bóng mát nhiều",
     "Giảm ăn do đau"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Da hơi đỏ",
@@ -39,7 +34,6 @@
       "Bò mệt, giảm ăn"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "flunixin"
@@ -48,7 +42,6 @@
       "meloxicam"
     ],
     "note_drugs": "Điều trị chính là tránh nắng và giảm viêm da. Thuốc chỉ giúp bò đỡ đau và hồi phục nhanh hơn.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -59,29 +52,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Đưa bò vào bóng mát",
       "Giảm nắng trực tiếp",
       "Theo dõi da và mức ăn",
       "Tránh gãi hoặc cọ vào vật cứng"
     ],
-
     "dose_policy": "Thuốc hỗ trợ dùng theo nhãn."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Da phồng nhẹ, bò vẫn ăn.",
@@ -101,19 +91,16 @@
     },
     "note": "Da non dễ tổn thương khi nắng mạnh."
   },
-
   "prevention": [
     "Tránh cho bò ăn cây lạ",
     "Kiểm tra đồng cỏ trước khi thả",
     "Có mái che khi trời nắng mạnh",
     "Theo dõi da bò trắng hoặc ít sắc tố"
   ],
-
   "notes": [
     "Không nguy hiểm nhưng gây đau và giảm ăn.",
     "Tránh nắng là cách xử lý hiệu quả nhất.",
     "Da phục hồi sau vài ngày nếu được che nắng."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

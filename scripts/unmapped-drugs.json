@@ -1,0 +1,1213 @@
+[
+  {
+    "animal": "goat",
+    "group": "blood_parasite",
+    "diseaseId": "theileriosis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Kết hợp kháng sinh phù hợp khi có bội nhiễm vi khuẩn (theo hướng dẫn thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "blood_parasite",
+    "diseaseId": "theileriosis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Các thuốc có phổ tác dụng tương tự theo tư vấn thú y khi không có thuốc đặc hiệu."
+  },
+  {
+    "animal": "goat",
+    "group": "blood_parasite",
+    "diseaseId": "theileriosis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Phác đồ khác có thể được chỉ định tùy tình trạng và khu vực."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "bloat",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Thuốc chống tạo bọt và chống chướng hơi dạ cỏ (simethicone, dimethicone…)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "bloat",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Dầu paraffin hoặc dầu thực vật (dùng theo hướng dẫn thú y) hỗ trợ phá bọt dạ cỏ."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "bloat",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Điện giải - gluco hỗ trợ tuần hoàn sau khi thoát hơi."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "bloat",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Thảo dược giảm sinh hơi nếu có."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "colibacillosis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Colistin uống (ưu tiên cho tiêu chảy sơ sinh)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "colibacillosis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Amoxicillin uống hoặc tiêm (theo hướng dẫn thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "colibacillosis",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Sulfa đường uống cho sơ sinh (theo nhãn)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "colibacillosis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Florfenicol (nếu nhiễm khuẩn nặng, theo thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "colibacillosis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Điện giải - gluco dành cho dê con."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "colibacillosis",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Men tiêu hoá + probiotics chuyên cho dê con."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Colistin đường uống (đường ruột Gram âm)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Amoxicillin hoặc amox-coli cho ca nghi nhiễm E.coli."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Sulfa đường ruột (sulfa - trimethoprim…)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.primary_drugs[3]",
+    "value": "Men tiêu hoá - probiotics để phục hồi hệ vi sinh."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.primary_drugs[4]",
+    "value": "Thuốc hấp phụ độc tố: than hoạt, bentonite, smectite."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Florfenicol (khi nghi nhiễm khuẩn nặng, dùng theo hướng dẫn thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Enrofloxacin (chỉ dùng khi thật cần và theo thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Điện giải B-complex uống hỗ trợ hồi phục."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enteritis",
+    "field": "treatment.alternative_drugs[3]",
+    "value": "Thảo dược cầm tiêu chảy an toàn cho dạ cỏ."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "enterotoxemia_type_d",
+    "field": "treatment.primary_drugs[1]",
+    "value": "kháng độc tố Clostridium (nếu có)"
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "indigestion",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Probiotics hỗ trợ hệ vi sinh."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "indigestion",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Chế phẩm bảo vệ niêm mạc ruột."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "indigestion",
+    "field": "treatment.alternative_drugs[3]",
+    "value": "Thảo dược hỗ trợ tiêu hoá"
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-acidosis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Dung dịch kiềm hoá dạ cỏ (ví dụ bicarbonat) dùng theo hướng dẫn thú y."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-acidosis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Men tiêu hoá chuyên cho dạ cỏ."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-acidosis",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Chế phẩm vi sinh phục hồi hệ vi sinh dạ cỏ."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-acidosis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Vitamin B1 (thiamin) hỗ trợ hệ thần kinh và chuyển hoá."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-acidosis",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Điện giải - gluco giúp hồi phục tuần hoàn."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-alkalosis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Dung dịch acid nhẹ (theo hướng dẫn thú y) để điều chỉnh pH dạ cỏ."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-alkalosis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Thuốc chống chướng hơi dạ cỏ."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-alkalosis",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Men tiêu hoá dạ cỏ giúp ổn định vi sinh."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-alkalosis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Điện giải - gluco hỗ trợ tuần hoàn."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "rumen-alkalosis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Vitamin B1, B-complex hỗ trợ thần kinh."
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "salmonellosis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Sulfa - trimethoprim"
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "salmonellosis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Enrofloxacin (chỉ dùng khi có thú y)"
+  },
+  {
+    "animal": "goat",
+    "group": "digestive",
+    "diseaseId": "salmonellosis",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Colistin (khi nghi đồng nhiễm Gram âm đường ruột)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "allergy",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Thuốc kháng dị ứng (dùng theo thú y)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "dermatophytosis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "thuốc bôi chống nấm"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "dermatophytosis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "sát trùng ngoài da"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "dermatophytosis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "kháng sinh nếu bội nhiễm"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "fmd",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Povidone-iodine (sát trùng ngoài)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "heat-stress",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Thuốc trợ tim nhẹ (dùng theo thú y)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "nutritional-deficiency",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Vitamin - khoáng tổng hợp"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "nutritional-deficiency",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Khoáng liếm"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "nutritional-deficiency",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Khoáng nước"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "nutritional-deficiency",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Premix khoáng trộn cám"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "pinkeye",
+    "field": "treatment.primary_drugs[1]",
+    "value": "thuốc nhỏ mắt kháng sinh"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "poisoning",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Than hoạt tính (hấp phụ độc tố)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "poisoning",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Electrolyte - glucose"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "poisoning",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Thuốc trợ tim nhẹ (theo thú y)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "poisoning",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Chất bảo vệ gan (sorbitol - B1 - acid amin)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "skin-infection",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Ivermectin (ghẻ đào hang)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "skin-infection",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Permethrin (ghẻ ngoài)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "skin-infection",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Thuốc bôi ketoconazole (nấm)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "skin-infection",
+    "field": "treatment.primary_drugs[3]",
+    "value": "Thuốc bôi povidone hoặc mỡ kháng sinh (nhiễm khuẩn)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "skin-infection",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Thuốc bôi clotrimazole"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "tetanus",
+    "field": "treatment.primary_drugs[1]",
+    "value": "kháng độc tố uốn ván (nếu có)"
+  },
+  {
+    "animal": "goat",
+    "group": "other",
+    "diseaseId": "tetanus",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Metronidazole"
+  },
+  {
+    "animal": "goat",
+    "group": "parasite",
+    "diseaseId": "lice",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Permethrin (phun/xịt)"
+  },
+  {
+    "animal": "goat",
+    "group": "parasite",
+    "diseaseId": "liverfluke",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Albendazole (tác dụng yếu hơn)"
+  },
+  {
+    "animal": "goat",
+    "group": "parasite",
+    "diseaseId": "mites",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Ivermectin (tiêm toàn thân)"
+  },
+  {
+    "animal": "goat",
+    "group": "parasite",
+    "diseaseId": "mites",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Permethrin (phun/xịt da)"
+  },
+  {
+    "animal": "goat",
+    "group": "parasite",
+    "diseaseId": "mites",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Amitraz (phun/xịt)"
+  },
+  {
+    "animal": "goat",
+    "group": "parasite",
+    "diseaseId": "mites",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Fipronil (xịt điểm)"
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "abortion",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Amoxicillin (nếu nghi nhiễm khuẩn tử cung kèm theo)"
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "abortion",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Tylosin (nghi Mycoplasma)."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "abortion",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Sulfa (một số ca nghi ký sinh Toxoplasma)."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "metritis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Metronidazole (theo hướng dẫn thú y, dùng ca nặng do vi khuẩn yếm khí)."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "metritis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Doxycycline nếu không có thuốc chính."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "milk-fever",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Canxi tiêm (theo hướng dẫn thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "milk-fever",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Vitamin D3 hỗ trợ hấp thu."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "milk-fever",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Điện giải - glucose."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "milk-fever",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Khoáng tổng hợp dạng nước."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "milk-fever",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Magie khi nghi thiếu kết hợp."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "prolapse",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Kháng sinh phổ rộng (ceftiofur, amoxicillin) sau thủ thuật."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "prolapse",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Oxytocin hỗ trợ co hồi tử cung (theo thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "reproductive",
+    "diseaseId": "retained-placenta",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Oxytocin (theo hướng dẫn thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "aspergillosis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Itraconazole (theo chỉ định thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "aspergillosis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Ketoconazole (hiệu quả vừa, dùng khi không có thuốc tốt hơn)."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "aspergillosis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Hỗ trợ miễn dịch, vitamin - khoáng."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "aspergillosis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Long đờm - giảm viêm hỗ trợ."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "aspiration-pneumonia",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Amoxicillin (ca nhẹ - vừa)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "bronchitis-tracheitis",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Amoxicillin (trường hợp vừa - nhẹ)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "bronchitis-tracheitis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Enrofloxacin (trường hợp nặng hơn, theo thú y)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "bronchitis-tracheitis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Florfenicol (nếu nghi tổn thương sâu hơn)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "bronchitis-tracheitis",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Kết hợp thuốc ho - long đờm"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "chronic-pneumonia",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Florfenicol (liệu trình đủ dài theo nhãn/thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "chronic-pneumonia",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Tulathromycin (được dùng trong một số phác đồ mạn theo hướng dẫn thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "chronic-pneumonia",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Enrofloxacin (chỉ dùng khi lợi ích lớn hơn rủi ro, theo thú y)."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "chronic-pneumonia",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Doxycycline kết hợp với cải thiện môi trường, dinh dưỡng."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "chronic-pneumonia",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Tylosin (trường hợp nghi Mycoplasma mạn)."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "cold",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Không phải ca nào cũng cần kháng sinh; trọng tâm là GIỮ ẤM và HỖ TRỢ MIỄN DỊCH."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "cold",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Chỉ dùng kháng sinh nhẹ nếu nghi có nhiễm khuẩn kế phát (ví dụ amoxicillin, doxycycline) theo đánh giá của thú y hoặc người chăn nuôi có kinh nghiệm."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "cold",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Thuốc hạ sốt - kháng viêm nhẹ (Meloxicam/Flunixin) khi dê sốt, mệt."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "cold",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Vitamin C, B-complex, khoáng tổng hợp hỗ trợ đề kháng."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "environmental-pneumonia",
+    "field": "treatment.primary_drugs[2]",
+    "value": "Tulathromycin (cho những con viêm phổi trung bình - không tụ cấp rõ)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "environmental-pneumonia",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Amoxicillin (ca nhẹ hơn hoặc sau giai đoạn cấp)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "environmental-pneumonia",
+    "field": "treatment.alternative_drugs[3]",
+    "value": "Enrofloxacin (theo thú y cho các ca nặng)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "mycoplasmosis",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Tilmicosin (chỉ dùng theo hướng dẫn thú y, vì độc tính cao nếu dùng sai)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "pleuropneumonia",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Amoxicillin (trường hợp nhẹ hơn hoặc sau giai đoạn cấp)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "pleuropneumonia",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Kết hợp thêm thuốc hướng Mycoplasma nếu nghi ghép (doxycycline) theo thú y"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "ppr",
+    "field": "treatment.primary_drugs[0]",
+    "value": "kháng sinh phổ rộng hỗ trợ phổi"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "ppr",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "kháng viêm giảm sốt"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "ppr",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "thuốc long đờm"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "rhinitis-sinusitis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Enrofloxacin (ca dai dẳng)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "rhinitis-sinusitis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Thuốc nhỏ mũi sát khuẩn nhẹ (theo thú y)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "shipping-fever",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "Enrofloxacin (theo hướng dẫn thú y)"
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "toxic-gas-pneumonia",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Doxycycline hoặc tylosin cho ca nhẹ - vừa sau khi đã thoát khỏi môi trường khí độc."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "toxic-gas-pneumonia",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Enrofloxacin cho trường hợp nặng theo chỉ định thú y."
+  },
+  {
+    "animal": "goat",
+    "group": "respiratory",
+    "diseaseId": "verminous-pneumonia",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Albendazole/Fenbendazole (hiệu quả tùy mức độ)"
+  },
+  {
+    "animal": "pig",
+    "group": "blood_parasite",
+    "diseaseId": "trypanosoma",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Isometamidium"
+  },
+  {
+    "animal": "pig",
+    "group": "digestive",
+    "diseaseId": "coccidia",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Sulfonamide"
+  },
+  {
+    "animal": "pig",
+    "group": "digestive",
+    "diseaseId": "constipation",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Dầu parafin"
+  },
+  {
+    "animal": "pig",
+    "group": "digestive",
+    "diseaseId": "gastric_ulcer",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Omeprazole"
+  },
+  {
+    "animal": "pig",
+    "group": "digestive",
+    "diseaseId": "gastric_ulcer",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Sucralfate"
+  },
+  {
+    "animal": "pig",
+    "group": "digestive",
+    "diseaseId": "swine-dysentery",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Valnemulin"
+  },
+  {
+    "animal": "pig",
+    "group": "other",
+    "diseaseId": "stress-syndrome",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Điện giải uống"
+  },
+  {
+    "animal": "pig",
+    "group": "other",
+    "diseaseId": "stress-syndrome",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Thuốc trợ sức tổng hợp"
+  },
+  {
+    "animal": "pig",
+    "group": "parasite",
+    "diseaseId": "myiasis",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Thuốc sát trùng vết thương"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "delayed_estrus",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Khoáng tổng hợp cho sinh sản"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "delayed_estrus",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Premix vitamin khoáng"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "delayed_estrus",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Hormone kích động dục (dùng theo chỉ định thú y)"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "dystocia",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Calcium"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "dystocia",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Thuốc trợ sức - vitamin"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "dystocia",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Thuốc sát trùng dùng ngoài âm hộ"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "infertility_pseudopregnancy",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Hormone GnRH"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "infertility_pseudopregnancy",
+    "field": "treatment.primary_drugs[1]",
+    "value": "PGF2 alpha (thuốc giò động dục)"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "infertility_pseudopregnancy",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Khoáng sinh sản"
+  },
+  {
+    "animal": "pig",
+    "group": "reproductive",
+    "diseaseId": "lepto_abortion",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Streptomycin"
+  },
+  {
+    "animal": "pig",
+    "group": "respiratory",
+    "diseaseId": "prrs",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Kháng sinh kiểm soát nhiễm ghép (Ceftiofur, Florfenicol)"
+  },
+  {
+    "animal": "pig",
+    "group": "respiratory",
+    "diseaseId": "salmonella_respiratory",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Trimethoprim - Sulfonamide"
+  },
+  {
+    "animal": "pig",
+    "group": "respiratory",
+    "diseaseId": "swine_influenza",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Kháng sinh kiểm soát nhiễm ghép (Tylosin, Florfenicol)"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "acidosis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "sodium_bicarbonate"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "bloat",
+    "field": "treatment.primary_drugs[1]",
+    "value": "poloxalene"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "coccidiosis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "sulfadimidine"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "fatty_liver",
+    "field": "treatment.primary_drugs[0]",
+    "value": "choline"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "fatty_liver",
+    "field": "treatment.primary_drugs[1]",
+    "value": "methionine"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "hardware_disease",
+    "field": "treatment.primary_drugs[0]",
+    "value": "penicillin_streptomycin"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "impaction",
+    "field": "treatment.primary_drugs[0]",
+    "value": "paraffin_oil"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "impaction",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "magnesium_sulfate"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "ketosis",
+    "field": "treatment.primary_drugs[0]",
+    "value": "propylene_glycol"
+  },
+  {
+    "animal": "cattle",
+    "group": "digestive",
+    "diseaseId": "ketosis",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "dextrose"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "fasciola",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "phác đồ phối hợp tẩy sán lá gan do thú y chọn theo tình hình địa phương"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "haemonchus",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "closantel kết hợp tẩy giun hút máu"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "haemonchus",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "phác đồ phối hợp tẩy giun do bác sĩ thú y chỉ định"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "lice_infestation",
+    "field": "treatment.primary_drugs[2]",
+    "value": "ivermectin dùng tiêm dưới da theo hướng dẫn"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "lice_infestation",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "các thuốc diệt côn trùng ngoài da khác theo khuyến cáo thú y"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "mange",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "các thuốc diệt ve bét ngoài da khác theo hướng dẫn thú y"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "ostertagia",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "phác đồ tẩy giun dạ múi khế do thú y xây dựng theo tình hình kháng thuốc địa phương"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "paramphistomum",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "phác đồ tẩy sán do thú y lựa chọn phù hợp từng vùng"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "strongyloides",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "levamisole (theo hướng dẫn liều cho bê)"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "strongyloides",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "phác đồ tẩy giun do thú y xây dựng phù hợp từng trại"
+  },
+  {
+    "animal": "cattle",
+    "group": "parasite",
+    "diseaseId": "ticks_infestation",
+    "field": "treatment.alternative_drugs[2]",
+    "value": "các thuốc diệt ve khác theo khuyến cáo thú y địa phương"
+  },
+  {
+    "animal": "chicken",
+    "group": "blood_parasite",
+    "diseaseId": "mixed-blood-parasites",
+    "field": "treatment.primary_drugs[0]",
+    "value": "phac_do_ky_sinh_trung_mau_tong_quat_theo_tu_van_thu_y"
+  },
+  {
+    "animal": "chicken",
+    "group": "digestive",
+    "diseaseId": "necrotic-enteritis",
+    "field": "treatment.primary_drugs[1]",
+    "value": "lincomycin_spectinomycin"
+  },
+  {
+    "animal": "chicken",
+    "group": "digestive",
+    "diseaseId": "salmonellosis-pullorum",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "sulfonamide_systemic"
+  },
+  {
+    "animal": "chicken",
+    "group": "other",
+    "diseaseId": "cold-stress",
+    "field": "treatment.primary_drugs[0]",
+    "value": "xu_ly_nhiet_do_va_ho_tro"
+  },
+  {
+    "animal": "chicken",
+    "group": "other",
+    "diseaseId": "cold-stress",
+    "field": "treatment.primary_drugs[1]",
+    "value": "khong_co_thuoc_dac_hieu_cho_lanh"
+  },
+  {
+    "animal": "chicken",
+    "group": "other",
+    "diseaseId": "mycoplasma-synoviae",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "Tylvalosin"
+  },
+  {
+    "animal": "chicken",
+    "group": "parasite",
+    "diseaseId": "coccidiosis-mixed-chronic",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Sulfa drugs"
+  },
+  {
+    "animal": "chicken",
+    "group": "parasite",
+    "diseaseId": "lice-infestation",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "sulfur_powder"
+  },
+  {
+    "animal": "chicken",
+    "group": "parasite",
+    "diseaseId": "mite-infestation",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "lime_sulfur_spray"
+  },
+  {
+    "animal": "chicken",
+    "group": "parasite",
+    "diseaseId": "scaly-leg-mite",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "lime_sulfur_dip"
+  },
+  {
+    "animal": "chicken",
+    "group": "parasite",
+    "diseaseId": "scaly-leg-mite",
+    "field": "treatment.alternative_drugs[1]",
+    "value": "mineral_oil_topical"
+  },
+  {
+    "animal": "chicken",
+    "group": "reproductive",
+    "diseaseId": "egg-binding",
+    "field": "treatment.primary_drugs[0]",
+    "value": "thuoc_ho_tro_co_bop_theo_tu_van_thu_y"
+  },
+  {
+    "animal": "chicken",
+    "group": "reproductive",
+    "diseaseId": "egg-drop-syndrome",
+    "field": "treatment.primary_drugs[0]",
+    "value": "tinh_chinh_dinh_duong"
+  },
+  {
+    "animal": "chicken",
+    "group": "reproductive",
+    "diseaseId": "egg-drop-syndrome",
+    "field": "treatment.primary_drugs[1]",
+    "value": "chuong_trinh_bo_sung_khoang_va_vitamin"
+  },
+  {
+    "animal": "chicken",
+    "group": "respiratory",
+    "diseaseId": "brooder-pneumonia-severe",
+    "field": "treatment.primary_drugs[0]",
+    "value": "Itraconazole"
+  },
+  {
+    "animal": "chicken",
+    "group": "respiratory",
+    "diseaseId": "brooder-pneumonia-severe",
+    "field": "treatment.alternative_drugs[0]",
+    "value": "Nystatin"
+  },
+  {
+    "animal": "chicken",
+    "group": "respiratory",
+    "diseaseId": "fowl-cholera",
+    "field": "treatment.primary_drugs[1]",
+    "value": "Sulfadimethoxine"
+  }
+]

@@ -3,29 +3,24 @@
   "name": "Chấn thương - Rách da - Va đập ở dê",
   "species": "goat",
   "group": "other",
-
   "summary": "Chấn thương do va đập, rách da, bị vật nhọn đâm hoặc trượt ngã. Nếu không xử lý kịp thời sẽ nhiễm trùng, sưng, áp-xe và chậm lành.",
-
   "causes": [
     "Vật nhọn trong chuồng (đinh, cạnh sắt).",
     "Dê đánh nhau.",
     "Trượt ngã khi nền chuồng trơn.",
     "Mắc kẹt trong khe chuồng."
   ],
-
   "risk_factors": [
     "Chuồng chật, nhiều góc cạnh.",
     "Đinh lộ ra, vách gỗ mục.",
     "Dê đực đánh nhau mùa phối giống."
   ],
-
   "clinical_signs_detailed": [
     "Sưng vùng chấn thương.",
     "Rách da, chảy máu.",
     "Đi khập khiễng nếu trúng chân.",
     "Viêm tấy, mủ nếu nhiễm trùng."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Trầy xước nhẹ.",
@@ -40,7 +35,6 @@
       "Nguy cơ viêm lan rộng."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Amoxicillin",
@@ -48,7 +42,7 @@
     ],
     "alternative_drugs": [
       "Ceftiofur",
-      "Gentamycin"
+      "Gentamicin"
     ],
     "note_drugs": [
       "Không bôi thuốc đỏ đậm đặc lên vết thương sâu.",
@@ -63,7 +57,7 @@
       "electrolyte": [],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": []
     },
@@ -78,7 +72,6 @@
       "Không tự ý đổi thuốc nếu chưa cải thiện."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Vết thương sâu nhưng chưa mủ.",
@@ -99,18 +92,15 @@
     },
     "note": "Vết thương sạch là yếu tố quyết định."
   },
-
   "prevention": [
     "Kiểm tra chuồng thường xuyên, loại bỏ vật nhọn.",
     "Không để đinh lộ.",
     "Không nuôi quá đông.",
     "Tách dê đực hung hăng."
   ],
-
   "notes": [
     "Vết thương nhỏ nếu để bẩn dễ thành áp-xe.",
     "Không băng quá chặt."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

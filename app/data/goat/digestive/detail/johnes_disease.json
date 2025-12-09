@@ -1,20 +1,16 @@
 {
   "name": "Johne's (viêm ruột mạn tính)",
-
   "summary": "Bệnh mạn do Mycobacterium avium subspecies paratuberculosis gây tổn thương ruột kéo dài. Dê tiêu chảy dai dẳng, gầy dần và khó hồi phục.",
-
   "causes": [
     "Vi khuẩn MAP xâm nhập ruột, sống dai trong môi trường",
     "Lây qua phân, sữa, nước uống nhiễm bẩn"
   ],
-
   "risk_factors": [
     "Chuồng trại nhiễm phân lâu ngày",
     "Nuôi chung đàn nhiều lứa tuổi",
     "Dê con bú sữa/ăn thức ăn nhiễm mầm bệnh",
     "Miễn dịch kém do thiếu dinh dưỡng"
   ],
-
   "clinical_signs_detailed": [
     "Tiêu chảy kéo dài từng đợt",
     "Phân lỏng, mùi hôi",
@@ -25,7 +21,6 @@
     "Đàn chậm lớn",
     "Kém sinh sản"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Gầy nhẹ, ăn vẫn được",
@@ -42,7 +37,6 @@
       "Không đáp ứng điều trị"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Oxytetracycline"
@@ -50,33 +44,35 @@
     "alternative_drugs": [
       "Florfenicol"
     ],
-"note_drugs": "Bệnh mạn khó dứt điểm. Thuốc chỉ hỗ trợ kiểm soát tiêu chảy và phục hồi ruột; cần quản lý đàn lâu dài.",
-
+    "note_drugs": "Bệnh mạn khó dứt điểm. Thuốc chỉ hỗ trợ kiểm soát tiêu chảy và phục hồi ruột; cần quản lý đàn lâu dài.",
     "symptomatic_treatment": {
       "digestive_support": {
         "main": "probiotic",
-        "alternative": ["men tiêu hóa"]
+        "alternative": [
+          "Enzyme tiêu hoá"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["điện giải khoáng tổng hợp"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
-        "main": "B-complex",
-        "alternative": ["vitamin tổng hợp"]
+        "main": "Vitamin BC",
+        "alternative": [
+          "Multivitamin tổng hợp"
+        ]
       }
     },
-
     "supportive_care": [
       "Tách con nghi bệnh để giảm lây",
       "Giữ chuồng sạch phân",
       "Tăng chất xơ, giảm tinh",
       "Bổ sung khoáng - vitamin dài ngày"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Chủ yếu điều trị hỗ trợ, đáp ứng thường kém",
@@ -89,17 +85,14 @@
     ],
     "note": "Bệnh mạn, khó dứt điểm, mục tiêu chính là kiểm soát đàn."
   },
-
   "prevention_list": [
     "Giữ chuồng sạch, xử lý phân triệt để",
     "Không dùng phân tươi bón ngay hoặc để gần chuồng",
     "Cách ly - loại thải con tiêu chảy mạn",
     "Không cho dê con bú sữa từ con nghi bệnh"
   ],
-
   "notes": [
     "Dễ nhầm với tiêu chảy do ký sinh trùng, nhưng Johne's kéo dài và gầy dần."
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

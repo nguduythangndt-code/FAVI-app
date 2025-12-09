@@ -41,12 +41,12 @@
   },
   "treatment": {
     "primary_drugs": [
-      "toltrazuril",
-      "diclazuril"
+      "Toltrazuril",
+      "Diclazuril"
     ],
     "alternative_drugs": [
-      "amprolium",
-      "sulfonamide_anticoccidial"
+      "Amprolium",
+      "Toltrazuril"
     ],
     "note_drugs": "Chỉ chọn một phác đồ chống cầu trùng chính và dùng liên tục đủ thời gian theo hướng dẫn. Không đổi thuốc liên tục giữa chừng vì dễ làm giảm hiệu quả và tăng nguy cơ kháng thuốc.",
     "symptomatic_treatment": {

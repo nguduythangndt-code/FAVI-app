@@ -50,23 +50,33 @@
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": ["Ketoprofen"]
+        "alternative": [
+          "Ketoprofen"
+        ]
       },
       "respiratory_support": {
         "main": "Bromhexine",
-        "alternative": ["Ambroxol"]
+        "alternative": [
+          "Ambroxol"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["Glucose-Electrolyte"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
-        "alternative": ["Vitamin C"]
+        "main": "Vitamin BC",
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
-        "main": "Men tiêu hoa",
-        "alternative": ["Probiotic"]
+        "main": "Enzyme tiêu hoá",
+        "alternative": [
+          "Probiotic"
+        ]
       }
     },
     "supportive_care": [

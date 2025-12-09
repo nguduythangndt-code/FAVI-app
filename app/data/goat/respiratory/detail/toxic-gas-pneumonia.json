@@ -3,23 +3,19 @@
   "name": "Viêm phổi do khí độc (NH₃, H₂S) ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phổi do khí độc xảy ra khi dê hít phải nồng độ cao NH₃, H₂S và các khí độc khác từ phân, nước tiểu, hầm biogas rò rỉ. Gây kích ứng mạnh đường hô hấp, phù phổi, khó thở cấp, có thể chết nhanh nếu tiếp xúc nặng.",
-
   "causes": [
     "Chuồng nuôi ít thông thoáng, phân - nước tiểu tích tụ lâu ngày sinh nhiều NH₃.",
     "Hầm biogas rò rỉ khí H₂S vào khu vực chuồng.",
     "Dê bị nhốt trong không gian kín, ít lưu thông không khí.",
     "Nền ướt, độ ẩm cao, vệ sinh chuồng kém."
   ],
-
   "risk_factors": [
     "Chuồng thấp, trần thấp, lỗ thông gió ít.",
     "Không dọn phân, nước tiểu thường xuyên.",
     "Hầm biogas đặt sát chuồng, không kiểm tra rò rỉ.",
     "Mùa mưa kéo dài, độ ẩm cao, ít nắng."
   ],
-
   "clinical_signs_detailed": [
     "Thở nhanh, thở nông, thở gấp.",
     "Ho khan, kích ứng, hắt hơi.",
@@ -28,7 +24,6 @@
     "Một số con đột ngột nằm, co giật, chết nếu hít phải khí nồng độ cao.",
     "Các con nhẹ hơn có thể chuyển thành viêm phổi - phế quản do nhiễm khuẩn kế phát."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Thở nhanh nhẹ, ho khan ít.",
@@ -47,7 +42,6 @@
       "Những con sống sót dễ bị viêm phổi nặng về sau."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Florfenicol",
@@ -73,13 +67,13 @@
         "Guaifenesin"
       ],
       "electrolyte": [
-        "Gluco - điện giải",
-        "ORS"
+        "electrolyte_mix",
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex",
-        "Vitamin tổng hợp"
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
         "Men tiêu hoá cho những con bỏ ăn, gầy nhanh."
@@ -97,7 +91,6 @@
       "Không tự ý phối hợp 2-3 loại kháng sinh mạnh cùng lúc."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê thở gấp, ho nhiều nhưng còn đứng, còn phản xạ.",
@@ -119,7 +112,6 @@
     },
     "note": "Những ca chết hàng loạt đột ngột ở chuồng kín, mùi khai nặng, thường liên quan tới khí độc và thông thoáng kém; cần xử lý gốc chứ không chỉ tập trung vào thuốc."
   },
-
   "prevention": [
     "Thiết kế chuồng cao, nhiều cửa thông gió, không bí hơi.",
     "Dọn phân - nước tiểu hằng ngày, không để ứ đọng lâu.",
@@ -127,11 +119,9 @@
     "Không nhốt dê ở khu vực thấp trũng, kín, không có gió.",
     "Khi bước vào chuồng thấy mùi khai nồng, cay mắt, phải coi đó là tín hiệu nguy hiểm cho cả người lẫn dê."
   ],
-
   "notes": [
     "Khí độc không chỉ làm viêm phổi mà còn làm suy toàn bộ sức đề kháng đàn dê.",
     "Chuồng nào giảm được mùi khai - khí độc, chuồng đó giảm được một nửa bệnh hô hấp."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

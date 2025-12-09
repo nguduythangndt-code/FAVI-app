@@ -42,7 +42,7 @@
     ],
     "alternative_drugs": [
       "levamisole",
-      "ivermectin_internal"
+      "Ivermectin"
     ],
     "note_drugs": "Tẩy giun manh tràng thường dùng chung phác đồ với giun đũa. Chủ yếu là xử lý theo đàn, kết hợp dọn nền và phân để giảm tái nhiễm.",
     "symptomatic_treatment": {
@@ -60,7 +60,7 @@
       },
       "vitamin": {
         "main": "vitamin tổng hợp sau đợt tẩy giun",
-        "alternative": "vitamin nhóm B kích thích ăn"
+        "alternative": "Vitamin BC"
       },
       "digestive_support": {
         "main": "men vi sinh giúp cân bằng lại hệ vi sinh đường ruột",

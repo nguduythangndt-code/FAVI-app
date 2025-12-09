@@ -3,23 +3,19 @@
   "name": "Rối loạn tiêu hoá ở dê",
   "species": "goat",
   "group": "digestive",
-
   "summary": "Rối loạn tiêu hoá ở dê xảy ra khi thức ăn thay đổi đột ngột, dạ cỏ hoạt động kém hoặc do stress. Không nguy hiểm như toan/kiềm dạ cỏ nhưng kéo dài sẽ làm dê yếu và chậm lớn.",
-
   "causes": [
     "Thay đổi thức ăn quá nhanh.",
     "Ăn nhiều tinh bột, ít xơ.",
     "Thức ăn ẩm mốc, lên men mạnh.",
     "Stress, lạnh, vận chuyển xa."
   ],
-
   "risk_factors": [
     "Dê con cai sữa.",
     "Đàn đang thay khẩu phần.",
     "Không có cỏ khô trong khẩu phần.",
     "Chuồng ẩm lạnh."
   ],
-
   "clinical_signs_detailed": [
     "Ăn giảm, nhai lại kém.",
     "Phân lúc sệt lúc lỏng, có mùi chua.",
@@ -27,7 +23,6 @@
     "Lông xù, giảm hoạt động.",
     "Kéo dài gây gầy, chậm lớn."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ăn giảm nhẹ.",
@@ -43,17 +38,16 @@
       "Nếu không xử lý sẽ chuyển sang toan dạ cỏ."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "Men tiêu hoá dạ cỏ.",
+      "Enzyme tiêu hoá",
       "Probiotics hỗ trợ hệ vi sinh.",
       "Chế phẩm bảo vệ niêm mạc ruột."
     ],
     "alternative_drugs": [
       "Vitamin B1",
-      "B-complex",
-      "Điện giải nhẹ",
+      "Vitamin BC",
+      "electrolyte_mix",
       "Thảo dược hỗ trợ tiêu hoá"
     ],
     "note_drugs": [
@@ -64,16 +58,16 @@
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Điện giải nhẹ"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
-        "B-complex",
+        "Vitamin BC",
         "Vitamin C"
       ],
       "digestive_support": [
-        "Men tiêu hoá",
-        "Niêm mạc ruột"
+        "Enzyme tiêu hoá",
+        "Pectin - Kaolin"
       ]
     },
     "supportive_care": [
@@ -87,7 +81,6 @@
       "Không tự ý trộn nhiều loại men."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê rối loạn vừa, còn đi lại.",
@@ -107,18 +100,15 @@
     },
     "note": "Rối loạn tiêu hoá kéo dài làm dê chậm lớn; cần điều chỉnh khẩu phần ngay."
   },
-
   "prevention": [
     "Thay đổi thức ăn từ từ.",
     "Luôn có cỏ khô trong khẩu phần.",
     "Không cho ăn nhiều phụ phẩm lên men mạnh.",
     "Tránh cho ăn khi dê quá đói."
   ],
-
   "notes": [
     "Bệnh không nguy hiểm nhưng kéo dài rất hao đàn.",
     "Hệ vi sinh dạ cỏ nhạy cảm, nên dùng men đều."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo."
 }

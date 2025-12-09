@@ -11,7 +11,10 @@
   "lint": "eslint .",
   "build:goat-search-index": "node scripts/buildDiseaseSearchIndex.js",
   "build:disease-registry": "node scripts/buildDiseaseRegistry.js",
-  "build:drug-registry": "node scripts/buildDrugRegistry.js"
+  "build:drug-registry": "node scripts/buildDrugRegistry.js",
+  "fix:drug": "node scripts/fixDrugString.js",
+  "scan:treatment-drugs": "node scripts/scanTreatmentDrugs.js",
+  "sum:unmapped-drugs": "node scripts/summarizeUnmappedDrugs.js"
 },
 
   "dependencies": {

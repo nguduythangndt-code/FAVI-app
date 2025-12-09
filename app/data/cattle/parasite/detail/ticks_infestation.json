@@ -46,30 +46,30 @@
     "primary_drugs": [
       "ivermectin",
       "doramectin",
-      "moxidectin",
-      "amitraz dùng tắm hoặc phun ngoài da"
+      "Moxidectin",
+      "Amitraz"
     ],
     "alternative_drugs": [
-      "deltamethrin dùng dạng pour-on hoặc phun",
-      "cypermethrin dùng dạng pour-on hoặc phun",
+      "Deltamethrin",
+      "Cypermethrin",
       "các thuốc diệt ve khác theo khuyến cáo thú y địa phương"
     ],
     "note_drugs": "Điều trị ve cần xử lý đồng thời trên bò và môi trường chuồng. Không lạm dụng một loại thuốc duy nhất trong thời gian dài để tránh kháng thuốc. Với bò sữa, cần đọc kỹ thời gian ngưng thuốc trước khi vắt sữa bán.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin khi bò đau, sốt hoặc viêm da nặng",
-        "alternative": "meloxicam theo tư vấn thú y"
+        "alternative": "Meloxicam"
       },
       "respiratory_support": {
         "main": "",
         "alternative": ""
       },
       "electrolyte": {
-        "main": "dung dịch điện giải uống khi bò mệt, ăn kém",
+        "main": "Oresol (điện giải uống)",
         "alternative": "truyền dịch hỗ trợ do thú y thực hiện ở ca suy kiệt"
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "multivitamin kết hợp khoáng để hỗ trợ hồi phục"
       },
       "digestive_support": {

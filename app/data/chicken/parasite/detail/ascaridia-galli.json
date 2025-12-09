@@ -45,7 +45,7 @@
     ],
     "alternative_drugs": [
       "levamisole",
-      "ivermectin_internal"
+      "Ivermectin"
     ],
     "note_drugs": "Chọn một thuốc tẩy giun phù hợp và dùng đúng liệu trình. Thường điều trị lặp lại sau một khoảng thời gian theo tư vấn thú y để cắt vòng đời giun.",
     "symptomatic_treatment": {
@@ -63,7 +63,7 @@
       },
       "vitamin": {
         "main": "vitamin tổng hợp giúp đàn hồi sức sau khi tẩy giun",
-        "alternative": "vitamin nhóm B kích thích ăn trở lại"
+        "alternative": "Vitamin BC"
       },
       "digestive_support": {
         "main": "men vi sinh giúp ổn định tiêu hóa sau khi giun bị tống ra",

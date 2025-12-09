@@ -1,8 +1,14 @@
 {
   "name": "Viêm dạ dày ruột truyền nhiễm (TGE)",
   "summary": "Bệnh coronavirus gây nôn - tiêu chảy nước rất nặng, chết cao ở heo con.",
-  "causes": ["Virus TGE lây qua phân, dụng cụ, người, chim chuột"],
-  "risk_factors": ["Trại chưa có miễn dịch", "Mùa lạnh", "Heo con <3 tuần tuổi"],
+  "causes": [
+    "Virus TGE lây qua phân, dụng cụ, người, chim chuột"
+  ],
+  "risk_factors": [
+    "Trại chưa có miễn dịch",
+    "Mùa lạnh",
+    "Heo con <3 tuần tuổi"
+  ],
   "clinical_signs_detailed": [
     "Nôn đột ngột",
     "Tiêu chảy nước xối",
@@ -11,28 +17,78 @@
     "Heo con chết hàng loạt"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Nôn nhẹ", "Tiêu chảy loãng"],
-    "moderate": ["Tiêu chảy nhiều", "Mất nước"],
-    "severe": ["Mất nước kiệt", "Chết nhanh"]
+    "mild": [
+      "Nôn nhẹ",
+      "Tiêu chảy loãng"
+    ],
+    "moderate": [
+      "Tiêu chảy nhiều",
+      "Mất nước"
+    ],
+    "severe": [
+      "Mất nước kiệt",
+      "Chết nhanh"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["ORS", "Probiotic"],
-    "alternative_drugs": ["Florfenicol", "Vitamin C"],
+    "primary_drugs": [
+      "Oresol (điện giải uống)",
+      "Probiotic"
+    ],
+    "alternative_drugs": [
+      "Florfenicol",
+      "Vitamin C"
+    ],
     "note_drugs": "Không có thuốc diệt TGE. ORS là chủ lực; kháng sinh chỉ chống bội nhiễm.",
     "symptomatic_treatment": {
-      "electrolyte": {"main": "ORS", "alternative": []},
-      "digestive_support": {"main": "Probiotic", "alternative": ["men tiêu hóa"]},
-      "vitamin": {"main": "Vitamin C", "alternative": ["B-complex"]}
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": "Probiotic",
+        "alternative": [
+          "Enzyme tiêu hoá"
+        ]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
-    "supportive_care": ["Giữ ấm tuyệt đối cho heo con", "Tăng sữa mẹ/ghép mẹ"],
+    "supportive_care": [
+      "Giữ ấm tuyệt đối cho heo con",
+      "Tăng sữa mẹ/ghép mẹ"
+    ],
     "dose_policy": "Theo nhãn hoặc thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": {"description": "Heo con tiêu chảy nước", "guideline": ["ORS liên tục", "Giữ ấm", "Cách ly"]},
-    "case_type_2": {"description": "Mất nước nặng", "guideline": ["Trợ sức mạnh", "Báo thú y"]},
+    "case_type_1": {
+      "description": "Heo con tiêu chảy nước",
+      "guideline": [
+        "ORS liên tục",
+        "Giữ ấm",
+        "Cách ly"
+      ]
+    },
+    "case_type_2": {
+      "description": "Mất nước nặng",
+      "guideline": [
+        "Trợ sức mạnh",
+        "Báo thú y"
+      ]
+    },
     "note": "Heo con rất nhỏ thường khó cứu."
   },
-  "prevention_list": ["Biosecurity", "All-in/all-out", "Tạo miễn dịch nái để truyền sữa"],
-  "notes": ["TGE rất giống PED, cần xét nghiệm khi bùng phát."],
+  "prevention_list": [
+    "Biosecurity",
+    "All-in/all-out",
+    "Tạo miễn dịch nái để truyền sữa"
+  ],
+  "notes": [
+    "TGE rất giống PED, cần xét nghiệm khi bùng phát."
+  ],
   "disclaimer": "Thông tin tham khảo."
 }

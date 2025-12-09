@@ -1,0 +1,39 @@
+{
+  "id": "moxidectin",
+  "name": "Moxidectin",
+  "group": "antiparasitic_internal",
+  "mechanism": "Moxidectin thuộc nhóm macrocyclic lactone, gắn vào kênh ion của ký sinh trùng, làm tê liệt thần kinh – cơ và giết giun, một số ve và ký sinh trùng ngoài da.",
+  "clinical_uses": [
+    "Tẩy giun tròn đường tiêu hoá ở dê, bò, heo.",
+    "Hỗ trợ kiểm soát một số ký sinh trùng ngoài da nhạy cảm (tuỳ dạng chế phẩm).",
+    "Áp dụng trong chương trình tẩy giun định kỳ ở đàn có nguy cơ cao."
+  ],
+  "pros": [
+    "Phổ tác dụng rộng trên nhiều loại giun tròn, đôi khi cả ký sinh ngoài da.",
+    "Thời gian tác dụng kéo dài hơn nhiều thuốc tẩy giun cổ điển.",
+    "Tiện cho chương trình kiểm soát ký sinh trùng theo định kỳ."
+  ],
+  "cons": [
+    "Nguy cơ kháng thuốc nếu dùng lặp lại cùng một nhóm quá nhiều.",
+    "Có thể độc với một số giống chó/mèo nhạy cảm (vấn đề chung của nhóm macrocyclic lactone).",
+    "Cần tuân thủ chặt thời gian ngừng thuốc trước khi giết mổ (theo nhãn) – không ghi trong app."
+  ],
+  "mild_side_effects": [
+    "Một số con có thể mệt nhẹ sau tẩy giun.",
+    "Hiếm gặp phản ứng do giun chết nhiều cùng lúc (bứt rứt, rối loạn nhẹ)."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng theo nhãn hoặc chỉ định thú y, tránh tự ý tăng liều.",
+    "Luân phiên nhóm thuốc tẩy giun sau vài đợt để giảm nguy cơ kháng.",
+    "Dọn phân sau tẩy và quản lý đồng cỏ, chuồng trại để hạn chế tái nhiễm."
+  ],
+  "when_not_to_use": [
+    "Động vật suy kiệt nặng, mất nước nặng chưa được hồi sức.",
+    "Không tẩy giun đồng loạt khi đàn đang sốc nhiệt, đói kéo dài hoặc mới vận chuyển xa.",
+    "Không dùng chồng chéo với các thuốc cùng nhóm nếu không có chỉ định rõ."
+  ],
+  "alternative_drugs": [
+    "Albendazole hoặc fenbendazole trong các chương trình tẩy giun luân phiên.",
+    "Ivermectin tuỳ tình huống và chỉ định thú y."
+  ]
+}

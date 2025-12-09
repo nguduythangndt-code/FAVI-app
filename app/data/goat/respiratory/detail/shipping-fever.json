@@ -3,23 +3,19 @@
   "name": "Viêm phổi do stress / vận chuyển ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phổi do stress (shipping fever) xảy ra sau khi vận chuyển xa, dồn ép, nhốt chật hoặc thay đổi môi trường đột ngột. Bệnh thường là sự kết hợp giữa stress nặng + nhiễm Pasteurella/Mycoplasma, làm phổi tổn thương nhanh.",
-
   "causes": [
     "Vận chuyển xa trong thời tiết nóng - lạnh thất thường.",
     "Nhốt chật, thiếu oxy, bí hơi trong xe.",
     "Ghép đàn mới, bị dồn ép hoặc đánh bắt mạnh tay.",
     "Khẩu phần thay đổi đột ngột sau khi nhập đàn."
   ],
-
   "risk_factors": [
     "Dê hậu bị, dê thịt mới mua.",
     "Đường vận chuyển dài > 2-3 giờ.",
     "Xe kín, bí, nóng hoặc ẩm.",
     "Dê đang suy, thiếu khoáng - vitamin."
   ],
-
   "clinical_signs_detailed": [
     "Sốt ngay sau ngày vận chuyển hoặc sau 24-48 giờ.",
     "Thở nhanh, thở bụng, ho từng cơn.",
@@ -27,7 +23,6 @@
     "Lờ đờ, đứng tách đàn.",
     "Một số con trở nặng rất nhanh giống tụ huyết trùng cấp."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho nhẹ, thở nhanh khi vận động.",
@@ -44,7 +39,6 @@
       "Nguy cơ chết nếu không xử lý kịp."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Florfenicol",
@@ -70,15 +64,15 @@
         "Guaifenesin"
       ],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho những con bỏ ăn."
+        "Enzyme tiêu hoá"
       ]
     },
     "supportive_care": [
@@ -93,7 +87,6 @@
       "Không tự ý tăng liều tulathromycin hoặc enrofloxacin."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê nặng nhưng còn đứng.",
@@ -115,7 +108,6 @@
     },
     "note": "Shipping fever là dạng viêm phổi ghép. Chống stress + hỗ trợ đúng cách là chìa khoá hạn chế nặng."
   },
-
   "prevention": [
     "Không vận chuyển xa khi trời mưa lạnh hoặc nắng gắt.",
     "Xe phải thoáng, không kín hơi.",
@@ -123,11 +115,9 @@
     "Bổ sung vitamin - điện giải trước và sau vận chuyển.",
     "Cách ly dê mới mua 7-10 ngày."
   ],
-
   "notes": [
     "Nhiều đàn bị bùng viêm phổi sau khi nhập dê mới về.",
     "Stress là nguyên nhân gốc - nếu không giải quyết, bệnh tái hoài."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

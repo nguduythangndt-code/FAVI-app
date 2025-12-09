@@ -3,23 +3,19 @@
   "name": "Viêm phổi do hít sặc ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phổi do hít sặc xảy ra khi thức ăn, sữa hoặc nước lọt vào khí quản - phổi. Gặp nhiều ở dê con bú bình, dê yếu, hoặc sau các đợt sặc thức ăn. Bệnh tiến triển nhanh và nguy hiểm nếu không xử lý đúng.",
-
   "causes": [
     "Cho dê con bú bình sai tư thế, dòng sữa chảy quá mạnh.",
     "Dê con sặc khi bú mẹ do đầu - cổ bị kẹp.",
     "Dê lớn bị sặc nước hoặc thức ăn dạng bột.",
     "Hít phải dịch nôn, nước bẩn."
   ],
-
   "risk_factors": [
     "Dê con 1-30 ngày tuổi.",
     "Dê yếu, phản xạ bú kém.",
     "Bú bình không đúng kỹ thuật.",
     "Dê lớn ăn quá nhanh."
   ],
-
   "clinical_signs_detailed": [
     "Ho mạnh ngay sau sặc.",
     "Thở rít hoặc thở khó.",
@@ -27,7 +23,6 @@
     "Sốt sau 2-12 giờ do viêm phổi hóa học.",
     "Nặng: nằm, thở ngáp, tử vong."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho sau sặc nhưng thở bình thường trở lại.",
@@ -44,7 +39,6 @@
       "Nguy cơ tử vong cao."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
@@ -53,7 +47,7 @@
     ],
     "alternative_drugs": [
       "Amoxicillin (ca nhẹ - vừa)",
-      "Enrofloxacin (theo thú y)"
+      "Enrofloxacin"
     ],
     "note_drugs": [
       "Không dùng doxycycline hoặc tylosin đơn lẻ cho hít sặc (hiệu quả thấp)."
@@ -68,12 +62,12 @@
         "Guaifenesin"
       ],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": []
     },
@@ -89,7 +83,6 @@
       "Không tự ý đổi thuốc trong 24 giờ đầu."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Ho nhiều, thở nhanh nhưng còn đứng.",
@@ -110,18 +103,15 @@
     },
     "note": "Hít sặc dễ gây chết ở dê con - phòng quan trọng hơn chữa."
   },
-
   "prevention": [
     "Cho bú bình đúng tư thế: đầu cao vừa, không để sữa chảy quá mạnh.",
     "Không ép bú khi dê con yếu.",
     "Không cho dê lớn ăn thức ăn bột khô khi quá đói.",
     "Giữ nền sạch để tránh dê hít phải dị vật."
   ],
-
   "notes": [
     "Hầu hết ca hít sặc ở dê con đến từ bú bình sai tư thế.",
     "Cần hướng dẫn kỹ cho người chăm sóc."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

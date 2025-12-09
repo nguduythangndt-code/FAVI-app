@@ -7,6 +7,7 @@
   { "id": "antiparasitic_external",    "name": "Ký sinh trùng ngoài" },
   { "id": "respiratory_support",       "name": "Hỗ trợ hô hấp" },
   { "id": "digestive_support",         "name": "Hỗ trợ tiêu hoá - đường ruột" },
-  { "id": "blood_parasite",            "name": "Ký sinh trùng máu" }
-  
+  { "id": "blood_parasite",            "name": "Ký sinh trùng máu" },
+  { "id": "hormone",                   "name": "Hormone sinh sản"},
+  { "id": "disinfectant_hygiene",      "name": "thuốc khử trùng - sát trùng"}
 ]

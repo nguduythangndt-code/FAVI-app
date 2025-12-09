@@ -3,16 +3,13 @@
   "name": "Viêm phổi do virus hợp bào hô hấp (BRSV)",
   "species": "cattle",
   "group": "respiratory",
-
   "summary": "Bệnh viêm phổi do virus hợp bào hô hấp (BRSV), thường gây khó thở nặng, thở bụng rõ và dễ bội nhiễm vi khuẩn. Nếu không phát hiện sớm, bê và bò trẻ rất dễ suy hô hấp và kiệt sức.",
-
   "causes": [
     "Nhiễm virus BRSV qua đường hô hấp",
     "Mật độ nuôi dày, thông gió kém làm virus lan nhanh trong đàn",
     "Bội nhiễm vi khuẩn hô hấp khi niêm mạc đường thở bị tổn thương",
     "Stress, thay đổi thời tiết, vận chuyển hoặc ghép đàn làm giảm đề kháng"
   ],
-
   "risk_factors": [
     "Bê cai sữa, bò trẻ, đàn nuôi tập trung đông",
     "Chuồng ẩm, bí, không có lưu thông không khí tốt",
@@ -20,7 +17,6 @@
     "Nhập đàn mới mà không cách ly kiểm tra",
     "Thay đổi thời tiết nóng - lạnh đột ngột"
   ],
-
   "clinical_signs_detailed": [
     "Sốt, bỏ ăn, mệt mỏi, lù rù, tách đàn",
     "Thở nhanh, thở bụng rõ, hai bên hông phập phồng mạnh",
@@ -31,7 +27,6 @@
     "Giảm tăng trọng rõ rệt ở bê, giảm sữa ở bò sữa",
     "Trường hợp nặng thở dốc, nằm nhiều, dễ suy hô hấp"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ, giảm ăn ít",
@@ -51,7 +46,6 @@
       "Nguy cơ suy hô hấp và chết nếu không xử lý kịp"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "florfenicol",
@@ -62,7 +56,6 @@
       "enrofloxacin"
     ],
     "note_drugs": "Kháng sinh chỉ có tác dụng kiểm soát bội nhiễm vi khuẩn, không diệt được virus. Cần dùng đủ thời gian, tránh ngừng sớm khi mới hết sốt.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -73,19 +66,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Nhốt riêng bò bệnh ở nơi yên tĩnh, thoáng khí, khô sạch",
       "Bổ sung nước và điện giải nhiều lần trong ngày",
@@ -93,10 +85,8 @@
       "Giảm stress tối đa: hạn chế tiếng ồn, xua đuổi, thay đổi đàn",
       "Theo dõi hằng ngày nhịp thở, thân nhiệt, mức độ ăn uống"
     ],
-
     "dose_policy": "Thuốc dùng theo liều trên nhãn hoặc theo hướng dẫn thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bê hoặc bò trẻ thở bụng rõ, vẫn còn đứng được nhưng rất mệt.",
@@ -118,7 +108,6 @@
     },
     "note": "BRSV có thể gây tổn thương phổi nặng. Việc phát hiện sớm và giảm stress cho đàn rất quan trọng."
   },
-
   "prevention": [
     "Tiêm phòng các bệnh hô hấp theo khuyến cáo tại địa phương",
     "Quản lý mật độ nuôi hợp lý, tránh nhốt quá dày",
@@ -126,12 +115,10 @@
     "Cách ly và theo dõi bò mới nhập đàn trước khi nhập chung",
     "Bổ sung khoáng, vitamin cho bê và bò trẻ trong giai đoạn giao mùa"
   ],
-
   "notes": [
     "Nếu thấy nhiều con cùng ho, chảy nước mũi, khó thở trong thời gian ngắn, cần nghĩ nhiều đến tác nhân virus.",
     "Kháng sinh không chữa được nguyên nhân virus nhưng giúp tránh bội nhiễm nặng.",
     "Luôn kết hợp điều chỉnh chuồng trại, mật độ, thông gió cùng với điều trị thuốc."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

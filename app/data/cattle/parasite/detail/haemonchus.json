@@ -49,7 +49,7 @@
       "albendazole",
       "fenbendazole",
       "ivermectin",
-      "moxidectin"
+      "Moxidectin"
     ],
     "alternative_drugs": [
       "levamisole",
@@ -71,11 +71,11 @@
         "alternative": "dung dịch bù nước - điện giải truyền tĩnh mạch theo chỉ định thú y"
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "multivitamin kết hợp khoáng tổng hợp"
       },
       "digestive_support": {
-        "main": "men tiêu hóa cho bò",
+        "main": "Enzyme tiêu hoá",
         "alternative": "chế phẩm vi sinh đường ruột giúp phục hồi tiêu hóa"
       }
     },

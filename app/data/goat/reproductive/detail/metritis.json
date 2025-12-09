@@ -3,9 +3,7 @@
   "name": "Viêm tử cung ở dê",
   "species": "goat",
   "group": "reproductive",
-
   "summary": "Viêm tử cung thường xảy ra sau khi đẻ khó, sót nhau, can thiệp đỡ đẻ không vô trùng hoặc nhiễm khuẩn từ môi trường. Dê có mùi hôi âm hộ, dịch bẩn, sốt, ăn giảm và sản lượng sữa giảm mạnh.",
-
   "causes": [
     "Đẻ khó, can thiệp đỡ đẻ bằng tay không vệ sinh.",
     "Sót nhau hoặc nhau bong chậm.",
@@ -13,14 +11,12 @@
     "Nhiễm khuẩn sau sảy thai.",
     "Dê suy yếu sau đẻ."
   ],
-
   "risk_factors": [
     "Chuồng ẩm, bẩn.",
     "Đỡ đẻ không dụng cụ vô trùng.",
     "Thiếu khoáng - vitamin cuối thai kỳ.",
     "Đẻ kéo dài."
   ],
-
   "clinical_signs_detailed": [
     "Âm hộ chảy dịch đục, vàng, nâu hoặc hôi.",
     "Sốt, ăn giảm, lờ đờ.",
@@ -28,7 +24,6 @@
     "Tử cung căng, đau khi sờ.",
     "Trong trường hợp nặng có thể nhiễm trùng huyết."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Dịch âm hộ đục, mùi nhẹ.",
@@ -44,7 +39,6 @@
       "Nguy cơ nhiễm trùng huyết."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
@@ -67,12 +61,12 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex",
+        "Vitamin BC",
         "Khoáng - vitamin tổng hợp"
       ],
       "digestive_support": [
@@ -90,7 +84,6 @@
       "Không dừng thuốc sớm khi mới thấy đỡ."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dịch hôi, sốt nhưng còn đứng.",
@@ -112,18 +105,15 @@
     },
     "note": "Viêm tử cung xử lý sớm sẽ hồi nhanh; để nặng dễ giảm khả năng sinh sản lâu dài."
   },
-
   "prevention": [
     "Đỡ đẻ vô trùng, vệ sinh tay - dụng cụ.",
     "Giữ chuồng sạch, khô, lót nền mới cho dê đẻ.",
     "Bổ sung khoáng - vitamin cuối thai kỳ.",
     "Kiểm tra nhau sau đẻ để phát hiện sót."
   ],
-
   "notes": [
     "Ca viêm nặng thường do môi trường xấu.",
     "Đàn có nhiều ca lặp lại cần xem lại quy trình đỡ đẻ."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

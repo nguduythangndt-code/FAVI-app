@@ -3,22 +3,18 @@
   "name": "Nhiễm độc clostridium gây tiêu chảy cấp",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Nhiễm độc clostridium là thể tiêu chảy cấp rất nặng. Bò sốt, đau bụng, tiêu chảy nặng, có thể chết nhanh do độc tố và mất nước nếu không xử lý sớm.",
-
   "causes": [
     "Vi khuẩn Clostridium trong ruột tăng sinh mạnh khi điều kiện thuận lợi",
     "Khẩu phần đột ngột nhiều tinh bột, ít xơ",
     "Thay đổi thức ăn quá nhanh làm rối loạn hệ vi sinh ruột"
   ],
-
   "risk_factors": [
     "Bò được cho ăn nhiều tinh bột đột ngột",
     "Thay khẩu phần gấp trong 1 - 2 ngày",
     "Chuồng trại bẩn, nhiều mầm bệnh",
     "Bê và bò tơ, hệ tiêu hoá chưa ổn định"
   ],
-
   "clinical_signs_detailed": [
     "Sốt hoặc thân nhiệt dao động",
     "Ăn rất kém hoặc bỏ ăn hoàn toàn",
@@ -27,7 +23,6 @@
     "Mất nước, mắt trũng, da mất đàn hồi",
     "Một số ca có thể chết nhanh trong thời gian ngắn nếu không được hỗ trợ"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Tiêu chảy mới xuất hiện",
@@ -45,7 +40,6 @@
       "Bò nằm nhiều, yếu, có thể chết nhanh"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "oxytetracycline"
@@ -54,7 +48,6 @@
       "ceftiofur"
     ],
     "note_drugs": "Kháng sinh chỉ là một phần, mấu chốt là bù nước và điện giải kịp thời. Không dùng thuốc cầm tiêu chảy bừa bãi làm giữ độc tố trong ruột.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -65,19 +58,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Ngừng ngay thức ăn tinh, chỉ cho ăn cỏ dễ tiêu trong giai đoạn cấp",
       "Bù nước và điện giải chia nhiều lần trong ngày",
@@ -85,10 +77,8 @@
       "Theo dõi số lần tiêu chảy và mức tỉnh táo của con vật",
       "Nếu có thể, mời thú y hỗ trợ trong ca nặng để đánh giá khả năng truyền dịch"
     ],
-
     "dose_policy": "Điện giải, kháng sinh và các thuốc hỗ trợ khác dùng theo liều khuyến cáo trên nhãn hoặc theo tư vấn thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò tiêu chảy nặng nhưng vẫn đứng và uống nước được.",
@@ -110,19 +100,16 @@
     },
     "note": "Clostridial enterotoxemia có thể làm chết nhanh. Càng phát hiện sớm và bù nước sớm thì cơ hội sống càng cao."
   },
-
   "prevention": [
     "Không thay khẩu phần đột ngột, luôn chuyển dần trong vài ngày",
     "Không cho ăn quá nhiều tinh bột trong một bữa",
     "Giữ chuồng khô, sạch, hạn chế mầm bệnh tích tụ",
     "Bổ sung men tiêu hoá trong giai đoạn chuyển khẩu phần, đặc biệt ở bê và bò tơ"
   ],
-
   "notes": [
     "Tiêu chảy cấp kèm mất nước nhanh là điểm nổi bật.",
     "Các đợt thay đổi thức ăn là thời điểm dễ bùng bệnh nhất.",
     "Ghi lại thay đổi khẩu phần trước khi bò phát bệnh để rút kinh nghiệm cho đàn."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

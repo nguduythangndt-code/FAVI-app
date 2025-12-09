@@ -1,13 +1,10 @@
 {
   "name": "Nhiễm độc ruột type D (Enterotoxemia)",
-
   "summary": "Bệnh do Clostridium gây ra, thường xuất hiện sau ăn quá nhiều tinh bột/đổi thức ăn đột ngột. Tiến triển cực nhanh, dê có thể chết trong thời gian ngắn.",
-
   "causes": [
     "Clostridium perfringens type D phát triển mạnh trong ruột",
     "Tạo độc tố làm tổn thương ruột và thần kinh"
   ],
-
   "risk_factors": [
     "Ăn quá nhiều cám, bột ngô, thức ăn giàu tinh",
     "Đổi khẩu phần đột ngột",
@@ -15,7 +12,6 @@
     "Thiếu xơ, ăn dồn bữa",
     "Chuồng bẩn làm tăng nhiễm khuẩn"
   ],
-
   "clinical_signs_detailed": [
     "Đang khỏe tự nhiên bỏ ăn",
     "Đau bụng, đá bụng, bứt rứt",
@@ -29,7 +25,6 @@
     "Thở nhanh",
     "Chết đột ngột"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ăn giảm, hơi chướng bụng",
@@ -45,7 +40,6 @@
       "Suy kiệt rất nhanh, có thể chết đột ngột"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Penicillin",
@@ -55,37 +49,42 @@
       "Amoxicillin",
       "Oxytetracycline"
     ],
-"note_drugs": "Ưu tiên kháng sinh sớm để chặn Clostridium và giảm độc tố. Than hoạt tính/men tiêu hoá chỉ hỗ trợ, không thay thế điều trị chính.",
-
+    "note_drugs": "Ưu tiên kháng sinh sớm để chặn Clostridium và giảm độc tố. Than hoạt tính/men tiêu hoá chỉ hỗ trợ, không thay thế điều trị chính.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": ["Meloxicam"]
+        "alternative": [
+          "Meloxicam"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["điện giải khoáng tổng hợp"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "digestive_support": {
-        "main": "than hoạt tính",
-        "alternative": ["men tiêu hóa", "probiotic"]
+        "main": "Than hoạt tính (giải độc tiêu hoá)",
+        "alternative": [
+          "Enzyme tiêu hoá",
+          "probiotic"
+        ]
       },
       "vitamin": {
-        "main": "B-complex",
-        "alternative": ["vitamin tổng hợp"]
+        "main": "Vitamin BC",
+        "alternative": [
+          "Multivitamin tổng hợp"
+        ]
       }
     },
-
     "supportive_care": [
       "Ngưng ngay thức ăn tinh, chỉ cho ăn cỏ khô",
       "Xoa bóp bụng, cho vận động nhẹ nếu còn đứng được",
       "Bù nước - điện giải liên tục",
       "Giữ ấm và theo dõi sát"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Xử lý càng sớm càng tốt, ưu tiên kháng sinh và kháng độc tố",
@@ -98,7 +97,6 @@
     ],
     "note": "Bệnh chết rất nhanh, trễ xử lý thường không kịp."
   },
-
   "prevention_list": [
     "Tiêm phòng Clostridium định kỳ",
     "Không cho ăn tinh quá mức",
@@ -106,10 +104,8 @@
     "Luôn có đủ cỏ khô/xơ",
     "Giữ máng ăn sạch"
   ],
-
   "notes": [
     "Hay xảy ra sau bữa ăn dồn hoặc ăn cám nhiều."
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

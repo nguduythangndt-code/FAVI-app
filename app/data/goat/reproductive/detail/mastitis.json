@@ -3,23 +3,19 @@
   "name": "Viêm vú ở dê",
   "species": "goat",
   "group": "reproductive",
-
   "summary": "Viêm vú là bệnh phổ biến ở dê mẹ nuôi con hoặc đang vắt sữa. Bầu vú sưng, nóng, đau, sữa đổi màu. Nếu không xử lý kịp có thể thành áp-xe hoặc mất khả năng tiết sữa.",
-
   "causes": [
     "Nhiễm khuẩn từ da, môi trường, vắt sữa không vệ sinh.",
     "Chấn thương bầu vú do dê con bú mạnh hoặc vật cứng.",
     "Đọng sữa lâu không vắt hết.",
     "Nhiễm lạnh đột ngột."
   ],
-
   "risk_factors": [
     "Dê sữa cho năng suất cao.",
     "Chuồng ẩm, bẩn.",
     "Vắt sữa không rửa sạch tay và núm vú.",
     "Dê con cắn núm vú."
   ],
-
   "clinical_signs_detailed": [
     "Vú sưng, nóng, đỏ, rất đau khi chạm vào.",
     "Sữa loãng, vàng, lợn cợn hoặc có máu.",
@@ -27,7 +23,6 @@
     "Dê mẹ đá con vì đau.",
     "Trường hợp nặng: áp-xe vú, mất sữa."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Vú cứng nhẹ, đau nhẹ.",
@@ -44,12 +39,11 @@
       "Nguy cơ hoại tử vú."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
       "Amoxicillin",
-      "Enrofloxacin (theo thú y)"
+      "Enrofloxacin"
     ],
     "alternative_drugs": [
       "Oxytetracycline",
@@ -67,12 +61,12 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "Vitamin tổng hợp"
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
         "Men tiêu hoá (dê đang giảm ăn)."
@@ -89,7 +83,6 @@
       "Không tự ý đổi thuốc trong 24 giờ đầu."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Vú sưng nóng, sữa đổi màu, dê còn ăn.",
@@ -110,18 +103,15 @@
     },
     "note": "Nếu viêm vú tái lặp → kiểm tra quy trình vệ sinh và điều kiện chuồng."
   },
-
   "prevention": [
     "Vắt sữa sạch sẽ, tay - núm vú phải rửa trước khi vắt.",
     "Giữ chuồng khô, lót nền sạch.",
     "Không để dê con cắn núm vú.",
     "Kiểm tra bầu vú mỗi ngày khi nuôi con."
   ],
-
   "notes": [
     "Viêm vú nhẹ nếu xử lý sớm sẽ khỏi nhanh.",
     "Áp-xe vú thường phải điều trị lâu hoặc mất hẳn khả năng tiết sữa."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

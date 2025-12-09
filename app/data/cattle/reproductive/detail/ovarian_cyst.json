@@ -3,23 +3,19 @@
   "name": "Nang buồng trứng",
   "species": "cattle",
   "group": "reproductive",
-
   "summary": "Nang buồng trứng làm rối loạn động dục, bò khó lên giống hoặc lên giống liên tục nhưng không đậu thai. Bệnh tiến triển âm thầm và thường gặp ở bò sữa năng suất cao.",
-
   "causes": [
     "Rối loạn hormone sau đẻ",
     "Stress, dinh dưỡng kém",
     "Viêm tử cung kéo dài",
     "Mất cân bằng năng lượng"
   ],
-
   "risk_factors": [
     "Bò sữa năng suất cao",
     "Chu kỳ động dục thất thường",
     "Thiếu khoáng và vi lượng",
     "Viêm tử cung hoặc sót nhau trước đó"
   ],
-
   "clinical_signs_detailed": [
     "Lên giống liên tục nhưng không đậu thai",
     "Hoặc chậm lên giống kéo dài",
@@ -27,7 +23,6 @@
     "Bò giảm sữa và thể trạng",
     "Một số con hiếu động bất thường"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Chậm lên giống",
@@ -42,16 +37,14 @@
       "Gầy dần, giảm sữa"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "vitamin_bc"
+      "Vitamin BC"
     ],
     "alternative_drugs": [
-      "electrolyte"
+      "electrolyte_mix"
     ],
     "note_drugs": "Thuốc hỗ trợ giúp bò hồi phục thể trạng. Điều trị nang cần thú y kiểm tra và can thiệp đúng kỹ thuật nếu có điều kiện.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -62,29 +55,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Cải thiện khẩu phần dinh dưỡng",
       "Theo dõi chu kỳ động dục",
       "Giảm stress và giữ chuồng yên tĩnh",
       "Không ép phối giống liên tục"
     ],
-
     "dose_policy": "Vitamin và điện giải dùng theo nhãn hoặc theo thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Lên giống lặp lại nhưng thể trạng còn tốt.",
@@ -104,19 +94,16 @@
     },
     "note": "Nang buồng trứng ít khi nguy hiểm nhưng gây thiệt hại lớn về sinh sản."
   },
-
   "prevention": [
     "Khẩu phần đầy đủ khoáng và vitamin",
     "Giảm stress cho bò sữa giai đoạn sau đẻ",
     "Theo dõi động dục đều đặn",
     "Xử lý tốt các bệnh sau đẻ để tránh ảnh hưởng buồng trứng"
   ],
-
   "notes": [
     "Bò sữa năng suất cao dễ bị nhất.",
     "Lên giống liên tục nhưng không đậu thai là dấu hiệu điển hình.",
     "Điều trị nang cần đúng kỹ thuật."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

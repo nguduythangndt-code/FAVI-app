@@ -1,13 +1,10 @@
 {
   "name": "Viêm phổi Mannheimia nặng",
-
   "summary": "Viêm phổi cấp do Mannheimia/Pasteurella bùng phát rất nhanh khi thời tiết lạnh ẩm hoặc đàn bị stress. Ca nặng dễ chết vì suy hô hấp.",
-
   "causes": [
     "Vi khuẩn Mannheimia haemolytica hoặc Pasteurella multocida xâm nhập đường hô hấp",
     "Bội nhiễm sau ho - cảm, hoặc sau vận chuyển"
   ],
-
   "risk_factors": [
     "Trời lạnh ẩm, mưa kéo dài",
     "Chuồng kín, thông khí kém",
@@ -15,7 +12,6 @@
     "Dê con sau cai sữa",
     "Đàn bị ký sinh trùng làm giảm miễn dịch"
   ],
-
   "clinical_signs_detailed": [
     "Sốt cao, bỏ ăn nhanh",
     "Thở nhanh, thở bụng mạnh",
@@ -29,7 +25,6 @@
     "Nằm nhiều, không muốn dậy",
     "Có thể chết đột ngột"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho nhẹ, hắt hơi",
@@ -49,7 +44,6 @@
       "Nằm bệt, có thể chết nhanh do suy hô hấp"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
@@ -60,26 +54,34 @@
       "Oxytetracycline LA"
     ],
     "note_drugs": "Kháng sinh phổ mạnh là nền tảng vì bệnh tiến rất nhanh. Kháng viêm - long đờm giúp giảm phù phổi và dễ thở hơn.",
-    
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": ["Meloxicam", "Ketoprofen"]
+        "alternative": [
+          "Meloxicam",
+          "Ketoprofen"
+        ]
       },
       "respiratory_support": {
         "main": "Bromhexine",
-        "alternative": ["Guaifenesin"]
+        "alternative": [
+          "Guaifenesin"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["điện giải khoáng tổng hợp"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
-        "alternative": ["B-complex", "vitamin tổng hợp"]
+        "alternative": [
+          "Vitamin BC",
+          "Multivitamin tổng hợp"
+        ]
       }
     },
-
     "supportive_care": [
       "Giữ ấm tuyệt đối, tránh gió lùa",
       "Nơi nằm khô sạch",
@@ -87,10 +89,8 @@
       "Cho uống nước ấm sạch",
       "Theo dõi nhịp thở mỗi ngày"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Ưu tiên kháng sinh mạnh, đủ ngày",
@@ -105,7 +105,6 @@
     ],
     "note": "Ca nặng cần xử lý sớm trong 1-2 ngày đầu, trễ là tỉ lệ chết cao."
   },
-
   "prevention_list": [
     "Chuồng khô thoáng, tránh gió tạt",
     "Giảm mật độ nuôi",
@@ -113,10 +112,8 @@
     "Tẩy ký sinh trùng định kỳ",
     "Bổ sung khoáng - vitamin khi đổi mùa"
   ],
-
   "notes": [
     "Hay bùng sau mưa lạnh hoặc sau vận chuyển."
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

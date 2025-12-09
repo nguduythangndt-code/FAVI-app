@@ -3,7 +3,6 @@
   "name": "Stress nhiệt",
   "species": "cattle",
   "group": "other",
-
   "summary": "Stress nhiệt xảy ra khi bò bị nóng kéo dài. Bò thở nhanh, giảm ăn, giảm sữa và có thể kiệt sức nếu không giảm nhiệt kịp.",
   "causes": [
     "Nắng nóng kéo dài",
@@ -37,16 +36,14 @@
       "Nguy cơ gục"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "electrolyte"
+      "electrolyte_mix"
     ],
     "alternative_drugs": [
-      "vitamin_bc"
+      "Vitamin BC"
     ],
     "note_drugs": "Điện giải giúp bò hồi phục nhanh trong nắng nóng. Vitamin hỗ trợ giảm stress và tăng sức bền.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -57,29 +54,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Phun nước làm mát",
       "Bật quạt hoặc tăng thông gió",
       "Cho uống nhiều nước mát",
       "Giảm vận động giữa trưa"
     ],
-
     "dose_policy": "Điện giải dùng theo nhãn hoặc theo thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Thở nhanh nhưng vẫn đi lại.",
@@ -99,19 +93,16 @@
     },
     "note": "Stress nhiệt dễ gây tụt sữa mạnh."
   },
-
   "prevention": [
     "Chuồng thoáng và có quạt",
     "Có bóng mát ngoài trời",
     "Nước uống luôn đầy",
     "Không vận động giữa trưa"
   ],
-
   "notes": [
     "Bò sữa là đối tượng bị nặng nhất.",
     "Theo dõi thở nhanh để phát hiện sớm.",
     "Thời tiết nắng gắt kéo dài dễ gây stress nhiệt."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -3,23 +3,19 @@
   "name": "Viêm phổi Mycoplasma ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phổi Mycoplasma thường tiến triển chậm hơn tụ huyết trùng, hay gặp dạng ho kéo dài, gầy dần, ho tái đi tái lại. Nếu ghép với Pasteurella thì bệnh nặng và khó trị hơn.",
-
   "causes": [
     "Nhiễm Mycoplasma qua giọt bắn, tiếp xúc gần.",
     "Mật độ nuôi dày, không khí tù, ẩm, nhiều khí độc.",
     "Stress kéo dài, dinh dưỡng kém.",
     "Ghép đàn, nhập dê mới mang mầm bệnh."
   ],
-
   "risk_factors": [
     "Đàn nuôi nhốt lâu ngày, chuồng ít thoáng.",
     "Nuôi nhiều lứa tuổi chung chuồng.",
     "Không có chương trình cách ly dê mới.",
     "Dê suy dinh dưỡng, thiếu khoáng - vitamin."
   ],
-
   "clinical_signs_detailed": [
     "Ho khan kéo dài, nhất là sáng sớm hoặc khi vận động.",
     "Thở nhanh khi chạy hoặc bị đuổi.",
@@ -28,7 +24,6 @@
     "Có thể kèm khập khiễng, viêm khớp ở một số chủng Mycoplasma.",
     "Nếu ghép Pasteurella: sốt cao, khó thở, bệnh nặng hơn."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho lẻ tẻ, chủ yếu sáng sớm.",
@@ -47,7 +42,6 @@
       "Nếu ghép vi khuẩn khác sẽ có triệu chứng giống viêm phổi cấp."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Tulathromycin",
@@ -73,13 +67,13 @@
         "Guaifenesin"
       ],
       "electrolyte": [
-        "Gluco - điện giải",
-        "ORS"
+        "electrolyte_mix",
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex",
-        "Vitamin tổng hợp"
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
         "Men tiêu hoá cho những con gầy, ăn kém."
@@ -96,7 +90,6 @@
       "Không tự ý kéo dài thời gian dùng tulathromycin/tilmicosin vượt khuyến cáo."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Ho nhiều, thở nhanh nhưng dê vẫn đứng, còn ăn ít.",
@@ -118,7 +111,6 @@
     },
     "note": "Mycoplasma thường mang tính dai dẳng, dễ tái phát nếu môi trường và dinh dưỡng không được cải thiện song song với dùng thuốc."
   },
-
   "prevention": [
     "Không nuôi nhốt quá dày, đặc biệt trong mùa lạnh.",
     "Chuồng thông thoáng nhưng tránh gió lùa trực tiếp.",
@@ -126,11 +118,9 @@
     "Bổ sung khoáng - vitamin để nâng sức đề kháng.",
     "Giảm stress: không dồn ép, không bắt - lùa quá nhiều."
   ],
-
   "notes": [
     "Ho kéo dài, gầy dần cả đàn thường phải nghĩ đến Mycoplasma.",
     "Dùng kháng sinh không phù hợp dễ làm bệnh kéo dài, tốn kém mà không dứt."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

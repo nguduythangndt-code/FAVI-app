@@ -3,7 +3,6 @@
   "name": "Cầu trùng",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Bệnh cầu trùng ở bê và bò trẻ gây tiêu chảy, phân lẫn máu hoặc nhầy, gầy nhanh. Nếu không điều trị sớm dễ để lại đàn chậm lớn, sức đề kháng kém.",
   "causes": [
     "Nhiễm ký sinh trùng đơn bào Eimeria trong ruột non và ruột già",
@@ -47,11 +46,11 @@
   },
   "treatment": {
     "primary_drugs": [
-      "toltrazuril",
+      "Toltrazuril",
       "sulfadimidine"
     ],
     "alternative_drugs": [
-      "amprolium"
+      "Amprolium"
     ],
     "note_drugs": "Điều trị nên áp dụng cho cả nhóm bê cùng lứa tuổi vì khả năng nhiễm lan rộng. Không kéo dài thuốc sulfonamide quá lâu để tránh ảnh hưởng thận và gan.",
     "symptomatic_treatment": {
@@ -64,15 +63,15 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },

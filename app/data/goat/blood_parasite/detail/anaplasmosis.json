@@ -3,23 +3,19 @@
   "name": "Nhiễm ký sinh trùng máu Anaplasma ở dê",
   "species": "goat",
   "group": "blood_parasite",
-
   "summary": "Anaplasma ký sinh trong hồng cầu, gây thiếu máu, vàng mắt, sốt và suy kiệt. Lây qua ve - mòng hoặc dụng cụ tiêm nhiễm bẩn. Bệnh tiến triển âm ỉ nhưng có thể nặng nhanh nếu không điều trị.",
-
   "causes": [
     "Ký sinh trùng Anaplasma spp.",
     "Lây truyền qua ve, mòng hút máu.",
     "Dụng cụ tiêm không sát trùng.",
     "Đàn yếu, thiếu khoáng - vitamin."
   ],
-
   "risk_factors": [
     "Dê nuôi ở vùng có nhiều ve.",
     "Chuồng ẩm thấp.",
     "Dê vỗ béo ít vận động.",
     "Đàn không tẩy ký sinh ngoài định kỳ."
   ],
-
   "clinical_signs_detailed": [
     "Niêm mạc mắt nhợt, vàng nhẹ.",
     "Sốt từng đợt.",
@@ -27,7 +23,6 @@
     "Thở nhanh, yếu mệt.",
     "Một số con nước tiểu sẫm màu."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Niêm mạc nhợt nhẹ.",
@@ -44,15 +39,14 @@
       "Nguy cơ tử vong."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "Oxytetracycline (ưu tiên)",
+      "Oxytetracycline",
       "Doxycycline"
     ],
     "alternative_drugs": [
       "Imidocarb",
-      "Azidin (diminazene aceturate)"
+      "Diminazene (Azidin)"
     ],
     "note_drugs": [
       "Không tự ý phối hợp nhiều thuốc đặc trị.",
@@ -64,12 +58,12 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Dextrose - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin B12",
-        "B-complex",
+        "Vitamin BC",
         "Vitamin C"
       ],
       "digestive_support": []
@@ -85,7 +79,6 @@
       "Không tự tăng liều vì dễ gây độc gan - thận."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Thiếu máu nhưng dê còn đứng.",
@@ -106,18 +99,15 @@
     },
     "note": "Anaplasma thường âm ỉ - nếu thấy vàng mắt cần điều trị sớm."
   },
-
   "prevention": [
     "Tẩy ve - mòng thường xuyên.",
     "Khử trùng dụng cụ tiêm.",
     "Bổ sung khoáng - vitamin.",
     "Giữ chuồng khô - sạch."
   ],
-
   "notes": [
     "Vàng mắt kèm thiếu máu → nghi Anaplasma.",
     "Bổ sung B12 giúp hồi phục rất nhanh."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

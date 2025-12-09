@@ -3,21 +3,17 @@
   "name": "Sán lá gan (Fasciola) ở dê",
   "species": "goat",
   "group": "parasite",
-
   "summary": "Sán lá gan ký sinh trong ống mật và nhu mô gan, gây viêm gan, thiếu máu, phù hàm và sụt cân dai dẳng. Bệnh tiến triển âm ỉ nhưng gây thiệt hại nặng nếu không tẩy giun đúng loại thuốc.",
-
   "causes": [
     "Dê ăn cỏ ở khu vực có ốc nước ngọt (vật chủ trung gian).",
     "Chăn thả ở vùng trũng, ẩm, bãi cỏ mọc ven mương.",
     "Không tẩy giun sán định kỳ."
   ],
-
   "risk_factors": [
     "Mùa mưa, độ ẩm cao.",
     "Dê thả rông gần vùng nước tù.",
     "Đàn có tiền sử từng bị sán lá."
   ],
-
   "clinical_signs_detailed": [
     "Phù hàm dưới (bướu nước).",
     "Sụt cân dù ăn vẫn bình thường.",
@@ -26,7 +22,6 @@
     "Tiêu chảy từng đợt.",
     "Gan sưng, ống mật viêm (trong ca nặng)."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sụt cân nhẹ.",
@@ -43,7 +38,6 @@
       "Suy kiệt, nằm nhiều."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Closantel",
@@ -63,15 +57,15 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin B12",
-        "Vitamin tổng hợp"
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá"
+        "Enzyme tiêu hoá"
       ]
     },
     "supportive_care": [
@@ -84,7 +78,6 @@
       "Không tự đổi thuốc vì hiệu lực từng nhóm khác nhau."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Có phù hàm, thiếu máu nhưng còn đứng.",
@@ -105,18 +98,15 @@
     },
     "note": "Sán lá gan cần ốc nước làm trung gian — điều trị + thay đổi bãi chăn mới hết."
   },
-
   "prevention": [
     "Không thả ở bãi cỏ ẩm.",
     "Tẩy giun sán định kỳ (Closantel/Triclabendazole).",
     "Luân chuyển bãi chăn.",
     "Vệ sinh nguồn nước."
   ],
-
   "notes": [
     "Phù hàm ở dê = nghĩ ngay đến sán lá gan.",
     "Sán lá điều trị không đúng thuốc = không khỏi."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

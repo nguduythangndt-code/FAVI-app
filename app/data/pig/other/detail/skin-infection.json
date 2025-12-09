@@ -58,15 +58,17 @@
         "alternative": []
       },
       "electrolyte": {
-        "main": "ORS",
+        "main": "Oresol (điện giải uống)",
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
-        "alternative": ["Vitamin C"]
+        "main": "Vitamin BC",
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
-        "main": "Men tiêu hoá",
+        "main": "Enzyme tiêu hoá",
         "alternative": []
       }
     },

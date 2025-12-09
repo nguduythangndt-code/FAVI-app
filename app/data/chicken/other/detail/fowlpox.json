@@ -17,17 +17,40 @@
     "Ăn giảm, chậm lớn"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Vài nốt đậu rải rác", "Ăn giảm nhẹ"],
-    "moderate": ["Đậu dày, vảy đen", "Gãi nhiều"],
-    "severe": ["Đậu miệng/hầu, khó thở", "Kiệt sức do không ăn"]
+    "mild": [
+      "Vài nốt đậu rải rác",
+      "Ăn giảm nhẹ"
+    ],
+    "moderate": [
+      "Đậu dày, vảy đen",
+      "Gãi nhiều"
+    ],
+    "severe": [
+      "Đậu miệng/hầu, khó thở",
+      "Kiệt sức do không ăn"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Povidone-iodine", "Vitamin A", "ORS"],
-    "alternative_drugs": ["Oxytetracycline"],
+    "primary_drugs": [
+      "Povidone-iodine",
+      "Vitamin ADE",
+      "Oresol (điện giải uống)"
+    ],
+    "alternative_drugs": [
+      "Oxytetracycline"
+    ],
     "note_drugs": "Không có thuốc diệt virus đậu. Sát trùng nốt đậu để tránh bội nhiễm, kết hợp trợ sức.",
     "symptomatic_treatment": {
-      "vitamin": { "main": "Vitamin A", "alternative": ["B-complex"] },
-      "electrolyte": { "main": "ORS", "alternative": [] }
+      "vitamin": {
+        "main": "Vitamin ADE",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      }
     },
     "supportive_care": [
       "Bôi sát trùng khô nốt đậu mỗi ngày",
@@ -38,12 +61,23 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": ["Đậu da dày, gà gãi bội nhiễm"],
-      "guideline": ["Sát trùng kỹ", "Kháng sinh chống bội nhiễm"]
+      "description": [
+        "Đậu da dày, gà gãi bội nhiễm"
+      ],
+      "guideline": [
+        "Sát trùng kỹ",
+        "Kháng sinh chống bội nhiễm"
+      ]
     },
     "case_type_2": {
-      "description": ["Đậu miệng/hầu, khó ăn - khó thở"],
-      "guideline": ["Nuôi riêng", "Trợ sức mạnh", "Giữ ấm và thoáng"]
+      "description": [
+        "Đậu miệng/hầu, khó ăn - khó thở"
+      ],
+      "guideline": [
+        "Nuôi riêng",
+        "Trợ sức mạnh",
+        "Giữ ấm và thoáng"
+      ]
     },
     "note": "Dạng ướt nguy hiểm hơn vì gà dễ nghẹt thở."
   },
@@ -52,6 +86,8 @@
     "Diệt muỗi/côn trùng",
     "Không dùng chung máng - kim tiêm"
   ],
-  "notes": ["Đậu thường tự khỏi 2-4 tuần nếu chăm tốt."],
+  "notes": [
+    "Đậu thường tự khỏi 2-4 tuần nếu chăm tốt."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

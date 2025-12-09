@@ -3,22 +3,18 @@
   "name": "Nhiễm Anaplasma",
   "species": "cattle",
   "group": "blood_parasite",
-
   "summary": "Nhiễm Anaplasma gây thiếu máu, sốt, vàng mắt và yếu dần. Bệnh lây qua ve, muỗi và dụng cụ chăm sóc không sát trùng.",
-
   "causes": [
     "Ký sinh trùng máu Anaplasma",
     "Truyền qua ve, ruồi chích, muỗi",
     "Lây qua dụng cụ tiêm, castration, mổ xẻ không sát trùng"
   ],
-
   "risk_factors": [
     "Khu vực có mật độ ve cao",
     "Dụng cụ tiêm dùng chung nhiều con",
     "Bò tơ chưa có miễn dịch",
     "Mật độ nuôi cao, ít vệ sinh dụng cụ"
   ],
-
   "clinical_signs_detailed": [
     "Niêm trắng, mắt nhợt",
     "Thở nhanh, yếu, mệt",
@@ -27,7 +23,6 @@
     "Gầy dần, phản ứng chậm",
     "Một số con sốt và nằm nhiều"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Giảm ăn nhẹ",
@@ -45,7 +40,6 @@
       "Có thể chết nếu không điều trị kịp"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "oxytetracycline"
@@ -54,7 +48,6 @@
       "imidocarb"
     ],
     "note_drugs": "Oxytetracycline là lựa chọn phổ biến cho Anaplasma. Kết hợp hỗ trợ máu và giảm ve để tránh tái nhiễm.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -65,29 +58,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Nghỉ ngơi chuồng thoáng và yên tĩnh",
       "Bù nước và điện giải",
       "Không làm việc nặng hoặc vận chuyển",
       "Hỗ trợ thêm vitamin và khoáng để phục hồi máu"
     ],
-
     "dose_policy": "Dùng theo liều trên nhãn hoặc theo tư vấn thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Thiếu máu rõ nhưng bò vẫn đứng được.",
@@ -107,19 +97,16 @@
     },
     "note": "Anaplasma tiến triển âm thầm nhưng gây thiếu máu rất nặng. Phát hiện sớm sẽ giảm thiệt hại."
   },
-
   "prevention": [
     "Tắm ve định kỳ",
     "Không dùng chung kim tiêm giữa các bò",
     "Giữ dụng cụ sắc bén sạch và sát trùng thường xuyên",
     "Theo dõi niêm và thể trạng đàn theo tuần"
   ],
-
   "notes": [
     "Bò tơ và bò mới nhập đàn thường bị nặng nhất.",
     "Kết hợp phòng ve và vệ sinh dụng cụ giảm mạnh nguy cơ.",
     "Có thể lẫn với thiếu máu dinh dưỡng nên phải xem kỹ niêm và lịch nuôi."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

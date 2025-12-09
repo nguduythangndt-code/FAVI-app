@@ -1,0 +1,44 @@
+{
+  "id": "lime_powder",
+  "name": "Vôi bột",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Vôi làm tăng pH mạnh ở bề mặt tiếp xúc, tạo môi trường kiềm cao bất lợi cho nhiều vi khuẩn, đồng thời giúp hút ẩm, làm khô nền chuồng và khu vực ẩm ướt.",
+  "clinical_uses": [
+    "Rắc nền chuồng ẩm, khu vực đọng nước, chân tường để khử mùi và hạn chế vi khuẩn.",
+    "Rắc quanh hố phân, khu vực chôn xác động vật chết theo hướng dẫn thú y.",
+    "Dùng sau khi đã dọn chuồng, trước khi rải lớp độn mới trong một số mô hình nuôi.",
+    "Hỗ trợ giảm độ ẩm nền, giảm sinh ruồi, mùi hôi ở khu chứa phân."
+  ],
+  "pros": [
+    "Rất rẻ, dễ kiếm, phù hợp với hộ chăn nuôi nhỏ và vừa.",
+    "Giúp làm khô nền nhanh, giảm ẩm – yếu tố thuận lợi cho bệnh tật.",
+    "Dễ sử dụng bằng cách rắc trực tiếp lên bề mặt cần xử lý."
+  ],
+  "cons": [
+    "Có tính ăn mòn, gây kích ứng da, mắt, đường hô hấp nếu bụi bay nhiều.",
+    "Không phải là chất sát trùng chính khi có dịch bệnh nặng.",
+    "Rắc quá nhiều có thể làm bụi, con vật và người chăm sóc khó chịu."
+  ],
+  "mild_side_effects": [
+    "Khô da tay, nứt nẻ nếu thường xuyên tiếp xúc mà không đeo găng.",
+    "Kích ứng mắt, ho, hắt hơi khi hít phải bụi vôi lúc rắc.",
+    "Con vật có thể bị kích ứng da, kẽ móng nếu nền quá dày vôi mà ẩm."
+  ],
+  "usage_recommendations": [
+    "Dọn phân, rác trước rồi mới rắc vôi lên nền hoặc khu vực cần xử lý.",
+    "Rắc một lớp vừa phải, tránh phủ quá dày gây bụi và trơn trượt.",
+    "Nên đeo khẩu trang, găng tay, tránh để bụi vôi bay ngược vào mặt.",
+    "Không lạm dụng vôi thay thế hoàn toàn các biện pháp sát trùng khác."
+  ],
+  "when_not_to_use": [
+    "Không rắc trực tiếp lên vết thương, da tổn thương của con vật.",
+    "Không để con non nằm trực tiếp trên nền phủ vôi quá dày và còn ẩm.",
+    "Không rắc trong không gian kín, thông gió kém làm bụi đọng lại nhiều.",
+    "Không dùng vôi để thay thế khử trùng hóa chất khi có dịch nặng."
+  ],
+  "alternative_drugs": [
+    "Chlorine_compound hoặc chlorine_dioxide cho sát trùng nền chuồng, khu dịch bệnh.",
+    "Bio_disinfectant để hỗ trợ xử lý mùi, ổn định môi trường về lâu dài.",
+    "Povidone_iodine cho xử lý vết thương hoặc vùng da cụ thể, không dùng vôi."
+  ]
+}

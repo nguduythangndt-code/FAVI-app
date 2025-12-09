@@ -3,23 +3,19 @@
   "name": "Viêm phổi mạn tính ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phổi mạn tính là hậu quả của các đợt viêm phổi cấp - bán cấp không điều trị dứt điểm, hoặc môi trường - dinh dưỡng kém kéo dài. Dê ho dai dẳng nhiều tuần - nhiều tháng, gầy dần, năng suất giảm, rất tốn kém nếu cố giữ bằng mọi giá.",
-
   "causes": [
     "Viêm phổi do Pasteurella, Mycoplasma… điều trị không đủ liều, ngắt thuốc sớm.",
     "Chuồng ẩm, khí độc, thông thoáng kém kéo dài.",
     "Dê suy dinh dưỡng, thiếu khoáng - vitamin.",
     "Nhiễm lặp đi lặp lại nhiều đợt hô hấp."
   ],
-
   "risk_factors": [
     "Đàn nuôi nhốt lâu, ít ánh nắng.",
     "Không có chương trình phòng bệnh rõ ràng.",
     "Thích “cầm chừng” bằng liều thuốc thấp, dùng ngắt quãng.",
     "Mật độ cao, ít tách dê yếu ra riêng."
   ],
-
   "clinical_signs_detailed": [
     "Ho kéo dài nhiều tuần, ho khan hoặc có đờm, hay tái đi tái lại.",
     "Thở nhanh hơn dê khoẻ, đặc biệt khi vận động.",
@@ -27,7 +23,6 @@
     "Ăn không kém quá sâu nhưng tăng trọng rất kém.",
     "Một số con có giai đoạn sốt nhẹ - vừa tái phát từng đợt."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho lặt vặt, nhất là sáng sớm.",
@@ -45,7 +40,6 @@
       "Dễ ghép các bệnh khác: ký sinh trùng, tiêu hoá, v.v."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Florfenicol (liệu trình đủ dài theo nhãn/thú y).",
@@ -74,8 +68,8 @@
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex",
-        "Vitamin tổng hợp",
+        "Vitamin BC",
+        "Multivitamin tổng hợp",
         "Khoáng vi lượng (Zn, Se, Cu…) nếu có sản phẩm phù hợp cho dê."
       ],
       "digestive_support": [
@@ -94,7 +88,6 @@
       "Không tự ý pha phối nhiều kháng sinh mạnh cùng lúc."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Viêm phổi mạn mức trung bình: ho đều, gầy nhưng vẫn ăn, vẫn đi lại.",
@@ -115,18 +108,15 @@
     },
     "note": "Viêm phổi mạn tính là câu chuyện về QUẢN LÝ đàn và CHIẾN LƯỢC KINH TẾ, không chỉ là chuyện chọn kháng sinh mạnh hay yếu."
   },
-
   "prevention": [
     "Xử lý triệt để các ca viêm phổi cấp - bán cấp ngay từ đầu, không để “lửng lơ”.",
     "Cải thiện hệ thống chuồng: ánh sáng, thông gió, nền khô, giảm khí độc.",
     "Lập lịch phòng bệnh, tiêm phòng, tẩy ký sinh trùng, bổ sung khoáng - vitamin định kỳ.",
     "Chọn lọc giống: loại dần những con quá mẫn cảm với bệnh hô hấp qua nhiều lứa vụ."
   ],
-
   "notes": [
     "Đàn nào càng nhiều con viêm phổi mạn → càng chứng tỏ hệ thống quản lý - chuồng - khẩu phần đang có vấn đề gốc.",
     "Không có phác đồ “phép màu” cho phổi đã hỏng nặng; cái cần sửa là cách chăn nuôi toàn hệ thống."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

@@ -3,5 +3,6 @@
   { "id": "eucalyptus",        "name": "Eucalyptus oil" },
   { "id": "menthol_camphor",   "name": "Menthol - Camphor" },
   { "id": "guaifenesin",       "name": "Guaifenesin (long đờm)" },
-  { "id": "nasal_decongestant","name": "Dung dịch thông mũi" }
+  { "id": "nasal_decongestant","name": "Dung dịch thông mũi" },
+  { "id": "ambroxol", "name": "Ambroxol" }
 ]

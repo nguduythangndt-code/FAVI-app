@@ -38,5 +38,9 @@
   { "id": "cephalexin",           "name": "Cephalexin" },
   { "id": "cefaclor",             "name": "Cefaclor" },
   { "id": "amoxiclav",            "name": "Amoxiclav" },
-  { "id": "cefquinome",           "name": "Cefquinome" }
+  { "id": "cefquinome",           "name": "Cefquinome" },
+  { "id": "penicillin",           "name": "Penicillin" },
+  { "id": "ampicillin",           "name": "Ampicillin" },
+  { "id": "tiamulin",             "name": "Tiamulin" }
+
 ]

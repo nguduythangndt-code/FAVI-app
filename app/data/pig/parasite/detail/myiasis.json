@@ -43,7 +43,7 @@
       "Ivermectin"
     ],
     "alternative_drugs": [
-      "Phun Permethrin",
+      "Permethrin",
       "Thuốc sát trùng vết thương"
     ],
     "note_drugs": "Ivermectin hỗ trợ diệt ký sinh trùng. Phun Permethrin quanh vùng da giúp xua ruồi. Cần sát trùng vết thương thường xuyên.",
@@ -57,15 +57,15 @@
         "alternative": []
       },
       "electrolyte": {
-        "main": "ORS",
+        "main": "Oresol (điện giải uống)",
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": []
       },
       "digestive_support": {
-        "main": "Men tiêu hoá",
+        "main": "Enzyme tiêu hoá",
         "alternative": []
       }
     },

@@ -42,7 +42,7 @@
   "treatment": {
     "primary_drugs": [
       "Vitamin C",
-      "Vitamin B-complex"
+      "Vitamin BC"
     ],
     "alternative_drugs": [
       "Điện giải uống",
@@ -59,15 +59,19 @@
         "alternative": []
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["Glucose-Electrolyte"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
-        "alternative": ["Vitamin B-complex"]
+        "alternative": [
+          "Vitamin BC"
+        ]
       },
       "digestive_support": {
-        "main": "Men tiêu hoá",
+        "main": "Enzyme tiêu hoá",
         "alternative": []
       }
     },

@@ -3,23 +3,19 @@
   "name": "Chướng hơi dạ cỏ (Bloat) ở dê",
   "species": "goat",
   "group": "digestive",
-
   "summary": "Chướng hơi dạ cỏ là tình trạng hơi tích tụ quá mức trong dạ cỏ, không thoát ra được, làm bụng trái phình to, ép phổi, gây khó thở. Nếu không xử lý kịp, dê có thể chết do ngạt.",
-
   "causes": [
     "Ăn quá nhiều cỏ non, họ đậu (keo dậu, đậu, lá đậu nành…) dễ sinh bọt.",
     "Ăn cỏ ướt, cỏ sương sớm, sau mưa lớn.",
     "Thay đổi thức ăn đột ngột, đặc biệt từ khô sang cỏ non.",
     "Tắc đường ợ hơi do dị vật, tư thế cổ bất thường."
   ],
-
   "risk_factors": [
     "Thả dê ra ăn đồng cỏ non sớm buổi sáng khi còn nhiều sương.",
     "Cho ăn nhiều lá họ đậu một cách đột ngột.",
     "Không cho ăn cỏ khô trước khi thả ra bãi cỏ non.",
     "Dê tham ăn, giành ăn, ăn rất nhanh."
   ],
-
   "clinical_signs_detailed": [
     "Bụng trái phình to, nhìn rõ hình trống.",
     "Dê bồn chồn, đá chân, kêu, thở gấp.",
@@ -27,7 +23,6 @@
     "Niêm mạc có thể tím nếu thiếu oxy.",
     "Nặng: nằm nghiêng, thở ngáp, có thể chết nhanh."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Bụng trái hơi to hơn bình thường.",
@@ -47,16 +42,15 @@
       "Nguy cơ tử vong trong thời gian ngắn."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "Thuốc chống tạo bọt và chống chướng hơi dạ cỏ (simethicone, dimethicone…).",
-      "Dầu paraffin hoặc dầu thực vật (dùng theo hướng dẫn thú y) hỗ trợ phá bọt dạ cỏ."
+      "Simethicone,",
+      "dimethicone.",
+      "Dầu paraffin hoặc dầu thực vật hỗ trợ phá bọt dạ cỏ."
     ],
     "alternative_drugs": [
-      "Men tiêu hoá dạ cỏ.",
-      "Điện giải - gluco hỗ trợ tuần hoàn sau khi thoát hơi.",
-      "Thảo dược giảm sinh hơi nếu có."
+      "Enzyme tiêu hoá",
+      "Oresol (điện giải uống)"
     ],
     "note_drugs": [
       "Chọc dạ cỏ hoặc đặt ống dạ cỏ là thủ thuật phải do người có kinh nghiệm hoặc thú y thực hiện.",
@@ -70,12 +64,12 @@
         "Thuốc hỗ trợ hô hấp nếu có chỉ định thú y."
       ],
       "electrolyte": [
-        "ORS",
-        "Điện giải - gluco"
+        "Oresol (điện giải uống)",
+        "Điện giải tổng hợp (Na/K/Cl)"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": [
         "Men tiêu hoá dạ cỏ sau khi dạ cỏ ổn định."
@@ -92,7 +86,6 @@
       "Không tự ý tăng liều vì có thể gây sặc hoặc rối loạn thêm."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê thở gấp, bụng căng nhưng vẫn đứng được.",
@@ -114,18 +107,15 @@
     },
     "note": "Chướng hơi là bệnh vừa do thức ăn, vừa do cách cho ăn; sau mỗi ca nặng nên xem lại toàn bộ quy trình chăn thả và khẩu phần."
   },
-
   "prevention": [
     "Không thả dê ăn cỏ non, cỏ đậu khi đói bụng.",
     "Cho ăn cỏ khô trước rồi mới ra bãi cỏ non.",
     "Tránh cho ăn lượng lớn lá họ đậu một lúc.",
     "Không chăn trên cỏ ướt sương quá sớm buổi sáng."
   ],
-
   "notes": [
     "Chướng hơi có thể kết hợp với toan/kiềm dạ cỏ, cần đánh giá kỹ.",
     "Ca nặng cần xử lý tính bằng phút, không chờ qua đêm."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

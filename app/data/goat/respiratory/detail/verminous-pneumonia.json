@@ -3,23 +3,19 @@
   "name": "Viêm phổi do giun phổi ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phổi do giun phổi xảy ra khi dê nhiễm ấu trùng giun Dictyocaulus và Muellerius. Dê ho kéo dài, hay tái đi tái lại, chậm lớn. Nếu môi trường ẩm lạnh, tỷ lệ nhiễm cao.",
-
   "causes": [
     "Nhiễm ấu trùng giun phổi từ bãi chăn ẩm.",
     "Ăn cỏ gần vùng đầm lầy, ao tù.",
     "Đàn không tẩy giun định kỳ.",
     "Khí hậu ẩm lạnh tạo điều kiện ấu trùng phát triển."
   ],
-
   "risk_factors": [
     "Dê non 2-8 tháng.",
     "Dê thả rông bãi ẩm - bùn.",
     "Mùa mưa kéo dài.",
     "Không tẩy giun đúng lịch."
   ],
-
   "clinical_signs_detailed": [
     "Ho kéo dài, ho thành từng tràng.",
     "Thở nhanh khi chạy nhẹ.",
@@ -27,7 +23,6 @@
     "Ăn giảm, gầy dần.",
     "Nặng: khó thở, thở rít, suy kiệt."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho rải rác nhiều ngày.",
@@ -43,7 +38,6 @@
       "Dê non dễ chết."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Ivermectin",
@@ -66,11 +60,11 @@
         "Guaifenesin"
       ],
       "electrolyte": [
-        "Điện giải nhẹ"
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": [
         "Men tiêu hoá cho dê gầy."
@@ -87,7 +81,6 @@
       "Không tự tăng liều ivermectin vì dễ gây ngộ độc."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Ho nhiều nhưng còn đi lại bình thường.",
@@ -108,18 +101,15 @@
     },
     "note": "Giun phổi gây hao đàn nặng, nhất là dê non."
   },
-
   "prevention": [
     "Tẩy giun định kỳ 2-3 tháng/lần.",
     "Không chăn thả ở vùng đầm lầy, bãi ẩm.",
     "Làm khô chuồng, tránh ẩm kéo dài.",
     "Bổ sung khoáng - vitamin."
   ],
-
   "notes": [
     "Ho kéo dài, gầy nhanh phải nghĩ đến giun phổi.",
     "Cần lặp lại tẩy giun để cắt vòng đời ký sinh."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

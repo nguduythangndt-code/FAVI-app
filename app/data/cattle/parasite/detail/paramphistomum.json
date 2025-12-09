@@ -39,14 +39,14 @@
       "Suy kiệt, đứng không vững hoặc nằm nhiều",
       "Dễ nhiễm thêm các bệnh tiêu hóa, hô hấp khác"
     ]
-},
+  },
   "treatment": {
     "primary_drugs": [
       "oxyclozanide",
       "closantel"
     ],
     "alternative_drugs": [
-      "niclosamide",
+      "Niclosamide",
       "phác đồ tẩy sán do thú y lựa chọn phù hợp từng vùng"
     ],
     "note_drugs": "Tẩy sán dạ cỏ thường nên kết hợp trong chương trình tẩy sán tổng thể cho đàn. Cần tham khảo hướng dẫn cụ thể cho bò sữa và bò thịt về thời gian ngưng thuốc.",
@@ -64,11 +64,11 @@
         "alternative": "truyền dịch hỗ trợ ở ca suy kiệt do thú y thực hiện"
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "multivitamin và khoáng tổng hợp"
       },
       "digestive_support": {
-        "main": "men tiêu hóa cho bò trong và sau điều trị",
+        "main": "Enzyme tiêu hoá",
         "alternative": "chế phẩm vi sinh ổn định hệ tiêu hóa"
       }
     },

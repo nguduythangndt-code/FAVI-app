@@ -50,24 +50,24 @@
     ],
     "alternative_drugs": [
       "ivermectin",
-      "moxidectin"
+      "Moxidectin"
     ],
     "note_drugs": "Chọn thuốc tẩy giun có phổ trên giun ruột non. Với bê nhỏ, cần hỏi kỹ hướng dẫn dùng cho lứa tuổi non để tránh quá liều.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin khi bê đau bụng, khó chịu nhiều",
-        "alternative": "meloxicam theo tư vấn thú y"
+        "alternative": "Meloxicam"
       },
       "respiratory_support": {
         "main": "",
         "alternative": ""
       },
       "electrolyte": {
-        "main": "dung dịch điện giải uống cho bê tiêu chảy",
+        "main": "Oresol (điện giải uống)",
         "alternative": "truyền điện giải khi mất nước nặng do thú y thực hiện"
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "multivitamin, khoáng tổng hợp giúp phục hồi"
       },
       "digestive_support": {

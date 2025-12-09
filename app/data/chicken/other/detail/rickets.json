@@ -40,8 +40,7 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-    ],
+    "primary_drugs": [],
     "alternative_drugs": [],
     "note_drugs": "Còi xương do dinh dưỡng chủ yếu xử lý bằng cách sửa khẩu phần và bổ sung khoáng, vitamin. Xương đã biến dạng nặng ít khi trở lại như cũ, nên phát hiện sớm rất quan trọng.",
     "symptomatic_treatment": {
@@ -54,12 +53,12 @@
         "alternative": ""
       },
       "electrolyte": {
-        "main": "electrolyte",
-        "alternative": "electrolyte-glucose"
+        "main": "electrolyte_mix",
+        "alternative": "Glucose"
       },
       "vitamin": {
         "main": "vitamin-d3-calcium",
-        "alternative": "vitamin-complex"
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
         "main": "",

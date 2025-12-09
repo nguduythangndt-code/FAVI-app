@@ -1,0 +1,39 @@
+{
+  "id": "amprolium",
+  "name": "Amprolium",
+  "group": "antiparasitic_internal",
+  "mechanism": "Amprolium là chất tương tự thiamin, cạnh tranh với vitamin B1 trong quá trình chuyển hoá của cầu trùng, làm ký sinh trùng thiếu thiamin và ngừng phát triển.",
+  "clinical_uses": [
+    "Phòng và hỗ trợ điều trị cầu trùng ở gia cầm, bê nghé, dê con.",
+    "Đàn nuôi mật độ cao, nền ẩm, tiền sử cầu trùng lặp lại.",
+    "Giai đoạn sau cai sữa hoặc chuyển chuồng – thời điểm dễ bùng cầu trùng."
+  ],
+  "pros": [
+    "Dùng được cho cả mục đích phòng và hỗ trợ điều trị.",
+    "Có thể pha nước uống hoặc trộn thức ăn theo hướng dẫn nhãn.",
+    "Phù hợp đưa vào chương trình kiểm soát cầu trùng định kỳ."
+  ],
+  "cons": [
+    "Hiệu lực điều trị không mạnh bằng các thuốc đặc trị như toltrazuril.",
+    "Lạm dụng kéo dài có thể ảnh hưởng cân bằng vitamin B1.",
+    "Không xử lý được tiêu chảy do nguyên nhân khác (vi khuẩn, virus…)."
+  ],
+  "mild_side_effects": [
+    "Giảm ăn hoặc giảm uống tạm thời ở một số cá thể.",
+    "Hiếm gặp dấu hiệu thiếu vitamin B1 nếu dùng quá liều hoặc quá lâu."
+  ],
+  "usage_recommendations": [
+    "Dùng đúng thời gian và liều theo nhãn, tránh kéo dài hơn cần thiết.",
+    "Kết hợp vệ sinh nền chuồng, giữ khô ráo và giảm mật độ nuôi.",
+    "Nếu tiêu chảy nặng, phân có máu nhiều, cần cân nhắc thêm thuốc đặc trị cầu trùng khác."
+  ],
+  "when_not_to_use": [
+    "Không dùng như biện pháp duy nhất trong ổ dịch cầu trùng nặng.",
+    "Không dùng kéo dài liên tục nhiều tuần liền.",
+    "Không dùng chỉ để ‘phòng chung chung’ khi trại không có nguy cơ."
+  ],
+  "alternative_drugs": [
+    "Toltrazuril cho ca điều trị cầu trùng rõ, mức độ vừa đến nặng.",
+    "Diclazuril trong chương trình phòng hoặc ca nhẹ – trung bình."
+  ]
+}

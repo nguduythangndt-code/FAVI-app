@@ -1,0 +1,43 @@
+{
+  "id": "benzalkonium_chloride",
+  "name": "Benzalkonium chloride",
+  "group": "disinfectant_hygiene",
+  "mechanism": "Hợp chất amoni bậc bốn phá vỡ màng tế bào vi khuẩn và một số nấm, làm rò rỉ cấu trúc tế bào và gây chết vi khuẩn trên bề mặt.",
+  "clinical_uses": [
+    "Sát trùng sàn, tường, bề mặt trơn nhẵn trong chuồng nuôi, khu úm con, khu ấp nở.",
+    "Sát trùng máng ăn, máng uống, dụng cụ chăn nuôi sau khi đã rửa sạch cơ học.",
+    "Dùng trong chương trình vệ sinh định kỳ giữa các lứa nuôi.",
+    "Hỗ trợ giảm tải mầm bệnh ở khu vực tập trung con non, khu chuẩn bị nhập đàn."
+  ],
+  "pros": [
+    "Có tác dụng sát trùng tốt trên nhiều bề mặt, ít ăn mòn kim loại hơn một số chất khác.",
+    "Thường ít mùi gắt hơn chlorine hoặc aldehyde, dễ chịu hơn cho người dùng.",
+    "Có một số dạng chế phẩm tạo màng mỏng, giúp kéo dài thời gian tác dụng trên bề mặt."
+  ],
+  "cons": [
+    "Hiệu lực giảm nếu bề mặt còn nhiều chất hữu cơ hoặc xà phòng chưa được rửa sạch.",
+    "Không phải lựa chọn chính để sát trùng nước uống.",
+    "Một số dạng chế phẩm có thể trơn, làm tăng nguy cơ trượt ngã nếu không rửa lại."
+  ],
+  "mild_side_effects": [
+    "Có thể gây kích ứng da nhẹ, khô da ở người dùng thường xuyên không đeo găng.",
+    "Kích ứng nhẹ mắt, mũi nếu hít phải hơi sương đậm đặc khi phun xịt.",
+    "Một số con có thể ngửi, liếm bề mặt mới phun nên cần để khô trước khi cho vào chuồng."
+  ],
+  "usage_recommendations": [
+    "Luôn vệ sinh cơ học (quét, cọ rửa) trước khi dùng dung dịch sát trùng.",
+    "Pha đúng tỉ lệ khuyến cáo, tránh nồng độ quá cao không cần thiết.",
+    "Phun xịt khi chuồng trống, để khô rồi mới nhập con vào.",
+    "Người pha và phun cần đeo găng, khẩu trang để giảm tiếp xúc trực tiếp."
+  ],
+  "when_not_to_use": [
+    "Không dùng trực tiếp trong nước uống cho vật nuôi khi không có hướng dẫn rõ.",
+    "Không phun xịt đậm đặc khi trong chuồng đang có nhiều con và thông gió kém.",
+    "Không trộn bừa với các chất tẩy rửa khác khi chưa rõ tương tác."
+  ],
+  "alternative_drugs": [
+    "Chlorine_compound cho sát trùng mạnh hơn khu vực bẩn nhiều.",
+    "Glutaraldehyde khi cần dọn chuồng sâu, sát trùng trước khi nuôi lứa mới.",
+    "Bio_disinfectant để duy trì môi trường sau khi đã sát trùng bằng hóa chất."
+  ]
+}

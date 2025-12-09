@@ -3,7 +3,6 @@
   "name": "Thiếu dinh dưỡng",
   "species": "cattle",
   "group": "other",
-
   "summary": "Thiếu dinh dưỡng làm bò gầy, giảm sữa, lông xấu và sức đề kháng giảm. Thường do khẩu phần thiếu khoáng, vitamin hoặc thiếu năng lượng.",
   "causes": [
     "Khẩu phần thiếu khoáng và vitamin",
@@ -38,16 +37,14 @@
       "Mệt, đi lại yếu"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "vitamin_bc"
+      "Vitamin BC"
     ],
     "alternative_drugs": [
-      "multivitamin_tonic"
+      "Multivitamin tổng hợp"
     ],
     "note_drugs": "Bổ sung khoáng và vitamin giúp bò hồi phục nhanh hơn. Điều trị chính vẫn là chỉnh khẩu phần.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -58,29 +55,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Bổ sung khoáng tổng hợp",
       "Tăng cỏ chất lượng hoặc tăng khẩu phần tinh",
       "Theo dõi mức ăn hàng ngày",
       "Không để bò đói kéo dài"
     ],
-
     "dose_policy": "Vitamin và khoáng dùng theo nhãn hoặc theo thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò gầy nhưng còn ăn.",
@@ -100,19 +94,16 @@
     },
     "note": "Thiếu dinh dưỡng dễ đi kèm nhiễm ký sinh trùng."
   },
-
   "prevention": [
     "Khẩu phần đầy đủ khoáng",
     "Bổ sung vitamin định kỳ",
     "Không thả trên đồng cỏ nghèo lâu ngày",
     "Theo dõi thể trạng"
   ],
-
   "notes": [
     "Bò sữa rất nhạy với thiếu khoáng.",
     "Biểu hiện gầy kéo dài cần xử lý sớm.",
     "Cải thiện khẩu phần là mấu chốt."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

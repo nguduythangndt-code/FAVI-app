@@ -3,9 +3,7 @@
   "name": "Tiêu chảy sơ sinh do E.coli ở dê",
   "species": "goat",
   "group": "digestive",
-
   "summary": "E.coli tiêu chảy sơ sinh xuất hiện ở dê con 1-10 ngày tuổi, gây tiêu chảy nước, mất nước nhanh, suy yếu và chết nếu không xử lý kịp. Liên quan mạnh đến vệ sinh chuồng đẻ và sức đề kháng của dê con.",
-
   "causes": [
     "Nhiễm E.coli từ nền chuồng bẩn, phân tích tụ.",
     "Dê mẹ thiếu sữa non hoặc sữa non kém chất lượng.",
@@ -13,14 +11,12 @@
     "Vệ sinh núm vú kém, dê con bú sữa lẫn bẩn.",
     "Dê mẹ suy dinh dưỡng trước khi đẻ."
   ],
-
   "risk_factors": [
     "Dê con 1-10 ngày tuổi.",
     "Chuồng đẻ ẩm, bẩn, ít ánh nắng.",
     "Đàn đẻ dồn, mật độ nuôi cao.",
     "Thiếu sữa non trong 6 giờ đầu sau sinh."
   ],
-
   "clinical_signs_detailed": [
     "Tiêu chảy nước, vàng - trắng, mùi hôi mạnh.",
     "Phân bắn tia hoặc chảy liên tục.",
@@ -28,7 +24,6 @@
     "Bụng tóp, giảm bú, kêu yếu.",
     "Nặng: nằm li bì, hạ thân nhiệt."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Tiêu chảy sệt ít lần.",
@@ -47,7 +42,6 @@
       "Nguy cơ tử vong cao."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Colistin uống (ưu tiên cho tiêu chảy sơ sinh).",
@@ -72,12 +66,12 @@
       ],
       "vitamin": [
         "Vitamin C",
-        "Vitamin B-complex",
+        "Vitamin BC",
         "Khoáng - điện giải dành cho dê con"
       ],
       "digestive_support": [
         "Probiotics chuyên cho thú non",
-        "Chế phẩm bảo vệ niêm mạc ruột"
+        "Pectin - Kaolin"
       ]
     },
     "supportive_care": [
@@ -91,7 +85,6 @@
       "Không tăng liều vì dê con rất nhạy thuốc."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Tiêu chảy nước nhưng còn bú được một ít.",
@@ -113,18 +106,15 @@
     },
     "note": "Tiêu chảy sơ sinh có tỉ lệ tử vong cao nếu phát hiện muộn; vệ sinh chuồng đẻ là quan trọng nhất."
   },
-
   "prevention": [
     "Dọn chuồng đẻ sạch, khô, sát trùng trước khi dê sinh.",
     "Đảm bảo dê con bú đủ sữa non trong 6 giờ đầu.",
     "Vệ sinh núm vú trước khi dê con bú.",
     "Không để dê con nằm nền ẩm lạnh."
   ],
-
   "notes": [
     "Colibacillosis thường bùng phát theo đàn.",
     "Kiểm soát vệ sinh tốt gần như triệt tiêu bệnh."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo, không thay thế phác đồ của bác sĩ thú y."
 }

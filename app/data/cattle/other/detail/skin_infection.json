@@ -3,7 +3,6 @@
   "name": "Nhiễm trùng da",
   "species": "cattle",
   "group": "other",
-
   "summary": "Nhiễm trùng da gây sưng, đỏ, đau và có thể có mủ. Bò giảm ăn và khó chịu, đặc biệt khi nhiễm trùng lan rộng.",
   "causes": [
     "Vi khuẩn xâm nhập do trầy xước",
@@ -37,7 +36,6 @@
       "Bò giảm ăn và mệt"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "oxytetracycline"
@@ -46,7 +44,6 @@
       "ceftiofur"
     ],
     "note_drugs": "Không nặn mủ mạnh tay. Kháng sinh giúp kiểm soát nhiễm khuẩn ở da.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -57,29 +54,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Giữ chuồng sạch",
       "Vệ sinh vùng da bằng nước sạch",
       "Không để côn trùng đậu",
       "Giảm cọ xát vào vật cứng"
     ],
-
     "dose_policy": "Dùng thuốc theo nhãn hoặc theo thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Tổn thương nhỏ nhưng có mủ.",
@@ -99,19 +93,16 @@
     },
     "note": "Nhiễm trùng da dễ điều trị nếu xử lý sớm."
   },
-
   "prevention": [
     "Chuồng sạch và khô",
     "Giảm côn trùng",
     "Kiểm tra da mỗi ngày",
     "Tránh vật sắc cạnh"
   ],
-
   "notes": [
     "Hầu hết do trầy xước nhỏ.",
     "Nếu có mủ cần kiểm soát sớm.",
     "Da phục hồi nhanh khi vệ sinh tốt."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

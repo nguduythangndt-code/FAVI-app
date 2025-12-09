@@ -3,22 +3,18 @@
   "name": "Ngộ độc thức ăn - Ngộ độc cỏ ở dê",
   "species": "goat",
   "group": "other",
-
   "summary": "Ngộ độc xảy ra khi dê ăn phải cỏ dại độc, thức ăn mốc hoặc bị nhiễm hóa chất. Diễn biến nhanh: sùi bọt, co giật, tiêu chảy, khó thở và có thể tử vong nếu không xử lý kịp thời.",
-
   "causes": [
     "Cỏ dại độc (trúc đào, lá ngón, cỏ độc địa phương).",
     "Thức ăn mốc, lên men hôi.",
     "Nhiễm thuốc trừ sâu, thuốc cỏ.",
     "Nước uống bị ô nhiễm hóa chất."
   ],
-
   "risk_factors": [
     "Chăn thả tự do.",
     "Vùng gần nương rẫy phun thuốc.",
     "Thức ăn ủ kém chất lượng."
   ],
-
   "clinical_signs_detailed": [
     "Sùi bọt mép.",
     "Run cơ, co giật.",
@@ -26,7 +22,6 @@
     "Khó thở.",
     "Nằm bệt, hôn mê."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Run nhẹ.",
@@ -43,12 +38,11 @@
       "Tử vong nhanh."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Than hoạt tính (hấp phụ độc tố)",
       "Electrolyte - glucose",
-      "Vitamin B-complex"
+      "Vitamin BC"
     ],
     "alternative_drugs": [
       "Thuốc trợ tim nhẹ (theo thú y)",
@@ -62,11 +56,11 @@
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Dextrose - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
-        "Vitamin B-complex",
+        "Vitamin BC",
         "Vitamin C"
       ],
       "digestive_support": [
@@ -84,7 +78,6 @@
       "Liên hệ thú y càng sớm càng tốt."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Dê còn tỉnh nhưng tiêu chảy - run.",
@@ -106,18 +99,15 @@
     },
     "note": "Ngộ độc nặng diễn biến cực nhanh — xử lý chậm vài phút có thể mất dê."
   },
-
   "prevention": [
     "Không thả ở vùng có cỏ độc.",
     "Không cho ăn thức ăn mốc.",
     "Không để dê tiếp xúc nước ô nhiễm.",
     "Cách ly khu vực phun thuốc trừ cỏ."
   ],
-
   "notes": [
     "Mốc = độc tố mạnh.",
     "Dê rất nhạy với thuốc diệt cỏ."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

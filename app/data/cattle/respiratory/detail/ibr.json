@@ -3,16 +3,13 @@
   "name": "Viêm mũi - khí quản truyền nhiễm (IBR)",
   "species": "cattle",
   "group": "respiratory",
-
   "summary": "Bệnh do virus IBR gây tổn thương đường hô hấp trên, sốt, chảy nước mũi, ho và giảm sữa. Thường lây nhanh trong đàn nếu không tiêm phòng và quản lý tốt.",
-
   "causes": [
     "Nhiễm virus IBR qua đường hô hấp hoặc tiếp xúc trực tiếp",
     "Stress do vận chuyển, ghép đàn, thay đổi thời tiết",
     "Mật độ nuôi dày, chuồng kém thông thoáng",
     "Bội nhiễm vi khuẩn hô hấp sau khi niêm mạc bị tổn thương"
   ],
-
   "risk_factors": [
     "Đàn không được tiêm phòng IBR hoặc tiêm phòng không đều",
     "Nhập đàn mới mà không cách ly",
@@ -20,7 +17,6 @@
     "Bò sữa năng suất cao, dễ stress",
     "Bê, bò trẻ sức đề kháng kém"
   ],
-
   "clinical_signs_detailed": [
     "Sốt, giảm ăn, lù rù",
     "Chảy nước mũi nhiều, lúc đầu trong sau đục dần",
@@ -30,7 +26,6 @@
     "Giảm sản lượng sữa rõ rệt ở bò sữa",
     "Trong đàn có thể nhiều con ho, sổ mũi cùng lúc"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ, giảm ăn ít",
@@ -50,7 +45,6 @@
       "Dễ bội nhiễm viêm phổi nặng nếu không điều trị kịp"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "oxytetracycline",
@@ -61,7 +55,6 @@
       "tulathromycin"
     ],
     "note_drugs": "Kháng sinh dùng để kiểm soát bội nhiễm vi khuẩn đường hô hấp. Virus IBR không được kháng sinh tiêu diệt, nên cần kết hợp hỗ trợ tốt và quản lý đàn.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -72,19 +65,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Nhốt bò bệnh nơi khô ráo, thoáng khí, tránh gió lùa",
       "Bổ sung nước, điện giải, vitamin để tăng sức đề kháng",
@@ -92,10 +84,8 @@
       "Giảm các yếu tố stress: không đổi đàn, không vận chuyển",
       "Theo dõi cả đàn để phát hiện sớm các con mới bệnh"
     ],
-
     "dose_policy": "Tuân thủ liều thuốc ghi trên nhãn hoặc theo hướng dẫn thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò sốt, chảy nước mũi nhiều, ho rõ nhưng vẫn ăn ít và còn đứng được.",
@@ -117,7 +107,6 @@
     },
     "note": "IBR dễ trở thành bệnh mãn tính âm ỉ, ảnh hưởng lâu dài đến năng suất. Quản lý tiêm phòng và nhập đàn rất quan trọng."
   },
-
   "prevention": [
     "Xây dựng và duy trì chương trình tiêm phòng IBR ổn định",
     "Cách ly bê, bò mới nhập trại trong thời gian theo dõi",
@@ -125,12 +114,10 @@
     "Giảm stress do chuyển chuồng, ghép đàn, thay khẩu phần",
     "Khử trùng định kỳ khu vực máng ăn, máng uống"
   ],
-
   "notes": [
     "IBR có thể kết hợp với các tác nhân khác tạo hội chứng hô hấp phức hợp.",
     "Trong đàn bò sữa, IBR ảnh hưởng mạnh đến sản lượng sữa và khả năng sinh sản.",
     "Ghi chép đầy đủ ngày phát bệnh, số con mắc, phản ứng với điều trị để rút kinh nghiệm cho mùa sau."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

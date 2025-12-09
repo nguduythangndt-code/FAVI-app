@@ -1,15 +1,12 @@
 {
   "name": "Tụ huyết trùng (Pasteurellosis)",
-
   "summary": "Bệnh hô hấp cấp tính do vi khuẩn Pasteurella multocida gây ra, tiến triển nhanh, thường bùng phát khi thời tiết thay đổi, ẩm lạnh hoặc đàn dê bị stress.",
-
   "causes": [
     "Vi khuẩn Pasteurella multocida xâm nhập đường hô hấp",
     "Điều kiện chuồng trại ẩm lạnh, gió lùa",
     "Dê bị stress, vận chuyển xa, thay đổi môi trường",
     "Suy giảm miễn dịch do ký sinh trùng, dinh dưỡng kém"
   ],
-
   "risk_factors": [
     "Thời tiết lạnh - ẩm đột ngột",
     "Nền chuồng ướt, thông khí kém",
@@ -17,7 +14,6 @@
     "Dê mới nhập đàn chưa cách ly",
     "Dê con từ 2-5 tháng tuổi"
   ],
-
   "clinical_signs_detailed": [
     "Sốt cao, bỏ ăn",
     "Thở nhanh, thở bụng",
@@ -26,7 +22,6 @@
     "Tai lạnh, niêm mạc tím tái",
     "Dê đứng tách đàn, gục đầu"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho nhẹ, hắt hơi",
@@ -46,7 +41,6 @@
       "Có thể chết đột ngột do suy hô hấp, và sốc nhiễm trùng"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
@@ -56,26 +50,35 @@
       "Cefquinome",
       "Oxytetracycline LA"
     ],
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": ["Ketoprofen", "Meloxicam"]
+        "alternative": [
+          "Ketoprofen",
+          "Meloxicam"
+        ]
       },
       "respiratory_support": {
         "main": "Bromhexine",
-        "alternative": ["Guaifenesin"]
+        "alternative": [
+          "Guaifenesin"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
-        "alternative": ["Gluco - điện giải", "Điện giải khoáng tổng hợp"]
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix",
+          "electrolyte_mix"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
-        "alternative": ["B-complex", "Vitamin tổng hợp"]
+        "alternative": [
+          "Vitamin BC",
+          "Multivitamin tổng hợp"
+        ]
       }
     },
-
     "supportive_care": [
       "Giữ ấm, tránh gió lùa trực tiếp",
       "Cho nằm nơi khô ráo, sạch",
@@ -83,10 +86,8 @@
       "Nước uống ấm sạch, đủ",
       "Theo dõi nhịp thở từng 6-8 giờ"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Ưu tiên kháng sinh phổ rộng mạnh (theo khuyến cáo bác sĩ)",
@@ -101,7 +102,6 @@
     ],
     "note": "Trường hợp nặng cần hỗ trợ thú y ngay lập tức."
   },
-
   "prevention_list": [
     "Tiêm phòng đầy đủ cho đàn",
     "Giữ chuồng luôn khô ráo, thông thoáng",
@@ -109,12 +109,10 @@
     "Bổ sung khoáng - vitamin định kỳ",
     "Quản lý stress khi vận chuyển, tách mẹ"
   ],
-
   "notes": [
     "Không dùng lại kim tiêm cho nhiều con",
     "Không nuôi nhốt quá đông",
     "Luôn theo dõi đàn buổi sáng - chiều để phát hiện sớm"
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

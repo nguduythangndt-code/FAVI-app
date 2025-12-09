@@ -3,5 +3,6 @@
   { "id": "enzyme_mix",          "name": "Enzyme tiêu hoá" },
   { "id": "pectin_kaolin",       "name": "Pectin - Kaolin" },
   { "id": "digestive_vitamin",   "name": "Men tiêu hoá + Vitamin" },
-  { "id": "activated_charcoal",  "name": "Than hoạt tính (giải độc tiêu hoá)" }
+  { "id": "activated_charcoal",  "name": "Than hoạt tính (giải độc tiêu hoá)" },
+  { "id": "simethicone",         "name": "Simethicone" }
 ]

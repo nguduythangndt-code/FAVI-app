@@ -3,9 +3,7 @@
   "name": "Lặp lại giống",
   "species": "cattle",
   "group": "reproductive",
-
   "summary": "Lặp lại giống là tình trạng bò phối nhiều lần nhưng không đậu thai. Nguyên nhân thường do tử cung, buồng trứng hoặc dinh dưỡng không phù hợp.",
-
   "causes": [
     "Rối loạn động dục",
     "Viêm nội mạc tử cung nhẹ",
@@ -13,21 +11,18 @@
     "Dinh dưỡng kém",
     "Kỹ thuật phối giống không đúng thời điểm"
   ],
-
   "risk_factors": [
     "Bò sữa năng suất cao",
     "Khẩu phần thiếu khoáng",
     "Lịch theo dõi động dục không đều",
     "Tiền sử đẻ khó hoặc viêm tử cung"
   ],
-
   "clinical_signs_detailed": [
     "Lặp lại giống nhiều lần trong vài tháng",
     "Không đậu thai dù phối đúng lịch",
     "Âm hộ có thể dính dịch nhẹ",
     "Giảm sữa nhẹ hoặc chậm động dục"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "2 - 3 lần lặp giống",
@@ -42,16 +37,14 @@
       "Giảm khả năng sinh sản rõ rệt"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
-      "vitamin_bc"
+      "Vitamin BC"
     ],
     "alternative_drugs": [
-      "electrolyte"
+      "electrolyte_mix"
     ],
     "note_drugs": "Điều trị chủ yếu dựa trên cải thiện dinh dưỡng và xử lý các bệnh sinh sản đi kèm như viêm nội mạc hoặc nang buồng trứng.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -62,29 +55,26 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Cải thiện khẩu phần giàu khoáng và vitamin",
       "Theo dõi chu kỳ động dục chính xác",
       "Kiểm tra các bệnh tử cung - buồng trứng đi kèm",
       "Giữ chuồng sạch và yên tĩnh"
     ],
-
     "dose_policy": "Hỗ trợ dinh dưỡng dùng theo nhãn hoặc theo thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Lặp giống vài lần nhưng thể trạng tốt.",
@@ -104,19 +94,16 @@
     },
     "note": "Lặp giống kéo dài cần xử lý nguyên nhân gốc mới hết."
   },
-
   "prevention": [
     "Khẩu phần giàu khoáng",
     "Theo dõi động dục đúng giờ",
     "Kiểm tra sức khỏe sau đẻ",
     "Không phối khi bò quá gầy hoặc quá béo"
   ],
-
   "notes": [
     "Phần lớn ca do chậm phát hiện động dục.",
     "Nang buồng trứng là nguyên nhân đi kèm phổ biến.",
     "Bò cần thể trạng ổn để đậu thai."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

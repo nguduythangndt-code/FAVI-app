@@ -3,23 +3,19 @@
   "name": "Viêm phổi do môi trường ở dê",
   "species": "goat",
   "group": "respiratory",
-
   "summary": "Viêm phổi do môi trường là dạng viêm phổi bùng phát sau các đợt thời tiết xấu: mưa lạnh, ẩm kéo dài, gió lùa, chuồng ẩm và khí độc. Thường là nhiễm khuẩn hỗn hợp, mức độ có thể từ nhẹ tới rất nặng tuỳ đàn và điều kiện nuôi.",
-
   "causes": [
     "Chuồng ẩm, gió lùa, nhiệt độ thấp.",
     "Thay đổi thời tiết đột ngột, mưa phùn kéo dài.",
     "Khí độc NH₃, H₂S cao do phân - nước tiểu không được dọn.",
     "Đàn bị stress: nhốt chật, thiếu thức ăn, vận chuyển."
   ],
-
   "risk_factors": [
     "Chuồng lợp thấp, bí, không thông khí.",
     "Nền đất ẩm, nước đọng.",
     "Không che chắn khi trời mưa - gió mùa.",
     "Đàn đông, mật độ cao."
   ],
-
   "clinical_signs_detailed": [
     "Nhiều con trong đàn ho cùng lúc.",
     "Thở nhanh, nhất là buổi sáng sớm hoặc đêm lạnh.",
@@ -27,7 +23,6 @@
     "Trường hợp nặng: khó thở, nằm, bỏ ăn.",
     "Có thể ghép tụ huyết trùng và Mycoplasma, làm bệnh đa dạng triệu chứng."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Ho rải rác cả đàn.",
@@ -45,7 +40,6 @@
       "Tử vong rải rác nếu không xử lý kịp."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Florfenicol",
@@ -73,16 +67,16 @@
         "Guaifenesin"
       ],
       "electrolyte": [
-        "Gluco - điện giải",
-        "ORS"
+        "electrolyte_mix",
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex",
-        "Vitamin tổng hợp"
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho những con bỏ ăn."
+        "Enzyme tiêu hoá"
       ]
     },
     "supportive_care": [
@@ -97,7 +91,6 @@
       "Không dùng cùng lúc nhiều kháng sinh mạnh cho toàn đàn chỉ vì lo lắng."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Đàn có nhiều con ho, sốt, nhưng ít con khó thở rõ.",
@@ -118,18 +111,15 @@
     },
     "note": "Trong viêm phổi do môi trường, sửa chuồng - sửa cách nuôi quan trọng không kém dùng thuốc; nếu không, đợt sau sẽ lặp lại y như cũ."
   },
-
   "prevention": [
     "Thiết kế chuồng cao, thoáng, không dột, không hắt mưa.",
     "Dọn phân, xử lý nền ẩm, giảm khí độc.",
     "Tăng khẩu phần trong mùa lạnh, tránh để dê đói - lạnh cùng lúc.",
     "Che chắn tốt khi gió mùa, mưa phùn."
   ],
-
   "notes": [
     "Mỗi đợt thời tiết xấu là một “bài kiểm tra” chất lượng chuồng trại.",
     "Đàn nào qua mùa mưa lạnh mà không viêm phổi nhiều chứng tỏ hệ thống chuồng - khẩu phần đang đi đúng hướng."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

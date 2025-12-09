@@ -1,0 +1,40 @@
+{
+  "id": "ambroxol",
+  "name": "Ambroxol",
+  "group": "respiratory_support",
+  "mechanism": "Ambroxol làm loãng dịch nhầy đường hô hấp, tăng vận chuyển chất nhầy và kích thích hoạt động lông chuyển, giúp đờm loãng hơn và dễ tống ra ngoài.",
+  "clinical_uses": [
+    "Ho khan có ít đờm, đờm đặc khó khạc ở gia súc, gia cầm.",
+    "Giai đoạn viêm phế quản, viêm khí quản có tăng tiết nhầy nhưng chưa suy hô hấp nặng.",
+    "Hỗ trợ trong các phác đồ điều trị viêm phổi khi cần long đờm."
+  ],
+  "pros": [
+    "Giúp đờm loãng, dễ tống xuất, cải thiện thông khí.",
+    "Có thể phối hợp với kháng sinh trong các ca viêm hô hấp.",
+    "Ít ảnh hưởng toàn thân khi dùng đúng."
+  ],
+  "cons": [
+    "Chỉ là thuốc hỗ trợ, không thay thế điều trị nguyên nhân nhiễm trùng.",
+    "Lạm dụng có thể kích thích ho nhiều, làm vật nuôi mệt.",
+    "Hiệu quả kém nếu đường thở đã bít tắc nhiều dịch hoặc mủ."
+  ],
+  "mild_side_effects": [
+    "Có thể gây tăng ho tạm thời do long đờm.",
+    "Một số con có thể giảm ăn nhẹ trong thời gian dùng.",
+    "Hiếm khi gây rối loạn tiêu hoá nhẹ."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng kèm trong ca bệnh hô hấp đã có hướng điều trị nguyên nhân.",
+    "Quan sát tần suất ho và nhịp thở; nếu nặng hơn cần đánh giá lại.",
+    "Ngưng hoặc giảm dùng khi vật nuôi ho kiệt sức, thở rất mệt."
+  ],
+  "when_not_to_use": [
+    "Không dùng đơn độc để ‘chữa ho’ khi chưa đánh giá nguyên nhân.",
+    "Không kéo dài nhiều ngày nếu triệu chứng không cải thiện.",
+    "Thận trọng ở con suy hô hấp nặng, nằm bẹp, thở bụng rõ."
+  ],
+  "alternative_drugs": [
+    "Bromhexine (long đờm nhóm khác).",
+    "Các sản phẩm hỗ trợ hô hấp kết hợp tinh dầu (dùng theo nhãn)."
+  ]
+}

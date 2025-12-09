@@ -3,16 +3,13 @@
   "name": "Viêm phổi do Parainfluenza-3",
   "species": "cattle",
   "group": "respiratory",
-
   "summary": "Bệnh hô hấp do virus Parainfluenza-3, thường gây ho, chảy nước mũi, sốt nhẹ đến vừa và dễ bội nhiễm vi khuẩn. Đa số diễn tiến từ nhẹ đến trung bình nhưng nếu chuồng trại kém sẽ chuyển sang viêm phổi nặng.",
-
   "causes": [
     "Nhiễm virus Parainfluenza-3 qua đường hô hấp",
     "Mật độ nuôi cao, thông gió kém tạo điều kiện virus phát tán",
     "Bội nhiễm vi khuẩn hô hấp khi sức đề kháng giảm",
     "Stress do vận chuyển, cai sữa, thay chuồng, thay khẩu phần"
   ],
-
   "risk_factors": [
     "Bê cai sữa, bò trẻ",
     "Đàn không tiêm hoặc tiêm phòng không đủ mũi bệnh hô hấp",
@@ -20,7 +17,6 @@
     "Chênh lệch nhiệt độ ngày - đêm lớn",
     "Nhập đàn không cách ly, quản lý kém"
   ],
-
   "clinical_signs_detailed": [
     "Sốt nhẹ đến vừa, giảm ăn",
     "Chảy nước mũi trong, sau có thể đục nhẹ",
@@ -30,7 +26,6 @@
     "Nếu bội nhiễm vi khuẩn có thể sốt cao hơn, khó thở rõ hơn",
     "Giảm tăng trọng, giảm sữa"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ, ăn giảm ít",
@@ -50,7 +45,6 @@
       "Nguy cơ chuyển sang viêm phổi nặng nếu không điều trị"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "oxytetracycline",
@@ -61,7 +55,6 @@
       "tulathromycin"
     ],
     "note_drugs": "Kháng sinh dùng để kiểm soát bội nhiễm vi khuẩn khi đường hô hấp đã bị virus làm tổn thương. Không nên lạm dụng kháng sinh khi bệnh nhẹ và tự giới hạn tốt.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -72,19 +65,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Giảm mật độ trong ô chuồng nếu đang quá đông",
       "Đảm bảo chuồng thoáng khí nhưng tránh gió lùa trực tiếp",
@@ -92,10 +84,8 @@
       "Giảm lùa chạy, không ép làm việc trong giai đoạn bệnh",
       "Theo dõi diễn biến, nếu khó thở tăng cần nâng phác đồ điều trị"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo chỉ định thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Ca trung bình: ho rõ, sốt, thở nhanh nhưng vẫn còn ăn ít và đứng được.",
@@ -117,7 +107,6 @@
     },
     "note": "Nhiều đàn có thể xuất hiện đợt ho, sổ mũi do Parainfluenza-3 tương đối nhẹ, nhưng nếu chuồng trại kém thì dễ chuyển thành đợt viêm phổi nặng do vi khuẩn."
   },
-
   "prevention": [
     "Duy trì chương trình tiêm phòng bệnh hô hấp phù hợp",
     "Quản lý mật độ nuôi, tránh quá đông",
@@ -125,12 +114,10 @@
     "Hạn chế thay đổi chuồng, ghép đàn đột ngột ở bê và bò trẻ",
     "Theo dõi đàn sát trong giai đoạn giao mùa"
   ],
-
   "notes": [
     "Parainfluenza-3 thường là một phần trong hội chứng hô hấp phức hợp.",
     "Nếu đã từng có đợt bùng phát mạnh trong trại, nên xem lại đầy đủ mảng tiêm phòng và chuồng trại.",
     "Điều kiện thông gió tốt nhiều khi hiệu quả hơn tăng thuốc."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

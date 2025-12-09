@@ -20,17 +20,44 @@
     "Chết rải rác tăng nhanh"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Ăn giảm, xù lông", "Tiêu chảy nhẹ"],
-    "moderate": ["Ủ rũ rõ", "Tiêu chảy trắng nhiều", "Mất sức"],
-    "severe": ["Nằm bệt, run", "Chết nhanh do suy kiệt/bội nhiễm"]
+    "mild": [
+      "Ăn giảm, xù lông",
+      "Tiêu chảy nhẹ"
+    ],
+    "moderate": [
+      "Ủ rũ rõ",
+      "Tiêu chảy trắng nhiều",
+      "Mất sức"
+    ],
+    "severe": [
+      "Nằm bệt, run",
+      "Chết nhanh do suy kiệt/bội nhiễm"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["ORS", "Vitamin C", "B-complex"],
-    "alternative_drugs": ["Florfenicol", "Amoxicillin"],
+    "primary_drugs": [
+      "Oresol (điện giải uống)",
+      "Vitamin C",
+      "Vitamin BC"
+    ],
+    "alternative_drugs": [
+      "Florfenicol",
+      "Amoxicillin"
+    ],
     "note_drugs": "Không có thuốc diệt IBDV. Điện giải - vitamin là chính; kháng sinh chỉ để chống bội nhiễm khi gà yếu.",
     "symptomatic_treatment": {
-      "electrolyte": { "main": "ORS", "alternative": ["điện giải khoáng tổng hợp"] },
-      "vitamin": { "main": "Vitamin C", "alternative": ["B-complex"] }
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "electrolyte_mix"
+        ]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
     "supportive_care": [
       "Giữ ấm, giảm gió lùa",
@@ -42,12 +69,24 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": ["Gà tiêu chảy trắng nhiều, mất sức nhanh"],
-      "guideline": ["ORS liên tục", "Vitamin C/B-complex", "Giữ ấm tuyệt đối"]
+      "description": [
+        "Gà tiêu chảy trắng nhiều, mất sức nhanh"
+      ],
+      "guideline": [
+        "ORS liên tục",
+        "Vitamin C/B-complex",
+        "Giữ ấm tuyệt đối"
+      ]
     },
     "case_type_2": {
-      "description": ["Gà nằm bệt, thở yếu, bội nhiễm"],
-      "guideline": ["Kháng sinh chống bội nhiễm", "Trợ sức mạnh", "Theo dõi sát"]
+      "description": [
+        "Gà nằm bệt, thở yếu, bội nhiễm"
+      ],
+      "guideline": [
+        "Kháng sinh chống bội nhiễm",
+        "Trợ sức mạnh",
+        "Theo dõi sát"
+      ]
     },
     "note": "IBD làm sập miễn dịch, nên bội nhiễm mới là thứ giết đàn."
   },

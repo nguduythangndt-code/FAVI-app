@@ -3,7 +3,6 @@
   "name": "Tiêu chảy do Salmonella",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Nhiễm khuẩn Salmonella gây tiêu chảy nặng, mất nước, sốt và suy kiệt, có thể chết nhanh ở bê và bò suy yếu. Bệnh thường liên quan đến vệ sinh kém và thức ăn, nước uống nhiễm bẩn.",
   "causes": [
     "Nhiễm vi khuẩn Salmonella qua thức ăn và nước uống",
@@ -61,15 +60,15 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },

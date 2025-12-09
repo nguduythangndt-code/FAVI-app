@@ -1,20 +1,16 @@
 {
   "name": "Viêm hạch mủ (Caseous lymphadenitis)",
-
   "summary": "Bệnh vi khuẩn gây áp-xe hạch mủ ở cổ, vai, bẹn… Mụn vỡ ra lây rất dai trong chuồng.",
-
   "causes": [
     "Corynebacterium pseudotuberculosis xâm nhập qua vết thương",
     "Mủ vỡ nhiễm môi trường, lây tiếp"
   ],
-
   "risk_factors": [
     "Chuồng bẩn, nhiều vật sắc",
     "Đánh nhau gây trầy xước",
     "Cắt lông, thiến không sát trùng",
     "Nuôi dày"
   ],
-
   "clinical_signs_detailed": [
     "Nổi hạch cứng ở cổ/ vai/ bẹn",
     "Hạch to dần, nóng nhẹ",
@@ -25,7 +21,6 @@
     "Có thể sốt nhẹ khi mủ lớn",
     "Một số con ho mạn nếu áp-xe trong phổi"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Hạch nhỏ cứng, chưa đau"
@@ -40,39 +35,38 @@
       "Gầy sút kéo dài"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "amoxicillin",
       "Povidone-iodine"
     ],
     "alternative_drugs": [
-       "Penicillin",
-       "Oxytetracycline"
+      "Penicillin",
+      "Oxytetracycline"
     ],
-"note_drugs": "Kháng sinh hỗ trợ nhưng không thay được xử lý ổ mủ. Nếu hạch mềm, cần rạch thoát mủ đúng kỹ thuật và khử trùng chặt.",
-
+    "note_drugs": "Kháng sinh hỗ trợ nhưng không thay được xử lý ổ mủ. Nếu hạch mềm, cần rạch thoát mủ đúng kỹ thuật và khử trùng chặt.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
-        "alternative": ["Flunixin"]
+        "alternative": [
+          "Flunixin"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
-        "alternative": ["B-complex"]
+        "alternative": [
+          "Vitamin BC"
+        ]
       }
     },
-
     "supportive_care": [
       "Cách ly con có hạch",
       "Khi hạch mềm có thể rạch thoát mủ theo hướng dẫn thú y",
       "Rửa mủ bằng sát trùng và băng kín",
       "Thu gom mủ, không để rơi nền chuồng"
     ],
-
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": [
       "Con có nhiều hạch tái phát: điều trị kéo dài, theo dõi sát",
@@ -84,17 +78,14 @@
     ],
     "note": "Bệnh rất dai trong đàn, quản lý vệ sinh là chìa khóa."
   },
-
   "prevention_list": [
     "Khử trùng chuồng định kỳ",
     "Loại thải con tái phát nhiều hạch",
     "Tránh trầy xước, xử lý vết thương sớm",
     "Không dùng chung dụng cụ chưa sát trùng"
   ],
-
   "notes": [
     "Mủ rơi ra nền chuồng là nguồn lây chính."
   ],
-
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

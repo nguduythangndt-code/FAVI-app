@@ -3,30 +3,25 @@
   "name": "Sa tử cung ở dê",
   "species": "goat",
   "group": "reproductive",
-
   "summary": "Sa tử cung là tình trạng toàn bộ hoặc một phần tử cung bị lộn ra ngoài âm hộ sau khi đẻ. Đây là cấp cứu sinh sản, nếu không xử lý sớm dễ nhiễm trùng, hoại tử và tử vong.",
-
   "causes": [
     "Rặn đẻ quá mạnh hoặc đẻ kéo dài.",
     "Kéo thai thô bạo, can thiệp sai kỹ thuật.",
     "Sót nhau, tử cung co hồi kém.",
     "Dê sinh đôi - sinh ba, tử cung giãn lớn."
   ],
-
   "risk_factors": [
     "Dê già, đẻ nhiều lứa.",
     "Dê thể trạng yếu cuối thai kỳ.",
     "Thiếu canxi - khoáng.",
     "Đẻ trong chuồng trơn trượt hoặc dốc."
   ],
-
   "clinical_signs_detailed": [
     "Khối mô đỏ hồng lòi ra ngoài âm hộ.",
     "Dê hoảng sợ, kêu, đứng không yên.",
     "Âm hộ chảy dịch, dễ nhiễm trùng.",
     "Nếu để lâu mô tím đen - hoại tử."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Lòi nhẹ phần tử cung, chưa sưng nhiều."
@@ -39,7 +34,6 @@
       "Dê nằm, suy kiệt."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Kháng sinh phổ rộng (ceftiofur, amoxicillin) sau thủ thuật.",
@@ -60,12 +54,12 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "Gluco - điện giải",
-        "ORS"
+        "electrolyte_mix",
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": []
     },
@@ -80,7 +74,6 @@
       "Không tự ý kéo - đẩy mạnh bừa bãi."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Sa mức vừa, mô còn hồng - chưa hoại tử.",
@@ -102,18 +95,15 @@
     },
     "note": "Sa tử cung luôn là cấp cứu — xử lý càng nhanh càng cứu được."
   },
-
   "prevention": [
     "Bổ sung khoáng - canxi trước đẻ.",
     "Đỡ đẻ đúng kỹ thuật, không kéo thai thô bạo.",
     "Giữ chuồng đẻ sạch - không trơn trượt.",
     "Theo dõi dê mang thai cuối kỳ."
   ],
-
   "notes": [
     "Ca nào không chắc chắn → gọi thú y.",
     "Đẩy tử cung sai cách = mất dê."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -43,19 +43,19 @@
   },
   "treatment": {
     "primary_drugs": [
-      "deltamethrin dùng dạng pour-on hoặc phun",
-      "cypermethrin dùng dạng pour-on hoặc phun",
+      "Deltamethrin",
+      "Cypermethrin",
       "ivermectin dùng tiêm dưới da theo hướng dẫn"
     ],
     "alternative_drugs": [
-      "amitraz dùng tắm hoặc phun ngoài da",
+      "Amitraz",
       "các thuốc diệt côn trùng ngoài da khác theo khuyến cáo thú y"
     ],
     "note_drugs": "Khi điều trị chí - rận, cần xử lý cho toàn đàn cùng lúc và lặp lại theo hướng dẫn trên nhãn để diệt hết lứa ký sinh mới nở. Không dùng quá liều, không pha đặc hơn khuyến cáo. Với bò sữa, chú ý kỹ thời gian ngưng thuốc.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin khi da viêm, bò đau, khó chịu nhiều",
-        "alternative": "meloxicam theo tư vấn thú y"
+        "alternative": "Meloxicam"
       },
       "respiratory_support": {
         "main": "",
@@ -66,12 +66,12 @@
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": "multivitamin và khoáng giúp phục hồi thể trạng"
       },
       "digestive_support": {
         "main": "men tiêu hóa khi bò kém ăn, sụt cân do ngứa kéo dài",
-        "alternative": "chế phẩm vi sinh hỗ trợ tiêu hóa"
+        "alternative": "Probiotic (men vi sinh)"
       }
     },
     "supportive_care": [

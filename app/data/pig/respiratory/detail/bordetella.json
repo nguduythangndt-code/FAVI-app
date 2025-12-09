@@ -55,19 +55,23 @@
       },
       "respiratory_support": {
         "main": "Bromhexine",
-        "alternative": ["Ambroxol"]
+        "alternative": [
+          "Ambroxol"
+        ]
       },
       "electrolyte": {
-        "main": "ORS",
+        "main": "Oresol (điện giải uống)",
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin B-complex",
+        "main": "Vitamin BC",
         "alternative": []
       },
       "digestive_support": {
-        "main": "Men tiêu hoa",
-        "alternative": ["Probiotic"]
+        "main": "Enzyme tiêu hoá",
+        "alternative": [
+          "Probiotic"
+        ]
       }
     },
     "supportive_care": [

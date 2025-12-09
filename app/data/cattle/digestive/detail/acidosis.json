@@ -3,16 +3,13 @@
   "name": "Toan dạ cỏ",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Toan dạ cỏ xảy ra khi bò ăn quá nhiều tinh bột, thức ăn đậm đặc trong thời gian ngắn, làm pH dạ cỏ giảm mạnh, gây rối loạn tiêu hóa, đau bụng, mất nước và có thể chết.",
-
   "causes": [
     "Ăn nhiều thức ăn tinh (ngô, cám, phụ phẩm nhiều tinh bột) trong một lần",
     "Chuyển khẩu phần từ nhiều cỏ sang nhiều tinh một cách đột ngột",
     "Khẩu phần thiếu xơ kéo dài",
     "Bò phá kho thức ăn, ăn tự do thức ăn tinh"
   ],
-
   "risk_factors": [
     "Bò vỗ béo được cho ăn nhiều tinh mà tăng không từ từ",
     "Không chia nhỏ khẩu phần tinh trong ngày",
@@ -20,7 +17,6 @@
     "Bò tham ăn, tranh ăn trong chuồng chật",
     "Chuồng nuôi không kiểm soát tốt lượng thức ăn cá thể"
   ],
-
   "clinical_signs_detailed": [
     "Bò buồn bã, nằm nhiều, giảm hoặc bỏ ăn",
     "Tiêu chảy, phân loãng, có mùi chua, đôi khi có bọt",
@@ -29,7 +25,6 @@
     "Mất nước: mắt trũng, da mất đàn hồi",
     "Trường hợp nặng có thể nằm liệt, hôn mê, chết"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Giảm ăn, nhai lại ít",
@@ -47,16 +42,14 @@
       "Trạng thái lơ mơ, có thể hôn mê, nguy cơ chết cao"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "sodium_bicarbonate"
     ],
     "alternative_drugs": [
-      "magnesium_hydroxide"
+      "Enzyme tiêu hoá"
     ],
     "note_drugs": "Mục tiêu là trung hòa bớt acid trong dạ cỏ và hỗ trợ phục hồi hệ vi sinh. Cần kết hợp bù nước, điện giải và điều chỉnh khẩu phần, không chỉ dựa vào thuốc.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -67,19 +60,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Ngừng cho ăn thức ăn tinh ngay lập tức",
       "Cho uống nước sạch nhiều lần, có thể pha điện giải",
@@ -87,10 +79,8 @@
       "Sau giai đoạn cấp, bổ sung men vi sinh để phục hồi hệ vi khuẩn dạ cỏ",
       "Theo dõi phân, mức độ ăn uống, nhai lại trong vài ngày liên tiếp"
     ],
-
     "dose_policy": "Các chất trung hòa acid và thuốc hỗ trợ dùng theo liều khuyến cáo trên nhãn hoặc theo tư vấn của thú y."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò tiêu chảy, mệt nhưng vẫn đứng được, vẫn uống nước.",
@@ -112,7 +102,6 @@
     },
     "note": "Toan dạ cỏ nặng là hậu quả của khẩu phần mất cân đối. Sau khi cứu được một ca, nên xem lại toàn bộ cách nuôi và khẩu phần."
   },
-
   "prevention": [
     "Tăng dần lượng thức ăn tinh, không tăng đột ngột giữa các ngày",
     "Luôn đảm bảo có cỏ khô hoặc thức ăn thô trong khẩu phần",
@@ -120,12 +109,10 @@
     "Chia khẩu phần tinh thành nhiều bữa trong ngày",
     "Theo dõi phân và mức độ nhai lại để phát hiện sớm bất thường"
   ],
-
   "notes": [
     "Acidosis là bệnh “do người tạo ra” nhiều hơn là do con bò.",
     "Một khẩu phần hợp lý sẽ ít khi cho cơ hội cho toan dạ cỏ xuất hiện.",
     "Nên xem lại khẩu phần tổng thể thay vì chỉ nhớ đến thuốc."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

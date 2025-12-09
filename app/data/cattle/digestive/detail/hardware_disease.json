@@ -3,22 +3,18 @@
   "name": "Viêm màng tim do dị vật",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Bò nuốt phải dị vật kim loại (đinh, dây thép...) làm thủng dạ dày tổ ong, gây viêm phúc mạc và có thể lan đến màng tim. Bò đau bụng, giảm ăn, sụt sữa, đứng cong lưng, tiên lượng xấu nếu nặng.",
-
   "causes": [
     "Nuốt phải dị vật kim loại có trong thức ăn, rơm, cỏ, bãi chăn",
     "Không sử dụng nam châm dạ dày trong đàn có nguy cơ cao",
     "Chuồng trại, khu vực cho ăn có nhiều đinh, dây thép, kim loại nhỏ"
   ],
-
   "risk_factors": [
     "Cho bò ăn gần khu vực có nhiều phế liệu kim loại",
     "Không kiểm tra và loại bỏ dị vật trong cỏ, rơm, phụ phẩm",
     "Bò cái trưởng thành, bò sữa, bò vỗ béo nuốt nhiều thức ăn cùng lúc",
     "Không trang bị nam châm dạ dày cho đàn có nguy cơ"
   ],
-
   "clinical_signs_detailed": [
     "Giảm ăn, nhai lại giảm, sụt sữa",
     "Đứng cong lưng, bụng co lại, đi bước ngắn, cứng nhắc",
@@ -27,7 +23,6 @@
     "Trong ca nặng có thể có tiếng tim bất thường, khó thở, phù vùng dưới ức, dưới hàm do viêm màng tim",
     "Tiến triển thường chậm nhưng rất khó hồi phục hoàn toàn"
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Giảm ăn nhẹ, nhai lại ít hơn bình thường",
@@ -45,7 +40,6 @@
       "Rất mệt, ít di chuyển, tiên lượng xấu"
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "penicillin_streptomycin"
@@ -54,7 +48,6 @@
       "oxytetracycline"
     ],
     "note_drugs": "Điều trị chủ yếu là kháng sinh phổ rộng, kháng viêm và nghỉ ngơi tuyệt đối. Tuy nhiên, nhiều ca nặng tiên lượng vẫn kém dù đã điều trị tích cực.",
-
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "flunixin",
@@ -65,19 +58,18 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },
-
     "supportive_care": [
       "Cho bò nghỉ ngơi ở ô chuồng khô, êm, không trơn trượt",
       "Hạn chế lên xuống dốc hoặc di chuyển nhiều",
@@ -85,10 +77,8 @@
       "Theo dõi nhịp tim, nhịp thở, mức độ đau và thể trạng",
       "Cân nhắc sử dụng nam châm dạ dày nếu còn ý nghĩa"
     ],
-
     "dose_policy": "Kháng sinh, kháng viêm dùng theo liều trên nhãn hoặc chỉ định thú y. Không tự ý kéo dài hoặc rút ngắn liệu trình."
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Bò giảm ăn, đau bụng, đi bước ngắn nhưng chưa có dấu suy tim rõ.",
@@ -110,7 +100,6 @@
     },
     "note": "Hardware disease là bài học về an toàn chuồng trại. Phòng bệnh bằng dọn sạch dị vật và dùng nam châm dạ dày thường hiệu quả hơn nhiều so với điều trị."
   },
-
   "prevention": [
     "Dọn sạch đinh, dây thép, kim loại nhỏ ở quanh máng ăn, kho thức ăn, bãi chăn",
     "Không để phế liệu công trình xây dựng lẫn trong khu vực bò ăn uống",
@@ -118,12 +107,10 @@
     "Kiểm tra rơm, cỏ, phụ phẩm trước khi cho ăn nếu lấy từ nguồn dễ lẫn kim loại",
     "Giáo dục người lao động về nguy cơ của dị vật kim loại đối với bò"
   ],
-
   "notes": [
     "Một con bò mất vì hardware disease thường kéo theo cả chuồng trại phải xem lại kỷ luật vệ sinh.",
     "Không phải ca nào điều trị cũng hồi phục hoàn toàn, nên phòng là chính.",
     "Nam châm dạ dày là biện pháp đơn giản nhưng thường bị bỏ qua."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

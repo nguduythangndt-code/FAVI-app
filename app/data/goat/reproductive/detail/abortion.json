@@ -3,9 +3,7 @@
   "name": "Sảy thai truyền nhiễm ở dê",
   "species": "goat",
   "group": "reproductive",
-
   "summary": "Sảy thai truyền nhiễm thường do vi khuẩn Brucella, Chlamydia, viêm tử cung do Mycoplasma hoặc ký sinh trùng Toxoplasma. Nguy hiểm vì dễ lan cả đàn, gây sảy thai hàng loạt và giảm khả năng sinh sản lâu dài.",
-
   "causes": [
     "Brucella melitensis (cực nguy hiểm, lây sang người).",
     "Chlamydia abortus.",
@@ -14,7 +12,6 @@
     "Viêm tử cung mạn trước đó.",
     "Nhiễm khuẩn từ nền chuồng bẩn."
   ],
-
   "risk_factors": [
     "Dê cái mang thai tiếp xúc dê sảy thai trước.",
     "Không cách ly dê mới nhập đàn.",
@@ -22,7 +19,6 @@
     "Chuồng ẩm, nhiều mầm bệnh.",
     "Có mèo trong khu chuồng (nguồn Toxoplasma)."
   ],
-
   "clinical_signs_detailed": [
     "Chảy dịch âm hộ trước khi sảy.",
     "Dê bỏ ăn, lờ đờ.",
@@ -30,7 +26,6 @@
     "Nhiều con trong đàn đẻ non liên tiếp.",
     "Có thể viêm vú, sốt, giảm sữa sau khi sảy."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Bỏ ăn nhẹ, chảy dịch trong.",
@@ -47,7 +42,6 @@
       "Nguy cơ vô sinh."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Oxytetracycline",
@@ -69,13 +63,13 @@
       ],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS",
-        "Gluco - điện giải"
+        "Oresol (điện giải uống)",
+        "electrolyte_mix"
       ],
       "vitamin": [
         "Vitamin E - Selenium",
         "Vitamin C",
-        "B-complex"
+        "Vitamin BC"
       ],
       "digestive_support": [
         "Men tiêu hoá cho dê yếu."
@@ -92,7 +86,6 @@
       "Không dùng thuốc bừa bãi cho toàn đàn khi chưa xác định nguyên nhân."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Sảy thai lẻ tẻ, dê còn ăn, còn đứng.",
@@ -113,7 +106,6 @@
     },
     "note": "Sảy thai truyền nhiễm là vấn đề đàn — không chỉ là điều trị từng con."
   },
-
   "prevention": [
     "Cách ly dê mới mua 30 ngày.",
     "Khử trùng chuồng định kỳ.",
@@ -121,11 +113,9 @@
     "Bổ sung Selenium - Vitamin E.",
     "Tiêm phòng bệnh truyền nhiễm theo vùng (nếu có vaccine)."
   ],
-
   "notes": [
     "Nếu có 2 con liên tiếp sảy trong 1 tuần → coi là dịch.",
     "Brucella lây sang người — cần hết sức cẩn thận."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

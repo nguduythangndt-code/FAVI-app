@@ -1,0 +1,43 @@
+{
+  "id": "oxytocin",
+  "name": "Oxytocin",
+  "group": "hormone",
+  "mechanism": "Hormone peptide kích thích co bóp cơ trơn tử cung và tăng phản xạ tiết sữa thông qua tác động lên thụ thể oxytocin.",
+  "clinical_uses": [
+    "Hỗ trợ đẻ khi cơn co tử cung yếu, đã chắc chắn không có kẹt thai hay bất thường ngôi thai.",
+    "Hỗ trợ tống sản dịch hoặc nhau sót nhẹ sau sinh khi đường sinh dục đã thông.",
+    "Hỗ trợ phản xạ xuống sữa sớm sau sinh trong các trường hợp tuyến sữa còn đáp ứng."
+  ],
+  "pros": [
+    "Tác dụng nhanh khi dùng đúng thời điểm và đúng chỉ định.",
+    "Hỗ trợ rõ rệt trong các ca đẻ yếu do giảm co bóp sinh lý.",
+    "Áp dụng được cho nhiều loài: dê, bò, heo theo hướng dẫn thú y."
+  ],
+  "cons": [
+    "Không giải quyết được nguyên nhân cơ học như kẹt thai, thai to, ngôi bất thường.",
+    "Dùng sai thời điểm có thể gây tai biến nghiêm trọng cho con mẹ.",
+    "Không phải thuốc điều trị bệnh, dễ bị lạm dụng do hiểu sai công dụng."
+  ],
+  "mild_side_effects": [
+    "Có thể gây co bóp tử cung mạnh gây khó chịu tạm thời cho con mẹ.",
+    "Một số con có thể bồn chồn, lo lắng ngắn hạn sau khi dùng.",
+    "Nếu dùng chưa đúng bối cảnh, cơn co mạnh có thể làm con vật biểu hiện đau."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi đã kiểm tra và loại trừ các nguyên nhân cơ học gây đẻ khó.",
+    "Ưu tiên hỗ trợ đẻ đúng thời điểm, không dùng sớm khi cổ tử cung chưa mở.",
+    "Nên được chỉ định và giám sát bởi thú y hoặc người có kinh nghiệm.",
+    "Theo dõi sát phản ứng của con mẹ sau khi dùng để kịp thời xử lý bất thường."
+  ],
+  "when_not_to_use": [
+    "Không dùng khi nghi ngờ thai to, ngôi thai bất thường, hẹp khung chậu.",
+    "Không dùng khi cổ tử cung chưa mở hoặc vẫn còn tắc nghẽn đường sinh.",
+    "Không dùng lặp lại nhiều lần khi nguyên nhân đẻ khó chưa được xử lý.",
+    "Không dùng như biện pháp thường quy chỉ vì chậm đẻ."
+  ],
+  "alternative_drugs": [
+    "Biện pháp cơ học và hỗ trợ đỡ đẻ đúng kỹ thuật khi nghi ngờ tắc nghẽn.",
+    "Can thiệp thú y chuyên sâu trong các ca đẻ khó phức tạp.",
+    "Chăm sóc hỗ trợ hậu sản và theo dõi sát thay vì lạm dụng hormone."
+  ]
+}

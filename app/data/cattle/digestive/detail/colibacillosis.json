@@ -3,7 +3,6 @@
   "name": "Tiêu chảy do E.coli",
   "species": "cattle",
   "group": "digestive",
-
   "summary": "Tiêu chảy do E.coli thường gặp ở bê sơ sinh và bê nhỏ. Bệnh gây tiêu chảy nước, mất nước nhanh, nếu không bù dịch kịp thời có thể chết chỉ sau vài ngày.",
   "causes": [
     "Nhiễm E.coli gây bệnh từ môi trường chuồng, phân, dụng cụ chăm sóc",
@@ -62,15 +61,15 @@
         "alternative": "ambroxol"
       },
       "electrolyte": {
-        "main": "electrolyte",
+        "main": "electrolyte_mix",
         "alternative": ""
       },
       "vitamin": {
-        "main": "vitamin_bc",
-        "alternative": "multivitamin_tonic"
+        "main": "Vitamin BC",
+        "alternative": "Multivitamin tổng hợp"
       },
       "digestive_support": {
-        "main": "men_vi_sinh",
+        "main": "Probiotic (men vi sinh)",
         "alternative": ""
       }
     },

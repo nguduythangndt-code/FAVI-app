@@ -41,12 +41,12 @@
   },
   "treatment": {
     "primary_drugs": [
-      "toltrazuril",
-      "diclazuril"
+      "Toltrazuril",
+      "Diclazuril"
     ],
     "alternative_drugs": [
-      "amprolium",
-      "sulfonamide_anticoccidial"
+      "Amprolium",
+      "Toltrazuril"
     ],
     "note_drugs": "Bệnh cầu trùng manh tràng thường nặng, cần dùng thuốc chống cầu trùng đủ liều và sớm ngay khi phát hiện phân máu. Tránh dùng nhiều loại thuốc chống cầu trùng chồng lên nhau trong cùng thời điểm.",
     "symptomatic_treatment": {
@@ -68,7 +68,7 @@
       },
       "digestive_support": {
         "main": "men vi sinh, men tiêu hóa khi giai đoạn tiêu chảy bắt đầu giảm",
-        "alternative": "chế phẩm bảo vệ niêm mạc ruột theo tư vấn"
+        "alternative": "Pectin - Kaolin"
       }
     },
     "supportive_care": [

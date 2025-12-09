@@ -3,9 +3,7 @@
   "name": "Đi khập khiễng ở dê",
   "species": "goat",
   "group": "other",
-
   "summary": "Đi khập khiễng là triệu chứng chung của nhiều vấn đề: viêm móng, bong gân, viêm khớp, nhiễm khuẩn kẽ móng hoặc chấn thương. Nếu không điều trị kịp thời sẽ giảm ăn, chậm lớn và nằm nhiều.",
-
   "causes": [
     "Nhiễm khuẩn kẽ móng (Footrot).",
     "Viêm móng do ẩm ướt.",
@@ -13,14 +11,12 @@
     "Dẫm phải đinh - vật nhọn.",
     "Thiếu khoáng (Ca, P, Zn)."
   ],
-
   "risk_factors": [
     "Chuồng ẩm, nền trơn.",
     "Không tỉa móng định kỳ.",
     "Nuôi dày, cọ xát nhiều.",
     "Dê lớn nhanh - dê vỗ béo."
   ],
-
   "clinical_signs_detailed": [
     "Đi khập khiễng rõ rệt.",
     "Sưng khớp hoặc kẽ móng đỏ.",
@@ -28,7 +24,6 @@
     "Nằm nhiều, đứng lên khó.",
     "Giảm ăn."
   ],
-
   "clinical_signs_by_stage": {
     "mild": [
       "Khập khiễng nhẹ.",
@@ -45,7 +40,6 @@
       "Nguy cơ nhiễm trùng nặng."
     ]
   },
-
   "treatment": {
     "primary_drugs": [
       "Amoxicillin",
@@ -53,7 +47,7 @@
       "Oxytetracycline"
     ],
     "alternative_drugs": [
-      "Gentamycin",
+      "Gentamicin",
       "Doxycycline"
     ],
     "note_drugs": [
@@ -69,7 +63,7 @@
       "electrolyte": [],
       "vitamin": [
         "Vitamin C",
-        "Vitamin tổng hợp"
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": []
     },
@@ -84,7 +78,6 @@
       "Không tự ý đổi thuốc khi chưa cải thiện."
     ]
   },
-
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Sưng đau nhưng vẫn đi lại được.",
@@ -105,18 +98,15 @@
     },
     "note": "Footrot có thể lây cả đàn — xử lý chuồng là quan trọng nhất."
   },
-
   "prevention": [
     "Tỉa móng 1-2 tháng/lần.",
     "Giữ nền chuồng khô.",
     "Không nuôi quá dày.",
     "Bổ sung khoáng - vitamin đầy đủ."
   ],
-
   "notes": [
     "Khập khiễng kéo dài = kiểm tra móng đầu tiên.",
     "Footrot rất hôi và dễ lây."
   ],
-
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

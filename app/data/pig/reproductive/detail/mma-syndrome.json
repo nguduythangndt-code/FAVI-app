@@ -19,18 +19,44 @@
     "Heo con kêu đói, tiêu chảy do thiếu sữa"
   ],
   "clinical_signs_by_stage": {
-    "mild": ["Sốt nhẹ", "Sữa giảm"],
-    "moderate": ["Vú sưng đau", "Heo con đói rõ"],
-    "severe": ["Sốt cao", "Mất sữa hoàn toàn", "Nhiễm trùng tử cung"]
+    "mild": [
+      "Sốt nhẹ",
+      "Sữa giảm"
+    ],
+    "moderate": [
+      "Vú sưng đau",
+      "Heo con đói rõ"
+    ],
+    "severe": [
+      "Sốt cao",
+      "Mất sữa hoàn toàn",
+      "Nhiễm trùng tử cung"
+    ]
   },
   "treatment": {
-    "primary_drugs": ["Ceftiofur", "Oxytocin"],
-    "alternative_drugs": ["Ampicillin"],
+    "primary_drugs": [
+      "Ceftiofur",
+      "Oxytocin"
+    ],
+    "alternative_drugs": [
+      "Ampicillin"
+    ],
     "note_drugs": "Ceftiofur kiểm soát nhiễm khuẩn; Oxytocin kích sữa - tống sản dịch; Meloxicam giảm sốt đau.",
     "symptomatic_treatment": {
-      "antiinflammatory": {"main": "Meloxicam", "alternative": ["Flunixin"]},
-      "electrolyte": {"main": "ORS", "alternative": []},
-      "vitamin": {"main": "B-complex", "alternative": []}
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": [
+          "Flunixin"
+        ]
+      },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin BC",
+        "alternative": []
+      }
     },
     "supportive_care": [
       "Vắt bỏ sữa vón cục, chườm ấm vú",
@@ -40,8 +66,21 @@
     "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
   },
   "severe_case_treatment": {
-    "case_type_1": {"description": "Nái sốt cao, mất sữa", "guideline": ["Kháng sinh mạnh sớm", "Oxytocin hỗ trợ", "Kháng viêm - điện giải"]},
-    "case_type_2": {"description": "Tử cung nhiễm nặng", "guideline": ["Kháng sinh + vệ sinh âm hộ", "Theo dõi sản dịch"]},
+    "case_type_1": {
+      "description": "Nái sốt cao, mất sữa",
+      "guideline": [
+        "Kháng sinh mạnh sớm",
+        "Oxytocin hỗ trợ",
+        "Kháng viêm - điện giải"
+      ]
+    },
+    "case_type_2": {
+      "description": "Tử cung nhiễm nặng",
+      "guideline": [
+        "Kháng sinh + vệ sinh âm hộ",
+        "Theo dõi sản dịch"
+      ]
+    },
     "note": "Đi trễ heo con chết hàng loạt."
   },
   "prevention_list": [
@@ -50,6 +89,8 @@
     "Cho uống đủ nước",
     "Vắt sữa đều sau đẻ"
   ],
-  "notes": ["Phát hiện sớm 1-2 ngày đầu sau đẻ là cứu cả bầy con."],
+  "notes": [
+    "Phát hiện sớm 1-2 ngày đầu sau đẻ là cứu cả bầy con."
+  ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -1,0 +1,41 @@
+{
+  "id": "penicillin",
+  "name": "Penicillin",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm beta-lactam, chủ yếu tác động trên vi khuẩn Gram dương. Thuốc ức chế quá trình tổng hợp vách tế bào, làm vi khuẩn mất ổn định và bị tiêu diệt.",
+  "clinical_uses": [
+    "Nhiễm trùng hô hấp nhẹ do vi khuẩn Gram dương nhạy cảm.",
+    "Nhiễm trùng da, mô mềm, vết thương nhỏ, nhiễm khuẩn rốn giai đoạn sớm.",
+    "Một số nhiễm khuẩn sau can thiệp, khi đã loại trừ tác nhân Gram âm mạnh."
+  ],
+  "pros": [
+    "Khá an toàn nếu dùng đúng, ít tác dụng phụ nặng.",
+    "Giá thành thường thấp, dễ tiếp cận cho hộ chăn nuôi nhỏ.",
+    "Phù hợp cho ca bệnh nhẹ, phát hiện sớm."
+  ],
+  "cons": [
+    "Phổ tác dụng hẹp, kém hiệu quả với nhiều vi khuẩn Gram âm.",
+    "Hiệu lực giảm mạnh tại vùng đã có tình trạng kháng penicillin.",
+    "Không phù hợp cho ca nhiễm trùng nặng hoặc nghi ngờ nhiễm khuẩn huyết."
+  ],
+  "mild_side_effects": [
+    "Có thể gây sưng nhẹ tại chỗ tiêm.",
+    "Hiếm gặp phản ứng dị ứng mức độ nhẹ.",
+    "Một số con có thể hơi mệt sau khi dùng."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng cho ca bệnh nhẹ, còn ở giai đoạn sớm.",
+    "Không lặp lại nhiều đợt liên tiếp nếu không đánh giá lại đáp ứng.",
+    "Luôn dùng theo liều ghi trên nhãn hoặc theo hướng dẫn thú y."
+  ],
+  "when_not_to_use": [
+    "Động vật có tiền sử dị ứng với penicillin hoặc beta-lactam.",
+    "Ca bệnh nặng, nghi ngờ nhiễm khuẩn huyết hoặc viêm phổi nặng.",
+    "Khi chưa loại trừ khả năng tác nhân Gram âm chiếm ưu thế."
+  ],
+  "alternative_drugs": [
+    "Ampicillin cho ca cần phổ rộng hơn.",
+    "Amoxicillin trong các ca nhiễm khuẩn tương tự nhưng cần dung nạp tốt hơn.",
+    "Ceftiofur hoặc florfenicol khi bệnh nặng hơn và cần kháng sinh mạnh hơn."
+  ]
+}
