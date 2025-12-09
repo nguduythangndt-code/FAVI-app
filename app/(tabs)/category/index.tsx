@@ -1,6 +1,6 @@
 // app/(tabs)/category/index.tsx
-import { Link } from "expo-router";
-import React, { useMemo } from "react";
+import { Link, useFocusEffect } from "expo-router";
+import React, { useCallback, useState } from "react";
 import {
   Image,
   SafeAreaView,
@@ -11,7 +11,6 @@ import {
   View,
 } from "react-native";
 import { colors, radius, shadow, spacing } from "../../../src/theme";
-
 
 // ================== DATA LOÀI VẬT ==================
 const ANIMALS = [
@@ -32,14 +31,36 @@ const MISSION_QUOTES = [
   "Hiểu đàn - hiểu bệnh - hiểu cách xử lý. Ba điều đó giúp bà con tự tin hơn mỗi ngày.",
   "Khi bà con mạnh dạn thay đổi cách làm, đàn vật nuôi cũng thay đổi theo.",
   "Chăn nuôi thông minh không phải chuyện lớn lao, mà là những lựa chọn nhỏ được làm đúng.",
+  "Quyết định đúng lúc có thể giúp bà con tránh được cả một đợt thiệt hại.",
+  "Một chút hiểu biết hôm nay giúp bà con bớt vất vả vào ngày mai.",
+  "Không phải chăm nhiều hơn, mà là chăm đúng cách.",
+  "Đàn khỏe giúp bà con yên tâm hơn mỗi lần ra chuồng.",
+  "Làm chăn nuôi giỏi bắt đầu từ việc hiểu rõ từng biểu hiện nhỏ.",
+  "Mỗi lần xử lý đúng bệnh là thêm một lần giữ được công sức đã bỏ ra.",
+  "Nuôi hiệu quả không cần phức tạp, chỉ cần đúng và kịp thời.",
+  "Khi bà con nắm rõ tình trạng đàn, mọi quyết định trở nên nhẹ đầu hơn.",
+  "Chốt sớm, làm đúng giúp bà con ngủ ngon hơn sau mỗi ngày làm việc.",
+  "Chăn nuôi bền vững đến từ những thói quen đúng được duy trì lâu dài."
+
 ];
 
 export default function CategoryHomeScreen() {
-  // random 1 câu mỗi lần vào màn
-  const missionText = useMemo(() => {
-    const index = Math.floor(Math.random() * MISSION_QUOTES.length);
-    return MISSION_QUOTES[index];
-  }, []);
+  // câu hiện tại
+  const [missionText, setMissionText] = useState(MISSION_QUOTES[0]);
+
+  // mỗi lần màn Category được focus (quay lại) thì random câu mới
+  useFocusEffect(
+  useCallback(() => {
+    setMissionText((prev) => {
+      let i = Math.floor(Math.random() * MISSION_QUOTES.length);
+      while (MISSION_QUOTES[i] === prev && MISSION_QUOTES.length > 1) {
+        i = Math.floor(Math.random() * MISSION_QUOTES.length);
+      }
+      return MISSION_QUOTES[i];
+    });
+  }, [])
+);
+
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -175,8 +196,8 @@ const styles = StyleSheet.create({
     marginBottom: spacing.lg,
   },
   brandLogo: {
-    width: 96,
-    height: 96,
+    width: 80,
+    height: 80,
     borderRadius: 20,
     marginBottom: spacing.sm,
     ...shadow.card,
@@ -189,7 +210,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.xs,
   },
   brandSlogan: {
-    fontSize: 12.3,
+    fontSize: 12,
     color: colors.textMuted,
     textAlign: "center",
     marginBottom: spacing.xs,

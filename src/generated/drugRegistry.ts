@@ -75,7 +75,7 @@ export const drugRegistry: Record<string, () => any> = {
   "blood_parasite/buparvaquone": () => require("../../app/data/drugs/blood_parasite/buparvaquone.json"),
   "blood_parasite/imidocarb": () => require("../../app/data/drugs/blood_parasite/imidocarb.json"),
   "digestive_support/activated_charcoal": () => require("../../app/data/drugs/digestive_support/activated_charcoal.json"),
-  "digestive_support/digestive_vitamin_mix": () => require("../../app/data/drugs/digestive_support/digestive_vitamin_mix.json"),
+  "digestive_support/digestive_vitamin": () => require("../../app/data/drugs/digestive_support/digestive_vitamin.json"),
   "digestive_support/dimethicone": () => require("../../app/data/drugs/digestive_support/dimethicone.json"),
   "digestive_support/enzyme_mix": () => require("../../app/data/drugs/digestive_support/enzyme_mix.json"),
   "digestive_support/liquid_paraffin": () => require("../../app/data/drugs/digestive_support/liquid_paraffin.json"),
