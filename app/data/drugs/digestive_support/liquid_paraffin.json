@@ -1,0 +1,41 @@
+{
+  "id": "liquid_paraffin",
+  "name": "Dầu paraffin",
+  "group": "digestive_support",
+  "mechanism": "Dầu khoáng tác dụng như chất bôi trơn và làm mềm khối phân trong ruột, giúp phân di chuyển dễ hơn và giảm táo bón cơ học.",
+  "clinical_uses": [
+    "Táo bón, phân khô, khó rặn.",
+    "Hỗ trợ thải cát, dị vật nhỏ hoặc thức ăn khô vón cục trong ruột theo đánh giá thú y.",
+    "Hỗ trợ sau những đợt thay đổi khẩu phần nhiều xơ, rơm, cỏ khô dễ gây bít tắc nhẹ."
+  ],
+  "pros": [
+    "Tác dụng chủ yếu tại chỗ trên lòng ruột, ít hấp thu toàn thân.",
+    "Tương đối an toàn nếu dùng đúng cách và đúng đối tượng.",
+    "Phù hợp làm thuốc hỗ trợ trong phác đồ xử lý táo bón, phân khô."
+  ],
+  "cons": [
+    "Không giải quyết được nguyên nhân nền nếu táo bón do bệnh toàn thân.",
+    "Nguy cơ sặc phổi nếu đổ/uống sai tư thế hoặc cố ép con vật.",
+    "Lạm dụng kéo dài có thể ảnh hưởng hấp thu một số vitamin tan trong dầu."
+  ],
+  "mild_side_effects": [
+    "Phân lỏng hơn trong thời gian dùng.",
+    "Một số con có thể hơi xì hơi, bụng sôi nhiều hơn.",
+    "Có thể làm bẩn lông vùng hậu môn nếu phân ra nhiều dầu."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi nghi táo bón cơ học nhẹ – trung bình, con vật vẫn tỉnh và chưa đau bụng dữ dội.",
+    "Kết hợp điều chỉnh khẩu phần: giảm thức ăn khô, bổ sung nước uống sạch và cỏ xanh dễ tiêu.",
+    "Nên dùng dưới hướng dẫn thú y, đặc biệt ở gia súc yếu, cao tuổi hoặc đang bệnh nền."
+  ],
+  "when_not_to_use": [
+    "Nghi ngờ xoắn ruột, tắc ruột hoàn toàn, đau bụng dữ dội, lăn lộn.",
+    "Thú đang suy kiệt nặng, mất nước nhiều chưa được bù dịch đầy đủ.",
+    "Không đổ trực tiếp bằng ống nếu không chắc kỹ thuật, tránh sặc vào đường hô hấp."
+  ],
+  "alternative_drugs": [
+    "Các chế phẩm nhuận tràng nhẹ khác theo tư vấn thú y.",
+    "Điện giải – glucose đường uống hỗ trợ làm mềm phân và bù nước.",
+    "Chế phẩm probiotic hỗ trợ cân bằng hệ vi sinh đường ruột."
+  ]
+}

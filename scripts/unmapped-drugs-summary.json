@@ -39,8 +39,8 @@
     ]
   },
   {
-    "value": "Thuốc chống tạo bọt và chống chướng hơi dạ cỏ (simethicone, dimethicone…).",
-    "norm": "thuốc chống tạo bọt và chống chướng hơi dạ cỏ (simethicone, dimethicone…).",
+    "value": "Simethicone,",
+    "norm": "simethicone,",
     "count": 1,
     "examples": [
       {
@@ -52,8 +52,8 @@
     ]
   },
   {
-    "value": "Dầu paraffin hoặc dầu thực vật (dùng theo hướng dẫn thú y) hỗ trợ phá bọt dạ cỏ.",
-    "norm": "dầu paraffin hoặc dầu thực vật (dùng theo hướng dẫn thú y) hỗ trợ phá bọt dạ cỏ.",
+    "value": "dimethicone.",
+    "norm": "dimethicone.",
     "count": 1,
     "examples": [
       {
@@ -65,28 +65,15 @@
     ]
   },
   {
-    "value": "Điện giải - gluco hỗ trợ tuần hoàn sau khi thoát hơi.",
-    "norm": "điện giải - gluco hỗ trợ tuần hoàn sau khi thoát hơi.",
+    "value": "Dầu paraffin hoặc dầu thực vật hỗ trợ phá bọt dạ cỏ.",
+    "norm": "dầu paraffin hoặc dầu thực vật hỗ trợ phá bọt dạ cỏ.",
     "count": 1,
     "examples": [
       {
         "animal": "goat",
         "group": "digestive",
         "diseaseId": "bloat",
-        "field": "treatment.alternative_drugs[1]"
-      }
-    ]
-  },
-  {
-    "value": "Thảo dược giảm sinh hơi nếu có.",
-    "norm": "thảo dược giảm sinh hơi nếu có.",
-    "count": 1,
-    "examples": [
-      {
-        "animal": "goat",
-        "group": "digestive",
-        "diseaseId": "bloat",
-        "field": "treatment.alternative_drugs[2]"
+        "field": "treatment.primary_drugs[2]"
       }
     ]
   },

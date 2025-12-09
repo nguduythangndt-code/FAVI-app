@@ -2,7 +2,7 @@
   "_note": "Group map V6 - direction only",
 
   "group_base": {
-    "respiratory": 3,
+    "respiratory": 3.5,
     "digestive": 3,
     "blood_parasite": 3,
     "parasite": 3,

@@ -25,28 +25,21 @@
     "group": "digestive",
     "diseaseId": "bloat",
     "field": "treatment.primary_drugs[0]",
-    "value": "Thuốc chống tạo bọt và chống chướng hơi dạ cỏ (simethicone, dimethicone…)."
+    "value": "Simethicone,"
   },
   {
     "animal": "goat",
     "group": "digestive",
     "diseaseId": "bloat",
     "field": "treatment.primary_drugs[1]",
-    "value": "Dầu paraffin hoặc dầu thực vật (dùng theo hướng dẫn thú y) hỗ trợ phá bọt dạ cỏ."
+    "value": "dimethicone."
   },
   {
     "animal": "goat",
     "group": "digestive",
     "diseaseId": "bloat",
-    "field": "treatment.alternative_drugs[1]",
-    "value": "Điện giải - gluco hỗ trợ tuần hoàn sau khi thoát hơi."
-  },
-  {
-    "animal": "goat",
-    "group": "digestive",
-    "diseaseId": "bloat",
-    "field": "treatment.alternative_drugs[2]",
-    "value": "Thảo dược giảm sinh hơi nếu có."
+    "field": "treatment.primary_drugs[2]",
+    "value": "Dầu paraffin hoặc dầu thực vật hỗ trợ phá bọt dạ cỏ."
   },
   {
     "animal": "goat",
