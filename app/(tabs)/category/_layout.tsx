@@ -12,7 +12,7 @@ export default function CategoryLayout() {
       <Stack.Screen
         name="index"
         options={{
-          title: "Danh mục bệnh theo loài",
+          title: "Danh mục theo loài",
         }}
       />
 
