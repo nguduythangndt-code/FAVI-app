@@ -6,6 +6,7 @@ import { useRouter, useLocalSearchParams } from "expo-router";
 import React, { useEffect, useMemo, useState } from "react";
 import { useIsFocused } from "@react-navigation/native";
 
+
 import {
   SafeAreaView,
   ScrollView,
@@ -14,9 +15,14 @@ import {
   TextInput,
   TouchableOpacity,
   View,
+  Alert,
+  Platform,
 } from "react-native";
+
 import { colors, radius, shadow, spacing } from "../../../src/theme";
 import { logQuicksearchQuery } from "../../../src/services/analytics";
+import * as SpeechTranscriber from "expo-speech-transcriber";
+
 
 import {
   quicksearch,
@@ -178,9 +184,17 @@ const QuickSearchScreen = () => {
   const [query, setQuery] = useState("");
   const [history] = useState<SearchHistoryItem[]>([]);
   const [lastLogKey, setLastLogKey] = useState<string>("");
-  const [isListening, setIsListening] = useState(false);
+  const [isListening, setIsListening] = useState(false); // nếu chưa dùng thì để đó cũng không sao
   const [showBackFromCare, setShowBackFromCare] = useState(false);
   const [lastCareSession, setLastCareSession] = useState<string | null>(null);
+  const [isRecording, setIsRecording] = useState(false);
+
+  // 👉 hook STT – ALIAS isRecording để không trùng với state
+  const {
+    text: sttText,
+    isRecording: sttIsRecording, // nếu chưa dùng thì cứ để đây
+    error: sttError,
+  } = SpeechTranscriber.useRealTimeTranscription();
 
   // animal truyền từ Care (nếu có) + validate
   const initialAnimalParam: AnimalType | null =
@@ -213,24 +227,75 @@ const QuickSearchScreen = () => {
     }
   }, [isFocused]);
 
-  // toggle mic (hiện tại chỉ là hiệu ứng UI)
-  const handleToggleVoice = () => {
+  // ================== TOGGLE MIC – NGHE TIẾNG VIỆT ==================
+  const handleToggleVoice = async () => {
     if (!selectedAnimal) return;
-    setIsListening((prev) => !prev);
+
+    // kiểm tra support Android: cần API 33 (Android 13) trở lên
+    const androidApiLevel =
+      Platform.OS === "android"
+        ? typeof Platform.Version === "number"
+          ? Platform.Version
+          : parseInt(Platform.Version as string, 10)
+        : 0;
+
+    if (Platform.OS === "android" && androidApiLevel > 0 && androidApiLevel < 33) {
+      Alert.alert(
+        "Thiết bị chưa hỗ trợ",
+        "Tìm kiếm bằng giọng nói chỉ hoạt động trên Android 13 trở lên."
+      );
+      return;
+    }
+
+    // ===== TẮT MIC =====
+    if (isRecording) {
+      setIsRecording(false);
+      SpeechTranscriber.stopListening();
+      return;
+    }
+
+    // ===== BẬT MIC =====
+    const status = await SpeechTranscriber.requestMicrophonePermissions();
+    if (status !== "granted") {
+      Alert.alert(
+        "Không dùng được micro",
+        "Bạn cần cho phép ứng dụng truy cập micro để dùng tìm kiếm bằng giọng nói."
+      );
+      return;
+    }
+
+    try {
+      setIsRecording(true);
+      // typings của lib đang khai báo 0 args, nhưng runtime chấp nhận options → chặn TS
+      // @ts-ignore
+      await SpeechTranscriber.recordRealTimeAndTranscribe({
+        locale: "vi-VN", // ✅ nói tiếng Việt
+      });
+    } catch (e) {
+      setIsRecording(false);
+      console.warn("recordRealTimeAndTranscribe failed", e);
+      Alert.alert(
+        "Lỗi khi bật micro",
+        "Không bật được nghe giọng nói trên thiết bị này."
+      );
+    }
   };
 
-
-
-
-
-
-  // 👉 Mỗi lần param animal đổi (đi từ Care sang loài khác) thì ép lại selectedAnimal
+  // khi có text từ STT thì đổ vào ô query
   useEffect(() => {
-    if (initialAnimalParam) {
-      setSelectedAnimal(initialAnimalParam);
+    if (sttText && sttText.trim().length > 0) {
+      setQuery(sttText);
     }
-  }, [initialAnimalParam]);
+  }, [sttText]);
 
+  // log lỗi STT (nếu có)
+  useEffect(() => {
+    if (sttError) {
+      console.warn("SpeechTranscriber error:", sttError);
+    }
+  }, [sttError]);
+
+  // ================== BUILD KẾT QUẢ TÌM KIẾM ==================
   const results: QuicksearchResult[] = useMemo(() => {
     if (!selectedAnimal) return [];
     if (!query.trim()) return [];
@@ -254,6 +319,7 @@ const QuickSearchScreen = () => {
 
     setLastLogKey(key);
   }, [selectedAnimal, query, results.length, lastLogKey]);
+
 
   // ⬇⬇⬇ TỪ ĐÂY TRỞ XUỐNG LÀ JSX CŨ CỦA M (return ... )
   // TUYỆT ĐỐI KHÔNG ĐƯỢC ĐÓNG `};` TRƯỚC RETURN
@@ -372,19 +438,21 @@ const handleBackFromCare = () => {
       style={styles.micButton}
     >
       <Ionicons
-        name={isListening ? "mic" : "mic-outline"}
-        size={18}
-        color={isListening ? colors.primary : colors.textMuted}
-      />
+  name={isRecording ? "mic" : "mic-outline"}
+  size={18}
+  color={isRecording ? colors.primary : colors.textMuted}
+/>
+
     </TouchableOpacity>
   )}
 </View>
 
-{isListening && selectedAnimal && (
+{isRecording && selectedAnimal && (
   <Text style={styles.helperText}>
     Đang nghe... hãy nói rõ triệu chứng rồi bấm lại icon mic để dừng.
   </Text>
 )}
+
 
 
           {!selectedAnimal && (

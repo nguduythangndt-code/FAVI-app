@@ -48,7 +48,10 @@
             "targetSdkVersion": 35
           }
         }
-      ]
+      ],
+      "expo-speech-transcriber",
+      "expo-audio"
+      
     ],
     "extra": {
       "eas": {
