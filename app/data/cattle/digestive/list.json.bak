@@ -8,67 +8,78 @@
   },
   {
     "id": "acidosis",
-    "name": "Toan dạ cỏ","group": "digestive",
+    "name": "Toan dạ cỏ",
+    "group": "digestive",
     "severityLevel": 3,
     "searchText": "Bò buồn bã, nằm nhiều, giảm hoặc bỏ ăn Tiêu chảy, phân loãng, có mùi chua, đôi khi có bọt Bụng căng vừa, đau bụng, bò có thể đá bụng, bồn chồn Nhai lại giảm hoặc mất, ợ hơi ít Mất nước: mắt trũng, da mất đàn hồi Trường hợp nặng có thể nằm liệt, hôn mê, chết Giảm ăn, nhai lại ít Phân hơi lỏng, mùi chua nhẹ Hoạt động chậm lại nhưng vẫn còn đi lại bình thường Bò mệt, nằm nhiều, ăn rất ít Tiêu chảy rõ, mùi chua, phân có bọt Nhai lại mất, bụng đau, bò khó chịu Mất nước rõ, mắt trũng, da nhăn Bò nằm nhiều, đứng dậy khó, có thể nằm liệt Trạng thái lơ mơ, có thể hôn mê, nguy cơ chết cao"
   },
   {
     "id": "ketosis",
-    "name": "Nhiễm xeton","group": "digestive",
+    "name": "Nhiễm xeton",
+    "group": "digestive",
     "severityLevel": 2,
     "searchText": "Giảm ăn, đặc biệt không thích thức ăn tinh, ưu tiên ăn thô xanh Sụt cân nhanh, lưng tóp, hông gầy Giảm sản lượng sữa rõ rệt, sữa có thể loãng hơn Lờ đờ, ít vận động, vẻ mặt buồn Một số trường hợp có mùi xeton (mùi trái cây chín) nhẹ ở hơi thở hoặc sữa Trong ca nặng có thể thấy thần kinh bất thường: đi loạng choạng, đẩy đầu vào tường Giảm ăn nhẹ, đặc biệt giảm ăn tinh Sụt sữa nhẹ, khó nhận ra nếu không theo dõi kỹ Tính tình hơi thay đổi, ít hoạt động hơn Sụt sữa rõ, ăn giảm nhiều Sụt cân thấy rõ, lông xù, thân hình tóp lại Có thể thấy mùi xeton nhẹ ở hơi thở hoặc sữa Đứng tách đàn, ít tương tác Rối loạn thần kinh: đi vòng quanh, đẩy đầu vào tường hoặc vật cứng Ăn rất kém, gần như bỏ ăn Gầy nhanh, thể trạng xấu Nếu không điều chỉnh kịp, có thể phải loại thải sớm"
   },
   {
     "id": "hardware_disease",
-    "name": "Viêm màng tim do dị vật","group": "digestive",
+    "name": "Viêm màng tim do dị vật",
+    "group": "digestive",
     "severityLevel": 3,
     "searchText": "Giảm ăn, nhai lại giảm, sụt sữa Đứng cong lưng, bụng co lại, đi bước ngắn, cứng nhắc Đau vùng ức, không thích nằm, nếu nằm thì khó đứng dậy Thở nhanh, có thể sốt, mạch nhanh Trong ca nặng có thể có tiếng tim bất thường, khó thở, phù vùng dưới ức, dưới hàm do viêm màng tim Tiến triển thường chậm nhưng rất khó hồi phục hoàn toàn Giảm ăn nhẹ, nhai lại ít hơn bình thường Đứng hơi cong lưng, đi chậm Sữa giảm nhẹ ở bò sữa Đau bụng rõ, không muốn nằm, đi bước ngắn Giảm ăn nhiều, sụt sữa rõ Thỉnh thoảng rống nhẹ khi đau, phản ứng khi ấn vùng ức Dấu hiệu suy tuần hoàn: mạch nhanh, thở nhanh, niêm nhạt Có thể phù dưới ức, dưới hàm nếu viêm màng tim tiến triển Rất mệt, ít di chuyển, tiên lượng xấu"
   },
   {
     "id": "enteritis",
-    "name": "Viêm ruột tiêu chảy","group": "digestive",
+    "name": "Viêm ruột tiêu chảy",
+    "group": "digestive",
     "severityLevel": 1,
     "searchText": "Đi phân lỏng, phân sệt như cháo hoặc như nước Phân có thể lẫn nhầy, bọt, đôi khi có mùi hôi nặng Mông đuôi bám phân bẩn Bò giảm ăn, uống nhiều hoặc ít tùy trường hợp Mất nước: mắt trũng, da mất đàn hồi, niêm khô Sụt cân nếu tiêu chảy kéo dài Bê non dễ suy kiệt nhanh hơn bò trưởng thành Đi ngoài phân lỏng 1-2 lần/ngày Ăn uống giảm nhẹ Thể trạng chưa thay đổi nhiều Tiêu chảy nhiều lần trong ngày, phân loãng Mất nước nhẹ đến vừa, mắt hơi trũng Giảm ăn rõ, thể trạng xuống Tiêu chảy liên tục, phân nước, mùi rất hôi Mất nước nặng, mắt trũng sâu, da nhăn Bò mệt, nằm nhiều, đứng dậy khó, bê non có thể chết nhanh nếu không bù nước kịp"
   },
   {
     "id": "coccidiosis",
-    "name": "Cầu trùng","group": "digestive",
+    "name": "Cầu trùng",
+    "group": "digestive",
     "severityLevel": 2,
     "searchText": "Tiêu chảy, phân lỏng, có thể lẫn máu, nhầy hoặc từng cục niêm mạc Mông và đuôi bám nhiều phân bẩn Bê gầy nhanh, lông xù, bụng tóp, nhìn kém phát triển Ăn kém, lờ đờ, ít vận động Một số con có thể mất nước, mắt trũng, da khô Trong đàn thường có nhiều bê cùng tiêu chảy trong một thời điểm Tiêu chảy nhẹ, phân sệt, đôi khi có ít nhầy Ăn giảm nhẹ, thể trạng chưa thay đổi nhiều Hoạt động vẫn tương đối bình thường Tiêu chảy nhiều lần trong ngày, phân lỏng, mùi hôi Gầy nhanh, lông xù, bụng tóp Mất nước nhẹ đến vừa, mắt hơi trũng Bê nằm nhiều hơn, ít chơi, ít bú Tiêu chảy phân nước, có thể lẫn máu và mảng niêm mạc Mất nước nặng, mắt trũng sâu, da mất đàn hồi Bê rất mệt, nằm nhiều, đứng dậy khó Nếu không điều trị kịp có thể chết do mất nước và suy kiệt"
   },
   {
     "id": "salmonella",
-    "name": "Tiêu chảy do Salmonella","group": "digestive",
+    "name": "Tiêu chảy do Salmonella",
+    "group": "digestive",
     "severityLevel": 3,
     "searchText": "Sốt cao, mệt rõ, ăn rất kém hoặc bỏ ăn Tiêu chảy nhiều lần, phân nước, mùi rất hôi, có thể lẫn máu và nhầy Mất nước nặng, da khô, mắt trũng sâu Có thể đau bụng, bò bồn chồn hoặc nằm lì Sụt cân nhanh, suy kiệt, bê có thể chết trong thời gian ngắn Trong đàn có thể nhiều con bị tiêu chảy cùng thời điểm Tiêu chảy vài lần trong ngày, phân lỏng, mùi nặng hơn bình thường Ăn giảm, hơi mệt nhưng vẫn còn đi lại được Tiêu chảy liên tục, phân nước, mùi rất hôi Mất nước vừa đến nặng, mắt trũng, da mất đàn hồi Sốt rõ, bò mệt, đứng tách đàn Tiêu chảy nặng, suy kiệt, có thể nằm nhiều, đứng dậy khó Mất nước rất nặng, niêm nhạt hoặc tím nhẹ Nguy cơ tử vong cao nếu không được bù dịch và dùng kháng sinh kịp thời"
   },
   {
     "id": "colibacillosis",
-    "name": "E.coli tiêu chảy","group": "digestive",
+    "name": "E.coli tiêu chảy",
+    "group": "digestive",
     "severityLevel": 2,
     "searchText": "Tiêu chảy nước, phân bắn xa, mùi chua hôi Mông đuôi dính đầy phân lỏng Bê mất nước rất nhanh, mắt trũng sâu, da khô, mũi khô Yếu, nằm nhiều, bú kém hoặc bỏ bú Thân nhiệt có thể tăng hoặc giảm tùy giai đoạn Nếu không điều trị, bê có thể chết trong thời gian ngắn do sốc mất nước Tiêu chảy vài lần, phân lỏng nhưng bê vẫn bú được Mất nước nhẹ, mắt hơi trũng Bê hơi mệt nhưng vẫn còn đi lại Tiêu chảy liên tục, phân nước, bắn xa Mất nước rõ, da mất đàn hồi, mắt trũng Bê nằm nhiều, bú rất ít Tiêu chảy nặng, bê nằm bẹp, hầu như không bú Mất nước rất nặng, tay sờ thấy lạnh, phản ứng chậm Nguy cơ tử vong cao nếu không truyền dịch và chăm sóc tích cực"
   },
   {
     "id": "fatty_liver",
-    "name": "Gan nhiễm mỡ","group": "digestive",
+    "name": "Gan nhiễm mỡ",
+    "group": "digestive",
     "severityLevel": 1,
     "searchText": "Giảm ăn kéo dài, đặc biệt không thích ăn thức ăn tinh Giảm sữa rõ rệt và khó hồi phục năng suất Sụt cân, thân tóp, lưng hóp Lờ đờ, ít vận động, đứng tách đàn Có thể kèm dấu hiệu của các rối loạn khác như nhiễm xeton, rối loạn sinh sản Một số trường hợp có thể vàng nhẹ niêm mạc nếu tổn thương gan nặng Giảm ăn nhẹ, giảm sữa vừa phải Thân hình bắt đầu tóp lại sau đẻ Ít biểu hiện rõ rệt nếu không theo dõi kỹ Giảm sữa nhiều, khó đạt lại mức sữa mục tiêu Giảm ăn kéo dài, sụt cân nhanh Lờ đờ, ít hoạt động, lông xù Bò rất gầy, thể trạng kém, ăn rất ít Thường kèm nhiều bệnh chuyển hóa khác và bệnh hậu sản Tiên lượng xấu, có thể phải loại thải sớm"
   },
   {
     "id": "impaction",
-    "name": "Bó dạ cỏ","group": "digestive",
+    "name": "Bó dạ cỏ",
+    "group": "digestive",
     "severityLevel": 2,
     "searchText": "Ăn kém dần, nhai lại giảm hoặc mất Bụng to nhưng sờ thấy chắc, không căng bóng như chướng hơi Đi phân ít, phân khô, nhỏ, có thể thỉnh thoảng táo bón rõ Bò gầy dần, lông xù, sức làm việc hoặc sản xuất giảm Đôi khi con vật tỏ ra khó chịu vùng bụng, đi lại chậm, cứng nhắc Bệnh thường tiến triển kéo dài nếu không điều chỉnh khẩu phần và xử lý kịp thời Ăn giảm nhẹ, nhai lại ít hơn Đi phân khô hơn, số lần đi giảm Thể trạng chưa thay đổi nhiều Ăn kém rõ, nhai lại ít hoặc gián đoạn Bụng to, sờ chắc, phân khô, ít Bò gầy dần, lông xù, hoạt động chậm Ăn rất ít hoặc bỏ ăn, nhai lại mất gần như hoàn toàn Bụng căng chắc, bò khó chịu, di chuyển nặng nề Gầy rộc, thể trạng rất kém, dễ mắc thêm bệnh khác"
   },
   {
     "id": "hepatitis",
-    "name": "Viêm gan","group": "digestive",
+    "name": "Viêm gan",
+    "group": "digestive",
     "severityLevel": 1,
     "searchText": "Ăn kém, giảm dần theo thời gian Gầy, lưng tóp, lông xù Giảm sữa rõ ở bò sữa Niêm có thể hơi vàng trong một số trường hợp Mệt, ít vận động, nằm nhiều hơn Phân đôi khi nhạt màu hoặc không đều Ăn giảm nhẹ Giảm sữa chưa rõ Hoạt động bình thường Ăn kém rõ, gầy dần Giảm sữa, lông xấu Mệt, ít hoạt động Gầy nhiều, lưng tóp rõ Niêm có thể vàng, mệt nhiều Dễ mắc kèm các bệnh khác do sức đề kháng giảm"
   },
   {
     "id": "clostridial_enterotoxemia",
-    "name": "Nhiễm độc clostridium","group": "digestive",
+    "name": "Nhiễm độc clostridium",
+    "group": "digestive",
     "severityLevel": 3,
     "searchText": "Sốt hoặc thân nhiệt dao động Ăn rất kém hoặc bỏ ăn hoàn toàn Đau bụng, đứng khom lưng, bứt rứt Tiêu chảy cấp, phân lỏng nhiều, mùi hôi nặng Mất nước, mắt trũng, da mất đàn hồi Một số ca có thể chết nhanh trong thời gian ngắn nếu không được hỗ trợ Tiêu chảy mới xuất hiện Ăn giảm nhưng vẫn còn uống nước Mệt nhẹ Tiêu chảy nhiều lần trong ngày, phân rất lỏng Mất nước vừa, mắt trũng Mệt, ít đi lại Tiêu chảy dữ dội, phân tanh, lượng lớn Mất nước nặng, da nhăn, mắt trũng sâu Bò nằm nhiều, yếu, có thể chết nhanh"
   }

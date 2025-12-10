@@ -224,9 +224,7 @@ export default function DiseaseListScreen() {
                 <TouchableOpacity style={styles.card}>
                   <View style={styles.cardTextWrap}>
                     <Text style={styles.cardTitle}>{item.name}</Text>
-                    <Text style={styles.cardSubtitle}>
-                      Mã bệnh: {item.id}
-                    </Text>
+
                   </View>
                   <Ionicons
                     name="chevron-forward"
@@ -286,7 +284,7 @@ const styles = StyleSheet.create({
     borderRadius: radius.lg,
     paddingVertical: spacing.md,
     paddingHorizontal: spacing.lg,
-    marginBottom: spacing.md,
+    marginBottom: spacing.sm,
     borderWidth: 1,
     borderColor: colors.border,
     ...shadow.card,
@@ -300,8 +298,9 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     fontSize: 16,
-    fontWeight: "600",
-    color: colors.text,
+    fontWeight: "400",
+    color: "#374151",   // xám đậm, nhìn rất “app xịn”
+     lineHeight: 20,
     marginBottom: 4,
   },
   cardSubtitle: {

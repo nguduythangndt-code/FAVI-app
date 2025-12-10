@@ -1,55 +1,64 @@
 [
   {
     "id": "foot_rot",
-    "name": "Thối chân","group": "other",
+    "name": "Thối chân",
+    "group": "other",
     "severityLevel": 2,
     "searchText": "Đi khập khiễng rõ Kẽ móng sưng, nóng, đau Có mùi hôi nhẹ Bò nằm nhiều, giảm ăn Giảm sữa rõ ở bò sữa Đi hơi khập khiễng Kẽ móng hơi đỏ Kẽ móng sưng rõ Đi rất khó Giảm ăn Bò nằm nhiều Sưng lan rộng Nhiễm trùng sâu, nguy cơ mất móng"
   },
   {
     "id": "lameness",
-    "name": "Khập khiễng","group": "other",
+    "name": "Khập khiễng",
+    "group": "other",
     "severityLevel": 1,
     "searchText": "Đi lệch chân hoặc bước ngắn Nằm nhiều, đứng dậy khó Sưng nhẹ ở khớp hoặc móng Giảm ăn và giảm sữa Đi hơi lệch Hoạt động bình thường Đi khó Nằm nhiều Giảm ăn Không muốn đứng Đau rõ Giảm sữa mạnh"
   },
   {
     "id": "ringworm",
-    "name": "Nấm da","group": "other",
+    "name": "Nấm da",
+    "group": "other",
     "severityLevel": 1,
     "searchText": "Mảng tròn rụng lông Da khô, sần Ngứa nhẹ Lan nhiều vùng quanh đầu và cổ Vài mảng nhỏ Da khô nhẹ Lan nhiều vùng Da sần rõ Lan toàn thân Da dày và xấu Bò khó chịu"
   },
   {
     "id": "pinkeye",
-    "name": "Viêm giác mạc - kết mạc","group": "other",
+    "name": "Viêm giác mạc - kết mạc",
+    "group": "other",
     "severityLevel": 2,
     "searchText": "Chảy nước mắt nhiều Mắt đỏ và sưng nhẹ Nhắm mắt liên tục Sợ ánh sáng Có thể loét giác mạc Mắt đỏ nhẹ Chảy nước mắt Nhắm mắt nhiều Sợ sáng Loét giác mạc Mất thị lực tạm thời"
   },
   {
     "id": "photosensitization",
-    "name": "Mẫn cảm ánh sáng","group": "other",
+    "name": "Mẫn cảm ánh sáng",
+    "group": "other",
     "severityLevel": 1,
     "searchText": "Da đỏ và nóng rát Da phồng rộp hoặc bong tróc Bò đứng trong bóng mát nhiều Giảm ăn do đau Da hơi đỏ Bò né nắng Da phồng nhẹ Đau khi chạm Da phồng rộp nhiều Bò mệt, giảm ăn"
   },
   {
     "id": "nutritional_deficiency",
-    "name": "Thiếu dinh dưỡng","group": "other",
+    "name": "Thiếu dinh dưỡng",
+    "group": "other",
     "severityLevel": 1,
     "searchText": "Lông xù, xấu Bò gầy dần Giảm sữa rõ Ăn kém hoặc nhai lại yếu Dễ mắc bệnh khác Lông hơi xấu Ăn chậm Gầy rõ Sữa giảm Gầy trơ Mệt, đi lại yếu"
   },
   {
     "id": "heat_stress",
-    "name": "Stress nhiệt","group": "other",
+    "name": "Stress nhiệt",
+    "group": "other",
     "severityLevel": 2,
     "searchText": "Thở nhanh và mạnh Đứng tách đàn Giảm ăn Giảm sữa rõ Đổ mồ hôi nhiều vùng cổ và vai Thở nhanh Giảm ăn nhẹ Thở gấp Sữa giảm rõ Bò mệt, đi không vững Nguy cơ gục"
   },
   {
     "id": "arthritis",
-    "name": "Viêm khớp","group": "other",
+    "name": "Viêm khớp",
+    "group": "other",
     "severityLevel": 1,
     "searchText": "Khớp sưng nóng Đi khó hoặc khập khiễng Đứng lên khó Giảm ăn Giảm sữa Đi hơi khó Sưng nhẹ Đi rất khó Khớp sưng rõ Không đứng được Rất đau"
   },
   {
     "id": "skin_infection",
-    "name": "Nhiễm trùng da","group": "other",
+    "name": "Nhiễm trùng da",
+    "group": "other",
     "severityLevel": 1,
     "searchText": "Da sưng đỏ Đau khi chạm Có thể có mủ Bò hay liếm vùng tổn thương Đỏ nhẹ Không mủ Sưng rõ Có mủ Lan rộng Bò giảm ăn và mệt"
   }

@@ -134,7 +134,6 @@ export const diseaseRegistry: Record<string, DiseaseDetailLoader> = {
   "goat/other/orf": () => require("../../app/data/goat/other/detail/orf.json"),
   "goat/other/pinkeye": () => require("../../app/data/goat/other/detail/pinkeye.json"),
   "goat/other/poisoning": () => require("../../app/data/goat/other/detail/poisoning.json"),
-  "goat/other/skin-infection": () => require("../../app/data/goat/other/detail/skin-infection.json"),
   "goat/other/tetanus": () => require("../../app/data/goat/other/detail/tetanus.json"),
   "goat/parasite/haemonchus": () => require("../../app/data/goat/parasite/detail/haemonchus.json"),
   "goat/parasite/lice": () => require("../../app/data/goat/parasite/detail/lice.json"),

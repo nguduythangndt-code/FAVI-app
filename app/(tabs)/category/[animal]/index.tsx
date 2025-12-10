@@ -125,6 +125,24 @@ export default function AnimalGroupIndexScreen() {
   const allGroups = GROUPS_BY_ANIMAL[currentAnimal] ?? BASE_GROUPS;
   const hasSearch = mode === "disease" && searchText.trim().length > 0;
 
+        const subtitleParagraphs = useMemo(() => {
+    if (mode === "disease") {
+      return [
+        `Phần này giúp tra cứu nhanh các nhóm bệnh thường gặp trên ${displayName} theo biểu hiện lâm sàng.`,
+        "Thông tin được trình bày theo nhóm cơ quan và tính chất bệnh, giúp bà con dễ đối chiếu và nhận diện sớm.",
+        "Việc chẩn đoán và điều trị cần kết hợp quan sát thực tế và tư vấn thú y. Thông tin trong ứng dụng chỉ mang tính tham khảo.",
+      ];
+    }
+
+    return [
+      `Chăm sóc ${displayName} là một quá trình dài, bắt đầu từ việc hiểu đàn đang ở giai đoạn nào.`,
+      "Mỗi giai đoạn nuôi đều có những việc cần làm khác nhau. Khi hiểu đúng tình trạng đàn và chăm sóc đúng cách, đàn sẽ khỏe mạnh hơn và rủi ro cũng giảm đi.",
+      "Chọn mục phù hợp dưới đây để xem hướng dẫn chi tiết.",
+    ];
+  }, [mode, displayName]);
+
+
+
   // Dùng để hiển thị tên nhóm trong kết quả search
   const getGroupName = (groupId: string) =>
     allGroups.find((g) => g.id === groupId)?.name ?? groupId;
@@ -192,8 +210,8 @@ export default function AnimalGroupIndexScreen() {
   options={{
     title:
       mode === "disease"
-        ? `Nhóm bệnh - ${displayName}`
-        : `Chăm sóc - ${displayName}`,
+        ? `Nhóm bệnh trên ${displayName}`
+        : `Chăm sóc ${displayName}`,
   }}
 />
 
@@ -205,20 +223,26 @@ export default function AnimalGroupIndexScreen() {
           keyboardShouldPersistTaps="handled"
         >
           {/* Header mô tả */}
-          <View style={styles.header}>
+                      <View style={styles.header}>
             <Text style={styles.title}>
-  {mode === "disease"
-    ? `Nhóm bệnh trên ${displayName}`
-    : `Chăm sóc ${displayName}`}
-</Text>
+              {mode === "disease"
+                ? `Cẩm nang tra cứu bệnh trên ${displayName}`
+                : `Cẩm nang chăm sóc ${displayName}`}
+            </Text>
 
-           <Text style={styles.subtitle}>
-  {mode === "disease"
-    ? "Chọn nhóm bệnh hoặc nhập tên bệnh để xem chi tiết."
-    : "Chọn mục chăm sóc (vỗ béo, mẹ, con, hậu bị, chuồng trại...) để xem hướng dẫn chi tiết."}
-</Text>
-
+            {subtitleParagraphs.map((p, idx) => (
+              <Text
+                key={idx}
+                style={[
+                  styles.subtitle,
+                  idx > 0 && { marginTop: 4 }, // khoảng cách giữa các đoạn
+                ]}
+              >
+                {p}
+              </Text>
+            ))}
           </View>
+
 
           {/* ====== HÀNG CHUYỂN CHẾ ĐỘ: DANH MỤC / CHĂM SÓC ====== */}
           <View style={styles.modeSwitchRow}>
@@ -425,9 +449,7 @@ export default function AnimalGroupIndexScreen() {
 
                       <View style={styles.cardTextWrap}>
                         <Text style={styles.cardTitle}>{item.name}</Text>
-                        <Text style={styles.cardSubtitle}>
-                          Mã nhóm: {item.id}
-                        </Text>
+                        
                       </View>
                     </View>
 
@@ -461,8 +483,8 @@ const styles = StyleSheet.create({
   },
 
   // Header
-  header: {
-    marginBottom: spacing.lg,
+    header: {
+    marginBottom: spacing.md,
   },
   title: {
     fontSize: 20,
@@ -470,10 +492,12 @@ const styles = StyleSheet.create({
     color: colors.text,
   },
   subtitle: {
-    marginTop: spacing.xs,
-    fontSize: 14,
+    marginTop: 4,
+    fontSize: 13,
     color: colors.textMuted,
+    lineHeight: 18, // chữ sát hơn, không bị thưa
   },
+
 
   // ===== MODE SWITCH (Danh mục / Chăm sóc) =====
   modeSwitchRow: {
@@ -545,10 +569,10 @@ const styles = StyleSheet.create({
   // Card list
   card: {
     backgroundColor: colors.card,
-    borderRadius: radius.lg,
-    paddingVertical: spacing.md,
+    borderRadius: radius.md,
+    paddingVertical: spacing.sm,
     paddingHorizontal: spacing.lg,
-    marginBottom: spacing.md,
+    marginBottom: spacing.sm,
     borderWidth: 1,
     borderColor: colors.border,
     ...shadow.card,
@@ -563,8 +587,8 @@ const styles = StyleSheet.create({
     marginRight: spacing.md,
   },
   iconCircle: {
-    width: 32,
-    height: 32,
+    width: 22,
+    height: 22,
     borderRadius: 999,
     backgroundColor: colors.primarySoft,
     alignItems: "center",
@@ -575,9 +599,9 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   cardTitle: {
-    fontSize: 16,
-    fontWeight: "600",
-    color: colors.text,
+    fontSize: 15,
+    fontWeight: "400",
+    color: "#374151",   // xám đậm, nhìn rất “app xịn”,
     marginBottom: 4,
   },
   cardSubtitle: {

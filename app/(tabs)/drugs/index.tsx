@@ -22,7 +22,7 @@ import type {
   DrugGroupId,
   DrugListItem,
 } from "../../../src/types/drugs";
-import { colors, radius, spacing } from "../../../src/theme";
+import { colors, radius, spacing, shadow } from "../../../src/theme";
 
 type DrugSearchItem = DrugListItem & { group: DrugGroupId };
 
@@ -76,8 +76,7 @@ export default function DrugGroupsScreen() {
 return (
   <SafeAreaView style={styles.container}>
     <ScrollView contentContainerStyle={styles.content}>
-      {/* Tiêu đề */}
-      <Text style={styles.screenTitle}>Nhóm thuốc thú y</Text>
+      
 
       {/* ✅ Chỉ hiển thị cẩm nang khi KHÔNG search */}
       {!isSearching && (
@@ -213,6 +212,8 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
     borderWidth: 1,
     borderColor: colors.border,
+    ...shadow.card,
+
   },
   introHeader: {
     flexDirection: "row",
@@ -269,6 +270,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.xs,
     borderWidth: 1,
     borderColor: colors.border,
+    
   },
   itemLeft: {
     flexDirection: "row",

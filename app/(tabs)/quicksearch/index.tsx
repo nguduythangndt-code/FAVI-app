@@ -6,7 +6,6 @@ import { useRouter, useLocalSearchParams } from "expo-router";
 import React, { useEffect, useMemo, useState } from "react";
 import { useIsFocused } from "@react-navigation/native";
 
-
 import {
   SafeAreaView,
   ScrollView,
@@ -16,13 +15,10 @@ import {
   TouchableOpacity,
   View,
   Alert,
-  Platform,
 } from "react-native";
 
 import { colors, radius, shadow, spacing } from "../../../src/theme";
 import { logQuicksearchQuery } from "../../../src/services/analytics";
-import * as SpeechTranscriber from "expo-speech-transcriber";
-
 
 import {
   quicksearch,
@@ -184,17 +180,8 @@ const QuickSearchScreen = () => {
   const [query, setQuery] = useState("");
   const [history] = useState<SearchHistoryItem[]>([]);
   const [lastLogKey, setLastLogKey] = useState<string>("");
-  const [isListening, setIsListening] = useState(false); // nếu chưa dùng thì để đó cũng không sao
   const [showBackFromCare, setShowBackFromCare] = useState(false);
   const [lastCareSession, setLastCareSession] = useState<string | null>(null);
-  const [isRecording, setIsRecording] = useState(false);
-
-  // 👉 hook STT – ALIAS isRecording để không trùng với state
-  const {
-    text: sttText,
-    isRecording: sttIsRecording, // nếu chưa dùng thì cứ để đây
-    error: sttError,
-  } = SpeechTranscriber.useRealTimeTranscription();
 
   // animal truyền từ Care (nếu có) + validate
   const initialAnimalParam: AnimalType | null =
@@ -227,73 +214,14 @@ const QuickSearchScreen = () => {
     }
   }, [isFocused]);
 
-  // ================== TOGGLE MIC – NGHE TIẾNG VIỆT ==================
-  const handleToggleVoice = async () => {
+  // ================== MIC PLACEHOLDER (KHÔNG CÒN VOICE) ==================
+  const handleMicPress = () => {
     if (!selectedAnimal) return;
-
-    // kiểm tra support Android: cần API 33 (Android 13) trở lên
-    const androidApiLevel =
-      Platform.OS === "android"
-        ? typeof Platform.Version === "number"
-          ? Platform.Version
-          : parseInt(Platform.Version as string, 10)
-        : 0;
-
-    if (Platform.OS === "android" && androidApiLevel > 0 && androidApiLevel < 33) {
-      Alert.alert(
-        "Thiết bị chưa hỗ trợ",
-        "Tìm kiếm bằng giọng nói chỉ hoạt động trên Android 13 trở lên."
-      );
-      return;
-    }
-
-    // ===== TẮT MIC =====
-    if (isRecording) {
-      setIsRecording(false);
-      SpeechTranscriber.stopListening();
-      return;
-    }
-
-    // ===== BẬT MIC =====
-    const status = await SpeechTranscriber.requestMicrophonePermissions();
-    if (status !== "granted") {
-      Alert.alert(
-        "Không dùng được micro",
-        "Bạn cần cho phép ứng dụng truy cập micro để dùng tìm kiếm bằng giọng nói."
-      );
-      return;
-    }
-
-    try {
-      setIsRecording(true);
-      // typings của lib đang khai báo 0 args, nhưng runtime chấp nhận options → chặn TS
-      // @ts-ignore
-      await SpeechTranscriber.recordRealTimeAndTranscribe({
-        locale: "vi-VN", // ✅ nói tiếng Việt
-      });
-    } catch (e) {
-      setIsRecording(false);
-      console.warn("recordRealTimeAndTranscribe failed", e);
-      Alert.alert(
-        "Lỗi khi bật micro",
-        "Không bật được nghe giọng nói trên thiết bị này."
-      );
-    }
+    Alert.alert(
+      "Chưa hỗ trợ",
+      "Tìm kiếm bằng giọng nói sẽ được bổ sung sau. Hiện tại bạn nhập triệu chứng bằng bàn phím nhé."
+    );
   };
-
-  // khi có text từ STT thì đổ vào ô query
-  useEffect(() => {
-    if (sttText && sttText.trim().length > 0) {
-      setQuery(sttText);
-    }
-  }, [sttText]);
-
-  // log lỗi STT (nếu có)
-  useEffect(() => {
-    if (sttError) {
-      console.warn("SpeechTranscriber error:", sttError);
-    }
-  }, [sttError]);
 
   // ================== BUILD KẾT QUẢ TÌM KIẾM ==================
   const results: QuicksearchResult[] = useMemo(() => {
@@ -319,10 +247,6 @@ const QuickSearchScreen = () => {
 
     setLastLogKey(key);
   }, [selectedAnimal, query, results.length, lastLogKey]);
-
-
-  // ⬇⬇⬇ TỪ ĐÂY TRỞ XUỐNG LÀ JSX CŨ CỦA M (return ... )
-  // TUYỆT ĐỐI KHÔNG ĐƯỢC ĐÓNG `};` TRƯỚC RETURN
 
   // render nút chọn loài - đặt trong component để dùng được state
   const renderAnimalButton = (animal: AnimalType, label: string) => {
@@ -360,16 +284,15 @@ const QuickSearchScreen = () => {
       },
     });
   };
-const handleBackFromCare = () => {
-  setShowBackFromCare(false);
-  if (router.canGoBack()) {
-    router.back();
-  } else {
-    router.push("/(tabs)/category");
-  }
-};
 
-
+  const handleBackFromCare = () => {
+    setShowBackFromCare(false);
+    if (router.canGoBack()) {
+      router.back();
+    } else {
+      router.push("/(tabs)/category");
+    }
+  };
 
   const showHistory =
     selectedAnimal && query.trim().length === 0 && history.length > 0;
@@ -381,22 +304,21 @@ const handleBackFromCare = () => {
         contentContainerStyle={styles.contentContainer}
         keyboardShouldPersistTaps="handled"
       >
- {/* NÚT QUAY LẠI KHI ĐI TỪ CARE SANG */}
-{showBackFromCare && (
-  <TouchableOpacity
-    style={styles.backRow}
-    onPress={handleBackFromCare}
-  >
-    <Ionicons
-      name="chevron-back"
-      size={18}
-      color={"#16a34a"}
-      style={{ marginRight: 4 }}
-    />
-    <Text style={styles.backText}>Quay lại mục chăm sóc</Text>
-  </TouchableOpacity>
-)}
-
+        {/* NÚT QUAY LẠI KHI ĐI TỪ CARE SANG */}
+        {showBackFromCare && (
+          <TouchableOpacity
+            style={styles.backRow}
+            onPress={handleBackFromCare}
+          >
+            <Ionicons
+              name="chevron-back"
+              size={18}
+              color={"#16a34a"}
+              style={{ marginRight: 4 }}
+            />
+            <Text style={styles.backText}>Quay lại mục chăm sóc</Text>
+          </TouchableOpacity>
+        )}
 
         {/* CHỌN LOÀI */}
         <View style={styles.section}>
@@ -415,45 +337,40 @@ const handleBackFromCare = () => {
           <Text style={styles.sectionTitle}>Nhập triệu chứng</Text>
 
           <View
-  style={[
-    styles.searchBar,
-    !selectedAnimal && styles.searchBarDisabled,
-  ]}
->
-  <Ionicons name="search-outline" size={18} color={colors.textMuted} />
+            style={[
+              styles.searchBar,
+              !selectedAnimal && styles.searchBarDisabled,
+            ]}
+          >
+            <Ionicons
+              name="search-outline"
+              size={18}
+              color={colors.textMuted}
+            />
 
-  <TextInput
-    style={styles.searchInput}
-    placeholder="Ví dụ: lờ đờ, tiêu chảy, khó thở..."
-    placeholderTextColor={colors.textMuted}
-    value={query}
-    onChangeText={setQuery}
-    editable={!!selectedAnimal}
-    returnKeyType="search"
-  />
+            <TextInput
+              style={styles.searchInput}
+              placeholder="Ví dụ: lờ đờ, tiêu chảy, khó thở..."
+              placeholderTextColor={colors.textMuted}
+              value={query}
+              onChangeText={setQuery}
+              editable={!!selectedAnimal}
+              returnKeyType="search"
+            />
 
-  {selectedAnimal && (
-    <TouchableOpacity
-      onPress={handleToggleVoice}
-      style={styles.micButton}
-    >
-      <Ionicons
-  name={isRecording ? "mic" : "mic-outline"}
-  size={18}
-  color={isRecording ? colors.primary : colors.textMuted}
-/>
-
-    </TouchableOpacity>
-  )}
-</View>
-
-{isRecording && selectedAnimal && (
-  <Text style={styles.helperText}>
-    Đang nghe... hãy nói rõ triệu chứng rồi bấm lại icon mic để dừng.
-  </Text>
-)}
-
-
+            {selectedAnimal && (
+              <TouchableOpacity
+                onPress={handleMicPress}
+                style={styles.micButton}
+              >
+                <Ionicons
+                  name="mic-outline"
+                  size={18}
+                  color={colors.textMuted}
+                />
+              </TouchableOpacity>
+            )}
+          </View>
 
           {!selectedAnimal && (
             <Text style={styles.helperText}>
@@ -463,8 +380,8 @@ const handleBackFromCare = () => {
 
           {selectedAnimal && query.trim().length === 0 && (
             <Text style={styles.helperText2}>
-              Nhập càng nhiều biểu hiện bạn quan sát được, kết quả sẽ càng chính
-              xác.
+              Nhập càng nhiều biểu hiện bạn quan sát được, kết quả sẽ càng
+              chính xác.
             </Text>
           )}
 
@@ -552,7 +469,7 @@ const styles = StyleSheet.create({
     paddingBottom: spacing.xl,
   },
 
-    micButton: {
+  micButton: {
     marginLeft: spacing.sm,
     width: 32,
     height: 32,
@@ -561,17 +478,16 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
-
   // back từ Care
   backRow: {
-  flexDirection: "row",
-  alignItems: "center",
-  marginBottom: spacing.md,
-  paddingVertical: 6,
-  paddingHorizontal: 8,
-  borderRadius: 999,
-  backgroundColor: "#ecfdf3", // nền xanh lá rất nhạt (tuỳ m)
-},
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: spacing.md,
+    paddingVertical: 6,
+    paddingHorizontal: 8,
+    borderRadius: 999,
+    backgroundColor: "#ecfdf3",
+  },
 
   backText: {
     fontSize: 14,

@@ -14,5 +14,14 @@
   "nằm nhiều": ["nằm bệt", "nằm li bì", "nằm 1 chỗ", "không đứng nổi"],
   "phù": ["phù hàm", "bèo mắt", "mặt sưng", "bọng nước"],
   "thiếu máu": ["niêm mạc nhợt", "mắt trắng bệch", "môi tái", "miệng nhạt"],
-  "không": ["khong","ko","khong co","ko co","khong bi","ko bi","chua bi","khong mac"]
+  "không": ["khong","ko","khong co","ko co","khong bi","ko bi","chua bi","khong mac"],
+  "ngứa": ["ngứa","ngứa nhiều","ngứa dữ dội","ngứa khắp người","ngứa toàn thân","gãi",
+    "gãi nhiều","gãi suốt","gãi liên tục","gãi cọ","cọ chuồng",
+    "cọ tường","cọ máng","cọ người","cắn da","gặm da","bứt rứt", "ghẻ", "ghe"],
+  "rụng lông": ["rụng lông","rụng lông từng mảng","rụng lông loang lổ","trụi lông","trụi lông từng mảng","lông rụng","lông rụng nhiều"],
+  "da bong vảy": ["da bong vảy","da đóng vảy","vảy da","da khô tróc","da khô bong vảy","da nứt nẻ","da dày lên","da sần","da sần sùi"],
+  "tai sần sùi": ["tai sần sùi","tai xần xùi","tai đóng vảy","vảy tai","da tai dày","tai thô ráp","tai khô bong vảy"],
+  "nấm da": ["nấm da","hắc lào","lác da","lang ben","vòng tròn rụng lông","rụng lông vòng tròn", "mụn tròn trên da","mảng da trắng khô"],
+  "viêm da": ["viêm da","da viêm đỏ","da đỏ nóng","da sưng đỏ","nổi mẩn đỏ","mụn nước trên da","mụn đỏ trên da"]
+
 }

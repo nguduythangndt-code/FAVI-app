@@ -2,7 +2,7 @@
   {
     "id": "babesiosis",
     "name": "Nhiễm Babesia",
-     "group": "blood_parasite",
+    "group": "blood_parasite",
     "severityLevel": 3,
     "searchText": "Sốt cao, mệt rõ, ăn rất kém Niêm nhạt, mắt tái, mũi nhợt do thiếu máu Nước tiểu đỏ hoặc màu rượu vang Thở nhanh, yếu, đứng không vững Bò nằm nhiều, phản ứng chậm Một số con có run cơ, lờ đờ Sốt nhẹ, giảm ăn Mệt nhưng vẫn đi lại Thiếu máu rõ, niêm nhạt Nước tiểu đỏ, thở nhanh Ăn rất ít, đứng tách đàn Nằm nhiều, yếu nặng, nước tiểu đỏ sẫm Niêm nhợt trắng, khó thở Nguy cơ chết cao nếu không điều trị kịp"
   },

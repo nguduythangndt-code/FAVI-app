@@ -13,13 +13,7 @@
     "searchText": "Đi khập khiễng rõ rệt. Sưng khớp hoặc kẽ móng đỏ. Móng mềm, bốc mùi (Footrot). Nằm nhiều, đứng lên khó. Giảm ăn. Khập khiễng nhẹ. Kẽ móng hơi đỏ. Sưng, nóng. Đi lại khó khăn. Giảm ăn rõ. Nằm nhiều. Kẽ móng chảy mủ. Nguy cơ nhiễm trùng nặng.",
     "severityLevel": 2
   },
-  {
-    "id": "skin-infection",
-    "name": "Viêm da - Nấm - Ghẻ",
-    "group": "other",
-    "searchText": "Rụng lông thành vòng tròn (nấm). Da nứt, dày, có vảy. Ngứa liên tục. Có mủ hoặc hôi (nhiễm khuẩn). Rụng ít, ngứa nhẹ. Da dày, tróc vảy. Ngứa liên tục. Mủ, hôi, nhiễm trùng sâu. Dê gầy, stress kéo dài.",
-    "severityLevel": 1
-  },
+  
   {
     "id": "injury",
     "name": "Chấn thương - Rách da",

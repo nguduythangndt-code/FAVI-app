@@ -11,14 +11,14 @@
     "name": "Nhiễm Babesia (tan máu)",
     "group": "blood_parasite",
     "severityLevel": 3,
-    "searchText": "Sốt cao. Nước tiểu màu đỏ sẫm (tan máu). Niêm mạc nhợt hoặc vàng. Thở nhanh, mệt, đứng run. Có thể sụp nhanh trong 24-48 giờ. Sốt nhẹ. Ăn giảm. Nước tiểu sẫm màu. Niêm mạc nhợt - vàng. Mệt rõ rệt. Co giật, thở gấp. Nằm bệt. Thiếu máu cấp - tử vong nhanh."
+    "searchText": "Sốt cao. Nước tiểu ra máu màu đỏ sẫm (tan máu). Niêm mạc nhợt hoặc vàng. Thở nhanh, mệt, đứng run. Có thể sụp nhanh trong 24-48 giờ. ở thể nặng dê bỏ ăn, nằm bẹp Sốt nhẹ. Ăn giảm. Nước tiểu sẫm màu. Niêm mạc nhợt - vàng. Mệt rõ rệt. Co giật, thở gấp. Nằm bệt. Thiếu máu cấp - tử vong nhanh."
   },
   {
     "id": "trypanosomiasis",
     "name": "Nhiễm Trypanosoma",
     "group": "blood_parasite",
     "severityLevel": 2,
-    "searchText": "Phù hàm (bướu nước). Gầy nhanh, lông xù. Niêm mạc nhạt. Đi đứng chậm chạp. Sốt từng đợt (lúc có lúc không). Suy kiệt kéo dài. Lông hơi xù. Ăn giảm. Phù hàm. Sốt xen kẽ. Thiếu máu vừa. Gầy kiệt. Phù toàn thân. Nằm nhiều, khó hồi phục."
+    "searchText": "Sung phù hàm (bướu nước). Gầy, gầy nhanh, lông xù. Niêm mạc nhạt. Đi đứng chậm chạp. Sốt từng đợt (lúc có lúc không). Suy kiệt kéo dài. Lông hơi xù. Ăn giảm. Phù hàm. Sốt xen kẽ. Thiếu máu vừa. Gầy kiệt. Phù toàn thân. Nằm nhiều, khó hồi phục."
   },
   {
     "id": "theileriosis",
