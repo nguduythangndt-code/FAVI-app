@@ -3,8 +3,8 @@
   "name": "Sót nhau ở dê",
   "species": "goat",
   "group": "reproductive",
-  "summary": "Sót nhau là tình trạng nhau thai không rơi ra sau 4-6 giờ sau khi dê đẻ. Nếu để lâu có nguy cơ nhiễm trùng tử cung, viêm huyết và giảm khả năng sinh sản.",
-  "causes": [
+    "summary": "Sót nhau là tình trạng nhau thai không rơi ra sau 8–12 giờ sau khi dê đẻ. Nếu để kéo dài có nguy cơ nhiễm trùng tử cung, nhiễm độc và giảm khả năng sinh sản.",
+    "causes": [
     "Dê đẻ khó, đẻ lâu.",
     "Thiếu khoáng - vitamin (đặc biệt Selenium, Vitamin E).",
     "Viêm tử cung trước đó.",
@@ -28,7 +28,7 @@
       "Không sốt."
     ],
     "moderate": [
-      "Nhau treo > 6 giờ.",
+      "Nhau treo > 8 giờ.",
       "Ăn giảm, lờ đờ nhẹ."
     ],
     "severe": [
@@ -38,7 +38,7 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Oxytocin (theo hướng dẫn thú y).",
+      "Oxytocin",
       "Ceftiofur",
       "Amoxicillin"
     ],
@@ -47,9 +47,10 @@
       "Doxycycline"
     ],
     "note_drugs": [
-      "Tuyệt đối KHÔNG tự tay kéo nhau mạnh vì dễ lộn tử cung hoặc chảy máu.",
-      "Không thụt rửa bằng hóa chất mạnh."
-    ],
+    "Oxytocin chỉ hiệu quả trong giai đoạn sớm sau đẻ; không dùng khi cổ tử cung đã đóng.",
+    "Tuyệt đối KHÔNG tự tay kéo nhau mạnh vì dễ gây lộn tử cung hoặc xuất huyết.",
+    "Không thụt rửa tử cung bằng hóa chất mạnh vì dễ tổn thương niêm mạc."
+  ],
     "symptomatic_treatment": {
       "antiinflammatory": [
         "Meloxicam",
@@ -79,25 +80,26 @@
     ]
   },
   "severe_case_treatment": {
-    "case_type_1": {
-      "description": "Nhau treo nhưng dê chưa sốt.",
-      "guideline": [
-        "Dùng oxytocin theo thú y.",
-        "Kháng sinh phòng nhiễm trùng.",
-        "Vitamin E - Selenium."
-      ]
-    },
-    "case_type_2": {
-      "description": "Dịch hôi, sốt, nghi viêm tử cung.",
-      "guideline": [
-        "Ceftiofur/amoxicillin.",
-        "Chống viêm + điện giải.",
-        "Theo dõi sát tình trạng ăn - đứng.",
-        "Gọi thú y khi không cải thiện."
-      ]
-    },
-    "note": "Sót nhau là cửa ngõ dẫn đến viêm tử cung - xử lý càng sớm càng tốt."
+  "case_type_1": {
+    "description": "Nhau còn treo nhưng dê chưa sốt, chưa có mùi hôi.",
+    "guideline": [
+      "Oxytocin chỉ dùng sớm sau đẻ và theo hướng dẫn thú y để hỗ trợ nhau rơi.",
+      "Theo dõi sát mùi dịch và thân nhiệt.",
+      "Bổ sung vitamin E - Selenium."
+    ]
   },
+  "case_type_2": {
+    "description": "Dịch hôi, sốt, nghi nhiễm trùng tử cung.",
+    "guideline": [
+      "Ceftiofur hoặc amoxicillin theo phác đồ.",
+      "Chống viêm kết hợp bù điện giải.",
+      "Theo dõi sát tình trạng ăn uống và khả năng đứng.",
+      "Gọi thú y nếu sau 24–48 giờ không cải thiện."
+    ]
+  },
+  "note": "Sót nhau là yếu tố nguy cơ cao dẫn đến viêm tử cung; xử lý đúng và kịp thời giúp bảo vệ khả năng sinh sản."
+},
+
   "prevention": [
     "Bổ sung Selenium - Vitamin E trước khi đẻ.",
     "Dinh dưỡng đầy đủ cuối thai kỳ.",

@@ -64,10 +64,10 @@
       ],
       "respiratory_support": [
         "Bromhexine",
-        "Guaifenesin"
+        "Guaifenesin (long đờm)"
       ],
       "electrolyte": [
-        "electrolyte_mix",
+        "Electrolyte tổng hợp (Na/K/Cl)",
         "Oresol (điện giải uống)"
       ],
       "vitamin": [
@@ -76,7 +76,7 @@
         "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho những con gầy, ăn kém."
+        "Probiotic (men vi sinh)"
       ]
     },
     "supportive_care": [

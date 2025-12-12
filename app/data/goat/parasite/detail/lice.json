@@ -34,6 +34,7 @@
       "Da dày, nứt nhẹ."
     ]
   },
+ 
   "treatment": {
     "primary_drugs": [
       "Permethrin (phun/xịt)",
@@ -43,57 +44,76 @@
       "Fipronil",
       "Amitraz"
     ],
+
     "note_drugs": [
-      "Không dùng permethrin cho mèo.",
-      "Không xịt quá liều."
+      "Điều trị cần xử lý đồng thời cả đàn và môi trường chuồng nuôi để tránh tái nhiễm.",
+      "Permethrin có thể gây độc cho mèo; tránh để mèo tiếp xúc với thuốc hoặc khu vực vừa xử lý.",
+      "Dùng thuốc theo hướng dẫn trên nhãn; tránh lạm dụng hoặc sử dụng quá dày."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [],
-      "respiratory_support": [],
-      "electrolyte": [],
-      "vitamin": [
-        "Vitamin BC"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": null,
+        "alternative": []
+      },
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": null,
+        "alternative": []
+      },
+      "vitamin": {
+        "main": "Vitamin BC",
+        "alternative": []
+      },
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Vệ sinh chuồng.",
-      "Tách dê bệnh.",
-      "Phơi nắng đàn thường xuyên."
+      "Vệ sinh chuồng trại, thay chất độn và dọn phân thường xuyên.",
+      "Tách những con nhiễm nặng để chăm sóc và xử lý kỹ hơn.",
+      "Phơi nắng đàn và chuồng nuôi để giảm mật độ ký sinh ngoài."
     ],
-    "dose_policy": [
-      "Thuốc xịt phải pha đúng hướng dẫn.",
-      "Ivermectin dùng đúng nhãn."
-    ]
+
+    "dose_policy": "Thuốc phun/xịt và thuốc tiêm dùng theo hướng dẫn trên nhãn hoặc theo tư vấn thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Nhiễm chí vừa, chưa viêm da.",
+      "description": "Nhiễm chí mức độ vừa, chưa có viêm da rõ.",
       "guideline": [
-        "Xịt permethrin.",
-        "Vệ sinh chuồng.",
-        "Lặp lại theo hướng dẫn."
+        "Xử lý ký sinh ngoài bằng thuốc phù hợp.",
+        "Vệ sinh chuồng và dụng cụ chăm sóc.",
+        "Theo dõi và xử lý lại theo hướng dẫn nếu còn tái nhiễm."
       ]
     },
     "case_type_2": {
-      "description": "Viêm da, stress nặng.",
+      "description": "Ngứa nhiều, rụng lông mạnh hoặc có viêm da, stress rõ.",
       "guideline": [
-        "Xịt nhẹ nhàng, tránh làm rát da.",
-        "Thú y kiểm tra nhiễm trùng da.",
-        "Bổ sung vitamin."
+        "Xử lý ký sinh ngoài nhẹ nhàng, tránh làm tổn thương da.",
+        "Cân nhắc kiểm tra và xử lý nhiễm trùng da kế phát theo thú y.",
+        "Bổ sung vitamin và cải thiện dinh dưỡng để hồi phục."
       ]
     },
-    "note": "Điều trị chí - rận cần xử lý cả chuồng."
+    "note": "Chí - rận rất dễ tái phát nếu không xử lý đồng thời cả chuồng và cả đàn."
   },
+
   "prevention": [
-    "Phơi nắng chuồng trại.",
-    "Không nuôi quá dày.",
-    "Vệ sinh nền thường xuyên.",
-    "Tẩy ký sinh ngoài định kỳ."
+    "Giữ chuồng khô thoáng, có nắng và sạch sẽ.",
+    "Không nuôi quá dày, giảm tiếp xúc gần kéo dài.",
+    "Vệ sinh nền, máng ăn và khu vực ngủ thường xuyên.",
+    "Kiểm tra định kỳ và xử lý ký sinh ngoài theo nguy cơ thực tế của trại."
   ],
+
   "notes": [
-    "Chí gây ngứa nhưng không hút máu mạnh như ve.",
-    "Điều trị đúng cách là hết sạch."
+    "Chí gây ngứa và rụng lông, thường không gây thiếu máu nặng như ve.",
+    "Điều trị đúng và xử lý môi trường tốt thường kiểm soát được triệt để."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

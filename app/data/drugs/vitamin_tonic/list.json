@@ -18,7 +18,7 @@
   { "id": "calcium_d3",              "name": "Calcium - D3 (xương - sinh sản)" },
 
   { "id": "amino_peptide",           "name": "Amino peptide phục hồi" },
-  { "id": "electrolyte_amino",       "name": "Điện giải + Amino acid" },
+  { "id": "electrolyte_amino_premium",       "name": "Điện giải + Amino acid" },
   { "id": "liver_kidney_tonic",      "name": "Bổ gan + thận tổng hợp" },
   { "id": "butafosfan_b12",          "name": "Butafosfan + B12 (tăng lực - phục hồi)" },
   { "id": "mineral_premix_feed",     "name": "Khoáng premix trộn thức ăn" }

@@ -1,0 +1,41 @@
+{
+  "id": "sodium_bicarbonate",
+  "name": "Sodium bicarbonate",
+  "group": "digestive_support",
+  "mechanism": "Chất kiềm nhẹ giúp trung hoà acid dư thừa trong dạ cỏ, ổn định pH, giảm toan dạ cỏ và hỗ trợ phục hồi hoạt động lên men bình thường của vi sinh vật dạ cỏ.",
+  "clinical_uses": [
+    "Toan dạ cỏ mức độ nhẹ đến vừa do ăn nhiều tinh bột hoặc thức ăn lên men mạnh.",
+    "Rối loạn tiêu hoá kèm chướng hơi nhẹ, đầy bụng.",
+    "Hỗ trợ cân bằng môi trường dạ cỏ trong các ca rối loạn tiêu hoá thứ phát."
+  ],
+  "pros": [
+    "Tác dụng nhanh trong việc trung hoà acid dạ cỏ.",
+    "Dễ sử dụng, chi phí thấp.",
+    "Phù hợp dùng hỗ trợ trong nhiều tình huống rối loạn tiêu hoá."
+  ],
+  "cons": [
+    "Không giải quyết nguyên nhân nếu tiếp tục cho ăn sai khẩu phần.",
+    "Dùng không đúng có thể làm mất cân bằng pH dạ cỏ.",
+    "Không phù hợp cho ca toan dạ cỏ nặng hoặc biến chứng nặng."
+  ],
+  "mild_side_effects": [
+    "Đầy hơi nhẹ nếu dùng không đúng thời điểm.",
+    "Có thể làm thay đổi phân tạm thời."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi có dấu hiệu nghi ngờ toan dạ cỏ.",
+    "Kết hợp điều chỉnh khẩu phần thức ăn và giảm tinh bột nhanh.",
+    "Theo dõi phản ứng tiêu hoá sau khi dùng.",
+    "Dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho dê đang chướng hơi nặng hoặc nghi ngờ xoắn dạ cỏ.",
+    "Không dùng kéo dài liên tục nhiều ngày.",
+    "Thận trọng nếu dê đang mất nước nặng hoặc rối loạn điện giải."
+  ],
+  "alternative_drugs": [
+    "Men vi sinh (Probiotic) để ổn định dạ cỏ.",
+    "Enzyme tiêu hoá để hỗ trợ phân giải thức ăn.",
+    "Than hoạt tính nếu nghi ngờ kèm độc tố thức ăn."
+  ]
+}

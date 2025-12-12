@@ -39,75 +39,100 @@
       "Nguy cơ tử vong."
     ]
   },
+ 
   "treatment": {
     "primary_drugs": [
       "Oxytetracycline",
-      "Doxycycline"
-    ],
-    "alternative_drugs": [
-      "Imidocarb",
       "Diminazene (Azidin)"
     ],
+
+    "alternative_drugs": [
+      "Imidocarb",
+      "Doxycycline"
+    ],
+
     "note_drugs": [
-      "Không tự ý phối hợp nhiều thuốc đặc trị.",
-      "Không dùng thuốc tẩy giun khi thiếu máu nặng."
+      "Không tự ý phối hợp nhiều thuốc đặc trị ký sinh trùng máu cùng lúc.",
+      "Azidin và imidocarb là thuốc có độc tính, cần dùng theo chỉ định thú y.",
+      "Không tẩy giun khi dê đang thiếu máu nặng."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam"
-      ],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin B12",
-        "Vitamin BC",
-        "Vitamin C"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin B12",
+        "alternative": [
+          "Vitamin BC",
+          "Vitamin C"
+        ]
+      },
+
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Giảm vận động, để nằm chỗ khô - ấm.",
-      "Tẩy ve - mòng cho cả đàn.",
-      "Cho ăn cỏ chất lượng tốt.",
-      "Theo dõi niêm mạc mỗi 12 giờ."
+      "Giảm vận động, cho dê nghỉ ngơi nơi khô và ấm.",
+      "Xử lý ve, mòng cho toàn đàn để cắt nguồn lây.",
+      "Cho ăn cỏ và thức ăn chất lượng tốt.",
+      "Theo dõi sát màu niêm mạc và thể trạng."
     ],
-    "dose_policy": [
-      "Thuốc đặc trị ký sinh trùng máu luôn dùng theo hướng dẫn thú y.",
-      "Không tự tăng liều vì dễ gây độc gan - thận."
-    ]
+
+    "dose_policy": "Thuốc điều trị ký sinh trùng máu cần dùng theo hướng dẫn của bác sĩ thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Thiếu máu nhưng dê còn đứng.",
+      "description": "Thiếu máu nhưng dê vẫn còn đứng và phản xạ.",
       "guideline": [
-        "Oxytetracycline/doxycycline.",
-        "Vitamin B12 + điện giải.",
-        "Theo dõi mức độ vàng mắt."
+        "Điều trị bằng oxytetracycline hoặc doxycycline.",
+        "Bổ sung vitamin B12 và điện giải.",
+        "Theo dõi sát mức độ vàng mắt và sức ăn."
       ]
     },
+
     "case_type_2": {
-      "description": "Nằm, mắt vàng đậm, mất nước.",
+      "description": "Dê nằm nhiều, vàng mắt rõ, mất nước.",
       "guideline": [
-        "Thú y thăm khám.",
-        "Azidin hoặc imidocarb (theo thú y).",
-        "Hồi sức bằng điện giải.",
-        "Tiên lượng dè dặt."
+        "Cần thú y thăm khám và chỉ định thuốc đặc trị phù hợp.",
+        "Điều trị bằng azidin hoặc imidocarb theo chỉ định.",
+        "Hỗ trợ hồi sức bằng điện giải và chăm sóc nâng đỡ.",
+        "Tiên lượng dè dặt do thiếu máu nặng."
       ]
     },
-    "note": "Anaplasma thường âm ỉ - nếu thấy vàng mắt cần điều trị sớm."
+
+    "note": "Anaplasma thường diễn tiến âm ỉ; khi đã thấy vàng mắt cần điều trị sớm để tránh suy kiệt."
   },
+
   "prevention": [
-    "Tẩy ve - mòng thường xuyên.",
-    "Khử trùng dụng cụ tiêm.",
-    "Bổ sung khoáng - vitamin.",
-    "Giữ chuồng khô - sạch."
+    "Kiểm soát và xử lý ve, mòng định kỳ.",
+    "Khử trùng dụng cụ tiêm và không dùng chung kim.",
+    "Bổ sung khoáng và vitamin để nâng sức đề kháng.",
+    "Giữ chuồng trại khô và sạch."
   ],
+
   "notes": [
-    "Vàng mắt kèm thiếu máu → nghi Anaplasma.",
-    "Bổ sung B12 giúp hồi phục rất nhanh."
+    "Vàng mắt kèm thiếu máu là dấu hiệu gợi ý mạnh Anaplasma.",
+    "Bổ sung vitamin B12 giúp dê hồi phục thể trạng nhanh hơn."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

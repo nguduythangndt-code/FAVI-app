@@ -49,11 +49,18 @@
       "Ceftiofur",
       "Florfenicol"
     ],
+
     "alternative_drugs": [
       "Cefquinome",
       "Oxytetracycline LA"
     ],
-    "note_drugs": "Kháng sinh phổ mạnh là nền tảng vì bệnh tiến rất nhanh. Kháng viêm - long đờm giúp giảm phù phổi và dễ thở hơn.",
+
+    "note_drugs": [
+      "Kháng sinh phổ mạnh là nền tảng điều trị vì bệnh tiến triển rất nhanh.",
+      "Thuốc kháng viêm và long đờm giúp giảm phản ứng viêm phổi và hỗ trợ hô hấp.",
+      "Không trì hoãn điều trị trong 24 giờ đầu khi đã có dấu hiệu nặng."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -62,18 +69,21 @@
           "Ketoprofen"
         ]
       },
+
       "respiratory_support": {
         "main": "Bromhexine",
         "alternative": [
-          "Guaifenesin"
+          "Guaifenesin (long đờm)"
         ]
       },
+
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
+
       "vitamin": {
         "main": "Vitamin C",
         "alternative": [
@@ -82,38 +92,52 @@
         ]
       }
     },
+
     "supportive_care": [
-      "Giữ ấm tuyệt đối, tránh gió lùa",
-      "Nơi nằm khô sạch",
-      "Giảm vận động, giảm stress",
-      "Cho uống nước ấm sạch",
-      "Theo dõi nhịp thở mỗi ngày"
+      "Giữ ấm tuyệt đối, tránh gió lùa trực tiếp.",
+      "Cho dê nằm nơi khô sạch, nền mềm.",
+      "Giảm vận động và các yếu tố gây stress.",
+      "Cho uống nước ấm sạch, dễ tiếp cận.",
+      "Theo dõi sát nhịp thở và mức độ mệt."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+
+    "dose_policy": "Dùng thuốc theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
   },
+
   "severe_case_treatment": {
-    "case_type_1": [
-      "Ưu tiên kháng sinh mạnh, đủ ngày",
-      "Kết hợp hạ sốt - kháng viêm",
-      "Long đờm - hỗ trợ hô hấp",
-      "Bù điện giải và vitamin"
-    ],
-    "case_type_2": [
-      "Nếu có dấu hiệu phù phổi: giữ yên, nâng cao đầu nhẹ",
-      "Chỗ nằm thoáng ấm, không gió tạt",
-      "Theo dõi sát, gọi thú y nếu thở gấp tăng"
-    ],
-    "note": "Ca nặng cần xử lý sớm trong 1-2 ngày đầu, trễ là tỉ lệ chết cao."
+    "case_type_1": {
+      "description": "Khó thở, sốt cao nhưng dê vẫn còn đứng và phản xạ.",
+      "guideline": [
+        "Ưu tiên kháng sinh mạnh và đủ liệu trình.",
+        "Kết hợp thuốc hạ sốt và kháng viêm.",
+        "Dùng thuốc long đờm và hỗ trợ hô hấp.",
+        "Bổ sung điện giải và vitamin."
+      ]
+    },
+
+    "case_type_2": {
+      "description": "Khó thở nặng, có dấu hiệu phù phổi hoặc nằm nhiều.",
+      "guideline": [
+        "Giữ dê yên, nâng cao đầu nhẹ để dễ thở.",
+        "Đặt nơi thoáng nhưng ấm, không gió tạt.",
+        "Theo dõi sát; liên hệ thú y ngay nếu nhịp thở tăng nhanh."
+      ]
+    },
+
+    "note": "Viêm phổi Mannheimia ca nặng cần xử lý sớm trong 1–2 ngày đầu; can thiệp muộn làm tỷ lệ tử vong tăng cao."
   },
+
   "prevention_list": [
-    "Chuồng khô thoáng, tránh gió tạt",
-    "Giảm mật độ nuôi",
-    "Cách ly dê mới nhập",
-    "Tẩy ký sinh trùng định kỳ",
-    "Bổ sung khoáng - vitamin khi đổi mùa"
+    "Giữ chuồng khô thoáng, tránh gió tạt.",
+    "Giảm mật độ nuôi, hạn chế stress.",
+    "Cách ly dê mới nhập đàn.",
+    "Tẩy ký sinh trùng định kỳ.",
+    "Bổ sung khoáng và vitamin khi giao mùa."
   ],
+
   "notes": [
-    "Hay bùng sau mưa lạnh hoặc sau vận chuyển."
+    "Bệnh thường bùng phát sau mưa lạnh hoặc sau các đợt vận chuyển xa."
   ],
+
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

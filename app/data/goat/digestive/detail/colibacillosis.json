@@ -44,36 +44,36 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Colistin uống (ưu tiên cho tiêu chảy sơ sinh).",
-      "Amoxicillin uống hoặc tiêm (theo hướng dẫn thú y).",
-      "Sulfa đường uống cho sơ sinh (theo nhãn)."
+      "Colistin",
+    "Amoxicillin",
+    "Sulfa_trimethoprim"
     ],
     "alternative_drugs": [
-      "Florfenicol (nếu nhiễm khuẩn nặng, theo thú y).",
-      "Điện giải - gluco dành cho dê con.",
-      "Men tiêu hoá + probiotics chuyên cho dê con."
+      "Florfenicol"
     ],
     "note_drugs": [
-      "Không dùng kháng sinh mạnh bừa bãi ở dê con sơ sinh.",
-      "Không dùng thuốc giảm nhu động ruột cho dê con."
-    ],
+    "Colistin ưu tiên cho tiêu chảy sơ sinh do E.coli, chỉ dùng đường uống và không kéo dài.",
+    "Amoxicillin hoặc sulfa-trimethoprim dùng khi nghi nhiễm khuẩn đường ruột.",
+    "Không dùng kháng sinh mạnh bừa bãi ở dê con sơ sinh.",
+    "Không dùng thuốc giảm nhu động ruột cho dê con."
+  ],
     "symptomatic_treatment": {
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS pha loãng cho dê con",
-        "Gluco - điện giải ấm"
+        "Oresol",
+      "Điện giải tổng hợp (Na/K/Cl)",
+      "Glucose"
       ],
       "vitamin": [
-        "Vitamin C",
-        "Vitamin BC",
-        "Khoáng - điện giải dành cho dê con"
-      ],
-      "digestive_support": [
-        "Probiotics chuyên cho thú non",
-        "Pectin - Kaolin"
-      ]
-    },
+      "Vitamin_C",
+      "Vitamin_BC"
+    ],
+    "digestive_support": [
+      "Probiotic",
+      "Pectin_kaolin"
+    ]
+  },
     "supportive_care": [
       "Giữ dê con ấm, quấn khăn ấm khi trời lạnh.",
       "Cho bú nhiều bữa nhỏ, không để no quá.",

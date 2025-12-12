@@ -1,6 +1,10 @@
-{
-  "summary": "Theileriosis (nhiễm Theileria) là bệnh ký sinh trùng máu do Theileria spp. gây ra, lây qua ve hút máu. Bệnh phá hủy hồng cầu và tế bào miễn dịch, gây sốt cao, thiếu máu, hạch sưng và suy nhược toàn thân. Nếu không điều trị sớm, dê dễ kiệt sức và tỷ lệ chết cao.",
-  "causes": [
+ {
+  "id": "theileriosis",
+  "name": "Nhiễm ký sinh trùng máu Theileria ở dê",
+  "species": "goat",
+  "group": "blood_parasite",
+  "summary": "Theileriosis (nhiễm Theileria) là bệnh ký sinh trùng máu do Theileria spp. gây ra, lây qua ve hút máu. Bệnh phá hủy hồng cầu và tế bào miễn dịch, gây sốt cao, thiếu máu, sưng hạch và suy nhược toàn thân. Nếu không điều trị sớm, dê dễ kiệt sức và tỷ lệ chết cao.",
+"causes": [
     "Ký sinh trùng Theileria spp. xâm nhập qua ve hút máu, đặc biệt là ve nâu và ve tai.",
     "Lây lan mạnh trong mùa ve hoặc khu vực có đàn dê thả rông nhiều.",
     "Dùng chung kim tiêm, dụng cụ chọc máu giữa các con trong đàn.",
@@ -47,52 +51,98 @@
       "Tỷ lệ chết cao nếu không điều trị kịp thời."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
-      "Buparvaquone (trị Theileria)",
-      "Kết hợp kháng sinh phù hợp khi có bội nhiễm vi khuẩn (theo hướng dẫn thú y)."
+      "Buparvaquone"
     ],
-    "alternative_drugs": [
-      "Các thuốc có phổ tác dụng tương tự theo tư vấn thú y khi không có thuốc đặc hiệu.",
-      "Phác đồ khác có thể được chỉ định tùy tình trạng và khu vực."
+
+    "alternative_drugs": [],
+
+    "note_drugs": [
+      "Buparvaquone là thuốc đặc hiệu điều trị Theileria.",
+      "Kháng sinh chỉ dùng khi có bội nhiễm vi khuẩn, không có tác dụng diệt Theileria.",
+      "Thuốc điều trị Theileria cần dùng theo chỉ định thú y."
     ],
-    "symptomatic_treatment": [
-      "Hạ sốt khi sốt cao.",
-      "Thuốc trợ tim - trợ hô hấp khi dê mệt nhiều.",
-      "Điện giải - glucose - vitamin B để cải thiện sức.",
-      "Thuốc giảm đau - chống viêm khi dê khó chịu."
-    ],
+
+    "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin B-complex",
+        "alternative": [
+          "Vitamin B12",
+          "Multivitamin tổng hợp"
+        ]
+      },
+
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
+    },
+
     "supportive_care": [
-      "Bổ sung vitamin, khoáng, đặc biệt nhóm B và khoáng vi lượng.",
-      "Thức ăn dễ tiêu, cỏ non, tránh khẩu phần kém chất lượng.",
-      "Giữ chuồng trại khô ráo, sát trùng, kiểm soát ve.",
-      "Giảm tối đa stress: hạn chế lùa chạy, vận chuyển."
+      "Bổ sung vitamin và khoáng, đặc biệt nhóm B và vi lượng.",
+      "Cho ăn thức ăn dễ tiêu, cỏ non chất lượng tốt.",
+      "Giữ chuồng trại khô ráo, sát trùng và kiểm soát ve.",
+      "Giảm tối đa stress: hạn chế lùa chạy và vận chuyển."
     ],
-    "dose_policy": "Dùng theo liều trên nhãn hoặc tư vấn thú y."
+
+    "dose_policy": "Thuốc điều trị Theileria cần dùng theo hướng dẫn của bác sĩ thú y."
   },
+
   "severe_case_treatment": {
-    "case_type_1": [
-      "Truyền dịch theo hướng dẫn thú y khi mất nước hoặc sốc.",
-      "Hỗ trợ hô hấp - tuần hoàn khi dê thở nhanh, tim đập mạnh.",
-      "Thuốc trị ký sinh trùng máu liều theo chỉ định thú y."
-    ],
-    "case_type_2": [
-      "Kết hợp thêm thuốc trợ tim và nâng huyết áp nếu dê quá yếu.",
-      "Theo dõi sát trong 24-48 giờ đầu."
-    ],
-    "note": "Các ca nặng cần bác sĩ thú y trực tiếp theo dõi."
+    "case_type_1": {
+      "description": "Sốt cao, thiếu máu nhưng dê còn đứng và phản xạ.",
+      "guideline": [
+        "Điều trị bằng thuốc đặc hiệu theo chỉ định thú y.",
+        "Bù điện giải và bổ sung vitamin nhóm B.",
+        "Theo dõi sát thân nhiệt và thể trạng."
+      ]
+    },
+
+    "case_type_2": {
+      "description": "Suy kiệt rõ, sưng hạch nhiều, dê nằm nhiều.",
+      "guideline": [
+        "Cần bác sĩ thú y trực tiếp can thiệp.",
+        "Điều trị đặc hiệu kết hợp hồi sức nâng đỡ.",
+        "Hỗ trợ tuần hoàn và chăm sóc tích cực.",
+        "Theo dõi sát trong giai đoạn đầu điều trị."
+      ]
+    },
+
+    "note": "Các ca Theileriosis nặng cần bác sĩ thú y theo dõi trực tiếp do nguy cơ tử vong cao."
   },
+
   "prevention": [
-    "Vệ sinh chuồng sạch, khô ráo, thông thoáng.",
-    "Phun thuốc diệt ve định kỳ, đặc biệt mùa mưa - nóng.",
+    "Giữ chuồng trại khô, sạch và thông thoáng.",
+    "Kiểm soát và diệt ve định kỳ, nhất là mùa mưa nóng.",
     "Không dùng chung kim tiêm giữa các con.",
-    "Cách ly dê mới nhập đàn ít nhất 14 ngày.",
-    "Bổ sung khoáng, vitamin định kỳ để tăng sức đề kháng."
+    "Cách ly dê mới nhập đàn đủ thời gian.",
+    "Bổ sung khoáng và vitamin định kỳ để tăng sức đề kháng."
   ],
+
   "notes": [
-    "Bệnh nặng khi dê đang stress hoặc suy nhược.",
-    "Cần theo dõi sát dê chửa và dê con vì diễn tiến nhanh.",
+    "Bệnh thường nặng hơn khi dê đang stress hoặc suy nhược.",
+    "Dê chửa và dê con cần được theo dõi sát do diễn tiến nhanh.",
     "Không nên lùa chạy khi dê đang sốt hoặc thiếu máu."
   ],
-  "disclaimer": "Thông tin mang tính tham khảo, không thay thế bác sĩ thú y."
+
+  "disclaimer": "Thông tin mang tính tham khảo, không thay thế tư vấn của bác sĩ thú y."
 }

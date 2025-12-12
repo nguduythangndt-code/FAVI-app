@@ -46,11 +46,16 @@
     ],
     "alternative_drugs": [
       "Sulfa - trimethoprim",
-      "Enrofloxacin (chỉ dùng khi có thú y)",
-      "Colistin (khi nghi đồng nhiễm Gram âm đường ruột)"
+      "Enrofloxacin",
+      "Colistin"
     ],
     "note_drugs": [
-      "Không dùng doxycycline cho Salmonella (hiệu quả rất kém)."
+      "Florfenicol hoặc ceftiofur là lựa chọn ưu tiên cho Salmonella nặng.",
+    "Amoxicillin chỉ dùng cho ca nhẹ - trung bình, theo dõi sát đáp ứng.",
+    "Enrofloxacin chỉ dùng khi có chỉ định thú y.",
+    "Colistin chỉ dùng khi nghi đồng nhiễm vi khuẩn Gram âm đường ruột.",
+    "Không dùng doxycycline cho Salmonella vì hiệu quả kém.",
+    "Bệnh dễ lây lan — cần cách ly dê bệnh."
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [
@@ -60,7 +65,7 @@
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix"
+        "Vitamin C điện giải"
       ],
       "vitamin": [
         "Vitamin C",
@@ -69,7 +74,7 @@
       ],
       "digestive_support": [
         "Probiotic (men vi sinh)",
-        "Thuốc bảo vệ niêm mạc ruột"
+        "Pectin - Kaolin"
       ]
     },
     "supportive_care": [

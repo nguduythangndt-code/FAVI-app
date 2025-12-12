@@ -42,72 +42,84 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Doxycycline",
-      "Tylosin",
       "Amoxicillin"
     ],
     "alternative_drugs": [
-      "Enrofloxacin (ca dai dẳng)",
-      "Thuốc nhỏ mũi sát khuẩn nhẹ (theo thú y)"
+      "Tylosin"
     ],
     "note_drugs": [
-      "Không dùng kháng sinh mạnh nếu chỉ viêm mũi nhẹ."
+      "Chỉ dùng kháng sinh khi có dấu hiệu viêm kéo dài, chảy mũi đục hoặc ăn giảm rõ.",
+      "Không lạm dụng kháng sinh mạnh trong trường hợp viêm mũi nhẹ.",
+      "Nếu không đáp ứng sau vài ngày, cần đánh giá nguy cơ chuyển sang viêm đường hô hấp dưới."
     ],
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam"
-      ],
-      "respiratory_support": [
-        "Bromhexine"
-      ],
-      "electrolyte": [
-        "Oresol (điện giải uống)"
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      }
     },
     "supportive_care": [
-      "Giảm bụi - mạt chuồng.",
-      "Che chắn gió lùa.",
-      "Giữ chuồng khô - thoáng.",
-      "Phơi nắng cỏ - rơm."
-    ],
+  "Giảm bụi và mạt trong chuồng nuôi.",
+  "Che chắn gió lùa trực tiếp.",
+  "Giữ nền chuồng khô, thông thoáng.",
+  "Phơi nắng cỏ và rơm trước khi cho ăn."
+],
+
     "dose_policy": [
-      "Kháng sinh dùng đúng liều nhãn.",
-      "Không kéo dài điều trị không cần thiết."
-    ]
+  "Dùng kháng sinh đúng theo hướng dẫn trên nhãn.",
+  "Không kéo dài thời gian điều trị khi không cần thiết."
+]
+
   },
   "severe_case_treatment": {
-    "case_type_1": {
-      "description": "Nghẹt mũi nhiều nhưng dê vẫn ăn.",
-      "guideline": [
-        "Doxycycline hoặc amoxicillin.",
-        "Bromhexine hỗ trợ long đờm.",
-        "Vitamin C."
-      ]
-    },
-    "case_type_2": {
-      "description": "Nghẹt mũi nặng, ăn giảm mạnh.",
-      "guideline": [
-        "Enrofloxacin theo thú y.",
-        "Xử lý môi trường: giảm khí độc.",
-        "Theo dõi chuyển thành viêm phổi."
-      ]
-    },
-    "note": "Viêm xoang kéo dài dễ thành viêm phổi; cần can thiệp sớm."
+  "case_type_1": {
+    "description": "Nghẹt mũi nhiều nhưng dê vẫn còn ăn và đi lại.",
+    "guideline": [
+      "Cân nhắc dùng kháng sinh nhẹ như amoxicillin hoặc doxycycline.",
+      "Kết hợp thuốc long đờm hỗ trợ thông thoáng đường thở.",
+      "Bổ sung vitamin C để tăng sức đề kháng."
+    ]
+  },
+  "case_type_2": {
+    "description": "Nghẹt mũi nặng, ăn giảm rõ, có nguy cơ chuyển biến nặng.",
+    "guideline": [
+      "Cân nhắc kháng sinh mạnh hơn theo tư vấn thú y.",
+      "Cải thiện môi trường nuôi: giảm khí độc, bụi và ẩm.",
+      "Theo dõi sát khả năng chuyển sang viêm đường hô hấp dưới."
+    ]
+  },
+  "note": "Viêm mũi – xoang kéo dài có thể tiến triển thành viêm phổi nếu không xử lý sớm."
+
+
   },
   "prevention": [
-    "Chuồng thông thoáng, không bụi.",
-    "Che chắn gió mùa.",
-    "Thức ăn khô, không mốc.",
-    "Bổ sung vitamin mùa lạnh."
-  ],
+  "Giữ chuồng nuôi thông thoáng, hạn chế bụi.",
+  "Che chắn gió lạnh và gió mùa.",
+  "Thức ăn khô, không ẩm mốc.",
+  "Bổ sung vitamin trong giai đoạn thời tiết lạnh."
+],
   "notes": [
-    "Bệnh dễ tái nếu môi trường ẩm bụi.",
-    "Không cần kháng sinh mạnh nếu triệu chứng nhẹ."
-  ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+  "Bệnh dễ tái phát nếu môi trường chuồng nuôi ẩm và nhiều bụi.",
+  "Trường hợp nhẹ không cần sử dụng kháng sinh mạnh."
+]
+,
+  "disclaimer": "Thông tin trong ứng dụng chỉ mang tính tham khảo."
+
 }

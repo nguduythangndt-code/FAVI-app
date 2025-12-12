@@ -42,69 +42,92 @@
       "Ivermectin",
       "Doramectin"
     ],
+
     "alternative_drugs": [
       "Levamisole"
     ],
+
     "note_drugs": [
-      "Không dùng kháng sinh khi chỉ có giun phổi — chỉ dùng khi có nhiễm khuẩn kế phát."
+      "Giun phổi là bệnh ký sinh trùng, thuốc kháng sinh không có tác dụng diệt giun.",
+      "Chỉ cân nhắc kháng sinh khi có dấu hiệu viêm phổi hoặc nhiễm khuẩn kế phát."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam"
-      ],
-      "respiratory_support": [
-        "Bromhexine",
-        "Guaifenesin"
-      ],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Multivitamin tổng hợp"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": [
+          "Guaifenesin (long đờm)"
+        ]
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Multivitamin tổng hợp"
+        ]
+      },
+
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Chuồng thoáng, không gió lùa.",
-      "Giảm căng thẳng.",
-      "Cỏ khô thay vì cỏ ướt.",
-      "Vệ sinh máng ăn - nước."
+      "Giữ chuồng nuôi thông thoáng, tránh gió lùa.",
+      "Giảm stress và hạn chế vận động mạnh.",
+      "Ưu tiên cho ăn cỏ khô, hạn chế cỏ ướt.",
+      "Vệ sinh máng ăn và nước uống sạch sẽ."
     ],
-    "dose_policy": [
-      "Tẩy giun đúng theo nhãn.",
-      "Không lặp tẩy quá gần."
-    ]
+
+    "dose_policy": "Dùng thuốc tẩy giun theo hướng dẫn trên nhãn hoặc theo tư vấn thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Ho nặng nhưng còn đứng - ăn.",
+      "description": "Ho nhiều nhưng dê vẫn còn đứng và ăn.",
       "guideline": [
-        "Ivermectin/doramectin.",
-        "Thuốc long đờm.",
-        "Nghỉ ngơi, thoáng khí."
+        "Tẩy giun bằng thuốc phù hợp.",
+        "Dùng thuốc long đờm hỗ trợ thông đường thở.",
+        "Cho nghỉ ngơi và giữ môi trường thoáng."
       ]
     },
+
     "case_type_2": {
-      "description": "Thở khó, đứng không vững.",
+      "description": "Khó thở rõ, dê mệt và đứng không vững.",
       "guideline": [
-        "Thú y kiểm tra phổi.",
-        "Tẩy giun + hỗ trợ hô hấp.",
-        "Điện giải + vitamin."
+        "Cần can thiệp thú y để đánh giá tình trạng phổi.",
+        "Tẩy giun kết hợp hỗ trợ hô hấp.",
+        "Bổ sung điện giải và vitamin."
       ]
     },
-    "note": "Giun phổi dễ nhầm với viêm phổi — cần phân biệt."
+
+    "note": "Giun phổi dễ nhầm với viêm phổi; cần phân biệt để điều trị đúng hướng."
   },
+
   "prevention": [
-    "Không chăn thả lúc cỏ ướt.",
-    "Giữ chuồng thông thoáng.",
-    "Tẩy giun định kỳ.",
-    "Luân chuyển bãi chăn."
+    "Tránh chăn thả lúc cỏ ướt, sương sớm.",
+    "Giữ chuồng nuôi khô và thông thoáng.",
+    "Tẩy giun định kỳ theo nguy cơ thực tế.",
+    "Luân chuyển bãi chăn để giảm nhiễm ấu trùng."
   ],
+
   "notes": [
-    "Ho hơn 2 tuần → nghi giun phổi.",
-    "Tẩy giun sai kỹ thuật = điều trị không hiệu quả."
+    "Ho kéo dài trên hai tuần cần nghĩ đến giun phổi.",
+    "Tẩy giun sai kỹ thuật thường dẫn đến điều trị không hiệu quả."
   ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo."
 }

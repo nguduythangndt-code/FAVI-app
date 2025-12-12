@@ -48,8 +48,7 @@
     ],
     "alternative_drugs": [
       "Enrofloxacin (trường hợp nặng hơn, theo thú y)",
-      "Florfenicol (nếu nghi tổn thương sâu hơn)",
-      "Kết hợp thuốc ho - long đờm"
+      "Florfenicol (nếu nghi tổn thương sâu hơn)"
     ],
     "note_drugs": [
       "Không lạm dụng kháng sinh mạnh khi chỉ viêm đường hô hấp trên dạng nhẹ - vừa.",
@@ -57,15 +56,15 @@
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [
-        "Flunixin",
-        "Meloxicam"
+        "Metamizole (Anagin)",
+        "Flunixin","Meloxicam"
       ],
       "respiratory_support": [
         "Bromhexine",
-        "Guaifenesin"
+        "Guaifenesin (long đờm)"
       ],
       "electrolyte": [
-        "electrolyte_mix",
+        "Điện giải tổng hợp (Na/K/Cl)",
         "Oresol (điện giải uống)"
       ],
       "vitamin": [
@@ -73,7 +72,7 @@
         "Vitamin BC"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho những con giảm ăn."
+        "Men tiêu hoá + Vitamin"
       ]
     },
     "supportive_care": [

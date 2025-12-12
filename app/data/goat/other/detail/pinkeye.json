@@ -1,9 +1,14 @@
 {
+  "id": "pinkeye",
   "name": "Viêm mắt (Pinkeye)",
-  "summary": "Viêm kết mạc - giác mạc do vi khuẩn/virus kết hợp bụi, nắng gắt. Lây nhanh, làm mắt đục và có thể mù nếu để lâu.",
+  "species": "goat",
+  "group": "other",
+  "summary": "Viêm mắt (Pinkeye) là bệnh thường gặp ở dê, gây viêm kết mạc và giác mạc. Bệnh làm mắt đỏ, chảy nước mắt, sợ sáng và có thể dẫn đến loét giác mạc nếu không điều trị kịp thời. Pinkeye thường khỏi nhanh khi xử lý đúng và sớm.",
   "causes": [
-    "Mycoplasma/Chlamydia/Moraxella và các tác nhân cơ hội",
-    "Bụi, gió, cỏ cứa mắt gây tổn thương"
+    "Nhiễm vi khuẩn (thường gặp Mycoplasma, Chlamydia, Moraxella).",
+    "Bụi, gió, dị vật bay vào mắt.",
+    "Côn trùng truyền mầm bệnh.",
+    "Chuồng trại bẩn, nhiều ruồi."
   ],
   "risk_factors": [
     "Chuồng nhiều bụi",
@@ -36,34 +41,36 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Oxytetracycline",
-      "thuốc nhỏ mắt kháng sinh"
+      "Oxytetracycline (thuốc mắt)"
     ],
     "alternative_drugs": [
-      "Florfenicol"
+      "Gentamicin (thuốc mắt)"
     ],
-    "note_drugs": "Oxytetracycline/nhỏ mắt kháng sinh giúp chặn vi khuẩn gây loét giác mạc. Trị sớm thì khỏi nhanh, trễ dễ mù.",
+    "note_drugs": [
+      "Ưu tiên dùng thuốc nhỏ hoặc bôi mắt có chứa Oxytetracycline hoặc Gentamicin.",
+      "Không dùng thuốc chứa corticoid cho mắt.",
+      "Giữ đầu lọ thuốc sạch, tránh nhiễm bẩn."
+    ],
     "symptomatic_treatment": {
-      "antiinflammatory": {
-        "main": "Meloxicam",
-        "alternative": [
-          "Flunixin"
-        ]
-      },
-      "vitamin": {
-        "main": "Vitamin ADE",
-        "alternative": [
-          "Multivitamin tổng hợp"
-        ]
-      }
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [],
+      "vitamin": [
+        "Vitamin A",
+        "Multivitamin tổng hợp"
+      ],
+      "digestive_support": []
     },
     "supportive_care": [
-      "Vệ sinh mắt bằng nước muối sinh lý",
-      "Nhỏ thuốc đều, tránh bụi bay vào",
-      "Cách ly con bệnh",
-      "Giảm bụi trong chuồng"
+      "Rửa mắt bằng nước muối sinh lý trước khi dùng thuốc.",
+      "Che nắng, tránh gió lùa.",
+      "Cách ly dê bệnh để hạn chế lây lan.",
+      "Giảm bụi và ruồi trong chuồng."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+    "dose_policy": [
+      "Thuốc mắt dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+      "Không dùng chung lọ thuốc cho nhiều con."
+    ]
   },
   "severe_case_treatment": {
     "case_type_1": [

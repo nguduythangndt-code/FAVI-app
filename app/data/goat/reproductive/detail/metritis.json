@@ -42,17 +42,18 @@
   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
-      "Amoxicillin",
-      "Oxytetracycline"
+      "Amoxicillin"
     ],
     "alternative_drugs": [
-      "Metronidazole (theo hướng dẫn thú y, dùng ca nặng do vi khuẩn yếm khí).",
-      "Doxycycline nếu không có thuốc chính."
+      "Metronidazole",
+      "Doxycycline"
     ],
     "note_drugs": [
-      "Không tự ý thụt rửa tử cung bằng hóa chất mạnh vì dễ làm bỏng niêm mạc.",
-      "Chỉ thụt rửa bằng dung dịch sinh lý hoặc chế phẩm chuyên dụng nếu thú y hướng dẫn."
-    ],
+  "Không tự ý thụt rửa tử cung bằng hóa chất mạnh vì dễ làm tổn thương niêm mạc.",
+  "Chỉ thụt rửa bằng dung dịch sinh lý hoặc chế phẩm chuyên dụng khi có hướng dẫn thú y.",
+  "Điều trị càng sớm sau đẻ thì khả năng phục hồi sinh sản càng cao."
+],
+
     "symptomatic_treatment": {
       "antiinflammatory": [
         "Flunixin",
@@ -62,15 +63,15 @@
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix"
+        "Điện giải tổng hợp (Na/K/Cl)"
       ],
       "vitamin": [
         "Vitamin C",
         "Vitamin BC",
-        "Khoáng - vitamin tổng hợp"
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho dê ăn giảm."
+        "Enzyme tiêu hoá"
       ]
     },
     "supportive_care": [

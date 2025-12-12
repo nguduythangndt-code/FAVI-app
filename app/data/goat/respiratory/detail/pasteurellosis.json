@@ -50,6 +50,16 @@
       "Cefquinome",
       "Oxytetracycline LA"
     ],
+
+    "note_drugs": [
+  "Ưu tiên kháng sinh phổ rộng có tác dụng mạnh trên vi khuẩn Pasteurella.",
+  "Không phối hợp nhiều kháng sinh nếu không có chỉ định, tránh làm giảm hiệu quả điều trị.",
+  "Thuốc chống viêm không thay thế kháng sinh; dùng đúng vai trò hỗ trợ.",
+  "Vitamin và điện giải chỉ hỗ trợ hồi phục, không phải thuốc điều trị chính.",
+  "Luôn dùng thuốc theo hướng dẫn trên nhãn hoặc tư vấn thú y để đảm bảo an toàn."
+],
+
+
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -61,14 +71,13 @@
       "respiratory_support": {
         "main": "Bromhexine",
         "alternative": [
-          "Guaifenesin"
+          "Guaifenesin (long đờm)"
         ]
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
@@ -89,18 +98,28 @@
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": [
-      "Ưu tiên kháng sinh phổ rộng mạnh (theo khuyến cáo bác sĩ)",
-      "Kết hợp thuốc hạ sốt - kháng viêm",
-      "Bổ sung điện giải - vitamin C",
-      "Giữ ấm tuyệt đối, hạn chế vận động"
-    ],
-    "case_type_2": [
-      "Nếu có dấu hiệu phù phổi: nâng cao đầu, giữ yên",
-      "Cho thở nơi thoáng - ấm, không gió tạt",
-      "Theo dõi sát nhịp thở, nhiệt độ"
-    ],
-    "note": "Trường hợp nặng cần hỗ trợ thú y ngay lập tức."
+  "case_type_1": {
+    "description": "Dê sốt cao, thở bụng mạnh, mệt lả, đứng không vững – nghi ngờ sốc nhiễm trùng.",
+    "guideline": [
+      "Ưu tiên kháng sinh phổ rộng mạnh theo tư vấn thú y.",
+      "Kết hợp thuốc kháng viêm – hạ sốt để giảm đau và giảm phản ứng viêm.",
+      "Cho uống hoặc truyền điện giải nếu dê mất nước nhiều.",
+      "Giữ ấm toàn thân, đặc biệt là vùng tai – chân, tránh gió lùa.",
+      "Hạn chế di chuyển, để dê nằm nền khô và nghiêng nhẹ để dễ thở."
+    ]
+  },
+
+  "case_type_2": {
+    "description": "Dê khó thở nhiều, tím tái, có dấu hiệu phù phổi hoặc tích tụ dịch đường hô hấp.",
+    "guideline": [
+      "Đặt dê ở tư thế đầu cao để giảm áp lực lên phổi.",
+      "Giữ chuồng thoáng nhưng ấm, không gió tạt trực tiếp.",
+      "Hỗ trợ long đờm – thông khí theo thuốc đã khuyến cáo.",
+      "Theo dõi nhịp thở từng 1–2 giờ; nếu tăng dần cần can thiệp thú y ngay."
+    ]
+  },
+
+    "note": "Các ca nặng cần hỗ trợ thú y sớm để tránh biến chứng suy hô hấp và sốc nhiễm trùng."
   },
   "prevention_list": [
     "Tiêm phòng đầy đủ cho đàn",

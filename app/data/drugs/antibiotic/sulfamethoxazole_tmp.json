@@ -1,6 +1,6 @@
 {
   "id": "sulfamethoxazole_tmp",
-  "name": "Sulfamethoxazole + Trimethoprim",
+  "name": "Sulfa_trimethoprim",
   "group": "antibiotic",
   "mechanism": "Phối hợp hai kháng sinh ức chế hai bước trong quá trình tổng hợp acid folic của vi khuẩn, tạo hiệu ứng hiệp đồng giúp diệt khuẩn tốt hơn.",
   "clinical_uses": [

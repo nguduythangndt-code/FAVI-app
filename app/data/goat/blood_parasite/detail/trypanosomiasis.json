@@ -39,73 +39,98 @@
       "Nằm nhiều, khó hồi phục."
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
       "Diminazene (Azidin)",
       "Imidocarb"
     ],
+
     "alternative_drugs": [
       "Oxytetracycline",
       "Doxycycline"
     ],
+
     "note_drugs": [
-      "Không dùng ivermectin để trị trypano — không có tác dụng.",
-      "Không ép đi lại - dê rất dễ kiệt sức."
+      "Ivermectin không có tác dụng điều trị Trypanosoma.",
+      "Azidin và imidocarb là thuốc có độc tính, cần dùng theo chỉ định thú y.",
+      "Tránh ép dê vận động mạnh vì dễ làm suy kiệt nhanh."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam"
-      ],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin B12",
-        "Multivitamin tổng hợp"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin B12",
+        "alternative": [
+          "Multivitamin tổng hợp"
+        ]
+      },
+
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Nền chuồng khô - sạch.",
-      "Cho ăn cỏ chất lượng cao.",
-      "Tẩy ve - mòng cả đàn.",
-      "Theo dõi phù hàm và màu niêm mạc."
+      "Giữ nền chuồng khô và sạch.",
+      "Cho ăn cỏ và thức ăn chất lượng cao.",
+      "Xử lý ve, mòng và ruồi cho toàn đàn để cắt nguồn lây.",
+      "Theo dõi sát phù hàm và màu niêm mạc."
     ],
-    "dose_policy": [
-      "Thuốc đặc trị dùng theo nhãn.",
-      "Azidin cần theo dõi sát phản ứng sau tiêm."
-    ]
+
+    "dose_policy": "Thuốc điều trị Trypanosoma cần dùng theo hướng dẫn của bác sĩ thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Phù hàm - thiếu máu nhưng đứng được.",
+      "description": "Phù hàm và thiếu máu nhưng dê vẫn còn đứng.",
       "guideline": [
-        "Azidin hoặc imidocarb.",
-        "Vitamin B12.",
-        "Điện giải."
+        "Điều trị bằng thuốc đặc trị phù hợp theo chỉ định.",
+        "Bổ sung vitamin B12 và điện giải.",
+        "Theo dõi sát thể trạng và sức ăn."
       ]
     },
+
     "case_type_2": {
-      "description": "Suy kiệt, phù nặng, nằm.",
+      "description": "Suy kiệt rõ, phù nặng, dê nằm nhiều.",
       "guideline": [
-        "Thú y can thiệp.",
-        "Hồi sức + thuốc đặc trị.",
-        "Theo dõi 24-48 giờ."
+        "Cần can thiệp thú y.",
+        "Điều trị đặc trị kết hợp hồi sức nâng đỡ.",
+        "Bổ sung điện giải và chăm sóc tích cực.",
+        "Theo dõi sát trong giai đoạn đầu điều trị."
       ]
     },
-    "note": "Trypanosoma tiến triển dai dẳng — cần điều trị đầy đủ và kiểm soát vector truyền bệnh."
+
+    "note": "Trypanosoma tiến triển dai dẳng; cần điều trị đủ liệu trình và kiểm soát tốt vector truyền bệnh để tránh tái phát."
   },
+
   "prevention": [
-    "Diệt ve - mòng - ruồi.",
-    "Khử trùng dụng cụ tiêm.",
-    "Cải thiện dinh dưỡng đàn.",
-    "Giảm ẩm chuồng."
+    "Kiểm soát ve, mòng và ruồi định kỳ.",
+    "Khử trùng dụng cụ tiêm, không dùng chung kim.",
+    "Cải thiện dinh dưỡng để nâng sức đề kháng.",
+    "Giữ chuồng trại khô và giảm ẩm."
   ],
+
   "notes": [
-    "Phù hàm không chỉ do sán lá — trypano cũng gây phù rất rõ.",
-    "B12 giúp phục hồi hồng cầu nhanh."
+    "Phù hàm không chỉ gặp ở sán lá gan; Trypanosoma cũng gây phù rõ.",
+    "Vitamin B12 giúp hỗ trợ hồi phục hồng cầu và thể trạng."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

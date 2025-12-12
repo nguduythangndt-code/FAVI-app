@@ -12,7 +12,8 @@ export type DrugGroupId =
   | "digestive_support"
   | "blood_parasite"
   | "disinfectant_hygiene"
-  | "hormone";
+  | "hormone"
+  | "stimulant"; // ✅ thêm dòng này
 
 
 // Dùng cho app/data/drugs/group/list.json

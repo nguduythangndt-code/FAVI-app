@@ -50,65 +50,90 @@
       "Albendazole",
       "Fenbendazole"
     ],
+    
     "note_drugs": [
-      "Không dùng liều thấp — dễ tạo kháng thuốc.",
-      "Haemonchus kháng benzimidazole rất phổ biến."
+      "Cần dùng thuốc tẩy giun đúng hướng dẫn để đạt hiệu quả và hạn chế kháng thuốc.",
+      "Haemonchus đã ghi nhận kháng nhóm benzimidazole tại nhiều khu vực.",
+      "Không lặp lại thuốc quá dày khi chưa đánh giá đáp ứng."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin B12",
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": null,
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin B12",
+        "alternative": [
+          "Vitamin C",
+          "Vitamin BC"
+        ]
+      },
+
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Nền chuồng khô - sạch.",
-      "Cho ăn cỏ khô tốt, hạn chế chăn thả lúc sáng sớm.",
-      "Tách dê nặng để chăm riêng.",
-      "Theo dõi niêm mạc mắt hằng ngày."
+      "Giữ nền chuồng khô và sạch.",
+      "Cho ăn cỏ khô chất lượng tốt, hạn chế chăn thả lúc sáng sớm.",
+      "Tách riêng những con thiếu máu nặng để chăm sóc.",
+      "Theo dõi màu niêm mạc mắt để đánh giá mức độ thiếu máu."
     ],
-    "dose_policy": [
-      "Thuốc tẩy giun phải dùng đúng theo nhãn hoặc thú y.",
-      "Không lặp lại quá gần — tránh kháng thuốc."
-    ]
+
+    "dose_policy": "Dùng thuốc tẩy giun theo hướng dẫn trên nhãn hoặc theo tư vấn thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Thiếu máu nhưng còn đứng.",
+      "description": "Thiếu máu rõ nhưng dê vẫn còn đứng và phản xạ.",
       "guideline": [
-        "Tẩy giun bằng ivermectin/doramectin hoặc closantel.",
-        "Điện giải + vitamin B12.",
-        "Theo dõi niêm mạc mỗi 12 giờ."
+        "Tẩy giun bằng thuốc phù hợp theo tình trạng thực tế.",
+        "Bổ sung điện giải và vitamin B12 để hỗ trợ hồi phục.",
+        "Theo dõi sát màu niêm mạc và mức độ mệt."
       ]
     },
+
     "case_type_2": {
-      "description": "Niêm mạc trắng toát, nằm, thở yếu.",
+      "description": "Niêm mạc rất nhợt, dê nằm nhiều, thở yếu.",
       "guideline": [
-        "Gọi thú y.",
-        "Tẩy giun + hồi sức.",
-        "Truyền dịch nếu cần.",
-        "Tiên lượng dè dặt vì mất máu nặng."
+        "Cần can thiệp thú y ngay.",
+        "Tẩy giun kết hợp hồi sức nâng thể trạng.",
+        "Cân nhắc truyền dịch khi cần.",
+        "Tiên lượng dè dặt do mất máu nặng."
       ]
     },
-    "note": "Haemonchus là giun chết nhanh - hồi phục nhanh nếu xử lý đúng."
+
+    "note": "Haemonchus có thể gây chết nhanh nhưng nếu xử lý sớm và đúng, dê hồi phục cũng rất nhanh."
   },
+
   "prevention": [
-    "Tẩy giun 2-3 tháng/lần.",
-    "Không để nền chuồng ẩm.",
-    "Kiểm tra niêm mạc bằng FAMACHA định kỳ.",
-    "Luân chuyển bãi chăn.",
-    "Cho ăn cỏ khô trước khi thả."
+    "Tẩy giun định kỳ theo nguy cơ thực tế của trại.",
+    "Giữ nền chuồng khô, không ẩm ướt.",
+    "Đánh giá niêm mạc bằng phương pháp FAMACHA định kỳ.",
+    "Luân chuyển bãi chăn để giảm nhiễm ấu trùng.",
+    "Cho ăn cỏ khô trước khi thả chăn."
   ],
+
   "notes": [
-    "Nếu 1 con niêm mạc trắng — kiểm tra cả đàn.",
-    "Haemonchus không làm tiêu chảy — dễ bỏ sót bệnh."
+    "Nếu phát hiện một con thiếu máu nặng, cần kiểm tra toàn đàn.",
+    "Haemonchus thường không gây tiêu chảy nên rất dễ bị bỏ sót."
   ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo."
 }

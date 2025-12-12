@@ -1,36 +1,41 @@
 {
+  "id": "praziquantel",
   "name": "Praziquantel",
-  "mechanism": [
-    "Tác động lên màng tế bào sán",
-    "Làm tăng thấm ion → sán co cứng và chết"
-  ],
+  "group": "antiparasitic_internal",
+  "mechanism": "Thuốc diệt ký sinh trùng tác động làm tăng tính thấm ion canxi qua màng tế bào của sán, gây co cứng cơ, liệt và phá huỷ lớp vỏ bảo vệ, khiến ký sinh trùng bị tiêu diệt và đào thải ra ngoài.",
   "clinical_uses": [
-    "Điều trị sán dây",
-    "Hữu ích trong ca nhiễm sán trưởng thành"
+    "Nhiễm sán dây đường tiêu hoá ở dê.",
+    "Nhiễm sán lá đường ruột trong một số trường hợp phù hợp.",
+    "Hỗ trợ kiểm soát ký sinh trùng nội ký sinh theo phác đồ thú y."
   ],
-  "advantages": [
-    "Rất hiệu quả trên sán dây",
-    "An toàn cao"
+  "pros": [
+    "Hiệu quả cao với nhiều loài sán.",
+    "Tác động nhanh, ít ảnh hưởng đến vi khuẩn đường ruột.",
+    "Thường dung nạp tốt nếu dùng đúng cách."
   ],
-  "disadvantages": [
-    "Không diệt được giun tròn",
-    "Không có tác dụng với sán lá gan"
+  "cons": [
+    "Không có tác dụng trên giun tròn thông thường.",
+    "Có thể gây phản ứng nhẹ do xác sán bị tiêu diệt.",
+    "Cần dùng đúng chỉ định, không lạm dụng."
   ],
-  "side_effects": [
-    "Giảm ăn nhẹ",
-    "Tiêu phân sệt do sán rụng"
+  "mild_side_effects": [
+    "Mệt nhẹ, giảm ăn thoáng qua sau khi dùng.",
+    "Tiêu phân hơi lỏng trong thời gian ngắn.",
+    "Hiếm gặp: phản ứng khó chịu do ký sinh trùng chết hàng loạt."
   ],
-  "recommendations": [
-    "Dùng đúng hướng dẫn nhãn",
-    "Kết hợp quản lý phân để tránh tái nhiễm"
+  "usage_recommendations": [
+    "Dùng theo hướng dẫn trên nhãn hoặc chỉ định thú y.",
+    "Theo dõi tình trạng ăn uống và phân sau khi dùng.",
+    "Có thể kết hợp men vi sinh để ổn định tiêu hoá sau tẩy sán."
   ],
-  "contraindications": [
-    "Không dùng khi dê quá yếu",
-    "Không dùng chung với nhiều thuốc tẩy giun khác"
+  "when_not_to_use": [
+    "Không dùng cho con đang suy nhược nặng hoặc mất nước nghiêm trọng.",
+    "Thận trọng khi dùng cho thú non hoặc dê mang thai.",
+    "Không dùng khi nghi ngờ nhiễm ký sinh trùng không phải sán."
   ],
-  "alternatives": [
-    "Albendazole (mức độ nhẹ)",
-    "Fenbendazole (một phần hiệu lực)",
-    "Oxyclozanide (nếu nghi sán gan)"
+  "alternative_drugs": [
+    "Albendazole trong phác đồ tẩy sán phù hợp.",
+    "Niclosamide (nếu có và theo hướng dẫn thú y).",
+    "Levamisole hoặc Ivermectin cho các ca giun tròn (không thay thế Praziquantel)."
   ]
 }

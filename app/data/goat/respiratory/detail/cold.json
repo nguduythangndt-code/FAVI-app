@@ -39,38 +39,51 @@
       "Có dấu hiệu chuyển sang viêm hô hấp dưới (cần xem xét theo hướng viêm phổi)."
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
-      "Không phải ca nào cũng cần kháng sinh; trọng tâm là GIỮ ẤM và HỖ TRỢ MIỄN DỊCH.",
-      "Chỉ dùng kháng sinh nhẹ nếu nghi có nhiễm khuẩn kế phát (ví dụ amoxicillin, doxycycline) theo đánh giá của thú y hoặc người chăn nuôi có kinh nghiệm."
+      "Azithromycin"
     ],
+
     "alternative_drugs": [
-      "Thuốc hạ sốt - kháng viêm nhẹ (Meloxicam/Flunixin) khi dê sốt, mệt.",
-      "Vitamin C, B-complex, khoáng tổng hợp hỗ trợ đề kháng."
+      "Florfenicol"
     ],
+
     "note_drugs": [
-      "Không nên lạm dụng kháng sinh cho tất cả các ca cảm lạnh nhẹ.",
-      "Tập trung sửa môi trường và chế độ nuôi để tránh tái diễn."
+      "Phần lớn các trường hợp cảm lạnh không cần dùng kháng sinh.",
+      "Ưu tiên giữ ấm, cải thiện chuồng trại và tăng sức đề kháng cho dê.",
+      "Chỉ cân nhắc kháng sinh nhẹ khi có dấu hiệu nhiễm khuẩn kế phát như chảy mũi đục, sốt kéo dài hoặc ho tăng."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam",
-        "Flunixin"
-      ],
-      "respiratory_support": [
-        "Bromhexine (nếu ho nhiều)"
-      ],
-      "electrolyte": [
-        "Điện giải nhẹ, nước ấm"
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Vitamin BC",
-        "Multivitamin tổng hợp"
-      ],
-      "digestive_support": [
-        "Men tiêu hoá cho những con ăn giảm."
-      ]
+      "antiinflammatory": {
+        "main": "Ketoprofen",
+        "alternative": [
+          "Anagin (chỉ hỗ trợ hạ sốt)"
+        ]
+      },
+
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Vitamin C điện giải",
+        "alternative": []
+      },
+
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC",
+          "Multivitamin tổng hợp"
+        ]
+      },
+
+      "digestive_support": {
+        "main": "Men tiêu hoá + Vitamin",
+        "alternative": []
+      }
     },
     "supportive_care": [
       "Giữ ấm chuồng, che chắn kín gió lùa nhưng vẫn thông thoáng phía trên.",
@@ -86,23 +99,24 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Cảm lạnh mức trung bình: chảy mũi, ho nhẹ, ăn giảm.",
+      "description": "Cảm lạnh mức độ nhẹ đến trung bình: chảy mũi, ho nhẹ, ăn giảm.",
       "guideline": [
-        "Giữ ấm - sửa chuồng là chính.",
-        "Vitamin C + B-complex, có thể dùng kháng viêm nhẹ.",
-        "Theo dõi 1-2 ngày: nếu ho tăng, thở nhanh → nghĩ tới viêm phổi."
+        "Giữ ấm và che chắn gió lùa là ưu tiên hàng đầu.",
+        "Bổ sung vitamin C, B-complex; dùng kháng viêm nhẹ nếu dê sốt.",
+        "Theo dõi 1–2 ngày; nếu ho tăng hoặc thở nhanh cần đánh giá lại."
       ]
     },
     "case_type_2": {
-      "description": "Cảm lạnh kéo dài, ho tăng, thở nhanh, nghi xuống phổi.",
+      "description": "Cảm lạnh kéo dài, ho tăng, thở nhanh, nghi ngờ tiến triển xuống phổi.",
       "guideline": [
-        "Chuyển hướng xử lý như viêm phế quản - phổi (chọn kháng sinh phù hợp).",
-        "Chống viêm, thuốc ho - long đờm, điện giải.",
-        "Gọi thú y nếu sau 2-3 ngày không cải thiện."
+        "Chuyển hướng xử lý như viêm phế quản hoặc viêm phổi.",
+        "Cân nhắc kháng sinh phù hợp theo tình trạng thực tế.",
+        "Theo dõi sát và liên hệ thú y nếu không cải thiện."
       ]
     },
-    "note": "Cảm lạnh bản thân không đáng sợ; điều đáng sợ là nó bị xem nhẹ, để kéo dài rồi chuyển thành viêm phổi."
+    "note": "Cảm lạnh xử lý sớm và đúng môi trường sẽ hồi phục nhanh; để kéo dài dễ chuyển nặng."
   },
+    
   "prevention": [
     "Chuồng phải có mái che tốt, không bị hắt mưa, không gió lùa.",
     "Chuẩn bị chuồng mùa đông: thêm bạt che, thêm chất độn khô.",

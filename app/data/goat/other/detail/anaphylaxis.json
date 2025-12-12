@@ -1,0 +1,109 @@
+{
+  "id": "anaphylaxis",
+  "name": "Sốc phản vệ (Anaphylaxis)",
+  "species": "goat",
+  "group": "other",
+  "summary": "Sốc phản vệ là phản ứng dị ứng cấp tính, xảy ra rất nhanh sau khi dê tiếp xúc với dị nguyên như thuốc tiêm, thức ăn lạ, côn trùng đốt hoặc hóa chất. Dê có thể phù mặt, khó thở, lảo đảo và ngã quỵ trong thời gian ngắn. Đây là tình trạng cấp cứu, cần gọi thú y ngay.",
+  "causes": [
+    "Phản ứng với thuốc tiêm (kháng sinh, vitamin, vaccine...).",
+    "Côn trùng đốt (ong, kiến...).",
+    "Thức ăn lạ hoặc phụ gia mới.",
+    "Tiếp xúc hóa chất, sát trùng đậm đặc."
+  ],
+  "risk_factors": [
+    "Từng có tiền sử dị ứng.",
+    "Tiêm thuốc mới hoặc đổi hãng thuốc.",
+    "Dê đang yếu, stress.",
+    "Không theo dõi sau tiêm."
+  ],
+  "clinical_signs_detailed": [
+    "Khó thở, thở gấp, thở khò khè.",
+    "Phù mặt, mí mắt, môi hoặc cổ.",
+    "Chảy nước dãi, bứt rứt.",
+    "Niêm mạc nhợt hoặc tím tái.",
+    "Lảo đảo, ngã quỵ, nằm bệt.",
+    "Có thể co giật ở giai đoạn nặng."
+  ],
+  "clinical_signs_by_stage": {
+    "mild": [
+      "Nổi mẩn, ngứa.",
+      "Hơi phù mí mắt.",
+      "Còn đứng được."
+    ],
+    "moderate": [
+      "Phù rõ vùng mặt.",
+      "Thở nhanh, bứt rứt.",
+      "Ăn giảm hoặc bỏ ăn."
+    ],
+    "severe": [
+      "Khó thở nặng, tím tái.",
+      "Ngã quỵ, mạch yếu.",
+      "Nguy cơ tử vong nhanh."
+    ]
+  },
+  "treatment": {
+    "primary_drugs": [
+      
+    ],
+    "alternative_drugs": [
+      "Caffeine"
+    ],
+    "note_drugs": [
+  "Caffeine chỉ có tác dụng trợ tim tạm thời, không phải thuốc điều trị nguyên nhân.",
+  "Chỉ dùng khi dê còn tỉnh, chưa co giật hoặc khó thở nặng.",
+  "Không dùng caffeine thay thế xử lý cấp cứu hoặc gọi thú y."
+],
+    "symptomatic_treatment": {
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "Oresol (điện giải uống)"
+      ],
+      "vitamin": [
+        "Vitamin C"
+      ],
+      "digestive_support": []
+    },
+    "supportive_care": [
+      "Ngưng ngay thuốc hoặc nguồn nghi gây phản vệ.",
+      "Đưa dê ra nơi thoáng, tránh kích thích.",
+      "Nới lỏng dây buộc, tránh chèn ép vùng cổ.",
+      "Giữ ấm nếu dê lạnh, nhưng không làm nóng quá mức.",
+      "Theo dõi nhịp thở và mức độ phù."
+    ],
+    "dose_policy": [
+      "Thuốc dùng theo hướng dẫn trên nhãn hoặc chỉ định thú y.",
+      "Sau cấp cứu vẫn cần theo dõi tái phát trong vài giờ."
+    ]
+  },
+  "severe_case_treatment": {
+    "case_type_1": {
+      "description": "Phù nhẹ, dê còn đứng và thở được.",
+      "guideline": [
+        "Ngưng nguồn gây dị ứng.",
+        "Theo dõi sát hô hấp.",
+        "Dùng thuốc kháng dị ứng khi có sẵn và dùng đúng."
+      ]
+    },
+    "case_type_2": {
+      "description": "Khó thở, tím tái, ngã quỵ.",
+      "guideline": [
+        "Gọi thú y khẩn cấp.",
+        "Can thiệp cấp cứu theo chỉ định chuyên môn.",
+        "Giữ đường thở thông thoáng và giảm kích thích."
+      ]
+    },
+    "note": "Sốc phản vệ có thể tử vong trong thời gian rất ngắn nếu xử lý chậm."
+  },
+  "prevention": [
+    "Theo dõi dê 15–30 phút sau khi tiêm thuốc hoặc vaccine.",
+    "Thử thay đổi thức ăn từ từ, không đổi đột ngột.",
+    "Hạn chế côn trùng trong chuồng.",
+    "Ghi lại thuốc hoặc yếu tố từng gây phản ứng để tránh lặp lại."
+  ],
+  "notes": [
+    "Sốc phản vệ khác với dị ứng nhẹ ở chỗ có khó thở và tụt sức rất nhanh.",
+    "Sau khi qua cơn vẫn có thể tái phát, cần theo dõi thêm."
+  ],
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+}

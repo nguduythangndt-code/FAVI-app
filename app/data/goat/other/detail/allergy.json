@@ -3,50 +3,55 @@
   "name": "Dị ứng ở dê",
   "species": "goat",
   "group": "other",
-  "summary": "Dị ứng xảy ra khi dê phản ứng quá mức với thức ăn, thuốc, vắc xin hoặc côn trùng đốt. Biểu hiện từ nhẹ (nổi mẩn) đến nặng (phù mặt, khó thở).",
+  "summary": "Dị ứng ở dê là phản ứng quá mẫn của cơ thể khi tiếp xúc với các yếu tố lạ như thức ăn mới, thuốc, côn trùng đốt, hóa chất hoặc môi trường. Bệnh thường không lây nhưng nếu xử lý chậm có thể gây phù nặng, khó thở và nguy hiểm tính mạng.",
   "causes": [
-    "Thức ăn lạ.",
-    "Thuốc hoặc vắc xin.",
-    "Côn trùng đốt.",
-    "Hóa chất trong chuồng."
+    "Thức ăn mới, cỏ lạ hoặc thức ăn mốc.",
+    "Phản ứng với thuốc tiêm, thuốc uống.",
+    "Côn trùng đốt (ong, kiến, muỗi, ve).",
+    "Hóa chất sát trùng, thuốc xịt chuồng.",
+    "Bụi, nấm mốc trong chuồng kín."
   ],
   "risk_factors": [
-    "Dê con.",
-    "Dê mới thay khẩu phần.",
-    "Tiêm vắc xin lần đầu."
+    "Thay đổi thức ăn đột ngột.",
+    "Chuồng nuôi ẩm, nhiều côn trùng.",
+    "Dê từng có tiền sử dị ứng.",
+    "Dê non hoặc dê sức đề kháng yếu."
   ],
   "clinical_signs_detailed": [
-    "Mẩn đỏ, nổi cục nhỏ.",
-    "Ngứa, cọ xát.",
-    "Sưng môi - mặt.",
-    "Khó thở (phản vệ nặng)."
+    "Nổi mẩn, mề đay trên da.",
+    "Ngứa, gãi nhiều, bứt rứt.",
+    "Sưng mí mắt, môi hoặc tai.",
+    "Chảy nước mũi, hắt hơi.",
+    "Trường hợp nặng có khó thở, nằm bệt."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Mẩn đỏ nhẹ.",
-      "Ngứa."
+      "Nổi mẩn nhẹ.",
+      "Ngứa ít.",
+      "Ăn uống gần như bình thường."
     ],
     "moderate": [
-      "Sưng môi, sưng mặt.",
-      "Khó chịu, bỏ ăn."
+      "Sưng da rõ hơn.",
+      "Ngứa nhiều, khó chịu.",
+      "Ăn giảm."
     ],
     "severe": [
-      "Khó thở.",
-      "Phù thanh quản.",
-      "Nguy cơ tử vong."
+      "Phù mặt, mí mắt.",
+      "Khó thở, thở nhanh.",
+      "Nguy cơ sốc phản vệ."
     ]
   },
   "treatment": {
     "primary_drugs": [
-      "Thuốc kháng dị ứng (dùng theo thú y)",
-      "Vitamin C"
+      "Chlorpheniramine"
     ],
     "alternative_drugs": [
-      "Điện giải tổng hợp (Na/K/Cl)",
-      "Vitamin BC"
+      "Diphenhydramine"
     ],
     "note_drugs": [
-      "Phản vệ nặng cần thú y ngay lập tức."
+      "Thuốc kháng histamine là lựa chọn chính trong điều trị dị ứng.",
+      "Không tự ý dùng kháng sinh nếu không có dấu hiệu nhiễm trùng.",
+      "Theo dõi sát hô hấp trong vài giờ đầu sau khi dùng thuốc."
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [
@@ -57,47 +62,50 @@
         "Oresol (điện giải uống)"
       ],
       "vitamin": [
-        "Vitamin C"
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
       ],
       "digestive_support": []
     },
     "supportive_care": [
-      "Tách dê khỏi tác nhân gây dị ứng.",
-      "Giữ chuồng thông thoáng.",
-      "Theo dõi 2-3 giờ đầu."
+      "Loại bỏ ngay yếu tố nghi gây dị ứng (thức ăn, thuốc, hóa chất).",
+      "Giữ dê ở nơi thoáng mát, sạch sẽ.",
+      "Theo dõi tình trạng ngứa và hô hấp.",
+      "Không để dê gãi mạnh gây trầy xước da."
     ],
     "dose_policy": [
-      "Thuốc dị ứng phải dùng đúng theo hướng dẫn thú y.",
-      "Không dùng quá liều."
+      "Thuốc sử dụng theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+      "Không dùng kéo dài khi triệu chứng đã hết."
     ]
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Dị ứng vừa - sưng mặt nhưng thở bình thường.",
+      "description": "Dị ứng mức độ vừa, sưng ngứa rõ nhưng chưa khó thở.",
       "guideline": [
-        "Vitamin C.",
-        "Điện giải.",
-        "Theo dõi 2 giờ."
+        "Dùng thuốc kháng dị ứng.",
+        "Theo dõi phản ứng trong vài giờ.",
+        "Giữ môi trường sạch, thoáng."
       ]
     },
     "case_type_2": {
-      "description": "Dấu hiệu sốc phản vệ.",
+      "description": "Phù mặt, khó thở, nghi sốc phản vệ.",
       "guideline": [
-        "Thú y khẩn cấp.",
-        "Thuốc chống dị ứng + hỗ trợ hô hấp.",
-        "Hồi sức."
+        "Gọi thú y xử lý khẩn cấp.",
+        "Can thiệp thuốc theo chỉ định chuyên môn.",
+        "Theo dõi hô hấp và tuần hoàn liên tục."
       ]
     },
-    "note": "Phản vệ diễn biến trong phút - xử lý càng nhanh càng tốt."
+    "note": "Dị ứng nặng có thể diễn tiến rất nhanh, cần xử lý sớm để tránh nguy hiểm."
   },
   "prevention": [
-    "Thay khẩu phần từ từ.",
-    "Theo dõi sau tiêm vắc xin.",
-    "Giữ chuồng sạch, tránh hóa chất mạnh."
+    "Thay đổi thức ăn từ từ.",
+    "Tránh lạm dụng thuốc và hóa chất.",
+    "Giữ chuồng nuôi khô ráo, thoáng.",
+    "Theo dõi phản ứng của dê khi dùng thuốc mới."
   ],
   "notes": [
-    "Dị ứng nhẹ khỏi nhanh.",
-    "Phản vệ nặng rất nguy hiểm."
+    "Dị ứng không lây giữa các con.",
+    "Dê từng bị dị ứng có nguy cơ tái phát cao hơn."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

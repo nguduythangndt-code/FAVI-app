@@ -5,22 +5,25 @@
   "group": "other",
   "summary": "Ngộ độc xảy ra khi dê ăn phải cỏ dại độc, thức ăn mốc hoặc bị nhiễm hóa chất. Diễn biến nhanh: sùi bọt, co giật, tiêu chảy, khó thở và có thể tử vong nếu không xử lý kịp thời.",
   "causes": [
-    "Cỏ dại độc (trúc đào, lá ngón, cỏ độc địa phương).",
-    "Thức ăn mốc, lên men hôi.",
-    "Nhiễm thuốc trừ sâu, thuốc cỏ.",
-    "Nước uống bị ô nhiễm hóa chất."
+    "Ăn phải cỏ, lá, cây có độc.",
+    "Thức ăn, nước uống nhiễm thuốc trừ sâu, diệt chuột.",
+    "Uống nhầm hóa chất (xăng, dầu, thuốc sát trùng đậm đặc).",
+    "Dùng thuốc sai liều hoặc trộn nhầm thuốc.",
+    "Thức ăn mốc sinh độc tố."
   ],
   "risk_factors": [
-    "Chăn thả tự do.",
-    "Vùng gần nương rẫy phun thuốc.",
-    "Thức ăn ủ kém chất lượng."
+   "Chăn thả gần ruộng mới phun thuốc.",
+    "Không kiểm soát nguồn nước uống.",
+    "Để hóa chất, thuốc thú y trong tầm với của dê.",
+    "Thức ăn bảo quản kém."
   ],
   "clinical_signs_detailed": [
-    "Sùi bọt mép.",
+    "Bỏ ăn đột ngột.",
+    "Chảy nước dãi nhiều.",
     "Run cơ, co giật.",
-    "Tiêu chảy cấp.",
-    "Khó thở.",
-    "Nằm bệt, hôn mê."
+    "Tiêu chảy hoặc sùi bọt mép.",
+    "Thở gấp, loạng choạng.",
+    "Ngã quỵ, chết nhanh."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -40,13 +43,10 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Than hoạt tính (hấp phụ độc tố)",
-      "Electrolyte - glucose",
-      "Vitamin BC"
+      "Than hoạt tính (hấp phụ độc tố)"
     ],
     "alternative_drugs": [
-      "Thuốc trợ tim nhẹ (theo thú y)",
-      "Chất bảo vệ gan (sorbitol - B1 - acid amin)"
+      "Sorbitol + Acid amin"
     ],
     "note_drugs": [
       "Không cố ép uống khi dê co giật.",
@@ -57,14 +57,15 @@
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix"
+        "B-complex + Điện giải"
       ],
       "vitamin": [
+        "vitamin B1",
         "Vitamin BC",
         "Vitamin C"
       ],
       "digestive_support": [
-        "Men tiêu hoá khi dê ổn định lại"
+        "Men tiêu hoá + Vitamin"
       ]
     },
     "supportive_care": [

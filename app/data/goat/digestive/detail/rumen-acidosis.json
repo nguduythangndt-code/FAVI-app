@@ -45,19 +45,18 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Dung dịch kiềm hoá dạ cỏ (ví dụ bicarbonat) dùng theo hướng dẫn thú y.",
-      "Men tiêu hoá chuyên cho dạ cỏ.",
-      "Chế phẩm vi sinh phục hồi hệ vi sinh dạ cỏ."
+    "Sodium bicarbonate"
     ],
     "alternative_drugs": [
-      "Than hoạt tính (giải độc tiêu hoá)",
-      "Vitamin B1 (thiamin) hỗ trợ hệ thần kinh và chuyển hoá.",
-      "Điện giải - gluco giúp hồi phục tuần hoàn."
+    "Probiotic",
+    "Rumen_enzyme"
     ],
     "note_drugs": [
-      "Kháng sinh chỉ dùng khi có dấu hiệu nhiễm khuẩn kế phát, theo chỉ định thú y.",
-      "Không tự ý dùng thuốc ức chế nhu động ruột trong giai đoạn đầu."
-    ],
+    "Sodium bicarbonate dùng để kiềm hoá dạ cỏ, chỉ sử dụng theo hướng dẫn thú y.",
+    "Men vi sinh và enzyme giúp phục hồi hệ vi sinh dạ cỏ sau khi pH đã được cải thiện.",
+    "Kháng sinh không phải điều trị nền tảng trong toan dạ cỏ; chỉ dùng khi có nhiễm khuẩn kế phát.",
+    "Không tự ý dùng thuốc ức chế nhu động ruột trong giai đoạn đầu."
+  ],
     "symptomatic_treatment": {
       "antiinflammatory": [
         "Flunixin",
@@ -66,7 +65,7 @@
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix"
+        "Điện giải tổng hợp (Na/K/Cl)"
       ],
       "vitamin": [
         "Vitamin B1",
@@ -74,8 +73,8 @@
         "Vitamin C"
       ],
       "digestive_support": [
-        "Enzyme tiêu hoá",
-        "Chế phẩm cấy dịch dạ cỏ (nếu có điều kiện)"
+        "Than hoạt tính (giải độc tiêu hoá)",
+        "Enzyme tiêu hoá"
       ]
     },
     "supportive_care": [

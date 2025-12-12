@@ -42,40 +42,54 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Florfenicol (liệu trình đủ dài theo nhãn/thú y).",
-      "Tulathromycin (được dùng trong một số phác đồ mạn theo hướng dẫn thú y).",
-      "Enrofloxacin (chỉ dùng khi lợi ích lớn hơn rủi ro, theo thú y)."
+      "Florfenicol",
+      "Tulathromycin"
     ],
     "alternative_drugs": [
-      "Doxycycline kết hợp với cải thiện môi trường, dinh dưỡng.",
-      "Tylosin (trường hợp nghi Mycoplasma mạn)."
+      "Doxycycline",
+      "Tylosin",
+      "Enrofloxacin"
     ],
     "note_drugs": [
-      "Viêm phổi mạn tính khó có chuyện “dứt điểm 100%” với những con đã tổn thương phổi nặng.",
-      "Không nên quay vòng quá nhiều kháng sinh mạnh chỉ để giữ những con đã suy quá nặng; đôi khi loại thải kinh tế hơn."
+      "Điều trị viêm phổi mạn tính cần liệu trình đủ dài và theo sát đáp ứng, không đổi thuốc liên tục.",
+      "Những con đã tổn thương phổi nặng thường khó hồi phục hoàn toàn.",
+      "Không nên quay vòng nhiều kháng sinh mạnh chỉ để duy trì những con suy kiệt; cần cân nhắc hiệu quả kinh tế."
     ],
-    "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam",
-        "Flunixin"
-      ],
-      "respiratory_support": [
-        "Bromhexine",
-        "Guaifenesin"
-      ],
-      "electrolyte": [
-        "Điện giải khi dê mệt, ăn kém."
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Vitamin BC",
-        "Multivitamin tổng hợp",
-        "Khoáng vi lượng (Zn, Se, Cu…) nếu có sản phẩm phù hợp cho dê."
-      ],
-      "digestive_support": [
-        "Men tiêu hoá cho dê gầy, ăn kém.",
-        "Chế phẩm hỗ trợ gan - thận khi dùng thuốc dài ngày."
-      ]
+     "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": [
+          "Flunixin"
+        ]
+      },
+
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": [
+          "Guaifenesin (long đờm)"
+        ]
+      },
+
+      "electrolyte": {
+        "main": "Vitamin C điện giải",
+        "alternative": []
+      },
+
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC",
+          "Multivitamin tổng hợp"
+        ]
+      },
+
+      "digestive_support": {
+        "main": "Men tiêu hoá + Vitamin",
+        "alternative": [
+          "Hepetol (bổ gan - giải độc)",
+          "giải độc gan khi phải dùng kháng sinh kéo dài"
+        ]
+      }
     },
     "supportive_care": [
       "CẢI TẠO CHUỒNG: thoáng khí, giảm ẩm, giảm khí độc.",

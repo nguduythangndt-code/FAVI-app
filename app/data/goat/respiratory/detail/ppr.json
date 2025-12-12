@@ -1,9 +1,10 @@
 {
   "name": "Dịch tả dê (PPR)",
-  "summary": "Bệnh virus lây cực nhanh, gây sốt cao, loét miệng, tiêu chảy và viêm phổi. Dê con và dê đang stress dễ chết nếu không phát hiện sớm.",
+  "summary": "Bệnh virus lây lan cực nhanh, gây sốt cao, loét miệng, tiêu chảy và viêm phổi. Dê con và dê đang stress có nguy cơ chết cao nếu không phát hiện và cách ly sớm.",
+
   "causes": [
-    "Virus PPR (morbillivirus) lây qua hô hấp và tiếp xúc dịch tiết",
-    "Lây mạnh khi nuôi dày, giao thương đàn"
+    "Virus PPR (morbillivirus) lây qua đường hô hấp và tiếp xúc dịch tiết",
+    "Lây lan mạnh khi nuôi mật độ cao và giao thương đàn"
   ],
   "risk_factors": [
     "Nhập dê mới không cách ly",
@@ -48,16 +49,16 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "kháng sinh phổ rộng hỗ trợ phổi",
-      "Điện giải tổng hợp (Na/K/Cl)",
-      "Multivitamin tổng hợp"
+    "primary_drugs": [],
+
+    "alternative_drugs": [],
+
+    "note_drugs": [
+      "Hiện chưa có thuốc đặc trị tiêu diệt virus PPR.",
+      "Kháng sinh chỉ dùng để phòng và điều trị bội nhiễm vi khuẩn đường hô hấp.",
+      "Điện giải và vitamin giúp chống mất nước, nâng sức đề kháng."
     ],
-    "alternative_drugs": [
-      "kháng viêm giảm sốt",
-      "thuốc long đờm"
-    ],
-    "note_drugs": "Không có thuốc diệt virus PPR. Kháng sinh dùng để chống bội nhiễm phổi; điện giải và vitamin giúp chống mất nước, nâng sức.",
+
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -66,18 +67,21 @@
           "Ketoprofen"
         ]
       },
+
       "respiratory_support": {
         "main": "Bromhexine",
         "alternative": [
-          "Guaifenesin"
+          "Guaifenesin (long đờm)"
         ]
       },
+
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
+
       "vitamin": {
         "main": "Vitamin C",
         "alternative": [
@@ -85,6 +89,7 @@
           "Multivitamin tổng hợp"
         ]
       },
+
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
@@ -92,36 +97,48 @@
         ]
       }
     },
+
     "supportive_care": [
-      "Cách ly gắt đàn bệnh",
-      "Giữ ấm, tránh gió",
-      "Bù nước liên tục",
-      "Vệ sinh miệng loét bằng dung dịch sát trùng nhẹ",
-      "Theo dõi nhịp thở và thân nhiệt ngày 2 lần"
+      "Cách ly nghiêm ngặt dê bệnh và dê tiếp xúc gần.",
+      "Giữ ấm, tránh gió lùa.",
+      "Bù nước liên tục, ưu tiên đường uống nếu còn uống được.",
+      "Vệ sinh miệng loét bằng dung dịch sát trùng nhẹ.",
+      "Theo dõi thân nhiệt và nhịp thở ít nhất 2 lần mỗi ngày."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+
+    "dose_policy": "Dùng thuốc theo hướng dẫn trên nhãn hoặc theo tư vấn thú y."
   },
+
   "severe_case_treatment": {
-    "case_type_1": [
-      "Ưu tiên hỗ trợ hô hấp và kháng sinh mạnh để chống bội nhiễm",
-      "Kết hợp hạ sốt - kháng viêm",
-      "Truyền dịch bù mất nước"
-    ],
-    "case_type_2": [
-      "Nếu tiêu chảy mất nước nặng: bù điện giải liên tục",
-      "Giữ dê nằm nơi khô, ấm",
-      "Theo dõi sát, báo thú y khi có ca chết"
-    ],
-    "note": "PPR lây mạnh, cần báo thú y địa phương và kiểm soát đàn."
+    "case_type_1": {
+      "description": "Sốt cao, loét miệng, tiêu chảy nhưng dê còn phản xạ.",
+      "guideline": [
+        "Tập trung bù nước, điện giải và nâng thể trạng.",
+        "Dùng kháng sinh hỗ trợ để phòng bội nhiễm phổi.",
+        "Kết hợp hạ sốt và chống viêm khi cần."
+      ]
+    },
+    "case_type_2": {
+      "description": "Tiêu chảy nặng, mất nước rõ, suy kiệt.",
+      "guideline": [
+        "Bù điện giải tích cực, cân nhắc truyền dịch khi cần.",
+        "Giữ dê nằm nơi khô, ấm.",
+        "Theo dõi sát và báo thú y khi có ca chết."
+      ]
+    },
+    "note": "PPR là bệnh truyền nhiễm nguy hiểm, cần báo thú y địa phương để phối hợp kiểm soát dịch."
   },
+
   "prevention_list": [
-    "Tiêm vaccine PPR định kỳ",
-    "Cách ly dê mới nhập tối thiểu 2-3 tuần",
-    "Chuồng khô thoáng, không nuôi dày",
-    "Bổ sung khoáng - vitamin tăng sức đề kháng"
+    "Tiêm vaccine PPR đầy đủ và đúng lịch.",
+    "Cách ly dê mới nhập đàn tối thiểu 2–3 tuần.",
+    "Giữ chuồng khô thoáng, không nuôi mật độ cao.",
+    "Bổ sung khoáng và vitamin để tăng sức đề kháng."
   ],
+
   "notes": [
-    "Khi có ca đầu tiên phải khoanh vùng ngay vì tốc độ lây rất nhanh."
+    "Khi xuất hiện ca đầu tiên cần khoanh vùng ngay vì tốc độ lây lan rất nhanh."
   ],
-  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo, không thay thế tư vấn của bác sĩ thú y."
 }

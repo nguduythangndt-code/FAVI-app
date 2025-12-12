@@ -1,106 +1,112 @@
 {
   "id": "injury",
-  "name": "Chấn thương - Rách da - Va đập ở dê",
+  "name": "Chấn thương ở dê",
   "species": "goat",
   "group": "other",
-  "summary": "Chấn thương do va đập, rách da, bị vật nhọn đâm hoặc trượt ngã. Nếu không xử lý kịp thời sẽ nhiễm trùng, sưng, áp-xe và chậm lành.",
+  "summary": "Chấn thương ở dê thường xảy ra do té ngã, va đập, mắc bẫy, dẫm phải vật nhọn hoặc đánh nhau trong đàn. Mức độ có thể từ bong gân nhẹ đến gãy xương, rách cơ hoặc vết thương hở. Xử lý sớm và đúng cách giúp dê hồi phục nhanh và hạn chế biến chứng.",
   "causes": [
-    "Vật nhọn trong chuồng (đinh, cạnh sắt).",
-    "Dê đánh nhau.",
-    "Trượt ngã khi nền chuồng trơn.",
-    "Mắc kẹt trong khe chuồng."
+    "Té ngã, trượt chân do nền trơn.",
+    "Va đập vào vật cứng, chuồng hẹp.",
+    "Dẫm phải đinh, gai hoặc vật nhọn.",
+    "Đánh nhau trong đàn.",
+    "Vận chuyển, bắt giữ không đúng kỹ thuật."
   ],
   "risk_factors": [
-    "Chuồng chật, nhiều góc cạnh.",
-    "Đinh lộ ra, vách gỗ mục.",
-    "Dê đực đánh nhau mùa phối giống."
+    "Chuồng trại trơn trượt, nhiều vật sắc nhọn.",
+    "Nuôi mật độ cao.",
+    "Dê nhảy nhiều, dê đực húc nhau.",
+    "Vận chuyển xa, nhốt chật."
   ],
   "clinical_signs_detailed": [
-    "Sưng vùng chấn thương.",
-    "Rách da, chảy máu.",
-    "Đi khập khiễng nếu trúng chân.",
-    "Viêm tấy, mủ nếu nhiễm trùng."
+    "Đi khập khiễng hoặc không dám đứng.",
+    "Sưng, đau tại vị trí chấn thương.",
+    "Vết trầy xước hoặc vết thương hở.",
+    "Giảm ăn, nằm nhiều.",
+    "Trường hợp nặng có biến dạng chi."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Trầy xước nhẹ.",
-      "Chảy máu ít."
+      "Đau nhẹ, đi khập khiễng thoáng qua.",
+      "Không có vết thương hở.",
+      "Dê vẫn ăn uống."
     ],
     "moderate": [
-      "Vết thương sâu hơn.",
-      "Sưng nóng, đau."
+      "Sưng đau rõ.",
+      "Đi lại khó.",
+      "Có thể có vết trầy xước."
     ],
     "severe": [
-      "Mủ, áp-xe.",
-      "Nguy cơ viêm lan rộng."
+      "Không đứng được.",
+      "Vết thương sâu hoặc chảy máu.",
+      "Nghi gãy xương hoặc tổn thương nặng."
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Amoxicillin",
-      "Oxytetracycline"
+  "primary_drugs": [
+    "Amoxicillin"
+  ],
+  "alternative_drugs": [
+    "Oxytetracycline"
+  ],
+  "note_drugs": [
+    "Kháng sinh chỉ dùng khi chấn thương có trầy xước da, vết thương hở hoặc nguy cơ nhiễm trùng.",
+    "Chấn thương kín, không rách da thường không cần dùng kháng sinh.",
+    "Không lạm dụng kháng sinh kéo dài nếu không có dấu hiệu nhiễm trùng."
+  ],
+  "symptomatic_treatment": {
+    "antiinflammatory": [
+      "Meloxicam",
+      "Flunixin"
     ],
-    "alternative_drugs": [
-      "Ceftiofur",
-      "Gentamicin"
+    "respiratory_support": [],
+    "electrolyte": [
+      "Oresol (điện giải uống)"
     ],
-    "note_drugs": [
-      "Không bôi thuốc đỏ đậm đặc lên vết thương sâu.",
-      "Không khâu da khi còn bẩn."
+    "vitamin": [
+      "Multivitamin tổng hợp"
     ],
-    "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam",
-        "Flunixin"
-      ],
-      "respiratory_support": [],
-      "electrolyte": [],
-      "vitamin": [
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": []
-    },
+    "digestive_support": []
+  },
     "supportive_care": [
-      "Rửa vết thương bằng nước muối.",
-      "Cầm máu.",
-      "Băng nhẹ nếu cần.",
-      "Giữ chuồng sạch để tránh nhiễm trùng."
+      "Cố định và hạn chế vận động vùng bị chấn thương.",
+      "Giữ nền chuồng khô, mềm.",
+      "Làm sạch và sát trùng vết thương hở.",
+      "Theo dõi sưng đau và khả năng đứng đi."
     ],
     "dose_policy": [
-      "Kháng sinh dùng theo nhãn.",
-      "Không tự ý đổi thuốc nếu chưa cải thiện."
+      "Thuốc dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+      "Không dùng thuốc giảm đau kéo dài nhiều ngày liên tục."
     ]
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Vết thương sâu nhưng chưa mủ.",
+      "description": "Chấn thương mức vừa, sưng đau rõ nhưng chưa nghi gãy xương.",
       "guideline": [
-        "Rửa kỹ bằng nước muối.",
-        "Kháng sinh + chống viêm.",
-        "Theo dõi sưng nóng."
+        "Hạn chế vận động.",
+        "Dùng thuốc chống viêm giảm đau.",
+        "Chăm sóc vết thương nếu có."
       ]
     },
     "case_type_2": {
-      "description": "Có mủ, áp-xe.",
+      "description": "Không đứng được, biến dạng chi hoặc vết thương sâu.",
       "guideline": [
-        "Thú y rạch mủ.",
-        "Kháng sinh mạnh.",
-        "Rửa hằng ngày.",
-        "Giữ nền chuồng khô."
+        "Gọi thú y kiểm tra ngay.",
+        "Cố định chi nghi gãy.",
+        "Dùng thuốc theo chỉ định chuyên môn.",
+        "Đánh giá khả năng hồi phục."
       ]
     },
-    "note": "Vết thương sạch là yếu tố quyết định."
+    "note": "Chấn thương nặng xử lý muộn dễ để lại di chứng hoặc phải loại thải."
   },
   "prevention": [
-    "Kiểm tra chuồng thường xuyên, loại bỏ vật nhọn.",
-    "Không để đinh lộ.",
-    "Không nuôi quá đông.",
-    "Tách dê đực hung hăng."
+    "Giữ nền chuồng khô, không trơn trượt.",
+    "Loại bỏ vật sắc nhọn trong chuồng.",
+    "Không nuôi quá dày.",
+    "Vận chuyển và bắt giữ dê đúng kỹ thuật."
   ],
   "notes": [
-    "Vết thương nhỏ nếu để bẩn dễ thành áp-xe.",
-    "Không băng quá chặt."
+    "Không phải mọi chấn thương đều cần kháng sinh.",
+    "Chấn thương nhẹ xử lý sớm thường hồi phục tốt."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

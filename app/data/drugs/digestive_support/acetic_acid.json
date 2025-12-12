@@ -1,0 +1,36 @@
+{
+  "id": "acetic_acid",
+  "name": "Acetic acid",
+  "group": "digestive_support",
+  "mechanism": "Axit hữu cơ yếu giúp hạ pH dạ cỏ khi dạ cỏ bị kiềm hoá, từ đó giảm sinh amoniac và hạn chế rối loạn lên men. Có thể hỗ trợ giảm sinh hơi bất thường trong một số ca rối loạn tiêu hoá. Axit axetic cũng là thành phần tạo tính axit của giấm, nhưng việc sử dụng trong chăn nuôi cần kiểm soát nồng độ và cách dùng để tránh kích ứng niêm mạc.",
+  "clinical_uses": [
+    "Hỗ trợ xử lý kiềm dạ cỏ (alkalosis) khi dê ăn quá nhiều đạm hoà tan/urê/cỏ non quá đạm.",
+    "Hỗ trợ ổn định lên men dạ cỏ sau rối loạn tiêu hoá do khẩu phần.",
+    "Hỗ trợ giảm sinh khí bất thường khi dạ cỏ lên men lệch (dùng kèm xử lý nguyên nhân)."
+  ],
+  "pros": [
+    "Tác động trực tiếp lên môi trường dạ cỏ khi bị kiềm hoá (đúng bệnh đúng hướng).",
+    "Chi phí thường thấp, dễ kiếm dưới dạng sản phẩm có nồng độ chuẩn.",
+    "Phù hợp vai trò hỗ trợ nền tiêu hoá, giúp dạ cỏ ổn định lại."
+  ],
+  "cons": [
+    "Không phải thuốc đặc trị: dùng sai bệnh gần như không có lợi.",
+    "Dùng không đúng cách có thể kích ứng/ảnh hưởng niêm mạc miệng - dạ dày.",
+    "Hiệu quả phụ thuộc vào việc chỉnh lại khẩu phần và xử lý nguyên nhân."
+  ],
+  "mild_side_effects": [
+    "Kích ứng nhẹ đường tiêu hoá (ợ, khó chịu bụng, giảm ăn thoáng qua).",
+    "Kích ứng niêm mạc nếu pha không đúng hoặc nồng độ quá cao."
+  ],
+  "avoid_when": [
+    "Không rõ tình trạng pH dạ cỏ hoặc nghi toan dạ cỏ.",
+    "Dê đang viêm loét miệng/niêm mạc nặng.",
+    "Dê suy kiệt nặng cần can thiệp thú y trước."
+  ],
+  "notes": [
+    "Chỉ dùng dạng có nồng độ chuẩn, pha đúng theo hướng dẫn sản phẩm hoặc thú y.",
+    "Luôn xử lý song song nguyên nhân: giảm khẩu phần đạm hoà tan/urê, cân đối xơ và nước.",
+    "Không thay thế thủ thuật (đặt ống/chọc dạ cỏ) khi dê chướng hơi nặng, khó thở."
+  ],
+  "dose_policy": "Ứng dụng không hiển thị liều. Dùng theo hướng dẫn trên nhãn sản phẩm hoặc theo tư vấn thú y."
+}

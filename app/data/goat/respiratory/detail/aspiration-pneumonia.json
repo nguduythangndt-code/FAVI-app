@@ -41,35 +41,54 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Ceftiofur",
-      "Cefquinome",
-      "Florfenicol"
+      "Florfenicol",
+      "Ceftiofur"
     ],
+
     "alternative_drugs": [
-      "Amoxicillin (ca nhẹ - vừa)",
-      "Enrofloxacin"
+      "Cefquinome",
+      "Amoxicillin (trường hợp nhẹ đến vừa)"
     ],
+
     "note_drugs": [
-      "Không dùng doxycycline hoặc tylosin đơn lẻ cho hít sặc (hiệu quả thấp)."
+      "Không dùng doxycycline hoặc tylosin đơn lẻ trong viêm phổi do hít sặc vì hiệu quả thấp.",
+      "Tránh đổi kháng sinh quá sớm khi chưa đánh giá đáp ứng điều trị."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Flunixin",
-        "Meloxicam"
-      ],
-      "respiratory_support": [
-        "Bromhexine",
-        "Guaifenesin"
-      ],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": [
+          "Meloxicam",
+          "Anagin (chỉ hỗ trợ hạ sốt khi không có thuốc chống viêm)"
+        ]
+      },
+
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": [
+          "Guaifenesin (long đờm)"
+        ]
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      },
+
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
     },
     "supportive_care": [
       "Giữ ấm ngay sau khi sặc.",
@@ -78,40 +97,41 @@
       "Cho uống nước ấm ít một sau khi ổn.",
       "Theo dõi thở từng giờ."
     ],
-    "dose_policy": [
-      "Kháng sinh mạnh dùng theo nhãn hoặc thú y.",
-      "Không tự ý đổi thuốc trong 24 giờ đầu."
-    ]
+     "dose_policy": "Dùng thuốc theo hướng dẫn trên nhãn hoặc theo tư vấn thú y; không tự ý đổi thuốc trong 24 giờ đầu."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Ho nhiều, thở nhanh nhưng còn đứng.",
+      "description": "Ho nhiều, thở nhanh nhưng dê vẫn còn đứng và phản xạ.",
       "guideline": [
-        "Florfenicol hoặc ceftiofur.",
-        "Chống viêm + long đờm.",
-        "Điện giải ấm."
+        "Ưu tiên kháng sinh phổ rộng mạnh.",
+        "Kết hợp thuốc kháng viêm và long đờm.",
+        "Bổ sung điện giải ấm, giữ ấm cơ thể."
       ]
     },
     "case_type_2": {
-      "description": "Khó thở, tím niêm mạc, phản xạ yếu.",
+      "description": "Khó thở rõ, tím niêm mạc, phản xạ yếu hoặc nằm nhiều.",
       "guideline": [
-        "Cần thú y ngay lập tức.",
-        "Kháng sinh mạnh + hồi sức.",
-        "Giữ ấm, thở oxy nếu có điều kiện.",
-        "Tiên lượng dè dặt."
+        "Cần can thiệp thú y ngay lập tức.",
+        "Hồi sức tích cực kết hợp kháng sinh mạnh.",
+        "Giữ ấm, hỗ trợ hô hấp hoặc thở oxy nếu có điều kiện.",
+        "Tiên lượng dè dặt, theo dõi sát."
       ]
     },
-    "note": "Hít sặc dễ gây chết ở dê con - phòng quan trọng hơn chữa."
+    "note": "Viêm phổi do hít sặc có tỷ lệ tử vong cao, đặc biệt ở dê con; phòng bệnh quan trọng hơn điều trị."
   },
-  "prevention": [
-    "Cho bú bình đúng tư thế: đầu cao vừa, không để sữa chảy quá mạnh.",
-    "Không ép bú khi dê con yếu.",
+
+   "prevention": [
+    "Cho dê con bú bình đúng tư thế: đầu nâng vừa, không để sữa chảy quá mạnh.",
+    "Không ép bú khi dê con yếu hoặc phản xạ nuốt kém.",
     "Không cho dê lớn ăn thức ăn bột khô khi quá đói.",
-    "Giữ nền sạch để tránh dê hít phải dị vật."
+    "Giữ nền chuồng sạch để hạn chế hít phải dị vật."
   ],
+
   "notes": [
-    "Hầu hết ca hít sặc ở dê con đến từ bú bình sai tư thế.",
-    "Cần hướng dẫn kỹ cho người chăm sóc."
+    "Phần lớn ca hít sặc ở dê con liên quan đến bú bình sai tư thế.",
+    "Cần hướng dẫn kỹ người chăm sóc để phòng bệnh tái diễn."
   ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+
+  "disclaimer": "Thông tin trong ứng dụng chỉ mang tính tham khảo."
 }

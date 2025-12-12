@@ -61,10 +61,10 @@
       ],
       "respiratory_support": [
         "Bromhexine",
-        "Guaifenesin"
+        "Guaifenesin (long đờm)"
       ],
       "electrolyte": [
-        "electrolyte_mix",
+        "Điện giải tổng hợp (Na/K/Cl)",
         "Oresol (điện giải uống)"
       ],
       "vitamin": [
@@ -73,8 +73,8 @@
         "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho dê gầy, bỏ ăn.",
-        "Chế phẩm bảo vệ dạ cỏ khi dùng thuốc dài ngày."
+        "Enzyme tiêu hoá",
+        "Pectin - Kaolin"
       ]
     },
     "supportive_care": [

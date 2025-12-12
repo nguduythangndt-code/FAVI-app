@@ -40,70 +40,70 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
+  "primary_drugs": [
+    "Điện giải tổng hợp (Na/K/Cl)"
+  ],
+  "alternative_drugs": [
+    "Oresol (điện giải uống)"
+  ],
+  "note_drugs": [
+    "Sốc nhiệt chủ yếu xử lý bằng hạ nhiệt vật lý và bù nước – điện giải.",
+    "Không tự ý dùng thuốc trợ tim hoặc thuốc tiêm khi chưa có chỉ định thú y.",
+    "Không xối nước đá trực tiếp lên dê vì có thể gây sốc nhiệt ngược.",
+    "Không ép dê uống nhanh khi đang thở gấp."
+  ],
+  "symptomatic_treatment": {
+    "antiinflammatory": [],
+    "respiratory_support": [],
+    "electrolyte": [
       "Điện giải tổng hợp (Na/K/Cl)",
-      "Vitamin C"
+      "Oresol (điện giải uống)"
     ],
-    "alternative_drugs": [
+    "vitamin": [
       "Vitamin BC",
-      "Thuốc trợ tim nhẹ (dùng theo thú y)"
+      "Multivitamin tổng hợp"
     ],
-    "note_drugs": [
-      "Không xối nước đá trực tiếp lên dê — gây sốc nhiệt ngược.",
-      "Không ép uống quá nhanh khi dê đang thở gấp."
-    ],
-    "symptomatic_treatment": {
-      "antiinflammatory": [],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Multivitamin tổng hợp"
-      ],
-      "digestive_support": []
-    },
+    "digestive_support": []
+  },
     "supportive_care": [
-      "Đưa dê vào bóng mát ngay lập tức.",
-      "Dùng khăn ướt lau người (không dùng nước đá).",
-      "Tạo quạt gió nhẹ.",
-      "Cho uống điện giải nhiều lần trong ngày."
-    ],
-    "dose_policy": [
-      "Điện giải dùng theo hướng dẫn.",
-      "Không dùng thuốc trợ tim bừa bãi."
-    ]
+  "Đưa dê vào khu vực râm mát càng sớm càng tốt.",
+  "Dùng khăn ướt lau nhẹ toàn thân để hỗ trợ tản nhiệt (không dùng nước đá).",
+  "Tạo luồng gió nhẹ bằng quạt để tăng thoáng khí.",
+  "Cho uống điện giải từng lần nhỏ, chia nhiều lần trong ngày."
+],
+"dose_policy": [
+  "Điện giải sử dụng theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+  "Không tự ý dùng thuốc trợ tim khi chưa có chỉ định chuyên môn."
+]
   },
   "severe_case_treatment": {
-    "case_type_1": {
-      "description": "Dê mệt nhưng còn đứng được.",
-      "guideline": [
-        "Đưa vào bóng mát.",
-        "Điện giải + vitamin C.",
-        "Lau người bằng khăn ướt."
-      ]
-    },
-    "case_type_2": {
-      "description": "Ngã quỵ, thở gấp, co giật.",
-      "guideline": [
-        "Thú y xử lý ngay.",
-        "Điện giải - trợ tim theo chỉ định.",
-        "Làm mát từ từ, không dùng nước lạnh đột ngột."
-      ]
-    },
-    "note": "Sốc nhiệt nặng có thể chết trong 15-30 phút nếu không xử lý."
+  "case_type_1": {
+    "description": "Dê mệt, thở nhanh nhưng vẫn còn đứng được.",
+    "guideline": [
+      "Đưa dê vào nơi râm mát, thoáng gió.",
+      "Cho uống điện giải kết hợp vitamin hỗ trợ.",
+      "Lau mát cơ thể bằng khăn ướt."
+    ]
   },
+  "case_type_2": {
+    "description": "Dê ngã quỵ, thở gấp hoặc co giật.",
+    "guideline": [
+      "Gọi thú y xử lý khẩn cấp.",
+      "Bù nước – điện giải và hỗ trợ tuần hoàn theo chỉ định.",
+      "Làm mát cơ thể từ từ, tuyệt đối không dùng nước lạnh đột ngột."
+    ]
+  },
+  "note": "Sốc nhiệt nặng có thể gây tử vong rất nhanh, chỉ trong 15–30 phút nếu không được xử lý kịp thời."
+},
   "prevention": [
-    "Che mát chuồng, cải thiện thông gió.",
-    "Bố trí nhiều máng nước.",
-    "Không dồn đàn vào buổi trưa nóng.",
-    "Cho uống điện giải khi thời tiết cực nóng."
-  ],
-  "notes": [
-    "Dê vỗ béo rất dễ bị sốc nhiệt.",
-    "Mái tôn + chuồng kín = nguy cơ cao."
-  ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+  "Che mát chuồng trại và cải thiện thông gió.",
+  "Bố trí đủ máng nước sạch cho dê uống tự do.",
+  "Tránh dồn đàn hoặc vận chuyển dê vào thời điểm nắng nóng gay gắt.",
+  "Chủ động cho uống điện giải khi thời tiết quá nóng."
+],
+"notes": [
+  "Dê vỗ béo có nguy cơ sốc nhiệt cao hơn các nhóm khác.",
+  "Chuồng mái tôn, kín gió làm tăng nguy cơ tích nhiệt."
+],
+"disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

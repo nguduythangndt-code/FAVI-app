@@ -1,10 +1,13 @@
 [
-  { "id": "flunixin",    "name": "Flunixin" },
+  { "id": "Flunixin",    "name": "Flunixin" },
   { "id": "meloxicam",   "name": "Meloxicam" },
   { "id": "ketoprofen",  "name": "Ketoprofen" },
   { "id": "diclofenac",  "name": "Diclofenac" },
   { "id": "paracetamol", "name": "Paracetamol" },
   { "id": "aspirin",     "name": "Aspirin" },
   { "id": "ibuprofen",   "name": "Ibuprofen" },
-  { "id": "metamizole",  "name": "Metamizole (Anagin)" }
+  { "id": "anagin",  "name": "Metamizole (Anagin)" },
+  { "id": "itraconazole", "name": "Itraconazole"},
+  { "id": "ketoconazole", "name": "Ketoconazole"},
+  { "id": "clotrimazole", "name": "Clotrimazole"}
 ]

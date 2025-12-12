@@ -42,39 +42,39 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Dung dịch acid nhẹ (theo hướng dẫn thú y) để điều chỉnh pH dạ cỏ.",
-      "Thuốc chống chướng hơi dạ cỏ.",
-      "Men tiêu hoá dạ cỏ giúp ổn định vi sinh."
+  "primary_drugs": [
+    "Acetic acid",
+    "Simethicone"
+  ],
+  "alternative_drugs": [
+    "Than hoạt tính (giải độc tiêu hoá)"
+  ],
+  "note_drugs": [
+    "Kiềm dạ cỏ thường do dư đạm hoà tan (urê, bánh dầu); xử lý pH sớm giúp giảm sinh khí và độc amoniac.",
+    "Acid nhẹ (như acetic acid) chỉ dùng theo hướng dẫn thú y để điều chỉnh pH dạ cỏ.",
+    "Urê là nguồn đạm rẻ nhưng rất nguy hiểm nếu dùng sai kỹ thuật; không sử dụng khi chưa nắm chắc cách phối trộn.",
+    "Không tự ý dùng thuốc an thần mạnh khi dê đang chướng hơi hoặc rối loạn thần kinh."
+  ],
+  "symptomatic_treatment": {
+    "antiinflammatory": [
+      "Flunixin"
     ],
-    "alternative_drugs": [
-      "Điện giải - gluco hỗ trợ tuần hoàn.",
-      "Vitamin B1, B-complex hỗ trợ thần kinh.",
-      "Than hoạt tính (giải độc tiêu hoá)"
+    "respiratory_support": [
+      "Hỗ trợ hô hấp theo chỉ định thú y khi dê khó thở do chướng hơi."
     ],
-    "note_drugs": [
-      "Urê là nguồn đạm rẻ nhưng dùng sai rất nguy hiểm; không dùng nếu không nắm chắc kỹ thuật.",
-      "Không tự ý dùng thuốc an thần mạnh nếu chưa có thú y chỉ định."
+    "electrolyte": [
+      "Oresol",
+      "Điện giải tổng hợp (Na/K/Cl)"
     ],
-    "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Flunixin"
-      ],
-      "respiratory_support": [
-        "Thuốc hỗ trợ hô hấp nếu có chỉ định thú y."
-      ],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "Dung dịch điện giải - gluco"
-      ],
-      "vitamin": [
-        "Vitamin B1",
-        "Vitamin BC",
-        "Vitamin C"
-      ],
-      "digestive_support": [
-        "Enzyme tiêu hoá"
-      ]
+    "vitamin": [
+      "Vitamin_B1",
+      "Vitamin_BC",
+      "Vitamin_C"
+    ],
+    "digestive_support": [
+      "Probiotic",
+      "Enzyme tiêu hoá"
+    ]
     },
     "supportive_care": [
       "Ngừng toàn bộ thức ăn giàu đạm (urê, bánh dầu, bã đậu…).",

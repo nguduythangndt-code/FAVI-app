@@ -1,81 +1,100 @@
 {
+  "id": "dermatophytosis",
   "name": "Nấm da (Dermatophytosis)",
-  "summary": "Bệnh nấm da tạo mảng tròn rụng lông, lan dần. Lây qua tiếp xúc và dụng cụ. Hiếm khi chết nhưng làm đàn xấu mã, chậm lớn.",
+  "species": "goat",
+  "group": "other",
+  "summary": "Nấm da là bệnh ngoài da do vi nấm gây ra, thường gặp khi chuồng trại ẩm ướt, vệ sinh kém hoặc dê sức đề kháng yếu. Bệnh gây rụng lông từng mảng, da khô đóng vảy. Nấm da lây lan chậm nhưng dai dẳng nếu không xử lý đúng cách.",
   "causes": [
-    "Nấm Dermatophytes (Trichophyton/Microsporum)",
-    "Lây qua tiếp xúc da, nền chuồng, dụng cụ"
+    "Nhiễm vi nấm ngoài da (thường gặp Trichophyton, Microsporum)."
   ],
   "risk_factors": [
-    "Chuồng ẩm, thiếu nắng",
-    "Nuôi dày",
-    "Dê con/ dê suy yếu",
-    "Gãi cọ làm trầy xước"
+    "Chuồng ẩm, thiếu nắng.",
+    "Vệ sinh kém, mật độ nuôi cao.",
+    "Dê non, dê suy nhược.",
+    "Dùng chung dụng cụ, máng ăn."
   ],
   "clinical_signs_detailed": [
-    "Mảng tròn rụng lông",
-    "Da dày, khô, có vảy trắng",
-    "Ngứa, hay cọ tường",
-    "Lan từ đầu - cổ ra thân",
-    "Một số con có vết loét nông bội nhiễm"
+    "Rụng lông từng mảng tròn.",
+    "Da khô, bong vảy trắng xám.",
+    "Ít ngứa hoặc ngứa nhẹ.",
+    "Thường gặp ở đầu, cổ, tai, lưng.",
+    "Tổn thương lan chậm theo thời gian."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Đốm tròn nhỏ rụng lông",
-      "Ít ngứa"
+      "Rụng lông nhẹ, vảy mỏng.",
+      "Tổn thương khu trú."
     ],
     "moderate": [
-      "Mảng rộng, nhiều vảy",
-      "Ngứa rõ"
+      "Mảng rụng lông to dần.",
+      "Da dày, đóng vảy rõ."
     ],
     "severe": [
-      "Lan khắp thân",
-      "Bội nhiễm mủ nhẹ"
+      "Lan rộng nhiều vùng da.",
+      "Da dày, nứt, dễ bội nhiễm."
     ]
   },
   "treatment": {
     "primary_drugs": [
-      "thuốc bôi chống nấm",
-      "sát trùng ngoài da"
+      "Clotrimazole",
+      "Ketoconazole"
     ],
     "alternative_drugs": [
-      "kháng sinh nếu bội nhiễm",
-      "Multivitamin tổng hợp"
+      "Itraconazole"
     ],
-    "note_drugs": "Thuốc bôi chống nấm phải duy trì đủ lâu mới dứt. Khử trùng chuồng và dụng cụ là phần bắt buộc để tránh tái lây.",
+    "note_drugs": [
+      "Nấm da ưu tiên điều trị tại chỗ bằng thuốc bôi.",
+      "Không dùng kháng sinh nếu không có dấu hiệu bội nhiễm vi khuẩn.",
+      "Điều trị cần duy trì đủ thời gian, tránh ngưng sớm."
+    ],
     "symptomatic_treatment": {
-      "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": [
-          "Multivitamin tổng hợp"
-        ]
-      }
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [],
+      "vitamin": [
+        "Multivitamin tổng hợp"
+      ],
+      "digestive_support": []
     },
     "supportive_care": [
-      "Cạo sạch lông vùng tổn thương",
-      "Bôi chống nấm đều và kéo dài đủ thời gian",
-      "Khử trùng chuồng - máng - dụng cụ",
-      "Cách ly con bệnh"
+      "Cạo lông vùng tổn thương để thuốc tiếp xúc tốt hơn.",
+      "Giữ da khô, sạch.",
+      "Phơi nắng nhẹ mỗi ngày.",
+      "Vệ sinh, khử trùng dụng cụ chăn nuôi."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+    "dose_policy": [
+      "Thuốc dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+      "Không trộn nhiều thuốc bôi cùng lúc."
+    ]
   },
   "severe_case_treatment": {
-    "case_type_1": [
-      "Nếu lan mạnh: điều trị cả đàn vì dễ lây",
-      "Tăng cường vệ sinh nền chuồng"
-    ],
-    "case_type_2": [
-      "Nếu có mủ bội nhiễm: kết hợp kháng sinh và sát trùng"
-    ],
-    "note": "Bệnh lây sang người, nên đeo găng khi bôi thuốc."
+    "case_type_1": {
+      "description": "Tổn thương khu trú, chưa lan rộng.",
+      "guideline": [
+        "Điều trị thuốc bôi kháng nấm tại chỗ.",
+        "Giữ da khô, sạch.",
+        "Theo dõi đáp ứng sau vài ngày."
+      ]
+    },
+    "case_type_2": {
+      "description": "Nấm lan rộng hoặc kéo dài, nghi bội nhiễm.",
+      "guideline": [
+        "Kết hợp thuốc kháng nấm toàn thân theo chỉ định thú y.",
+        "Xử lý môi trường chuồng trại.",
+        "Theo dõi sát tiến triển tổn thương."
+      ]
+    },
+    "note": "Nấm da dễ tái phát nếu không xử lý đồng thời môi trường nuôi."
   },
-  "prevention_list": [
-    "Chuồng khô, có nắng",
-    "Không nuôi dày",
-    "Khử trùng định kỳ",
-    "Cách ly con mới nhập"
+  "prevention": [
+    "Giữ chuồng khô, thoáng, có nắng.",
+    "Không nuôi mật độ quá cao.",
+    "Vệ sinh dụng cụ định kỳ.",
+    "Cách ly dê mới nhập đàn."
   ],
   "notes": [
-    "Nấm khỏi chậm, phải bôi đều và đủ thời gian."
+    "Nấm da có thể lây sang người khi tiếp xúc trực tiếp.",
+    "Dê khỏi lâm sàng nhưng bào tử nấm vẫn có thể tồn tại trong môi trường."
   ],
-  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

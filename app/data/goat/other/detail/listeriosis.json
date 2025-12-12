@@ -1,101 +1,110 @@
 {
+  "id": "listeriosis",
   "name": "Listeriosis (viêm não xoay vòng)",
-  "summary": "Bệnh do Listeria gây viêm não, hay gặp khi ăn thức ăn ủ chua mốc. Dê có biểu hiện thần kinh rất đặc trưng.",
+  "species": "goat",
+  "group": "other",
+  "summary": "Listeriosis là bệnh nhiễm khuẩn cấp tính do vi khuẩn Listeria monocytogenes gây ra, thường ảnh hưởng đến hệ thần kinh trung ương. Bệnh đặc trưng bởi hiện tượng xoay vòng, lệch đầu, liệt mặt và tiến triển rất nhanh. Nếu không xử lý sớm, dê có thể tử vong trong vài ngày.",
   "causes": [
-    "Vi khuẩn Listeria monocytogenes",
-    "Thường nhiễm qua thức ăn ủ chua mốc, nước bẩn"
+    "Nhiễm vi khuẩn Listeria monocytogenes."
   ],
   "risk_factors": [
-    "Ăn cỏ ủ chua kém chất lượng",
-    "Mùa lạnh ẩm",
-    "Chuồng bẩn, nước uống nhiễm",
-    "Dê mang thai, dê con sức đề kháng yếu"
+    "Ăn thức ăn ủ chua (silage) kém chất lượng, bị mốc.",
+    "Thức ăn nhiễm bẩn, lên men hỏng.",
+    "Thời tiết lạnh, ẩm.",
+    "Dê suy nhược, stress."
   ],
   "clinical_signs_detailed": [
-    "Sốt nhẹ hoặc không sốt",
-    "Ăn giảm rồi bỏ ăn",
-    "Đi xoay vòng",
-    "Nghiêng đầu một bên",
-    "Mắt lác, chớp kém",
-    "Chảy nước dãi",
-    "Liệt nhẹ mặt, méo miệng",
-    "Đi loạng choạng",
-    "Nằm nghiêng, đạp chân",
-    "Có thể co giật và chết"
+    "Đi xoay vòng, mất thăng bằng.",
+    "Đầu lệch sang một bên.",
+    "Liệt mặt một bên (sụp tai, méo miệng).",
+    "Ăn uống khó, chảy nước dãi.",
+    "Nằm nhiều, không đứng dậy được.",
+    "Có thể co giật ở giai đoạn nặng."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Ăn giảm",
-      "Đi không vững nhẹ"
+      "Đầu hơi lệch.",
+      "Đi loạng choạng.",
+      "Ăn giảm."
     ],
     "moderate": [
-      "Nghiêng đầu, đi vòng vòng",
-      "Chảy dãi, mắt lác"
+      "Xoay vòng rõ.",
+      "Liệt mặt.",
+      "Khó đứng."
     ],
     "severe": [
-      "Nằm nghiêng, co giật",
-      "Liệt, không đứng dậy",
-      "Chết do viêm não nặng"
+      "Nằm bệt.",
+      "Co giật.",
+      "Hôn mê, tử vong."
     ]
   },
   "treatment": {
     "primary_drugs": [
-      "Penicillin",
-      "Ampicillin"
+      "Penicillin G"
     ],
     "alternative_drugs": [
-      "Oxytetracycline",
-      "Florfenicol"
+      "Amoxicillin",
+      "Oxytetracycline"
     ],
-    "note_drugs": "Penicillin/Ampicillin hiệu quả nhất khi tiêm rất sớm. Trễ sau khi dê đã nằm nghiêng thì khả năng cứu giảm mạnh.",
+    "note_drugs": [
+      "Listeriosis cần điều trị càng sớm càng tốt, hiệu quả phụ thuộc vào thời điểm can thiệp.",
+      "Kháng sinh phải dùng đủ thời gian để đạt hiệu quả.",
+      "Điều trị muộn khi đã liệt nặng thường tiên lượng xấu."
+    ],
     "symptomatic_treatment": {
-      "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Meloxicam"
-        ]
-      },
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
-        "alternative": [
-          "electrolyte_mix"
-        ]
-      },
-      "vitamin": {
-        "main": "B-1 tinh chất",
-        "alternative": [
-          "vitamin ADE-bcomplex, Vitamin tổng hợp"
-        ]
-      }
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "Oresol (điện giải uống)"
+      ],
+      "vitamin": [
+        "Vitamin B-complex",
+        "Multivitamin tổng hợp"
+      ],
+      "digestive_support": []
     },
     "supportive_care": [
-      "Cách ly con bệnh",
-      "Giữ nền êm, tránh va đập",
-      "Loại bỏ ngay thức ăn nghi mốc",
-      "Bù nước và trợ sức"
+      "Cách ly dê bệnh ngay.",
+      "Giữ nền chuồng khô, yên tĩnh.",
+      "Hỗ trợ cho ăn nếu dê không tự ăn.",
+      "Giữ ấm trong thời tiết lạnh."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+    "dose_policy": [
+      "Kháng sinh dùng theo hướng dẫn thú y hoặc nhãn thuốc.",
+      "Không ngưng thuốc sớm khi thấy đỡ."
+    ]
   },
   "severe_case_treatment": {
-    "case_type_1": [
-      "Tiêm kháng sinh càng sớm càng tốt",
-      "Kết hợp giảm viêm - trợ sức",
-      "Theo dõi thần kinh mỗi ngày"
-    ],
-    "case_type_2": [
-      "Nếu co giật/nằm nghiêng: giữ yên, tránh chấn thương",
-      "Bù điện giải liên tục"
-    ],
-    "note": "Trễ điều trị sau khi đã nằm bệt thì rất khó cứu."
+    "case_type_1": {
+      "description": "Phát hiện sớm, dê còn đứng được.",
+      "guideline": [
+        "Kháng sinh sớm và liên tục.",
+        "Chống viêm giảm đau.",
+        "Bù nước, vitamin nhóm B."
+      ]
+    },
+    "case_type_2": {
+      "description": "Đã xoay vòng nặng, nằm bệt hoặc co giật.",
+      "guideline": [
+        "Gọi thú y ngay.",
+        "Điều trị tích cực nếu còn khả năng.",
+        "Cân nhắc loại thải nếu không đáp ứng."
+      ]
+    },
+    "note": "Listeriosis càng phát hiện muộn, tỷ lệ tử vong càng cao."
   },
-  "prevention_list": [
-    "Không dùng cỏ ủ chua mốc",
-    "Kho dự trữ thức ăn khô sạch",
-    "Nước uống sạch",
-    "Vệ sinh nền chuồng thường xuyên"
+  "prevention": [
+    "Không cho ăn silage mốc hoặc có mùi lạ.",
+    "Bảo quản thức ăn ủ chua đúng kỹ thuật.",
+    "Giữ chuồng trại sạch, khô.",
+    "Loại bỏ thức ăn nghi nhiễm."
   ],
   "notes": [
-    "Biểu hiện nghiêng đầu - xoay vòng rất đặc trưng."
+    "Listeriosis có thể lây sang người.",
+    "Bệnh thường xuất hiện lẻ tẻ nhưng rất nguy hiểm.",
+    "Silage là nguồn lây phổ biến nhất."
   ],
-  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

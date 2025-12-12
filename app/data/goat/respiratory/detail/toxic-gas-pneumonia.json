@@ -45,16 +45,18 @@
   "treatment": {
     "primary_drugs": [
       "Florfenicol",
-      "Ceftiofur",
-      "Cefquinome"
+      "Ceftiofur"
     ],
     "alternative_drugs": [
-      "Doxycycline hoặc tylosin cho ca nhẹ - vừa sau khi đã thoát khỏi môi trường khí độc.",
-      "Enrofloxacin cho trường hợp nặng theo chỉ định thú y."
+      "Cefquinome",
+      "Doxycycline",
+      "Tylosin",
+      "Enrofloxacin"
     ],
     "note_drugs": [
-      "Giải quyết NGUỒN KHÍ ĐỘC quan trọng không kém dùng thuốc, nếu không bệnh sẽ tái liên tục.",
-      "Tránh dùng corticoid tuỳ tiện vì có thể làm tăng nguy cơ nhiễm khuẩn thứ phát."
+      "Ưu tiên đưa dê ra khỏi nguồn khí độc trước khi can thiệp thuốc.",
+      "Kháng sinh dùng để phòng và điều trị nhiễm khuẩn thứ phát, không xử lý được tổn thương do khí độc.",
+      "Tránh dùng corticoid tuỳ tiện vì có thể làm tăng nguy cơ nhiễm khuẩn."
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [
@@ -64,10 +66,10 @@
       ],
       "respiratory_support": [
         "Bromhexine",
-        "Guaifenesin"
+        "Guaifenesin (long đờm)"
       ],
       "electrolyte": [
-        "electrolyte_mix",
+        "Điện giải tổng hợp (Na/K/Cl)",
         "Oresol (điện giải uống)"
       ],
       "vitamin": [
@@ -76,7 +78,7 @@
         "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho những con bỏ ăn, gầy nhanh."
+        "Men tiêu hoá + Vitamin"
       ]
     },
     "supportive_care": [

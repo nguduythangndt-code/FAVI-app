@@ -1,11 +1,13 @@
 [
-  { "id": "probiotic",           "name": "Probiotic (men vi sinh)" },
-  { "id": "enzyme_mix",          "name": "Enzyme tiêu hoá" },
-  { "id": "pectin_kaolin",       "name": "Pectin - Kaolin" },
-  { "id": "digestive_vitamin",   "name": "Men tiêu hoá + Vitamin" },
-  { "id": "activated_charcoal",  "name": "Than hoạt tính (giải độc tiêu hoá)" },
-  { "id": "simethicone",         "name": "Simethicone" },
-  { "id": "liquid_paraffin", "name": "Dầu paraffin" },
-{ "id": "dimethicone", "name": "Dimethicone" }
-
+  { "id": "probiotic",            "name": "Probiotic (men vi sinh)" },
+  { "id": "enzyme_mix",           "name": "Enzyme tiêu hoá" },
+  { "id": "pectin_kaolin",        "name": "Pectin - Kaolin" },
+  { "id": "digestive_vitamin",    "name": "Men tiêu hoá + Vitamin" },
+  { "id": "activated_charcoal",   "name": "Than hoạt tính (giải độc tiêu hoá)" },
+  { "id": "simethicone",          "name": "Simethicone" },
+  { "id": "liquid_paraffin",      "name": "Dầu paraffin" },
+  { "id": "dimethicone",          "name": "Dimethicone" },
+  {"id": "sodium_bicarbonate",    "name": "Sodium bicarbonate"},
+  {"id": "acetic_acid",           "name": "Acetic acid"},
+  {"id": "clostridium_antitoxin",           "name": "Clostridium antitoxin"}
 ]

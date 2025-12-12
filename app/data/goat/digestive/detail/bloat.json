@@ -52,17 +52,19 @@
       "Enzyme tiêu hoá",
       "Oresol (điện giải uống)"
     ],
-    "note_drugs": [
-      "Chọc dạ cỏ hoặc đặt ống dạ cỏ là thủ thuật phải do người có kinh nghiệm hoặc thú y thực hiện.",
-      "Không tự ý dùng thuốc an thần khi dê đang suy hô hấp."
+     "note_drugs": [
+      "Đặt ống dạ cỏ hoặc chọc dạ cỏ là thủ thuật cấp cứu, cần người có kinh nghiệm hoặc bác sĩ thú y thực hiện.",
+      "Không dùng thuốc an thần khi dê đang khó thở vì có thể làm ngạt nặng hơn."
     ],
+
     "symptomatic_treatment": {
       "antiinflammatory": [
         "Flunixin"
       ],
       "respiratory_support": [
-        "Thuốc hỗ trợ hô hấp nếu có chỉ định thú y."
-      ],
+  "Chướng hơi gây khó thở do dạ cỏ chèn ép phổi; giảm hơi nhanh là ưu tiên giúp dê thở dễ hơn."
+]
+,
       "electrolyte": [
         "Oresol (điện giải uống)",
         "Điện giải tổng hợp (Na/K/Cl)"
@@ -72,7 +74,7 @@
         "Vitamin BC"
       ],
       "digestive_support": [
-        "Men tiêu hoá dạ cỏ sau khi dạ cỏ ổn định."
+        "Probiotic (men vi sinh)"
       ]
     },
     "supportive_care": [
@@ -82,6 +84,7 @@
       "Sau khi ổn, cho ăn cỏ khô trước, rồi mới tăng dần cỏ tươi."
     ],
     "dose_policy": [
+      "Chỉ dùng men tiêu hoá SAU KHI đã giải quyết xong chướng hơi.",
       "Thuốc chống chướng hơi, dầu, men tiêu hoá dùng theo liều trên nhãn hoặc theo thú y.",
       "Không tự ý tăng liều vì có thể gây sặc hoặc rối loạn thêm."
     ]
@@ -99,14 +102,17 @@
     "case_type_2": {
       "description": "Dê nằm, thở ngáp, bụng căng cực độ.",
       "guideline": [
-        "Đây là ca cấp cứu, cần thao tác giải áp dạ cỏ khẩn (ống dạ cỏ hoặc chọc dạ cỏ) bởi thú y.",
+        "Đây là ca cấp cứu, cần thao tác giải áp dạ cỏ khẩn (ống dạ cỏ hoặc chọc ) bởi thú y.",
         "Hỗ trợ hô hấp, giữ đầu - cổ thẳng để tránh sặc.",
         "Sau khi thoát hơi, bổ sung điện giải, vitamin, men tiêu hoá.",
         "Tiên lượng cẩn trọng, có thể tổn thương phổi - tim do ép lâu."
       ]
     },
-    "note": "Chướng hơi là bệnh vừa do thức ăn, vừa do cách cho ăn; sau mỗi ca nặng nên xem lại toàn bộ quy trình chăn thả và khẩu phần."
-  },
+     "note": [
+  "Chọc trocar (chọc dạ cỏ) là thủ thuật xâm lấn, chỉ thực hiện bởi người có kinh nghiệm hoặc bác sĩ thú y.",
+  "Chướng hơi dạ cỏ là cấp cứu tiêu hoá; xử lý càng sớm thì tỷ lệ sống càng cao."
+]
+ },
   "prevention": [
     "Không thả dê ăn cỏ non, cỏ đậu khi đói bụng.",
     "Cho ăn cỏ khô trước rồi mới ra bãi cỏ non.",
@@ -114,8 +120,9 @@
     "Không chăn trên cỏ ướt sương quá sớm buổi sáng."
   ],
   "notes": [
-    "Chướng hơi có thể kết hợp với toan/kiềm dạ cỏ, cần đánh giá kỹ.",
-    "Ca nặng cần xử lý tính bằng phút, không chờ qua đêm."
-  ],
+  "Chướng hơi dạ cỏ có thể đi kèm rối loạn toan – kiềm dạ cỏ, cần quan sát kỹ biểu hiện toàn thân.",
+  "Các ca chướng hơi nặng tiến triển rất nhanh; chậm xử lý có thể dẫn đến suy hô hấp và tử vong."
+],
+
   "disclaimer": "Ứng dụng chỉ mang tính chất tham khảo, không thay thế chẩn đoán hoặc phác đồ điều trị của bác sĩ thú y."
 }

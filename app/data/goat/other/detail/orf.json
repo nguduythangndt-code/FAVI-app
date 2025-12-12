@@ -1,13 +1,18 @@
 {
+  
+  "id": "orf",
   "name": "Orf (loét miệng truyền nhiễm)",
-  "summary": "Bệnh virus gây mụn - loét ở môi, mép miệng, đôi khi ở bầu vú. Lây nhanh nhưng hiếm khi chết, chủ yếu làm dê bỏ ăn và chậm lớn.",
+  "species": "goat",
+  "group": "other",
+  "summary": "Orf là bệnh truyền nhiễm do virus gây ra, thường gặp ở dê non và dê đang nuôi con. Bệnh đặc trưng bởi các nốt sần, mụn nước rồi đóng vảy dày ở miệng, môi, mũi và đôi khi ở chân, núm vú. Orf không có thuốc điều trị đặc hiệu, đa số tự khỏi nếu chăm sóc đúng.",
   "causes": [
     "Virus Orf (parapoxvirus)",
     "Lây qua tiếp xúc trực tiếp hoặc qua vết xước"
   ],
   "risk_factors": [
     "Dê con mọc răng, hay xây xước miệng",
-    "Chuồng bẩn, nhiều vật sắc",
+    "Da, niêm mạc miệng trầy xước.",
+    "Chuồng trại ẩm, vệ sinh kém. nhiều vật sắc",
     "Đàn nuôi dày",
     "Dùng chung máng ăn - nước"
   ],
@@ -36,55 +41,69 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Oxytetracycline",
-      "Povidone-iodine"
-    ],
+    "primary_drugs": [],
     "alternative_drugs": [
-      "Florfenicol"
+      "Amoxicillin"
     ],
-    "note_drugs": "Thuốc bôi sát trùng giúp khô vết loét; kháng sinh chỉ dùng khi có bội nhiễm. Đeo găng vì bệnh có thể lây sang người.",
+    "note_drugs": [
+      "Orf là bệnh do virus, không có thuốc điều trị đặc hiệu.",
+      "Kháng sinh chỉ dùng khi có dấu hiệu nhiễm trùng kế phát.",
+      "Không bóc vảy mạnh vì dễ chảy máu và nhiễm trùng."
+    ],
     "symptomatic_treatment": {
-      "antiinflammatory": {
-        "main": "Meloxicam",
-        "alternative": [
-          "Ketoprofen"
-        ]
-      },
-      "vitamin": {
-        "main": "Vitamin C",
-        "alternative": [
-          "Multivitamin tổng hợp"
-        ]
-      }
+      "antiinflammatory": [],
+      "respiratory_support": [],
+      "electrolyte": [
+        "Oresol (điện giải uống)"
+      ],
+      "vitamin": [
+        "Vitamin C",
+        "Vitamin B-complex",
+        "Multivitamin tổng hợp"
+      ],
+      "digestive_support": []
     },
     "supportive_care": [
-      "Rửa sạch vảy, bôi sát trùng nhẹ hằng ngày",
-      "Cho ăn thức ăn mềm dễ nuốt",
-      "Cách ly con bệnh",
-      "Vệ sinh máng ăn - nước"
+      "Cách ly dê bệnh.",
+      "Vệ sinh nhẹ vùng miệng bằng dung dịch sát trùng loãng.",
+      "Cho ăn thức ăn mềm, dễ nuốt.",
+      "Giữ chuồng khô, sạch."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+    "dose_policy": [
+      "Kháng sinh chỉ dùng theo nhãn hoặc hướng dẫn thú y.",
+      "Không dùng thuốc bôi kích ứng mạnh."
+    ]
   },
   "severe_case_treatment": {
-    "case_type_1": [
-      "Nếu bội nhiễm nặng: ưu tiên kháng sinh phổ rộng",
-      "Giảm đau để dê ăn lại"
-    ],
-    "case_type_2": [
-      "Dê con không bú được: hỗ trợ sữa bằng tay",
-      "Theo dõi mất nước"
-    ],
-    "note": "Bệnh lây sang người khi có vết thương, nên đeo găng tay."
+    "case_type_1": {
+      "description": "Tổn thương nhẹ, dê vẫn ăn được.",
+      "guideline": [
+        "Chăm sóc vệ sinh miệng.",
+        "Bổ sung vitamin, điện giải.",
+        "Theo dõi tiến triển."
+      ]
+    },
+    "case_type_2": {
+      "description": "Loét nặng, bội nhiễm, dê bỏ ăn.",
+      "guideline": [
+        "Xử lý sát trùng kỹ.",
+        "Kháng sinh khi có nhiễm trùng kế phát.",
+        "Hỗ trợ ăn uống.",
+        "Theo dõi sụt thể trạng."
+      ]
+    },
+    "note": "Orf thường tự khỏi sau 2–4 tuần nếu chăm sóc đúng."
   },
-  "prevention_list": [
-    "Tiêm vaccine Orf nếu vùng có dịch",
-    "Tránh vật sắc trong chuồng",
-    "Khử trùng chuồng và máng định kỳ",
-    "Cách ly con mới nhập"
+  "prevention": [
+    "Cách ly dê mới nhập đàn.",
+    "Giữ chuồng trại khô, sạch.",
+    "Tránh làm trầy xước miệng khi cho ăn.",
+    "Xử lý sớm dê bệnh để hạn chế lây lan."
   ],
   "notes": [
-    "Thường tự khỏi sau vài tuần nếu chăm tốt, nhưng rất dễ lây."
+    "Orf có thể lây sang người khi tiếp xúc trực tiếp.",
+    "Đeo găng tay khi xử lý dê bệnh.",
+    "Dê khỏi bệnh vẫn có thể mang virus trong môi trường."
   ],
-  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

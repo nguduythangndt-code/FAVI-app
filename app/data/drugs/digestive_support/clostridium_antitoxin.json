@@ -1,0 +1,40 @@
+{
+  "id": "clostridium_antitoxin",
+  "name": "Clostridium antitoxin",
+  "group": "antitoxin",
+  "mechanism": "Huyết thanh chứa kháng thể đặc hiệu giúp trung hoà độc tố do vi khuẩn Clostridium sinh ra trong máu và mô, làm giảm nhanh tác động độc của độc tố lên hệ thần kinh và cơ.",
+  "clinical_uses": [
+    "Nghi ngờ hoặc xác định bệnh do Clostridium gây độc tố như enterotoxemia (độc tố ruột), uốn ván.",
+    "Trường hợp khởi phát cấp tính với triệu chứng thần kinh hoặc nhiễm độc nặng.",
+    "Dùng sớm trong phác đồ cấp cứu để trung hoà độc tố."
+  ],
+  "pros": [
+    "Tác dụng nhanh trong việc trung hoà độc tố.",
+    "Có thể cứu sống trong các ca ngộ độc Clostridium cấp.",
+    "Hiệu quả cao khi dùng sớm."
+  ],
+  "cons": [
+    "Không tiêu diệt vi khuẩn gây bệnh.",
+    "Hiệu quả giảm nếu dùng muộn khi độc tố đã gây tổn thương nặng.",
+    "Cần kết hợp điều trị hỗ trợ và kiểm soát nguyên nhân."
+  ],
+  "mild_side_effects": [
+    "Phản ứng nhẹ tại chỗ tiêm.",
+    "Hiếm gặp: phản ứng quá mẫn."
+  ],
+  "usage_recommendations": [
+    "Dùng càng sớm càng tốt khi nghi ngờ nhiễm độc Clostridium.",
+    "Luôn kết hợp kháng sinh phù hợp và chăm sóc hỗ trợ.",
+    "Theo dõi sát phản ứng sau tiêm.",
+    "Dùng theo hướng dẫn trên nhãn hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng thay thế kháng sinh hoặc điều trị nguyên nhân.",
+    "Thận trọng ở con có tiền sử dị ứng với huyết thanh.",
+    "Không trì hoãn các biện pháp cấp cứu khác khi tình trạng nặng."
+  ],
+  "alternative_drugs": [
+    "Penicillin hoặc kháng sinh phù hợp để kiểm soát vi khuẩn Clostridium (không thay thế antitoxin).",
+    "Chăm sóc hỗ trợ tích cực: điện giải, chống sốc, giảm đau."
+  ]
+}

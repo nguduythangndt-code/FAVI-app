@@ -1,0 +1,42 @@
+{
+  "id": "ketoconazole",
+  "name": "Ketoconazole",
+  "group": "antiparasitic_external",
+  "mechanism": "Thuốc kháng nấm nhóm azole, ức chế tổng hợp ergosterol làm rối loạn cấu trúc màng tế bào nấm. Hiệu quả trên nhiều nấm gây viêm da và một số trường hợp nhiễm nấm hô hấp.",
+  "clinical_uses": [
+    "Viêm da do nấm ở dê, bò, heo.",
+    "Nhiễm nấm mức độ nhẹ – trung bình.",
+    "Hỗ trợ điều trị viêm phổi do nấm khi không có itraconazole."
+  ],
+  "pros": [
+    "Hiệu quả khá tốt với nấm ngoài da.",
+    "Giá dễ chịu hơn itraconazole.",
+    "Có thể dùng đường uống hoặc tại chỗ tuỳ chế phẩm."
+  ],
+  "cons": [
+    "Hiệu lực kém hơn itraconazole trong ca nấm ăn sâu.",
+    "Dễ gây tác dụng phụ trên gan hơn.",
+    "Không phù hợp ca viêm phổi nặng."
+  ],
+  "mild_side_effects": [
+    "Mệt nhẹ, giảm ăn.",
+    "Rối loạn tiêu hoá nhẹ.",
+    "Tăng men gan nếu dùng kéo dài."
+  ],
+  "usage_recommendations": [
+    "Dùng đúng liều, theo hướng dẫn trên nhãn.",
+    "Ưu tiên dùng cho ca nấm ngoài da hoặc mức độ vừa.",
+    "Theo dõi gan nếu phải dùng quá 7–10 ngày.",
+    "Không dùng đồng thời với các azole mạnh khác."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con suy gan.",
+    "Không dùng để phòng bệnh.",
+    "Cẩn trọng ở dê đang mang thai."
+  ],
+  "alternative_drugs": [
+    "Itraconazole cho ca nặng hoặc lan rộng.",
+    "Clotrimazole dạng bôi/khí dung cho ca ngoài da.",
+    "Thuốc sát trùng nhẹ để hỗ trợ vùng thương tổn."
+  ]
+}

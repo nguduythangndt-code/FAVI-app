@@ -38,75 +38,98 @@
       "Suy kiệt, nằm nhiều."
     ]
   },
+  
   "treatment": {
     "primary_drugs": [
       "Closantel",
       "Triclabendazole"
     ],
+
     "alternative_drugs": [
-      "Albendazole (tác dụng yếu hơn)",
+      "Albendazole",
       "Oxyclozanide"
     ],
+
     "note_drugs": [
-      "Ivermectin - Doramectin KHÔNG diệt được sán lá gan.",
-      "Benzimidazole đời cũ hiệu lực thấp với Fasciola trưởng thành."
+      "Ivermectin và doramectin không có tác dụng diệt sán lá gan.",
+      "Nhóm benzimidazole đời cũ thường có hiệu lực thấp với sán lá trưởng thành.",
+      "Cần chọn đúng thuốc đặc trị để tránh điều trị kéo dài nhưng không hiệu quả."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam"
-      ],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin B12",
-        "Multivitamin tổng hợp"
-      ],
-      "digestive_support": [
-        "Enzyme tiêu hoá"
-      ]
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin B12",
+        "alternative": [
+          "Multivitamin tổng hợp"
+        ]
+      },
+
+      "digestive_support": {
+        "main": "Enzyme tiêu hoá",
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Không chăn thả ở bãi ẩm - ven mương.",
-      "Bổ sung khoáng - vitamin.",
-      "Giữ chuồng khô, sạch."
+      "Hạn chế chăn thả ở bãi cỏ ẩm, ven mương nước.",
+      "Bổ sung khoáng và vitamin để hỗ trợ chức năng gan.",
+      "Giữ chuồng nuôi khô và sạch."
     ],
-    "dose_policy": [
-      "Dùng thuốc đặc trị sán lá đúng theo nhãn.",
-      "Không tự đổi thuốc vì hiệu lực từng nhóm khác nhau."
-    ]
+
+    "dose_policy": "Dùng thuốc đặc trị sán lá gan theo hướng dẫn trên nhãn hoặc theo tư vấn thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Có phù hàm, thiếu máu nhưng còn đứng.",
+      "description": "Có phù hàm và thiếu máu nhưng dê vẫn còn đứng.",
       "guideline": [
-        "Closantel hoặc triclabendazole.",
-        "Vitamin B12 + điện giải.",
-        "Theo dõi phân và phù hàm."
+        "Dùng thuốc diệt sán phù hợp.",
+        "Bổ sung vitamin B12 và điện giải.",
+        "Theo dõi mức độ phù hàm và thể trạng."
       ]
     },
+
     "case_type_2": {
-      "description": "Phù toàn thân, nằm nhiều.",
+      "description": "Phù rõ, dê nằm nhiều và suy kiệt.",
       "guideline": [
-        "Thú y kiểm tra gan.",
-        "Thuốc diệt sán + hồi sức.",
-        "Điện giải - vitamin liên tục.",
-        "Tiên lượng dè dặt."
+        "Cần can thiệp thú y để đánh giá gan.",
+        "Điều trị sán kết hợp hồi sức nâng thể trạng.",
+        "Bổ sung điện giải và vitamin liên tục.",
+        "Tiên lượng dè dặt do tổn thương gan nặng."
       ]
     },
-    "note": "Sán lá gan cần ốc nước làm trung gian — điều trị + thay đổi bãi chăn mới hết."
+
+    "note": "Sán lá gan cần ốc nước làm vật chủ trung gian; điều trị chỉ hiệu quả khi kết hợp thay đổi bãi chăn."
   },
+
   "prevention": [
-    "Không thả ở bãi cỏ ẩm.",
-    "Tẩy giun sán định kỳ (Closantel/Triclabendazole).",
-    "Luân chuyển bãi chăn.",
-    "Vệ sinh nguồn nước."
+    "Không chăn thả dê ở bãi cỏ ẩm, vùng trũng nước.",
+    "Tẩy sán định kỳ bằng thuốc đặc trị phù hợp.",
+    "Luân chuyển bãi chăn để cắt vòng đời sán.",
+    "Quản lý và vệ sinh nguồn nước uống."
   ],
+
   "notes": [
-    "Phù hàm ở dê = nghĩ ngay đến sán lá gan.",
-    "Sán lá điều trị không đúng thuốc = không khỏi."
+    "Dê có phù hàm cần nghĩ ngay đến sán lá gan.",
+    "Dùng sai thuốc đặc trị thường khiến bệnh kéo dài và khó kiểm soát."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -1,0 +1,41 @@
+{
+  "id": "mineral_solution",
+  "name": "Mineral solution",
+  "group": "electrolyte",
+  "mechanism": "Dung dịch cung cấp các khoáng chất thiết yếu giúp cân bằng điện giải, hỗ trợ hoạt động thần kinh – cơ, duy trì chức năng trao đổi chất và tăng khả năng hồi phục khi cơ thể bị thiếu khoáng.",
+  "clinical_uses": [
+    "Suy nhược, mệt mỏi kéo dài nghi do thiếu khoáng.",
+    "Giai đoạn stress, vận chuyển, thay đổi thời tiết hoặc khẩu phần.",
+    "Hỗ trợ phục hồi sau bệnh, sau sinh hoặc sau tiêu chảy kéo dài."
+  ],
+  "pros": [
+    "Bổ sung nhiều khoáng cùng lúc, tiện sử dụng.",
+    "An toàn, phù hợp dùng hỗ trợ trong nhiều giai đoạn.",
+    "Giúp cải thiện thể trạng và khả năng ăn uống."
+  ],
+  "cons": [
+    "Không thay thế thuốc điều trị nguyên nhân.",
+    "Hiệu quả phụ thuộc vào khẩu phần và tình trạng nền.",
+    "Không phù hợp cho các ca rối loạn điện giải nặng cần bù đặc hiệu."
+  ],
+  "mild_side_effects": [
+    "Hiếm gặp: rối loạn tiêu hoá nhẹ.",
+    "Khó chịu thoáng qua nếu dùng liều không phù hợp."
+  ],
+  "usage_recommendations": [
+    "Dùng trong các giai đoạn cần hỗ trợ khoáng tổng hợp.",
+    "Kết hợp khẩu phần ăn cân đối để duy trì hiệu quả.",
+    "Theo dõi ăn uống và thể trạng trong quá trình sử dụng.",
+    "Dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng thay thế các dung dịch bù khoáng đặc hiệu (canxi, magie…).",
+    "Thận trọng ở con có bệnh thận hoặc rối loạn điện giải nặng.",
+    "Không lạm dụng dùng kéo dài khi khẩu phần đã đủ khoáng."
+  ],
+  "alternative_drugs": [
+    "Calcium gluconate hoặc calcium borogluconate khi thiếu canxi rõ.",
+    "Magnesium solution khi nghi ngờ thiếu magie.",
+    "Điện giải tổng hợp khi kèm mất nước."
+  ]
+}

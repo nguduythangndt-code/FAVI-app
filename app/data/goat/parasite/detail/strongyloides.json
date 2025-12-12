@@ -38,73 +38,98 @@
       "Dễ tử vong nếu không bù nước."
     ]
   },
+  
   "treatment": {
     "primary_drugs": [
       "Ivermectin",
       "Doramectin"
     ],
+
     "alternative_drugs": [
       "Albendazole",
       "Fenbendazole"
     ],
+
     "note_drugs": [
-      "Không dùng lặp quá sớm — dễ tạo kháng thuốc."
+      "Cần dùng thuốc tẩy giun đúng hướng dẫn để đạt hiệu quả và hạn chế kháng thuốc.",
+      "Không tẩy giun lặp lại khi chưa đánh giá đáp ứng điều trị.",
+      "Điều trị thuốc cần đi kèm cải thiện môi trường chuồng nuôi."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin BC",
-        "Vitamin C"
-      ],
-      "digestive_support": [
-        "Enzyme tiêu hoá",
-        "Pectin - Kaolin"
-      ]
+      "antiinflammatory": {
+        "main": null,
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      },
+
+      "digestive_support": {
+        "main": "Men tiêu hoá + Vitamin",
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Giữ chuồng khô.",
-      "Vệ sinh khu vực nằm.",
-      "Cho uống nước sạch dễ tiếp cận.",
-      "Tách dê con bệnh để giảm nhiễm chéo."
+      "Giữ nền chuồng khô, sạch và thoáng.",
+      "Nâng cao sàn nuôi, tránh ẩm ướt kéo dài.",
+      "Tách dê con tiêu chảy để chăm sóc riêng.",
+      "Bổ sung nước uống sạch, dễ tiếp cận."
     ],
-    "dose_policy": [
-      "Dùng thuốc theo nhãn.",
-      "Không phối hợp lung tung các nhóm tẩy giun."
-    ]
+
+    "dose_policy": "Dùng thuốc theo hướng dẫn trên nhãn hoặc theo tư vấn thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Dê tiêu chảy nhưng còn đứng.",
+      "description": "Tiêu chảy kéo dài nhưng dê con vẫn còn đứng và bú.",
       "guideline": [
-        "Tẩy giun (ivermectin/doramectin).",
-        "Điện giải liên tục.",
-        "Men tiêu hoá."
+        "Tẩy giun bằng thuốc phù hợp.",
+        "Bù điện giải và hỗ trợ tiêu hoá.",
+        "Theo dõi đáp ứng trong những ngày tiếp theo."
       ]
     },
+
     "case_type_2": {
-      "description": "Mất nước nặng, nằm.",
+      "description": "Tiêu chảy nặng, mất nước rõ, dê con mệt và nằm nhiều.",
       "guideline": [
-        "Thú y hỗ trợ truyền dịch.",
-        "Tẩy giun + hồi sức.",
-        "Theo dõi sát trong 24 giờ đầu."
+        "Cần can thiệp thú y.",
+        "Bù dịch tích cực để chống mất nước.",
+        "Kết hợp tẩy giun và chăm sóc nâng đỡ."
       ]
     },
-    "note": "Dê con <2 tháng rất nhạy cảm — cần xử lý sớm."
+
+    "note": "Strongyloides dễ tái phát nếu môi trường chuồng nuôi ẩm ướt không được cải thiện."
   },
+
   "prevention": [
-    "Tẩy giun cho dê mẹ trước đẻ.",
-    "Giữ chuồng khô - sạch.",
-    "Không nuôi quá dày.",
-    "Thường xuyên thay chất độn chuồng."
+    "Giữ chuồng nuôi khô ráo, vệ sinh thường xuyên.",
+    "Nâng sàn, hạn chế nền đất ẩm.",
+    "Không nuôi dê con quá dày.",
+    "Quản lý phân và nước thải tốt."
   ],
+
   "notes": [
-    "Giun lươn làm dê còi dai dẳng nếu bỏ sót.",
-    "Tẻ sau cai sữa cần kiểm tra phân định kỳ."
+    "Giun lươn lây qua da nên dê con nằm nền ẩm rất dễ nhiễm.",
+    "Điều trị thuốc mà không sửa chuồng thường thất bại."
   ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+
+  "disclaimer": "Thông tin chỉ mang tính tham khảo."
 }

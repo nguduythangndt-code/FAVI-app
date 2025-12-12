@@ -1,0 +1,42 @@
+{
+  "id": "caffeine",
+  "name": "Caffeine",
+  "group": "stimulant",
+  "mechanism": "Chất kích thích hệ thần kinh trung ương, làm tăng hoạt động tim mạch, kích thích hô hấp và cải thiện trương lực cơ thông qua ức chế thụ thể adenosine và tăng dẫn truyền thần kinh.",
+  "clinical_uses": [
+    "Suy nhược, lờ đờ, phản xạ kém trong các ca cấp.",
+    "Hỗ trợ hồi sức khi con vật yếu, tụt lực sau bệnh nặng.",
+    "Hỗ trợ kích thích hô hấp và tuần hoàn trong một số tình huống cần can thiệp nhanh."
+  ],
+  "pros": [
+    "Tác dụng nhanh, giúp con vật tỉnh táo hơn trong thời gian ngắn.",
+    "Hỗ trợ tim và hô hấp khi cơ thể suy yếu.",
+    "Có giá trị trong phác đồ hồi sức hỗ trợ."
+  ],
+  "cons": [
+    "Không điều trị nguyên nhân gây bệnh.",
+    "Tác dụng ngắn, cần xử lý nguyên nhân nền song song.",
+    "Dùng không đúng có thể gây kích thích quá mức."
+  ],
+  "mild_side_effects": [
+    "Bồn chồn, run nhẹ.",
+    "Tim đập nhanh thoáng qua.",
+    "Khó chịu tạm thời sau khi dùng."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng trong các tình huống cần kích thích hồi sức.",
+    "Theo dõi nhịp tim và phản ứng sau khi dùng.",
+    "Luôn kết hợp điều trị nguyên nhân chính.",
+    "Dùng theo hướng dẫn trên nhãn hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con đang sốt cao chưa kiểm soát.",
+    "Thận trọng ở con có bệnh tim hoặc co giật.",
+    "Không lạm dụng hoặc dùng lặp lại nhiều lần."
+  ],
+  "alternative_drugs": [
+    "Vitamin B-complex trong các ca suy nhược nhẹ.",
+    "Điện giải tổng hợp để hỗ trợ thể trạng.",
+    "Chăm sóc nâng đỡ tích cực khi tình trạng nặng."
+  ]
+}

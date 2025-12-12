@@ -39,37 +39,34 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
+  "primary_drugs": [
+
+  ],
+  "alternative_drugs": [
+ 
+  ],
+  "note_drugs": [
+    "Rối loạn tiêu hóa là rối loạn chức năng, không cần dùng kháng sinh nếu không có dấu hiệu nhiễm khuẩn.",
+    "Ưu tiên men tiêu hoá và probiotics để phục hồi hoạt động dạ cỏ.",
+    "Chế phẩm bảo vệ niêm mạc ruột giúp giảm kích ứng và tiêu chảy nhẹ.",
+    "Không dùng thuốc giảm nhu động ruột."
+  ],
+  "symptomatic_treatment": {
+    "antiinflammatory": [],
+    "respiratory_support": [],
+    "electrolyte": [
+      "Oresol",
+      "Vitamin C điện giải"
+    ],
+    "vitamin": [
+      "Vitamin_BC",
+      "Vitamin_C"
+    ],
+    "digestive_support": [
       "Enzyme tiêu hoá",
-      "Probiotics hỗ trợ hệ vi sinh.",
-      "Chế phẩm bảo vệ niêm mạc ruột."
-    ],
-    "alternative_drugs": [
-      "Vitamin B1",
-      "Vitamin BC",
-      "electrolyte_mix",
-      "Thảo dược hỗ trợ tiêu hoá"
-    ],
-    "note_drugs": [
-      "Không dùng kháng sinh khi không nghi nhiễm khuẩn.",
-      "Không dùng thuốc giảm nhu động ruột."
-    ],
-    "symptomatic_treatment": {
-      "antiinflammatory": [],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin BC",
-        "Vitamin C"
-      ],
-      "digestive_support": [
-        "Enzyme tiêu hoá",
-        "Pectin - Kaolin"
-      ]
-    },
+      "pectin_kaolin"
+    ]
+  },
     "supportive_care": [
       "Giảm thức ăn tinh, tăng cỏ khô.",
       "Giữ ấm, tránh gió lùa.",

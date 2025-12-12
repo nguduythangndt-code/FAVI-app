@@ -1,0 +1,41 @@
+{
+  "id": "calcium_gluconate",
+  "name": "Calcium gluconate",
+  "group": "electrolyte",
+  "mechanism": "Cung cấp ion canxi dễ hấp thu giúp điều chỉnh hạ canxi huyết, hỗ trợ dẫn truyền thần kinh, co cơ và hoạt động tim mạch. Canxi gluconate có tác dụng ổn định sinh lý cơ – thần kinh khi cơ thể thiếu canxi.",
+  "clinical_uses": [
+    "Hạ canxi huyết nhẹ đến vừa.",
+    "Dê yếu, run cơ, đi đứng không vững nghi do thiếu canxi.",
+    "Hỗ trợ sau sinh hoặc trong các giai đoạn stress làm rối loạn điện giải."
+  ],
+  "pros": [
+    "An toàn, dễ dung nạp.",
+    "Phù hợp cho cả đường uống và hỗ trợ đường tiêm tuỳ chế phẩm.",
+    "Dùng tốt trong các ca thiếu canxi mức độ nhẹ đến vừa."
+  ],
+  "cons": [
+    "Tác dụng chậm hơn calcium borogluconate trong các ca cấp.",
+    "Không giải quyết nguyên nhân nền gây thiếu canxi kéo dài.",
+    "Hiệu quả phụ thuộc vào việc điều chỉnh khẩu phần."
+  ],
+  "mild_side_effects": [
+    "Khó chịu nhẹ tại chỗ tiêm (nếu dùng dạng tiêm).",
+    "Hiếm gặp: rối loạn tiêu hoá nhẹ khi dùng đường uống."
+  ],
+  "usage_recommendations": [
+    "Dùng khi có dấu hiệu nghi ngờ thiếu canxi mức độ nhẹ đến vừa.",
+    "Kết hợp khẩu phần giàu khoáng và vitamin D để duy trì hiệu quả.",
+    "Theo dõi khả năng vận động và trương lực cơ sau khi dùng.",
+    "Luôn dùng theo hướng dẫn trên nhãn hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng khi nghi ngờ tăng canxi huyết.",
+    "Thận trọng ở con có bệnh tim hoặc suy thận.",
+    "Không tự ý dùng liều cao hoặc dùng kéo dài liên tục."
+  ],
+  "alternative_drugs": [
+    "Calcium borogluconate cho ca hạ canxi cấp cần tác dụng nhanh.",
+    "Khoáng tổng hợp để bổ sung dài ngày.",
+    "Điện giải tổng hợp khi kèm mất nước."
+  ]
+}

@@ -13,7 +13,6 @@
     "searchText": "Đi khập khiễng rõ rệt. Sưng khớp hoặc kẽ móng đỏ. Móng mềm, bốc mùi (Footrot). Nằm nhiều, đứng lên khó. Giảm ăn. Khập khiễng nhẹ. Kẽ móng hơi đỏ. Sưng, nóng. Đi lại khó khăn. Giảm ăn rõ. Nằm nhiều. Kẽ móng chảy mủ. Nguy cơ nhiễm trùng nặng.",
     "severityLevel": 2
   },
-  
   {
     "id": "injury",
     "name": "Chấn thương - Rách da",
@@ -97,5 +96,13 @@
     "group": "other",
     "searchText": "Mẩn đỏ, nổi cục nhỏ. Ngứa, cọ xát. Sưng môi - mặt. Khó thở (phản vệ nặng). Mẩn đỏ nhẹ. Ngứa. Sưng môi, sưng mặt. Khó chịu, bỏ ăn. Khó thở. Phù thanh quản. Nguy cơ tử vong.",
     "severityLevel": 3
-  }
+  },
+    {
+  "id": "anaphylaxis",
+  "name": "Sốc phản vệ",
+  "group": "other",
+  "searchText": "Khó thở đột ngột. Phù mặt, phù mí mắt, phù môi. Chảy nước dãi nhiều. Thở gấp, thở khò khè. Bứt rứt, lảo đảo. Ngã quỵ sau tiêm thuốc. Phản ứng sau tiêm kháng sinh, vitamin hoặc vaccine. Dị ứng thức ăn lạ. Ong, côn trùng đốt. Tím tái. Co giật. Nguy cơ tử vong nhanh.",
+  "severityLevel": 3
+}
+
 ]

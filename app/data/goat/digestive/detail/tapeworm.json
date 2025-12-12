@@ -38,17 +38,17 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Praziquantel",
-      "Albendazole"
+      "Praziquantel"
     ],
     "alternative_drugs": [
-      "Fenbendazole",
-      "Vitamin BC",
-      "Enzyme tiêu hoá"
+      "Albendazole",
+      "Fenbendazole"
     ],
-    "note_drugs": [
-      "Không dùng kháng sinh."
-    ],
+   "note_drugs": [
+      "Praziquantel là thuốc ưu tiên cho sán dây ở dê.",
+      "Albendazole/fenbendazole chỉ có hiệu quả hạn chế với sán dây.",
+      "Không dùng kháng sinh vì sán dây không phải vi khuẩn."
+],
     "symptomatic_treatment": {
       "antiinflammatory": [],
       "respiratory_support": [],

@@ -108,7 +108,7 @@ export default function CategoryHomeScreen() {
 
     {/* Slogan */}
     <Text style={styles.brandSlogan}>
-      Ứng dụng chăn nuôi thông minh
+      Ứng dụng thông minh
        cho bà con Việt Nam.
     </Text>
 
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     borderRadius: radius.lg,
     paddingHorizontal: spacing.lg,
     paddingVertical: spacing.md,
-    marginBottom: spacing.md,
+    marginBottom: spacing.xs,
     borderWidth: 1,
     borderColor: colors.border,
     flexDirection: "row",
@@ -196,21 +196,21 @@ const styles = StyleSheet.create({
     marginBottom: spacing.lg,
   },
   brandLogo: {
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
     borderRadius: 20,
     marginBottom: spacing.sm,
     ...shadow.card,
   },
   brandTagline: {
     fontSize: 20,
-    fontWeight: "700",
+    fontWeight: "600",
     color: colors.text,
     marginTop: spacing.xs,
     marginBottom: spacing.xs,
   },
   brandSlogan: {
-    fontSize: 12,
+    fontSize: 13,
     color: colors.textMuted,
     textAlign: "center",
     marginBottom: spacing.xs,

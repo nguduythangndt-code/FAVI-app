@@ -50,13 +50,13 @@
       "Amprolium"
     ],
     "alternative_drugs": [
-      "Toltrazuril",
-      "Vitamin K",
-      "Enzyme tiêu hoá"
+      "Sulfadimidine"
     ],
     "note_drugs": [
-      "Kháng sinh không thay thế được thuốc diệt cầu trùng; chỉ dùng khi có nhiễm khuẩn kế phát."
-    ],
+      "Thuốc diệt cầu trùng là điều trị nền tảng; kháng sinh không thay thế được.",
+      "Chỉ dùng kháng sinh khi có dấu hiệu bội nhiễm vi khuẩn (phân thối, sốt, nằm bệt...), theo đánh giá thú y.",
+      "Tiêu chảy kéo dài có thể gây mất nước và thiếu máu; cần bù nước và hỗ trợ sớm."
+   ],
     "symptomatic_treatment": {
       "antiinflammatory": [
         "Flunixin",
@@ -65,12 +65,11 @@
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix"
+       "Điện giải tổng hợp (Na/K/Cl)"
       ],
       "vitamin": [
         "Vitamin BC",
-        "Vitamin C",
-        "Khoáng - điện giải"
+        "Vitamin C"
       ],
       "digestive_support": [
         "Enzyme tiêu hoá",

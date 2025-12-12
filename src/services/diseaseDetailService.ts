@@ -17,6 +17,8 @@ export type DiseaseDetail = {
     // ===== MỞ RỘNG SCHEMA MỚI =====
     primary_drugs?: string[];
     alternative_drugs?: string[];
+      note_drugs?: string[];   // ⬅️ mới thêm
+
     symptomatic_treatment?: {
       [key: string]:
         | {

@@ -3,7 +3,7 @@
   "name": "Sảy thai truyền nhiễm ở dê",
   "species": "goat",
   "group": "reproductive",
-  "summary": "Sảy thai truyền nhiễm thường do vi khuẩn Brucella, Chlamydia, viêm tử cung do Mycoplasma hoặc ký sinh trùng Toxoplasma. Nguy hiểm vì dễ lan cả đàn, gây sảy thai hàng loạt và giảm khả năng sinh sản lâu dài.",
+  "summary": "Sảy thai truyền nhiễm ở dê là tình trạng sảy thai do các tác nhân lây lan trong đàn, thường gặp gồm Brucella, Chlamydia, Campylobacter và ký sinh trùng Toxoplasma. Bệnh rất nguy hiểm vì dễ gây sảy thai hàng loạt, làm giảm khả năng sinh sản và có nguy cơ lây sang người nếu xử lý không đúng.",
   "causes": [
     "Brucella melitensis (cực nguy hiểm, lây sang người).",
     "Chlamydia abortus.",
@@ -43,43 +43,32 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Oxytetracycline",
-      "Doxycycline",
-      "Amoxicillin (nếu nghi nhiễm khuẩn tử cung kèm theo)"
+  "primary_drugs": [],
+  "alternative_drugs": [],
+  "note_drugs": [
+    "Không có phác đồ điều trị chung cho sảy thai truyền nhiễm nếu chưa xác định tác nhân.",
+    "Trường hợp nghi Brucella: KHÔNG điều trị, cần báo thú y và thực hiện loại thải theo quy định.",
+    "Kháng sinh chỉ có thể được dùng để hạn chế nhiễm trùng thứ phát hoặc giảm phát tán mầm bệnh, không phục hồi thai đã mất."
+  ],
+  "symptomatic_treatment": {
+    "antiinflammatory": [],
+    "respiratory_support": [],
+    "electrolyte": [
+      "Oresol (điện giải uống)"
     ],
-    "alternative_drugs": [
-      "Tylosin (nghi Mycoplasma).",
-      "Sulfa (một số ca nghi ký sinh Toxoplasma)."
+    "vitamin": [
+      "Vitamin BC",
+      "Vitamin C"
     ],
-    "note_drugs": [
-      "Brucella gần như không điều trị triệt để — cần loại thải, báo thú y địa phương.",
-      "Không tái nhập những con đã sảy thai do bệnh truyền nhiễm nặng."
-    ],
-    "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam",
-        "Flunixin"
-      ],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin E - Selenium",
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": [
-        "Men tiêu hoá cho dê yếu."
-      ]
-    },
+    "digestive_support": []
+  },
+
     "supportive_care": [
-      "Cách ly hoàn toàn dê sảy thai.",
-      "Dọn sạch nhau - thai, tiêu huỷ đúng cách.",
-      "Khử trùng chuồng bằng chế phẩm an toàn.",
-      "Tăng cường khoáng - vitamin cho đàn."
+  "Cách ly ngay dê vừa sảy thai.",
+  "Thu gom và tiêu huỷ thai, nhau đúng cách (đeo găng, không vứt bừa bãi).",
+  "Khử trùng chuồng đẻ và dụng cụ tiếp xúc.",
+  "Không cho dê khác tiếp xúc dịch sảy.",
+  "Người xử lý cần đeo găng, tránh tiếp xúc trực tiếp."
     ],
     "dose_policy": [
       "Kháng sinh phải dùng đủ ngày theo nhãn hoặc thú y.",
@@ -87,32 +76,31 @@
     ]
   },
   "severe_case_treatment": {
-    "case_type_1": {
-      "description": "Sảy thai lẻ tẻ, dê còn ăn, còn đứng.",
-      "guideline": [
-        "Oxytetracycline/doxycycline.",
-        "Chống viêm + vitamin.",
-        "Theo dõi dịch âm hộ."
-      ]
-    },
-    "case_type_2": {
-      "description": "Sảy thai hàng loạt, dịch hôi, sốt.",
-      "guideline": [
-        "Kháng sinh phổ rộng cho nhóm nghi nhiễm.",
-        "Khử trùng chuồng toàn bộ.",
-        "Cách ly đàn mang thai.",
-        "Liên hệ thú y địa phương kiểm tra Brucella."
-      ]
-    },
-    "note": "Sảy thai truyền nhiễm là vấn đề đàn — không chỉ là điều trị từng con."
+  "case_type_1": {
+    "description": "Sảy thai đơn lẻ.",
+    "guideline": [
+      "Cách ly con sảy thai.",
+      "Theo dõi đàn còn lại trong 2–4 tuần."
+    ]
   },
-  "prevention": [
-    "Cách ly dê mới mua 30 ngày.",
-    "Khử trùng chuồng định kỳ.",
-    "Không để mèo vào khu đẻ để tránh Toxoplasma.",
-    "Bổ sung Selenium - Vitamin E.",
-    "Tiêm phòng bệnh truyền nhiễm theo vùng (nếu có vaccine)."
-  ],
+  "case_type_2": {
+  "description": "Nhiều con sảy thai xảy ra trong thời gian ngắn.",
+  "guideline": [
+    "Nghi ngờ có dịch bệnh truyền nhiễm trong đàn.",
+    "Chủ động báo thú y địa phương để được hỗ trợ kịp thời.",
+    "Tạm dừng toàn bộ hoạt động phối giống.",
+    "Áp dụng các biện pháp kiểm soát đàn và hạn chế lây lan."
+  ]
+    },
+  "note": "Sảy thai hàng loạt là dấu hiệu dịch — xử lý chậm sẽ gây thiệt hại lớn."
+},
+  "prevention_list": [
+  "Tiêm phòng các bệnh gây sảy thai theo khuyến cáo địa phương.",
+  "Cách ly dê mới nhập ít nhất 2–3 tuần.",
+  "Không cho mèo tiếp xúc khu chuồng dê mang thai (phòng Toxoplasma).",
+  "Giữ chuồng đẻ sạch, khô.",
+  "Không dùng chung dụng cụ đỡ đẻ giữa các con."
+],
   "notes": [
     "Nếu có 2 con liên tiếp sảy trong 1 tuần → coi là dịch.",
     "Brucella lây sang người — cần hết sức cẩn thận."

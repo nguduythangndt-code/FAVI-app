@@ -1,109 +1,114 @@
 {
   "id": "nutritional-deficiency",
-  "name": "Thiếu khoáng - Thiếu vitamin ở dê",
+  "name": "Thiếu dinh dưỡng",
   "species": "goat",
   "group": "other",
-  "summary": "Thiếu khoáng - vitamin gây chậm lớn, lông xù, thiếu máu, xương yếu, giảm sinh sản và miễn dịch. Gặp nhiều ở đàn ăn đơn điệu hoặc thiếu bổ sung khoáng khối.",
+  "summary": "Thiếu dinh dưỡng là tình trạng dê không được cung cấp đầy đủ năng lượng, protein, khoáng hoặc vitamin trong thời gian dài. Bệnh không bùng phát đột ngột nhưng làm dê gầy yếu, chậm lớn, giảm sức đề kháng và dễ mắc các bệnh khác.",
   "causes": [
-    "Khẩu phần thiếu Ca, P, Mg, Zn, Se.",
-    "Không có khoáng liếm.",
-    "Ăn toàn cỏ nghèo chất.",
-    "Dê con lớn nhanh không được bổ sung đủ vi chất."
+    "Khẩu phần thiếu năng lượng hoặc protein.",
+    "Thiếu khoáng (Ca, P, Zn, Cu).",
+    "Thiếu vitamin (A, D, E, nhóm B).",
+    "Cỏ nghèo dinh dưỡng, khẩu phần đơn điệu.",
+    "Rối loạn tiêu hóa kéo dài."
   ],
   "risk_factors": [
-    "Dê con - dê hậu bị.",
-    "Dê nuôi khô hạn, ít cỏ non.",
-    "Dê mẹ mang thai - cho sữa."
+    "Nuôi nhốt kéo dài, ít đa dạng thức ăn.",
+    "Không bổ sung khoáng – vitamin.",
+    "Dê sinh sản, dê vỗ béo, dê con tăng trưởng nhanh.",
+    "Mùa mưa kéo dài, thiếu cỏ tốt."
   ],
   "clinical_signs_detailed": [
-    "Lông xù, sần.",
-    "Chậm lớn.",
-    "Thiếu máu nhẹ.",
-    "Xương mềm, đi lảo đảo (thiếu Ca/P).",
-    "Teo cơ, yếu sức."
+    "Gầy dần, lông xù, xỉn màu.",
+    "Chậm lớn, giảm tăng trọng.",
+    "Giảm ăn hoặc ăn chọn lọc.",
+    "Dễ mệt, sức đề kháng kém.",
+    "Có thể kèm khập khiễng nhẹ hoặc rối loạn sinh sản."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Lông xấu, chậm lớn nhẹ."
+      "Chậm lớn nhẹ.",
+      "Lông kém mượt.",
+      "Ăn giảm."
     ],
     "moderate": [
-      "Xương yếu, đi loạng choạng.",
-      "Giảm ăn."
+      "Gầy rõ.",
+      "Giảm tăng trọng.",
+      "Dễ mắc bệnh kế phát."
     ],
     "severe": [
-      "Thiếu máu nặng.",
-      "Gầy, suy kiệt.",
-      "Ảnh hưởng sinh sản."
+      "Suy kiệt.",
+      "Nằm nhiều.",
+      "Nguy cơ tử vong hoặc phải loại thải."
     ]
   },
   "treatment": {
     "primary_drugs": [
-      "Vitamin - khoáng tổng hợp",
-      "Vitamin BC",
-      "Vitamin ADE",
-      "Vitamin E - Selenium"
+      "Khoáng tổng hợp",
+      "Multivitamin tổng hợp"
     ],
     "alternative_drugs": [
-      "Khoáng liếm",
-      "Khoáng nước",
-      "Premix khoáng trộn cám"
+      "Vitamin B-complex",
+      "Vitamin ADE"
     ],
     "note_drugs": [
-      "Không bổ sung khoáng quá liều.",
-      "Không dùng selenium quá mức — dễ ngộ độc."
+      "Thiếu dinh dưỡng không điều trị bằng kháng sinh.",
+      "Bổ sung dinh dưỡng cần làm đồng thời với điều chỉnh khẩu phần.",
+      "Không bổ sung quá liều trong thời gian ngắn."
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
-        "ORS nếu mất nước"
+        "Oresol (điện giải uống)"
       ],
       "vitamin": [
         "Multivitamin tổng hợp",
-        "Vitamin BC",
-        "Vitamin E - Selenium"
+        "Vitamin B-complex"
       ],
-      "digestive_support": []
+      "digestive_support": [
+        "Men tiêu hóa"
+      ]
     },
     "supportive_care": [
-      "Bổ sung khoáng hàng ngày.",
-      "Đa dạng khẩu phần: cỏ non + thân cây + phụ phẩm.",
-      "Tắm nắng giúp hấp thu vitamin D.",
-      "Giữ chuồng sạch, tránh stress."
+      "Điều chỉnh khẩu phần: đủ cỏ xanh, tinh và đạm.",
+      "Bổ sung khoáng liếm hoặc khoáng trộn.",
+      "Theo dõi thể trạng định kỳ.",
+      "Giảm stress, tránh thay đổi thức ăn đột ngột."
     ],
     "dose_policy": [
-      "Dùng vitamin - khoáng theo hướng dẫn.",
-      "Selenium phải dùng đúng liều ghi trên nhãn."
+      "Khoáng và vitamin dùng theo hướng dẫn trên nhãn.",
+      "Bổ sung đều đặn thay vì dồn liều."
     ]
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Thiếu vừa — đi lảo đảo nhẹ.",
+      "description": "Thiếu nhẹ – vừa, dê còn ăn uống.",
       "guideline": [
-        "Vitamin tổng hợp + khoáng.",
-        "Bổ sung thức ăn giàu dinh dưỡng.",
-        "Theo dõi thay đổi sau 7-10 ngày."
+        "Điều chỉnh khẩu phần.",
+        "Bổ sung khoáng – vitamin.",
+        "Theo dõi tăng trọng."
       ]
     },
     "case_type_2": {
-      "description": "Thiếu nặng, gầy, yếu.",
+      "description": "Suy dinh dưỡng nặng, dê gầy kiệt.",
       "guideline": [
-        "Thú y kiểm tra mức thiếu máu.",
-        "Bổ sung khoáng + hồi sức.",
-        "Hỗ trợ tiêu hóa nếu kém ăn."
+        "Bổ sung dinh dưỡng từ từ.",
+        "Điện giải, vitamin.",
+        "Theo dõi sát khả năng ăn uống.",
+        "Đánh giá khả năng phục hồi."
       ]
     },
-    "note": "Thiếu khoáng kéo dài ảnh hưởng vĩnh viễn tăng trưởng."
+    "note": "Thiếu dinh dưỡng kéo dài làm giảm hiệu quả mọi biện pháp điều trị khác."
   },
   "prevention": [
+    "Khẩu phần cân đối theo từng giai đoạn.",
     "Luôn có khoáng liếm trong chuồng.",
-    "Tăng cỏ non, đa dạng khẩu phần.",
-    "Bổ sung khoáng định kỳ.",
-    "Theo dõi thể trạng đàn thường xuyên."
+    "Đa dạng nguồn thức ăn.",
+    "Theo dõi thể trạng định kỳ."
   ],
   "notes": [
-    "Lông xù là dấu hiệu thiếu vi chất sớm nhất.",
-    "Vitamin E - Se giúp tăng miễn dịch đàn."
+    "Thiếu dinh dưỡng là nền của nhiều bệnh khác.",
+    "Bổ sung sớm giúp tiết kiệm chi phí điều trị."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

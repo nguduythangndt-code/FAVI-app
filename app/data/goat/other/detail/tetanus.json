@@ -1,5 +1,9 @@
 {
+  
+  "id": "tetanus",
   "name": "Uốn ván (Tetanus)",
+  "species": "goat",
+  "group": "other",
   "summary": "Bệnh do độc tố Clostridium tetani sau vết thương sâu. Dê cứng cơ, kẹt hàm, tiến triển nhanh và tỉ lệ chết cao nếu không xử lý sớm.",
   "causes": [
     "Clostridium tetani xâm nhập qua vết thương, thiến, cắt đuôi, đạp đinh",
@@ -39,13 +43,16 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Penicillin",
-      "kháng độc tố uốn ván (nếu có)"
+      "Penicillin"
     ],
     "alternative_drugs": [
-      "Metronidazole"
+      "Amoxicillin"
     ],
-    "note_drugs": "Kháng độc tố (nếu có) + kháng sinh phải dùng càng sớm càng tốt. Môi trường yên tĩnh quyết định sống còn vì dê rất nhạy kích thích.",
+    "note_drugs": [
+      "Điều trị uốn ván rất khó, hiệu quả thấp khi đã có triệu chứng rõ.",
+      "Kháng sinh chỉ nhằm tiêu diệt vi khuẩn, không trung hòa được độc tố đã sinh ra.",
+      "Cần kết hợp chăm sóc hỗ trợ và môi trường yên tĩnh."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -56,7 +63,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Vitamin C điện giải"
         ]
       },
       "vitamin": {
@@ -69,8 +76,9 @@
     "supportive_care": [
       "Đưa vào nơi tối yên tĩnh, hạn chế kích thích",
       "Xử lý sạch vết thương, sát trùng sâu",
-      "Bù nước, trợ sức",
-      "Giữ ấm"
+      "Giữ nền chuồng mềm, khô.",
+      "Hỗ trợ ăn uống nếu dê không tự ăn.",
+      "Bù nước, trợ sức, giữ ấm cho dê"
     ],
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
@@ -84,16 +92,17 @@
       "Nếu khó thở nặng: gọi thú y ngay",
       "Không ép đứng dậy vì dễ co giật"
     ],
-    "note": "Thời gian vàng là khi mới cứng nhẹ. Trễ là rất khó cứu."
+    "note": "Khi uốn ván đã biểu hiện nặng, khả năng cứu sống rất thấp."
   },
   "prevention_list": [
-    "Tiêm phòng uốn ván",
-    "Thiến/cắt sừng đúng vệ sinh",
-    "Chuồng sạch, tránh vật nhọn",
-    "Xử lý vết thương sớm"
+    "Tiêm phòng uốn ván đầy đủ.",
+    "Xử lý sạch và sát trùng mọi vết thương.",
+    "Giữ chuồng trại khô, sạch.",
+    "Cẩn thận khi cắt sừng, thiến."
   ],
   "notes": [
-    "Bệnh không lây nhưng chết cao nếu xử lý muộn."
+     "Uốn ván có thể lây sang người qua vết thương.",
+    "Phòng bệnh hiệu quả hơn rất nhiều so với điều trị."
   ],
   "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
 }

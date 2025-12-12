@@ -42,18 +42,19 @@
   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
-      "Amoxicillin",
-      "Enrofloxacin"
+      "Amoxicillin"
     ],
     "alternative_drugs": [
+      "Enrofloxacin",
       "Oxytetracycline",
       "Tylosin",
       "Doxycycline"
     ],
     "note_drugs": [
-      "Không bóp - nặn quá mạnh gây tổn thương thêm.",
-      "Không tiêm corticoid vào vú."
-    ],
+        "Không bóp - nặn bầu vú quá mạnh vì dễ làm tổn thương mô tuyến.",
+       "Không tiêm corticoid trực tiếp vào bầu vú.",
+       "Viêm vú điều trị càng sớm thì khả năng phục hồi tiết sữa càng cao."
+      ],
     "symptomatic_treatment": {
       "antiinflammatory": [
         "Flunixin",
@@ -62,22 +63,22 @@
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix"
+        "Điện giải tổng hợp (Na/K/Cl)"
       ],
       "vitamin": [
         "Vitamin C",
         "Multivitamin tổng hợp"
       ],
       "digestive_support": [
-        "Men tiêu hoá (dê đang giảm ăn)."
+        "Enzyme tiêu hoá"
       ]
     },
     "supportive_care": [
-      "Vắt bỏ sữa viêm 2-3 lần/ngày để giảm áp lực.",
-      "Chườm ấm bầu vú.",
-      "Giữ bầu vú sạch, khô.",
-      "Tách dê con nếu bú gây đau."
-    ],
+  "Vắt bỏ sữa viêm 2-3 lần/ngày để giảm áp lực trong bầu vú.",
+  "Chườm ấm bầu vú giúp giảm đau và thông sữa.",
+  "Giữ bầu vú sạch, khô.",
+  "Tách dê con nếu bú gây đau hoặc làm nặng viêm."
+],
     "dose_policy": [
       "Dùng đúng liều thuốc theo nhãn hoặc thú y.",
       "Không tự ý đổi thuốc trong 24 giờ đầu."

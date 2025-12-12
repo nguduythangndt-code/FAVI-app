@@ -1,0 +1,54 @@
+{
+  "id": "pasteurella_vaccine",
+  "name": "Vacxin Tụ huyết trùng",
+  "group": "vaccine",
+
+  "mechanism": "Kích thích hệ miễn dịch tạo kháng thể chống lại vi khuẩn Pasteurella, giúp đàn ít mắc bệnh tụ huyết trùng hoặc nếu có bệnh thì mức độ nhẹ hơn.",
+
+  "clinical_uses": [
+    "Phòng bệnh tụ huyết trùng trên dê, bò và các loài nhai lại nhỏ.",
+    "Đàn ở khu vực thường xuyên mưa lạnh, ẩm, gió lùa, dễ bùng phát bệnh hô hấp.",
+    "Đàn nền tốt muốn giữ ổn định, giảm rủi ro chết hàng loạt khi thời tiết xấu."
+  ],
+
+  "pros": [
+    "Giảm rõ rệt nguy cơ bùng dịch tụ huyết trùng trong đàn.",
+    "Khi có bệnh xảy ra, thường nhẹ hơn và tỷ lệ chết thấp hơn so với đàn không tiêm.",
+    "Chi phí tiêm phòng thấp hơn rất nhiều so với điều trị khi đã bùng dịch."
+  ],
+
+  "cons": [
+    "Không có tác dụng điều trị cho con đang bệnh nặng, chỉ dùng để phòng là chính.",
+    "Cần bảo quản lạnh đúng chuẩn, hỏng lạnh là coi như bỏ.",
+    "Có thể gây phản ứng nhẹ sau tiêm (sưng chỗ tiêm, sốt nhẹ)."
+  ],
+
+  "mild_side_effects": [
+    "Sốt nhẹ 1–2 ngày sau tiêm.",
+    "Hơi sưng, đau nhẹ tại vị trí tiêm.",
+    "Một số con giảm ăn nhẹ rồi tự hồi phục."
+  ],
+
+  "usage_recommendations": [
+    "Chỉ tiêm cho con khỏe mạnh, không sốt, không tiêu chảy, không đang viêm phổi rõ.",
+    "Giữ vacxin trong dây lạnh, không để đông đá, không để ngoài nắng, không mở ra rồi cất đi dùng lại nhiều lần.",
+    "Lắc đều vacxin và dùng đúng dung môi đi kèm (nếu có) theo hướng dẫn trên nhãn.",
+    "Tiêm xong nên đánh dấu, ghi ngày tiêm, loại vacxin và lô số để tiện theo dõi.",
+    "Kết hợp với chuồng trại khô ráo, giảm gió lùa, giảm stress vận chuyển để hiệu quả phòng bệnh tốt hơn."
+  ],
+
+  "when_not_to_use": [
+    "Không tiêm cho con đang sốt, đang viêm phổi nặng, tiêu chảy nặng hoặc suy kiệt.",
+    "Không dùng vacxin đã hết hạn, đổi màu, vón cục, chai nứt, hoặc bảo quản sai nhiệt độ.",
+    "Không tiêm chung kim, chung bơm giữa nhiều đàn khác nhau mà không sát trùng.",
+    "Không coi vacxin là biện pháp duy nhất, bỏ qua vệ sinh chuồng trại và quản lý đàn."
+  ],
+
+  "alternative_drugs": [],
+
+  "notes": [
+    "Tiêm vacxin là biện pháp phòng bệnh chủ động, không thay thế cho điều trị khi đàn đã bùng bệnh.",
+    "Khi khu vực xung quanh có ca tụ huyết trùng, nên trao đổi với thú y địa phương để sắp xếp tiêm phòng đồng loạt, đồng thời siết chặt vệ sinh và cách ly.",
+    "Luôn đọc kỹ hướng dẫn trên nhãn vacxin và tuân thủ tư vấn của thú y khi lập lịch tiêm cho đàn."
+  ]
+}

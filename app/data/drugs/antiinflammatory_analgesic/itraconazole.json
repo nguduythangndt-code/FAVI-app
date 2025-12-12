@@ -1,0 +1,42 @@
+{
+  "id": "itraconazole",
+  "name": "Itraconazole",
+  "group": "antiparasitic_external",
+  "mechanism": "Thuốc kháng nấm nhóm azole, ức chế tổng hợp ergosterol – thành phần thiết yếu của màng tế bào nấm. Hiệu lực mạnh trên Aspergillus, Candida và nhiều nấm sợi gây bệnh ở gia súc.",
+  "clinical_uses": [
+    "Viêm phổi do nấm Aspergillus ở dê, bê, nghé.",
+    "Nhiễm nấm lan rộng không đáp ứng với thuốc bôi.",
+    "Các ca nhiễm nấm mạn tính ở đường hô hấp hoặc tiêu hoá trên."
+  ],
+  "pros": [
+    "Hiệu lực cao, đặc biệt với Aspergillus.",
+    "Thấm mô tốt, phù hợp ca nấm ăn sâu.",
+    "Dùng đường uống, thuận tiện cho dê và gia súc nhỏ."
+  ],
+  "cons": [
+    "Giá thành cao.",
+    "Cần theo dõi chức năng gan khi dùng kéo dài.",
+    "Tác dụng xuất hiện chậm hơn so với kháng sinh."
+  ],
+  "mild_side_effects": [
+    "Giảm ăn nhẹ.",
+    "Mệt, uể oải trong vài ngày đầu.",
+    "Có thể làm men gan tăng nhẹ."
+  ],
+  "usage_recommendations": [
+    "Ưu tiên dùng cho ca nấm nặng hoặc không đáp ứng với thuốc bôi.",
+    "Theo dõi sát hô hấp, thân nhiệt và mức độ ăn.",
+    "Dùng theo liều trên nhãn hoặc theo chỉ định thú y.",
+    "Tránh dùng chung với nhiều thuốc ảnh hưởng gan."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con đang suy gan nặng.",
+    "Không dùng để phòng bệnh.",
+    "Thận trọng khi dùng cùng ketoconazole hoặc các azole khác."
+  ],
+  "alternative_drugs": [
+    "Ketoconazole cho ca nấm mức độ vừa.",
+    "Clotrimazole dạng bôi hoặc khí dung cho ca nhẹ – trung bình.",
+    "Hỗ trợ miễn dịch và vitamin để hồi phục nhanh hơn."
+  ]
+}

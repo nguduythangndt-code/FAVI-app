@@ -40,75 +40,99 @@
       "Thiếu máu cấp - tử vong nhanh."
     ]
   },
-  "treatment": {
+ "treatment": {
     "primary_drugs": [
       "Imidocarb",
       "Diminazene (Azidin)"
     ],
+
     "alternative_drugs": [
       "Oxytetracycline",
       "Doxycycline"
     ],
+
     "note_drugs": [
-      "Không dùng thuốc tẩy giun khi đang tan máu — dễ làm bệnh nặng thêm.",
-      "Không dồn bắt - dễ khiến dê sốc."
+      "Không tẩy giun khi dê đang bị tan máu vì có thể làm tình trạng nặng thêm.",
+      "Không dồn bắt hoặc vận động mạnh dê bệnh để tránh gây sốc.",
+      "Imidocarb và azidin là thuốc có độc tính, cần dùng theo chỉ định thú y."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam"
-      ],
-      "respiratory_support": [],
-      "electrolyte": [
-        "Oresol (điện giải uống)",
-        "electrolyte_mix"
-      ],
-      "vitamin": [
-        "Vitamin B12",
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": []
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": null,
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+
+      "vitamin": {
+        "main": "Vitamin B12",
+        "alternative": [
+          "Vitamin C",
+          "Vitamin BC"
+        ]
+      },
+
+      "digestive_support": {
+        "main": null,
+        "alternative": []
+      }
     },
+
     "supportive_care": [
-      "Để dê nghỉ nơi mát - ít stress.",
-      "Bổ sung điện giải liên tục.",
-      "Không vận động mạnh.",
-      "Tẩy ve cho cả đàn."
+      "Cho dê nghỉ ngơi nơi mát, yên tĩnh và ít stress.",
+      "Bổ sung điện giải thường xuyên để chống mất nước.",
+      "Tránh vận động mạnh hoặc dồn bắt.",
+      "Xử lý ve cho toàn đàn để cắt nguồn lây."
     ],
-    "dose_policy": [
-      "Thuốc đặc trị phải dùng theo hướng dẫn thú y.",
-      "Imidocarb cần theo dõi phản ứng sau tiêm."
-    ]
+
+    "dose_policy": "Thuốc điều trị ký sinh trùng máu cần dùng theo chỉ định của bác sĩ thú y."
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Nước tiểu đỏ - dê còn đứng.",
+      "description": "Nước tiểu đỏ, dê còn đứng và phản xạ.",
       "guideline": [
-        "Imidocarb hoặc azidin.",
-        "Điện giải liên tục.",
-        "Vitamin B12 hỗ trợ tạo máu."
+        "Điều trị bằng thuốc đặc trị phù hợp theo chỉ định.",
+        "Bổ sung điện giải liên tục.",
+        "Vitamin B12 hỗ trợ quá trình tạo máu."
       ]
     },
+
     "case_type_2": {
-      "description": "Dê nằm, thở gấp, nhợt nhạt.",
+      "description": "Dê nằm nhiều, nhợt nhạt, thở gấp.",
       "guideline": [
-        "Thú y khẩn cấp.",
-        "Thuốc đặc trị + hồi sức.",
-        "Truyền dịch nếu cần.",
-        "Theo dõi sát 24 giờ."
+        "Cần can thiệp thú y khẩn cấp.",
+        "Điều trị bằng thuốc đặc trị kết hợp hồi sức.",
+        "Bù dịch và chăm sóc nâng đỡ tích cực.",
+        "Theo dõi sát trong giai đoạn đầu điều trị."
       ]
     },
-    "note": "Babesia diễn biến rất nhanh — nhiều ca chết trong ngày nếu không xử lý."
+
+    "note": "Babesia diễn biến rất nhanh; nhiều ca có thể tử vong sớm nếu không xử lý kịp thời."
   },
+
   "prevention": [
-    "Tẩy ve định kỳ.",
-    "Giữ chuồng khô.",
-    "Khử trùng dụng cụ tiêm.",
-    "Giám sát nước tiểu đàn vào mùa mưa."
+    "Kiểm soát và tẩy ve định kỳ.",
+    "Giữ chuồng trại khô và sạch.",
+    "Khử trùng dụng cụ tiêm, không dùng chung kim.",
+    "Theo dõi màu nước tiểu của đàn, nhất là mùa mưa."
   ],
+
   "notes": [
-    "Nước tiểu đỏ = Babesia cho đến khi chứng minh được ngược lại.",
-    "Vitamin B12 cực quan trọng trong giai đoạn hồi phục."
+    "Nước tiểu đỏ ở dê cần nghĩ đến Babesia cho đến khi loại trừ được nguyên nhân khác.",
+    "Vitamin B12 đóng vai trò quan trọng trong giai đoạn hồi phục sau tan máu."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

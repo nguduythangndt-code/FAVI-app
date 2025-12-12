@@ -3,41 +3,41 @@
   "name": "Đi khập khiễng ở dê",
   "species": "goat",
   "group": "other",
-  "summary": "Đi khập khiễng là triệu chứng chung của nhiều vấn đề: viêm móng, bong gân, viêm khớp, nhiễm khuẩn kẽ móng hoặc chấn thương. Nếu không điều trị kịp thời sẽ giảm ăn, chậm lớn và nằm nhiều.",
+  "summary": "Đi khập khiễng là dấu hiệu thường gặp ở dê, xuất phát từ nhiều nguyên nhân như viêm móng, nhiễm khuẩn kẽ móng, bong gân, chấn thương hoặc thiếu khoáng. Nếu không xử lý sớm, dê sẽ giảm ăn, chậm lớn và dễ nằm nhiều kéo dài.",
   "causes": [
     "Nhiễm khuẩn kẽ móng (Footrot).",
-    "Viêm móng do ẩm ướt.",
-    "Bong gân, trật khớp.",
-    "Dẫm phải đinh - vật nhọn.",
-    "Thiếu khoáng (Ca, P, Zn)."
+    "Viêm móng do nền chuồng ẩm ướt.",
+    "Bong gân, trật khớp hoặc chấn thương.",
+    "Dẫm phải đinh, gai hoặc vật nhọn.",
+    "Thiếu khoáng chất (Ca, P, Zn)."
   ],
   "risk_factors": [
-    "Chuồng ẩm, nền trơn.",
+    "Chuồng ẩm, nền trơn trượt.",
     "Không tỉa móng định kỳ.",
-    "Nuôi dày, cọ xát nhiều.",
-    "Dê lớn nhanh - dê vỗ béo."
+    "Nuôi mật độ cao, cọ xát nhiều.",
+    "Dê tăng trọng nhanh, dê vỗ béo."
   ],
   "clinical_signs_detailed": [
-    "Đi khập khiễng rõ rệt.",
-    "Sưng khớp hoặc kẽ móng đỏ.",
-    "Móng mềm, bốc mùi (Footrot).",
-    "Nằm nhiều, đứng lên khó.",
-    "Giảm ăn."
+    "Đi khập khiễng, bước đi không đều.",
+    "Sưng đau khớp hoặc kẽ móng đỏ.",
+    "Móng mềm, có mùi hôi (thường gặp trong Footrot).",
+    "Nằm nhiều, đứng dậy khó khăn.",
+    "Giảm ăn, giảm vận động."
   ],
   "clinical_signs_by_stage": {
     "mild": [
       "Khập khiễng nhẹ.",
-      "Kẽ móng hơi đỏ."
+      "Kẽ móng hơi đỏ hoặc ẩm."
     ],
     "moderate": [
-      "Sưng, nóng.",
+      "Sưng đau rõ.",
       "Đi lại khó khăn.",
-      "Giảm ăn rõ."
+      "Ăn giảm thấy rõ."
     ],
     "severe": [
-      "Nằm nhiều.",
-      "Kẽ móng chảy mủ.",
-      "Nguy cơ nhiễm trùng nặng."
+      "Nằm nhiều, ít di chuyển.",
+      "Kẽ móng chảy mủ, mùi hôi.",
+      "Nguy cơ nhiễm trùng lan rộng."
     ]
   },
   "treatment": {
@@ -47,12 +47,13 @@
       "Oxytetracycline"
     ],
     "alternative_drugs": [
-      "Gentamicin",
-      "Doxycycline"
+      "Doxycycline",
+      "Gentamicin"
     ],
     "note_drugs": [
-      "Không cho đi lại trên nền trơn trong lúc đang đau.",
-      "Không dùng thuốc giảm đau quá nhiều ngày."
+      "Lựa chọn kháng sinh tùy theo mức độ viêm và tình trạng nhiễm trùng.",
+      "Không để dê đi lại trên nền trơn hoặc ẩm trong thời gian đau.",
+      "Không lạm dụng thuốc giảm đau trong nhiều ngày liên tục."
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [
@@ -62,51 +63,50 @@
       "respiratory_support": [],
       "electrolyte": [],
       "vitamin": [
-        "Vitamin C",
         "Multivitamin tổng hợp"
       ],
       "digestive_support": []
     },
     "supportive_care": [
-      "Giữ nền chuồng khô.",
-      "Tỉa móng nếu mọc dài.",
-      "Rửa kẽ móng bằng nước muối.",
-      "Dê bị Footrot nên tách đàn."
+      "Giữ nền chuồng khô ráo, sạch sẽ.",
+      "Tỉa móng nếu móng mọc dài hoặc biến dạng.",
+      "Rửa kẽ móng bằng nước muối sạch.",
+      "Dê nghi Footrot nên tách riêng để hạn chế lây lan."
     ],
     "dose_policy": [
-      "Kháng sinh dùng đúng theo nhãn.",
-      "Không tự ý đổi thuốc khi chưa cải thiện."
+      "Thuốc sử dụng theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+      "Không tự ý đổi kháng sinh khi chưa đánh giá lại tình trạng."
     ]
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Sưng đau nhưng vẫn đi lại được.",
+      "description": "Sưng đau rõ nhưng dê vẫn còn đi lại được.",
       "guideline": [
-        "Kháng sinh + chống viêm.",
-        "Vệ sinh móng.",
-        "Tách nền chuồng ẩm."
+        "Dùng kháng sinh kết hợp thuốc chống viêm.",
+        "Vệ sinh và tỉa móng.",
+        "Giữ nền chuồng khô, hạn chế vận động."
       ]
     },
     "case_type_2": {
-      "description": "Nằm nhiều, mủ nhiều, đau nặng.",
+      "description": "Đau nặng, nằm nhiều, kẽ móng mủ nhiều.",
       "guideline": [
-        "Thú y kiểm tra.",
-        "Kháng sinh mạnh.",
-        "Cắt lọc - rửa kẽ móng.",
-        "Theo dõi nhiễm trùng lan lên khớp."
+        "Gọi thú y kiểm tra trực tiếp.",
+        "Sử dụng kháng sinh mạnh theo chỉ định.",
+        "Cắt lọc, rửa sạch kẽ móng.",
+        "Theo dõi nguy cơ nhiễm trùng lan lên khớp."
       ]
     },
-    "note": "Footrot có thể lây cả đàn — xử lý chuồng là quan trọng nhất."
+    "note": "Footrot có khả năng lây lan nhanh trong đàn, xử lý chuồng trại song song với điều trị cá thể là yếu tố quyết định."
   },
   "prevention": [
-    "Tỉa móng 1-2 tháng/lần.",
-    "Giữ nền chuồng khô.",
+    "Tỉa móng định kỳ mỗi 1–2 tháng.",
+    "Giữ nền chuồng khô, thoát nước tốt.",
     "Không nuôi quá dày.",
-    "Bổ sung khoáng - vitamin đầy đủ."
+    "Bổ sung khoáng và vitamin đầy đủ."
   ],
   "notes": [
-    "Khập khiễng kéo dài = kiểm tra móng đầu tiên.",
-    "Footrot rất hôi và dễ lây."
+    "Dê khập khiễng kéo dài nên kiểm tra móng trước tiên.",
+    "Footrot thường có mùi hôi đặc trưng và rất dễ lây."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

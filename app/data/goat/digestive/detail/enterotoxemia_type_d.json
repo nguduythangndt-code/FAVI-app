@@ -41,42 +41,48 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Penicillin",
-      "kháng độc tố Clostridium (nếu có)"
-    ],
-    "alternative_drugs": [
-      "Amoxicillin",
-      "Oxytetracycline"
-    ],
-    "note_drugs": "Ưu tiên kháng sinh sớm để chặn Clostridium và giảm độc tố. Than hoạt tính/men tiêu hoá chỉ hỗ trợ, không thay thế điều trị chính.",
-    "symptomatic_treatment": {
-      "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Meloxicam"
-        ]
-      },
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
-        "alternative": [
-          "electrolyte_mix"
-        ]
-      },
-      "digestive_support": {
-        "main": "Than hoạt tính (giải độc tiêu hoá)",
-        "alternative": [
-          "Enzyme tiêu hoá",
-          "probiotic"
-        ]
-      },
-      "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": [
-          "Multivitamin tổng hợp"
-        ]
-      }
+  "primary_drugs": [
+    "Clostridium antitoxin",
+    "Penicillin"
+  ],
+  "alternative_drugs": [
+    "Amoxicillin",
+    "Oxytetracycline"
+  ],
+  "note_drugs": [
+    "Enterotoxemia là bệnh do ĐỘC TỐ của Clostridium, không chỉ do vi khuẩn.",
+    "Kháng độc tố Clostridium là quan trọng nhất nếu có.",
+    "Kháng sinh chỉ giúp hạn chế vi khuẩn sinh thêm độc tố, không trung hòa độc tố đã có.",
+    "Than hoạt tính và men tiêu hoá chỉ hỗ trợ, không thay thế điều trị chính."
+  ],
+  "symptomatic_treatment": {
+    "antiinflammatory": {
+      "main": "Flunixin",
+      "alternative": [
+        "Meloxicam"
+      ]
     },
+    "electrolyte": {
+      "main": "Oresol",
+      "alternative": [
+        "B-complex + Điện giải"
+      ]
+    },
+    "digestive_support": {
+      "main": "Than hoạt tính (giải độc tiêu hoá)",
+      "alternative": [
+        "Enzyme tiêu hoá",
+        "Probiotic"
+      ]
+    },
+    "vitamin": {
+      "main": "Vitamin BC",
+      "alternative": [
+        "Multivitamin tổng hợp"
+      ]
+    }
+  },
+
     "supportive_care": [
       "Ngưng ngay thức ăn tinh, chỉ cho ăn cỏ khô",
       "Xoa bóp bụng, cho vận động nhẹ nếu còn đứng được",

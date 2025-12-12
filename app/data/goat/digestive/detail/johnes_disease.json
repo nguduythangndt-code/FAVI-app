@@ -38,59 +38,63 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Oxytetracycline"
-    ],
-    "alternative_drugs": [
-      "Florfenicol"
-    ],
-    "note_drugs": "Bệnh mạn khó dứt điểm. Thuốc chỉ hỗ trợ kiểm soát tiêu chảy và phục hồi ruột; cần quản lý đàn lâu dài.",
-    "symptomatic_treatment": {
-      "digestive_support": {
-        "main": "probiotic",
-        "alternative": [
-          "Enzyme tiêu hoá"
-        ]
-      },
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
-        "alternative": [
-          "electrolyte_mix"
-        ]
-      },
-      "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": [
-          "Multivitamin tổng hợp"
-        ]
-      }
+  "primary_drugs": [],
+  "alternative_drugs": [],
+  "note_drugs": [
+    "Johne's là bệnh viêm ruột mạn tính do Mycobacterium paratuberculosis, hiện KHÔNG có phác đồ điều trị dứt điểm.",
+    "Kháng sinh (kể cả oxytetracycline, florfenicol) không tiêu diệt được mầm bệnh, chỉ có thể làm giảm triệu chứng tạm thời.",
+    "Dê đã biểu hiện gầy dần - tiêu chảy mạn nên cân nhắc loại thải để tránh lây lan trong đàn.",
+    "Trọng tâm xử lý là quản lý đàn, vệ sinh môi trường và kiểm soát nguồn lây."
+  ],
+  "symptomatic_treatment": {
+    "digestive_support": {
+      "main": "Probiotic",
+      "alternative": [
+        "Enzyme tiêu hoá"
+      ]
     },
+    "electrolyte": {
+      "main": "Oresol",
+      "alternative": [
+        "B-complex + Điện giải"
+      ]
+    },
+    "vitamin": {
+      "main": "Vitamin B1",
+      "alternative": [
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
+      ]
+    }
+  },
+
+
     "supportive_care": [
-      "Tách con nghi bệnh để giảm lây",
-      "Giữ chuồng sạch phân",
-      "Tăng chất xơ, giảm tinh",
-      "Bổ sung khoáng - vitamin dài ngày"
-    ],
+  "Tách dê nghi bệnh để giảm lây lan trong đàn.",
+  "Giữ chuồng sạch phân, khô ráo.",
+  "Tăng chất xơ, giảm thức ăn tinh.",
+  "Bổ sung khoáng - vitamin dài ngày để nâng thể trạng."
+],
     "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": [
-      "Chủ yếu điều trị hỗ trợ, đáp ứng thường kém",
-      "Bù điện giải, trợ sức",
-      "Cân nhắc loại thải con suy kiệt"
-    ],
-    "case_type_2": [
-      "Nếu tiêu chảy mất nước nặng: bù dịch liên tục",
-      "Theo dõi thể trạng để tránh suy kiệt"
-    ],
-    "note": "Bệnh mạn, khó dứt điểm, mục tiêu chính là kiểm soát đàn."
-  },
-  "prevention_list": [
-    "Giữ chuồng sạch, xử lý phân triệt để",
-    "Không dùng phân tươi bón ngay hoặc để gần chuồng",
-    "Cách ly - loại thải con tiêu chảy mạn",
-    "Không cho dê con bú sữa từ con nghi bệnh"
+  "case_type_1": [
+    "Chủ yếu điều trị hỗ trợ; đáp ứng thường kém.",
+    "Bù điện giải, trợ sức để duy trì thể trạng.",
+    "Cân nhắc loại thải những con suy kiệt kéo dài."
   ],
+  "case_type_2": [
+    "Nếu tiêu chảy mất nước nặng: bù dịch liên tục theo khả năng.",
+    "Theo dõi thể trạng sát để tránh suy kiệt nhanh."
+  ],
+  "note": "Johne's là bệnh mạn; mục tiêu chính là kiểm soát đàn, không phải điều trị dứt điểm."
+},
+  "prevention_list": [
+  "Giữ chuồng sạch, xử lý phân triệt để.",
+  "Không dùng phân tươi bón gần khu chuồng nuôi.",
+  "Cách ly và loại thải dê tiêu chảy mạn.",
+  "Không cho dê con bú sữa từ con nghi nhiễm."
+],
   "notes": [
     "Dễ nhầm với tiêu chảy do ký sinh trùng, nhưng Johne's kéo dài và gầy dần."
   ],

@@ -1,0 +1,42 @@
+{
+  "id": "metronidazole",
+  "name": "Metronidazole",
+  "group": "antibiotic",
+  "mechanism": "Kháng sinh nhóm nitroimidazole, có tác dụng trên vi khuẩn kỵ khí và một số động vật nguyên sinh bằng cách phá huỷ cấu trúc DNA, làm vi khuẩn và ký sinh trùng không thể nhân lên.",
+  "clinical_uses": [
+    "Tiêu chảy nghi ngờ do vi khuẩn kỵ khí.",
+    "Viêm ruột, viêm đại tràng liên quan đến loạn khuẩn nặng.",
+    "Một số bệnh do đơn bào đường tiêu hoá theo chỉ định thú y."
+  ],
+  "pros": [
+    "Hiệu quả tốt với vi khuẩn kỵ khí.",
+    "Thấm tốt vào mô và đường tiêu hoá.",
+    "Có ích trong các ca tiêu chảy kéo dài không đáp ứng thuốc thông thường."
+  ],
+  "cons": [
+    "Không có tác dụng trên vi khuẩn hiếu khí thông thường.",
+    "Dùng kéo dài có thể gây rối loạn thần kinh.",
+    "Không phù hợp cho mọi trường hợp tiêu chảy."
+  ],
+  "mild_side_effects": [
+    "Chán ăn, buồn nôn nhẹ.",
+    "Tiêu phân mềm hoặc hơi lỏng.",
+    "Hiếm gặp: lờ đờ thoáng qua."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi nghi ngờ vi khuẩn kỵ khí hoặc đơn bào.",
+    "Kết hợp men vi sinh để hạn chế loạn khuẩn đường ruột.",
+    "Không dùng kéo dài hơn khuyến cáo trên nhãn.",
+    "Luôn dùng theo liều trên nhãn hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho tiêu chảy nhẹ do thay đổi thức ăn.",
+    "Thận trọng ở thú mang thai hoặc thú non.",
+    "Không dùng đồng thời với nhiều thuốc có nguy cơ độc thần kinh."
+  ],
+  "alternative_drugs": [
+    "Sulfonamide cho một số ca tiêu chảy do vi khuẩn nhạy cảm.",
+    "Probiotic và hỗ trợ tiêu hoá nếu nguyên nhân không phải nhiễm khuẩn.",
+    "Các kháng sinh khác theo chỉ định thú y khi xác định nguyên nhân khác."
+  ]
+}

@@ -39,23 +39,22 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Albendazole",
-      "Fenbendazole"
+      "Albendazole"
     ],
     "alternative_drugs": [
-      "Enzyme tiêu hoá",
-      "Vitamin BC",
-      "electrolyte_mix"
+      "Fenbendazole"
     ],
     "note_drugs": [
-      "Không dùng kháng sinh vì Giardia không phải vi khuẩn."
-    ],
+    "Albendazole và fenbendazole có hiệu quả với Giardia khi dùng đúng liệu trình.",
+    "Không dùng kháng sinh vì Giardia là ký sinh trùng đơn bào, không phải vi khuẩn.",
+    "Điều trị thuốc phải đi kèm vệ sinh chuồng và nguồn nước, nếu không bệnh dễ tái."
+  ],
     "symptomatic_treatment": {
       "antiinflammatory": [],
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix"
+        "Vitamin C điện giải"
       ],
       "vitamin": [
         "Vitamin C",

@@ -1,0 +1,42 @@
+{
+  "id": "clotrimazole",
+  "name": "Clotrimazole",
+  "group": "antiparasitic_external",
+  "mechanism": "Thuốc kháng nấm nhóm imidazole, chủ yếu dùng tại chỗ. Tác dụng bằng cách gắn vào màng tế bào nấm làm rò rỉ các thành phần nội bào.",
+  "clinical_uses": [
+    "Nấm da, nấm tai, viêm da có vảy ở dê, bò, heo.",
+    "Nấm tai ngoài gây mùi hôi và đóng vảy ở dê.",
+    "Hỗ trợ điều trị viêm phổi do nấm bằng dạng khí dung nếu có."
+  ],
+  "pros": [
+    "An toàn, dùng tại chỗ nên ít tác dụng toàn thân.",
+    "Hiệu quả tốt với nấm ngoài da.",
+    "Giá rẻ, dễ mua, dễ áp dụng."
+  ],
+  "cons": [
+    "Không hiệu quả với ca nấm hô hấp nặng.",
+    "Cần bôi đều đặn nhiều ngày.",
+    "Không dùng được cho vùng loét sâu."
+  ],
+  "mild_side_effects": [
+    "Hơi rát nhẹ tại vùng bôi.",
+    "Lông quanh vùng bôi có thể đổi màu tạm thời.",
+    "Ít tác dụng phụ toàn thân."
+  ],
+  "usage_recommendations": [
+    "Vệ sinh sạch vùng tổn thương trước khi bôi.",
+    "Bôi đủ số ngày ghi trên nhãn để tránh tái phát.",
+    "Không bôi lên vùng mắt, miệng hoặc vết thương sâu.",
+    "Theo dõi phản ứng vùng da sau 1–2 ngày."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho vết loét sâu, nhiễm trùng mủ.",
+    "Không dùng nếu da bị kích ứng mạnh sau khi bôi.",
+    "Không dùng để điều trị nấm phổi nặng."
+  ],
+  "alternative_drugs": [
+    "Ketoconazole nếu cần điều trị toàn thân.",
+    "Itraconazole cho ca lan rộng hoặc ăn sâu.",
+    "Dung dịch sát trùng nhẹ để hỗ trợ vùng loét nông."
+  ]
+}

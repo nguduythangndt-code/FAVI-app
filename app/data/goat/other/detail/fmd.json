@@ -1,100 +1,107 @@
 {
+  "id": "fmd",
   "name": "Lở mồm long móng (FMD)",
+  "species": "goat",
+  "group": "other",
   "summary": "Bệnh virus lây cực mạnh, gây loét miệng và chân, đi lại đau. Dễ bùng phát diện rộng nếu không khoanh vùng.",
   "causes": [
     "Virus FMD lây qua tiếp xúc, khí dung và dịch tiết",
     "Mầm bệnh tồn tại trong môi trường và dụng cụ"
   ],
   "risk_factors": [
-    "Giao thương đàn, chợ gia súc",
-    "Chuồng ẩm bẩn",
-    "Không tiêm phòng định kỳ",
-    "Nuôi chung nhiều loài móng guốc"
+    "Tiếp xúc với dê hoặc gia súc mắc bệnh.",
+    "Chuồng trại đông, lưu thông nhiều.",
+    "Không tiêm phòng đầy đủ.",
+    "Vệ sinh, sát trùng kém."
   ],
   "clinical_signs_detailed": [
-    "Sốt, bỏ ăn",
-    "Loét miệng, lợi, lưỡi",
-    "Chảy dãi nhiều",
-    "Miệng hôi",
-    "Bọng nước ở kẽ móng",
-    "Long móng, chân đau",
-    "Đi khập khiễng, nằm nhiều",
-    "Vú có thể loét nhẹ",
-    "Dê con có thể chết do suy kiệt"
+    "Sốt cao đột ngột.",
+    "Chảy nước dãi nhiều.",
+    "Mụn nước, vết loét ở miệng, lợi, lưỡi.",
+    "Mụn nước ở kẽ móng, long móng.",
+    "Đi khập khiễng, nằm nhiều.",
+    "Giảm ăn rõ rệt."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Sốt nhẹ",
-      "Chảy dãi ít",
-      "Loét miệng nhỏ"
+      "Sốt nhẹ.",
+      "Ít mụn nước.",
+      "Ăn giảm."
     ],
     "moderate": [
-      "Loét miệng rõ, ăn khó",
-      "Bọng nước chân, đi đau"
+      "Loét miệng rõ.",
+      "Đi lại khó do đau móng.",
+      "Sụt thể trạng."
     ],
     "severe": [
-      "Loét rộng, bỏ ăn hoàn toàn",
-      "Long móng, nằm bệt",
-      "Dê con suy kiệt chết"
+      "Loét nặng, nhiễm trùng kế phát.",
+      "Long móng.",
+      "Kiệt sức, nguy cơ tử vong."
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Oxytetracycline",
-      "Povidone-iodine (sát trùng ngoài)"
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": [
+      "FMD là bệnh do virus, không có thuốc điều trị đặc hiệu.",
+      "Không dùng kháng sinh với mục tiêu chữa khỏi bệnh.",
+      "Thuốc chỉ dùng để hỗ trợ và phòng nhiễm trùng kế phát."
     ],
-    "alternative_drugs": [
-      "Florfenicol"
-    ],
-    "note_drugs": "Không có thuốc đặc trị FMD. Kháng sinh chỉ chống bội nhiễm vết loét; sát trùng miệng - chân và trợ sức là chủ lực.",
     "symptomatic_treatment": {
-      "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Meloxicam"
-        ]
-      },
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
-        "alternative": [
-          "electrolyte_mix"
-        ]
-      },
-      "vitamin": {
-        "main": "Vitamin C",
-        "alternative": [
-          "Vitamin BC"
-        ]
-      }
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [
+        "Oresol (điện giải uống)"
+      ],
+      "vitamin": [
+        "Vitamin BC",
+        "Multivitamin tổng hợp"
+      ],
+      "digestive_support": []
     },
     "supportive_care": [
-      "Cách ly và khoanh vùng đàn bệnh",
-      "Rửa miệng bằng sát trùng nhẹ, tránh mạnh tay",
-      "Ngâm/rửa chân bằng sát trùng, giữ nền khô",
-      "Cho ăn mềm dễ nuốt, nước sạch",
-      "Theo dõi sốt và ăn uống mỗi ngày"
+      "Cách ly dê bệnh ngay lập tức.",
+      "Vệ sinh miệng bằng dung dịch sát trùng nhẹ.",
+      "Giữ nền chuồng khô, sạch để bảo vệ móng.",
+      "Cho ăn thức ăn mềm, dễ nuốt.",
+      "Theo dõi sát tình trạng ăn uống và đi lại."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+    "dose_policy": [
+      "Thuốc hỗ trợ dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y.",
+      "Không tự ý dùng nhiều loại thuốc cùng lúc."
+    ]
   },
   "severe_case_treatment": {
-    "case_type_1": [
-      "Nếu loét nặng không ăn: trợ sức, bù điện giải liên tục",
-      "Giảm đau để dê ăn lại"
-    ],
-    "case_type_2": [
-      "Nếu long móng, sưng chân nặng: giữ nền thật khô và sạch",
-      "Theo dõi bội nhiễm thứ phát"
-    ],
-    "note": "FMD là bệnh bắt buộc kiểm soát dịch, cần báo thú y địa phương."
+    "case_type_1": {
+      "description": "Triệu chứng rõ nhưng dê còn ăn uống được.",
+      "guideline": [
+        "Cách ly và chăm sóc hỗ trợ.",
+        "Giảm đau, bù nước – điện giải.",
+        "Theo dõi biến chứng móng."
+      ]
+    },
+    "case_type_2": {
+      "description": "Loét nặng, long móng, kiệt sức.",
+      "guideline": [
+        "Gọi thú y và cơ quan thú y địa phương.",
+        "Chăm sóc tích cực để giảm đau và nhiễm trùng kế phát.",
+        "Đánh giá khả năng hồi phục."
+      ]
+    },
+    "note": "FMD là bệnh bắt buộc khai báo; việc xử lý phải tuân theo hướng dẫn của cơ quan thú y."
   },
-  "prevention_list": [
-    "Tiêm vaccine FMD",
-    "Khử trùng chuồng và lối ra vào",
-    "Cách ly dê mới nhập",
-    "Không cho người/xe lạ vào khu nuôi khi có dịch"
+  "prevention": [
+    "Tiêm phòng FMD đầy đủ theo khuyến cáo.",
+    "Hạn chế nhập đàn khi có dịch.",
+    "Khử trùng chuồng trại và dụng cụ định kỳ.",
+    "Kiểm soát người và phương tiện ra vào trại."
   ],
   "notes": [
-    "Tốc độ lây rất cao, phải làm nhanh từ ca đầu tiên."
+    "FMD lây lan rất nhanh trong đàn.",
+    "Không tự ý vận chuyển, bán chạy dê khi nghi có dịch.",
+    "Bệnh gây thiệt hại kinh tế lớn nếu bùng phát."
   ],
-  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

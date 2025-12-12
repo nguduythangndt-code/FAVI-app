@@ -1,0 +1,37 @@
+{
+  "id": "ppr_vaccine",
+  "name": "Vacxin PPR",
+  "group": "vaccine",
+  "mechanism": "Kích thích hệ miễn dịch tạo kháng thể chống lại virus PPR, giúp đàn ít bị bệnh hoặc giảm mức độ nặng khi nhiễm.",
+  "clinical_uses": [
+    "Phòng bệnh Dịch tả dê (PPR) cho đàn dê khỏe mạnh.",
+    "Đặc biệt cần thiết ở vùng có lịch sử từng xảy ra PPR."
+  ],
+  "pros": [
+    "Giảm rõ rệt nguy cơ bùng dịch với tỷ lệ chết cao.",
+    "Bảo vệ đàn trong thời gian dài khi tiêm đúng lịch."
+  ],
+  "cons": [
+    "Cần bảo quản lạnh đúng chuẩn.",
+    "Có thể gây phản ứng nhẹ sau tiêm."
+  ],
+  "mild_side_effects": [
+    "Sốt nhẹ 1–2 ngày.",
+    "Hơi sưng tại vị trí tiêm.",
+    "Giảm ăn nhẹ sau tiêm."
+  ],
+  "usage_recommendations": [
+    "Chỉ tiêm cho dê khỏe, không sốt, không tiêu chảy.",
+    "Lắc đều lọ vacxin, dùng đúng dung môi đi kèm (nếu có).",
+    "Tuân thủ lịch tiêm và hướng dẫn bảo quản trên nhãn."
+  ],
+  "when_not_to_use": [
+    "Không tiêm cho dê đang bệnh hoặc suy kiệt.",
+    "Không dùng vacxin hết hạn hoặc bảo quản sai nhiệt độ."
+  ],
+  "alternative_drugs": [],
+  "notes": [
+    "Tiêm vacxin không thay thế cho vệ sinh chuồng trại và quản lý đàn.",
+    "Nên ghi chép ngày tiêm, loại vacxin, lô số để theo dõi sau này."
+  ]
+}

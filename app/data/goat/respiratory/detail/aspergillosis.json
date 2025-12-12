@@ -40,35 +40,51 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Itraconazole (theo chỉ định thú y).",
-      "Ketoconazole (hiệu quả vừa, dùng khi không có thuốc tốt hơn)."
+      "Itraconazole",
+      "Ketoconazole"
     ],
+
     "alternative_drugs": [
-      "Hỗ trợ miễn dịch, vitamin - khoáng.",
-      "Long đờm - giảm viêm hỗ trợ."
+      "Clotrimazole (dạng khí dung nếu có điều kiện)"
     ],
+
     "note_drugs": [
-      "Kháng sinh KHÔNG hiệu quả với viêm phổi do nấm.",
-      "Điều trị nấm thường kéo dài và tốn kém."
+      "Kháng sinh không hiệu quả với viêm phổi do nấm.",
+      "Điều trị bằng thuốc kháng nấm thường kéo dài, đáp ứng chậm.",
+      "Ưu tiên dùng đúng thuốc nấm; tránh phối hợp nhiều thuốc không cần thiết.",
+      "Theo dõi sát ăn uống, cân nặng và nhịp thở trong suốt quá trình điều trị.",
+      "Luôn dùng thuốc theo tư vấn thú y."
     ],
+
     "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam"
-      ],
-      "respiratory_support": [
-        "Bromhexine"
-      ],
-      "electrolyte": [
-        "Oresol (điện giải uống)"
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": [
-        "Enzyme tiêu hoá"
-      ]
+      "antiinflammatory": {
+        "main": "Meloxicam",
+        "alternative": []
+      },
+
+      "respiratory_support": {
+        "main": "Bromhexine",
+        "alternative": []
+      },
+
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": []
+      },
+
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
+      },
+
+      "digestive_support": {
+        "main": "Enzyme tiêu hoá",
+        "alternative": []
+      }
     },
+    
     "supportive_care": [
       "Loại bỏ thức ăn mốc, rơm - cỏ ẩm.",
       "Giữ chuồng cực thoáng, khô.",

@@ -516,6 +516,7 @@ export default function DiseaseDetailScreen() {
         {/* ĐIỀU TRỊ - SCHEMA MỚI */}
         {(advanced.treatment?.primary_drugs ||
           advanced.treatment?.alternative_drugs ||
+          advanced.treatment?.note_drugs ||
           advanced.treatment?.symptomatic_treatment ||
           advanced.treatment?.supportive_care ||
           advanced.treatment?.dose_policy) && (
@@ -534,6 +535,14 @@ export default function DiseaseDetailScreen() {
   <>
     <Text style={styles.stageTitle}>🔁 Thuốc có thể thay thế</Text>
     {renderDrugList(advanced.treatment.alternative_drugs)}
+  </>
+)}
+
+{advanced.treatment?.note_drugs &&
+  advanced.treatment.note_drugs.length > 0 && (
+  <>
+    <Text style={styles.stageTitle}>⚠️ Lưu ý khi dùng thuốc</Text>
+    {renderBullets(advanced.treatment.note_drugs)}
   </>
 )}
 

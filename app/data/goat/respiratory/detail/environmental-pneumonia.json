@@ -58,16 +58,16 @@
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [
-        "Flunixin",
         "Ketoprofen",
+        "Flunixin",
         "Meloxicam"
       ],
       "respiratory_support": [
         "Bromhexine",
-        "Guaifenesin"
+        "Guaifenesin (long đờm)"
       ],
       "electrolyte": [
-        "electrolyte_mix",
+        "Điện giải tổng hợp (Na/K/Cl)",
         "Oresol (điện giải uống)"
       ],
       "vitamin": [

@@ -9,7 +9,7 @@
   { "id": "tilmicosin",           "name": "Tilmicosin" },
   { "id": "colistin",             "name": "Colistin" },
   { "id": "ceftiofur",            "name": "Ceftiofur" },
-  { "id": "sulfamethoxazole_tmp", "name": "Sulfamethoxazole + Trimethoprim" },
+  { "id": "sulfamethoxazole_tmp", "name": "Sulfa_trimethoprim" },
 
   { "id": "tulathromycin",        "name": "Tulathromycin" },
   { "id": "azithromycin",         "name": "Azithromycin" },
@@ -38,9 +38,10 @@
   { "id": "cephalexin",           "name": "Cephalexin" },
   { "id": "cefaclor",             "name": "Cefaclor" },
   { "id": "amoxiclav",            "name": "Amoxiclav" },
-  { "id": "cefquinome",           "name": "Cefquinome" },
-  { "id": "penicillin",           "name": "Penicillin" },
-  { "id": "ampicillin",           "name": "Ampicillin" },
-  { "id": "tiamulin",             "name": "Tiamulin" }
+  { "id": "cefquinome",            "name": "Cefquinome" },
+  { "id": "penicillin",            "name": "Penicillin" },
+  { "id": "ampicillin",            "name": "Ampicillin" },
+  { "id": "tiamulin",              "name": "Tiamulin" },
+  { "id": "metronidazole",         "name": "Metronidazole" }
 
 ]

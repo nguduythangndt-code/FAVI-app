@@ -122,6 +122,7 @@ export const diseaseRegistry: Record<string, DiseaseDetailLoader> = {
   "goat/digestive/salmonellosis": () => require("../../app/data/goat/digestive/detail/salmonellosis.json"),
   "goat/digestive/tapeworm": () => require("../../app/data/goat/digestive/detail/tapeworm.json"),
   "goat/other/allergy": () => require("../../app/data/goat/other/detail/allergy.json"),
+  "goat/other/anaphylaxis": () => require("../../app/data/goat/other/detail/anaphylaxis.json"),
   "goat/other/cae": () => require("../../app/data/goat/other/detail/cae.json"),
   "goat/other/caseous_lymphadenitis": () => require("../../app/data/goat/other/detail/caseous_lymphadenitis.json"),
   "goat/other/dermatophytosis": () => require("../../app/data/goat/other/detail/dermatophytosis.json"),

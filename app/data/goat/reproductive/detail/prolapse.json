@@ -35,75 +35,79 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Kháng sinh phổ rộng (ceftiofur, amoxicillin) sau thủ thuật.",
-      "Oxytocin hỗ trợ co hồi tử cung (theo thú y)."
+  "primary_drugs": [
+    "Ceftiofur",
+    "Oxytocin"
+  ],
+  "alternative_drugs": [
+    "Amoxicillin + Clavulanic acid",
+    "Oxytetracycline LA",
+    "Doxycycline"
+  ],
+  "note_drugs": [
+    "Sa tử cung là cấp cứu sinh sản. Ưu tiên gọi thú y hoặc người có kinh nghiệm để đưa tử cung về đúng vị trí và khâu giữ.",
+    "KHÔNG tự ý đẩy tử cung vào khi chưa rửa sạch và làm ẩm, dễ làm rách – nhiễm bẩn – hoại tử.",
+    "Kháng sinh thường dùng sau thủ thuật để giảm nguy cơ viêm tử cung/nhiễm trùng huyết, dùng theo hướng dẫn thú y.",
+    "Oxytocin chỉ dùng khi đã xử lý và đưa tử cung về đúng vị trí, nhằm hỗ trợ co hồi."
+  ],
+  "symptomatic_treatment": {
+    "antiinflammatory": [
+      "Meloxicam",
+      "Flunixin"
     ],
-    "alternative_drugs": [
-      "Doxycycline",
-      "Oxytetracycline"
+    "respiratory_support": [],
+    "electrolyte": [
+      "Điện giải tổng hợp (Na/K/Cl)",
+      "Oresol (điện giải uống)"
     ],
-    "note_drugs": [
-      "KHÔNG tự ý đẩy tử cung vào khi chưa vệ sinh - dễ gây hoại tử.",
-      "Ca sa tử cung luôn cần người có kinh nghiệm hoặc thú y."
+    "vitamin": [
+      "Vitamin C",
+      "Vitamin BC"
     ],
-    "symptomatic_treatment": {
-      "antiinflammatory": [
-        "Meloxicam",
-        "Flunixin"
-      ],
-      "respiratory_support": [],
-      "electrolyte": [
-        "electrolyte_mix",
-        "Oresol (điện giải uống)"
-      ],
-      "vitamin": [
-        "Vitamin C",
-        "Vitamin BC"
-      ],
-      "digestive_support": []
-    },
-    "supportive_care": [
-      "Giữ tử cung sạch, rửa bằng nước muối sinh lý.",
-      "Đỡ đẩy tử cung vào đúng kỹ thuật (thú y thực hiện).",
-      "Khâu giữ âm hộ khi cần.",
-      "Giữ chuồng sạch - khô hoàn toàn."
-    ],
-    "dose_policy": [
-      "Kháng sinh và oxytocin phải dùng theo nhãn hoặc thú y.",
-      "Không tự ý kéo - đẩy mạnh bừa bãi."
+    "digestive_support": []
+  },
+  "supportive_care": [
+    "Giữ sạch vùng âm hộ – tử cung lộ ra bằng nước sạch/NaCl 0,9% nếu có, tránh để dính phân rơm bẩn.",
+    "Che phủ bằng khăn sạch ẩm để tử cung không bị khô nứt khi chờ thú y.",
+    "Giữ dê nằm yên, hạn chế rặn, tránh để dê chạy nhảy.",
+    "Sau xử lý: theo dõi sốt, mùi dịch, ăn uống và tình trạng đứng đi trong vài ngày."
+  ],
+  "dose_policy": [
+    "Thuốc dùng theo liều trên nhãn hoặc theo hướng dẫn thú y.",
+    "Không tự ý phối nhiều kháng sinh cùng lúc nếu không có chỉ định."
+  ]
+},
+
+  "severe_case_treatment": {
+  "case_type_1": {
+    "description": "Sa mức độ vừa, mô tử cung còn hồng, chưa có dấu hiệu hoại tử.",
+    "guideline": [
+      "Rửa sạch tử cung bằng nước muối sinh lý hoặc dung dịch sát trùng nhẹ.",
+      "Đưa tử cung trở lại đúng vị trí bằng kỹ thuật chuyên môn (thú y hoặc người có kinh nghiệm).",
+      "Dùng kháng sinh và thuốc chống viêm sau thủ thuật theo hướng dẫn thú y.",
+      "Theo dõi khả năng co hồi tử cung và tình trạng toàn thân."
     ]
   },
-  "severe_case_treatment": {
-    "case_type_1": {
-      "description": "Sa mức vừa, mô còn hồng - chưa hoại tử.",
-      "guideline": [
-        "Rửa sạch tử cung bằng nước muối sinh lý.",
-        "Đẩy vào đúng kỹ thuật (thú y).",
-        "Kháng sinh + chống viêm.",
-        "Theo dõi co hồi."
-      ]
-    },
-    "case_type_2": {
-      "description": "Mô tử cung tím đen, phù, dê nằm.",
-      "guideline": [
-        "Cần thú y khẩn cấp.",
-        "Kháng sinh mạnh + hồi sức.",
-        "Tử cung hoại tử có thể cần phẫu thuật.",
-        "Tiên lượng rất dè dặt."
-      ]
-    },
-    "note": "Sa tử cung luôn là cấp cứu — xử lý càng nhanh càng cứu được."
+  "case_type_2": {
+    "description": "Mô tử cung tím sẫm hoặc đen, phù nề nặng; dê nằm, sức yếu.",
+    "guideline": [
+      "Gọi thú y can thiệp khẩn cấp.",
+      "Sử dụng kháng sinh mạnh kết hợp hồi sức toàn thân.",
+      "Trường hợp tử cung hoại tử có thể cần can thiệp phẫu thuật.",
+      "Tiên lượng rất dè dặt, nguy cơ tử vong cao."
+    ]
   },
+  "note": "Sa tử cung là cấp cứu sinh sản. Xử lý càng sớm, khả năng giữ được dê càng cao."
+},
   "prevention": [
-    "Bổ sung khoáng - canxi trước đẻ.",
-    "Đỡ đẻ đúng kỹ thuật, không kéo thai thô bạo.",
-    "Giữ chuồng đẻ sạch - không trơn trượt.",
-    "Theo dõi dê mang thai cuối kỳ."
-  ],
-  "notes": [
-    "Ca nào không chắc chắn → gọi thú y.",
-    "Đẩy tử cung sai cách = mất dê."
-  ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
+  "Bổ sung khoáng và canxi đầy đủ trong giai đoạn cuối thai kỳ.",
+  "Đỡ đẻ đúng kỹ thuật, tránh kéo thai thô bạo hoặc can thiệp quá sớm.",
+  "Giữ chuồng đẻ khô ráo, sạch sẽ, không trơn trượt.",
+  "Theo dõi sát dê mang thai ở giai đoạn cuối."
+],
+"notes": [
+  "Trường hợp không chắc chắn cách xử lý, cần gọi thú y ngay.",
+  "Đưa tử cung sai kỹ thuật có thể gây hoại tử và mất dê."
+],
+"disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

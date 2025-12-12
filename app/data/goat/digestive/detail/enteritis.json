@@ -46,22 +46,20 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Colistin đường uống (đường ruột Gram âm).",
-      "Amoxicillin hoặc amox-coli cho ca nghi nhiễm E.coli.",
-      "Sulfa đường ruột (sulfa - trimethoprim…).",
-      "Men tiêu hoá - probiotics để phục hồi hệ vi sinh.",
-      "Thuốc hấp phụ độc tố: than hoạt, bentonite, smectite."
+      "Colistin",
+  "Amoxicillin",
+  "Sulfa_trimethoprim"
     ],
     "alternative_drugs": [
-      "Florfenicol (khi nghi nhiễm khuẩn nặng, dùng theo hướng dẫn thú y).",
-      "Enrofloxacin (chỉ dùng khi thật cần và theo thú y).",
-      "Điện giải B-complex uống hỗ trợ hồi phục.",
-      "Thảo dược cầm tiêu chảy an toàn cho dạ cỏ."
+      "Florfenicol",
+      "Enrofloxacin"
     ],
     "note_drugs": [
-      "Không lạm dụng kháng sinh mạnh khi chưa rõ nguyên nhân.",
-      "Hạn chế dùng corticoid trong ca tiêu chảy vì dễ làm nặng thêm nhiễm khuẩn."
-    ],
+    "Colistin chỉ dùng đường uống cho tiêu chảy do vi khuẩn Gram âm đường ruột; không dùng kéo dài.",
+    "Amoxicillin hoặc sulfa-trimethoprim dùng khi nghi nhiễm E.coli.",
+    "Không lạm dụng kháng sinh mạnh khi chưa xác định nguyên nhân.",
+    "Hạn chế dùng corticoid trong ca tiêu chảy vì dễ làm nặng nhiễm khuẩn."
+   ],
     "symptomatic_treatment": {
       "antiinflammatory": [
         "Flunixin",
@@ -71,8 +69,7 @@
       "respiratory_support": [],
       "electrolyte": [
         "Oresol (điện giải uống)",
-        "electrolyte_mix",
-        "electrolyte_mix"
+        "Điện giải tổng hợp (Na/K/Cl)"
       ],
       "vitamin": [
         "Vitamin C",
@@ -101,7 +98,7 @@
     "case_type_1": {
       "description": "Dê tiêu chảy nặng nhưng còn đứng, còn phản xạ.",
       "guideline": [
-        "Bù điện giải tích cực (ORS, gluco - điện giải).",
+        "Bù điện giải tích cực (Oresol, gluco - điện giải).",
         "Dùng colistin hoặc sulfa đường ruột theo nhãn.",
         "Kết hợp men tiêu hoá và thuốc hấp phụ độc tố.",
         "Theo dõi mức độ tiêu chảy, nước tiểu, thân nhiệt mỗi 3-4 giờ."

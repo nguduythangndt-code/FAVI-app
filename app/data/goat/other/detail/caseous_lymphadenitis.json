@@ -1,91 +1,102 @@
 {
+  "id": "cla",
   "name": "Viêm hạch mủ (Caseous lymphadenitis)",
-  "summary": "Bệnh vi khuẩn gây áp-xe hạch mủ ở cổ, vai, bẹn… Mụn vỡ ra lây rất dai trong chuồng.",
+  "species": "goat",
+  "group": "other",
+  "summary": "Viêm hạch mủ (CLA) là bệnh truyền nhiễm mạn tính do vi khuẩn Corynebacterium pseudotuberculosis gây ra. Bệnh đặc trưng bởi các hạch sưng to, có mủ đặc như bã đậu. CLA tiến triển chậm, khó điều trị dứt điểm và dễ lây lan trong đàn nếu không kiểm soát tốt.",
   "causes": [
-    "Corynebacterium pseudotuberculosis xâm nhập qua vết thương",
-    "Mủ vỡ nhiễm môi trường, lây tiếp"
+    "Nhiễm vi khuẩn Corynebacterium pseudotuberculosis."
   ],
   "risk_factors": [
-    "Chuồng bẩn, nhiều vật sắc",
-    "Đánh nhau gây trầy xước",
-    "Cắt lông, thiến không sát trùng",
-    "Nuôi dày"
+    "Vết trầy xước da, vết cắt khi tỉa lông, tỉa móng.",
+    "Chuồng trại bẩn, dụng cụ dùng chung.",
+    "Nuôi mật độ cao.",
+    "Không cách ly dê mới nhập đàn."
   ],
   "clinical_signs_detailed": [
-    "Nổi hạch cứng ở cổ/ vai/ bẹn",
-    "Hạch to dần, nóng nhẹ",
-    "Sau đó mềm và có mủ",
-    "Mủ màu vàng xanh đặc",
-    "Hạch vỡ chảy mủ hôi",
-    "Gầy chậm",
-    "Có thể sốt nhẹ khi mủ lớn",
-    "Một số con ho mạn nếu áp-xe trong phổi"
+    "Hạch sưng to ở cổ, hàm, vai, nách, bẹn.",
+    "Hạch cứng, sau mềm dần và có mủ.",
+    "Mủ đặc, màu trắng – vàng, mùi hôi nhẹ.",
+    "Dê gầy dần, chậm lớn.",
+    "Có thể tái phát nhiều lần."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Hạch nhỏ cứng, chưa đau"
+      "Hạch nhỏ, cứng.",
+      "Dê vẫn ăn uống bình thường."
     ],
     "moderate": [
-      "Hạch to rõ, bắt đầu mềm",
-      "Ăn giảm nhẹ"
+      "Hạch to rõ.",
+      "Có cảm giác mềm khi sờ.",
+      "Dê ăn giảm nhẹ."
     ],
     "severe": [
-      "Hạch vỡ, chảy mủ nhiều",
-      "Tái phát nhiều hạch",
-      "Gầy sút kéo dài"
+      "Hạch vỡ, chảy mủ.",
+      "Nhiều hạch cùng lúc.",
+      "Nguy cơ lây lan cả đàn."
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "amoxicillin",
-      "Povidone-iodine"
+    "primary_drugs": [],
+    "alternative_drugs": ["amoxicillin"],
+    "note_drugs": [
+      "CLA là bệnh mạn tính, kháng sinh thường không tiêu diệt hoàn toàn vi khuẩn trong hạch mủ.",
+      "Kháng sinh chỉ có vai trò hạn chế nhiễm trùng kế phát hoặc dùng sau xử lý hạch.",
+      "Không khuyến khích tiêm kháng sinh đơn thuần với mục tiêu chữa khỏi bệnh."
     ],
-    "alternative_drugs": [
-      "Penicillin",
-      "Oxytetracycline"
-    ],
-    "note_drugs": "Kháng sinh hỗ trợ nhưng không thay được xử lý ổ mủ. Nếu hạch mềm, cần rạch thoát mủ đúng kỹ thuật và khử trùng chặt.",
     "symptomatic_treatment": {
-      "antiinflammatory": {
-        "main": "Meloxicam",
-        "alternative": [
-          "Flunixin"
-        ]
-      },
-      "vitamin": {
-        "main": "Vitamin C",
-        "alternative": [
-          "Vitamin BC"
-        ]
-      }
+      "antiinflammatory": [
+        "Meloxicam"
+      ],
+      "respiratory_support": [],
+      "electrolyte": [],
+      "vitamin": [
+        "Multivitamin tổng hợp"
+      ],
+      "digestive_support": []
     },
     "supportive_care": [
-      "Cách ly con có hạch",
-      "Khi hạch mềm có thể rạch thoát mủ theo hướng dẫn thú y",
-      "Rửa mủ bằng sát trùng và băng kín",
-      "Thu gom mủ, không để rơi nền chuồng"
+      "Cách ly dê bệnh khỏi đàn.",
+      "Theo dõi kích thước và vị trí hạch.",
+      "Giữ chuồng trại khô ráo, sạch sẽ.",
+      "Khử trùng dụng cụ, khu vực có mủ."
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+    "dose_policy": [
+      "Thuốc sử dụng theo hướng dẫn thú y.",
+      "dexamethasone không được sử dụng trên dê đang mang thai",
+      "Không lạm dụng kháng sinh kéo dài."
+    ]
   },
   "severe_case_treatment": {
-    "case_type_1": [
-      "Con có nhiều hạch tái phát: điều trị kéo dài, theo dõi sát",
-      "Nếu áp-xe sâu/ phổi: cần thú y can thiệp"
-    ],
-    "case_type_2": [
-      "Khi rạch mủ phải khử trùng dụng cụ và khu vực",
-      "Không cho mủ dính máng hay nền"
-    ],
-    "note": "Bệnh rất dai trong đàn, quản lý vệ sinh là chìa khóa."
+    "case_type_1": {
+      "description": "Hạch to nhưng chưa vỡ.",
+      "guideline": [
+        "Cách ly dê bệnh.",
+        "Theo dõi tiến triển của hạch.",
+        "Xử lý hạch khi chín mủ bằng người có kinh nghiệm."
+      ]
+    },
+    "case_type_2": {
+      "description": "Hạch vỡ, chảy mủ hoặc nhiều hạch cùng lúc.",
+      "guideline": [
+        "Cách ly nghiêm ngặt.",
+        "Thu gom và tiêu hủy mủ đúng cách.",
+        "Sát trùng kỹ vùng hạch và môi trường.",
+        "Đánh giá khả năng nuôi tiếp hoặc loại thải."
+      ]
+    },
+    "note": "Viêm hạch mủ rất dễ lây qua mủ và dụng cụ nhiễm bẩn; xử lý môi trường quan trọng hơn dùng thuốc."
   },
-  "prevention_list": [
-    "Khử trùng chuồng định kỳ",
-    "Loại thải con tái phát nhiều hạch",
-    "Tránh trầy xước, xử lý vết thương sớm",
-    "Không dùng chung dụng cụ chưa sát trùng"
+  "prevention": [
+    "Cách ly dê mới nhập đàn ít nhất 2–3 tuần.",
+    "Không dùng chung kim tiêm, dụng cụ cắt.",
+    "Khử trùng chuồng trại và dụng cụ định kỳ.",
+    "Loại thải sớm dê bệnh để bảo vệ đàn."
   ],
   "notes": [
-    "Mủ rơi ra nền chuồng là nguồn lây chính."
+    "CLA rất khó điều trị dứt điểm.",
+    "Nhiều con mang mầm bệnh nhưng chưa có hạch rõ.",
+    "Nuôi chung lâu dài làm bệnh lan âm thầm."
   ],
-  "disclaimer": "Thông tin chỉ mang tính tham khảo. Việc sử dụng thuốc cần tuân theo hướng dẫn trên nhãn hoặc theo chỉ định của bác sĩ thú y."
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

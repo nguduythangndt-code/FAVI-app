@@ -1,0 +1,41 @@
+{
+  "id": "calcium_borogluconate",
+  "name": "Calcium borogluconate",
+  "group": "electrolyte",
+  "mechanism": "Cung cấp ion canxi dễ hấp thu giúp phục hồi nhanh nồng độ canxi trong máu, hỗ trợ hoạt động thần kinh – cơ và chức năng tim, từ đó cải thiện tình trạng yếu cơ và rối loạn vận động do hạ canxi.",
+  "clinical_uses": [
+    "Hạ canxi huyết cấp hoặc bán cấp.",
+    "Dê sau sinh có biểu hiện yếu, run cơ, đi đứng không vững.",
+    "Hỗ trợ trong các ca suy nhược, mệt nhiều nghi ngờ rối loạn điện giải."
+  ],
+  "pros": [
+    "Tác dụng nhanh trong các ca thiếu canxi.",
+    "Giúp cải thiện trương lực cơ và khả năng vận động.",
+    "Phù hợp dùng trong phác đồ cấp cứu hỗ trợ."
+  ],
+  "cons": [
+    "Không giải quyết nguyên nhân nền nếu thiếu canxi kéo dài.",
+    "Dùng không đúng có thể gây rối loạn nhịp tim.",
+    "Cần theo dõi sát khi sử dụng đường tiêm."
+  ],
+  "mild_side_effects": [
+    "Nóng nhẹ tại vị trí tiêm.",
+    "Khó chịu thoáng qua nếu dùng nhanh."
+  ],
+  "usage_recommendations": [
+    "Sử dụng khi có dấu hiệu nghi ngờ hạ canxi.",
+    "Theo dõi nhịp tim và phản ứng của dê trong quá trình dùng.",
+    "Kết hợp điều chỉnh khẩu phần giàu khoáng và vitamin D.",
+    "Dùng theo hướng dẫn trên nhãn hoặc chỉ định thú y."
+  ],
+  "when_not_to_use": [
+    "Không dùng khi nghi ngờ tăng canxi huyết.",
+    "Thận trọng ở con có bệnh tim hoặc suy thận.",
+    "Không tự ý dùng liều cao hoặc dùng lặp lại nhiều lần."
+  ],
+  "alternative_drugs": [
+    "Calcium oral (dạng uống) cho ca nhẹ hoặc duy trì.",
+    "Vitamin D và khoáng tổng hợp để phòng tái phát.",
+    "Điện giải tổng hợp khi kèm mất nước."
+  ]
+}

@@ -45,29 +45,32 @@
     ],
     "alternative_drugs": [
       "Levamisole",
-      "Albendazole/Fenbendazole (hiệu quả tùy mức độ)"
+      "Albendazole",
+      "Fenbendazole"
     ],
     "note_drugs": [
+      "Chọn một loại kháng sinh chính để điều trị, tránh phối hợp nhiều kháng sinh khi không cần thiết.",
       "Không dùng kháng sinh trừ khi nghi ghép viêm phổi do vi khuẩn.",
       "Tẩy giun nên lặp lại sau 2-3 tuần để diệt lứa ấu trùng kế tiếp."
     ],
     "symptomatic_treatment": {
       "antiinflammatory": [
+        "Ketoprofen",
         "Meloxicam"
       ],
       "respiratory_support": [
         "Bromhexine",
-        "Guaifenesin"
+        "Guaifenesin (long đờm)"
       ],
       "electrolyte": [
-        "electrolyte_mix"
+        "Điện giải tổng hợp (Na/K/Cl)"
       ],
       "vitamin": [
         "Vitamin C",
         "Vitamin BC"
       ],
       "digestive_support": [
-        "Men tiêu hoá cho dê gầy."
+        "Men tiêu hoá + Vitamin"
       ]
     },
     "supportive_care": [

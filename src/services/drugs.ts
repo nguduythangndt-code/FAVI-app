@@ -59,6 +59,9 @@ export function loadDrugListByGroup(
     case "hormone":
       return require("../../app/data/drugs/hormone/list.json");
 
+    case "stimulant":
+      return require("../../app/data/drugs/stimulant/list.json");
+      
     default:
       return [];
   }

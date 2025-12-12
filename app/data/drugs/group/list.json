@@ -9,5 +9,7 @@
   { "id": "digestive_support",         "name": "Hỗ trợ tiêu hoá - đường ruột" },
   { "id": "blood_parasite",            "name": "Ký sinh trùng máu" },
   { "id": "hormone",                   "name": "Hormone sinh sản"},
-  { "id": "disinfectant_hygiene",      "name": "thuốc khử trùng - sát trùng"}
+  { "id": "disinfectant_hygiene",      "name": "thuốc khử trùng - sát trùng"},
+  {"id": "vaccine",                    "name": "Vacxin"},
+  {"id": "stimulant",                   "name": "Trợ sức - Trợ lực"}
 ]
