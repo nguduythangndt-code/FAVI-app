@@ -1,0 +1,40 @@
+{
+  "id": "camphor",
+  "name": "Camphor",
+  "group": "stimulant",
+  "mechanism": "Chất kích thích tim mạch và trung tâm hô hấp, giúp tăng trương lực tim và cải thiện lưu thông tuần hoàn trong các tình trạng suy nhược hoặc sốc nhẹ.",
+  "clinical_uses": [
+    "Hỗ trợ hồi sức trong các ca suy nhược nặng, lờ đờ, yếu sức.",
+    "Trợ tim, trợ hô hấp trong tình trạng tụt lực, choáng nhẹ.",
+    "Phối hợp trong xử lý ngộ độc hoặc nhiễm trùng nặng."
+  ],
+  "pros": [
+    "Tác dụng nhanh, thường thấy cải thiện phản xạ sau khi dùng.",
+    "Hỗ trợ tim và hô hấp trong giai đoạn nguy cấp.",
+    "Phù hợp dùng phối hợp trong phác đồ trợ lực."
+  ],
+  "cons": [
+    "Không điều trị nguyên nhân gây sốc hay nhiễm trùng.",
+    "Hiệu quả phụ thuộc tình trạng nền của con vật.",
+    "Dùng quá mức có thể gây kích thích mạnh."
+  ],
+  "mild_side_effects": [
+    "Kích thích thần kinh nhẹ.",
+    "Tim đập nhanh thoáng qua.",
+    "Khó chịu tạm thời."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng trong các ca cần trợ lực khẩn.",
+    "Theo dõi phản ứng tim mạch sau khi dùng.",
+    "Luôn kết hợp điều trị nguyên nhân chính."
+  ],
+  "when_not_to_use": [
+    "Không dùng đơn độc cho sốc nặng kéo dài.",
+    "Thận trọng ở con có tiền sử rối loạn tim.",
+    "Không lạm dụng nhiều lần liên tiếp."
+  ],
+  "alternative_drugs": [
+    "Caffeine khi cần kích thích nhẹ hơn.",
+    "Nikethamide trong các ca suy hô hấp rõ."
+  ]
+}

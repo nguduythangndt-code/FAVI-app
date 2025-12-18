@@ -75,8 +75,20 @@
       "digestive_support": [
         "Enzyme tiêu hoá",
         "Pectin - Kaolin"
-      ]
-    },
+      ],
+    "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+    }
+},
     "supportive_care": [
       "Chuồng yên tĩnh, ấm, không gió lùa.",
       "Nền khô, mềm, giúp dê nằm không bị đau thêm.",

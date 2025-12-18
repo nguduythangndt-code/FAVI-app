@@ -106,7 +106,7 @@ return (
         </View>
       )}
 
-         {/* Thanh tìm kiếm tên hoạt chất – luôn hiển thị */}
+         {/* Thanh tìm kiếm tên hoạt chất - luôn hiển thị */}
       <View style={styles.searchWrapper}>
         <Ionicons
           name="search"

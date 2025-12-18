@@ -2,7 +2,7 @@
   "id": "mineral_solution",
   "name": "Mineral solution",
   "group": "electrolyte",
-  "mechanism": "Dung dịch cung cấp các khoáng chất thiết yếu giúp cân bằng điện giải, hỗ trợ hoạt động thần kinh – cơ, duy trì chức năng trao đổi chất và tăng khả năng hồi phục khi cơ thể bị thiếu khoáng.",
+  "mechanism": "Dung dịch cung cấp các khoáng chất thiết yếu giúp cân bằng điện giải, hỗ trợ hoạt động thần kinh - cơ, duy trì chức năng trao đổi chất và tăng khả năng hồi phục khi cơ thể bị thiếu khoáng.",
   "clinical_uses": [
     "Suy nhược, mệt mỏi kéo dài nghi do thiếu khoáng.",
     "Giai đoạn stress, vận chuyển, thay đổi thời tiết hoặc khẩu phần.",

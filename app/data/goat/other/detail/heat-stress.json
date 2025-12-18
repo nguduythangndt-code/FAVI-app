@@ -47,7 +47,7 @@
     "Oresol (điện giải uống)"
   ],
   "note_drugs": [
-    "Sốc nhiệt chủ yếu xử lý bằng hạ nhiệt vật lý và bù nước – điện giải.",
+    "Sốc nhiệt chủ yếu xử lý bằng hạ nhiệt vật lý và bù nước - điện giải.",
     "Không tự ý dùng thuốc trợ tim hoặc thuốc tiêm khi chưa có chỉ định thú y.",
     "Không xối nước đá trực tiếp lên dê vì có thể gây sốc nhiệt ngược.",
     "Không ép dê uống nhanh khi đang thở gấp."
@@ -64,7 +64,21 @@
       "Multivitamin tổng hợp"
     ],
     "digestive_support": []
-  },
+  ,
+
+  "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+  }
+},
     "supportive_care": [
   "Đưa dê vào khu vực râm mát càng sớm càng tốt.",
   "Dùng khăn ướt lau nhẹ toàn thân để hỗ trợ tản nhiệt (không dùng nước đá).",
@@ -89,11 +103,11 @@
     "description": "Dê ngã quỵ, thở gấp hoặc co giật.",
     "guideline": [
       "Gọi thú y xử lý khẩn cấp.",
-      "Bù nước – điện giải và hỗ trợ tuần hoàn theo chỉ định.",
+      "Bù nước - điện giải và hỗ trợ tuần hoàn theo chỉ định.",
       "Làm mát cơ thể từ từ, tuyệt đối không dùng nước lạnh đột ngột."
     ]
   },
-  "note": "Sốc nhiệt nặng có thể gây tử vong rất nhanh, chỉ trong 15–30 phút nếu không được xử lý kịp thời."
+  "note": "Sốc nhiệt nặng có thể gây tử vong rất nhanh, chỉ trong 15-30 phút nếu không được xử lý kịp thời."
 },
   "prevention": [
   "Che mát chuồng trại và cải thiện thông gió.",

@@ -79,8 +79,20 @@
       ],
       "digestive_support": [
         "Men tiêu hoá + Vitamin"
-      ]
-    },
+      ],
+    "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+    }
+},
     "supportive_care": [
       "ĐƯA ĐÀN RA KHỎI KHU VỰC CÓ KHÍ ĐỘC NGAY LẬP TỨC.",
       "Mở rộng thông thoáng, tăng đối lưu không khí.",

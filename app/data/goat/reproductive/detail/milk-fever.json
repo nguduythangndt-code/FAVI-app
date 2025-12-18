@@ -3,7 +3,7 @@
   "name": "Hạ canxi sau đẻ (Milk fever) ở dê",
   "species": "goat",
   "group": "reproductive",
-  "summary": "Hạ canxi sau đẻ là tình trạng giảm canxi huyết cấp tính ở dê mẹ, thường xảy ra 1–3 ngày sau sinh do nhu cầu tạo sữa tăng đột ngột. Biểu hiện điển hình gồm run cơ, đi loạng choạng, tai chân lạnh, nằm bệt không đứng được. Nếu không xử lý kịp thời, dê có thể tử vong do suy tim – hô hấp.",
+  "summary": "Hạ canxi sau đẻ là tình trạng giảm canxi huyết cấp tính ở dê mẹ, thường xảy ra 1-3 ngày sau sinh do nhu cầu tạo sữa tăng đột ngột. Biểu hiện điển hình gồm run cơ, đi loạng choạng, tai chân lạnh, nằm bệt không đứng được. Nếu không xử lý kịp thời, dê có thể tử vong do suy tim - hô hấp.",
   "causes": [
     "Canxi huy động không kịp trong giai đoạn tiết sữa mạnh.",
     "Khẩu phần nghèo khoáng, thiếu Ca - P - Mg.",
@@ -62,8 +62,22 @@
         "Vitamin BC",
         "Mineral solution"
       ],
-      "digestive_support": []
-    },
+      "digestive_support": [],
+
+"stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+}
+},
+
     "supportive_care": [
       "Giữ ấm toàn thân ngay lập tức, đặc biệt là vùng ngực và bụng.",
       "Không để dê nằm trực tiếp trên nền xi măng hoặc nền lạnh.",
@@ -82,7 +96,7 @@
       "guideline": [
         "Tiêm Calcium borogluconate theo hướng dẫn thú y.",
         "Bổ sung Vitamin D3.",
-        "Cho uống điện giải – glucose.",
+        "Cho uống điện giải - glucose.",
         "Giữ ấm và theo dõi liên tục."
       ]
     },
@@ -91,7 +105,7 @@
       "guideline": [
         "Gọi thú y can thiệp khẩn cấp.",
         "Truyền hoặc tiêm canxi có kiểm soát.",
-        "Hồi sức tim – hô hấp nếu cần.",
+        "Hồi sức tim - hô hấp nếu cần.",
         "Giữ ấm tích cực, theo dõi sát sau xử lý.",
         "Tiên lượng dè dặt nếu xử lý muộn."
       ]
@@ -99,10 +113,10 @@
     "note": "Hạ canxi thường đáp ứng rất nhanh khi điều trị đúng và kịp thời, nhưng có thể trở nặng chỉ trong vài giờ nếu chậm xử lý."
   },
   "prevention": [
-    "Bổ sung khoáng – canxi hợp lý trong giai đoạn cuối thai kỳ.",
+    "Bổ sung khoáng - canxi hợp lý trong giai đoạn cuối thai kỳ.",
     "Không để dê mẹ gầy yếu trước khi sinh.",
     "Khẩu phần cân đối giữa cỏ, tinh và khoáng.",
-    "Theo dõi sát dê mẹ trong 1–3 ngày đầu sau sinh, đặc biệt dê sinh đôi hoặc cho sữa nhiều."
+    "Theo dõi sát dê mẹ trong 1-3 ngày đầu sau sinh, đặc biệt dê sinh đôi hoặc cho sữa nhiều."
   ],
   "notes": [
     "Milk fever không phải bệnh truyền nhiễm.",

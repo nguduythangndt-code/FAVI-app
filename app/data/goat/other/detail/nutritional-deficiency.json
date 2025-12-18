@@ -13,7 +13,7 @@
   ],
   "risk_factors": [
     "Nuôi nhốt kéo dài, ít đa dạng thức ăn.",
-    "Không bổ sung khoáng – vitamin.",
+    "Không bổ sung khoáng - vitamin.",
     "Dê sinh sản, dê vỗ béo, dê con tăng trưởng nhanh.",
     "Mùa mưa kéo dài, thiếu cỏ tốt."
   ],
@@ -82,10 +82,10 @@
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Thiếu nhẹ – vừa, dê còn ăn uống.",
+      "description": "Thiếu nhẹ - vừa, dê còn ăn uống.",
       "guideline": [
         "Điều chỉnh khẩu phần.",
-        "Bổ sung khoáng – vitamin.",
+        "Bổ sung khoáng - vitamin.",
         "Theo dõi tăng trọng."
       ]
     },

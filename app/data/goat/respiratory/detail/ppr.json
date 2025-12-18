@@ -95,8 +95,21 @@
         "alternative": [
           "Than hoạt tính (giải độc tiêu hoá)"
         ]
-      }
-    },
+      },
+
+    "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+    }
+},
 
     "supportive_care": [
       "Cách ly nghiêm ngặt dê bệnh và dê tiếp xúc gần.",
@@ -131,7 +144,7 @@
 
   "prevention_list": [
     "Tiêm vaccine PPR đầy đủ và đúng lịch.",
-    "Cách ly dê mới nhập đàn tối thiểu 2–3 tuần.",
+    "Cách ly dê mới nhập đàn tối thiểu 2-3 tuần.",
     "Giữ chuồng khô thoáng, không nuôi mật độ cao.",
     "Bổ sung khoáng và vitamin để tăng sức đề kháng."
   ],

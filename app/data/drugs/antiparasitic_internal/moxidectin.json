@@ -2,7 +2,7 @@
   "id": "moxidectin",
   "name": "Moxidectin",
   "group": "antiparasitic_internal",
-  "mechanism": "Moxidectin thuộc nhóm macrocyclic lactone, gắn vào kênh ion của ký sinh trùng, làm tê liệt thần kinh – cơ và giết giun, một số ve và ký sinh trùng ngoài da.",
+  "mechanism": "Moxidectin thuộc nhóm macrocyclic lactone, gắn vào kênh ion của ký sinh trùng, làm tê liệt thần kinh - cơ và giết giun, một số ve và ký sinh trùng ngoài da.",
   "clinical_uses": [
     "Tẩy giun tròn đường tiêu hoá ở dê, bò, heo.",
     "Hỗ trợ kiểm soát một số ký sinh trùng ngoài da nhạy cảm (tuỳ dạng chế phẩm).",
@@ -16,7 +16,7 @@
   "cons": [
     "Nguy cơ kháng thuốc nếu dùng lặp lại cùng một nhóm quá nhiều.",
     "Có thể độc với một số giống chó/mèo nhạy cảm (vấn đề chung của nhóm macrocyclic lactone).",
-    "Cần tuân thủ chặt thời gian ngừng thuốc trước khi giết mổ (theo nhãn) – không ghi trong app."
+    "Cần tuân thủ chặt thời gian ngừng thuốc trước khi giết mổ (theo nhãn) - không ghi trong app."
   ],
   "mild_side_effects": [
     "Một số con có thể mệt nhẹ sau tẩy giun.",

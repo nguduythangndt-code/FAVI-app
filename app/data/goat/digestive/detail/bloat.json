@@ -76,7 +76,22 @@
       "digestive_support": [
         "Probiotic (men vi sinh)"
       ]
-    },
+    ,
+
+    "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+    }
+},
+
     "supportive_care": [
       "Cho dê đứng dốc đầu thấp - mông cao để hỗ trợ thoát hơi (trường hợp nhẹ).",
       "Dắt đi lại nhẹ, xoa bóp vùng dạ cỏ.",
@@ -120,7 +135,7 @@
     "Không chăn trên cỏ ướt sương quá sớm buổi sáng."
   ],
   "notes": [
-  "Chướng hơi dạ cỏ có thể đi kèm rối loạn toan – kiềm dạ cỏ, cần quan sát kỹ biểu hiện toàn thân.",
+  "Chướng hơi dạ cỏ có thể đi kèm rối loạn toan - kiềm dạ cỏ, cần quan sát kỹ biểu hiện toàn thân.",
   "Các ca chướng hơi nặng tiến triển rất nhanh; chậm xử lý có thể dẫn đến suy hô hấp và tử vong."
 ],
 

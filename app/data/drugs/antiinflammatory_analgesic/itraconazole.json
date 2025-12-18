@@ -2,7 +2,7 @@
   "id": "itraconazole",
   "name": "Itraconazole",
   "group": "antiparasitic_external",
-  "mechanism": "Thuốc kháng nấm nhóm azole, ức chế tổng hợp ergosterol – thành phần thiết yếu của màng tế bào nấm. Hiệu lực mạnh trên Aspergillus, Candida và nhiều nấm sợi gây bệnh ở gia súc.",
+  "mechanism": "Thuốc kháng nấm nhóm azole, ức chế tổng hợp ergosterol - thành phần thiết yếu của màng tế bào nấm. Hiệu lực mạnh trên Aspergillus, Candida và nhiều nấm sợi gây bệnh ở gia súc.",
   "clinical_uses": [
     "Viêm phổi do nấm Aspergillus ở dê, bê, nghé.",
     "Nhiễm nấm lan rộng không đáp ứng với thuốc bôi.",
@@ -36,7 +36,7 @@
   ],
   "alternative_drugs": [
     "Ketoconazole cho ca nấm mức độ vừa.",
-    "Clotrimazole dạng bôi hoặc khí dung cho ca nhẹ – trung bình.",
+    "Clotrimazole dạng bôi hoặc khí dung cho ca nhẹ - trung bình.",
     "Hỗ trợ miễn dịch và vitamin để hồi phục nhanh hơn."
   ]
 }

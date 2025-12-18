@@ -1,0 +1,40 @@
+{
+  "id": "atropine",
+  "name": "Atropine",
+  "group": "stimulant",
+  "mechanism": "Ức chế hệ thần kinh phó giao cảm, làm giảm tiết dịch, giãn phế quản nhẹ và cải thiện thông khí đường thở.",
+  "clinical_uses": [
+    "Ngộ độc thuốc trừ sâu nhóm phospho hữu cơ.",
+    "Nhiều đờm dãi, tiết dịch đường hô hấp gây khó thở.",
+    "Phối hợp trong hồi sức và xử lý suy hô hấp."
+  ],
+  "pros": [
+    "Giảm nhanh tình trạng tiết dịch quá mức.",
+    "Hỗ trợ thông thoáng đường thở.",
+    "Phối hợp tốt với thuốc trợ tim - trợ lực."
+  ],
+  "cons": [
+    "Không phải thuốc cứu sốc đơn độc.",
+    "Không điều trị nguyên nhân nền.",
+    "Dùng sai có thể gây khô niêm mạc."
+  ],
+  "mild_side_effects": [
+    "Khô miệng, khô mũi.",
+    "Tim đập nhanh nhẹ.",
+    "Giảm tiết mồ hôi."
+  ],
+  "usage_recommendations": [
+    "Dùng khi có dấu hiệu tăng tiết dịch rõ.",
+    "Thường dùng phối hợp, không dùng đơn lẻ.",
+    "Theo dõi phản ứng tim và hô hấp."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con bị tắc ruột.",
+    "Thận trọng ở con có bệnh tim.",
+    "Không lạm dụng khi không cần thiết."
+  ],
+  "alternative_drugs": [
+    "Chăm sóc đường thở tích cực.",
+    "Thuốc trợ hô hấp khác khi phù hợp."
+  ]
+}

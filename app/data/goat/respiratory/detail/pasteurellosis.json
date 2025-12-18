@@ -50,6 +50,7 @@
       "Cefquinome",
       "Oxytetracycline LA"
     ],
+    
 
     "note_drugs": [
   "Ưu tiên kháng sinh phổ rộng có tác dụng mạnh trên vi khuẩn Pasteurella.",
@@ -86,8 +87,23 @@
           "Vitamin BC",
           "Multivitamin tổng hợp"
         ]
-      }
-    },
+      },
+
+        "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+    }
+
+ 
+},
     "supportive_care": [
       "Giữ ấm, tránh gió lùa trực tiếp",
       "Cho nằm nơi khô ráo, sạch",
@@ -99,12 +115,12 @@
   },
   "severe_case_treatment": {
   "case_type_1": {
-    "description": "Dê sốt cao, thở bụng mạnh, mệt lả, đứng không vững – nghi ngờ sốc nhiễm trùng.",
+    "description": "Dê sốt cao, thở bụng mạnh, mệt lả, đứng không vững - nghi ngờ sốc nhiễm trùng.",
     "guideline": [
       "Ưu tiên kháng sinh phổ rộng mạnh theo tư vấn thú y.",
-      "Kết hợp thuốc kháng viêm – hạ sốt để giảm đau và giảm phản ứng viêm.",
+      "Kết hợp thuốc kháng viêm - hạ sốt để giảm đau và giảm phản ứng viêm.",
       "Cho uống hoặc truyền điện giải nếu dê mất nước nhiều.",
-      "Giữ ấm toàn thân, đặc biệt là vùng tai – chân, tránh gió lùa.",
+      "Giữ ấm toàn thân, đặc biệt là vùng tai - chân, tránh gió lùa.",
       "Hạn chế di chuyển, để dê nằm nền khô và nghiêng nhẹ để dễ thở."
     ]
   },
@@ -114,8 +130,8 @@
     "guideline": [
       "Đặt dê ở tư thế đầu cao để giảm áp lực lên phổi.",
       "Giữ chuồng thoáng nhưng ấm, không gió tạt trực tiếp.",
-      "Hỗ trợ long đờm – thông khí theo thuốc đã khuyến cáo.",
-      "Theo dõi nhịp thở từng 1–2 giờ; nếu tăng dần cần can thiệp thú y ngay."
+      "Hỗ trợ long đờm - thông khí theo thuốc đã khuyến cáo.",
+      "Theo dõi nhịp thở từng 1-2 giờ; nếu tăng dần cần can thiệp thú y ngay."
     ]
   },
 

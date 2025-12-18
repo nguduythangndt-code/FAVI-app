@@ -1,0 +1,40 @@
+{
+  "id": "nikethamide",
+  "name": "Nikethamide",
+  "group": "stimulant",
+  "mechanism": "Kích thích trực tiếp trung tâm hô hấp ở hành não, giúp tăng nhịp và biên độ thở trong các tình trạng suy hô hấp.",
+  "clinical_uses": [
+    "Suy hô hấp, thở yếu, thở chậm.",
+    "Ức chế hô hấp sau dùng thuốc hoặc trong nhiễm trùng nặng.",
+    "Hỗ trợ hồi sức khi con vật có dấu hiệu thiếu oxy."
+  ],
+  "pros": [
+    "Tác động rõ lên hô hấp.",
+    "Phù hợp cho các ca thở yếu, thở chậm.",
+    "Dùng phối hợp tốt với thuốc trợ tim."
+  ],
+  "cons": [
+    "Không tác động trực tiếp lên nguyên nhân gây suy hô hấp.",
+    "Hiệu quả ngắn, cần xử lý nền song song.",
+    "Không phù hợp cho ca sốc sâu."
+  ],
+  "mild_side_effects": [
+    "Kích thích thần kinh nhẹ.",
+    "Thở nhanh tạm thời.",
+    "Bồn chồn sau dùng."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng khi có dấu hiệu suy hô hấp rõ.",
+    "Theo dõi nhịp thở sau khi dùng.",
+    "Luôn kết hợp chăm sóc và điều trị nguyên nhân."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con đang co giật.",
+    "Thận trọng khi tim yếu nặng.",
+    "Không dùng kéo dài."
+  ],
+  "alternative_drugs": [
+    "Caffeine khi cần kích thích nhẹ toàn thân.",
+    "Camphor khi cần phối hợp trợ tim."
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Sót nhau ở dê",
   "species": "goat",
   "group": "reproductive",
-    "summary": "Sót nhau là tình trạng nhau thai không rơi ra sau 8–12 giờ sau khi dê đẻ. Nếu để kéo dài có nguy cơ nhiễm trùng tử cung, nhiễm độc và giảm khả năng sinh sản.",
+    "summary": "Sót nhau là tình trạng nhau thai không rơi ra sau 8-12 giờ sau khi dê đẻ. Nếu để kéo dài có nguy cơ nhiễm trùng tử cung, nhiễm độc và giảm khả năng sinh sản.",
     "causes": [
     "Dê đẻ khó, đẻ lâu.",
     "Thiếu khoáng - vitamin (đặc biệt Selenium, Vitamin E).",
@@ -67,7 +67,20 @@
         "Vitamin BC"
       ],
       "digestive_support": []
-    },
+    ,
+    "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+    }
+},
     "supportive_care": [
       "Giữ khu vực đẻ sạch - khô.",
       "Không làm dê sợ hoặc stress.",
@@ -94,7 +107,7 @@
       "Ceftiofur hoặc amoxicillin theo phác đồ.",
       "Chống viêm kết hợp bù điện giải.",
       "Theo dõi sát tình trạng ăn uống và khả năng đứng.",
-      "Gọi thú y nếu sau 24–48 giờ không cải thiện."
+      "Gọi thú y nếu sau 24-48 giờ không cải thiện."
     ]
   },
   "note": "Sót nhau là yếu tố nguy cơ cao dẫn đến viêm tử cung; xử lý đúng và kịp thời giúp bảo vệ khả năng sinh sản."

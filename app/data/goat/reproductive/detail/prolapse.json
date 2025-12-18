@@ -46,7 +46,7 @@
   ],
   "note_drugs": [
     "Sa tử cung là cấp cứu sinh sản. Ưu tiên gọi thú y hoặc người có kinh nghiệm để đưa tử cung về đúng vị trí và khâu giữ.",
-    "KHÔNG tự ý đẩy tử cung vào khi chưa rửa sạch và làm ẩm, dễ làm rách – nhiễm bẩn – hoại tử.",
+    "KHÔNG tự ý đẩy tử cung vào khi chưa rửa sạch và làm ẩm, dễ làm rách - nhiễm bẩn - hoại tử.",
     "Kháng sinh thường dùng sau thủ thuật để giảm nguy cơ viêm tử cung/nhiễm trùng huyết, dùng theo hướng dẫn thú y.",
     "Oxytocin chỉ dùng khi đã xử lý và đưa tử cung về đúng vị trí, nhằm hỗ trợ co hồi."
   ],
@@ -64,10 +64,23 @@
       "Vitamin C",
       "Vitamin BC"
     ],
-    "digestive_support": []
-  },
+    "digestive_support": [],
+
+  "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+  }
+},
   "supportive_care": [
-    "Giữ sạch vùng âm hộ – tử cung lộ ra bằng nước sạch/NaCl 0,9% nếu có, tránh để dính phân rơm bẩn.",
+    "Giữ sạch vùng âm hộ - tử cung lộ ra bằng nước sạch/NaCl 0,9% nếu có, tránh để dính phân rơm bẩn.",
     "Che phủ bằng khăn sạch ẩm để tử cung không bị khô nứt khi chờ thú y.",
     "Giữ dê nằm yên, hạn chế rặn, tránh để dê chạy nhảy.",
     "Sau xử lý: theo dõi sốt, mùi dịch, ăn uống và tình trạng đứng đi trong vài ngày."

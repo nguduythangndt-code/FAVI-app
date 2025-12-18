@@ -4,12 +4,12 @@
   { "id": "electrolyte",               "name": "Điện giải - bù nước" },
   { "id": "vitamin_tonic",             "name": "Vitamin - khoáng - bổ trợ" },
   { "id": "antiparasitic_internal",    "name": "Ký sinh trùng nội" },
-  { "id": "antiparasitic_external",    "name": "Ký sinh trùng ngoài" },
+  { "id": "antiparasitic_external",    "name": "Ký sinh trùng ngoại" },
   { "id": "respiratory_support",       "name": "Hỗ trợ hô hấp" },
   { "id": "digestive_support",         "name": "Hỗ trợ tiêu hoá - đường ruột" },
   { "id": "blood_parasite",            "name": "Ký sinh trùng máu" },
   { "id": "hormone",                   "name": "Hormone sinh sản"},
   { "id": "disinfectant_hygiene",      "name": "thuốc khử trùng - sát trùng"},
-  {"id": "vaccine",                    "name": "Vacxin"},
-  {"id": "stimulant",                   "name": "Trợ sức - Trợ lực"}
+  {"id": "vaccine",                    "name": "Vaccine"},
+  {"id": "stimulant",                   "name": "Hồi sức - Cấp cứu"}
 ]

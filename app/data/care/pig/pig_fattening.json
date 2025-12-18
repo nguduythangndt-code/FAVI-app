@@ -3,7 +3,7 @@
   "name": "Heo vỗ béo",
   "species": "pig",
   "group": "fattening",
-  "overview": "Vỗ béo heo thịt là giai đoạn quyết định lãi – lỗ của cả lứa nuôi. Chi phí thức ăn chiếm phần lớn, còn rủi ro lại nằm ở mật độ nuôi cao, thay đổi khẩu phần nhanh và chuồng trại bí nóng.\n\nChỉ cần vài ngày heo bỏ ăn hoặc ho – tiêu chảy dây chuyền là tốc độ tăng trọng tụt hẳn, thậm chí phải bán tháo.\n\nNhiều trại thất bại không phải vì thiếu cám, mà vì đổi cám – đổi mật độ – đổi cách cho ăn quá đột ngột, trong khi nền chuồng chưa sạch và gió – nhiệt độ không được kiểm soát. Heo vừa stress, vừa rối loạn tiêu hóa, hệ hô hấp yếu đi, tạo cơ hội cho bệnh bùng lên.\n\nMục tiêu của vỗ béo không phải là cho heo ăn càng nhiều càng tốt, mà là giữ cho heo ăn đều, đi phân ổn định, không ho kéo dài và tăng trọng chắc.\n\n Toàn bộ nội dung trong cẩm nang này tập trung giúp người nuôi nhìn đúng rủi ro, tránh các sai lầm thường gặp và xử lý theo từng giai đoạn, thay vì làm mạnh tay một lúc rồi gãy cả đàn.",
+  "overview": "Vỗ béo heo thịt là giai đoạn quyết định lãi - lỗ của cả lứa nuôi. Chi phí thức ăn chiếm phần lớn, còn rủi ro lại nằm ở mật độ nuôi cao, thay đổi khẩu phần nhanh và chuồng trại bí nóng.\n\nChỉ cần vài ngày heo bỏ ăn hoặc ho - tiêu chảy dây chuyền là tốc độ tăng trọng tụt hẳn, thậm chí phải bán tháo.\n\nNhiều trại thất bại không phải vì thiếu cám, mà vì đổi cám - đổi mật độ - đổi cách cho ăn quá đột ngột, trong khi nền chuồng chưa sạch và gió - nhiệt độ không được kiểm soát. Heo vừa stress, vừa rối loạn tiêu hóa, hệ hô hấp yếu đi, tạo cơ hội cho bệnh bùng lên.\n\nMục tiêu của vỗ béo không phải là cho heo ăn càng nhiều càng tốt, mà là giữ cho heo ăn đều, đi phân ổn định, không ho kéo dài và tăng trọng chắc.\n\n Toàn bộ nội dung trong cẩm nang này tập trung giúp người nuôi nhìn đúng rủi ro, tránh các sai lầm thường gặp và xử lý theo từng giai đoạn, thay vì làm mạnh tay một lúc rồi gãy cả đàn.",
   "sections": [
     {
       "id": "new_arrival",
@@ -136,10 +136,10 @@
   "content": "Mỗi giai đoạn vỗ béo có nhóm nguy cơ riêng. Khi thấy heo thay đổi ăn uống, phân hoặc hô hấp bất thường, nên đối chiếu giai đoạn đang nuôi và ưu tiên tra cứu đúng nhóm bệnh tương ứng trong mục Bệnh.",
   "bullets": [
     "[Mới nhập trại] Cảm nóng lạnh, viêm phổi, hội chứng hô hấp, tiêu chảy cấp do stress vận chuyển, đổi trại và thay đổi thức ăn đột ngột.",
-    "[Ổn định thể trạng – làm quen khẩu phần] Tiêu chảy dinh dưỡng, rối loạn tiêu hóa, ký sinh trùng đường ruột làm heo chậm lớn, lông xấu.",
-    "[Tăng khẩu phần – lên cám đậm đặc] Loét dạ dày, tiêu chảy do tăng tinh quá nhanh, chướng hơi, mệt mỏi sau bữa ăn, dễ nằm nhiều, ít vận động.",
-    "[Vỗ béo mạnh – cán đích] Bệnh hô hấp mạn (ho kéo dài, khó thở), suy nhược ở những con nền yếu, bệnh khớp – chân móng do nền chuồng trơn trượt hoặc ẩm bẩn.",
-    "[Trước xuất bán – gom đàn, bắt heo] Bệnh cấp tính do stress gom – bắt – vận chuyển, sốc nhiệt, bùng phát lại bệnh hô hấp, heo gục đột ngột do tim mạch hoặc hô hấp."
+    "[Ổn định thể trạng - làm quen khẩu phần] Tiêu chảy dinh dưỡng, rối loạn tiêu hóa, ký sinh trùng đường ruột làm heo chậm lớn, lông xấu.",
+    "[Tăng khẩu phần - lên cám đậm đặc] Loét dạ dày, tiêu chảy do tăng tinh quá nhanh, chướng hơi, mệt mỏi sau bữa ăn, dễ nằm nhiều, ít vận động.",
+    "[Vỗ béo mạnh - cán đích] Bệnh hô hấp mạn (ho kéo dài, khó thở), suy nhược ở những con nền yếu, bệnh khớp - chân móng do nền chuồng trơn trượt hoặc ẩm bẩn.",
+    "[Trước xuất bán - gom đàn, bắt heo] Bệnh cấp tính do stress gom - bắt - vận chuyển, sốc nhiệt, bùng phát lại bệnh hô hấp, heo gục đột ngột do tim mạch hoặc hô hấp."
   ]
 }
 

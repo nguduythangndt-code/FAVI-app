@@ -61,6 +61,9 @@ export function loadDrugListByGroup(
 
     case "stimulant":
       return require("../../app/data/drugs/stimulant/list.json");
+
+    case "vaccine":
+      return require("../../app/data/drugs/vaccine/list.json");
       
     default:
       return [];
@@ -68,7 +71,7 @@ export function loadDrugListByGroup(
 }
 
 
-// ====== CHI TIẾT THUỐC – DÙNG REGISTRY ======
+// ====== CHI TIẾT THUỐC - DÙNG REGISTRY ======
 export function loadDrugDetail(
   group: DrugGroupId,
   id: string

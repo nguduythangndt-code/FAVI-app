@@ -26,13 +26,14 @@ const GROUP_LABELS: Record<DrugGroupId, string> = {
   electrolyte: "Điện giải - bù nước",
   vitamin_tonic: "Vitamin - khoáng - bổ trợ",
   antiparasitic_internal: "Ký sinh trùng nội",
-  antiparasitic_external: "Ký sinh trùng ngoài",
+  antiparasitic_external: "Ký sinh trùng ngoại",
   respiratory_support: "Hỗ trợ hô hấp",
   digestive_support: "Hỗ trợ tiêu hoá - đường ruột",
   blood_parasite: "Ký sinh trùng máu",
   hormone: "Hormone sinh sản",
   disinfectant_hygiene: "Thuốc khử trùng, sát trùng",
-  stimulant: "Trợ Sức - Trợ Lực"
+  stimulant: "Hồi sức - Cấp cứu",
+  vaccine: "vaccine"
 };
 
 export default function DrugListScreen() {

@@ -103,65 +103,85 @@ const SYMPTOMATIC_GROUP_LABELS: Record<string, string> = {
   digestive_support: "Hỗ trợ tiêu hoá",
   digestive: "Hỗ trợ tiêu hoá",
   other: "Điều trị triệu chứng khác",
+  stimulant: "Hồi sức - Cấp cứu",
 };
 
+type SymptomaticItem =
+  | string[]
+  | {
+      main: string | null;
+      alternative?: string | string[];
+      note?: string[]; // ✅ note riêng cho nhóm (Hồi sức - Cấp cứu)
+    };
+
+type SymptomaticTreatment =
+  | Record<string, SymptomaticItem>
+  | string[]
+  | undefined;
+
+
+  
 const renderSymptomaticTreatment = (
-  symptomatic?:
-    | {
-        [key: string]:
-          | {
-              main: string;
-              alternative?: string | string[];
-            }
-          | string[];
-      }
-    | string[]
-    | undefined,
+  symptomatic?: SymptomaticTreatment,
   onDrugPress?: (name: string) => void
 ) => {
   if (!symptomatic) return null;
 
-  // Trường hợp schema cũ: chỉ là mảng string
+  // Schema cũ: mảng string
   if (Array.isArray(symptomatic)) {
     return renderBullets(symptomatic);
   }
 
   const getLabel = (key: string) => {
-    if (SYMPTOMATIC_GROUP_LABELS[key]) {
-      return SYMPTOMATIC_GROUP_LABELS[key];
-    }
+    if (SYMPTOMATIC_GROUP_LABELS[key]) return SYMPTOMATIC_GROUP_LABELS[key];
     return key
       .replace(/_/g, " ")
       .replace(/-/g, " ")
       .replace(/\b\w/g, (c: string) => c.toUpperCase());
   };
 
+  const renderDrugText = (name: string) => {
+    if (!onDrugPress) return <Text>{name}</Text>;
+    return (
+      <Text style={styles.drugLink} onPress={() => onDrugPress(name)}>
+        {name}
+      </Text>
+    );
+  };
+
   return (
     <View style={{ marginTop: 4 }}>
-      {Object.entries(symptomatic).map(([key, value]) => {
+      {Object.entries(symptomatic).map(([key, raw]) => {
         let main: string | undefined;
         let alternatives: string[] = [];
+        let note: string[] = [];
 
-        if (Array.isArray(value)) {
-          if (value.length > 0) {
-            main = String(value[0]).trim();
-            alternatives = value
+        // Case A: value là mảng string (schema cũ trong symptomatic_treatment)
+        if (Array.isArray(raw)) {
+          if (raw.length > 0) {
+            main = String(raw[0]).trim();
+            alternatives = raw
               .slice(1)
               .map((v) => String(v).trim())
               .filter(Boolean);
           }
-        } else if (value && typeof value === "object") {
-          // @ts-ignore
-          main = (value.main as string | undefined)?.trim();
-          // @ts-ignore
-          const altRaw = value.alternative as string | string[] | undefined;
+        }
+        // Case B: value là object { main, alternative, note? }
+        else if (raw && typeof raw === "object") {
+          const v = raw as Exclude<SymptomaticItem, string[]>;
+
+          main = (v.main ?? "")?.toString().trim() || undefined;
+
+          const altRaw = v.alternative;
           if (typeof altRaw === "string") {
             const t = altRaw.trim();
             if (t) alternatives = [t];
           } else if (Array.isArray(altRaw)) {
-            alternatives = altRaw
-              .map((v) => String(v).trim())
-              .filter(Boolean);
+            alternatives = altRaw.map((x) => String(x).trim()).filter(Boolean);
+          }
+
+          if (Array.isArray(v.note)) {
+            note = v.note.map((x) => String(x).trim()).filter(Boolean);
           }
         }
 
@@ -174,40 +194,43 @@ const renderSymptomaticTreatment = (
             {/* Thuốc chính */}
             <Text style={styles.bulletText}>
               • <Text style={{ fontWeight: "600" }}>Thuốc chính: </Text>
-              {onDrugPress ? (
-                <Text
-                  style={styles.drugLink}
-                  onPress={() => onDrugPress(main!)}
-                >
-                  {main}
-                </Text>
-              ) : (
-                main
-              )}
+              {renderDrugText(main)}
             </Text>
 
             {/* Thuốc thay thế */}
             {alternatives.length > 0 && (
               <Text style={styles.bulletText}>
                 • <Text style={{ fontWeight: "600" }}>Thay thế: </Text>
-                {alternatives.map((alt, idx) =>
-                  onDrugPress ? (
-                    <Text
-                      key={`${alt}-${idx}`}
-                      style={styles.drugLink}
-                      onPress={() => onDrugPress(alt)}
-                    >
-                      {idx > 0 ? ", " : ""}
-                      {alt}
-                    </Text>
-                  ) : (
-                    <Text key={`${alt}-${idx}`}>
-                      {idx > 0 ? ", " : ""}
-                      {alt}
-                    </Text>
-                  )
-                )}
+                {alternatives.map((alt, idx) => (
+                  <Text key={`${alt}-${idx}`}>
+                    {idx > 0 ? ", " : ""}
+                    {onDrugPress ? (
+                      <Text
+                        style={styles.drugLink}
+                        onPress={() => onDrugPress(alt)}
+                      >
+                        {alt}
+                      </Text>
+                    ) : (
+                      alt
+                    )}
+                  </Text>
+                ))}
               </Text>
+            )}
+
+            {/* ✅ Note riêng cho nhóm (đặc biệt stimulant) */}
+            {note.length > 0 && (
+              <View style={{ marginTop: 6 }}>
+                <Text style={styles.bulletText}>
+                  <Text style={{ fontWeight: "600" }}>⚠️ Lưu ý: </Text>
+                </Text>
+                {note.map((t, idx) => (
+                  <Text key={`${key}-note-${idx}`} style={styles.bulletText}>
+                    • {t}
+                  </Text>
+                ))}
+              </View>
             )}
           </View>
         );
@@ -215,6 +238,7 @@ const renderSymptomaticTreatment = (
     </View>
   );
 };
+
 
 
 const Section = ({

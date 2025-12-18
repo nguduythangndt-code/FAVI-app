@@ -133,4 +133,8 @@ export const GENERATED_DRUG_LINK_MAP: Record<string, DrugRoute> = {
   "Vacxin PPR": { group: "vaccine", id: "ppr_vaccine" },
   "Vacxin Tụ huyết trùng": { group: "vaccine", id: "pasteurella_vaccine" },
   "Caffeine": { group: "stimulant", id: "caffeine" },
+  "Camphor": { group: "stimulant", id: "camphor" },
+  "Nikethamide": { group: "stimulant", id: "nikethamide" },
+  "Strychnine": { group: "stimulant", id: "strychnine" },
+  "Atropine": { group: "stimulant", id: "atropine" },
 };

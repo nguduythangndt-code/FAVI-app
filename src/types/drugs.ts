@@ -13,6 +13,7 @@ export type DrugGroupId =
   | "blood_parasite"
   | "disinfectant_hygiene"
   | "hormone"
+  | "vaccine"
   | "stimulant"; // ✅ thêm dòng này
 
 
@@ -29,7 +30,7 @@ export interface DrugListItem {
 }
 
 // Dùng cho file chi tiết từng thuốc <group>/<id>.json
-// Gom cả schema của kháng sinh & kháng viêm – giảm đau
+// Gom cả schema của kháng sinh & kháng viêm - giảm đau
 export interface DrugDetail {
   id?: string;
   name: string;
@@ -41,11 +42,11 @@ export interface DrugDetail {
   // Khi nên dùng
   clinical_uses?: string[];
 
-  // Ưu – nhược (schema 1)
+  // Ưu - nhược (schema 1)
   pros?: string[];
   cons?: string[];
 
-  // Ưu – nhược (schema 2)
+  // Ưu - nhược (schema 2)
   advantages?: string[];
   disadvantages?: string[];
 

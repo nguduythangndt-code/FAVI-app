@@ -1,3 +1,7 @@
 [
-  {"id": "caffeine",           "name": "Caffeine"}
+  {"id": "caffeine",        "name": "Caffeine"},
+  {"id": "camphor",         "name": "Camphor"},
+  {"id": "nikethamide",     "name": "Nikethamide"},
+  {"id": "strychnine",      "name": "Strychnine"},
+  {"id": "atropine",        "name": "Atropine"}
 ]

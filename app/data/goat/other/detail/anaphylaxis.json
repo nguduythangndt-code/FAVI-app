@@ -63,7 +63,21 @@
         "Vitamin C"
       ],
       "digestive_support": []
-    },
+    ,
+
+    "stimulant": {
+  "main": "Caffeine",
+  "alternative": [
+    "Camphor",
+    "Nikethamide"
+  ],
+  "note": [
+  "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+  "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+  "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+]
+    }
+},
     "supportive_care": [
       "Ngưng ngay thuốc hoặc nguồn nghi gây phản vệ.",
       "Đưa dê ra nơi thoáng, tránh kích thích.",
@@ -96,7 +110,7 @@
     "note": "Sốc phản vệ có thể tử vong trong thời gian rất ngắn nếu xử lý chậm."
   },
   "prevention": [
-    "Theo dõi dê 15–30 phút sau khi tiêm thuốc hoặc vaccine.",
+    "Theo dõi dê 15-30 phút sau khi tiêm thuốc hoặc vaccine.",
     "Thử thay đổi thức ăn từ từ, không đổi đột ngột.",
     "Hạn chế côn trùng trong chuồng.",
     "Ghi lại thuốc hoặc yếu tố từng gây phản ứng để tránh lặp lại."

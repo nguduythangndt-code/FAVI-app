@@ -1,0 +1,40 @@
+{
+  "id": "strychnine",
+  "name": "Strychnine",
+  "group": "stimulant",
+  "mechanism": "Kích thích mạnh hệ thần kinh trung ương và phản xạ tủy sống, làm tăng trương lực cơ và phản xạ vận động ở liều rất thấp.",
+  "clinical_uses": [
+    "Suy kiệt nặng, mất phản xạ, gần kiệt sức.",
+    "Hỗ trợ hồi phục phản xạ thần kinh trong một số ca đặc biệt.",
+    "Chỉ dùng khi có kinh nghiệm và kiểm soát chặt."
+  ],
+  "pros": [
+    "Tác động mạnh lên hệ thần kinh.",
+    "Có thể cải thiện phản xạ trong thời gian ngắn.",
+    "Dùng trong các ca rất chọn lọc."
+  ],
+  "cons": [
+    "Biên độ an toàn hẹp.",
+    "Nguy cơ gây co giật nếu dùng sai.",
+    "Không phù hợp sử dụng rộng rãi."
+  ],
+  "mild_side_effects": [
+    "Kích thích mạnh.",
+    "Run cơ.",
+    "Phản xạ tăng rõ."
+  ],
+  "usage_recommendations": [
+    "Chỉ dùng liều rất thấp.",
+    "Chỉ áp dụng khi người dùng có kinh nghiệm.",
+    "Không dùng lặp lại nhiều lần."
+  ],
+  "when_not_to_use": [
+    "Không dùng cho con có tiền sử co giật.",
+    "Không dùng cho thú non hoặc thể trạng yếu không kiểm soát.",
+    "Không dùng nếu không hiểu rõ thuốc."
+  ],
+  "alternative_drugs": [
+    "Caffeine trong các ca nhẹ hơn.",
+    "Camphor hoặc Nikethamide khi cần an toàn hơn."
+  ]
+}
