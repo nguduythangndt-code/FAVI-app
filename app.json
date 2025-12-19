@@ -11,7 +11,8 @@
     "splash": {
       "image": "./assets/images/favi-logo.png",
       "backgroundColor": "#F0F9F4",
-      "resizeMode": "contain"
+      "resizeMode": "contain",
+       "plugins": ["react-native-mmkv"]
     },
     "android": {
       "package": "com.favi.livestock",

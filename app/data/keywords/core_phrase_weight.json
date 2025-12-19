@@ -13,7 +13,7 @@
   "kho mi": 0.8,
 
   "tieu chay": 1.2,
-  "tieu chay nuoc": 2.2,
+  "tieu chay nuoc": 2.5,
   "phan trang nuoc": 2.5,
   "phan trang": 1.5,
   "phan vang hoi": 2.5,
@@ -24,6 +24,7 @@
   "chuong bung": 2.2,
   "day hoi": 1.5,
   "boi thuc": 1.5,
+  "bung cang nhu trong": 4.2,
 
   "sot": 0.7,
   "sot cao": 1.5,
@@ -98,5 +99,10 @@
   "chay mui mui hoi": 4.5,
   "tieu chay hoi": 3.5,
   "niem tai": 4.0,
-  "mat trum": 4.0
+  "mat trum": 4.0,
+  "giac mac mo": 4.0,
+"giac mac duc": 4.0,
+"mat co mang trang": 3.8,
+"mat trang duc": 3.8
+
 }

@@ -1,5 +1,8 @@
 // src/config/firebaseConfig.ts
-// Dán config Web app của Firebase vào đây (project favi-d6100)
+// Firebase config + init (project favi-d6100)
+
+import { initializeApp, getApps, getApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 export const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
@@ -9,3 +12,8 @@ export const firebaseConfig = {
   messagingSenderId: "YOUR_SENDER_ID",
   appId: "YOUR_APP_ID",
 };
+
+// tránh init nhiều lần khi hot reload
+const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
+
+export const db = getFirestore(app);

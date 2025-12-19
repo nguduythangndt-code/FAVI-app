@@ -27,6 +27,13 @@ import {
   QuicksearchResult,
 } from "../../../src/utils/quicksearch";
 
+import {
+  loadQuicksearchRules,
+  applyLearnedBoost,
+  type QuicksearchRules,
+} from "../../../src/services/quicksearchRules";
+
+
 // ================== IMPORT DATA DÊ ==================
 import goatBloodParasite from "../../data/goat/blood_parasite/list.json";
 import goatDigestive from "../../data/goat/digestive/list.json";
@@ -209,10 +216,21 @@ const QuickSearchScreen = () => {
 
   // 👉 rời Quicksearch thì tắt nút quay lại
   useEffect(() => {
-    if (!isFocused) {
-      setShowBackFromCare(false);
-    }
-  }, [isFocused]);
+  if (!isFocused) {
+    setShowBackFromCare(false);
+  }
+}, [isFocused]);
+
+const [rules, setRules] = useState<QuicksearchRules | null>(null);
+
+const normalizeQueryKey = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // bỏ dấu
+    .replace(/đ/g, "d")
+    .replace(/\s+/g, " ")
+    .trim();
 
   // ================== MIC PLACEHOLDER (KHÔNG CÒN VOICE) ==================
   const handleMicPress = () => {
@@ -224,11 +242,33 @@ const QuickSearchScreen = () => {
   };
 
   // ================== BUILD KẾT QUẢ TÌM KIẾM ==================
-  const results: QuicksearchResult[] = useMemo(() => {
+    const results: QuicksearchResult[] = useMemo(() => {
     if (!selectedAnimal) return [];
-    if (!query.trim()) return [];
-    return quicksearch(query, DISEASE_INDEX, selectedAnimal);
-  }, [selectedAnimal, query]);
+    const trimmed = query.trim();
+    if (!trimmed) return [];
+
+    const base = quicksearch(trimmed, DISEASE_INDEX, selectedAnimal);
+
+    // chưa có rules => trả base y như cũ
+    if (!rules) return base;
+
+    // queryKey: normalize (đủ dùng). Nếu sau này m muốn "sau synonyms"
+    // thì lấy query đã qua synonyms từ engine rồi feed vào đây.
+    const queryKey = normalizeQueryKey(trimmed);
+
+    // applyBoost (re-rank cuối)
+    const boosted = applyLearnedBoost(base as any, queryKey, rules) as any[];
+
+    // sort lại theo _finalScore nếu có (không phá khi không có)
+    boosted.sort((a, b) => {
+      const sa = typeof a._finalScore === "number" ? a._finalScore : 0;
+      const sb = typeof b._finalScore === "number" ? b._finalScore : 0;
+      return sb - sa;
+    });
+
+    return boosted as QuicksearchResult[];
+  }, [selectedAnimal, query, rules]);
+
 
   useEffect(() => {
     if (!selectedAnimal) return;
@@ -247,6 +287,36 @@ const QuickSearchScreen = () => {
 
     setLastLogKey(key);
   }, [selectedAnimal, query, results.length, lastLogKey]);
+
+    useEffect(() => {
+    let alive = true;
+
+    const run = async () => {
+      if (!selectedAnimal) {
+        if (alive) setRules(null);
+        return;
+      }
+
+      // POLICY SYNC: TTL 7 ngày (m đổi 5–7 tùy ý)
+      const r = await loadQuicksearchRules(selectedAnimal, {
+  kind: "ttl",
+  ttlDays: 7,
+});
+          // rotateDaily để đổi cách update theo từng loài
+        //const r = await loadQuicksearchRules(selectedAnimal, {
+            //kind: "rotateDaily",
+            //});
+
+      if (alive) setRules(r);
+    };
+
+    run();
+
+    return () => {
+      alive = false;
+    };
+  }, [selectedAnimal]);
+
 
   // render nút chọn loài - đặt trong component để dùng được state
   const renderAnimalButton = (animal: AnimalType, label: string) => {
