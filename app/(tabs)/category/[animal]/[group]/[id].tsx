@@ -22,6 +22,7 @@ import {
   getDiseaseDetail,
   type DiseaseDetail,
 } from "../../../../../src/services/diseaseDetailService";
+import { Disclaimer } from "../../../../../src/components/Disclaimer";
 
 // =======================
 // ICON THEO LOÀI
@@ -642,11 +643,8 @@ export default function DiseaseDetailScreen() {
         </Section>
 
         {/* DISCLAIMER */}
-        {detail.disclaimer ? (
-          <View style={styles.disclaimerBox}>
-            <Text style={styles.disclaimerText}>{detail.disclaimer}</Text>
-          </View>
-        ) : null}
+     
+        <Disclaimer variant="full" />
       </ScrollView>
     </SafeAreaView>
   );
@@ -759,21 +757,6 @@ const styles = StyleSheet.create({
     lineHeight: 19,
     fontStyle: "italic",
     color: colors.textMuted,
-  },
-
-  disclaimerBox: {
-    marginTop: spacing.md,
-    marginBottom: spacing.md,
-    padding: spacing.md,
-    borderRadius: radius.md,
-    backgroundColor: "#FFF4E5",
-    borderWidth: 1,
-    borderColor: "#FFE2BF",
-  },
-  disclaimerText: {
-    fontSize: 13,
-    lineHeight: 19,
-    color: "#8A5A10",
   },
 
   emptyContainer: {

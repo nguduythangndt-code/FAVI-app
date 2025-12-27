@@ -2,3 +2,5 @@
 
 export { default } from "../category/[animal]/[group]/[id]";
 export * from "../category/[animal]/[group]/[id]";
+import { Disclaimer } from "../../../src/components/Disclaimer";
+<Disclaimer variant="short" />

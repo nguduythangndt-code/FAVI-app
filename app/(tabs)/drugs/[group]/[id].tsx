@@ -13,6 +13,9 @@ import {
 import { loadDrugDetail } from "../../../../src/services/drugs";
 import type { DrugGroupId } from "../../../../src/types/drugs";
 import { colors, radius, spacing } from "../../../../src/theme";
+import { Disclaimer } from "../../../../src/components/Disclaimer";
+
+
 
 export default function DrugDetailScreen() {
   const params = useLocalSearchParams<{ group: string; id: string }>();
@@ -155,12 +158,10 @@ export default function DrugDetailScreen() {
               </>
             )}
 
-            {/* Ghi chú chung / disclaimer riêng */}
-            {detail.note && (
-              <Text style={styles.disclaimer}>{detail.note}</Text>
-            )}
+            {/* Central disclaimer */}
           </View>
         )}
+        <Disclaimer variant="short" />
       </ScrollView>
     </SafeAreaView>
   );
@@ -210,9 +211,18 @@ const styles = StyleSheet.create({
     lineHeight: 18,
     marginTop: spacing.xs,
   },
-  disclaimer: {
-    marginTop: spacing.lg,
-    fontSize: 12,
-    color: colors.textMuted,
-  },
+  disclaimerBox: {
+  marginTop: 16,
+  padding: 12,
+  borderRadius: 12,
+  borderWidth: 1,
+  borderColor: "#e5e7eb",
+  backgroundColor: "#f9fafb",
+},
+disclaimerText: {
+  fontSize: 13,
+  lineHeight: 18,
+  color: "#6b7280",
+},
+
 });

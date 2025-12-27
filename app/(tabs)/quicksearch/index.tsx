@@ -33,6 +33,10 @@ import {
   type QuicksearchRules,
 } from "../../../src/services/quicksearchRules";
 
+import { FeatureLocked } from "../../../src/components/FeatureLocked";
+import { getKillSwitch, isFeatureDisabled } from "../../../src/services/remote/killSwitchState";
+import { useKillSwitch } from "../../../src/services/remote/useKillSwitch";
+
 
 // ================== IMPORT DATA DÊ ==================
 import goatBloodParasite from "../../data/goat/blood_parasite/list.json";
@@ -173,6 +177,17 @@ type SearchHistoryItem = {
 const ALLOWED_ANIMALS: AnimalType[] = ["goat", "pig", "cattle", "chicken"];
 
 const QuickSearchScreen = () => {
+const ks = useKillSwitch();
+
+if (ks.enabled && ks.disabledFeatures?.includes("quicksearch")) {
+  return (
+    <FeatureLocked
+      title="Quicksearch đang tạm khóa"
+      message={ks.message || "Hệ thống đang bảo trì. Vui lòng thử lại sau."}
+    />
+  );
+}
+
   const router = useRouter();
   const isFocused = useIsFocused();
 
