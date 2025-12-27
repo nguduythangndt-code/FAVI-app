@@ -3,18 +3,21 @@
   "name": "Phình dạ dày cấp (torsion nhẹ)",
   "species": "pig",
   "group": "digestive",
-  "summary": "Phình dạ dày cấp làm heo chướng bụng nhanh, khó thở, suy rất nhanh. Đây là tình trạng cấp cứu, có thể dẫn đến tử vong nếu chậm xử lý.",
+ "summary": "Phình dạ dày cấp là tình trạng dạ dày căng hơi và thức ăn đột ngột, có thể kèm xoắn nhẹ, làm cản trở lưu thông khí và tuần hoàn. Bệnh diễn biến rất nhanh, gây đau bụng dữ dội, khó thở và có thể chết nếu không can thiệp kịp thời.",
+
   "causes": [
-    "Ăn quá nhanh hoặc quá nhiều",
-    "Dạ dày xoay nhẹ gây tắc thoát thức ăn",
-    "Thức ăn lên men mạnh",
-    "Vận động mạnh ngay sau khi ăn"
+    "Ăn quá nhiều trong thời gian ngắn.",
+    "Thức ăn dễ sinh hơi, lên men mạnh.",
+    "Ăn sau thời gian đói dài.",
+    "Hoạt động mạnh ngay sau khi ăn.",
+    "Rối loạn nhu động dạ dày."
   ],
   "risk_factors": [
-    "Khẩu phần thay đổi đột ngột",
-    "Heo đói lâu rồi ăn bù nhiều",
-    "Giống heo có dạ dày nhạy cảm",
-    "Stress hoặc giật mình sau ăn"
+    "Heo ăn dồn, không kiểm soát khẩu phần.",
+    "Khẩu phần nhiều tinh bột, ít xơ.",
+    "Thay đổi thức ăn đột ngột.",
+    "Heo to con, tăng trọng nhanh.",
+    "Quản lý cho ăn không đều."
   ],
   "clinical_signs_detailed": [
     "Chướng bụng rất nhanh",
@@ -44,66 +47,91 @@
       "Simethicone"
     ],
     "alternative_drugs": [
-      "Vitamin B1"
+    "Dimethicone",
+    "Sodium bicarbonate"
     ],
-    "note_drugs": "Simethicone giúp giảm hơi nhưng nếu dạ dày xoay, thuốc chỉ hỗ trợ tạm thời.",
+   "note_drugs": [
+      "Đây là tình huống cấp cứu tiêu hoá. Nếu trướng tăng nhanh + thở gấp + đau dữ: ưu tiên gọi thú y ngay, không chần chừ.",
+      "Simethicone/Dimethicone giúp giảm bọt hơi; Dầu paraffin hỗ trợ giảm lên men và giúp ‘trượt’ thức ăn, giảm kẹt.",
+      "Không nhồi ăn thêm. Ngưng cám ngay, cho nghỉ, theo dõi bụng và nhịp thở liên tục.",
+      "Sodium bicarbonate chỉ cân nhắc khi nghi ‘chua dạ dày/khó tiêu’ đi kèm; không dùng bừa mọi ca vì có thể làm rối thêm tiêu hoá nếu dùng sai tình huống.",
+      "Tránh dùng thuốc an thần hoặc thuốc làm giảm nhu động ruột khi heo đang trướng và khó thở.",
+      "Than hoạt tính hữu ích khi nghi ăn phải thức ăn hỏng/độc tố đường ruột; dùng như hỗ trợ, không thay thế xử lý cấp cứu.",
+      "Nếu heo nằm bệt, tím tái, thở gấp nặng hoặc đau dữ không giảm: coi như nghi xoắn/dãn nặng — cần can thiệp thú y ngay."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": []
+        "main": "",
+        "alternative": [
+          "Meloxicam",
+          "Flunixin"
+        ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
+        "main": "",
         "alternative": []
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": []
+        "main": "Dầu paraffin",
+        "alternative": [
+          "Probiotic (men vi sinh)",
+          "Enzyme tiêu hoá",
+          "Than hoạt tính (giải độc tiêu hoá)"
+        ]
       }
     },
     "supportive_care": [
-      "Không cho ăn thêm",
-      "Giữ heo đứng nhẹ nếu có thể",
-      "Tránh vận động mạnh",
-      "Theo dõi khó thở và màu da"
+      "Ngưng cho ăn ngay, chỉ cho uống nước sạch lượng vừa phải (không uống ồ ạt).",
+      "Giữ chuồng thoáng, giảm nóng bức và stress.",
+      "Theo dõi bụng (tăng/giảm trướng), nhịp thở và mức độ đau mỗi 15–30 phút khi đang nặng.",
+      "Khi ổn lại: cho ăn lại từ từ, chia nhỏ bữa, tránh khẩu phần lên men mạnh.",
+      "Kiểm tra lại chất lượng cám và cách cho ăn (tránh đói rồi ăn bù)."
     ],
     "dose_policy": "Dùng theo hướng dẫn trên nhãn."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo chướng lớn nhưng còn thở được.",
+      "description": "Trướng và đau bụng mức vừa, heo còn đứng được, chưa khó thở nặng.",
       "guideline": [
-        "Dùng Simethicone sớm",
-        "Theo dõi 1-2 giờ đầu",
-        "Giữ nơi nằm thoáng, không dồn đuổi"
+        "Simethicone/Dimethicone + Dầu paraffin để giảm hơi và giảm lên men.",
+        "Ngưng cám ngay, theo dõi sát bụng và nhịp thở.",
+        "Điện giải nếu có dấu mất nước; tránh heo uống ồ ạt."
       ]
     },
     "case_type_2": {
-      "description": "Heo thở rất nông, mắt lờ đờ, nằm không dậy.",
+      "description": "Trướng tăng nhanh, thở gấp/khó thở, đau dữ hoặc yếu nhanh.",
       "guideline": [
-        "Giữ heo tránh ngã",
-        "Theo dõi dấu hiệu xoay dạ dày",
-        "Liên hệ thú y vì có thể cần can thiệp"
+        "Cần thú y can thiệp ngay (nguy cơ dãn/xoắn dạ dày).",
+        "Không tự xử lý thủ thuật nếu không có kinh nghiệm.",
+        "Giữ heo yên tĩnh, thoáng khí và theo dõi liên tục."
       ]
     },
-    "note": "Phình dạ dày cấp dễ gây chết nhanh trong vài giờ."
+   "note": "Phình dạ dày cấp có thể chuyển nhanh sang xoắn dạ dày hoàn toàn. Thời gian can thiệp quyết định sống còn."
   },
+
   "prevention": [
-    "Không cho heo ăn quá nhanh",
-    "Chia bữa ăn hợp lý",
-    "Tránh vận động mạnh sau ăn"
+    "Tránh để đói rồi cho ăn bù; chia nhỏ bữa.",
+    "Đổi cám từ từ, không đổi đột ngột.",
+    "Kiểm soát chất lượng cám, tránh cám mốc/ôi thiu.",
+    "Đảm bảo nước sạch luôn sẵn, tránh thiếu lâu rồi uống bù quá nhiều.",
+    "Giảm tranh ăn bằng cách tối ưu mật độ và máng ăn."
   ],
   "notes": [
     "Thường gặp ở heo lớn hoặc heo ăn quá nhanh.",
-    "Nặng có thể gây tử vong đột ngột."
+    "Nặng có thể gây tử vong đột ngột.",
+    "Dễ bị nhầm với đầy hơi thông thường.",
+    "Diễn biến nhanh, không nên chờ đợi tự khỏi."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -5,8 +5,10 @@
   "group": "blood_parasite",
   "summary": "Mycoplasma suis bám ngoài hồng cầu, gây thiếu máu kéo dài, heo con lớn chậm, lông xỉu và có lúc sốt cao, lúc lại bình thường.",
   "causes": [
-    "Vi khuẩn Mycoplasma suis (trước đây gọi là Eperythrozoon)",
-    "Lây qua côn trùng hút máu hoặc tiếp xúc máu giữa các con"
+   "Vi khuẩn Mycoplasma suis bám trên bề mặt hồng cầu.",
+    "Lây qua ve, rận, côn trùng hút máu.",
+    "Lây cơ học qua kim tiêm, dụng cụ dính máu.",
+    "Lây từ heo mẹ sang heo con."
   ],
   "risk_factors": [
     "Heo con 3-12 tuần tuổi",
@@ -42,13 +44,20 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Oxytetracycline LA",
+      "Oxytetracycline",
       "Doxycycline"
     ],
     "alternative_drugs": [
       "Tylosin"
     ],
-    "note_drugs": "Oxytetracycline LA hoặc Doxycycline là thuốc chính. Tylosin chỉ dùng hỗ trợ khi có nhiễm khuẩn kế phát.",
+    "note_drugs": [
+      "Oxytetracycline hoặc Doxycycline là thuốc chính.",
+     "Tylosin chỉ dùng hỗ trợ khi có nhiễm khuẩn kế phát.",
+     "Điều trị cần đủ thời gian để tránh tái phát.",
+      "Bệnh dễ tái phát nếu không kiểm soát nguồn lây.",
+      "Không lạm dụng thuốc mạnh như Azidin khi không có chỉ định.",
+      "Luôn dùng thuốc theo tư vấn thú y."
+  ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -66,8 +75,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {

@@ -1,15 +1,22 @@
 {
+  "id": "african_swine_fever",
   "name": "Dịch tả heo châu Phi (ASF)",
-  "summary": "Bệnh virus cực nguy hiểm, lây nhanh, gây xuất huyết nội tạng và chết nhanh; không có thuốc đặc trị.",
+  "species": "pig",
+  "group": "other",
+  "summary": "Dịch tả heo châu Phi (ASF) là bệnh truyền nhiễm do virus gây ra, lây lan rất nhanh, tỷ lệ chết cao gần 100%. Bệnh không có thuốc điều trị đặc hiệu và không có vắc xin thương mại hiệu quả. Khi nhiễm ASF, biện pháp duy nhất là phát hiện sớm, cách ly và tiêu hủy theo quy định.",
   "causes": [
-    "Virus ASFV lây qua tiếp xúc trực tiếp, thức ăn thừa, dụng cụ, xe cộ, người",
-    "Tồn tại lâu trong thịt, máu và môi trường bẩn"
+    "Virus ASF (African swine fever virus).",
+    "Lây qua tiếp xúc trực tiếp giữa heo bệnh và heo khỏe.",
+    "Lây qua thức ăn thừa, thịt nhiễm mầm bệnh.",
+    "Lây qua phương tiện, người chăn nuôi, dụng cụ chăn nuôi.",
+    "Lây qua ve mềm (ở một số khu vực)."
   ],
   "risk_factors": [
-    "Nhập heo không cách ly",
-    "Cho ăn thức ăn thừa chưa xử lý",
-    "Chuồng trại ẩm bẩn, biosecurity kém",
-    "Vùng đang có dịch"
+    "Cho heo ăn thức ăn thừa chưa xử lý nhiệt.",
+    "Mua heo không rõ nguồn gốc.",
+    "Chuồng trại không sát trùng định kỳ.",
+    "Ra vào trại không kiểm soát.",
+    "Khu vực từng có ổ dịch ASF."
   ],
   "clinical_signs_detailed": [
     "Sốt cao đột ngột, bỏ ăn",
@@ -38,20 +45,28 @@
   "treatment": {
     "primary_drugs": [],
     "alternative_drugs": [
-      "Oxytetracycline"
+      ""
     ],
-    "note_drugs": "Không có thuốc chuyên trị ASFV. Chỉ trợ sức - hạ sốt; kháng sinh (như Oxytetracycline) chỉ để phòng bội nhiễm.",
-    "symptomatic_treatment": {
+    "note_drugs": [
+      "Dịch tả Châu Phi là bệnh do virus, KHÔNG có thuốc điều trị đặc hiệu.",
+      "KHÔNG dùng kháng sinh vì không có tác dụng tiêu diệt virus.",
+      "Việc dùng kháng sinh có thể làm che triệu chứng, gây chậm phát hiện dịch.",
+      "KHÔNG tự ý giữ heo bệnh để theo dõi.",
+      "Khi nghi ngờ ASF phải báo ngay cho thú y địa phương.",
+      "Bổ sung điện giải và Vitamin để nâng cao sức đề kháng",
+      "Các thuốc điện giải và vitamin chỉ mang tính hỗ trợ, KHÔNG điều trị ASF."
+    ], 
+       "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Meloxicam",
+        "main": "",
         "alternative": [
-          "Flunixin"
+          ""
         ]
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
@@ -62,12 +77,15 @@
       }
     },
     "supportive_care": [
-      "Cách ly ngay con nghi bệnh",
-      "Giữ ấm, giảm stress",
-      "Vệ sinh sát trùng khu vực nuôi",
-      "Báo thú y địa phương để xử lý dịch"
+      "Cách ly ngay heo nghi nhiễm.",
+      "Hạn chế tối đa người và phương tiện ra vào.",
+      "Liên tục sát trùng chuồng trại, lối đi, dụng cụ.",
+      "Thực hiện tiêu hủy theo hướng dẫn thú y.",
+      "Không vận chuyển, mua bán heo trong vùng nghi dịch.",
+      "Rắc đậm vôi bột xung quanh chuồng trại hoặc khu vực tiêu hủy"
     ],
-    "dose_policy": "Dùng thuốc theo liều trên nhãn hoặc theo hướng dẫn bác sĩ thú y."
+    "dose_policy": "Dịch tả heo không có thuốc đặc tri, tăng sức đề kháng và khử trùng liên tục là cách phòng chống tối ưu nhất."
+
   },
   "severe_case_treatment": {
     "case_type_1": {

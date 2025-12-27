@@ -1,26 +1,30 @@
 {
   "id": "salmonella_enteritis",
-  "name": "Viêm ruột dạ dày do Salmonella",
+  "name": "Viêm ruột dạ dày do Salmonella ở heo",
   "species": "pig",
   "group": "digestive",
-  "summary": "Salmonella gây tiêu chảy kéo dài, phân thối, có thể kèm sốt và suy nhược. Một số chủng có thể gây nhiễm trùng huyết, làm heo chết nhanh.",
+
+  "summary": "Salmonella gây viêm dạ dày–ruột và có thể chuyển sang thể nhiễm trùng huyết ở heo (nhất là heo con sau cai sữa). Bệnh thường sốt rõ, tiêu chảy hôi (có thể lẫn nhầy/máu), heo tụt lực nhanh. Cần xử lý đúng kháng sinh + bù nước sớm để giảm chết và giảm lây lan trong đàn.",
+
   "causes": [
-    "Vi khuẩn Salmonella spp.",
-    "Lây qua thức ăn, nước uống và phân nhiễm khuẩn",
-    "Có thể tồn tại lâu trong môi trường chuồng trại bẩn"
+    "Vi khuẩn Salmonella spp. (thường gặp Salmonella Typhimurium, Choleraesuis).",
+    "Lây qua phân, nước, thức ăn, nền chuồng; dụng cụ và người chăm sóc làm lây chéo.",
+    "Ổ chứa mầm bệnh: heo mang trùng, chuột/ruồi, môi trường chuồng nhiễm bẩn."
   ],
+
   "risk_factors": [
-    "Chuồng ẩm bẩn, ít khử trùng",
-    "Nguồn nước uống không sạch",
-    "Thức ăn tồn đọng, bị nhiễm phân hoặc chuột bọ",
-    "Heo stress, thay đổi thời tiết, vận chuyển xa"
+    "Heo sau cai sữa, heo stress (ghép đàn, vận chuyển).",
+    "Mật độ cao, chuồng ẩm bẩn, thông thoáng kém.",
+    "Thay đổi thức ăn đột ngột, khẩu phần kém chất lượng.",
+    "Quản lý nhiều lứa tuổi trong cùng khu.",
+    "Kiểm soát chuột/ruồi kém."
   ],
   "clinical_signs_detailed": [
-    "Tiêu chảy kéo dài, phân thối, đôi khi có nhầy hoặc máu",
-    "Heo sốt, mệt, giảm ăn rõ",
-    "Một số con thở nhanh do nhiễm trùng nặng",
-    "Gầy nhanh nếu bệnh kéo dài",
-    "Có trường hợp chết đột ngột do nhiễm trùng huyết"
+    "Sốt rõ, heo mệt, bỏ ăn.",
+    "Tiêu chảy phân rất hôi; có thể lẫn nhầy hoặc máu.",
+    "Mất nước, gầy nhanh.",
+    "Một số con ho/khó thở nhẹ do nhiễm trùng toàn thân.",
+    "Ca nặng có thể chuyển sang thể nhiễm trùng huyết: yếu nhanh, tím tái, chết."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -40,87 +44,108 @@
       "Nguy cơ nhiễm trùng huyết và tử vong"
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
-      "Enrofloxacin",
-      "Florfenicol"
+      "Ceftiofur",
+      "Enrofloxacin"
     ],
+
     "alternative_drugs": [
-      "Amoxicillin",
-      "Sulfamethoxazole + Trimethoprim"
+      "Florfenicol",
+      "Sulfamethoxazole + trimethoprim",
+      "Amoxiclav"
     ],
-    "note_drugs": "Enrofloxacin hoặc Florfenicol thường được ưu tiên cho các ca Salmonella nặng. Amoxicillin hoặc Sulfa-trimethoprim có thể dùng cho trường hợp nhẹ hơn hoặc theo tư vấn thú y.",
+
+    "note_drugs": [
+      "Salmonella là vi khuẩn Gram âm và có khả năng gây nhiễm trùng toàn thân. Nếu heo sốt rõ, tụt nhanh thì phải ưu tiên kháng sinh có hiệu lực tốt và theo dõi sát.",
+      "Ưu tiên nhóm thường dùng cho Salmonella trong thực tế trại: Ceftiofur hoặc nhóm fluoroquinolone (Enrofloxacin). Chọn 1 hướng rõ ràng, không ‘trộn lung tung’.",
+      "Tránh dùng các kháng sinh thiên về Gram dương/đường hô hấp (Tylosin, Lincomycin…) khi nghi Salmonella là chính — hay sai hướng và chậm đáp ứng.",
+      "Colistin thường mạnh cho E. coli đường ruột; với Salmonella không phải lựa chọn ưu tiên trong app (dễ đi lệch hướng điều trị).",
+      "Nếu heo mất nước: bù điện giải là bắt buộc. Kháng sinh mà bỏ bù nước thì vẫn tụt và chết do mất nước/suy kiệt.",
+      "Không tự ý dùng thuốc cầm tiêu chảy làm giảm nhu động ruột khi đang tiêu chảy nhiễm khuẩn nặng (dễ giữ độc tố trong ruột, nặng hơn).",
+      "Không lạm dụng NSAID (Meloxicam/Flunixin) khi heo đang mất nước nặng; chỉ cân nhắc khi có sốt/đau rõ và con vẫn uống được.",
+      "Luôn dùng thuốc theo tư vấn thú y, đặc biệt khi có chết nhanh, sốt cao hàng loạt hoặc nghi thể nhiễm trùng huyết."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": [
-          "Ketoprofen",
-          "Meloxicam"
+          "Meloxicam",
+          "Flunixin"
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": [
-          "Ambroxol"
-        ]
+        "main": "",
+        "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Glucose"
         ]
       },
       "vitamin": {
         "main": "Vitamin BC",
         "alternative": [
-          "Vitamin ADE",
-          "Multivitamin tổng hợp"
+          "Vitamin C"
         ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Probiotic (men vi sinh)",
         "alternative": [
-          "Probiotic"
+          "Pectin - Kaolin",
+          "Enzyme tiêu hoá",
+          "Than hoạt tính (giải độc tiêu hoá)"
         ]
       }
     },
+
     "supportive_care": [
-      "Bù nước và điện giải đều cho heo tiêu chảy",
-      "Giữ chuồng sạch, khô, loại phân bẩn sớm",
-      "Tách heo bệnh nặng ra khu riêng để theo dõi",
-      "Đảm bảo thức ăn, nước uống không bị nhiễm bẩn thêm"
+      "Cách ly ô chuồng bệnh, dọn phân liên tục để giảm lây chéo.",
+      "Giữ chuồng khô – ấm – sạch, giảm mật độ nuôi.",
+      "Vệ sinh máng ăn uống, hạn chế nước bẩn và thức ăn thiu mốc.",
+      "Theo dõi sốt, mất nước, tỷ lệ chết để quyết định gọi thú y sớm."
     ],
-    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+
+    "dose_policy": [
+      "Không ghi liều trong ứng dụng.",
+      "Dùng thuốc theo nhãn hoặc chỉ định thú y."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo tiêu chảy nặng nhưng còn đứng được, đáp ứng tốt khi chăm sóc.",
+      "description": "Heo sốt và tiêu chảy rõ nhưng chưa suy kiệt nặng.",
       "guideline": [
-        "Dùng Enrofloxacin hoặc Florfenicol theo khuyến cáo",
-        "Bổ sung điện giải, vitamin hằng ngày",
-        "Theo dõi thân nhiệt và sắc thái phân"
+        "Kháng sinh đúng hướng Salmonella (ưu tiên Ceftiofur hoặc Enrofloxacin).",
+        "Bù điện giải (Oresol) + hỗ trợ năng lượng (Glucose).",
+        "Hỗ trợ ruột (Probiotic, Pectin - Kaolin) và theo dõi đáp ứng vài ngày."
       ]
     },
     "case_type_2": {
-      "description": "Heo rất suy, nằm nhiều, thở nhanh, có nguy cơ nhiễm trùng huyết.",
+      "description": "Heo sốt cao, tụt nhanh, nghi nhiễm trùng huyết hoặc chết rải rác.",
       "guideline": [
-        "Tập trung điều trị tích cực bằng kháng sinh mạnh",
-        "Giữ ấm, hạn chế vận động, tránh dồn đuổi",
-        "Theo dõi sát phản ứng điều trị trong 1-2 ngày đầu"
+        "Cần thú y can thiệp ngay.",
+        "Ưu tiên xử lý sốc/mất nước song song kháng sinh mạnh đúng hướng.",
+        "Khoanh vùng ổ bệnh, tăng vệ sinh – sát trùng để chặn lây."
       ]
     },
-    "note": "Salmonella có thể lây sang người, cần chú ý vệ sinh cá nhân khi chăm sóc heo bệnh."
+    "note": "Salmonella có thể gây thiệt hại lớn do sốt – chậm lớn – chết rải rác và lây lan nhanh. Phát hiện sớm, chọn đúng kháng sinh và bù nước đầy đủ là điểm quyết định."
   },
+
   "prevention": [
-    "Giữ nước uống sạch, không dùng nước ao tù bẩn",
-    "Kiểm soát chuột bọ và côn trùng quanh kho thức ăn",
-    "Vệ sinh máng ăn uống hằng ngày",
-    "Khử trùng chuồng và khu vực chăn nuôi định kỳ"
+    "Quản lý theo lứa tuổi (all-in all-out) để giảm vòng lây.",
+    "Vệ sinh – sát trùng định kỳ, đặc biệt nền chuồng, hành lang, máng uống.",
+    "Kiểm soát chuột/ruồi và nguồn nước uống.",
+    "Tránh đổi cám đột ngột; giảm stress khi cai sữa/ghép đàn.",
+    "Tiêm phòng Salmonella theo chương trình thú y (nếu trại có triển khai)."
   ],
+
   "notes": [
-    "Salmonella có thể tồn tại lâu trong môi trường ẩm bẩn.",
-    "Các đợt tiêu chảy kéo dài, sốt và gầy nhanh trong đàn cần nghĩ đến Salmonella."
+    "Dễ nhầm với E. coli nếu chỉ nhìn tiêu chảy. Gợi ý Salmonella: sốt rõ, phân hôi mạnh, có thể lẫn nhầy/máu và có xu hướng tụt nhanh.",
+    "Salmonella có nguy cơ liên quan an toàn thực phẩm; cần vệ sinh và kiểm soát phân thải nghiêm."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

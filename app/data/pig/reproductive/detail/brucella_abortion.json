@@ -3,17 +3,18 @@
   "name": "Sảy thai truyền nhiễm (Brucella)",
   "species": "pig",
   "group": "reproductive",
-  "summary": "Brucella gây sảy thai cuối kỳ, thai chết lưu, dịch tiết hôi và nái suy kiệt dần. Bệnh rất dễ lây trong đàn.",
+  "summary": "Sảy thai truyền nhiễm do Brucella ở heo là bệnh truyền nhiễm nguy hiểm do vi khuẩn Brucella suis gây ra. Bệnh làm heo nái sảy thai hàng loạt, viêm tử cung, giảm khả năng sinh sản và rất khó kiểm soát. Đây là bệnh có nguy cơ lây sang người, không khuyến cáo điều trị mà cần loại thải và kiểm soát nghiêm ngặt.",
   "causes": [
-    "Nhiễm vi khuẩn Brucella suis",
-    "Lây qua dịch tiết sinh dục, nhau thai, thai chết",
-    "Chuồng bẩn, không sát trùng sau các ca sảy thai"
+    "Vi khuẩn Brucella suis.",
+    "Lây qua phối giống tự nhiên hoặc tinh nhiễm mầm bệnh.",
+    "Lây qua tiếp xúc với thai sảy, nhau thai, dịch sinh dục.",
+    "Lây qua dụng cụ chăn nuôi, người chăm sóc."
   ],
   "risk_factors": [
-    "Đàn nái đông, giao phối không kiểm soát",
-    "Nhập heo giống không xét nghiệm",
-    "Chuồng ẩm bẩn, nhiều dịch tiết tồn đọng",
-    "Không sát trùng tai chuồng sau ca đẻ"
+    "Phối giống không kiểm soát nguồn tinh.",
+    "Giữ lại heo nái sảy thai để theo dõi.",
+    "Chuồng trại vệ sinh kém.",
+    "Không kiểm tra bệnh sinh sản định kỳ."
   ],
   "clinical_signs_detailed": [
     "Sảy thai cuối kỳ, thai chết lưu",
@@ -24,89 +25,82 @@
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Hơi giảm ăn",
-      "Dịch nhầy ít"
+      "Chậm động dục",
+      "Giảm khả năng phối giống"
     ],
     "moderate": [
-      "Sảy thai lẻ tẻ",
-      "Dịch hôi, nái mệt"
+      "Sảy thai rải rác",
+      "Viêm tử cung"
     ],
     "severe": [
       "Sảy thai hàng loạt",
-      "Nái suy, bỏ ăn",
-      "Heo con theo mẹ yếu hoặc chết"
+      "Ổ dịch trong đàn",
+      "Nguy cơ lây sang người"
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Oxytetracycline"
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": [
+      "Brucella là bệnh vi khuẩn nhưng KHÔNG khuyến cáo điều trị trong chăn nuôi.",
+      "Điều trị kháng sinh không loại bỏ được mầm bệnh và dễ tái phát.",
+      "Giữ heo bệnh trong đàn làm lây lan kéo dài.",
+      "Bệnh có nguy cơ lây sang người khi tiếp xúc trực tiếp.",
+      "Khi nghi ngờ Brucella cần báo thú y và áp dụng biện pháp loại thải."
     ],
-    "alternative_drugs": [
-      "Doxycycline",
-      "Amoxicillin"
-    ],
-    "note_drugs": "Kháng sinh chỉ hỗ trợ giảm nhiễm trùng. Brucella khó trị dứt điểm, cần loại thải heo nhiễm mạn.",
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Ketoprofen"
-        ]
-      },
-      "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
-        "main": "Oresol (điện giải uống)",
-        "alternative": [
-          "electrolyte_mix"
-        ]
-      },
-      "vitamin": {
-        "main": "Vitamin BC",
+        "main": "",
         "alternative": []
       },
-      "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+      "vitamin": {
+        "main": "",
         "alternative": []
       }
     },
     "supportive_care": [
-      "Cách ly ngay nái sảy thai",
-      "Thu gom và xử lý thai, nhau đúng cách",
-      "Sát trùng chuồng nhiều lần",
-      "Theo dõi các nái khác trong ô"
+      "Cách ly ngay heo nghi nhiễm.",
+      "Thu gom và tiêu hủy thai sảy, nhau thai đúng quy định.",
+      "Khử trùng chuồng trại, dụng cụ, khu phối giống.",
+      "Trang bị bảo hộ cho người xử lý.",
+      "Loại thải heo nhiễm khỏi đàn."
     ],
-    "dose_policy": "Dùng theo hướng dẫn trên nhãn hoặc tư vấn thú y."
+    "dose_policy": "Không áp dụng vì không khuyến cáo điều trị."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Nái sảy thai nhưng còn ăn và đứng vững.",
+      "description": "Sảy thai đơn lẻ, chưa xác định nguyên nhân.",
       "guideline": [
-        "Kháng sinh hỗ trợ",
-        "Sát trùng tai chuồng",
-        "Theo dõi dịch tiết 3 ngày"
+        "Cách ly heo nái",
+        "Theo dõi các ca sảy tiếp theo",
+        "Lấy mẫu xét nghiệm khi cần"
       ]
     },
     "case_type_2": {
-      "description": "Nái sốt, bỏ ăn, dịch hôi nhiều.",
+      "description": "Nhiều heo nái sảy thai trong thời gian ngắn.",
       "guideline": [
-        "Điều trị hỗ trợ tích cực",
-        "Cách ly xa đàn",
-        "Cân nhắc loại thải nếu nghi nhiễm mạn"
+        "Xác định ổ dịch nghi Brucella",
+        "Ngừng phối giống",
+        "Báo thú y địa phương",
+        "Thực hiện loại thải theo hướng dẫn"
       ]
     },
-    "note": "Brucella là bệnh nguy hiểm, cần báo thú y địa phương nếu bùng phát."
+    "note": "Brucella là bệnh phải kiểm soát ở cấp đàn, không xử lý đơn lẻ."
   },
   "prevention": [
-    "Nhập giống có xét nghiệm âm tính",
-    "Sát trùng chuồng đẻ thường xuyên",
-    "Không dùng chung dụng cụ sinh sản cho nhiều nái"
+    "Kiểm soát chặt nguồn tinh và con giống.",
+    "Không phối giống tự nhiên không kiểm soát.",
+    "Cách ly heo mới nhập.",
+    "Vệ sinh và sát trùng khu sinh sản.",
+    "Theo dõi và ghi chép sảy thai trong đàn."
   ],
   "notes": [
-    "Bệnh có nguy cơ lây sang người, cần dùng đồ bảo hộ.",
-    "Nếu sảy thai lặp lại nhiều lần, nên loại nái."
+    "Brucella là bệnh lây sang người, đặc biệt nguy hiểm cho người trực tiếp xử lý.",
+    "Không nên cố giữ heo bệnh vì thiệt hại lâu dài lớn hơn."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

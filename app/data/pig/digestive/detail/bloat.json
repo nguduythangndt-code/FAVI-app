@@ -6,18 +6,20 @@
   "summary": "Heo bị đầy hơi, chướng bụng do ăn quá nhiều, thức ăn khó tiêu hoặc lên men. Heo khó chịu, thở nhanh và có thể chết nếu xoắn ruột hoặc chèn ép hô hấp.",
   "causes": [
     "Ăn quá nhiều trong thời gian ngắn",
-    "Thức ăn lên men, ôi thiu, nhiều tinh bột",
+    "Thức ăn khó tiêu, nhiều tinh bột, dễ lên men.",
+    "Thức ăn ôi thiu, mốc nhẹ.",
     "Thay đổi khẩu phần đột ngột",
     "Hạn chế vận động, nền chuồng trơn"
   ],
   "risk_factors": [
     "Thức ăn không ổn định giữa các bữa",
+    "Heo đói lâu rồi ăn dồn.",
     "Cho ăn dồn cục, không chia bữa",
     "Thức ăn có độ lên men cao",
     "Chuồng nóng đột ngột làm giảm vận động"
   ],
   "clinical_signs_detailed": [
-    "Bụng căng phồng, gõ vào có tiếng vang",
+    "Bụng trướng to, sờ căng.",
     "Heo ít vận động, đi lại khó khăn",
     "Thở nhanh hoặc thở nông",
     "Nằm nghiêng nhiều, khó đứng",
@@ -46,47 +48,55 @@
       "Simethicone"
     ],
     "alternative_drugs": [
-      "Vitamin B1",
-      "Enzyme tiêu hoá"
+      "Dimethicone"
     ],
-    "note_drugs": "Simethicone giúp giảm đầy hơi. Vitamin B1 và men tiêu hoá hỗ trợ phục hồi nhu động ruột.",
-    "symptomatic_treatment": {
+    "note_drugs": [
+      "Ưu tiên thuốc chống tạo bọt/giảm bọt hơi (Simethicone/Dimethicone) + dầu paraffin để giảm lên men và giúp đẩy hơi/giảm chướng.",
+      "Than hoạt tính phù hợp khi nghi ăn phải thức ăn hỏng/độc tố đường ruột hoặc phân cực hôi; dùng như hỗ trợ, không thay thế xử lý trướng nặng.",
+      "Sodium bicarbonate chỉ cân nhắc khi nghi rối loạn tiêu hoá kiểu 'toan dạ dày'/khó tiêu; không dùng bừa mọi ca vì có thể làm rối thêm tiêu hoá nếu dùng sai tình huống.",
+      "Không ép ăn thêm. Ngưng cám tạm thời, theo dõi bụng và nhịp thở. Heo trướng nặng mà vẫn nhồi ăn dễ tụt rất nhanh.",
+      "Không tự ý dùng thuốc an thần/thuốc làm giảm nhu động ruột khi heo đang trướng và khó thở.",
+      "Nếu bụng trướng tăng nhanh, heo thở gấp rõ, nằm lăn/đau dữ: coi như cấp cứu — cần thú y can thiệp ngay (đặc biệt nguy cơ dãn/xoắn dạ dày).",
+      "Luôn dùng thuốc theo tư vấn thú y và theo nhãn."
+    ],
+     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": [
-          "Ketoprofen",
-          "Meloxicam"
-        ]
-      },
-      "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": [
-          "Ambroxol"
+          "Meloxicam",
+          "Flunixin"
         ]
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Glucose"
         ]
       },
       "vitamin": {
         "main": "Vitamin BC",
         "alternative": [
-          "Multivitamin tổng hợp"
+          "Vitamin C"
         ]
       },
-      "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": []
+     "digestive_support": {
+        "main": [
+          "Probiotic (men vi sinh)",
+          "Dầu paraffin"
+        ],
+        "alternative": [
+          "Enzyme tiêu hoá",
+          "Than hoạt tính (giải độc tiêu hoá)"
+        ]
       }
     },
     "supportive_care": [
       "Cho heo đi lại nhẹ để xì hơi tự nhiên",
       "Không cho ăn thêm đến khi bụng xẹp",
       "Giữ chuồng thoáng, giảm stress",
-      "Theo dõi phân xem có tắc nghẽn"
+      "Bổ sung nước và điện giải.",
+      "Theo dõi phân xem có tắc nghẽn",
+      "Điều chỉnh lại khẩu phần sau khi ổn định."
     ],
     "dose_policy": "Dùng theo liều trên nhãn hoặc theo tư vấn thú y."
   },

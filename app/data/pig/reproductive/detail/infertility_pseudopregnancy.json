@@ -3,7 +3,7 @@
   "name": "Vô sinh - chửa giả",
   "species": "pig",
   "group": "reproductive",
-  "summary": "Vô sinh - chửa giả là tình trạng nái phối nhiều lần không đậu thai hoặc có biểu hiện giống chửa nhưng sau đó lại lên giống lại, gây mất thời gian và chi phí phối giống.",
+  "summary": "Vô sinh và chửa giả là rối loạn sinh sản ở heo nái, trong đó nái không mang thai thật nhưng vẫn có biểu hiện giống mang thai hoặc không đậu thai kéo dài. Đây là tình trạng liên quan đến hormone, thể trạng và quản lý, không phải bệnh truyền nhiễm.",
   "causes": [
     "Phối giống sai thời điểm động dục",
     "Chất lượng tinh kém hoặc đực giống yếu",
@@ -42,21 +42,25 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Hormone GnRH",
-      "PGF2 alpha (thuốc giò động dục)"
+      
     ],
     "alternative_drugs": [
-      "Vitamin E - Selenium",
-      "Khoáng sinh sản"
+      
     ],
-    "note_drugs": "Các phác đồ dùng GnRH hoặc PGF2 alpha cần có thú y chỉ định và theo dõi. Vitamin E - Selenium và khoáng sinh sản giúp hỗ trợ nền sinh sản.",
+   "note_drugs": [
+      "Vô sinh và chửa giả KHÔNG phải bệnh nhiễm trùng.",
+      "KHÔNG dùng kháng sinh nếu không có viêm tử cung.",
+      "Ưu tiên kiểm tra và điều chỉnh quản lý, dinh dưỡng, phối giống.",
+      "Chỉ can thiệp hormone khi đã loại trừ nguyên nhân quản lý.",
+      "Dùng hormone cần có tư vấn thú y."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
@@ -64,8 +68,8 @@
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin ADE",
+        "alternative": [ "Vitamin E + Selenium"]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",

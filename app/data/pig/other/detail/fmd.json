@@ -1,95 +1,124 @@
 {
+  "id": "foot_and_mouth_disease",
   "name": "Lở mồm long móng (FMD)",
-  "summary": "Bệnh virus gây mụn nước ở miệng - chân, sốt, bỏ ăn; lây rất nhanh.",
+  "species": "pig",
+  "group": "other",
+  "summary": "Lở mồm long móng (FMD) là bệnh truyền nhiễm do virus gây ra, lây lan rất nhanh trong đàn heo. Bệnh đặc trưng bởi các mụn nước và vết loét ở miệng, chân, móng, gây đau, giảm ăn và giảm tăng trọng. FMD không có thuốc điều trị đặc hiệu, việc xử lý chủ yếu là điều trị hỗ trợ, kiểm soát bội nhiễm và phòng dịch.",
   "causes": [
-    "Virus FMDV lây qua tiếp xúc, gió, dụng cụ, người",
-    "Bùng phát mạnh khi đàn chưa miễn dịch"
+    "Virus Lở mồm long móng (Foot-and-mouth disease virus).",
+    "Lây qua tiếp xúc trực tiếp giữa heo bệnh và heo khỏe.",
+    "Lây qua không khí ở khoảng cách ngắn.",
+    "Lây qua người, phương tiện, dụng cụ chăn nuôi.",
+    "Lây qua thức ăn, nước uống nhiễm mầm bệnh."
   ],
   "risk_factors": [
-    "Chưa tiêm phòng FMD",
-    "Mật độ cao",
-    "Thời tiết ẩm lạnh"
+    "Heo chưa được tiêm phòng FMD.",
+    "Chuồng trại ẩm, vệ sinh kém.",
+    "Mật độ nuôi cao.",
+    "Thời tiết lạnh, ẩm, thay đổi đột ngột.",
+    "Di chuyển, mua bán heo không kiểm soát."
   ],
   "clinical_signs_detailed": [
-    "Sốt, bỏ ăn",
-    "Chảy nước dãi, lở loét miệng",
-    "Mụn nước ở kẽ móng, đi cà nhắc",
-    "Nằm nhiều, đau chân",
-    "Heo con có thể chết nhanh do viêm cơ tim"
+    "Sốt cao đột ngột.",
+    "Xuất hiện mụn nước ở miệng, lưỡi, lợi.",
+    "Chảy nước dãi nhiều, khó ăn.",
+    "Mụn nước, vết loét ở móng và kẽ móng.",
+    "Đi khập khiễng, nằm nhiều.",
+    "Heo con có thể chết do suy kiệt."
   ],
   "clinical_signs_by_stage": {
     "mild": [
       "Sốt nhẹ",
-      "Ăn giảm, chảy dãi"
+      "Ăn giảm",
+      "Mụn nước nhỏ"
     ],
     "moderate": [
       "Loét miệng rõ",
-      "Đi khập khiễng"
+      "Đi lại khó",
+      "Chảy dãi nhiều"
     ],
     "severe": [
-      "Nhiễm trùng vết loét",
-      "Heo con chết nhanh"
+      "Loét nặng, bội nhiễm",
+      "Bong móng",
+      "Suy kiệt, chết"
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Povidone-iodine",
-      "Oxytetracycline"
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": [
+      "FMD là bệnh do virus, KHÔNG có thuốc điều trị đặc hiệu.",
+      "KHÔNG dùng kháng sinh để điều trị virus FMD.",
+      "Kháng sinh chỉ dùng khi có dấu hiệu bội nhiễm vết loét (mủ, sưng nóng, hôi).",
+      "Điều trị chủ yếu nhằm giảm đau, chống nhiễm trùng kế phát và hỗ trợ hồi phục.",
+      "Không giữ heo bệnh kéo dài khi dịch lan nhanh."
     ],
-    "alternative_drugs": [
-      "Meloxicam",
-      "Vitamin C",
-      "Vitamin BC"
-    ],
-    "note_drugs": "Không có thuốc diệt FMDV. Povidone-iodine sát trùng vết loét; kháng sinh chỉ để chống bội nhiễm.",
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
-        "alternative": []
+        "alternative": [
+          "Flunixin",
+          "Ketoprofen"
+        ]
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
         "alternative": [
           "Vitamin BC"
         ]
+      },
+      "digestive_support": {
+        "main": [
+          "Probiotic (men vi sinh)"
+        ],
+        "alternative": []
       }
     },
     "supportive_care": [
-      "Cho ăn mềm dễ nuốt",
-      "Giữ nền khô, tránh trơn",
-      "Cách ly, sát trùng chuồng hằng ngày"
+      "Cách ly ngay heo bệnh.",
+      "Vệ sinh và sát trùng vết loét miệng, móng.",
+      "Giữ nền chuồng khô, mềm, tránh trơn trượt.",
+      "Cho ăn thức ăn mềm, dễ tiêu.",
+      "Giảm stress, hạn chế di chuyển đàn.",
+      "Sát trùng chuồng trại, lối đi hằng ngày."
     ],
-    "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "FMD không có thuốc đặc trị. Thuốc hỗ trợ chỉ nhằm giảm đau, giảm bội nhiễm và giúp heo hồi phục."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Loét miệng nặng",
+      "description": "Heo loét miệng, đi lại khó nhưng vẫn ăn được.",
       "guideline": [
-        "Sát trùng miệng hằng ngày",
-        "Trợ sức mạnh"
+        "Điều trị hỗ trợ sớm",
+        "Chăm sóc vết loét",
+        "Theo dõi bội nhiễm"
       ]
     },
     "case_type_2": {
-      "description": "Heo con yếu nhanh",
+      "description": "Loét nặng, bong móng, suy kiệt.",
       "guideline": [
-        "Giữ ấm",
-        "Bù điện giải",
-        "Báo thú y"
+        "Kiểm soát dịch chặt chẽ",
+        "Xem xét loại thải cá thể nặng",
+        "Báo thú y để xử lý ổ dịch"
       ]
     },
-    "note": "Cần báo thú y khi nghi FMD."
+    "note": "Bội nhiễm là nguyên nhân chính làm tăng tỷ lệ chết trong FMD."
   },
-  "prevention_list": [
-    "Tiêm phòng FMD",
-    "Cách ly đàn bệnh",
-    "Vệ sinh sát trùng định kỳ"
+  "prevention": [
+    "Tiêm phòng vắc xin FMD định kỳ.",
+    "Kiểm soát người và phương tiện ra vào trại.",
+    "Sát trùng chuồng trại thường xuyên.",
+    "Cách ly heo mới nhập.",
+    "Phát hiện sớm và xử lý nhanh khi có dấu hiệu bệnh."
   ],
   "notes": [
-    "Không vận chuyển bán chạy khi đang dịch."
+    "FMD dễ nhầm với viêm miệng thông thường ở giai đoạn đầu.",
+    "Tiêm phòng đầy đủ là biện pháp phòng bệnh hiệu quả nhất."
   ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Xử lý dịch bắt buộc theo hướng dẫn thú y."
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

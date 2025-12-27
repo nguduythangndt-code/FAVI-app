@@ -3,13 +3,15 @@
   "name": "Viêm phổi do Streptococcus",
   "species": "pig",
   "group": "respiratory",
-  "summary": "Streptococcus có thể gây viêm phổi, sốt và suy nhanh, nhất là trên heo con và heo cai sữa, thường đi kèm nhiễm trùng máu hoặc viêm khớp.",
+  "summary": "Viêm phổi do Streptococcus, thường gặp nhất là Streptococcus suis, là bệnh vi khuẩn nguy hiểm ở heo. Ngoài viêm phổi, vi khuẩn có thể gây nhiễm trùng huyết và viêm não, làm heo chết nhanh nếu không điều trị kịp thời.",
   "causes": [
     "Nhiễm Streptococcus suis hoặc các chủng Streptococcus khác",
-    "Lây qua đường hô hấp hoặc vết xây xát",
+    "Lây qua đường hô hấp, vết thương, hoặc tiếp xúc trực tiếp.",
     "Chuồng ẩm bẩn, heo stress"
   ],
   "risk_factors": [
+    "Heo sau cai sữa.",
+    "Stress, vận chuyển, trộn đàn.",
     "Thay đổi nhiệt độ đột ngột",
     "Chuồng ẩm, nền ướt",
     "Mật độ cao, ít thông thoáng",
@@ -48,7 +50,13 @@
       "Penicillin",
       "Florfenicol"
     ],
-    "note_drugs": "Ceftiofur và Amoxicillin phù hợp trong các ca viêm phổi do Streptococcus. Penicillin vẫn còn giá trị nếu dùng đúng.",
+    "note_drugs": [
+      "Streptococcus là vi khuẩn nhạy với kháng sinh nếu điều trị sớm.",
+      "Cần dùng kháng sinh đủ liều và đủ thời gian.",
+      "Khi có dấu hiệu thần kinh, tiên lượng rất xấu.",
+      "Kháng viêm giúp giảm sốt và viêm não.",
+      "Không điều trị sớm dễ chết nhanh."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -65,7 +73,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
@@ -77,7 +85,7 @@
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },

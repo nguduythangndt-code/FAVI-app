@@ -6,7 +6,7 @@
   { "id": "vitamin_e_selenium",      "name": "Vitamin E - Selenium" },
   { "id": "b1",                      "name": "Vitamin B1" },
   { "id": "b12",                     "name": "Vitamin B12" },
-    { "id": "vitamin_k", "name": "Vitamin K" },
+    { "id": "vitamin_k",              "name": "Vitamin K" },
 
 
   { "id": "choline_chloride",        "name": "Choline chloride" },

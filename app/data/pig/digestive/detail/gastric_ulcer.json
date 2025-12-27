@@ -3,18 +3,21 @@
   "name": "Viêm dạ dày loét",
   "species": "pig",
   "group": "digestive",
-  "summary": "Viêm loét dạ dày làm heo đau bụng, ăn kém, nôn có bọt trắng và gầy nhanh. Heo nái và heo thịt nuôi công nghiệp dễ mắc.",
+   "summary": "Viêm dạ dày loét là tình trạng tổn thương niêm mạc dạ dày, thường gặp ở heo thịt nuôi tăng trọng nhanh. Bệnh tiến triển âm thầm, heo ăn giảm, chậm lớn; trường hợp nặng có thể xuất huyết dạ dày và chết đột ngột.",
+
   "causes": [
-    "Khẩu phần nhiều tinh bột, ít xơ",
-    "Stress kéo dài",
-    "Ăn thất thường hoặc bỏ bữa",
-    "Thức ăn quá mịn hoặc nhiều axit"
+    "Khẩu phần cám quá mịn, nhiều tinh bột làm tăng kích ứng dạ dày.",
+    "Stress kéo dài (mật độ cao, nóng bức, ghép đàn, vận chuyển).",
+    "Thiếu chất xơ, thời gian đói dài rồi ăn bù.",
+    "Một số trường hợp liên quan viêm dạ dày mạn tính/vi khuẩn cơ hội theo tình hình trại."
   ],
+
   "risk_factors": [
-    "Nái nuôi công nghiệp",
-    "Heo thịt ăn khẩu phần nhiều tinh bột",
-    "Chuồng nóng, nhiều tiếng ồn",
-    "Thức ăn mịn như bột"
+    "Heo thịt tăng trọng nhanh, ăn khẩu phần đậm đặc.",
+    "Cám xay mịn, ít xơ.",
+    "Cho ăn không đều bữa, để đói rồi ăn bù.",
+    "Nóng bức, chuồng bí, mật độ cao.",
+    "Dùng thuốc giảm đau/kháng viêm kéo dài không đúng chỉ định."
   ],
   "clinical_signs_detailed": [
     "Ăn giảm hoặc bỏ ăn",
@@ -43,72 +46,85 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Omeprazole"
+      "Pectin - Kaolin"
     ],
     "alternative_drugs": [
-      "Sucralfate"
+      ""
     ],
-    "note_drugs": "Omeprazole làm giảm acid dạ dày. Sucralfate giúp bảo vệ niêm mạc bị tổn thương.",
-    "symptomatic_treatment": {
+     "note_drugs": [
+      "Viêm dạ dày loét là bệnh tiến triển âm thầm, không phải nhiễm trùng.",
+      "Không dùng kháng sinh nếu không có dấu hiệu nhiễm khuẩn kế phát.",
+      "Hiệu quả điều trị phụ thuộc nhiều vào điều chỉnh khẩu phần.",
+      "Xử lý sớm giúp giảm nguy cơ xuất huyết và chết đột ngột."
+    ],
+
+     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Meloxicam",
-        "alternative": [
-          "Ketoprofen"
-        ]
+        "main": "",
+        "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Pectin - Kaolin",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)",
+          "Enzyme tiêu hoá",
+          "Than hoạt tính (giải độc tiêu hoá)"
         ]
       }
     },
+
     "supportive_care": [
-      "Chia nhỏ khẩu phần ăn",
-      "Tránh thức ăn mịn quá mức",
-      "Giữ chuồng mát, giảm stress tối đa",
-      "Cung cấp nước sạch liên tục"
+      "Cho ăn đều bữa, tránh để đói rồi ăn bù.",
+      "Giảm cám xay quá mịn; tăng xơ thô vừa phải theo điều kiện trại.",
+      "Giữ chuồng thoáng, giảm nóng bức và giảm stress ghép đàn.",
+      "Theo dõi phân (màu đen, sẫm), thể trạng và mức ăn hằng ngày.",
+      "Loại bỏ yếu tố kích ứng: cám mốc/ô i thiu, nước bẩn."
     ],
-    "dose_policy": "Dùng theo nhãn hoặc hướng dẫn thú y."
+    "dose_policy": "Dùng thuốc theo hướng dẫn nhãn hoặc tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo ói nhiều, nhưng còn ăn lại ít.",
+      "description": "Heo ăn thất thường, chậm lớn nhưng chưa có dấu chảy máu tiêu hoá rõ.",
       "guideline": [
-        "Dùng Omeprazole sớm",
-        "Điện giải đều trong ngày",
-        "Theo dõi phân xem có đen hoặc lẫn máu"
+        "Ưu tiên chỉnh khẩu phần và cách cho ăn (đều bữa, giảm cám quá mịn, tăng xơ).",
+        "Hỗ trợ bảo vệ niêm mạc (Pectin - Kaolin).",
+        "Theo dõi phân và thể trạng trong vài ngày."
       ]
     },
     "case_type_2": {
-      "description": "Heo suy, ói liên tục, phân đen nhiều.",
+      "description": "Nghi xuất huyết tiêu hoá: phân đen, heo nhợt/thiếu máu, yếu nhanh hoặc có ca chết đột tử.",
       "guideline": [
         "Giữ ấm, hạn chế vận động",
         "Bù nước và vitamin",
+        "Hỗ trợ cầm máu và bảo vệ dạ dày.",
         "Tham khảo thú y khi nghi ngờ xuất huyết nặng"
       ]
     },
-    "note": "Xuất huyết dạ dày có thể gây chết nhanh."
+    "note": "Viêm dạ dày loét thường không biểu hiện rầm rộ. Phát hiện muộn có thể gây chết đột ngột, đặc biệt ở heo tăng trọng nhanh."
   },
   "prevention": [
-    "Không cho heo nhịn đói lâu",
-    "Hạn chế thức ăn quá mịn",
-    "Bổ sung xơ thô trong khẩu phần",
-    "Giảm stress trong chuồng"
+    "Tránh cám xay quá mịn kéo dài; tăng xơ theo điều kiện trại.",
+    "Cho ăn đều bữa, tránh đói rồi ăn bù.",
+    "Giảm stress: mật độ hợp lý, chuồng thoáng mát.",
+    "Không lạm dụng thuốc giảm đau/kháng viêm.",
+    "Kiểm soát chất lượng cám và nước uống."
   ],
   "notes": [
     "Thường gặp ở nái nuôi công nghiệp.",

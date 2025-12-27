@@ -3,26 +3,28 @@
   "name": "Ngộ độc thức ăn",
   "species": "pig",
   "group": "digestive",
-  "summary": "Ngộ độc thức ăn xảy ra khi heo ăn phải thức ăn mốc, ôi thiu hoặc bị nhiễm độc. Heo tiêu chảy, ói, yếu nhanh và có thể chết nếu nặng.",
+  "summary": "Ngộ độc thức ăn là tình trạng heo bị rối loạn tiêu hoá hoặc nhiễm độc sau khi ăn phải thức ăn ôi thiu, mốc, lên men hỏng, nước bẩn hoặc ăn nhầm chất lạ. Biểu hiện có thể từ tiêu chảy – nôn ói – bỏ ăn đến yếu nhanh, run, khó thở. Xử lý trọng tâm là ngừng nguồn độc, hấp phụ/giải độc trong ruột, bù nước – điện giải và theo dõi dấu hiệu nặng để gọi thú y sớm.",
+
   "causes": [
-    "Thức ăn mốc chứa độc tố nấm (aflatoxin, fumonisin)",
-    "Thức ăn ôi thiu hoặc nhiễm khuẩn",
-    "Nước uống bị nhiễm bẩn hoặc tảo độc",
-    "Heo ăn phải chất tẩy rửa hoặc hóa chất do lẫn trong máng"
+    "Thức ăn mốc/ôi thiu, cám bảo quản kém sinh độc tố (mycotoxin).",
+    "Thức ăn lên men hỏng, dư thừa bị chua thối.",
+    "Nước uống bẩn, nhiễm phân hoặc hóa chất.",
+    "Ăn nhầm thuốc/hoá chất (trộn nhầm, dụng cụ chứa).",
+    "Ăn phải cây cỏ/chất lạ gây kích ứng tiêu hoá."
   ],
-  "risk_factors": [
-    "Thức ăn bảo quản kém",
-    "Kho chứa ẩm, có chuột",
-    "Không kiểm soát nguồn nước uống",
-    "Dùng thức ăn cũ còn sót từ hôm trước"
+   "risk_factors": [
+    "Kho cám ẩm, cám để lâu, nền kho nóng ẩm.",
+    "Cho ăn cám thừa qua ngày, máng bẩn.",
+    "Nguồn nước không kiểm soát, máng uống bẩn.",
+    "Đổi lô cám mới nhưng không kiểm tra mùi/mốc.",
+    "Heo con/sau cai sữa (ruột nhạy cảm)."
   ],
-  "clinical_signs_detailed": [
-    "Tiêu chảy nước hoặc phân thối",
-    "Nôn ói sau khi ăn",
-    "Heo mệt nhiều, đứng không vững",
-    "Thở nhanh, mắt lờ đờ",
-    "Có thể co giật nếu ngộ độc nặng",
-    "Một số con chết đột ngột"
+   "clinical_signs_detailed": [
+    "Bỏ ăn đột ngột, mệt, lờ đờ.",
+    "Tiêu chảy cấp, phân hôi; có thể có nhớt.",
+    "Nôn ói hoặc buồn nôn (tuỳ trường hợp).",
+    "Bụng sôi, đau bụng, có thể đầy hơi.",
+    "run, yếu nhanh, thở gấp hoặc chết nếu độc tố mạnh."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -41,44 +43,57 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Vitamin B1",
-      "Enzyme tiêu hoá"
     ],
     "alternative_drugs": [
-      "Than hoạt tính (giải độc tiêu hoá)"
     ],
-    "note_drugs": "Vitamin B1 hỗ trợ thần kinh và gan. Than hoạt tính giúp hấp phụ độc tố nếu cho dùng sớm.",
+    "note_drugs": [
+      "Bước 1 là ngừng ngay nguồn nghi ngờ: cám/nguồn nước. Thay bằng nước sạch và khẩu phần dễ tiêu.",
+      "Than hoạt tính là lựa chọn ưu tiên để hấp phụ độc tố trong đường ruột (hiệu quả nhất khi dùng sớm sau khi ăn phải thức ăn hỏng).",
+      "Bù nước – điện giải (Oresol) là bắt buộc khi có tiêu chảy/nôn: nhiều ca chết vì mất nước nhanh chứ không phải vì tiêu chảy đơn thuần.",
+      "Glucose giúp hỗ trợ năng lượng khi heo tụt lực, nhất là heo con/sau cai sữa.",
+      "Pectin - Kaolin giúp bảo vệ niêm mạc ruột và làm phân đỡ ‘tóe’; Probiotic/Enzyme tiêu hoá giúp ruột hồi phục sau đợt rối loạn.",
+      "Sodium bicarbonate chỉ cân nhắc khi nghi rối loạn tiêu hoá kiểu ‘toan dạ dày’/chua bụng; không dùng bừa mọi ca vì có thể làm rối thêm nếu dùng sai tình huống.",
+      "Kháng sinh không phải ưu tiên của ngộ độc thức ăn. Chỉ cân nhắc khi nghi viêm ruột nhiễm khuẩn thứ phát (sốt rõ, phân thối bất thường kéo dài, xuống nhanh) và cần thú y quyết định.",
+      "Nếu heo có dấu thần kinh (run mạnh, co giật), thở gấp, nằm bệt hoặc chết nhanh: coi như ca nặng — gọi thú y ngay."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Ketoprofen"
+        "main": "",
+        "alternative": [ "Paracetamol",
+          "Meloxicam"
+          
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin Bc",
+        "alternative": ["Vitamin C"]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": []
+        "main": "Than hoạt tính (giải độc tiêu hoá)",
+        "alternative": [
+          "Pectin - Kaolin",
+          "Probiotic (men vi sinh)",
+          "Enzyme tiêu hoá"
+        ]
       }
     },
     "supportive_care": [
-      "Ngừng ngay thức ăn nghi ngờ",
-      "Cho uống nhiều nước sạch",
-      "Giữ heo nơi thoáng và mát",
-      "Theo dõi dấu hiệu thần kinh"
+      "Cách ly heo bệnh, quan sát con yếu trước.",
+      "Giữ chuồng thoáng, mát; tránh nóng bức làm heo tụt nhanh.",
+      "Vệ sinh máng ăn uống; bỏ toàn bộ thức ăn thừa, kiểm tra mùi/mốc lô cám.",
+      "Cho uống điện giải nhiều lần trong ngày; ưu tiên con yếu.",
+      "Khi ổn lại: cho ăn lại từ từ, chia nhỏ bữa, ưu tiên khẩu phần dễ tiêu."
     ],
     "dose_policy": "Dùng đúng theo nhãn hoặc hướng dẫn thú y."
   },
@@ -86,26 +101,30 @@
     "case_type_1": {
       "description": "Heo nôn nhẹ, tiêu chảy nhưng còn tỉnh.",
       "guideline": [
-        "Cho uống than hoạt tính sớm",
-        "Điện giải thường xuyên",
-        "Theo dõi 1-2 ngày"
+        "Ngừng ngay cám nghi ngờ, thay nước sạch.",
+        "Than hoạt tính càng sớm càng tốt.",
+        "Điện giải (Oresol) + hỗ trợ năng lượng (Glucose) nếu tụt.",
+        "Hỗ trợ ruột (Pectin - Kaolin/Probiotic) và theo dõi sát."
       ]
     },
     "case_type_2": {
-      "description": "Nôn dữ dội, tiêu chảy nước, co giật nhẹ.",
-      "guideline": [
-        "Giữ heo tránh ngã",
-        "Bù nước lập tức",
-        "Liên hệ thú y nếu xuất hiện co giật hoặc thở yếu"
-      ]
-    },
-    "note": "Nếu nhiều con cùng triệu chứng sau bữa ăn, cần kiểm tra toàn bộ thức ăn và nước uống."
+  "description": "Nôn dữ dội, tiêu chảy nước, co giật nhẹ.",
+  "guideline": [
+    "Giữ heo ở tư thế an toàn, tránh ngã và va đập.",
+    "Hỗ trợ bù nước khẩn cấp để tránh mất nước nặng.",
+    "Liên hệ thú y để đánh giá và can thiệp truyền dịch khi cần.",
+    "Theo dõi sát nhịp thở và phản xạ thần kinh."
+  ]
+},
+    "note": "Ngộ độc thức ăn thường gây bệnh đồng loạt và diễn biến nhanh. Phát hiện sớm và loại bỏ nguồn độc là yếu tố quyết định."
   },
+
   "prevention": [
-    "Bảo quản thức ăn khô ráo",
-    "Không dùng thức ăn mốc hoặc có mùi lạ",
-    "Không dùng nước ao tù cho heo uống",
-    "Vệ sinh máng ăn uống trước bữa"
+    "Bảo quản cám khô, thoáng; không dùng cám mốc/ôi thiu.",
+    "Không cho ăn cám thừa qua ngày; vệ sinh máng ăn uống hằng ngày.",
+    "Kiểm soát nguồn nước sạch, định kỳ vệ sinh máng uống.",
+    "Kiểm tra lô cám mới: mùi, màu, dấu mốc trước khi cho ăn.",
+    "Quản lý kho và dụng cụ trộn cám để tránh lẫn hoá chất/thuốc."
   ],
   "notes": [
     "Ngộ độc nhẹ thường hồi phục nhanh khi đổi nguồn thức ăn.",

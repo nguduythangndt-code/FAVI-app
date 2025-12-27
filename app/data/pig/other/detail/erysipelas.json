@@ -1,84 +1,119 @@
 {
+  "id": "erysipelas",
   "name": "Đóng dấu lợn (Erysipelas)",
-  "summary": "Bệnh nhiễm khuẩn gây sốt cao, mảng da hình thoi, viêm khớp và chết đột ngột.",
+  "species": "pig",
+  "group": "other",
+  "summary": "Đóng dấu lợn (Erysipelas) là bệnh truyền nhiễm do vi khuẩn Erysipelothrix rhusiopathiae gây ra. Bệnh thường biểu hiện bằng sốt cao và các mảng đỏ hình thoi trên da. Nếu phát hiện sớm và điều trị đúng kháng sinh, heo có thể hồi phục tốt.",
   "causes": [
-    "Vi khuẩn Erysipelothrix rhusiopathiae"
+    "Vi khuẩn Erysipelothrix rhusiopathiae.",
+    "Lây qua tiếp xúc trực tiếp với heo bệnh.",
+    "Lây qua môi trường, nền chuồng, nước uống nhiễm khuẩn.",
+    "Vi khuẩn tồn tại lâu trong chuồng trại ẩm bẩn."
   ],
   "risk_factors": [
-    "Nền chuồng bẩn ẩm",
-    "Chưa tiêm phòng",
-    "Stress vận chuyển"
+    "Chuồng trại ẩm ướt, vệ sinh kém.",
+    "Heo stress, thay đổi thời tiết đột ngột.",
+    "Heo chưa được tiêm phòng Erysipelas.",
+    "Mật độ nuôi cao."
   ],
   "clinical_signs_detailed": [
-    "Sốt cao, bỏ ăn",
-    "Da đỏ tím từng mảng, hình thoi",
-    "Heo đứng run, yếu",
-    "Khớp đau, đi khập khiễng",
-    "Có thể chết nhanh"
+    "Sốt cao đột ngột.",
+    "Xuất hiện mảng đỏ hình thoi (đóng dấu) trên da.",
+    "Heo bỏ ăn, lờ đờ.",
+    "Đi lại khó, viêm khớp.",
+    "Trường hợp nặng: chết nhanh."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Sốt, ăn giảm"
+      "Sốt nhẹ",
+      "Mảng đỏ da ít",
+      "Ăn giảm"
     ],
     "moderate": [
-      "Mảng đỏ da rõ",
-      "Khớp đau"
+      "Sốt cao",
+      "Đóng dấu rõ trên da",
+      "Đi lại khó"
     ],
     "severe": [
-      "Nằm liệt, khó thở",
-      "Chết do nhiễm trùng huyết"
+      "Nhiễm trùng huyết",
+      "Viêm tim, viêm khớp nặng",
+      "Chết nhanh"
     ]
   },
   "treatment": {
     "primary_drugs": [
-      "Penicillin"
+      "Penicillin",
+      "Amoxicillin"
     ],
     "alternative_drugs": [
       "Ampicillin",
-      "Ceftiofur"
+      "Ceftiofur",
+      "Oxytetracycline"
     ],
-    "note_drugs": "Penicillin là lựa chọn hiệu quả nhất nếu dùng sớm.",
+    "note_drugs": [
+      "Erysipelas là bệnh do vi khuẩn, CẦN dùng kháng sinh sớm.",
+      "Penicillin là lựa chọn ưu tiên vì vi khuẩn rất nhạy cảm.",
+      "Không dùng kháng sinh trễ vì dễ chuyển sang thể nặng.",
+      "Kết hợp kháng viêm để giảm sốt và đau khớp.",
+      "Dùng đủ thời gian theo hướng dẫn để tránh tái phát."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
-        "alternative": []
+        "alternative": [
+          "Flunixin",
+          "Ketoprofen"
+        ]
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
+      "vitamin": {
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
       }
     },
     "supportive_care": [
-      "Cách ly",
-      "Giữ chuồng khô ấm",
-      "Bổ sung nước - điện giải"
+      "Cách ly heo bệnh.",
+      "Giữ chuồng khô, sạch, thoáng.",
+      "Giảm stress, hạn chế vận động mạnh.",
+      "Theo dõi thân nhiệt hằng ngày."
     ],
-    "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "Dùng kháng sinh theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Da đóng dấu lan rộng",
+      "description": "Heo sốt cao, có mảng đỏ da nhưng còn đứng được.",
       "guideline": [
-        "Penicillin sớm",
-        "Kháng viêm hỗ trợ"
+        "Dùng kháng sinh sớm",
+        "Kết hợp thuốc kháng viêm",
+        "Theo dõi 24–48 giờ đầu"
       ]
     },
     "case_type_2": {
-      "description": "Viêm khớp nặng",
+      "description": "Heo viêm khớp nặng, nằm nhiều hoặc chết nhanh.",
       "guideline": [
-        "Kháng sinh kéo đủ liệu trình",
-        "Nền mềm"
+        "Dùng kháng sinh mạnh và đủ thời gian",
+        "Theo dõi biến chứng tim – khớp",
+        "Xem xét loại thải nếu không đáp ứng"
       ]
     },
-    "note": "Nặng có thể để lại viêm khớp mạn."
+    "note": "Thể mạn tính dễ để lại viêm khớp kéo dài."
   },
-  "prevention_list": [
-    "Tiêm phòng đóng dấu",
-    "Vệ sinh định kỳ",
-    "Tránh stress đàn"
+  "prevention": [
+    "Tiêm phòng vắc xin Erysipelas định kỳ.",
+    "Giữ chuồng trại khô sạch.",
+    "Không nuôi mật độ quá cao.",
+    "Xử lý sớm heo có dấu hiệu sốt."
   ],
   "notes": [
-    "Thường gặp ở heo thịt và nái."
+    "Đóng dấu lợn có thể nhầm với CSF ở giai đoạn đầu.",
+    "Mảng đỏ hình thoi là dấu hiệu rất đặc trưng."
   ],
-  "disclaimer": "Ứng dụng chỉ mang tính tham khảo.:"
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

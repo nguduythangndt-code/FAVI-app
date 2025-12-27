@@ -1,89 +1,150 @@
 {
-  "name": "Viêm hồi tràng Lawsonia (Ileitis)",
-  "summary": "Bệnh do Lawsonia gây dày ruột, tiêu chảy kéo dài và tụt tăng trọng.",
+  "id": "edema_disease",
+  "name": "Phù đầu (Edema disease) ở heo",
+  "species": "pig",
+  "group": "digestive",
+
+  "summary": "Phù đầu (Edema disease) là bệnh nguy hiểm do E. coli sinh độc tố, thường gặp ở heo sau cai sữa. Bệnh gây phù mí mắt, phù đầu, rối loạn thần kinh và có thể chết rất nhanh dù trước đó heo vẫn ăn khỏe.",
+
   "causes": [
-    "Lawsonia intracellularis lây qua phân"
+    "Vi khuẩn E. coli sinh độc tố (thường là chủng sinh độc tố Shiga-like).",
+    "Độc tố gây tổn thương mạch máu và phù mô.",
+    "Bệnh không phải do ăn thừa hay ngộ độc đơn thuần.",
+    "Cơ chế bệnh khác với tiêu chảy E. coli thông thường."
   ],
+
   "risk_factors": [
-    "Chuồng dày, trộn đàn",
-    "Stress",
-    "Miễn dịch kém"
+    "Heo sau cai sữa (đặc biệt 1–2 tuần đầu sau cai).",
+    "Đổi cám đột ngột, khẩu phần đậm đặc/ăn quá nhiều sau cai.",
+    "Chuồng lạnh – ẩm, vệ sinh kém, mật độ cao.",
+    "Stress (ghép đàn, vận chuyển), thiếu nước uống.",
+    "Tiền sử tiêu chảy E. coli trong đàn."
   ],
+
   "clinical_signs_detailed": [
-    "Tiêu chảy xám nâu hoặc sẫm",
-    "Heo gầy, nhợt nhạt",
-    "Ăn kém, lớn chậm",
-    "Một số con tiêu chảy máu nhẹ"
+    "Phù mí mắt, phù đầu, phù mặt.",
+    "Heo đi loạng choạng, run, co giật.",
+    "Có thể tiêu chảy nhẹ hoặc không tiêu chảy.",
+    "Heo vẫn ăn hoặc ăn giảm nhẹ trước khi trở nặng.",
+    "Chết đột ngột."
   ],
+
   "clinical_signs_by_stage": {
     "mild": [
-      "Tiêu chảy rải rác",
-      "Lớn chậm"
+      "Phù mí nhẹ.",
+      "Ăn giảm."
     ],
     "moderate": [
-      "Tiêu chảy kéo dài",
-      "Gầy rõ"
+      "Phù đầu rõ.",
+      "Đi loạng choạng.",
+      "Run nhẹ."
     ],
     "severe": [
-      "Tiêu chảy sẫm/máu",
-      "Suy kiệt hoặc chết đột ngột"
+      "Co giật, nằm bệt.",
+      "Phù nặng.",
+      "Chết nhanh."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
-      "Tylosin",
-      "Tiamulin"
+      "Colistin"
     ],
+
     "alternative_drugs": [
-      "Doxycycline",
-      "Lincomycin"
+      "Neomycin"
     ],
-    "note_drugs": "Bệnh đáp ứng nhóm macrolide/pleuromutilin nếu đánh sớm cả ô.",
+
+    "note_drugs": [
+      "Phù đầu là tình huống khẩn: dùng kháng sinh càng sớm càng tăng cơ hội cứu. Chậm vài giờ có thể chết nhanh do độc tố và biến chứng thần kinh.",
+      "Ưu tiên hướng E. coli đường ruột: Colistin hoặc Neomycin là lựa chọn sát mục tiêu. Chọn 1 hướng rõ ràng, tránh 'trộn lung tung'.",
+      "Nếu đàn có biểu hiện rất nặng/ chết nhanh: cần thú y can thiệp ngay để chọn kháng sinh phù hợp theo thực tế trại và mức độ kháng thuốc.",
+      "Không lạm dụng thuốc giảm đau/kháng viêm khi heo đang mất nước hoặc đã yếu nặng. Chỉ cân nhắc khi có sốt/đau rõ và heo còn uống được.",
+      "Trọng tâm song song với kháng sinh là giảm độc tố và ổn ruột: điện giải đều + hỗ trợ tiêu hoá (Probiotic, Pectin - Kaolin).",
+      "Không 'nhồi ăn' lại ngay. Nên giảm khẩu phần, cho ăn lại từ từ để tránh bùng tiếp sau cai.",
+      "Luôn dùng thuốc theo tư vấn thú y và theo nhãn."
+    ],
+
     "symptomatic_treatment": {
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+      "antiinflammatory": {
+        "main": "Flunixin",
+        "alternative": [
+          "Meloxicam",
+          "Paracetamol"
+        ]
+      },
+      "respiratory_support": {
+        "main": "",
         "alternative": []
       },
-      "digestive_support": {
-        "main": "Probiotic",
-        "alternative": []
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": [
+          "Vitamin C"
+        ]
+      },
+      "digestive_support": {
+        "main": "Probiotic (men vi sinh)",
+        "alternative": [
+          "Pectin - Kaolin",
+          "Than hoạt tính (giải độc tiêu hoá)",
+          "Enzyme tiêu hoá"
+        ]
       }
     },
+
     "supportive_care": [
-      "Tách con yếu",
-      "Giảm stress, không trộn đàn",
-      "Nền khô sạch"
+      "Cách ly con bệnh, ưu tiên xử lý con có dấu thần kinh/phù trước.",
+      "Giữ chuồng ấm – khô – yên tĩnh, giảm stress tối đa.",
+      "Bù điện giải nhiều lần trong ngày; ưu tiên con yếu, tránh mất nước âm thầm.",
+      "Giảm/điều chỉnh khẩu phần: tránh cho ăn dồn; cho ăn lại từ từ khi ổn.",
+      "Tăng vệ sinh: dọn phân, vệ sinh máng uống và hạn chế lây chéo qua người/dụng cụ."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+
+    "dose_policy": [
+      "Dùng thuốc theo nhãn hoặc chỉ định thú y."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Tiêu chảy kéo dài, tụt cân",
+      "description": "Heo phù mí, còn đi lại.",
       "guideline": [
-        "Điều trị toàn ô với Tylosin/Tiamulin",
-        "ORS + probiotic"
+        "Can thiệp sớm bằng kháng sinh phù hợp.",
+        "Giảm đạm khẩu phần.",
+        "Theo dõi sát 24 giờ đầu."
       ]
     },
     "case_type_2": {
-      "description": "Tiêu chảy sẫm/máu",
+      "description": "Heo co giật, nằm nhiều, phù nặng.",
       "guideline": [
-        "Kháng sinh mạnh sớm",
-        "Theo dõi mất nước"
+        "Cần thú y can thiệp ngay.",
+        "Điều trị kết hợp hỗ trợ mạnh.",
+        "Tiên lượng xấu."
       ]
     },
-    "note": "Nếu trễ, heo kéo dài kém lớn."
+    "note": "Edema disease có thể gây chết nhanh dù heo trước đó khỏe mạnh. Phát hiện sớm là yếu tố quyết định."
   },
-  "prevention_list": [
-    "All-in/all-out",
-    "Vaccine Lawsonia nếu trại lưu hành",
-    "Giảm stress"
+
+  "prevention": [
+    "Quản lý cai sữa đúng kỹ thuật.",
+    "Không tăng đạm đột ngột sau cai.",
+    "Giữ chuồng sạch, khô.",
+    "Ổn định đàn và giảm stress.",
+    "Tham khảo chương trình vắc xin E. coli nếu có."
   ],
+
   "notes": [
-    "Rất hay gặp ở heo hậu bị/nuôi thịt."
+    "Dễ bị nhầm với ngộ độc hoặc bệnh thần kinh khác.",
+    "Hay xảy ra rải rác sau cai sữa."
   ],
-  "disclaimer": "Thông tin tham khảo."
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -40,18 +40,22 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Florfenicol",
-      "Ceftiofur"
     ],
     "alternative_drugs": [
-      "Tylosin",
-      "Doxycycline"
+       "Florfenicol",
+      "Ceftiofur"
     ],
-    "note_drugs": "PCV2 là virus, không có thuốc đặc trị. Kháng sinh dùng để kiểm soát nhiễm khuẩn ghép ở phổi.",
+    "note_drugs": [
+      "PCV2 là bệnh do virus, KHÔNG có thuốc điều trị đặc hiệu.",
+      "KHÔNG dùng kháng sinh để trị PCV2.",
+      "Kháng sinh chỉ dùng khi có bội nhiễm vi khuẩn.",
+      "Điều trị triệu chứng không loại trừ được virus.",
+      "Cần đánh giá lại chương trình vaccine khi nghi PCV2."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": []
+        "alternative": ["Meloxicam"]
       },
       "respiratory_support": {
         "main": "Bromhexine",
@@ -62,7 +66,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Vitamin C điện giải"
         ]
       },
       "vitamin": {
@@ -74,7 +78,7 @@
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },
@@ -84,7 +88,7 @@
       "Hạn chế tối đa các stress: chuyển chuồng, dồn đuổi",
       "Tách heo gầy, ho nhiều để chăm riêng"
     ],
-    "dose_policy": "Dùng thuốc theo đúng liều trên nhãn hoặc tư vấn thú y, tránh kéo dài quá mức."
+    "dose_policy": "Không có điều trị đặc hiệu cho PCV2; thuốc hỗ trợ dùng theo hướng dẫn trên nhãn."
   },
   "severe_case_treatment": {
     "case_type_1": {

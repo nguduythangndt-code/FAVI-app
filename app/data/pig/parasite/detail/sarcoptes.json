@@ -3,11 +3,12 @@
   "name": "Ve, ghẻ Sarcoptes",
   "species": "pig",
   "group": "parasite",
-  "summary": "Ghẻ Sarcoptes làm heo ngứa dữ dội, cọ nhiều, da dày lên và chậm lớn. Rất dễ lây lan trong đàn.",
+   "summary": "Ghẻ Sarcoptes ở heo là bệnh ký sinh trùng ngoài da do Sarcoptes scabiei var. suis gây ra. Ký sinh trùng đào hang trong da, gây ngứa dữ dội, viêm da mạn tính, làm heo gầy, chậm lớn và giảm hiệu quả chăn nuôi.",
   "causes": [
-    "Ký sinh trùng Sarcoptes scabiei",
-    "Lây do tiếp xúc trực tiếp hoặc dụng cụ chăn nuôi",
-    "Trứng tồn tại lâu ngoài môi trường"
+    "Ký sinh trùng Sarcoptes scabiei var. suis.",
+    "Lây trực tiếp từ heo nhiễm sang heo khỏe.",
+    "Lây qua chuồng trại, dụng cụ, vách chuồng.",
+    "Không diệt ký sinh trùng ngoài da định kỳ."
   ],
   "risk_factors": [
     "Chuồng bẩn, độ ẩm cao",
@@ -38,28 +39,40 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Ivermectin"
-    ],
-    "alternative_drugs": [
+      "Ivermectin",
       "Doramectin"
     ],
-    "note_drugs": "Ivermectin là thuốc chính cho ghẻ. Doramectin có thể dùng thay thế.",
+    "alternative_drugs": [
+      "Amitraz",
+      "Permethrin"
+    ],
+    "note_drugs": [
+      "Ghẻ Sarcoptes là ký sinh trùng ngoài da, KHÔNG dùng kháng sinh để điều trị nguyên nhân.",
+      "Ivermectin/Doramectin có hiệu quả cao và tiện dùng.",
+      "Bắt buộc điều trị đồng loạt toàn đàn, không điều trị riêng lẻ.",
+      "Cần lặp lại điều trị sau 7–14 ngày để diệt lứa ghẻ mới nở.",
+      "Kháng sinh chỉ dùng khi da bội nhiễm (mủ, sưng nóng, hôi)."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
@@ -67,35 +80,39 @@
       }
     },
     "supportive_care": [
-      "Vệ sinh chuồng, thay lót khô",
-      "Xông hoặc phun sát trùng dụng cụ",
-      "Tách heo bệnh nặng"
+      "Vệ sinh và sát trùng chuồng trại đồng thời.",
+      "Giữ nền chuồng khô, sạch.",
+      "Cắt giảm mật độ nuôi nếu quá dày.",
+      "Theo dõi tình trạng da sau điều trị."
     ],
-    "dose_policy": "Dùng đúng theo nhãn."
+    "dose_policy": "Thuốc diệt ghẻ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo ngứa nhiều nhưng còn ăn.",
+      "description": "Ghẻ nhẹ, ngứa vừa, da chưa tổn thương nặng.",
       "guideline": [
-        "Tiêm Ivermectin",
-        "Giữ chuồng khô",
-        "Theo dõi 1-2 tuần"
+        "Điều trị sớm toàn đàn",
+        "Lặp lại đúng chu kỳ",
+        "Theo dõi tái nhiễm"
       ]
     },
     "case_type_2": {
-      "description": "Da dày nứt, heo rất mệt.",
+      "description": "Ghẻ nặng, da dày, bong vảy nhiều, có dấu hiệu bội nhiễm.",
       "guideline": [
-        "Tăng vitamin",
-        "Tẩy ký sinh trùng lặp lại theo hướng dẫn",
-        "Tách heo để chăm riêng"
+        "Điều trị ghẻ triệt để",
+        "Chăm sóc da tổn thương",
+        "Cân nhắc dùng kháng sinh nếu bội nhiễm rõ",
+        "Cải thiện vệ sinh chuồng trại"
       ]
     },
     "note": "Ghẻ lây lan cực nhanh, phải điều trị cả đàn."
   },
-  "prevention": [
-    "Tẩy ký sinh trùng định kỳ",
-    "Giữ chuồng sạch và khô",
-    "Khử trùng dụng cụ nuôi heo"
+ "prevention": [
+    "Diệt ký sinh trùng ngoài da định kỳ.",
+    "Cách ly và xử lý heo mới nhập.",
+    "Giữ chuồng trại khô, sạch.",
+    "Không nuôi mật độ quá cao.",
+    "Theo dõi da đàn heo thường xuyên."
   ],
   "notes": [
     "Ghẻ làm heo rất ngứa và chậm lớn.",

@@ -3,7 +3,7 @@
   "name": "Suyễn heo (Bordetella bronchiseptica)",
   "species": "pig",
   "group": "respiratory",
-  "summary": "Bordetella gây ho, khò khè, thỉnh thoảng kèm biến dạng xoang mũi. Thường gây suyễn mạn, ít chết nhưng làm chậm lớn.",
+  "summary": "Suyễn heo do Bordetella bronchiseptica là bệnh hô hấp mạn tính ở heo, gây ho kéo dài, chảy mũi và biến dạng mũi nếu nặng. Bệnh không gây chết nhanh nhưng làm heo chậm lớn, giảm hiệu quả chăn nuôi và thường là yếu tố mở đường cho các bệnh hô hấp khác.",
   "causes": [
     "Vi khuẩn Bordetella bronchiseptica",
     "Lây qua không khí, trực tiếp giữa heo với heo",
@@ -38,25 +38,31 @@
       "Có thể biến dạng mũi"
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
       "Tylosin",
       "Doxycycline"
     ],
     "alternative_drugs": [
-      "Enrofloxacin",
+      "Amoxicillin",
       "Florfenicol"
     ],
-    "note_drugs": "Tylosin và Doxycycline thường dùng trong các ca suyễn mạn, giúp giảm ho và tổn thương đường hô hấp.",
+    "note_drugs": [
+      "Bordetella là bệnh vi khuẩn mạn tính, cần điều trị đủ thời gian.",
+      "Không điều trị sớm dễ gây viêm mũi teo.",
+      "Kháng viêm chỉ dùng hỗ trợ, không thay thế kháng sinh.",
+      "Cần xem xét điều trị đồng loạt nếu bệnh lan trong đàn.",
+      "Bệnh thường đi kèm Pasteurella multocida."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": []
+        "alternative": ["Meloxicam"]
       },
       "respiratory_support": {
         "main": "Bromhexine",
         "alternative": [
-          "Ambroxol"
+          ""
         ]
       },
       "electrolyte": {
@@ -65,12 +71,12 @@
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": ["Vitamin C"]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },

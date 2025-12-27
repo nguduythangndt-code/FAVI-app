@@ -1,80 +1,83 @@
 {
-  "id": "anaplasma",
-  "name": "Nhiễm Anaplasma",
+  "id": "anaplasmosis",
+  "name": "Nhiễm Anaplasma (ký sinh trùng máu) ở heo",
   "species": "pig",
   "group": "blood_parasite",
-  "summary": "Anaplasma gây thiếu máu từ từ, heo ăn kém, lớn chậm, niêm mạc nhợt và vàng nhẹ. Bệnh tiến triển âm thầm, dễ bỏ sót.",
+
+  "summary": "Anaplasma là bệnh ký sinh trùng máu gây thiếu máu tiến triển chậm ở heo. Heo gầy từ từ, ăn kém, niêm mạc nhợt hoặc vàng nhẹ. Bệnh diễn tiến âm thầm, dễ bỏ sót nếu không để ý màu da và tốc độ tăng trọng.",
+
   "causes": [
-    "Ký sinh trùng Anaplasma spp.",
-    "Lây qua ve hoặc côn trùng hút máu tiếp xúc giữa các con trong đàn."
+    "Vi khuẩn Anaplasma ký sinh trong hồng cầu.",
+    "Lây truyền chủ yếu qua ve, mạt, côn trùng hút máu.",
+    "Dùng kim tiêm chung giữa các con.",
+    "Lây cơ học qua vết thương hở."
   ],
+
   "risk_factors": [
-    "Chuồng ẩm, có ve hoặc côn trùng cắn",
-    "Heo con cai sữa, sức đề kháng yếu",
-    "Dinh dưỡng kém, stress kéo dài",
-    "Nuôi mật độ cao"
+    "Chuồng trại nhiều ve, mạt.",
+    "Không kiểm soát ký sinh trùng ngoài.",
+    "Heo suy dinh dưỡng hoặc nuôi mật độ cao.",
+    "Quản lý tiêm chích kém vệ sinh."
   ],
+
   "clinical_signs_detailed": [
-    "Ăn kém và lớn chậm kéo dài",
-    "Niêm mạc nhợt, đôi khi vàng nhẹ",
-    "Sốt nhẹ hoặc không sốt",
-    "Heo mệt âm ỉ, ít vận động",
-    "Gầy dần theo thời gian",
-    "Một số con da nhăn, lông xỉu"
+    "Heo ăn kém, chậm lớn rõ rệt.",
+    "Niêm mạc nhợt nhạt hoặc vàng nhẹ.",
+    "Gầy dần dù không có biểu hiện bệnh rầm rộ.",
+    "Có thể sốt nhẹ hoặc không sốt.",
+    "Ít đáp ứng với kháng sinh thông thường."
   ],
+
   "clinical_signs_by_stage": {
     "mild": [
-      "Ăn kém nhẹ",
-      "Niêm mạc hơi nhạt",
-      "Tăng trưởng chậm"
+      "Ăn giảm nhẹ.",
+      "Lớn chậm hơn đàn."
     ],
     "moderate": [
-      "Niêm mạc vàng nhẹ",
-      "Mệt rõ, ít vận động",
-      "Sút cân",
-      "Lông xỉu, da nhăn"
+      "Niêm mạc nhợt rõ.",
+      "Gầy thấy rõ."
     ],
     "severe": [
-      "Thiếu máu nặng",
-      "Đứng lâu mỏi, nằm nhiều",
-      "Mệt nhiều",
-      "Nguy cơ nhiễm khuẩn kế phát"
+      "Thiếu máu nặng.",
+      "Vàng da, vàng mắt.",
+      "Heo yếu, nằm nhiều."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
-      "Oxytetracycline LA"
+      "Oxytetracycline",
+      "Imidocarb"
     ],
+
     "alternative_drugs": [
       "Doxycycline"
     ],
-    "note_drugs": "Chọn 1 trong 2 thuốc để điều trị. Oxytetracycline LA ưu tiên vì tác dụng kéo dài và hiệu quả ổn định trên Anaplasma.",
+
+    "note_drugs": [
+      "Điều trị Anaplasma cần đúng thuốc ký sinh trùng máu, kháng sinh thường không hiệu quả.",
+      "Thuốc điều trị có thể gây stress – theo dõi sát heo yếu.",
+      "Không tự ý phối hợp nhiều thuốc mạnh cùng lúc.",
+      "Luôn dùng thuốc theo tư vấn thú y."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Ketoprofen",
-          "Meloxicam"
-        ]
+        "main": "Meloxicam",
+        "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": [
-          "Ambroxol"
-        ]
+        "main": "",
+        "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
-        ]
+        "alternative": []
       },
       "vitamin": {
         "main": "Vitamin BC",
         "alternative": [
-          "Vitamin ADE",
-          "Multivitamin tổng hợp"
+          "Vitamin C"
         ]
       },
       "digestive_support": {
@@ -82,41 +85,50 @@
         "alternative": []
       }
     },
+
     "supportive_care": [
-      "Giảm stress, không dồn đuổi heo yếu",
-      "Chuồng khô thoáng, sạch sẽ",
-      "Tăng cường dinh dưỡng, thêm rau xanh hoặc cám dễ tiêu"
+      "Bổ sung dinh dưỡng dễ tiêu.",
+      "Giữ chuồng khô, sạch, ít stress.",
+      "Hạn chế vận chuyển, xáo trộn đàn trong thời gian điều trị."
     ],
-    "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
+
+    "dose_policy": [
+      "Không ghi liều trong ứng dụng.",
+      "Dùng thuốc theo hướng dẫn thú y hoặc nhãn thuốc."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo mệt nhiều, vàng rõ, vẫn còn đứng được.",
+      "description": "Heo thiếu máu rõ nhưng còn ăn và đi lại.",
       "guideline": [
-        "Dùng Oxytetracycline LA ngay",
-        "Điện giải và vitamin hằng ngày",
-        "Theo dõi sát mức ăn uống"
+        "Thuốc đặc trị ký sinh trùng máu.",
+        "Bổ sung vitamin và điện giải.",
+        "Theo dõi sát sức ăn."
       ]
     },
     "case_type_2": {
-      "description": "Heo suy nhiều, nằm nhiều, thiếu máu rõ.",
+      "description": "Heo thiếu máu nặng, vàng da, rất yếu.",
       "guideline": [
-        "Hạn chế vận động, giữ ấm",
-        "Điện giải liên tục trong ngày",
-        "Tập trung hồi sức kết hợp điều trị chính"
+        "Cần thú y đánh giá trực tiếp.",
+        "Điều trị đặc hiệu kết hợp hỗ trợ mạnh.",
+        "Tiên lượng thận trọng."
       ]
     },
-    "note": "Anaplasma ít gây chết đột ngột nhưng hồi phục chậm, cần điều trị đều và theo dõi dài ngày."
+    "note": "Anaplasma thường bị bỏ sót do diễn tiến chậm. Nếu đàn chậm lớn kéo dài, thiếu máu mà không rõ nguyên nhân, cần nghĩ đến bệnh ký sinh trùng máu."
   },
+
   "prevention": [
-    "Kiểm soát ve và côn trùng hút máu trong chuồng",
-    "Giữ chuồng khô thoáng, hạn chế ẩm thấp",
-    "Bổ sung vitamin định kỳ cho heo con",
-    "Kiểm tra heo mới nhập từ nơi có nguy cơ"
+    "Kiểm soát ve, mạt định kỳ.",
+    "Không dùng chung kim tiêm.",
+    "Giữ chuồng sạch, khô.",
+    "Bổ sung khoáng – vitamin giúp tăng sức đề kháng."
   ],
+
   "notes": [
-    "Bệnh tiến triển âm thầm, dễ bỏ sót.",
-    "Heo mang bệnh lâu ngày thường còi cọc, lớn chậm."
+    "Bệnh tiến triển âm thầm, phát hiện sớm giúp tiết kiệm chi phí.",
+    "Điều trị sớm cho hiệu quả tốt hơn giai đoạn muộn."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

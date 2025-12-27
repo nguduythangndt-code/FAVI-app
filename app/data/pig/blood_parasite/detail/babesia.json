@@ -5,9 +5,10 @@
   "group": "blood_parasite",
   "summary": "Babesia gây phá huỷ hồng cầu rất nhanh, làm heo sốt cao, vàng niêm mạc và có thể chết đột ngột nếu không xử lý kịp.",
   "causes": [
-    "Ký sinh trùng Babesia spp.",
-    "Truyền qua ve hút máu, đặc biệt ve sống trong môi trường ẩm."
-  ],
+   "Ký sinh trùng Babesia xâm nhập và phá huỷ hồng cầu.",
+    "Lây truyền chủ yếu qua ve, mạt hút máu.",
+    "Lây cơ học qua kim tiêm, dụng cụ dính máu.",
+    "Lây qua vết thương hở khi chăm sóc." ],
   "risk_factors": [
     "Chuồng nuôi ẩm và nhiều ve",
     "Heo mới cai sữa, heo yếu",
@@ -19,7 +20,7 @@
     "Niêm mạc nhợt hoặc vàng nhạt",
     "Tai và bụng tích máu, đỏ bầm",
     "Thở nhanh, mệt nhiều",
-    "Nước tiểu sậm màu",
+    "Nước tiểu sẫm màu (đỏ nâu) do tan máu.",
     "Gầy nhanh trong 1-2 ngày",
     "Một số con chết đột ngột"
   ],
@@ -44,14 +45,20 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Imidocarb",
-      "Buparvaquone"
+      "Diminazene (Azidin)"
     ],
     "alternative_drugs": [
-      "Oxytetracycline LA"
-    ],
-    "note_drugs": "Chỉ chọn 1 thuốc điều trị chính. Heo yếu thì ưu tiên thuốc tác dụng nhanh và không đổi thuốc giữa chừng.",
-    "symptomatic_treatment": {
+      "Imidocarb",
+      "Buparvaquone"
+],
+    "note_drugs": [
+      "Babesia cần điều trị sớm, để muộn tiên lượng xấu.",
+      "Kháng sinh đơn thuần không diệt được Babesia.",
+      "Azidin là thuốc mạnh, có nguy cơ gây sốc phản vệ — không dùng cho con vật quá yếu, mất nước hoặc suy kiệt.",
+      "Theo dõi sát heo yếu do nguy cơ tan máu nhanh.",
+      "Nếu con vật có phản ứng bất thường sau tiêm (ngã, khó thở, run, rên), cần nghĩ đến nguy cơ sốc phản vệ.",
+      "Luôn dùng thuốc theo tư vấn thú y."
+    ], "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
         "alternative": [
@@ -68,9 +75,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
-        ]
+        "Điện giải tổng hợp (Na/K/Cl)" ]
       },
       "vitamin": {
         "main": "Vitamin BC",
@@ -117,6 +122,8 @@
     "Kiểm soát ve trên heo mới nhập"
   ],
   "notes": [
+    "Babesia dễ bị nhầm với bệnh sốt cao – nhiễm trùng máu.",
+    "Heo chết nhanh thường do tan máu cấp.",
     "Bệnh có thể xuất hiện rải rác hoặc thành từng cụm.",
     "Heo sau khi khỏi bệnh vẫn yếu 5-7 ngày do mất máu."
   ],

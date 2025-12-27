@@ -3,110 +3,107 @@
   "name": "Chậm động dục",
   "species": "pig",
   "group": "reproductive",
-  "summary": "Chậm động dục là tình trạng nái sau cai sữa hoặc heo hậu bị lâu không lên giống, không thấy biểu hiện chịu đực, kéo dài thời gian trống chuồng.",
+  "summary": "Chậm động dục là tình trạng heo nái không lên giống đúng thời gian sau cai sữa hoặc sau phối. Đây là rối loạn sinh lý thường gặp, liên quan đến dinh dưỡng, thể trạng, stress và quản lý, không phải bệnh truyền nhiễm.",
   "causes": [
-    "Thể trạng nái gầy hoặc quá béo",
-    "Thiếu dinh dưỡng, thiếu khoáng và vitamin sinh sản",
-    "Stress, thay đổi chuồng trại, thời tiết đột ngột",
-    "Chiếu sáng, thông thoáng kém",
-    "Bệnh nền mạn tính hoặc nhiễm trùng tử cung nhẹ"
+    "Thiếu dinh dưỡng, thiếu năng lượng.",
+    "Thiếu khoáng và vitamin (A, D, E).",
+    "Heo nái quá gầy hoặc quá béo.",
+    "Stress, chuồng nóng, ẩm.",
+    "Viêm tử cung sau đẻ (thứ phát)."
   ],
   "risk_factors": [
-    "Cai sữa quá sớm hoặc quá muộn",
-    "Khẩu phần không cân đối năng lượng - đạm - khoáng",
-    "Mật độ nuôi dày, không vận động",
-    "Không có đực thăm bầy thường xuyên"
+    "Nái nuôi con quá hao thể trạng.",
+    "Khẩu phần không phù hợp sau cai sữa.",
+    "Không theo dõi chu kỳ sinh sản.",
+    "Chuồng trại kém thông thoáng."
   ],
   "clinical_signs_detailed": [
-    "Sau cai sữa lâu không thấy lên giống",
-    "Không đứng yên khi có đực hoặc người cưỡi lưng",
-    "Không có biểu hiện đỏ âm hộ rõ",
-    "Gầy hoặc quá mập, dáng uể oải",
-    "Chu kỳ động dục không đều hoặc rất thưa"
+    "Nái không lên giống sau cai sữa.",
+    "Chậm động dục.",
+    "Không thấy biểu hiện động dục.",
+    "Chu kỳ động dục kéo dài.",
+    "Nái lên giống yếu.",
+    "Phản xạ đứng yếu khi thử nọc."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Chậm lên giống vài ngày so với bình thường",
-      "Biểu hiện động dục mờ, khó nhận"
+      "Lên giống muộn",
+      "Biểu hiện động dục yếu"
     ],
     "moderate": [
-      "Chậm động dục rõ, sau cai sữa hơn 10 ngày chưa lên giống",
-      "Thể trạng không phù hợp (gầy hoặc béo)"
+      "Chậm lên giống rõ",
+      "Chu kỳ kéo dài"
     ],
     "severe": [
-      "Lâu không thấy động dục dù đã đủ tuổi và thể trọng",
-      "Chu kỳ kéo dài bất thường nhiều lần"
+      "Không lên giống nhiều chu kỳ",
+      "Giảm khả năng sinh sản"
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Vitamin E - Selenium",
-      "Khoáng tổng hợp cho sinh sản"
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": [
+      "Chậm động dục KHÔNG phải bệnh nhiễm trùng.",
+      "KHÔNG dùng kháng sinh nếu không có viêm tử cung.",
+      "Ưu tiên điều chỉnh dinh dưỡng và môi trường trước.",
+      "Chỉ can thiệp hormone khi đã loại trừ nguyên nhân quản lý.",
+      "Dùng hormone cần có tư vấn thú y."
     ],
-    "alternative_drugs": [
-      "Premix vitamin khoáng",
-      "Hormone kích động dục (dùng theo chỉ định thú y)"
-    ],
-    "note_drugs": "Ưu tiên chỉnh dinh dưỡng và bổ sung vitamin khoáng. Các thuốc hormone kích động dục chỉ nên dùng khi có thú y theo dõi, không tự ý dùng bừa.",
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": []
-      },
-      "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+        "main": "",
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
-      },
-      "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": []
+        "main": "Vitamin ADE",
+        "alternative": [
+          "Vitamin E + Selenium"
+        ]
       }
     },
     "supportive_care": [
-      "Điều chỉnh khẩu phần để nái đạt thể trạng vừa phải (không quá gầy, không quá béo)",
-      "Tăng vận động: cho nái đi lại mỗi ngày",
-      "Tăng cường ánh sáng ban ngày trong chuồng",
-      "Cho tiếp xúc đực giống thăm bầy đều đặn",
-      "Kiểm tra và tẩy giun sán nếu thể trạng xấu"
+      "Tăng năng lượng khẩu phần.",
+      "Bổ sung khoáng và vitamin.",
+      "Cải thiện thông thoáng chuồng.",
+      "Giảm stress sau cai sữa.",
+      "Theo dõi thể trạng nái."
     ],
-    "dose_policy": "Dùng theo liều trên nhãn hoặc theo tư vấn thú y, nhất là với hormone."
+    "dose_policy": "Can thiệp hormone và bổ sung vi chất theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Nái chậm động dục sau cai sữa nhưng thể trạng còn khá, ăn tốt.",
+      "description": "Nái chậm lên giống nhưng thể trạng còn tốt.",
       "guideline": [
-        "Điều chỉnh khẩu phần và tăng vitamin khoáng sinh sản",
-        "Tăng tiếp xúc với đực thăm bầy",
-        "Theo dõi động dục trong 1-2 chu kỳ tiếp theo"
+        "Điều chỉnh khẩu phần",
+        "Bổ sung vitamin",
+        "Theo dõi chu kỳ tiếp theo"
       ]
     },
     "case_type_2": {
-      "description": "Nái lâu không động dục, thể trạng kém hoặc quá béo, nghi nền sinh sản yếu.",
+      "description": "Nái không lên giống kéo dài nhiều chu kỳ.",
       "guideline": [
-        "Tham khảo thú y trước khi dùng phác đồ hormone",
-        "Cân nhắc loại thải nếu nhiều chu kỳ không cải thiện",
-        "Tập trung giữ lại nái có khả năng sinh sản tốt hơn"
+        "Đánh giá thể trạng và tử cung",
+        "Loại trừ viêm tử cung",
+        "Cân nhắc can thiệp hormone có kiểm soát",
+        "Loại thải nếu không đáp ứng"
       ]
     },
-    "note": "Chậm động dục kéo dài làm giảm hiệu quả sinh sản của cả đàn, cần xem lại toàn bộ khâu nuôi dưỡng và quản lý."
+    "note": "Can thiệp sớm giúp tránh kéo dài ngày trống."
   },
   "prevention": [
-    "Giữ thể trạng nái ổn định trước và sau cai sữa",
-    "Bổ sung đầy đủ khoáng và vitamin sinh sản",
-    "Có đực giống thăm bầy mỗi ngày",
-    "Tránh stress mạnh khi chuyển chuồng, thay đổi thời tiết"
+    "Nuôi dưỡng nái đúng thể trạng.",
+    "Quản lý tốt giai đoạn sau cai sữa.",
+    "Theo dõi chu kỳ sinh sản.",
+    "Giảm stress chuồng trại.",
+    "Bổ sung vitamin định kỳ."
   ],
   "notes": [
-    "Một số nái có biểu hiện động dục rất mờ, cần quan sát kỹ sáng sớm và chiều mát.",
-    "Không nên giữ lại quá lâu những nái lặp lại tình trạng chậm động dục nhiều lần."
+    "Chậm động dục thường bắt nguồn từ quản lý hơn là bệnh.",
+    "Không nên lạm dụng thuốc khi chưa rõ nguyên nhân."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

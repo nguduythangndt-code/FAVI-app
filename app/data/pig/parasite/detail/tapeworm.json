@@ -3,38 +3,38 @@
   "name": "Sán dây",
   "species": "pig",
   "group": "parasite",
-  "summary": "Sán dây ký sinh trong ruột non làm heo chậm lớn, phân sống, đôi khi thấy đốt sán trong phân.",
+  "summary": "Sán dây ở heo là bệnh ký sinh trùng đường ruột, thường do Taenia spp. gây ra. Bệnh tiến triển chậm, ít biểu hiện rầm rộ nhưng làm heo gầy, chậm lớn và giảm hiệu quả chăn nuôi. Nếu phát hiện và tẩy sán đúng thuốc, heo có thể hồi phục tốt.",
   "causes": [
-    "Heo ăn phải trứng hoặc ấu trùng sán trong môi trường",
-    "Thức ăn, nước uống nhiễm bẩn",
-    "Ăn chất thải hoặc xác động vật nhiễm sán"
+    "Heo ăn phải trứng hoặc ấu trùng sán dây trong thức ăn, nước uống.",
+    "Nguồn thức ăn nhiễm bẩn, phụ phẩm sống.",
+    "Không tẩy ký sinh trùng nội định kỳ."
   ],
   "risk_factors": [
-    "Nuôi heo bán thả, tiếp xúc môi trường ngoài",
-    "Chuồng gần ao tù, rãnh bẩn",
-    "Không tẩy giun sán định kỳ",
-    "Thức ăn dự trữ không che chắn kỹ"
+    "Nuôi thả rông, khó kiểm soát thức ăn.",
+    "Chuồng trại vệ sinh kém.",
+    "Không có chương trình tẩy sán định kỳ.",
+    "Heo hậu bị, heo nuôi dài ngày."
   ],
   "clinical_signs_detailed": [
-    "Chậm lớn kéo dài",
-    "Phân sống, có thể thấy đốt sán trắng",
-    "Heo ăn nhiều nhưng không tăng cân",
-    "Lông xỉu, da nhạt",
-    "Thiếu máu nhẹ nếu nhiễm nặng"
+    "Heo gầy, chậm lớn dù ăn bình thường.",
+    "Lông xù, thể trạng kém.",
+    "Tiêu hóa thất thường.",
+    "Có thể thấy đốt sán trong phân.",
+    "Dễ mắc bệnh kế phát do suy nhược."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Chậm lớn nhẹ",
-      "Phân đôi lúc hơi sống"
+      "Chậm lớn",
+      "Ăn kém nhẹ"
     ],
     "moderate": [
-      "Phân sống rõ, tăng trọng kém",
-      "Có thể thấy đốt sán theo phân"
+      "Gầy rõ",
+      "Tiêu hóa kém"
     ],
     "severe": [
-      "Heo rất chậm lớn",
-      "Gầy, lông xấu",
-      "Thiếu máu nhẹ kéo dài"
+      "Suy kiệt",
+      "Thiếu dinh dưỡng kéo dài",
+      "Giảm sức đề kháng"
     ]
   },
   "treatment": {
@@ -45,66 +45,74 @@
       "Niclosamide",
       "Albendazole"
     ],
-    "note_drugs": "Praziquantel là lựa chọn chính cho sán dây. Niclosamide và Albendazole có thể dùng thay thế theo tư vấn thú y.",
+    "note_drugs": [
+      "Sán dây là ký sinh trùng nội, KHÔNG dùng kháng sinh.",
+      "Praziquantel là thuốc ưu tiên do hiệu quả cao với sán dây.",
+      "Sau tẩy sán có thể thấy đốt sán theo phân ra ngoài.",
+      "Cần theo dõi tiêu hóa và thể trạng sau điều trị.",
+      "Nên tẩy lặp lại theo chương trình để tránh tái nhiễm."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": []
-      },
-      "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin B-complex",
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": [
-          "Probiotic"
-        ]
+        "main": [
+          "Probiotic (men vi sinh)"
+        ],
+        "alternative": []
       }
     },
     "supportive_care": [
-      "Dọn phân hằng ngày để giảm trứng sán trong môi trường",
-      "Giữ chuồng khô và sạch",
-      "Ổn định khẩu phần để cải thiện tăng trưởng"
+      "Cung cấp thức ăn sạch, dễ tiêu.",
+      "Theo dõi phân sau khi tẩy sán.",
+      "Giữ chuồng trại khô sạch.",
+      "Bổ sung dinh dưỡng để phục hồi tăng trọng."
     ],
-    "dose_policy": "Dùng theo liều trên nhãn hoặc hướng dẫn thú y."
+    "dose_policy": "Thuốc tẩy sán dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo phân sống, chậm lớn nhưng còn ăn tốt.",
+      "description": "Heo chậm lớn, thể trạng kém nhưng chưa suy kiệt.",
       "guideline": [
-        "Dùng thuốc diệt sán dây",
-        "Bổ sung men tiêu hoá",
-        "Theo dõi phân 2-3 ngày"
+        "Tẩy sán đúng thuốc",
+        "Bổ sung vitamin",
+        "Theo dõi tăng trọng sau điều trị"
       ]
     },
     "case_type_2": {
-      "description": "Heo rất gầy, phân sống kéo dài.",
+      "description": "Heo gầy nặng, suy dinh dưỡng kéo dài.",
       "guideline": [
-        "Tăng dinh dưỡng và vitamin",
-        "Tẩy sán đúng phác đồ nhắc lại",
-        "Đánh giá hiệu quả sau mỗi đợt điều trị"
+        "Hỗ trợ điện giải trước khi tẩy",
+        "Tẩy sán khi thể trạng cho phép",
+        "Theo dõi sát tiêu hóa và phục hồi"
       ]
     },
-    "note": "Cần xử lý cả môi trường để tránh tái nhiễm."
+    "note": "Tẩy sán muộn làm giảm hiệu quả phục hồi."
   },
   "prevention": [
-    "Không cho heo ăn chất thải chưa xử lý",
-    "Giữ nguồn nước uống sạch",
-    "Tẩy sán định kỳ theo lịch",
-    "Kiểm soát chuột và động vật hoang quanh trại"
+    "Tẩy sán định kỳ cho đàn.",
+    "Không cho ăn thức ăn sống, nhiễm bẩn.",
+    "Quản lý tốt nguồn nước uống.",
+    "Giữ chuồng trại vệ sinh.",
+    "Cách ly heo mới nhập trước khi nhập đàn."
   ],
   "notes": [
-    "Đốt sán có thể thấy như hạt gạo trắng trong phân.",
-    "Thường làm heo nuôi lâu không lên được trọng lượng chuẩn."
+    "Sán dây thường khó phát hiện sớm.",
+    "Chậm lớn kéo dài cần nghĩ đến sán dây nếu không rõ nguyên nhân."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

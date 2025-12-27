@@ -3,23 +3,28 @@
   "name": "Táo bón",
   "species": "pig",
   "group": "digestive",
-  "summary": "Táo bón xảy ra khi heo khó đi phân, phân khô cứng, heo mệt, giảm ăn và bụng có thể căng nhẹ.",
+  "summary": "Táo bón là tình trạng heo đi phân khô, ít, rặn nhiều hoặc vài ngày không đi. Thường gặp khi thiếu nước, khẩu phần ít xơ, thay đổi thức ăn đột ngột, stress, nóng bức hoặc vận động ít. Xử lý đúng là tăng nước – làm mềm phân – hỗ trợ tiêu hoá và chỉnh lại khẩu phần; không lạm dụng kháng sinh.",
+
   "causes": [
-    "Thiếu nước uống",
-    "Thức ăn quá khô hoặc nhiều đạm",
-    "Stress hoặc ít vận động",
-    "Sốt kéo dài gây mất nước"
+    "Thiếu nước uống hoặc nước bẩn làm heo uống ít.",
+    "Khẩu phần ít xơ, nhiều tinh bột/đạm, thức ăn khô cứng.",
+    "Đổi cám đột ngột, stress, nóng bức.",
+    "Rối loạn tiêu hoá sau đợt tiêu chảy/điều trị thuốc.",
+    "Ít vận động (chuồng chật, nền trơn)."
   ],
+
   "risk_factors": [
-    "Chuồng nóng, ít nước",
-    "Khẩu phần nhiều tinh bột hoặc ít chất xơ",
-    "Heo nái mang thai giai đoạn cuối",
-    "Heo con cai sữa sớm"
+    "Heo nái mang thai/sau đẻ, heo thịt ăn khẩu phần đậm đặc.",
+    "Máng uống tắc, thiếu nước thường xuyên.",
+    "Thời tiết nóng, chuồng bí.",
+    "Thiếu chất xơ, thiếu khoáng – điện giải.",
+    "Heo đang đau/viêm khiến giảm vận động và giảm uống."
   ],
+
   "clinical_signs_detailed": [
-    "Phân viên khô, khó đi",
-    "Heo rặn nhiều khi đi vệ sinh",
-    "Bụng hơi căng, khó chịu",
+    "Đi phân khô, viên nhỏ, cứng; rặn nhiều.",
+    "Đi phân ít, có thể 1–2 ngày không đi.",
+    "Bụng chướng nhẹ, khó chịu, giảm ăn.",
     "Ăn giảm, uống ít",
     "Có thể ói nhẹ do ứ đọng"
   ],
@@ -40,46 +45,60 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Enzyme tiêu hoá",
-      "Vitamin B1"
+      "Sodium bicarbonate"
     ],
     "alternative_drugs": [
       "Dầu parafin"
     ],
-    "note_drugs": "Men tiêu hoá và Vitamin B1 giúp phục hồi nhu động ruột. Dầu parafin chỉ dùng khi heo táo bón nặng và theo hướng dẫn thú y.",
-    "symptomatic_treatment": {
+   
+    "note_drugs": [
+      "Táo bón đa số không phải do nhiễm trùng — không tự ý dùng kháng sinh chỉ vì heo bỏ ăn/đi ít.",
+      "Ưu tiên số 1 là nước: kiểm tra máng uống, đảm bảo heo uống được. Điện giải (Oresol) giúp heo uống đều và giảm mất nước tiềm ẩn.",
+      "Dầu paraffin giúp làm mềm phân và hỗ trợ 'đẩy' phân ra ngoài. Khi đã đi được phân thì giảm dần, không lạm dụng kéo dài.",
+      "Nếu heo có dấu chướng bụng/đầy hơi kèm táo bón: theo dõi sát, tránh nhồi ăn thêm. Có thể cần hướng xử lý bloat nếu trướng tăng nhanh.",
+      "Sodium bicarbonate chỉ cân nhắc khi nghi khó tiêu/đầy hơi đi kèm; không dùng bừa mọi ca vì có thể làm rối thêm tiêu hoá nếu dùng sai tình huống.",
+      "Nếu táo bón kèm sốt, đau bụng rõ, bụng trướng tăng nhanh, hoặc nhiều ngày không đi phân: coi như ca nặng — cần thú y can thiệp sớm."
+    ],
+      "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": [
-          "Ketoprofen"
+          "Meloxicam",
+          "Flunixin"
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Probiotic (men vi sinh)",
         "alternative": [
-          "Probiotic"
+          "Enzyme tiêu hoá",
+          "Pectin - Kaolin"
         ]
       }
     },
+
     "supportive_care": [
-      "Cho uống nhiều nước",
-      "Bổ sung rau xanh hoặc chất xơ",
-      "Tăng vận động nhẹ",
-      "Giữ chuồng mát và thoáng"
+      "Tăng nước uống: kiểm tra và sửa máng uống, đảm bảo nước sạch luôn có.",
+      "Giảm khẩu phần đậm đặc, chia nhỏ bữa; tăng thức ăn dễ tiêu và có xơ tự nhiên (theo điều kiện trại).",
+      "Giữ chuồng thoáng mát, giảm nóng bức.",
+      "Theo dõi phân mỗi ngày: khô → mềm → đi được là đạt.",
+      "Tránh đổi cám đột ngột trong giai đoạn đang táo bón."
     ],
     "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
   },
@@ -87,9 +106,9 @@
     "case_type_1": {
       "description": "Heo táo bón vừa, rặn nhiều nhưng vẫn đi được ít phân.",
       "guideline": [
-        "Tăng nước uống",
-        "Bổ sung men tiêu hoá",
-        "Theo dõi 12-24 giờ"
+         "Ưu tiên nước và điện giải (Oresol).",
+        "Dầu paraffin để làm mềm phân.",
+        "Hỗ trợ tiêu hoá (Probiotic/Enzyme) và chỉnh lại khẩu phần."
       ]
     },
     "case_type_2": {
@@ -100,15 +119,18 @@
         "Theo dõi sát để tránh xoắn ruột hoặc tắc ruột"
       ]
     },
-    "note": "Heo nái mang thai cuối kỳ rất dễ táo bón, cần chú ý chất xơ và nước."
+   "note": "Táo bón kéo dài làm heo tụt ăn và dễ phát sinh biến chứng tiêu hoá. Xử lý sớm bằng nước + chỉnh khẩu phần thường hiệu quả nhất."
   },
+
   "prevention": [
-    "Giữ nước uống đầy đủ mỗi ngày",
-    "Bổ sung chất xơ trong khẩu phần",
-    "Tăng vận động cho heo ít di chuyển",
-    "Tránh thức ăn quá khô hoặc nhiều tinh bột"
+    "Đảm bảo nước sạch luôn sẵn và máng uống hoạt động tốt.",
+    "Khẩu phần cân bằng, tránh quá khô – quá đậm đặc kéo dài.",
+    "Đổi cám từ từ, không đổi đột ngột.",
+    "Giữ chuồng thoáng, giảm nóng bức và stress.",
+    "Theo dõi phân định kỳ để phát hiện sớm."
   ],
   "notes": [
+    "Táo bón hay đi kèm thiếu nước hoặc khẩu phần quá khô.",
     "Táo bón nhẹ thường tự khỏi sau khi điều chỉnh nước và khẩu phần.",
     "Theo dõi heo liên tục để tránh chuyển nặng."
   ],

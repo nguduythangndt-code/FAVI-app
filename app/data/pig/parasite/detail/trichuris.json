@@ -3,37 +3,39 @@
   "name": "Giun tóc",
   "species": "pig",
   "group": "parasite",
-  "summary": "Giun tóc ký sinh ở manh tràng và ruột già, gây tiêu chảy kéo dài, phân nhầy máu và heo gầy chậm lớn.",
+  "summary": "Giun tóc (Trichuris suis) là bệnh ký sinh trùng đường ruột già ở heo, gây viêm ruột mạn tính, tiêu chảy kéo dài, phân nhầy hoặc lẫn máu. Bệnh thường gặp ở heo nuôi nền đất và diễn tiến âm thầm nhưng làm giảm tăng trọng rõ rệt.",
   "causes": [
-    "Nhiễm trứng giun tóc qua phân",
-    "Lây qua đất nền bẩn hoặc thức ăn nhiễm trứng",
-    "Trứng tồn tại rất lâu ngoài môi trường"
+    "Heo nuốt phải trứng giun tóc trong thức ăn hoặc nước uống.",
+    "Chuồng nuôi nền đất nhiễm trứng giun tồn lưu lâu ngày.",
+    "Không tẩy ký sinh trùng nội định kỳ."
   ],
   "risk_factors": [
-    "Chuồng nuôi trên nền đất",
-    "Nền chuồng ẩm, không khử trùng",
-    "Không tẩy giun định kỳ"
+    "Nuôi heo trên nền đất, ẩm thấp.",
+    "Chuồng trại vệ sinh kém.",
+    "Heo nuôi dài ngày.",
+    "Không có chương trình tẩy giun nội."
   ],
   "clinical_signs_detailed": [
-    "Tiêu chảy kéo dài, phân nhầy có máu",
-    "Heo gầy nhanh, lông xỉu",
-    "Chậm lớn, bụng tóp",
-    "Heo nằm nhiều, ít chạy nhảy",
-    "Mất nước nhẹ kéo dài"
+    "Tiêu chảy kéo dài.",
+    "Phân nhầy, đôi khi lẫn máu.",
+    "Heo gầy, chậm lớn.",
+    "Ăn kém.",
+    "Dễ thiếu máu nếu nhiễm nặng."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Phân hơi nhầy",
-      "Heo giảm ăn nhẹ"
+      "Tiêu chảy nhẹ",
+      "Chậm lớn"
     ],
     "moderate": [
-      "Tiêu chảy nhầy máu",
-      "Gầy rõ, lông xấu"
+      "Tiêu chảy kéo dài",
+      "Gầy rõ",
+      "Ăn kém"
     ],
     "severe": [
-      "Tiêu chảy kéo dài nhiều ngày",
-      "Phân có máu đỏ hoặc sẫm",
-      "Heo rất gầy, mất nước"
+      "Tiêu chảy nặng, phân máu",
+      "Thiếu máu",
+      "Suy kiệt"
     ]
   },
   "treatment": {
@@ -44,67 +46,75 @@
     "alternative_drugs": [
       "Levamisole"
     ],
-    "note_drugs": "Fenbendazole hoặc Albendazole hiệu quả nhất trên giun tóc. Levamisole có thể dùng thay thế.",
+    "note_drugs": [
+      "Giun tóc là ký sinh trùng nội, KHÔNG dùng kháng sinh để điều trị nguyên nhân.",
+      "Fenbendazole và Albendazole có hiệu quả tốt với giun tóc.",
+      "Tiêu chảy kéo dài không sốt cao cần nghĩ đến giun tóc trước khi dùng kháng sinh.",
+      "Kháng sinh chỉ cân nhắc khi có bội nhiễm ruột rõ ràng.",
+      "Cần tẩy lặp lại theo chu kỳ để cắt vòng đời giun."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": []
-      },
-      "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin B-complex",
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": [
-          "Probiotic"
-        ]
+        "main": [
+          "Probiotic (men vi sinh)"
+        ],
+        "alternative": []
       }
     },
     "supportive_care": [
-      "Bổ sung điện giải để tránh mất nước",
-      "Giữ chuồng sạch, khô",
-      "Ổn định khẩu phần cho heo"
+      "Giữ chuồng trại khô, sạch.",
+      "Quản lý phân và nền chuồng chặt chẽ.",
+      "Bổ sung dinh dưỡng sau khi tẩy giun.",
+      "Theo dõi phân và thể trạng sau điều trị."
     ],
-    "dose_policy": "Dùng theo nhãn hoặc hướng dẫn thú y."
+    "dose_policy": "Thuốc tẩy giun dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo tiêu chảy nhầy máu nhưng còn đi lại.",
+      "description": "Tiêu chảy kéo dài nhưng heo còn ăn.",
       "guideline": [
-        "Dùng Fenbendazole",
-        "Điện giải đều",
-        "Theo dõi phân 1-2 ngày"
+        "Tẩy giun đúng thuốc",
+        "Bổ sung điện giải",
+        "Theo dõi cải thiện phân trong vài ngày"
       ]
     },
     "case_type_2": {
-      "description": "Heo gầy nhiều, phân máu nặng.",
+      "description": "Tiêu chảy nặng, phân máu, heo gầy yếu.",
       "guideline": [
-        "Giữ heo ấm, giảm stress",
-        "Tăng vitamin B-complex",
-        "Tách chăm riêng nếu yếu"
+        "Hỗ trợ điện giải trước",
+        "Tẩy giun khi thể trạng cho phép",
+        "Theo dõi thiếu máu và suy kiệt",
+        "Can thiệp thú y nếu không cải thiện"
       ]
     },
-    "note": "Trứng giun tóc sống rất lâu ngoài môi trường, phải tăng cường vệ sinh."
+    "note": "Giun tóc mạn tính làm giảm hiệu quả nuôi rất lớn."
   },
   "prevention": [
-    "Tẩy giun định kỳ",
-    "Vệ sinh chuồng và nền đất thường xuyên",
-    "Không để heo ăn thức ăn rơi"
+    "Tẩy giun nội định kỳ.",
+    "Hạn chế nuôi nền đất nếu có điều kiện.",
+    "Giữ chuồng trại khô, sạch.",
+    "Quản lý tốt phân và nguồn nước.",
+    "Cách ly heo mới nhập."
   ],
   "notes": [
-    "Giun tóc gây tiêu chảy kéo dài rất rõ.",
-    "Heo con lớn chậm hẳn nếu nhiễm giun tóc."
+    "Giun tóc dễ bị nhầm với viêm ruột do vi khuẩn.",
+    "Tiêu chảy mạn không đáp ứng kháng sinh cần nghĩ đến giun tóc."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

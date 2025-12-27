@@ -1,6 +1,6 @@
 // app/(tabs)/category/[animal]/care/[careId].tsx
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
-import React, { useEffect, useMemo, useRef } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   SafeAreaView,
   ScrollView,
@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   LayoutChangeEvent,
 } from "react-native";
+
 
 import { loadCareDetail } from "../../../../../src/services/care";
 import { CareAnimal, CareDetail } from "../../../../../src/types/care";
@@ -31,6 +32,8 @@ export default function CareDetailScreen() {
   const sectionPositions = useRef<Record<string, number>>({});
   const sectionsContainerOffset = useRef<number>(0);
   const viewStartRef = useRef<number | null>(null); // đo thời gian ở màn
+  const menuOffsetY = useRef<number>(0);
+const [showScrollTop, setShowScrollTop] = useState(false);
 
   const careDetail: CareDetail | null = useMemo(() => {
     if (!animalParam || !careId) return null;
@@ -129,11 +132,18 @@ export default function CareDetailScreen() {
       <Stack.Screen options={{ title }} />
 
       <ScrollView
-        ref={scrollRef}
-        style={styles.container}
-        contentContainerStyle={styles.content}
-        keyboardShouldPersistTaps="handled"
-      >
+  ref={scrollRef}
+  style={styles.container}
+  contentContainerStyle={styles.content}
+  keyboardShouldPersistTaps="handled"
+  onScroll={(e) => {
+    const y = e.nativeEvent.contentOffset.y;
+    // ngưỡng 260px: cuộn xuống đủ sâu mới hiện nút
+    setShowScrollTop(y >600 );
+  }}
+  scrollEventThrottle={16}
+>
+
         {/* Nếu không có dữ liệu */}
         {!careDetail && (
           <View style={styles.card}>
@@ -155,9 +165,14 @@ export default function CareDetailScreen() {
               ) : null}
             </View>
 
-            {/* MENU SECTIONS */}
-            {sections.length > 0 && (
-              <View style={styles.menuCard}>
+           {/* MENU SECTIONS */}
+{sections.length > 0 && (
+  <View
+    style={styles.menuCard}
+    onLayout={(e) => {
+      menuOffsetY.current = e.nativeEvent.layout.y;
+    }}
+  >
                 <Text style={styles.menuLabel}>Các mục trong hướng dẫn</Text>
                 <Text style={styles.menuHint}>
                   Chạm vào từng mục để nhảy nhanh đến nội dung tương ứng.
@@ -301,6 +316,7 @@ export default function CareDetailScreen() {
               </View>
             )}
 
+
             {/* CẢNH BÁO / DISCLAIMER */}
             {warningText && (
               <View style={styles.disclaimerCard}>
@@ -310,9 +326,28 @@ export default function CareDetailScreen() {
           </>
         )}
       </ScrollView>
+
+            {showScrollTop && (
+  <TouchableOpacity
+    style={styles.scrollTopBtn}
+    onPress={() => {
+      scrollRef.current?.scrollTo({
+        y: Math.max(menuOffsetY.current - 16, 0),
+        animated: true,
+      });
+    }}
+  >
+    <Text style={styles.scrollTopIcon}>↑</Text>
+  </TouchableOpacity>
+)}
+
+
+
     </SafeAreaView>
   );
 }
+
+
 
 const styles = StyleSheet.create({
   safe: {
@@ -347,6 +382,26 @@ const styles = StyleSheet.create({
     color: colors.textMuted,
     lineHeight: 20,
   },
+
+    scrollTopBtn: {
+  position: "absolute",
+  right: 16,
+  bottom: 24,
+  width: 42,
+  height: 42,
+  borderRadius: 21,
+  backgroundColor: "#2563eb",
+  justifyContent: "center",
+  alignItems: "center",
+  elevation: 4,
+},
+
+scrollTopIcon: {
+  color: "#fff",
+  fontSize: 20,
+  fontWeight: "700",
+},
+
 
   // MENU SECTION (dọc)
   menuCard: {

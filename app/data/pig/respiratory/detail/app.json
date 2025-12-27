@@ -39,16 +39,22 @@
       "Nguy cơ chết cao"
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
-      "Enrofloxacin"
+      "Florfenicol"
     ],
     "alternative_drugs": [
-      "Florfenicol",
-      "Amoxicillin"
+      "Amoxicillin",
+      "Tylosin"
     ],
-    "note_drugs": "APP diễn tiến rất nhanh. Ưu tiên Ceftiofur hoặc Enrofloxacin vì thấm phổi mạnh.",
+    "note_drugs": [
+      "APP là bệnh vi khuẩn CẤP TÍNH, cần dùng kháng sinh NGAY.",
+      "Điều trị càng sớm, tỷ lệ sống càng cao.",
+      "Không chờ kết quả xét nghiệm mới điều trị.",
+      "Kháng viêm chỉ dùng hỗ trợ, KHÔNG thay thế kháng sinh.",
+      "Cần điều trị toàn đàn khi có ổ dịch."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -65,7 +71,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Oresol"
         ]
       },
       "vitamin": {
@@ -77,7 +83,7 @@
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },
@@ -109,11 +115,12 @@
     },
     "note": "APP có thể giết heo trong vài giờ nếu không xử lý."
   },
-  "prevention": [
-    "Tiêm phòng APP",
-    "Giữ chuồng ấm, không gió lùa",
-    "Giảm mật độ đàn",
-    "Không trộn đàn lung tung"
+   "prevention": [
+    "Tiêm vaccine APP định kỳ.",
+    "Giữ chuồng thông thoáng.",
+    "Giảm stress đàn.",
+    "Cách ly heo mới nhập.",
+    "Theo dõi sớm các dấu hiệu hô hấp."
   ],
   "notes": [
     "APP thường bùng phát khi trời lạnh và ẩm.",

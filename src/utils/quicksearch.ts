@@ -93,7 +93,7 @@ const COMMON_PHRASES = new Set([
 ]);
 
 const COMMON_CAP_MAP: Record<string, number> = {
-  respiratory: 1.2,
+  respiratory: 1.3,
   digestive: 1.8,
   blood_parasite: 1.0,
   parasite: 1.5,
@@ -142,10 +142,11 @@ const escapeReg = (s: string) =>
 
 const containsPhrase = (text: string, phrase: string) => {
   if (!phrase) return false;
-  const padded = ` ${text} `;
-  const needle = ` ${phrase} `;
-  return padded.includes(needle);
+  const t = ` ${text.replace(/\s+/g, " ").trim()} `;
+  const p = ` ${phrase.replace(/\s+/g, " ").trim()} `;
+  return t.includes(p);
 };
+
 
 // ===================== L1: APPLY SYNONYMS =====================
 function applySynonyms(normQuery: string, synMap: Record<string, string>) {
@@ -199,7 +200,7 @@ function buildPhraseDocFreq(diseases: DiseaseListItem[], vocab: Set<string>) {
     const st = normalizeText(d.searchText || "");
     if (!st) continue;
     for (const p of vocab) {
-      if (st.includes(p)) df[p] = (df[p] || 0) + 1;
+      if (containsPhrase(st, p)) df[p] = (df[p] || 0) + 1;
     }
   }
   return df;
@@ -226,13 +227,20 @@ type GroupPhraseMap = Record<string, Record<string, number>>;
 /**
  * map chỉ điều hướng (BƯỚC 1 giữ nguyên)
  */
-function detectTopGroups(phrases: string[], groupMap: GroupPhraseMap) {
+type GroupPhraseConfig = {
+  group_base?: Record<string, number>;
+  group_phrases: Record<string, string[]>;
+};
+
+function detectTopGroups(phrases: string[], cfg: GroupPhraseConfig) {
   const votes: Record<string, number> = {};
-  for (const g of Object.keys(groupMap)) votes[g] = 0;
+  const gp = cfg.group_phrases || {};
+
+  for (const g of Object.keys(gp)) votes[g] = 0;
 
   for (const p of phrases) {
-    for (const g of Object.keys(groupMap)) {
-      if (groupMap[g][p] !== undefined) votes[g] += 1;
+    for (const g of Object.keys(gp)) {
+      if (gp[g]?.includes(p)) votes[g] += 1;
     }
   }
 
@@ -241,6 +249,7 @@ function detectTopGroups(phrases: string[], groupMap: GroupPhraseMap) {
     .map(([g]) => g)
     .slice(0, 2);
 }
+
 
 function groupBoostForDisease(group: string, topGroups: string[]) {
   const top1 = topGroups[0];
@@ -379,9 +388,9 @@ const weakResp =
     // ✅ cluster best for common phrases
     const bestCommonByCluster: Record<string, number> = {};
 
-    for (const p of phrasesAfterSyn) {
-      if (!p) continue;
-      if (!st.includes(p)) continue;
+      for (const p of phrasesAfterSyn) {
+        if (!p) continue;
+        if (!containsPhrase(st, p)) continue;
 
       matched.push(p);
 
@@ -431,9 +440,9 @@ const weakResp =
     // negation
     if (negPhrases.length) {
       for (const np of negPhrases) {
-        if (np && st.includes(np)) {
-          negHits.push(np);
-          specPart -= negationPenalty;
+        if (np && containsPhrase(st, np)) {
+           negHits.push(np);
+           specPart -= negationPenalty;
         }
       }
     }
@@ -481,7 +490,11 @@ const weakResp =
 
   const topScore2 = Math.max(...shortlist.map(r => r._score2Norm));
 
-  // L4 severity + final compose
+ // ===== pre-calc: single token query (tối ưu + rõ ràng) =====
+const isSingleTokenQuery =
+  normalizeText(rawQuery).split(" ").filter(Boolean).length === 1;
+
+// L4 severity + final compose
 for (const r of shortlist) {
   const diff = topScore2 - r._score2Norm;
   const sevRank = severityRank(r.severityLevel);
@@ -499,6 +512,12 @@ for (const r of shortlist) {
 
   r._score4 = sevRank * k;
   r._finalScore = r._score2Norm + r._scoreGroupBoost + r._score4;
+
+  // ✅ single-token "direction lock" nhẹ:
+  // query chỉ 1 từ (vd: "ho") thì ưu tiên group top1, nhóm khác bị hạ nhẹ
+  if (isSingleTokenQuery && topGroups[0] && r.group !== topGroups[0]) {
+    r._finalScore *= 0.8;
+  }
 
   // blood intent boost
   if (bloodIntent) {
@@ -521,6 +540,7 @@ for (const r of shortlist) {
     r._finalScore *= 0.75;
   }
 }
+
 
   shortlist.sort((a, b) => {
     if (b._finalScore !== a._finalScore) return b._finalScore - a._finalScore;

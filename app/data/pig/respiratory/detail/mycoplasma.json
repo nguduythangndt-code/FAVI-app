@@ -3,17 +3,18 @@
   "name": "Viêm phổi địa phương (Mycoplasma)",
   "species": "pig",
   "group": "respiratory",
-  "summary": "Mycoplasma gây ho kéo dài, tăng trưởng chậm, thở khò khè nhưng ít chết. Bùng lên khi thời tiết thay đổi.",
+  "summary": "Viêm phổi địa phương do Mycoplasma hyopneumoniae là bệnh hô hấp mạn tính rất phổ biến ở heo. Bệnh gây ho kéo dài, giảm ăn, chậm lớn và làm tăng nguy cơ bội nhiễm hô hấp khác. Bệnh hiếm khi gây chết nhanh nhưng gây thiệt hại lớn về tăng trọng và chi phí nuôi.",
   "causes": [
     "Vi khuẩn Mycoplasma hyopneumoniae",
     "Lây qua không khí, heo ho phát tán mầm bệnh",
     "Chuồng bí khí, ẩm hoặc thay đổi nhiệt độ"
   ],
   "risk_factors": [
-    "Nuôi dày",
-    "Thiếu thông gió",
-    "Trộn đàn nhiều lứa tuổi",
-    "Thời tiết thay đổi đột ngột"
+    "Chuồng kín, thông gió kém.",
+    "Mật độ nuôi cao.",
+    "Heo cai sữa – heo thịt.",
+    "Stress kéo dài.",
+    "Không tiêm vaccine Mycoplasma."
   ],
   "clinical_signs_detailed": [
     "Ho kéo dài nhiều tuần",
@@ -38,20 +39,26 @@
       "Tụt trọng kéo dài"
     ]
   },
-  "treatment": {
+ "treatment": {
     "primary_drugs": [
       "Tylosin",
-      "Doxycycline"
+      "Tiamulin"
     ],
     "alternative_drugs": [
-      "Florfenicol",
-      "Enrofloxacin"
+      "Doxycycline",
+      "Lincomycin"
     ],
-    "note_drugs": "Tylosin và Doxycycline thấm phổi tốt, rất phù hợp cho Mycoplasma.",
+    "note_drugs": [
+      "Mycoplasma không có vách tế bào, KHÔNG nhạy với penicillin và cephalosporin.",
+      "Cần dùng kháng sinh đặc hiệu Mycoplasma.",
+      "Điều trị cá thể giúp giảm triệu chứng nhưng không loại trừ hoàn toàn mầm bệnh.",
+      "Bệnh thường cần kiểm soát ở cấp độ đàn.",
+      "Kháng viêm chỉ dùng hỗ trợ khi ho nhiều."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": []
+        "alternative": ["Meloxicam"]
       },
       "respiratory_support": {
         "main": "Bromhexine",
@@ -65,7 +72,7 @@
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": ["Vitamin C"]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
@@ -75,39 +82,43 @@
       }
     },
     "supportive_care": [
-      "Giữ chuồng khô và thoáng",
-      "Giảm bụi chuồng",
-      "Ổn định nhiệt độ ngày đêm"
+      "Cải thiện thông gió chuồng nuôi.",
+      "Giảm mật độ đàn.",
+      "Giữ nền chuồng khô.",
+      "Theo dõi ho định kỳ.",
+      "Kiểm soát bệnh hô hấp kế phát."
     ],
-    "dose_policy": "Dùng đúng liều theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "Kháng sinh và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Ho nhiều nhưng còn ăn.",
+      "description": "Heo ho kéo dài nhưng vẫn ăn và sinh trưởng.",
       "guideline": [
-        "Dùng Tylosin hoặc Doxycycline",
-        "Bổ sung vitamin",
-        "Ổn định nhiệt độ"
+        "Điều trị kháng sinh đặc hiệu Mycoplasma",
+        "Kết hợp kháng viêm khi cần",
+        "Theo dõi ho trong 5–7 ngày"
       ]
     },
     "case_type_2": {
-      "description": "Heo gầy, ho kéo dài nhiều tuần.",
+      "description": "Ho nặng, thở khó, nghi bội nhiễm phổi.",
       "guideline": [
-        "Điều trị nhắc lại theo phác đồ",
-        "Tách nuôi riêng heo yếu",
-        "Đánh giá lại mật độ và thông khí trại"
+        "Điều trị Mycoplasma kết hợp kiểm soát bội nhiễm",
+        "Cải thiện môi trường chuồng",
+        "Can thiệp thú y nếu suy hô hấp"
       ]
     },
-    "note": "Mycoplasma ít gây chết nhưng làm chậm lớn mạnh."
+    "note": "Viêm phổi Mycoplasma kéo dài là nền cho nhiều bệnh hô hấp nguy hiểm khác."
   },
   "prevention": [
-    "Tiêm phòng Mycoplasma",
-    "Giảm bụi",
-    "Giảm trộn đàn nhiều lứa tuổi"
+    "Tiêm vaccine Mycoplasma định kỳ.",
+    "Giữ chuồng thông thoáng.",
+    "Giảm stress đàn.",
+    "Quản lý mật độ nuôi.",
+    "Theo dõi ho sớm trong đàn."
   ],
   "notes": [
-    "Ho dai dẳng nhiều tuần là đặc trưng của Mycoplasma.",
-    "Ghép nhiễm với PRRS hoặc PCV2 sẽ nặng hơn."
+    "Mycoplasma là nguyên nhân hàng đầu gây ho mạn ở heo.",
+    "Bệnh không chết nhanh nhưng gây thiệt hại lâu dài."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

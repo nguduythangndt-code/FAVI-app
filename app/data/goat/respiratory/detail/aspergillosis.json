@@ -21,7 +21,8 @@
     "Thở nhanh, thở nặng khi bệnh tiến triển.",
     "Dê gầy từ từ, lông xù.",
     "Chảy mũi trắng đục hoặc vàng nhẹ.",
-    "Ít đáp ứng với kháng sinh."
+    "Ít đáp ứng với kháng sinh.",
+    "Ít sốt hoặc không sốt rõ."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -40,15 +41,16 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Itraconazole",
-      "Ketoconazole"
+      "Itraconazole"
     ],
 
     "alternative_drugs": [
+      "Ketoconazole",
       "Clotrimazole (dạng khí dung nếu có điều kiện)"
     ],
 
     "note_drugs": [
+      "Clotrimazole khí dung chỉ áp dụng khi có điều kiện và hướng dẫn chuyên môn.",
       "Kháng sinh không hiệu quả với viêm phổi do nấm.",
       "Điều trị bằng thuốc kháng nấm thường kéo dài, đáp ứng chậm.",
       "Ưu tiên dùng đúng thuốc nấm; tránh phối hợp nhiều thuốc không cần thiết.",
@@ -92,6 +94,7 @@
       "Tách dê bệnh vì dễ bị kế phát."
     ],
     "dose_policy": [
+      "Không lạm dụng thuốc giảm viêm kéo dài khi dê đã suy, gầy.",
       "Thuốc trị nấm phải dùng theo thú y.",
       "Không tự tăng liều itraconazole."
     ]
@@ -113,7 +116,8 @@
         "Tiên lượng dè dặt."
       ]
     },
-    "note": "Aspergillosis chủ yếu do môi trường ẩm mốc - sửa chuồng quan trọng hơn thuốc."
+    "note": "Aspergillosis chủ yếu bắt nguồn từ môi trường ẩm mốc — cải thiện chuồng trại quan trọng hơn thuốc. Bệnh thường xuất hiện rải rác, kéo dài trong đàn nuôi ẩm thấp; phòng bệnh luôn hiệu quả hơn điều trị."
+
   },
   "prevention": [
     "Phơi nắng cỏ, rơm trước khi cho ăn.",

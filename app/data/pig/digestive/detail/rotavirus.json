@@ -3,16 +3,21 @@
   "name": "Tiêu chảy do Rotavirus",
   "species": "pig",
   "group": "digestive",
-  "summary": "Rotavirus gây tiêu chảy ở heo con với phân loãng, màu trắng-vàng, mất nước và chậm lớn. Bệnh thường ghép với các tác nhân khác làm nặng thêm.",
+
+  "summary": "Rotavirus là nguyên nhân tiêu chảy do virus rất thường gặp ở heo con (đặc biệt giai đoạn bú mẹ và sau cai sữa sớm). Bệnh làm heo tiêu chảy phân loãng, mất nước, chậm lớn. Rotavirus không đáp ứng với kháng sinh — điều trị chủ yếu là bù nước – điện giải, hỗ trợ ruột và chăm sóc chuồng ấm – khô.",
+
   "causes": [
-    "Virus đường ruột Rotavirus",
-    "Lây qua phân nhiễm virus, dụng cụ, máng ăn uống và nền chuồng"
+    "Virus Rotavirus gây tổn thương niêm mạc ruột non, làm giảm hấp thu và gây tiêu chảy.",
+    "Lây qua phân, nền chuồng, máng ăn uống và dụng cụ chăm sóc.",
+    "Mầm bệnh dễ tồn tại trong môi trường ẩm bẩn."
   ],
+
   "risk_factors": [
-    "Vệ sinh kém, chuồng nhiều phân sót",
-    "Không vệ sinh kỹ ô úm giữa các lứa",
-    "Heo con sau cai sữa, sức đề kháng giảm",
-    "Nái không được tăng cường miễn dịch đầy đủ"
+    "Heo con bú mẹ, heo sau cai sữa.",
+    "Chuồng lạnh, ẩm; vệ sinh kém.",
+    "Mật độ cao, ghép đàn, stress.",
+    "Thiếu sữa/thiếu dinh dưỡng, con yếu sẵn.",
+    "Quản lý nhiều lứa tuổi trong cùng khu."
   ],
   "clinical_signs_detailed": [
     "Tiêu chảy phân loãng, màu trắng-vàng hoặc xám nhạt",
@@ -41,52 +46,69 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [],
-    "alternative_drugs": [
-      "Amoxicillin",
-      "Neomycin"
+    "primary_drugs": [
+      "Oresol (điện giải uống)",
+      "Glucose",
+      "Probiotic (men vi sinh)",
+      "Pectin - Kaolin"
     ],
-    "note_drugs": "Không có thuốc đặc hiệu cho Rotavirus. Điều trị chủ yếu là bù nước, điện giải và dùng kháng sinh để kiểm soát nhiễm khuẩn kế phát.",
+
+    "alternative_drugs": [
+      "Than hoạt tính (giải độc tiêu hoá)",
+      "Enzyme tiêu hoá",
+      "Vitamin BC",
+      "Vitamin C"
+    ],
+
+    "note_drugs": [
+      "Rotavirus là bệnh do virus: kháng sinh không diệt được Rotavirus. Trọng tâm là bù nước – điện giải để tránh tụt lực và chết do mất nước.",
+      "Ưu tiên số 1: Oresol + Glucose. Heo con có thể tụt rất nhanh nếu vừa tiêu chảy vừa lạnh.",
+      "Probiotic giúp ổn định hệ vi sinh ruột; Pectin - Kaolin giúp bảo vệ niêm mạc ruột và làm phân ‘đỡ tóe’.",
+      "Than hoạt tính chỉ dùng như hỗ trợ khi phân quá hôi/ruột kích thích; tránh lạm dụng làm giảm ăn/bú thêm.",
+      "Không tự ý dùng thuốc giảm đau – hạ sốt (Meloxicam/Flunixin/Paracetamol) khi heo đang mất nước nặng. Chỉ cân nhắc khi có sốt/đau rõ và con vẫn uống được.",
+      "Kháng sinh chỉ cân nhắc khi nghi bội nhiễm: sốt rõ, phân hôi thối bất thường kéo dài, viêm phổi kèm theo, con xuống nhanh không giống kiểu tiêu chảy virus đơn thuần. Dùng theo thú y để tránh dùng sai và làm loạn ruột."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": [
-          "Ketoprofen",
+          "Paracetamol",
           "Meloxicam"
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": [
-          "Ambroxol"
-        ]
+        "main": "",
+        "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Glucose"
         ]
       },
       "vitamin": {
         "main": "Vitamin BC",
         "alternative": [
-          "Vitamin ADE",
-          "Multivitamin tổng hợp"
+          "Vitamin C"
         ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Probiotic (men vi sinh)",
         "alternative": [
-          "Probiotic"
+          "Pectin - Kaolin",
+          "Than hoạt tính (giải độc tiêu hoá)",
+          "Enzyme tiêu hoá"
         ]
       }
     },
+
     "supportive_care": [
-      "Tập trung bù nước và điện giải đều trong ngày",
-      "Giữ chuồng ấm, tránh gió lùa trực tiếp vào heo con",
-      "Không để heo con nằm trên nền ướt do phân và nước tiêu chảy",
-      "Xem xét tách heo bệnh nặng ra khu riêng để chăm sóc"
+      "Giữ chuồng ấm – khô, tránh gió lùa, nhất là khu heo con.",
+      "Cách ly ô chuồng tiêu chảy, vệ sinh phân liên tục để giảm lây chéo.",
+      "Sát trùng nền chuồng, máng ăn uống và dụng cụ chăm sóc đúng quy trình.",
+      "Cho uống điện giải nhiều lần trong ngày; ưu tiên con yếu trước.",
+      "Ổn định khẩu phần, tránh đổi cám đột ngột trong lúc đang bùng."
     ],
     "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
@@ -94,7 +116,9 @@
     "case_type_1": {
       "description": "Heo tiêu chảy nhiều nhưng còn đứng dậy ăn hoặc bú được.",
       "guideline": [
-        "Bù điện giải đều mỗi ngày",
+       "Điện giải (Oresol) + hỗ trợ năng lượng (Glucose).",
+        "Hỗ trợ ruột (Probiotic, Pectin - Kaolin).",
+        "Giữ ấm và theo dõi mất nước mỗi ngày.",
         "Có thể phối hợp kháng sinh phòng nhiễm khuẩn kế phát",
         "Theo dõi số lần tiêu chảy và mức độ mất nước"
       ]
@@ -107,15 +131,20 @@
         "Kết hợp kháng sinh theo hướng dẫn để hạn chế nhiễm khuẩn kế phát"
       ]
     },
-    "note": "Trong các ổ dịch tiêu chảy, Rotavirus thường đi cùng E.coli hoặc Coccidia, cần xem xét điều trị phối hợp và cải thiện vệ sinh chuồng."
+     "note": "Rotavirus thường không làm chết hàng loạt như PED nếu chăm sóc tốt, nhưng gây thiệt hại tăng trọng và kéo dài tiêu chảy. Giữ ấm – sạch và bù nước đúng là chìa khoá."
   },
+
   "prevention": [
-    "Vệ sinh kỹ ô úm giữa hai lứa heo con",
-    "Khử trùng định kỳ nền chuồng và dụng cụ",
-    "Giữ ổ đẻ và khu vực heo con luôn khô, ấm, sạch",
-    "Tăng cường dinh dưỡng và vitamin cho nái mang thai"
+    "Vệ sinh – sát trùng chuồng trại định kỳ, đặc biệt khu heo con.",
+    "Giữ chuồng khô – ấm, giảm gió lùa.",
+    "Quản lý theo lứa tuổi (all-in all-out) để giảm vòng lây.",
+    "Cách ly heo nhập mới; hạn chế người/xe ra vào khu heo con.",
+    "Bổ sung men vi sinh để ổn định hệ ruột trong giai đoạn nhạy cảm."
   ],
+
   "notes": [
+    "Dễ nhầm với E. coli nếu chỉ nhìn tiêu chảy. Rotavirus thường ít sốt và hay kéo dài kiểu 'lụp chụp' theo đàn.",
+    "Nếu tiêu chảy kèm sốt rõ và phân rất hôi, cần nghĩ thêm bội nhiễm vi khuẩn.",
     "Rotavirus thường gây bệnh ở heo con từ 1-6 tuần tuổi.",
     "Tỷ lệ chết tăng cao khi có ghép với E.coli hoặc Coronavirus đường ruột."
   ],

@@ -3,7 +3,7 @@
   "name": "Phó thương hàn thể hô hấp",
   "species": "pig",
   "group": "respiratory",
-  "summary": "Phó thương hàn thể hô hấp do Salmonella gây sốt, ho, thở nặng kèm tiêu chảy hoặc phân bất thường, thường ở heo cai sữa và heo choai.",
+  "summary": "Phó thương hàn thể hô hấp là dạng biểu hiện của bệnh Salmonella ở heo, trong đó ngoài triệu chứng tiêu hóa và nhiễm trùng huyết, heo còn có biểu hiện hô hấp như ho, khó thở và viêm phổi kế phát. Bệnh thường diễn tiến nặng nếu không điều trị sớm.",
   "causes": [
     "Nhiễm Salmonella choleraesuis hoặc các chủng Salmonella khác",
     "Lây qua phân, nước uống, thức ăn nhiễm bẩn",
@@ -40,18 +40,24 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Enrofloxacin",
-      "Florfenicol"
+      "Florfenicol",
+      "Ceftiofur"
     ],
     "alternative_drugs": [
       "Amoxicillin",
-      "Trimethoprim - Sulfonamide"
+      "Trimethoprim + Sulfonamide"
     ],
-    "note_drugs": "Enrofloxacin và Florfenicol thường được dùng trong các ca phó thương hàn nặng. Trimethoprim - Sulfonamide có thể dùng khi phù hợp điều kiện.",
+    "note_drugs": [
+      "Salmonella là bệnh vi khuẩn TOÀN THÂN, cần điều trị kháng sinh đủ liệu trình.",
+      "Không điều trị sớm dễ chuyển sang nhiễm trùng huyết nặng.",
+      "Kháng viêm chỉ dùng hỗ trợ, không thay thế kháng sinh.",
+      "Cần điều trị đồng thời cải thiện vệ sinh môi trường.",
+      "Không đánh thuốc ngắt quãng vì dễ tái phát."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": []
+        "alternative": ["Meloxicam"]
       },
       "respiratory_support": {
         "main": "Bromhexine",
@@ -60,7 +66,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
@@ -72,7 +78,7 @@
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },
@@ -88,8 +94,8 @@
     "case_type_1": {
       "description": "Ho, thở nhanh, tiêu chảy nhưng heo còn đứng, còn ăn ít.",
       "guideline": [
-        "Dùng kháng sinh chính",
-        "Điện giải đều trong ngày",
+        "Điều trị kháng sinh sớm",
+        "Kết hợp kháng viêm và điện giải",
         "Theo dõi phân và nhịp thở"
       ]
     },
@@ -97,6 +103,7 @@
       "description": "Heo sốt cao, thở nặng, tiêu chảy kéo dài, rất gầy.",
       "guideline": [
         "Điều trị mạnh và liên tục",
+        "Hỗ trợ tích cực",
         "Tách heo bệnh nặng sang ô riêng, nền khô",
         "Đánh giá khả năng hồi phục để tránh tốn kém quá mức"
       ]

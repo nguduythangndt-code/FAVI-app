@@ -3,22 +3,24 @@
   "name": "Viêm phổi do Pasteurella",
   "species": "pig",
   "group": "respiratory",
-  "summary": "Viêm phổi do Pasteurella thường là nhiễm ghép trên nền bệnh hô hấp khác, làm heo sốt, ho, thở nặng và dễ chết nếu không điều trị kịp.",
+  "summary": "Viêm phổi do Pasteurella multocida là bệnh vi khuẩn hô hấp thường xảy ra kế phát sau các bệnh nền như Mycoplasma, Bordetella hoặc khi đàn heo bị stress. Bệnh gây sốt, ho ướt, khó thở và làm nặng nhanh tình trạng hô hấp nếu không điều trị kịp thời.",
   "causes": [
     "Vi khuẩn Pasteurella multocida",
     "Thường ghép với Mycoplasma, PRRS, cúm hoặc PCV2",
-    "Chuồng ẩm, bí khí, heo stress kéo dài"
+    "Suy giảm miễn dịch hô hấp."
   ],
   "risk_factors": [
     "Không tiêm phòng hô hấp đầy đủ",
     "Mật độ nuôi dày, thông gió kém",
     "Trộn đàn nhiều nguồn, nhiều lứa tuổi",
-    "Nhiễm bệnh nền nhưng không xử lý sớm"
+    "Nhiễm bệnh nền nhưng không xử lý sớm",
+    "Chuồng ẩm, bí khí, heo stress kéo dài"
   ],
   "clinical_signs_detailed": [
     "Sốt vừa đến cao",
     "Ho ướt, có đờm",
     "Thở nhanh, thở bụng",
+    "Chảy nước mũi đục.",
     "Nằm nhiều, ăn giảm rõ",
     "Một số con tím tai, yếu nhanh"
   ],
@@ -46,7 +48,13 @@
       "Enrofloxacin",
       "Amoxicillin"
     ],
-    "note_drugs": "Ceftiofur và Florfenicol thấm phổi tốt, phù hợp cho viêm phổi nặng do Pasteurella. Enrofloxacin hoặc Amoxicillin có thể dùng khi không có thuốc chính.",
+    "note_drugs": [
+      "Pasteurella là bệnh vi khuẩn, cần dùng kháng sinh mạnh.",
+      "Bệnh thường kế phát sau Mycoplasma hoặc Bordetella.",
+      "Điều trị Pasteurella mà không xử lý bệnh nền dễ tái phát.",
+      "Kháng viêm chỉ dùng hỗ trợ khi sốt cao hoặc khó thở.",
+      "Cần theo dõi đáp ứng trong 48 giờ đầu."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -63,7 +71,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
@@ -75,7 +83,7 @@
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },
@@ -85,7 +93,7 @@
       "Không dồn đuổi, hạn chế bắt giữ heo yếu",
       "Bù nước và điện giải khi sốt cao"
     ],
-    "dose_policy": "Dùng đúng liều theo nhãn hoặc hướng dẫn thú y."
+    "dose_policy": "Kháng sinh và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {

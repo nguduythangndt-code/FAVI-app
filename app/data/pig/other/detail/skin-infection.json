@@ -1,19 +1,22 @@
 {
+ 
   "id": "skin-infection",
   "name": "Nhiễm trùng da",
   "species": "pig",
   "group": "other",
-  "summary": "Nhiễm trùng da làm vùng da đỏ, sưng, nóng, có thể chảy dịch hoặc mủ. Nếu nặng sẽ đau, heo nằm nhiều và tăng trưởng kém.",
+  "summary": "Nhiễm trùng da ở heo là tình trạng vi khuẩn xâm nhập qua vết trầy xước, cắn nhau, côn trùng đốt hoặc da bị tổn thương kéo dài. Bệnh thường gây sưng, đỏ, mưng mủ và đau. Nếu phát hiện sớm và xử lý đúng, heo có thể hồi phục tốt.",
   "causes": [
-    "Vi khuẩn xâm nhập qua vết trầy xước, cắn nhau, cọ xát vào vật sắc",
-    "Nhiễm trùng thứ phát sau ghẻ, chấy rận, ấu trùng ruồi",
-    "Chuồng bẩn, nền ẩm làm vết thương lâu khô"
+    "Vi khuẩn Staphylococcus, Streptococcus, E. coli.",
+    "Vết trầy xước do cắn nhau hoặc nền chuồng sắc.",
+    "Côn trùng đốt gây tổn thương da.",
+    "Da ẩm ướt, bẩn kéo dài.",
+    "Bội nhiễm sau ghẻ hoặc nấm da."
   ],
   "risk_factors": [
-    "Mật độ nuôi cao, heo cắn nhau nhiều",
-    "Chuồng ẩm, nhiều phân, nước tiểu đọng",
-    "Vách, máng có cạnh sắc làm trầy da",
-    "Không xử lý vết thương nhỏ từ đầu"
+    "Chuồng trại ẩm ướt, vệ sinh kém.",
+    "Mật độ nuôi cao, cắn nhau.",
+    "Heo suy giảm miễn dịch.",
+    "Da bị tổn thương kéo dài không xử lý."
   ],
   "clinical_signs_detailed": [
     "Da đỏ, nóng, sưng vùng bị tổn thương",
@@ -47,24 +50,35 @@
       "Oxytetracycline",
       "Florfenicol"
     ],
-    "note_drugs": "Amoxicillin hoặc Ceftiofur thường dùng trong các ca nhiễm trùng da nặng. Với vết thương nhẹ, có thể ưu tiên sát trùng tại chỗ, kháng sinh toàn thân tùy mức độ.",
+    "note_drugs": [
+      "Kháng sinh chỉ dùng khi có mủ, sưng nóng hoặc tổn thương lan rộng.",
+      "Trường hợp nhẹ, khu trú có thể không cần dùng kháng sinh toàn thân.",
+      "Ưu tiên vệ sinh và sát trùng tổn thương trước khi dùng thuốc.",
+      "Dùng đủ thời gian theo khuyến cáo để tránh tái phát.",
+      "Không dùng kháng sinh nếu tổn thương chỉ là viêm da nhẹ không nhiễm khuẩn."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
-        "alternative": []
+        "alternative": [
+          "Meloxicam",
+          "Ketoprofen"
+        ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
+        "main": "Vitamin C",
         "alternative": [
-          "Vitamin C"
+          "Vitamin BC"
         ]
       },
       "digestive_support": {

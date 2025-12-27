@@ -3,12 +3,13 @@
   "name": "Hội chứng stress",
   "species": "pig",
   "group": "other",
-  "summary": "Hội chứng stress xảy ra khi heo bị kích thích hoặc thay đổi quá mạnh, làm thở dốc, run cơ, nằm bẹp và có thể chết đột ngột nếu không hạ stress kịp.",
+ "summary": "Hội chứng stress ở heo là tình trạng rối loạn sinh lý do stress cấp hoặc kéo dài, thường xảy ra khi vận chuyển, thay đổi môi trường, mật độ nuôi cao hoặc nhiệt độ bất lợi. Bệnh không do vi khuẩn hay virus gây ra và không lây lan, nhưng có thể gây chết đột ngột nếu không xử lý kịp.",
   "causes": [
-    "Vận chuyển xa, dồn đuổi gắt, đánh đập",
-    "Nhiệt độ môi trường quá cao, chuồng nóng bức",
-    "Tiêm, kẹp, thao tác mạnh liên tục",
-    "Gen nhạy cảm với stress ở một số dòng heo thịt"
+    "Vận chuyển, xua đuổi, bắt giữ thô bạo.",
+    "Nhiệt độ cao, chuồng nóng, thông thoáng kém.",
+    "Thay đổi môi trường hoặc thức ăn đột ngột.",
+    "Mật độ nuôi quá cao.",
+    "Cơ địa mẫn cảm stress (PSS)."
   ],
   "risk_factors": [
     "Chuồng chật, mật độ cao, hay tranh ăn",
@@ -40,33 +41,33 @@
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Vitamin C",
-      "Vitamin BC"
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": [
+      "Hội chứng stress không do vi khuẩn hay virus, KHÔNG dùng kháng sinh.",
+      "Kháng sinh không có tác dụng và có thể gây nhầm lẫn chẩn đoán.",
+      "Xử lý chính là giảm stress và hỗ trợ sinh lý.",
+      "Can thiệp càng sớm, khả năng hồi phục càng cao."
     ],
-    "alternative_drugs": [
-      "Điện giải uống",
-      "Thuốc trợ sức tổng hợp"
-    ],
-    "note_drugs": "Hội chứng stress chủ yếu xử lý bằng môi trường và giảm kích thích. Thuốc chỉ hỗ trợ, không thay thế việc hạ nhiệt và làm heo bình tĩnh.",
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
         "main": "Vitamin C",
         "alternative": [
+          "Vitamin B1",
           "Vitamin BC"
         ]
       },

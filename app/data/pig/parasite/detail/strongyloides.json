@@ -3,38 +3,40 @@
   "name": "Giun lươn",
   "species": "pig",
   "group": "parasite",
-  "summary": "Giun lươn gây tiêu chảy từng đợt, phân nhầy và heo chậm lớn. Ấu trùng có thể xuyên da làm heo ngứa và cọ sát nhiều.",
+  "summary": "Giun lươn (Strongyloides ransomi) là bệnh ký sinh trùng đường ruột nguy hiểm, đặc biệt ở heo con theo mẹ. Giun xâm nhập qua da hoặc sữa mẹ, gây tiêu chảy nặng, mất nước và suy kiệt nhanh. Nếu không xử lý sớm, heo con có thể chết hàng loạt.",
   "causes": [
-    "Ấu trùng giun lươn trong phân hoặc nền chuồng",
-    "Lây qua da hoặc qua đường miệng",
-    "Heo con dễ nhiễm hơn heo lớn"
+    "Heo con nhiễm ấu trùng giun lươn qua da.",
+    "Lây truyền qua sữa từ heo nái mang mầm bệnh.",
+    "Chuồng trại ẩm ướt, nền bẩn.",
+    "Không tẩy giun cho heo nái trước khi đẻ."
   ],
   "risk_factors": [
-    "Nền chuồng ẩm ướt",
-    "Không dọn phân đều",
-    "Heo con trong ô úm chật",
-    "Không tẩy giun định kỳ"
+    "Heo con dưới 2 tuần tuổi.",
+    "Chuồng nuôi nền đất, ẩm thấp.",
+    "Heo nái không được tẩy giun trước sinh.",
+    "Vệ sinh chuồng đẻ kém."
   ],
   "clinical_signs_detailed": [
-    "Tiêu chảy từng đợt, phân nhầy",
-    "Heo ngứa nhẹ, hay cọ mình vào tường",
-    "Chậm lớn, bụng tóp",
-    "Lông dựng, ít chạy nhảy",
-    "Heo con uống sữa ít và hay nằm"
+    "Tiêu chảy nặng, phân lỏng hoặc nước.",
+    "Mất nước nhanh, heo con gầy rộc.",
+    "Niêm mạc nhợt, thiếu máu.",
+    "Chậm bú, yếu dần.",
+    "Tỷ lệ chết cao nếu không can thiệp sớm."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Phân hơi nhầy",
-      "Heo cọ nhẹ"
+      "Tiêu chảy nhẹ",
+      "Ăn bú kém"
     ],
     "moderate": [
-      "Tiêu chảy nhầy kéo dài",
-      "Heo con lớn chậm rõ"
+      "Tiêu chảy nhiều",
+      "Gầy nhanh",
+      "Mất nước"
     ],
     "severe": [
-      "Tiêu chảy nhiều lần",
-      "Heo rất gầy, da nhăn",
-      "Mệt và ít bú (ở heo con)"
+      "Suy kiệt",
+      "Mất nước nặng",
+      "Chết nhanh"
     ]
   },
   "treatment": {
@@ -42,70 +44,77 @@
       "Ivermectin"
     ],
     "alternative_drugs": [
-      "Levamisole",
-      "Albendazole"
+      "Albendazole",
+      "Fenbendazole"
     ],
-    "note_drugs": "Ivermectin là lựa chọn ưu tiên vì hiệu quả trên giun lươn. Albendazole hoặc Levamisole có thể dùng khi không có thuốc chính.",
+    "note_drugs": [
+      "Giun lươn là ký sinh trùng nội, KHÔNG dùng kháng sinh để điều trị nguyên nhân.",
+      "Ivermectin là lựa chọn ưu tiên cho cả heo con và heo nái.",
+      "Kháng sinh chỉ cân nhắc khi có tiêu chảy bội nhiễm vi khuẩn.",
+      "Cần tẩy giun đồng thời cho heo nái để cắt nguồn lây.",
+      "Điều trị sớm giúp giảm tỷ lệ chết rõ rệt."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": []
-      },
-      "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin B-complex",
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": [
-          "Probiotic"
-        ]
+        "main": [
+          "Probiotic (men vi sinh)"
+        ],
+        "alternative": []
       }
     },
     "supportive_care": [
-      "Giữ nền chuồng khô ráo",
-      "Dọn phân hằng ngày",
-      "Tách heo con yếu để chăm riêng"
+      "Bổ sung điện giải sớm cho heo con.",
+      "Giữ chuồng đẻ khô, ấm.",
+      "Theo dõi mất nước và sức bú.",
+      "Cải thiện vệ sinh nền chuồng."
     ],
-    "dose_policy": "Dùng đúng theo nhãn."
+    "dose_policy": "Thuốc tẩy giun dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo tiêu chảy nhầy nhưng còn ăn được.",
+      "description": "Heo con tiêu chảy nhưng còn bú.",
       "guideline": [
-        "Dùng Ivermectin",
-        "Điện giải đều",
-        "Theo dõi 2-3 ngày"
+        "Tẩy giun sớm",
+        "Bổ sung điện giải",
+        "Theo dõi sát trong 24 giờ"
       ]
     },
     "case_type_2": {
-      "description": "Heo rất gầy, tiêu chảy kéo dài.",
+      "description": "Heo con tiêu chảy nặng, mất nước, suy kiệt.",
       "guideline": [
-        "Giữ heo ấm, giảm stress",
-        "Theo dõi dấu mất nước",
-        "Tách chăm riêng nếu quá yếu"
+        "Hỗ trợ điện giải khẩn cấp",
+        "Tẩy giun khi thể trạng cho phép",
+        "Can thiệp thú y nếu không cải thiện"
       ]
     },
-    "note": "Giun lươn dễ tái nhiễm nếu nền chuồng luôn ẩm."
+    "note": "Giun lươn là nguyên nhân tiêu chảy chết sớm rất thường gặp ở heo con."
   },
   "prevention": [
-    "Tẩy giun định kỳ",
-    "Giữ nền chuồng khô",
-    "Vệ sinh ổ đẻ và ô úm thường xuyên"
+    "Tẩy giun cho heo nái trước khi đẻ.",
+    "Giữ chuồng đẻ khô, sạch.",
+    "Không nuôi heo con trên nền ẩm.",
+    "Theo dõi tiêu chảy sớm ở heo con.",
+    "Áp dụng chương trình tẩy giun định kỳ."
   ],
   "notes": [
-    "Thường gặp ở heo con và heo úm.",
-    "Nền chuồng ẩm là yếu tố nguy cơ lớn nhất."
+    "Giun lươn lây rất sớm qua sữa mẹ.",
+    "Tiêu chảy ở heo con cần nghĩ đến giun lươn nếu không đáp ứng điều trị thông thường."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

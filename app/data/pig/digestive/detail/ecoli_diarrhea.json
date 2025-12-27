@@ -3,11 +3,10 @@
   "name": "Tiêu chảy do E.coli",
   "species": "pig",
   "group": "digestive",
-  "summary": "E.coli gây tiêu chảy cấp, heo con mất nước nhanh, đuôi bẩn, mắt trũng và có thể chết trong thời gian ngắn nếu không bù nước và điều trị kịp.",
-  "causes": [
-    "Vi khuẩn E.coli gây bệnh đường ruột trên heo con",
-    "Lây qua phân nhiễm khuẩn bám vào vú nái, nền chuồng, máng ăn uống",
-    "Môi trường ẩm bẩn tạo điều kiện cho E.coli phát triển mạnh"
+ "summary": "Tiêu chảy do E. coli thường gặp nhất ở heo con bú mẹ, heo sau cai sữa và heo mới ghép đàn. Bệnh gây tiêu chảy nước hoặc phân sệt, mất nước nhanh, tụt lực, có thể chết nếu xử lý chậm. Điều trị trọng tâm là bù nước – điện giải, kết hợp kháng sinh đúng hướng (ưu tiên Colistin hoặc Amoxicillin/Amoxiclav tuỳ tình huống) và chăm sóc chuồng khô – ấm.",  "causes": [
+    "Vi khuẩn E. coli gây bệnh bám vào niêm mạc ruột và tiết độc tố gây tiêu chảy.",
+    "Lây qua phân, nền chuồng bẩn, sữa/nước/đồ ăn nhiễm bẩn.",
+    "Heo con sức đề kháng yếu, dễ nhiễm khi môi trường không sạch."
   ],
   "risk_factors": [
     "Chuồng ẩm, lạnh, nhiều gió lùa",
@@ -44,66 +43,80 @@
       "Nguy cơ chết do sốc mất nước"
     ]
   },
+  
   "treatment": {
     "primary_drugs": [
       "Colistin",
-      "Neomycin"
+      "Amoxicillin"
     ],
+
     "alternative_drugs": [
-      "Amoxicillin",
-      "Enrofloxacin"
+      "Amoxiclav",
+      "Sulfamethoxazole + trimethoprim",
+      "Neomycin",
+      "Gentamicin"
     ],
-    "note_drugs": "Ưu tiên dùng Colistin hoặc Neomycin cho tiêu chảy do E.coli. Chỉ đổi sang thuốc khác khi đáp ứng kém hoặc theo tư vấn thú y.",
+
+    "note_drugs": [
+      "E. coli thường đáp ứng tốt với Colistin trong các ca tiêu chảy đường ruột điển hình (phân nước, ít sốt). Đây là hướng ưu tiên khi nghi E. coli là chính.",
+      "Amoxicillin/Amoxiclav phù hợp khi nghi nhiễm khuẩn rộng hơn hoặc đàn có dấu hiệu nặng hơn (tụt nhanh, bội nhiễm). Chọn 1 hướng chính, tránh phối hợp bừa.",
+      "Sulfamethoxazole + trimethoprim là lựa chọn thay thế khi trại quen dùng và có đáp ứng; theo dõi sát vì hiệu quả tuỳ tình hình kháng thuốc.",
+      "Neomycin/Gentamicin là nhóm aminoglycoside: chỉ dùng khi có hướng dẫn thú y và theo thực tế trại; tránh lạm dụng, đặc biệt khi heo mất nước nặng.",
+      "Điện giải là bắt buộc: chỉ dùng kháng sinh mà bỏ bù nước thì heo vẫn chết vì mất nước.",
+      "Không tự ý dùng thuốc làm giảm nhu động ruột/cầm tiêu chảy khi đang tiêu chảy nhiễm khuẩn: dễ giữ độc tố và nặng hơn.",
+      "Nếu sốt cao rõ, phân hôi thối nặng, hoặc chết rải rác: cần nghĩ thêm Salmonella/đồng nhiễm — nên thú y đánh giá lại hướng kháng sinh."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": [
-          "Ketoprofen",
+          "Paracetamol",
           "Meloxicam"
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": [
-          "Ambroxol"
-        ]
+        "main": "",
+        "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
         "main": "Vitamin BC",
         "alternative": [
-          "Vitamin ADE",
-          "Multivitamin tổng hợp"
+          "Vitamin C"
         ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Probiotic (men vi sinh)",
         "alternative": [
-          "Probiotic"
+          "Pectin - Kaolin",
+          "Enzyme tiêu hoá",
+          "Than hoạt tính (giải độc tiêu hoá)"
         ]
       }
     },
-    "supportive_care": [
-      "Cách ly heo tiêu chảy để hạn chế lây lan",
-      "Giữ ấm chuồng, tránh gió lùa, nền không trơn trượt",
-      "Bù nước và điện giải đều trong ngày cho heo tiêu chảy",
-      "Giữ vú nái và khu vực nằm của heo con luôn sạch sẽ"
+     "supportive_care": [
+      "Giữ chuồng khô – ấm, tránh gió lùa (heo con rất dễ chết lạnh khi đang tiêu chảy).",
+      "Cách ly con bệnh, dọn phân liên tục để giảm lây chéo.",
+      "Cho uống điện giải nhiều lần trong ngày; ưu tiên con yếu trước.",
+      "Ổn định khẩu phần, tránh đổi cám đột ngột trong lúc đang bùng.",
+      "Vệ sinh máng ăn uống và đảm bảo nước sạch luôn có."
     ],
     "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo tiêu chảy nước, mất nước vừa nhưng vẫn còn đứng dậy bú được.",
+      "description": "Heo tiêu chảy nước nhưng còn uống được, chưa mất nước nặng.",
       "guideline": [
-        "Dùng ngay kháng sinh điều trị chính",
-        "Bổ sung điện giải đều trong ngày",
-        "Theo dõi tình trạng mất nước và số lần tiêu chảy"
+        "Kháng sinh đúng hướng E. coli (ưu tiên Colistin hoặc Amoxicillin theo tình huống trại).",
+        "Bù điện giải (Oresol) + hỗ trợ năng lượng (Glucose).",
+        "Hỗ trợ ruột (Probiotic, Pectin - Kaolin) và theo dõi đáp ứng vài ngày."
       ]
     },
     "case_type_2": {
@@ -114,7 +127,12 @@
         "Theo dõi sát, loại bỏ heo chết để tránh nhiễm bẩn chuồng"
       ]
     },
-    "note": "Heo con tiêu chảy thường diễn biến rất nhanh. Nếu xử lý chậm, tỷ lệ chết có thể cao."
+    "note":[
+    "Heo con tiêu chảy thường diễn biến rất nhanh.",
+    "Nếu xử lý chậm, tỷ lệ chết có thể cao.",
+    "Tiêu chảy E. coli chết nhanh chủ yếu do mất nước. Cứu được heo là cứu bằng bù nước – giữ ấm – vệ sinh."
+  
+  ]
   },
   "prevention": [
     "Giữ chuồng nái và ô úm luôn khô, sạch, ấm",

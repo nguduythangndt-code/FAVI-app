@@ -10,28 +10,28 @@
     "id": "lameness",
     "name": "Đi khập khiễng",
     "group": "other",
-    "searchText": "Đi khập khiễng rõ rệt. Sưng khớp hoặc kẽ móng đỏ. Móng mềm, bốc mùi (Footrot). Nằm nhiều, đứng lên khó. Giảm ăn. Khập khiễng nhẹ. Kẽ móng hơi đỏ. Sưng, nóng. Đi lại khó khăn. Giảm ăn rõ. Nằm nhiều. Kẽ móng chảy mủ. Nguy cơ nhiễm trùng nặng.",
+    "searchText": "Đi khập khiễng, bước đi không đều. Sưng đau khớp hoặc kẽ móng đỏ. Móng mềm, có mùi hôi (thường gặp trong Footrot). Nằm nhiều, đứng dậy khó khăn. Giảm ăn, giảm vận động. Khập khiễng nhẹ. Kẽ móng hơi đỏ hoặc ẩm. Sưng đau rõ. Đi lại khó khăn. Ăn giảm thấy rõ. Nằm nhiều, ít di chuyển. Kẽ móng chảy mủ, mùi hôi. Nguy cơ nhiễm trùng lan rộng.",
     "severityLevel": 2
   },
   {
     "id": "injury",
     "name": "Chấn thương - Rách da",
     "group": "other",
-    "searchText": "Sưng vùng chấn thương. Rách da, chảy máu. Đi khập khiễng nếu trúng chân. Viêm tấy, mủ nếu nhiễm trùng. Trầy xước nhẹ. Chảy máu ít. Vết thương sâu hơn. Sưng nóng, đau. Mủ, áp-xe. Nguy cơ viêm lan rộng.",
+    "searchText": "Đi khập khiễng hoặc không dám đứng. Sưng, đau tại vị trí chấn thương. Vết trầy xước hoặc vết thương hở. Giảm ăn, nằm nhiều. Trường hợp nặng có biến dạng chi. Đau nhẹ, đi khập khiễng thoáng qua. Không có vết thương hở. Dê vẫn ăn uống. Sưng đau rõ. Đi lại khó. Có thể có vết trầy xước. Không đứng được. Vết thương sâu hoặc chảy máu. Nghi gãy xương hoặc tổn thương nặng.",
     "severityLevel": 2
   },
   {
     "id": "nutritional-deficiency",
     "name": "Thiếu khoáng - Thiếu Vitamin",
     "group": "other",
-    "searchText": "Lông xù, sần. Chậm lớn. Thiếu máu nhẹ. Xương mềm, đi lảo đảo (thiếu Ca/P). Teo cơ, yếu sức. Lông xấu, chậm lớn nhẹ. Xương yếu, đi loạng choạng. Giảm ăn. Thiếu máu nặng. Gầy, suy kiệt. Ảnh hưởng sinh sản.",
+    "searchText": "Gầy dần, lông xù, xỉn màu. Chậm lớn, giảm tăng trọng. Giảm ăn hoặc ăn chọn lọc. Dễ mệt, sức đề kháng kém. Có thể kèm khập khiễng nhẹ hoặc rối loạn sinh sản. Chậm lớn nhẹ. Lông kém mượt. Ăn giảm. Gầy rõ. Giảm tăng trọng. Dễ mắc bệnh kế phát. Suy kiệt. Nằm nhiều. Nguy cơ tử vong hoặc phải loại thải.",
     "severityLevel": 1
   },
   {
     "id": "poisoning",
     "name": "Ngộ độc thức ăn - Ngộ độc cỏ",
     "group": "other",
-    "searchText": "Sùi bọt mép. Run cơ, co giật. Tiêu chảy cấp. Khó thở. Nằm bệt, hôn mê. Run nhẹ. Bỏ ăn. Sùi bọt. Tiêu chảy. Thở nhanh. Co giật. Hôn mê. Tử vong nhanh.",
+    "searchText": "Bỏ ăn đột ngột. Chảy nước dãi nhiều. Run cơ, co giật. Tiêu chảy hoặc sùi bọt mép. Thở gấp, loạng choạng. Ngã quỵ, chết nhanh. Run nhẹ. Bỏ ăn. Sùi bọt. Tiêu chảy. Thở nhanh. Co giật. Hôn mê. Tử vong nhanh.",
     "severityLevel": 3
   },
   {
@@ -46,14 +46,14 @@
     "name": "Lở mồm long móng (FMD)",
     "group": "other",
     "severityLevel": 3,
-    "searchText": "Sốt, bỏ ăn Loét miệng, lợi, lưỡi Chảy dãi nhiều Miệng hôi Bọng nước ở kẽ móng Long móng, chân đau Đi khập khiễng, nằm nhiều Vú có thể loét nhẹ Dê con có thể chết do suy kiệt Sốt nhẹ Chảy dãi ít Loét miệng nhỏ Loét miệng rõ, ăn khó Bọng nước chân, đi đau Loét rộng, bỏ ăn hoàn toàn Long móng, nằm bệt Dê con suy kiệt chết"
+    "searchText": "Sốt cao đột ngột. Chảy nước dãi nhiều. Mụn nước, vết loét ở miệng, lợi, lưỡi. Mụn nước ở kẽ móng, long móng. Đi khập khiễng, nằm nhiều. Giảm ăn rõ rệt. Sốt nhẹ. Ít mụn nước. Ăn giảm. Loét miệng rõ. Đi lại khó do đau móng. Sụt thể trạng. Loét nặng, nhiễm trùng kế phát. Long móng. Kiệt sức, nguy cơ tử vong."
   },
   {
     "id": "listeriosis",
     "name": "Listeriosis (viêm não xoay vòng)",
     "group": "other",
     "severityLevel": 3,
-    "searchText": "Sốt nhẹ hoặc không sốt Ăn giảm rồi bỏ ăn Đi xoay vòng Nghiêng đầu một bên Mắt lác, chớp kém Chảy nước dãi Liệt nhẹ mặt, méo miệng Đi loạng choạng Nằm nghiêng, đạp chân Có thể co giật và chết Ăn giảm Đi không vững nhẹ Nghiêng đầu, đi vòng vòng Chảy dãi, mắt lác Nằm nghiêng, co giật Liệt, không đứng dậy Chết do viêm não nặng"
+    "searchText": "Đi xoay vòng, mất thăng bằng. Đầu lệch sang một bên. Liệt mặt một bên (sụp tai, méo miệng). Ăn uống khó, chảy nước dãi. Nằm nhiều, không đứng dậy được. Có thể co giật ở giai đoạn nặng. Đầu hơi lệch. Đi loạng choạng. Ăn giảm. Xoay vòng rõ. Liệt mặt. Khó đứng. Nằm bệt. Co giật. Hôn mê, tử vong."
   },
   {
     "id": "tetanus",
@@ -74,35 +74,34 @@
     "name": "Nấm da (Dermatophytosis)",
     "group": "other",
     "severityLevel": 1,
-    "searchText": "Mảng tròn rụng lông Da dày, khô, có vảy trắng Ngứa, hay cọ tường Lan từ đầu - cổ ra thân Một số con có vết loét nông bội nhiễm Đốm tròn nhỏ rụng lông Ít ngứa Mảng rộng, nhiều vảy Ngứa rõ Lan khắp thân Bội nhiễm mủ nhẹ"
+    "searchText": "Rụng lông từng mảng tròn. Da khô, bong vảy trắng xám. Ít ngứa hoặc ngứa nhẹ. Thường gặp ở đầu, cổ, tai, lưng. Tổn thương lan chậm theo thời gian. Rụng lông nhẹ, vảy mỏng. Tổn thương khu trú. Mảng rụng lông to dần. Da dày, đóng vảy rõ. Lan rộng nhiều vùng da. Da dày, nứt, dễ bội nhiễm."
   },
   {
     "id": "caseous_lymphadenitis",
     "name": "Viêm hạch mủ (Caseous lymphadenitis)",
     "group": "other",
     "severityLevel": 2,
-    "searchText": "Nổi hạch cứng ở cổ/ vai/ bẹn Hạch to dần, nóng nhẹ Sau đó mềm và có mủ Mủ màu vàng xanh đặc Hạch vỡ chảy mủ hôi Gầy chậm Có thể sốt nhẹ khi mủ lớn Một số con ho mạn nếu áp-xe trong phổi Hạch nhỏ cứng, chưa đau Hạch to rõ, bắt đầu mềm Ăn giảm nhẹ Hạch vỡ, chảy mủ nhiều Tái phát nhiều hạch Gầy sút kéo dài"
+    "searchText": "Hạch sưng to ở cổ, hàm, vai, nách, bẹn. Hạch cứng, sau mềm dần và có mủ. Mủ đặc, màu trắng - vàng, mùi hôi nhẹ. Dê gầy dần, chậm lớn. Có thể tái phát nhiều lần. Hạch nhỏ, cứng. Dê vẫn ăn uống bình thường. Hạch to rõ. Có cảm giác mềm khi sờ. Dê ăn giảm nhẹ. Hạch vỡ, chảy mủ. Nhiều hạch cùng lúc. Nguy cơ lây lan cả đàn."
   },
   {
     "id": "cae",
     "name": "CAE (viêm khớp - não)",
     "group": "other",
     "severityLevel": 2,
-    "searchText": "Khớp gối/sọc sưng to Đi khập khiễng kéo dài Đau khớp, đứng lên khó Gầy chậm do vận động kém Dê con: run rẩy, yếu chân sau Dê con: đi vòng vòng, mất thăng bằng Viêm phổi mạn kèm ho nhẹ Sản lượng sữa giảm Đi hơi cứng chân Khớp hơi dày Khớp sưng rõ Khập khiễng, vận động kém Biến dạng khớp, đứng dậy rất khó Dê con liệt dần hoặc viêm não nặng"
+    "searchText": "Khớp gối, cổ chân sưng to, cứng. Đi khập khiễng mạn tính. Dê gầy dần, giảm ăn. Dê con có thể run, liệt, đi vòng. Bệnh kéo dài, không đáp ứng kháng sinh. Khớp hơi cứng. Đi lại chậm. Ăn uống còn bình thường. Khớp sưng rõ. Đi khập khiễng. Ăn giảm, chậm lớn. Khớp biến dạng. Nằm nhiều, khó đứng. Dê con có biểu hiện thần kinh."
   },
   {
     "id": "allergy",
     "name": "Dị ứng",
     "group": "other",
-    "searchText": "Mẩn đỏ, nổi cục nhỏ. Ngứa, cọ xát. Sưng môi - mặt. Khó thở (phản vệ nặng). Mẩn đỏ nhẹ. Ngứa. Sưng môi, sưng mặt. Khó chịu, bỏ ăn. Khó thở. Phù thanh quản. Nguy cơ tử vong.",
+    "searchText": "Nổi mẩn, mề đay trên da. Ngứa, gãi nhiều, bứt rứt. Sưng mí mắt, môi hoặc tai. Chảy nước mũi, hắt hơi. Trường hợp nặng có khó thở, nằm bệt. Nổi mẩn nhẹ. Ngứa ít. Ăn uống gần như bình thường. Sưng da rõ hơn. Ngứa nhiều, khó chịu. Ăn giảm. Phù mặt, mí mắt. Khó thở, thở nhanh. Nguy cơ sốc phản vệ.",
     "severityLevel": 3
   },
-    {
-  "id": "anaphylaxis",
-  "name": "Sốc phản vệ",
-  "group": "other",
-  "searchText": "Khó thở đột ngột. Phù mặt, phù mí mắt, phù môi. Chảy nước dãi nhiều. Thở gấp, thở khò khè. Bứt rứt, lảo đảo. Ngã quỵ sau tiêm thuốc. Phản ứng sau tiêm kháng sinh, vitamin hoặc vaccine. Dị ứng thức ăn lạ. Ong, côn trùng đốt. Tím tái. Co giật. Nguy cơ tử vong nhanh.",
-  "severityLevel": 3
-}
-
+  {
+    "id": "anaphylaxis",
+    "name": "Sốc phản vệ",
+    "group": "other",
+    "searchText": "Khó thở, thở gấp, thở khò khè. Phù mặt, mí mắt, môi hoặc cổ. Chảy nước dãi, bứt rứt. Niêm mạc nhợt hoặc tím tái. Lảo đảo, ngã quỵ, nằm bệt. Có thể co giật ở giai đoạn nặng. Nổi mẩn, ngứa. Hơi phù mí mắt. Còn đứng được. Phù rõ vùng mặt. Thở nhanh, bứt rứt. Ăn giảm hoặc bỏ ăn. Khó thở nặng, tím tái. Ngã quỵ, mạch yếu. Nguy cơ tử vong nhanh.",
+    "severityLevel": 3
+  }
 ]

@@ -1,109 +1,152 @@
 {
   "id": "enzyme_deficiency",
-  "name": "Thiếu men tiêu hoá",
+  "name": "Thiếu men tiêu hoá ở heo",
   "species": "pig",
   "group": "digestive",
-  "summary": "Thiếu men tiêu hoá khiến heo chậm lớn, phân sống, bụng tóp, ăn nhiều nhưng hấp thu kém.",
+
+  "summary": "Thiếu men tiêu hoá là tình trạng rối loạn tiêu hoá do heo tiêu hoá kém (men ruột yếu), thường gặp ở heo con sau cai sữa, heo đổi cám đột ngột hoặc ăn khẩu phần khó tiêu. Biểu hiện hay gặp: phân sống, phân sệt nhầy, tiêu chảy lắt nhắt, bụng sôi, chậm lớn. Đây là vấn đề chức năng tiêu hoá — không phải bệnh nhiễm trùng, nên không tự ý dùng kháng sinh.",
+
   "causes": [
-    "Men tiêu hoá bẩm sinh kém",
-    "Khẩu phần khó tiêu, quá nhiều tinh bột",
-    "Heo con cai sữa sớm",
-    "Rối loạn vi sinh đường ruột"
+    "Men tiêu hoá ruột yếu (giai đoạn sau cai sữa, stress).",
+    "Thức ăn khó tiêu hoặc khẩu phần đậm đặc, nhiều tinh bột/đạm khó tiêu.",
+    "Đổi cám/đổi khẩu phần đột ngột làm rối hệ vi sinh và men ruột.",
+    "Chất lượng cám kém (ẩm mốc, ôi thiu) làm ruột kích thích."
   ],
+
   "risk_factors": [
-    "Cai sữa dưới 21 ngày",
-    "Không bổ sung men tiêu hoá định kỳ",
-    "Khẩu phần thay đổi nhanh",
-    "Chuồng lạnh, heo stress"
+    "Heo con sau cai sữa, heo mới ghép đàn.",
+    "Đổi cám đột ngột, cho ăn dồn bữa.",
+    "Mật độ cao, stress, chuồng nóng/lạnh thất thường.",
+    "Thiếu nước uống hoặc nước bẩn.",
+    "Sau đợt tiêu chảy hoặc dùng thuốc kéo dài làm rối ruột."
   ],
+
   "clinical_signs_detailed": [
-    "Phân sống, lợn cợn thức ăn chưa tiêu",
-    "Heo đói nhanh, ăn nhiều nhưng không lớn",
-    "Bụng tóp, lông xỉu",
-    "Thiếu biểu hiện bệnh nặng nhưng kéo dài"
+    "Phân sống (lợn đi phân có mùi chua, lẫn thức ăn).",
+    "Tiêu chảy lắt nhắt hoặc phân sệt nhầy kéo dài.",
+    "Bụng sôi, đầy hơi nhẹ, heo khó chịu.",
+    "Ăn thất thường, chậm lớn.",
+    "Thường ít sốt hoặc không sốt."
   ],
+
   "clinical_signs_by_stage": {
     "mild": [
-      "Phân hơi sống",
-      "Heo ăn nhiều, lớn chậm"
+      "Phân sệt, hơi sống.",
+      "Ăn giảm nhẹ.",
+      "Bụng sôi nhẹ."
     ],
     "moderate": [
-      "Phân sống rõ, thức ăn chưa tiêu",
-      "Bụng tóp, lông xỉu"
+      "Phân sống rõ hoặc tiêu chảy lắt nhắt kéo dài.",
+      "Bụng sôi, đầy hơi nhẹ.",
+      "Chậm lớn rõ."
     ],
     "severe": [
-      "Chậm lớn kéo dài",
-      "Heo còi, xương sườn lộ rõ"
+      "Tiêu chảy kéo dài làm gầy, mất nước nhẹ – vừa.",
+      "Bỏ ăn rõ, tụt lực.",
+      "Dễ bị bội nhiễm vi khuẩn nếu kéo dài."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
-      "Enzyme tiêu hoá"
+      "Enzyme tiêu hoá",
+      "Probiotic (men vi sinh)"
     ],
+
     "alternative_drugs": [
-      "Probiotic",
-      "Vitamin B1"
+      "Pectin - Kaolin",
+      "Vitamin BC",
+      "Vitamin C",
+      "Oresol (điện giải uống)"
     ],
-    "note_drugs": "Men tiêu hoá là thuốc chính. Probiotic và Vitamin B1 hỗ trợ phục hồi đường ruột.",
+
+    "note_drugs": [
+      "Thiếu men tiêu hoá không phải bệnh nhiễm trùng: không tự ý dùng kháng sinh chỉ vì heo đi phân xấu.",
+      "Ưu tiên Enzyme tiêu hoá để cải thiện tiêu hoá thức ăn và Probiotic để ổn định hệ vi sinh ruột.",
+      "Pectin - Kaolin chỉ dùng như hỗ trợ khi phân quá sệt nhầy/ruột kích thích; không nên lạm dụng kéo dài vì có thể làm heo ‘ì ruột’.",
+      "Nếu heo tiêu chảy nhiều hoặc có dấu mất nước, bù điện giải (Oresol) là bắt buộc để tránh tụt.",
+      "Nếu có sốt rõ, phân rất hôi/thối bất thường, chết rải rác hoặc xuống nhanh: nghĩ đến nhiễm khuẩn (E. coli/Salmonella) — lúc đó cần thú y đánh giá lại, không tự xử theo hướng ‘thiếu men’ nữa.",
+      "Quan trọng nhất là chỉnh khẩu phần: đổi cám từ từ, chia nhỏ bữa, tránh cám mốc/khó tiêu."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
-        "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "main": "",
+        "alternative": [
+          "Oresol (điện giải uống)",
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)",
+          "Pectin - Kaolin",
+          "Than hoạt tính (giải độc tiêu hoá)"
         ]
       }
     },
+
     "supportive_care": [
-      "Chia nhỏ bữa ăn",
-      "Giảm tinh bột khó tiêu",
-      "Tăng cường nhiệt độ chuồng khi lạnh",
-      "Cho uống đủ nước"
+      "Giảm khẩu phần nặng, chia nhỏ bữa; tăng khẩu phần dễ tiêu (theo điều kiện trại).",
+      "Đổi cám từ từ 5–7 ngày, không đổi đột ngột.",
+      "Đảm bảo nước sạch luôn sẵn; kiểm tra máng uống.",
+      "Giữ chuồng khô – thoáng, giảm stress ghép đàn/cai sữa.",
+      "Theo dõi phân 3–5 ngày: phân sống giảm dần là đúng hướng."
     ],
-    "dose_policy": "Dùng đúng theo nhãn hoặc tư vấn thú y."
+
+    "dose_policy": [
+      "Dùng thuốc theo nhãn hoặc chỉ định thú y."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo phân sống nhưng còn ăn tốt.",
+      "description": "Phân sống/tiêu chảy lắt nhắt nhưng heo còn ăn uống, chưa mất nước nặng.",
       "guideline": [
-        "Tăng men tiêu hoá",
-        "Ổn định khẩu phần 3-5 ngày",
-        "Theo dõi tăng trưởng hàng ngày"
+        "Enzyme tiêu hoá + Probiotic để ổn ruột.",
+        "Chia nhỏ bữa, giảm khẩu phần khó tiêu.",
+        "Bù điện giải nếu phân lỏng nhiều."
       ]
     },
     "case_type_2": {
-      "description": "Heo còi kéo dài, hấp thu rất kém.",
+      "description": "Tiêu chảy kéo dài làm heo gầy rõ, tụt lực hoặc có dấu nghi nhiễm khuẩn (sốt, phân hôi thối bất thường).",
       "guideline": [
-        "Thay đổi khẩu phần sang loại dễ tiêu",
-        "Bổ sung men và Probiotic liên tục",
-        "Xem xét loại thải nếu không cải thiện"
+        "Cần thú y đánh giá lại nguyên nhân.",
+        "Ưu tiên bù nước – điện giải và giữ chuồng ổn định.",
+        "Nếu xác định bội nhiễm, dùng kháng sinh theo thú y (không tự ý)."
       ]
     },
-    "note": "Men tiêu hoá cần dùng đều ít nhất vài ngày để có hiệu quả."
+    "note": "Thiếu men tiêu hoá thường cải thiện khi chỉnh khẩu phần + hỗ trợ men đúng cách. Nếu không cải thiện hoặc có sốt, cần chuyển hướng nghĩ sang bệnh nhiễm trùng."
   },
+
   "prevention": [
-    "Không cai sữa heo quá sớm",
-    "Ổn định khẩu phần sau cai sữa",
-    "Bổ sung men tiêu hoá định kỳ cho heo con"
+    "Đổi cám từ từ, tránh thay đổi đột ngột.",
+    "Kiểm soát chất lượng cám, tránh ẩm mốc.",
+    "Chia nhỏ bữa, tránh để đói rồi ăn bù.",
+    "Đảm bảo nước sạch luôn sẵn.",
+    "Giai đoạn sau cai sữa: ưu tiên ổn ruột bằng men vi sinh/men tiêu hoá theo chương trình trại."
   ],
+
   "notes": [
-    "Thường gặp ở heo con cai sữa hoặc heo thay đổi khẩu phần.",
-    "Không gây chết nhưng ảnh hưởng tăng trọng nặng."
+    "Gợi ý thiếu men: phân sống, tiêu chảy lắt nhắt, bụng sôi, ít sốt.",
+    "Nếu tiêu chảy nước ồ ạt và mất nước nhanh, ưu tiên nghĩ E. coli/virus hơn là thiếu men."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

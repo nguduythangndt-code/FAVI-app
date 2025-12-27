@@ -3,7 +3,7 @@
   "name": "Tụ huyết trùng (thể hô hấp)",
   "species": "pig",
   "group": "respiratory",
-  "summary": "Tụ huyết trùng thể hô hấp làm heo sốt cao, thở nặng, tím tái và chết nhanh. Thường bùng phát đột ngột khi thời tiết thay đổi hoặc stress mạnh.",
+  "summary": "Tụ huyết trùng thể hô hấp là bệnh truyền nhiễm cấp tính do vi khuẩn Pasteurella multocida độc lực cao gây ra. Bệnh diễn tiến rất nhanh, gây sốt cao, khó thở, viêm phổi xuất huyết và có thể chết đột ngột nếu không điều trị kịp thời.",
   "causes": [
     "Vi khuẩn Pasteurella multocida độc lực cao",
     "Lây nhanh qua không khí, nước uống, thức ăn nhiễm bẩn",
@@ -44,16 +44,22 @@
       "Florfenicol"
     ],
     "alternative_drugs": [
-      "Enrofloxacin",
       "Amoxicillin",
       "Oxytetracycline"
     ],
-    "note_drugs": "Trong các đợt tụ huyết trùng cấp, cần dùng kháng sinh mạnh, thấm phổi tốt và tiêm sớm.",
+    "note_drugs": [
+      "Tụ huyết trùng là bệnh vi khuẩn độc lực cao, CẦN điều trị NGAY.",
+      "Chậm điều trị có thể chết trong vài giờ.",
+      "Không điều trị đơn lẻ từng con khi bệnh đã lan.",
+      "Kháng viêm chỉ dùng hỗ trợ, KHÔNG thay thế kháng sinh.",
+      "Cần đánh giá toàn đàn khi có ca đầu tiên."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
         "alternative": [
-          "Ketoprofen"
+          "Ketoprofen",
+          "Meloxicam"
         ]
       },
       "respiratory_support": {
@@ -65,7 +71,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Vitamin C điện giải"
         ]
       },
       "vitamin": {
@@ -85,7 +91,7 @@
       "Bổ sung điện giải, đặc biệt với heo sốt cao",
       "Không dồn đuổi, hạn chế tiếng ồn"
     ],
-    "dose_policy": "Dùng đúng liều, đúng thời gian theo nhãn hoặc tư vấn thú y."
+   "dose_policy": "Kháng sinh và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
@@ -107,8 +113,9 @@
     "note": "Tụ huyết trùng là bệnh cấp tính, tốc độ diễn biến rất nhanh, quan trọng là phát hiện sớm trong đàn."
   },
   "prevention": [
-    "Tiêm phòng tụ huyết trùng đầy đủ",
+    "Tiêm vaccine tụ huyết trùng định kỳ.",
     "Giảm stress khi thay đổi thời tiết hoặc chuyển chuồng",
+    "Cách ly heo mới nhập.",
     "Giữ chuồng khô, sạch, thông thoáng",
     "Kiểm soát tốt các bệnh nền hô hấp khác"
   ],

@@ -1,92 +1,155 @@
 {
-  "name": "Tiêu chảy cấp PED",
-  "summary": "Bệnh coronavirus gây nôn - tiêu chảy nặng, chết cao ở heo con.",
+  "id": "ped_acute",
+  "name": "Tiêu chảy cấp PED (Porcine Epidemic Diarrhea) ở heo",
+  "species": "pig",
+  "group": "digestive",
+
+  "summary": "PED là bệnh tiêu chảy cấp do virus, lây rất nhanh trong đàn. Heo (đặc biệt heo con) tiêu chảy nước ồ ạt, mất nước nhanh, tụt lực, dễ chết nếu không bù nước và giữ ấm kịp thời. Kháng sinh không diệt được virus PED — chỉ dùng khi nghi bội nhiễm vi khuẩn.",
+
   "causes": [
-    "Virus PEDV lây qua phân, không khí chuồng kín, dụng cụ"
+    "Virus PEDV gây tổn thương niêm mạc ruột non, làm giảm hấp thu và gây tiêu chảy nước.",
+    "Lây qua phân, dụng cụ, người chăm sóc, xe cộ, chuồng trại nhiễm mầm bệnh.",
+    "Mầm bệnh phát tán mạnh khi đàn có con tiêu chảy."
   ],
+
   "risk_factors": [
-    "Heo con nhỏ",
-    "Trại mới nhiễm",
-    "Mùa lạnh ẩm"
+    "Heo con (đặc biệt giai đoạn bú mẹ/cai sữa sớm).",
+    "Chuồng lạnh, ẩm; gió lùa.",
+    "Vệ sinh – sát trùng kém; mật độ cao.",
+    "Trộn đàn, nhập heo mới không cách ly.",
+    "Stress, thay đổi thức ăn đột ngột."
   ],
+
   "clinical_signs_detailed": [
-    "Nôn",
-    "Tiêu chảy nước",
-    "Mất nước rất nhanh",
-    "Heo con lạnh, nằm dẹt",
-    "Heo nái tiêu chảy nhẹ"
+    "Tiêu chảy nước ồ ạt, phân loãng như nước.",
+    "Nôn/ói có thể gặp (tuỳ đàn).",
+    "Mất nước nhanh: da khô, mắt trũng, con nằm bệt.",
+    "Heo bỏ bú/bỏ ăn, yếu nhanh.",
+    "Heo con chết nhanh nếu không bù nước và giữ ấm kịp."
   ],
+
   "clinical_signs_by_stage": {
     "mild": [
-      "Nôn nhẹ",
-      "Tiêu chảy loãng"
+      "Tiêu chảy loãng mức nhẹ.",
+      "Ăn/bú giảm.",
+      "Chưa mất nước rõ."
     ],
     "moderate": [
-      "Tiêu chảy ồ ạt",
-      "Mất nước"
+      "Tiêu chảy nước nhiều.",
+      "Bú kém, mệt, bắt đầu mất nước.",
+      "Gầy rộc nhanh."
     ],
     "severe": [
-      "Kiệt nước",
-      "Chết nhanh ở heo con"
+      "Tiêu chảy nước ồ ạt, kiệt nhanh.",
+      "Mất nước nặng, nằm bệt, lạnh.",
+      "Heo con có thể chết nhanh."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
       "Oresol (điện giải uống)",
-      "Probiotic"
+      "Glucose",
+      "Probiotic (men vi sinh)",
+      "Pectin - Kaolin"
     ],
+
     "alternative_drugs": [
-      "Oxytetracycline",
+      "Than hoạt tính (giải độc tiêu hoá)",
+      "Enzyme tiêu hoá",
+      "Vitamin BC",
       "Vitamin C"
     ],
-    "note_drugs": "Không có thuốc diệt PEDV. Bù nước - điện giải là chính.",
+
+    "note_drugs": [
+      "PED là bệnh do virus: không có ‘kháng sinh trị PED’. Mục tiêu điều trị là bù nước – điện giải – giữ ấm – cứu con khỏi mất nước.",
+      "Ưu tiên số 1: Oresol + Glucose để chống mất nước và tụt đường huyết. Heo con tụt rất nhanh, xử lý chậm là chết vì mất nước/chết lạnh.",
+      "Probiotic và Pectin - Kaolin giúp ‘đỡ rối ruột’ và bảo vệ niêm mạc ruột, nhưng không thay thế việc bù nước.",
+      "Than hoạt tính chỉ dùng như hỗ trợ khi phân quá hôi/ruột quá kích thích; không dùng kiểu lạm dụng làm heo bỏ bú/bỏ ăn thêm.",
+      "Không tự ý dùng thuốc giảm đau – hạ sốt (Meloxicam/Flunixin/Paracetamol) khi heo đang mất nước nặng: nguy cơ làm nặng thêm tình trạng suy kiệt. Chỉ cân nhắc khi có sốt/đau rõ và con vẫn uống được.",
+      "Kháng sinh chỉ dùng khi nghi bội nhiễm: sốt rõ, phân hôi thối bất thường kéo dài, viêm phổi kèm theo, con tụt nhưng không giống kiểu mất nước đơn thuần. Dùng kháng sinh phải theo thú y để tránh dùng sai và làm loạn hệ ruột."
+    ],
+
     "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": [
+          "Paracetamol",
+          "Meloxicam"
+        ]
+      },
+      "respiratory_support": {
+        "main": "",
+        "alternative": []
+      },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
-      },
-      "digestive_support": {
-        "main": "Probiotic",
-        "alternative": []
+        "alternative": [
+          "Glucose"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin C",
+        "main": "Vitamin BC",
         "alternative": [
-          "Vitamin BC"
+          "Vitamin C"
+        ]
+      },
+      "digestive_support": {
+        "main": "Probiotic (men vi sinh)",
+        "alternative": [
+          "Pectin - Kaolin",
+          "Than hoạt tính (giải độc tiêu hoá)",
+          "Enzyme tiêu hoá"
         ]
       }
     },
+
     "supportive_care": [
-      "Giữ ấm, nền khô",
-      "Tăng miễn dịch sữa mẹ"
+      "Giữ ấm chuồng, tránh gió lùa; heo con phải được ủ ấm.",
+      "Cách ly ô chuồng đang tiêu chảy; giảm lây chéo qua người và dụng cụ.",
+      "Vệ sinh phân liên tục; sát trùng đúng quy trình (ưu tiên khu vực sàn, máng, hành lang).",
+      "Cho uống điện giải nhiều lần trong ngày; ưu tiên con yếu trước.",
+      "Ổn định khẩu phần, tránh đổi cám trong lúc đàn đang bùng."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+
+    "dose_policy": [
+      "Không ghi liều trong ứng dụng.",
+      "Dùng thuốc theo nhãn hoặc chỉ định thú y."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo con tiêu chảy nặng",
+      "description": "Heo tiêu chảy nước nhưng còn uống được, chưa mất nước nặng.",
       "guideline": [
-        "ORS liên tục",
-        "Giữ ấm",
-        "Cách ly"
+        "Tập trung điện giải (Oresol) + hỗ trợ năng lượng (Glucose).",
+        "Thêm Probiotic và Pectin - Kaolin để ổn ruột.",
+        "Giữ ấm, theo dõi mất nước mỗi ngày."
       ]
     },
     "case_type_2": {
-      "description": "Ổ dịch mới vào trại",
+      "description": "Heo tiêu chảy nước ồ ạt, mất nước nặng, lạnh, nằm bệt (heo con rất nguy hiểm).",
       "guideline": [
-        "Biosecurity chặt",
-        "Theo dõi toàn đàn"
+        "Cần thú y can thiệp ngay.",
+        "Ưu tiên cứu mất nước và giữ ấm mạnh (đây là điểm sống còn).",
+        "Theo dõi sát và phân loại con yếu để xử lý trước."
       ]
     },
-    "note": "ORS sớm và đủ là yếu tố sống còn khi heo mất nước liên tục."
+    "note": "PED bùng đàn là bài toán tốc độ: phát hiện sớm, bù nước – giữ ấm đúng thì tỷ lệ sống tăng rõ. Dùng kháng sinh bừa thường không cứu được PED mà còn làm ruột rối hơn."
   },
-  "prevention_list": [
-    "Vaccine PED cho nái",
-    "Biosecurity",
-    "All-in/all-out"
+
+  "prevention": [
+    "An toàn sinh học: cách ly heo mới, hạn chế người/xe ra vào, sát trùng định kỳ.",
+    "Quản lý theo lứa tuổi (all-in all-out) để giảm vòng lây.",
+    "Giữ chuồng khô – ấm, giảm gió lùa, đặc biệt khu heo con.",
+    "Vệ sinh phân nhanh, sát trùng sàn/máng/dụng cụ đúng quy trình.",
+    "Tiêm phòng PED theo chương trình thú y (nếu trại có triển khai)."
   ],
+
   "notes": [
-    "Mất nước là nguyên nhân chết chính."
+    "PED dễ nhầm với TGE hoặc E. coli nếu chỉ nhìn tiêu chảy. Điểm gợi ý PED là lây rất nhanh, tiêu chảy nước hàng loạt, heo con tụt cực nhanh.",
+    "Trong app, PED nên được ưu tiên như một tình huống khẩn vì tốc độ mất nước."
   ],
-  "disclaimer": "Thông tin tham khảo."
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

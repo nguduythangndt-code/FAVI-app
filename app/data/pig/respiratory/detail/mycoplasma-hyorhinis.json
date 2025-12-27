@@ -1,20 +1,27 @@
 {
+  "id": "mycoplasma_hyorhinis",
   "name": "Viêm đa màng - viêm khớp Mycoplasma hyorhinis",
-  "summary": "Mycoplasma gây viêm đa màng và viêm khớp ở heo sau cai sữa, lớn chậm.",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Mycoplasma hyorhinis là tác nhân gây viêm đa màng và viêm khớp mạn tính ở heo con và heo sau cai sữa. Bệnh thường không gây chết nhanh nhưng làm heo đau khớp, đi lại khó khăn, giảm ăn và chậm lớn nếu không điều trị đúng.",
   "causes": [
-    "Mycoplasma hyorhinis bùng phát khi miễn dịch yếu"
+    "Vi khuẩn Mycoplasma hyorhinis.",
+    "Heo mang trùng trong đường hô hấp.",
+    "Bùng phát khi miễn dịch suy giảm."
   ],
   "risk_factors": [
-    "Cai sữa stress",
-    "Chuồng đông, lạnh ẩm",
-    "Đồng nhiễm PRRS/PCV2"
+    "Heo sau cai sữa.",
+    "Stress do cai sữa, chuyển chuồng.",
+    "Chuồng lạnh, ẩm.",
+    "Mật độ nuôi cao.",
+    "Không kiểm soát tốt bệnh hô hấp nền."
   ],
   "clinical_signs_detailed": [
-    "Sốt nhẹ, ăn kém",
-    "Đi cà nhắc, khớp sưng",
-    "Thở nhanh nhẹ",
-    "Heo gầy, chậm lớn",
-    "Có thể viêm màng phổi, màng tim"
+    "Heo lờ đờ, Ăn giảm.",
+    "Đau khớp, Sưng khớp, Đi khập khiễng.",
+    "Nằm nhiều, ngại di chuyển.",
+    "Thở nhanh nhẹ (do viêm đa màng).",
+    "Chậm lớn."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -30,56 +37,84 @@
       "Gầy nhanh"
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
-      "Tiamulin",
-      "Florfenicol"
+      "Tylosin",
+      "Tiamulin"
     ],
     "alternative_drugs": [
-      "Doxycycline",
-      "Tylosin"
+      "Lincomycin",
+      "Doxycycline"
     ],
-    "note_drugs": "M. hyorhinis thường đáp ứng nhóm macrolide/pleuromutilin nếu dùng sớm.",
+    "note_drugs": [
+      "Mycoplasma không có vách tế bào, KHÔNG nhạy với penicillin và cephalosporin.",
+      "Cần dùng kháng sinh đặc hiệu Mycoplasma.",
+      "Điều trị cần đủ thời gian để tránh tái phát.",
+      "Kháng viêm giúp giảm đau và cải thiện vận động.",
+      "Không điều trị sớm sẽ gây què mạn tính."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
-        "alternative": []
+        "alternative": [
+          "Flunixin"
+        ]
+      },
+      "electrolyte": {
+        "main": "Điện giải tổng hợp (Na/K/Cl)",
+        "alternative": [
+          "Oresol"
+        ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": ["Vitamin C"]
       }
     },
+    "digestive_support": {
+        "main": "Enzyme tiêu hoá",
+        "alternative": [
+          "Probiotic (men vi sinh)"
+        ]
+      },
     "supportive_care": [
-      "Giữ nền khô ấm",
-      "Giảm trộn đàn, giảm stress"
+      "Giữ nền chuồng khô, không trơn.",
+      "Giảm mật độ nuôi.",
+      "Giữ ấm cho heo sau cai sữa.",
+      "Theo dõi vận động và tăng trọng."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+    "dose_policy": "Kháng sinh và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Khớp sưng nặng",
+      "description": "Heo đau khớp, đi khập khiễng nhưng còn đứng dậy được.",
       "guideline": [
-        "Tiamulin/Florfenicol sớm",
-        "Kháng viêm"
+        "Điều trị kháng sinh đặc hiệu Mycoplasma",
+        "Kết hợp kháng viêm",
+        "Theo dõi vận động 3–5 ngày"
       ]
     },
     "case_type_2": {
-      "description": "Gầy nhanh - đa màng",
+      "description": "Heo sưng khớp nặng, nằm nhiều, đi lại rất khó.",
       "guideline": [
-        "Điều trị toàn ô",
-        "Bổ sung trợ sức"
+        "Điều trị kéo dài hơn",
+        "Giảm stress và nền chuồng trơn",
+        "Đánh giá khả năng hồi phục",
+        "Xem xét loại thải nếu què kéo dài"
       ]
     },
-    "note": "Nếu xử lý muộn, khớp viêm kéo dài khiến heo chậm lớn lâu ngày."
+    "note": "Điều trị muộn thường để lại di chứng khớp."
   },
-  "prevention_list": [
-    "Giảm stress cai sữa",
-    "Thông thoáng chuồng",
-    "Kiểm soát PRRS/PCV2"
+  "prevention": [
+    "Giảm stress giai đoạn cai sữa.",
+    "Giữ chuồng khô và ấm.",
+    "Kiểm soát tốt bệnh hô hấp nền.",
+    "Quản lý mật độ nuôi hợp lý.",
+    "Theo dõi sớm dấu hiệu đau khớp."
   ],
   "notes": [
-    "Bệnh kéo dài làm tụt tăng trọng rõ."
+    "Mycoplasma hyorhinis thường gây bệnh mạn tính.",
+    "Dễ nhầm với Glässer nhưng mức độ cấp tính thấp hơn."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

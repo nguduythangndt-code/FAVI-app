@@ -3,24 +3,28 @@
   "name": "Viêm tử cung sau sinh",
   "species": "pig",
   "group": "reproductive",
-  "summary": "Viêm tử cung sau sinh làm nái ra dịch hôi, sốt, bỏ ăn và giảm sữa. Nếu không xử lý sớm sẽ suy nhanh.",
+  "summary": "Viêm tử cung sau đẻ là tình trạng nhiễm khuẩn tử cung xảy ra trong vài ngày đến vài tuần sau khi heo nái sinh con. Bệnh làm nái sốt, ra dịch hôi, giảm ăn, giảm sữa và ảnh hưởng nghiêm trọng đến khả năng sinh sản nếu không điều trị kịp thời.",
   "causes": [
-    "Nhiễm khuẩn sau đẻ hoặc sau can thiệp sản khoa",
-    "Nhau sót",
-    "Chuồng đẻ bẩn"
+    "Nhiễm khuẩn sau đẻ (E. coli, Streptococcus, Staphylococcus).",
+    "Đẻ khó, can thiệp kéo thai không vệ sinh.",
+    "Sót nhau, sót thai.",
+    "Chuồng đẻ bẩn, ẩm.",
+    "Hệ miễn dịch nái suy yếu sau sinh."
   ],
   "risk_factors": [
-    "Đỡ đẻ không vệ sinh",
-    "Dụng cụ không sát trùng",
-    "Nhiễm E.coli hoặc Streptococcus",
-    "Nái đẻ khó kéo dài"
+    "Đẻ khó, đẻ kéo dài.",
+    "Can thiệp đỡ đẻ nhiều lần.",
+    "Nái béo, ít vận động trước đẻ.",
+    "Không vệ sinh âm hộ sau đẻ.",
+    "Thiếu chăm sóc giai đoạn hậu sản."
   ],
   "clinical_signs_detailed": [
-    "Dịch tiết hôi tanh màu nâu hoặc xanh",
-    "Sốt, bỏ ăn",
-    "Nái mệt, nằm nhiều",
-    "Giảm sữa, heo con kêu đói",
-    "Có thể đau bụng, đứng lên nằm xuống liên tục"
+    "Ra dịch sinh dục hôi sau đẻ.",
+    "Dịch màu nâu, vàng hoặc xám.",
+    "Nái sốt, Nái bỏ ăn hoặc ăn giảm.",
+    "Nái nằm nhiều, mệt.",
+    "Giảm hoặc mất sữa.",
+    "Chậm động dục trở lại."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -40,75 +44,78 @@
   "treatment": {
     "primary_drugs": [
       "Amoxicillin",
-      "Ceftiofur"
+      "Oxytetracycline"
     ],
     "alternative_drugs": [
-      "Oxytetracycline",
-      "Ampicillin"
+      "Ceftiofur",
+      "Trimethoprim + Sulfonamide"
     ],
-    "note_drugs": "Amoxicillin và Ceftiofur rất phù hợp cho viêm tử cung sau sinh.",
+    "note_drugs": [
+      "Viêm tử cung sau đẻ là bệnh vi khuẩn, CẦN dùng kháng sinh.",
+      "Điều trị càng sớm hiệu quả càng cao.",
+      "Không đổi kháng sinh khi chưa đủ thời gian điều trị.",
+      "Kết hợp kháng viêm để hạ sốt và giảm đau.",
+      "Theo dõi dịch sinh dục mỗi ngày trong quá trình điều trị."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "Meloxicam",
         "alternative": [
-          "Ketoprofen"
+          "Flunixin"
         ]
       },
-      "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": []
-      },
       "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+        "main": "Điện giải tổng hợp (Na/K/Cl)",
         "alternative": [
-          "electrolyte_mix"
+          "Oresol"
         ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
-      },
-      "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Vitamin C",
         "alternative": [
-          "Probiotic"
+          "Vitamin BC"
         ]
       }
     },
     "supportive_care": [
-      "Vệ sinh chuồng đẻ sạch",
-      "Bổ sung nước và điện giải",
-      "Hỗ trợ heo con nếu nái mất sữa"
+      "Vệ sinh âm hộ và vùng sau đẻ.",
+      "Giữ chuồng đẻ khô, sạch.",
+      "Bổ sung nước uống đầy đủ.",
+      "Theo dõi thân nhiệt hằng ngày.",
+      "Hỗ trợ chăm sóc heo con nếu nái giảm sữa."
     ],
-    "dose_policy": "Theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "Kháng sinh và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Nái có dịch hôi nhưng vẫn ăn ít.",
+      "description": "Viêm tử cung nhẹ, nái còn ăn và chưa sốt cao.",
       "guideline": [
-        "Kháng sinh chính",
-        "Giữ sạch chuồng",
-        "Theo dõi nhiệt độ"
+        "Điều trị kháng sinh sớm",
+        "Kết hợp kháng viêm",
+        "Theo dõi dịch sinh dục 2–3 ngày"
       ]
     },
     "case_type_2": {
-      "description": "Nái bỏ ăn, dịch xanh nâu, heo con suy.",
+      "description": "Viêm tử cung nặng, sốt cao, dịch hôi nhiều, nái suy.",
       "guideline": [
-        "Điều trị tích cực",
-        "Hỗ trợ điện giải liên tục",
-        "Cân nhắc can thiệp thú y"
+        "Điều trị kháng sinh mạnh hơn",
+        "Hỗ trợ hạ sốt và điện giải",
+        "Theo dõi nguy cơ MMA và vô sinh",
+        "Can thiệp thú y nếu không cải thiện"
       ]
     },
-    "note": "Viêm tử cung nặng có thể gây chết nếu không xử lý."
+    "note": "Viêm tử cung kéo dài là nguyên nhân hàng đầu gây chậm động dục và loại thải nái."
   },
   "prevention": [
-    "Chuồng đẻ phải khô sạch",
-    "Dụng cụ đỡ đẻ luôn sát trùng",
-    "Theo dõi sau đẻ 3 ngày đầu"
+    "Vệ sinh chuồng đẻ kỹ trước và sau đẻ.",
+    "Hạn chế can thiệp đỡ đẻ không cần thiết.",
+    "Theo dõi sát nái trong 7 ngày đầu sau đẻ.",
+    "Xử lý sớm sót nhau và đẻ khó.",
+    "Chăm sóc hậu sản đúng cách."
   ],
   "notes": [
-    "Nái viêm tử cung dễ mất sữa.",
-    "Xử lý sớm giúp hồi nhanh và nuôi con tốt."
+    "Viêm tử cung thường xảy ra trong 3–10 ngày sau đẻ.",
+    "Phát hiện sớm giúp phục hồi sinh sản tốt hơn."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

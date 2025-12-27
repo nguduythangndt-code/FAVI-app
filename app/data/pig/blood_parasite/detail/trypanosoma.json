@@ -5,8 +5,10 @@
   "group": "blood_parasite",
   "summary": "Trypanosoma gây bệnh kéo dài, heo gầy nhanh, thiếu máu, phù chân bụng và đi không vững. Nếu để lâu, nhiều con suy kiệt và chết.",
   "causes": [
-    "Ký sinh trùng Trypanosoma spp.",
-    "Truyền qua côn trùng hút máu như ruồi trâu, ruồi cắn (Tabanus, Stomoxys)."
+    "Ký sinh trùng Trypanosoma ký sinh trong máu.",
+    "Lây truyền chủ yếu qua côn trùng hút máu như ruồi, muỗi.",
+    "Lây cơ học qua kim tiêm, dụng cụ dính máu.",
+    "Lây qua vết thương hở."
   ],
   "risk_factors": [
     "Khu vực nhiều ruồi trâu, ruồi cắn quanh chuồng",
@@ -44,14 +46,18 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Diminazene",
-      "Isometamidium"
+      "Diminazene (Azidin)"
     ],
     "alternative_drugs": [
-      "Oxytetracycline LA"
     ],
-    "note_drugs": "Ưu tiên chọn Diminazene hoặc Isometamidium làm thuốc chính. Oxytetracycline LA chỉ dùng hỗ trợ điều trị nhiễm khuẩn kế phát, không diệt được Trypanosoma.",
-    "symptomatic_treatment": {
+    "note_drugs": [
+      "Trypanosoma cần thuốc đặc hiệu, kháng sinh thông thường không hiệu quả.",
+      "Azidin là thuốc mạnh, có nguy cơ gây sốc phản vệ — không dùng cho con vật quá yếu, mất nước hoặc suy kiệt.",
+      "Chỉ điều trị khi nghi ngờ rõ ràng và có tư vấn thú y.",
+      "Theo dõi sát heo yếu trong và sau điều trị.",
+      "Nếu con vật có phản ứng bất thường sau tiêm (ngã, khó thở, run, rên), cần nghĩ đến nguy cơ sốc phản vệ."
+    ],
+"symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
         "alternative": [
@@ -68,8 +74,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {

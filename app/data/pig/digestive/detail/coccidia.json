@@ -1,22 +1,26 @@
 {
   "id": "coccidia",
-  "name": "Tiêu chảy do Coccidia (Isospora)",
+  "name": "Tiêu chảy do Cầu trùng (Coccidiosis) ở heo",
   "species": "pig",
   "group": "digestive",
-  "summary": "Coccidia thường gây tiêu chảy kéo dài ở heo con, phân sệt hoặc nhão, heo lớn chậm, lông xấu và ít khi chết nhanh nhưng ảnh hưởng mạnh đến tăng trọng.",
+
+  "summary": "Cầu trùng là bệnh ký sinh trùng đường ruột thường gặp ở heo con (đặc biệt giai đoạn bú mẹ và sau cai sữa). Bệnh gây tiêu chảy kéo dài, phân vàng/xám, dính bết, heo chậm lớn. Điều trị đúng là dùng thuốc cầu trùng (ưu tiên Toltrazuril/Diclazuril) kết hợp bù nước – bảo vệ ruột. Kháng sinh chỉ dùng khi nghi bội nhiễm vi khuẩn.",
+
   "causes": [
-    "Ký sinh trùng đường ruột Isospora suis và các loài Coccidia khác",
-    "Lây qua phân nhiễm trùng dính vào nền chuồng, vú nái, máng ăn uống"
+    "Ký sinh trùng cầu trùng (thường Isospora/Eimeria) gây tổn thương niêm mạc ruột.",
+    "Lây qua phân, nền chuồng/ổ đẻ nhiễm noãn nang.",
+    "Noãn nang tồn tại dai trong môi trường ẩm bẩn nếu vệ sinh kém."
   ],
+
   "risk_factors": [
-    "Chuồng úm ẩm, bẩn, khó khô",
-    "Không dọn phân thường xuyên",
-    "Mật độ nuôi heo con dày",
-    "Heo con từ 5-21 ngày tuổi",
-    "Chuồng khó khử trùng do nhiều kẽ hở, nền xốp"
+    "Heo con trong chuồng đẻ, heo sau cai sữa.",
+    "Chuồng ẩm, nền bẩn, khó khô.",
+    "Không vệ sinh kỹ giữa các lứa.",
+    "Heo yếu, bú kém, thiếu dinh dưỡng.",
+    "Nhiễm ghép vi khuẩn đường ruột làm nặng tiêu chảy."
   ],
   "clinical_signs_detailed": [
-    "Tiêu chảy nhão, phân sệt hoặc sệt có nước",
+    "Tiêu chảy kéo dài, phân vàng/xám, sệt hoặc lỏng, hay dính bết.",
     "Phân dính quanh hậu môn và đuôi",
     "Heo con lớn chậm, bụng tóp, xương sườn lộ",
     "Lông xỉu, da nhăn, nhìn gầy gò",
@@ -40,64 +44,76 @@
       "Heo rất chậm lớn, dễ ghép bệnh khác"
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
-      "Toltrazuril"
+      "Toltrazuril",
+      "Diclazuril"
     ],
+
     "alternative_drugs": [
-      "Sulfonamide",
-      "Sulfamethoxazole + Trimethoprim"
+      "Amprolium"
     ],
-    "note_drugs": "Toltrazuril là lựa chọn chính cho Coccidia trên heo con. Các thuốc Sulfonamide hoặc phối hợp Sulfa-trimethoprim chỉ dùng khi không có Toltrazuril hoặc theo hướng dẫn thú y.",
+
+    "note_drugs": [
+      "Cầu trùng là ký sinh trùng: phải dùng thuốc cầu trùng (Toltrazuril/Diclazuril là hướng ưu tiên). Dùng kháng sinh ‘đè tiêu chảy’ thường không giải quyết gốc bệnh.",
+      "Điều trị quá muộn thì dù dùng đúng thuốc, ruột đã tổn thương nên vẫn tiêu chảy kéo dài và chậm lớn — vì vậy phát hiện sớm rất quan trọng.",
+      "Không đổi thuốc liên tục theo kiểu ‘hôm nay thuốc này mai thuốc khác’. Chọn đúng thuốc cầu trùng và theo đủ thời gian theo nhãn/thú y.",
+      "Kháng sinh chỉ cân nhắc khi nghi bội nhiễm vi khuẩn: sốt rõ, phân thối bất thường, con xuống nhanh, hoặc có viêm phổi kèm theo. Nếu không có các dấu này thì ưu tiên tập trung cầu trùng + chăm sóc ruột.",
+      "Bù nước – điện giải là bắt buộc nếu tiêu chảy nhiều. Heo con dễ tụt vì mất nước + lạnh hơn là vì bản thân cầu trùng.",
+      "Không tự ý dùng thuốc giảm đau/kháng viêm khi heo đang mất nước nặng. Chỉ cân nhắc khi có sốt/đau rõ và heo vẫn uống được."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": [
-          "Ketoprofen",
+          "Paracetamol",
           "Meloxicam"
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": [
-          "Ambroxol"
-        ]
+        "main": "",
+        "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix",
-          "electrolyte_mix"
+          "Glucose",
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
         "main": "Vitamin BC",
         "alternative": [
-          "Vitamin ADE",
-          "Multivitamin tổng hợp"
+          "Vitamin C"
         ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Probiotic (men vi sinh)",
         "alternative": [
-          "Probiotic"
+          "Pectin - Kaolin",
+          "Enzyme tiêu hoá",
+          "Than hoạt tính (giải độc tiêu hoá)"
         ]
       }
     },
+
     "supportive_care": [
-      "Giữ ô heo con khô, sạch, thay lót thường xuyên",
-      "Không để heo nằm trực tiếp trên nền ẩm",
-      "Bổ sung vitamin và khoáng cho heo con trong giai đoạn điều trị"
+      "Giữ chuồng thật khô và ấm, tránh gió lùa.",
+      "Dọn phân nhiều lần trong ngày để giảm lây noãn nang.",
+      "Bù điện giải nhiều lần trong ngày; ưu tiên con yếu trước.",
+      "Ổn định thức ăn, tránh đổi cám đột ngột.",
+      "Vệ sinh máng, nền, dụng cụ chăm sóc; hạn chế mang phân từ ô này sang ô khác."
     ],
     "dose_policy": "Dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo tiêu chảy kéo dài, gầy nhưng vẫn còn đi lại và ăn ít.",
+      "description": "Heo tiêu chảy kéo dài nhưng còn bú/ăn, chưa mất nước nặng.",
       "guideline": [
-        "Dùng Toltrazuril theo khuyến cáo",
-        "Bổ sung men tiêu hoá và vitamin đều mỗi ngày",
-        "Giữ chuồng khô và sạch phân"
+        "Ưu tiên thuốc cầu trùng (Toltrazuril hoặc Diclazuril).",
+        "Điện giải (Oresol) + hỗ trợ năng lượng (Glucose).",
+        "Hỗ trợ ruột (Probiotic, Pectin - Kaolin) và theo dõi đáp ứng vài ngày."
       ]
     },
     "case_type_2": {
@@ -108,17 +124,20 @@
         "Theo dõi kỹ để phát hiện bệnh ghép như E.coli hoặc bệnh hô hấp"
       ]
     },
-    "note": "Coccidia làm heo chậm lớn kéo dài, thiệt hại chính là mất tăng trọng chứ ít khi chết cấp."
+     "note": "Cầu trùng gây thiệt hại lớn vì tiêu chảy kéo dài và chậm lớn. Vệ sinh chuồng đẻ + nền khô là chìa khoá để cắt vòng lây."
   },
+
   "prevention": [
-    "Vệ sinh chuồng úm hàng ngày, dọn phân sớm",
-    "Giữ nền khô, hạn chế ẩm đọng",
-    "Khử trùng định kỳ bằng thuốc sát trùng phù hợp",
-    "Không nuôi heo con quá dày trong một ô"
+    "Vệ sinh chuồng đẻ kỹ giữa các lứa; làm khô nền chuồng tối đa.",
+    "Dọn phân thường xuyên, hạn chế ẩm ướt kéo dài.",
+    "Quản lý theo lứa tuổi, tránh ghép lẫn nhiều tuổi.",
+    "Giữ ấm heo con, giảm stress.",
+    "Trại hay bị cầu trùng: xây chương trình phòng định kỳ bằng thuốc cầu trùng theo thú y."
   ],
+
   "notes": [
-    "Thường gặp ở heo con khoảng 1-3 tuần tuổi.",
-    "Nếu trong đàn có nhiều con cùng chậm lớn và phân nhão kéo dài, cần nghĩ đến Coccidia."
+    "Gợi ý cầu trùng: tiêu chảy kéo dài, ít sốt, phân vàng/xám và dính bết; heo chậm lớn rõ.",
+    "Nếu sốt cao và phân rất hôi/thối, cần nghĩ nhiều hơn đến bội nhiễm vi khuẩn (E. coli/Salmonella)."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

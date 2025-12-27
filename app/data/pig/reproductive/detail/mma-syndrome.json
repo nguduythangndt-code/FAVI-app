@@ -1,47 +1,64 @@
 {
+  "id": "mma_syndrome",
   "name": "Hội chứng MMA (viêm vú - viêm tử cung - mất sữa)",
-  "summary": "Thường xảy ra 12-72h sau đẻ: nái sốt, viêm vú, viêm tử cung, giảm/mất sữa làm heo con chết đói.",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Hội chứng MMA là tổ hợp bệnh thường xảy ra trong 1–5 ngày sau đẻ ở heo nái, bao gồm viêm vú, viêm tử cung và mất hoặc giảm sữa. Đây là tình trạng nguy hiểm, gây chết heo con nhanh chóng và làm nái suy kiệt nếu không xử lý kịp thời.",
   "causes": [
-    "Nhiễm khuẩn đường sinh dục và tuyến vú sau đẻ",
-    "Táo bón - ứ sữa - nền bẩn"
+    "Nhiễm khuẩn sau đẻ (thường gặp E. coli).",
+    "Chuồng đẻ bẩn, ẩm.",
+    "Đẻ khó, can thiệp nhiều.",
+    "Táo bón sau đẻ.",
+    "Sót nhau, dịch bẩn trong tử cung."
   ],
   "risk_factors": [
-    "Chuồng đẻ bẩn, ẩm",
-    "Nái đẻ lâu, khó đẻ",
-    "Táo bón trước/sau đẻ",
-    "Thiếu nước uống"
+    "Nái béo, ít vận động trước đẻ.",
+    "Thiếu nước uống sau đẻ.",
+    "Khẩu phần nhiều tinh bột.",
+    "Vệ sinh chuồng đẻ kém.",
+    "Không theo dõi sát sau đẻ."
   ],
   "clinical_signs_detailed": [
-    "Nái sốt, bỏ ăn",
-    "Vú sưng nóng, đau",
-    "Sữa ít hoặc không có",
-    "Dịch hôi từ âm hộ",
-    "Heo con kêu đói, tiêu chảy do thiếu sữa"
+    "Nái sốt sau đẻ.",
+    "Mất sữa hoặc rất ít sữa.",
+    "Vú sưng, nóng, đau.",
+    "Ra dịch hôi sau đẻ.",
+    "Heo con đói, kêu nhiều.",
+    "Heo con tiêu chảy, chết nhanh.",
+    "Nái bỏ ăn, nằm nhiều."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Sốt nhẹ",
-      "Sữa giảm"
+      "Giảm sữa nhẹ",
+      "Nái hơi sốt"
     ],
     "moderate": [
-      "Vú sưng đau",
-      "Heo con đói rõ"
+      "Ít sữa rõ",
+      "Vú viêm",
+      "Ra dịch sinh dục"
     ],
     "severe": [
-      "Sốt cao",
       "Mất sữa hoàn toàn",
-      "Nhiễm trùng tử cung"
+      "Nái sốt cao",
+      "Heo con chết hàng loạt"
     ]
   },
   "treatment": {
     "primary_drugs": [
-      "Ceftiofur",
-      "Oxytocin"
+      "Amoxicillin",
+      "Oxytetracycline"
     ],
     "alternative_drugs": [
-      "Ampicillin"
+      "Ceftiofur",
+      "Trimethoprim + Sulfonamide"
     ],
-    "note_drugs": "Ceftiofur kiểm soát nhiễm khuẩn; Oxytocin kích sữa - tống sản dịch; Meloxicam giảm sốt đau.",
+    "note_drugs": [
+      "MMA là bệnh cần điều trị NGAY sau khi phát hiện.",
+      "Kháng sinh là bắt buộc để kiểm soát nhiễm khuẩn.",
+      "Không điều trị nửa vời hoặc chờ tự khỏi.",
+      "Kết hợp kháng viêm để hạ sốt và giảm đau.",
+      "Cần hỗ trợ sữa cho heo con song song."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
@@ -50,47 +67,57 @@
         ]
       },
       "electrolyte": {
-        "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "main": "Điện giải tổng hợp (Na/K/Cl)",
+        "alternative": [
+          "Oresol"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin BC"
+        ]
       }
     },
     "supportive_care": [
-      "Vắt bỏ sữa vón cục, chườm ấm vú",
-      "Cho nái uống đủ nước ấm",
-      "Hỗ trợ heo con bú đều hoặc ghép mẹ"
+      "Chườm ấm và xoa bóp tuyến vú.",
+      "Vắt bỏ sữa viêm nếu cần.",
+      "Bổ sung nước uống đầy đủ.",
+      "Hỗ trợ heo con bú thay hoặc ghép bầy.",
+      "Giữ chuồng đẻ khô, sạch."
     ],
-    "dose_policy": "Dùng theo hướng dẫn trên nhãn thuốc hoặc hỏi thú y khi cần."
+    "dose_policy": "Thuốc dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Nái sốt cao, mất sữa",
+      "description": "Nái giảm sữa, sốt nhẹ, heo con còn bú được.",
       "guideline": [
-        "Kháng sinh mạnh sớm",
-        "Oxytocin hỗ trợ",
-        "Kháng viêm - điện giải"
+        "Điều trị kháng sinh sớm",
+        "Kết hợp kháng viêm",
+        "Theo dõi lượng sữa 24–48 giờ"
       ]
     },
     "case_type_2": {
-      "description": "Tử cung nhiễm nặng",
+      "description": "Nái mất sữa hoàn toàn, sốt cao, heo con đói và chết nhanh.",
       "guideline": [
-        "Kháng sinh + vệ sinh âm hộ",
-        "Theo dõi sản dịch"
+        "Xử lý như cấp cứu MMA",
+        "Điều trị kháng sinh mạnh hơn",
+        "Hỗ trợ tối đa cho heo con",
+        "Theo dõi nguy cơ viêm tử cung nặng"
       ]
     },
-    "note": "Đi trễ heo con chết hàng loạt."
+    "note": "Chậm xử lý MMA thường dẫn đến mất cả ổ heo con."
   },
-  "prevention_list": [
-    "Chuồng đẻ sạch - khô",
-    "Giảm táo bón trước đẻ",
-    "Cho uống đủ nước",
-    "Vắt sữa đều sau đẻ"
+  "prevention": [
+    "Vệ sinh chuồng đẻ kỹ trước đẻ.",
+    "Cho nái vận động cuối thai kỳ.",
+    "Cung cấp đủ nước sau đẻ.",
+    "Theo dõi sát 5 ngày đầu sau đẻ.",
+    "Xử lý sớm táo bón và sót nhau."
   ],
   "notes": [
-    "Phát hiện sớm 1-2 ngày đầu sau đẻ là cứu cả bầy con."
+    "MMA thường xảy ra trong 1–5 ngày sau đẻ.",
+    "Phát hiện sớm giúp cứu được đàn heo con."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

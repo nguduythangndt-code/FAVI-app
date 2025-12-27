@@ -1,20 +1,30 @@
 {
+  
+  "id": "streptococcus_suis",
   "name": "Liên cầu khuẩn Streptococcus suis",
-  "summary": "Bệnh nhiễm khuẩn gây viêm màng não, viêm khớp, nhiễm trùng huyết ở heo cai sữa - hậu bị.",
+  "species": "pig",
+  "group": "other",
+  "summary": "Liên cầu khuẩn Streptococcus suis là bệnh truyền nhiễm nguy hiểm do vi khuẩn gây ra, thường gây viêm màng não, nhiễm trùng huyết và viêm khớp ở heo. Bệnh diễn biến rất nhanh, tỷ lệ chết cao nếu không điều trị kịp thời. Đây cũng là bệnh có thể lây sang người.",
   "causes": [
-    "Vi khuẩn Streptococcus suis xâm nhập qua đường hô hấp, vết thương, rốn"
+    "Vi khuẩn Streptococcus suis.",
+    "Lây qua tiếp xúc trực tiếp giữa heo bệnh và heo khỏe.",
+    "Vi khuẩn xâm nhập qua đường hô hấp, tiêu hóa hoặc vết thương.",
+    "Bội phát sau stress, cai sữa, vận chuyển."
   ],
   "risk_factors": [
-    "Cai sữa stress",
-    "Mật độ cao, chuồng ẩm",
-    "Trộn đàn nhiều"
+    "Heo con sau cai sữa.",
+    "Chuồng trại ẩm, thông thoáng kém.",
+    "Mật độ nuôi cao.",
+    "Thời tiết thay đổi đột ngột.",
+    "Heo suy giảm miễn dịch hoặc mắc bệnh nền."
   ],
   "clinical_signs_detailed": [
-    "Sốt, bỏ ăn",
-    "Run, đi vòng, nghiêng đầu",
-    "Co giật, nằm chèo chân",
-    "Khớp sưng đau, đi cà nhắc",
-    "Có thể chết đột ngột"
+    "Sốt cao đột ngột.",
+    "Bỏ ăn, lờ đờ.",
+    "Run rẩy, đi loạng choạng.",
+    "Nghiêng đầu, quay vòng, co giật.",
+    "Viêm khớp, đi khập khiễng.",
+    "Có thể chết nhanh không kịp biểu hiện rõ."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -39,7 +49,14 @@
       "Ampicillin",
       "Enrofloxacin"
     ],
-    "note_drugs": "S. suis đáp ứng tốt nhóm beta-lactam như Penicillin/Ceftiofur nếu dùng sớm.",
+    "note_drugs": [
+      "Liên cầu khuẩn là bệnh vi khuẩn, BẮT BUỘC dùng kháng sinh sớm.",
+      "Penicillin và Amoxicillin là lựa chọn ưu tiên nếu phát hiện sớm.",
+      "Ceftiofur dùng cho ca nặng hoặc đáp ứng kém.",
+      "Điều trị trễ dễ dẫn đến viêm màng não và chết nhanh.",
+      "Không dùng kháng sinh muộn khi heo đã co giật nặng.",
+      "Người xử lý heo bệnh cần đeo bảo hộ vì bệnh có thể lây sang người."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
@@ -47,42 +64,58 @@
           "Flunixin"
         ]
       },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
+      },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin C",
+        "alternative": [
+          "Vitamin B1",
+          "Vitamin BC"
+        ]
       }
     },
     "supportive_care": [
-      "Cách ly con bệnh",
-      "Giữ ấm, giảm kích thích",
-      "Bổ sung nước sạch"
+      "Cách ly ngay heo nghi nhiễm.",
+      "Giữ chuồng yên tĩnh, tránh kích thích.",
+      "Giữ nền chuồng khô, sạch.",
+      "Theo dõi thân nhiệt và phản xạ thần kinh.",
+      "Giảm mật độ nuôi để hạn chế lây lan."
     ],
-    "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "Dùng kháng sinh theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Thần kinh rõ",
+      "description": "Heo sốt cao, đi loạng choạng nhưng chưa co giật.",
       "guideline": [
-        "Ưu tiên Penicillin/Ceftiofur sớm",
-        "Giữ yên tĩnh"
+        "Dùng kháng sinh sớm",
+        "Kết hợp kháng viêm",
+        "Theo dõi sát 24 giờ đầu"
       ]
     },
     "case_type_2": {
-      "description": "Khớp sưng nặng",
+      "description": "Heo co giật, nghi viêm màng não.",
       "guideline": [
-        "Kháng sinh + kháng viêm",
-        "Nền mềm khô"
+        "Tiên lượng xấu",
+        "Điều trị tích cực nếu còn sớm",
+        "Xem xét loại thải để giảm lây lan"
       ]
     },
-    "note": "Tỷ lệ cứu giảm mạnh nếu trễ."
+     "note": "Viêm màng não do liên cầu thường để lại di chứng thần kinh."
   },
-  "prevention_list": [
-    "Giảm stress cai sữa",
-    "Không trộn đàn lung tung",
-    "Vệ sinh sát trùng tốt"
+  "prevention": [
+    "Giữ chuồng trại khô, thông thoáng.",
+    "Giảm stress khi cai sữa và vận chuyển.",
+    "Không nuôi mật độ quá cao.",
+    "Cách ly heo mới nhập.",
+    "Áp dụng an toàn sinh học nghiêm ngặt."
   ],
   "notes": [
-    "Bệnh có thể lây sang người qua vết thương, cần đeo găng."
+    "Liên cầu khuẩn có thể gây tử vong rất nhanh.",
+    "Bệnh có nguy cơ lây sang người khi tiếp xúc trực tiếp."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

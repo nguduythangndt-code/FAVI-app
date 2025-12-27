@@ -3,15 +3,16 @@
   "name": "Chấy rận",
   "species": "pig",
   "group": "parasite",
-  "summary": "Chấy rận hút máu làm heo ngứa, cọ nhiều, da xấu và chậm lớn. Nhiễm nặng có thể gây thiếu máu nhẹ kéo dài.",
+  "summary": "Chấy rận ở heo là bệnh ký sinh trùng ngoài da do Haematopinus suis gây ra. Chấy hút máu, gây ngứa dữ dội, thiếu máu, làm heo chậm lớn và dễ nhiễm trùng kế phát. Bệnh không gây chết nhanh nhưng ảnh hưởng lớn đến tăng trọng và sức khỏe đàn.",
   "causes": [
-    "Ký sinh trùng ngoài da hút máu (chấy, rận)",
-    "Lây qua tiếp xúc trực tiếp giữa các con",
-    "Dùng chung dụng cụ, dây buộc, chổi cọ"
+    "Ký sinh trùng Haematopinus suis.",
+    "Lây trực tiếp từ heo nhiễm sang heo khỏe.",
+    "Chuồng trại ẩm, vệ sinh kém.",
+    "Không tắm sát trùng hoặc không xử lý ký sinh trùng định kỳ."
   ],
   "risk_factors": [
     "Chuồng bẩn, nhiều bụi và chất hữu cơ",
-    "Mật độ nuôi dày",
+    "Heo nuôi mật độ cao.",
     "Không tẩy ký sinh trùng ngoài da định kỳ",
     "Heo hậu bị, heo nái nuôi nhốt lâu"
   ],
@@ -39,29 +40,38 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Ivermectin"
+      "Ivermectin",
+      "Doramectin"
     ],
     "alternative_drugs": [
-      "Doramectin",
-      "Permethrin"
+      "Permethrin",
+      "Amitraz"
     ],
-    "note_drugs": "Ivermectin là thuốc chính, xử lý cả ký sinh trùng ngoài da và một số ký sinh trùng trong. Phun Permethrin chỉ dùng ngoài da, tránh để heo liếm phải.",
+    "note_drugs": [
+      "Chấy rận là ký sinh trùng ngoài da, KHÔNG dùng kháng sinh.",
+      "Ivermectin và Doramectin có hiệu quả cao và dễ sử dụng.",
+      "Cần điều trị đồng loạt toàn đàn để tránh tái nhiễm.",
+      "Nên lặp lại điều trị sau 7–14 ngày để diệt trứng nở.",
+      "Phải kết hợp xử lý chuồng trại và dụng cụ."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": ["Vitamin C"]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
@@ -69,17 +79,19 @@
       }
     },
     "supportive_care": [
-      "Vệ sinh chuồng, thay lót khô",
-      "Phun sát trùng nền và vách",
-      "Giặt hoặc thay dây buộc, dụng cụ tiếp xúc nhiều với heo"
+      "Tắm hoặc phun thuốc diệt chấy theo hướng dẫn.",
+      "Vệ sinh và sát trùng chuồng trại.",
+      "Thu gom, xử lý phân và rác chuồng.",
+      "Giữ nền chuồng khô ráo.",
+      "Theo dõi tình trạng da sau điều trị."
     ],
-    "dose_policy": "Dùng đúng theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "Thuốc diệt chấy dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Heo ngứa nhiều nhưng vẫn ăn khá.",
       "guideline": [
-        "Tiêm Ivermectin",
+        "Tiêm Ivermectin sớm ",
         "Vệ sinh chuồng và phun sát trùng",
         "Theo dõi sau 7-10 ngày"
       ]
@@ -89,19 +101,23 @@
       "guideline": [
         "Tẩy ký sinh trùng nhắc lại theo hướng dẫn",
         "Bổ sung vitamin và dinh dưỡng",
+        "Cải thiện vệ sinh chuồng trại",
         "Tách chăm riêng nếu bị cắn xước nhiều"
       ]
     },
     "note": "Nên xử lý cả đàn cùng lúc để tránh lây chéo."
   },
-  "prevention": [
-    "Tẩy ký sinh trùng định kỳ",
-    "Giữ chuồng khô, sạch, ít bụi",
-    "Không dùng chung dây, dụng cụ bẩn từ đàn khác"
+   "prevention": [
+    "Diệt ký sinh trùng ngoài da định kỳ.",
+    "Giữ chuồng trại khô sạch.",
+    "Cách ly heo mới nhập.",
+    "Không nuôi mật độ quá cao.",
+    "Theo dõi da và lông đàn heo thường xuyên."
   ],
   "notes": [
     "Chấy rận ít gây chết nhưng làm heo rất khó chịu và chậm lớn.",
-    "Thường đi kèm với vệ sinh chuồng trại kém."
+    "Thường đi kèm với vệ sinh chuồng trại kém.",
+    "Dễ nhầm với ghẻ nếu không quan sát kỹ."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

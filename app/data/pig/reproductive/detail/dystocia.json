@@ -1,9 +1,9 @@
 {
-  "id": "dystocia",
+ "id": "dystocia",
   "name": "Đẻ khó",
   "species": "pig",
   "group": "reproductive",
-  "summary": "Đẻ khó là tình trạng nái rặn lâu nhưng ít hoặc không ra con, thai to, kẹt hoặc tư thế thai sai. Nếu không xử lý sớm có thể chết cả mẹ lẫn con.",
+  "summary": "Đẻ khó là tình trạng heo nái chuyển dạ nhưng không đẻ được bình thường do thai quá lớn, thai sai tư thế, đường sinh dục co thắt hoặc nái kiệt sức. Đây là tình huống cấp cứu sinh sản, cần xử lý đúng trình tự để tránh chết nái và chết thai.",
   "causes": [
     "Thai quá to so với khung chậu nái",
     "Tư thế thai sai, cong, xoay ngang",
@@ -19,7 +19,8 @@
   ],
   "clinical_signs_detailed": [
     "Nái rặn lâu mà không ra heo con",
-    "Đã ra vài con rồi ngưng rất lâu không ra tiếp",
+    "Đã ra vài con rồi, nhưng khoảng cách giữa các con đẻ quá dài.",
+    "Thai ra một phần rồi kẹt.",
     "Nái mệt, thở gấp, nằm nhiều",
     "Có thể thấy chân hoặc mũi thai kẹt ở âm hộ",
     "Dịch âm hộ có thể lẫn máu hoặc mùi hôi nếu kéo dài"
@@ -42,14 +43,17 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Oxytocin",
-      "Calcium"
+      "Oxytocin"
     ],
     "alternative_drugs": [
-      "Thuốc trợ sức - vitamin",
-      "Thuốc sát trùng dùng ngoài âm hộ"
     ],
-    "note_drugs": "Oxytocin chỉ dùng khi chắc chắn không có tắc cơ học (thai to, xoay ngang). Calcium hỗ trợ co bóp tử cung. Khi nghi thai kẹt cơ học cần thú y can thiệp, không tự ý lạm dụng Oxytocin.",
+ "note_drugs": [
+      "Đẻ khó KHÔNG phải bệnh truyền nhiễm.",
+      "KHÔNG dùng oxytocin khi chưa kiểm tra đường sinh dục.",
+      "Dùng oxytocin sai có thể gây vỡ tử cung.",
+      "Thuốc chỉ dùng sau khi đã loại trừ thai kẹt hoặc sai tư thế.",
+      "Can thiệp chậm làm tăng nguy cơ viêm tử cung và chết thai."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -58,13 +62,13 @@
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Oresol"
         ]
       },
       "vitamin": {
@@ -74,7 +78,7 @@
         ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "",
         "alternative": []
       }
     },

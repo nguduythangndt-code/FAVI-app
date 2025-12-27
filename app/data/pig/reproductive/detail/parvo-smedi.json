@@ -1,79 +1,106 @@
 {
+  "id": "parvo_smedi",
   "name": "Parvo - SMEDI",
-  "summary": "Bệnh virus gây sảy thai, thai chết lưu, thai khô và đẻ ít con; chủ yếu ở nái hậu bị.",
+  "species": "pig",
+  "group": "reproductive",
+  "summary": "Parvo (SMEDI) là bệnh virus sinh sản ở heo gây sảy thai, thai chết lưu, thai khô và đẻ con yếu. Bệnh thường xảy ra âm thầm, không gây sốt hay biểu hiện rõ ở nái, nhưng gây thiệt hại lớn về sinh sản. Hiện không có thuốc điều trị đặc hiệu.",
   "causes": [
-    "Porcine parvovirus (PPV) lây khi phối, qua tinh, phân"
+    "Virus Parvovirus ở heo.",
+    "Lây qua phối giống hoặc tinh nhiễm virus.",
+    "Nái chưa có miễn dịch.",
+    "Không tiêm phòng Parvo trước phối."
   ],
   "risk_factors": [
-    "Nái hậu bị chưa có miễn dịch",
-    "Chưa tiêm vaccine Parvo",
-    "Trại có lưu hành PPV"
+    "Nái hậu bị chưa tiêm vaccine Parvo.",
+    "Phối giống sớm khi chưa có miễn dịch.",
+    "Không kiểm soát lịch tiêm phòng.",
+    "Dùng tinh không rõ nguồn."
   ],
   "clinical_signs_detailed": [
-    "Nái vẫn khỏe nhưng phối không đậu",
-    "Sảy thai rải rác",
-    "Đẻ ít con, nhiều thai khô",
-    "Con sơ sinh yếu, chết sớm"
+    "Phối giống nhưng không đẻ.",
+    "Thai chết lưu.",
+    "Thai khô.",
+    "Thai nhỏ không đều.",
+    "Đẻ con yếu.",
+    "Đẻ ra nhiều thai chết.",
+    "Nái không có biểu hiện bệnh rõ."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Chậm động dục lại",
-      "Đẻ ít"
+      "Đẻ ít con",
+      "Có thai chết rải rác"
     ],
     "moderate": [
-      "Thai chết lưu/khô nhiều"
+      "Nhiều thai chết lưu",
+      "Thai khô"
     ],
     "severe": [
-      "Sảy thai hàng loạt",
-      "Đàn con chết cao"
+      "Ổ đẻ có nhiều thai chết",
+      "Mất lứa sinh sản"
     ]
   },
   "treatment": {
-    "primary_drugs": [
-      "Oresol (điện giải uống)",
-      "vitamin_e_selenium"
+    "primary_drugs": [],
+    "alternative_drugs": [],
+    "note_drugs": [
+      "Parvo là bệnh do virus, KHÔNG có thuốc điều trị đặc hiệu.",
+      "KHÔNG dùng kháng sinh vì không có tác dụng.",
+      "Điều trị hỗ trợ không làm cứu được thai đã nhiễm.",
+      "Phát hiện bệnh để tránh lặp lại phối giống sai.",
+      "Phòng bệnh bằng vaccine là biện pháp duy nhất hiệu quả."
     ],
-    "alternative_drugs": [
-      "Vitamin BC"
-    ],
-    "note_drugs": "Không có thuốc diệt PPV. Điều trị chỉ trợ sức; phòng bằng vaccine là chính.",
     "symptomatic_treatment": {
+      "antiinflammatory": {
+        "main": "",
+        "alternative": []
+      },
+      "electrolyte": {
+        "main": "",
+        "alternative": []
+      },
       "vitamin": {
-        "main": "vitamin_e_selenium",
-        "alternative": [
-          "Vitamin BC"
-        ]
+        "main": "",
+        "alternative": []
       }
     },
     "supportive_care": [
-      "Theo dõi sinh sản, loại thải nái lặp lại nhiều lần"
+      "Theo dõi và ghi chép ổ đẻ.",
+      "Không giữ nái nghi nhiễm để phối lại ngay.",
+      "Khử trùng chuồng đẻ và khu phối giống.",
+      "Quản lý tinh và phối giống chặt chẽ."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+    "dose_policy": "Không áp dụng vì không có điều trị."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Thai khô nhiều trong lứa",
+      "description": "Đẻ ít con, có thai chết rải rác.",
       "guideline": [
-        "Xác định miễn dịch đàn",
-        "Tiêm phòng hậu bị trước phối"
+        "Nghi ngờ Parvo",
+        "Ghi nhận ổ đẻ bất thường",
+        "Lập kế hoạch tiêm phòng cho lứa sau"
       ]
     },
     "case_type_2": {
-      "description": "Sảy thai rải rác kéo dài",
+      "description": "Ổ đẻ có nhiều thai chết, thai khô.",
       "guideline": [
-        "Kiểm tra lại lịch vaccine",
-        "Cách ly hậu bị"
+        "Xác định SMEDI",
+        "Không phối lại ngay",
+        "Tiêm phòng Parvo đầy đủ trước phối kế tiếp",
+        "Rà soát lại toàn bộ chương trình vaccine"
       ]
     },
-    "note": "Bệnh không chữa tận gốc được khi đã nhiễm trong thai kỳ."
+    "note": "Thai đã nhiễm Parvo không thể cứu."
   },
-  "prevention_list": [
-    "Tiêm Parvo cho hậu bị trước phối",
-    "Tiêm nhắc định kỳ nái sinh sản",
-    "Quản lý tinh - phối an toàn"
+  "prevention": [
+    "Tiêm vaccine Parvo cho nái hậu bị trước phối.",
+    "Tiêm nhắc định kỳ cho nái sinh sản.",
+    "Kiểm soát nguồn tinh.",
+    "Phối giống đúng thời điểm sau tiêm.",
+    "Ghi chép sinh sản đầy đủ."
   ],
   "notes": [
-    "PPV thường âm thầm, thấy rõ nhất ở kết quả đẻ."
+    "Parvo thường không gây sốt hay biểu hiện rõ ở nái.",
+    "Mất lứa sinh sản thường là dấu hiệu đầu tiên được phát hiện."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

@@ -32,7 +32,7 @@
     "name": "Viêm phổi do Pasteurella",
     "group": "respiratory",
     "severityLevel": 2,
-    "searchText": "Sốt vừa đến cao Ho ướt, có đờm Thở nhanh, thở bụng Nằm nhiều, ăn giảm rõ Một số con tím tai, yếu nhanh Ho ít, hơi sốt Ăn giảm nhẹ Ho nhiều, thở nhanh Nằm nhiều hơn, lớn chậm Thở bụng, nằm bẹp Tai tím, nguy cơ chết cao Dễ ghép với tụ huyết trùng, PRRS"
+    "searchText": "Sốt vừa đến cao Ho ướt, có đờm Thở nhanh, thở bụng Chảy nước mũi đục. Nằm nhiều, ăn giảm rõ Một số con tím tai, yếu nhanh Ho ít, hơi sốt Ăn giảm nhẹ Ho nhiều, thở nhanh Nằm nhiều hơn, lớn chậm Thở bụng, nằm bẹp Tai tím, nguy cơ chết cao Dễ ghép với tụ huyết trùng, PRRS"
   },
   {
     "id": "streptococcus_pneumonia",
@@ -74,13 +74,13 @@
     "name": "Bệnh Glässer (Glaesserella parasuis)",
     "group": "respiratory",
     "severityLevel": 3,
-    "searchText": "Sốt cao, bỏ ăn Thở khó, ho Đi khập khiễng do viêm khớp Bụng chướng nhẹ, đau Nhiều con chết đột ngột Sốt, ho nhẹ Thở khó, khớp đau Nằm liệt, tím tái, chết nhanh"
+    "searchText": "Heo sốt cao, thở khó, lờ đờ, nằm tụm. Đi đứng cứng, khập khiễng. Sưng khớp, au khi di chuyển. Viêm màng phổi. Viêm màng tim. Viêm màng bụng. Có thể co giật, run (viêm màng não). Sốt Lờ đờ Khó thở Đau khớp Đi khập khiễng Viêm đa màng Nằm liệt Tử vong nhanh"
   },
   {
     "id": "mycoplasma-hyorhinis",
     "name": "Viêm đa màng - viêm khớp Mycoplasma hyorhinis",
     "group": "respiratory",
     "severityLevel": 2,
-    "searchText": "Sốt nhẹ, ăn kém Đi cà nhắc, khớp sưng Thở nhanh nhẹ Heo gầy, chậm lớn Có thể viêm màng phổi, màng tim Ăn giảm Đi hơi cứng Khớp sưng đau Sốt nhẹ Nằm nhiều, poliserositis Gầy nhanh"
+    "searchText": "Heo lờ đờ, Ăn giảm. Đau khớp, Sưng khớp, Đi khập khiễng. Nằm nhiều, ngại di chuyển. Thở nhanh nhẹ (do viêm đa màng). Chậm lớn. Ăn giảm Đi hơi cứng Khớp sưng đau Sốt nhẹ Nằm nhiều, poliserositis Gầy nhanh"
   }
 ]

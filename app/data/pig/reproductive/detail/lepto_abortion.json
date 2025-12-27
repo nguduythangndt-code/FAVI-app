@@ -3,24 +3,27 @@
   "name": "Leptospira gây sảy thai",
   "species": "pig",
   "group": "reproductive",
-  "summary": "Leptospira gây sảy thai đồng loạt, sốt, vàng da và nước tiểu sẫm màu. Bệnh lây nhanh qua nước bẩn.",
+  "summary": "Leptospira là bệnh truyền nhiễm do vi khuẩn Leptospira spp. gây ra, thường làm heo nái sảy thai, chết thai, đẻ non hoặc sinh con yếu. Bệnh có thể diễn tiến âm thầm, dễ tái phát trong đàn và có nguy cơ lây sang người qua nước tiểu và môi trường ẩm ướt.",
   "causes": [
-    "Vi khuẩn Leptospira từ nước bẩn, ao tù",
-    "Lây qua nước tiểu, dịch tiết sinh dục",
-    "Nhiễm từ chuột trong khu chăn nuôi"
+    "Vi khuẩn Leptospira spp.",
+    "Lây qua nước tiểu heo bệnh.",
+    "Nước uống, ao hồ, nền chuồng nhiễm khuẩn.",
+    "Chuột và động vật gặm nhấm mang mầm bệnh."
   ],
   "risk_factors": [
-    "Nguồn nước uống không sạch",
-    "Chuồng ẩm ướt",
-    "Chuột phá hoại",
-    "Không tiêm phòng Lepto cho đàn nái"
+    "Chuồng trại ẩm ướt, thoát nước kém.",
+    "Nguồn nước uống không xử lý.",
+    "Nhiều chuột trong khu vực chăn nuôi.",
+    "Không tiêm phòng Leptospira.",
+    "Giữ heo mang mầm bệnh trong đàn."
   ],
-  "clinical_signs_detailed": [
-    "Sảy thai hàng loạt",
-    "Sốt, da hơi vàng",
-    "Nước tiểu vàng nâu",
-    "Heo mệt, bỏ ăn",
-    "Heo con sinh ra yếu hoặc chết"
+ "clinical_signs_detailed": [
+    "Nái sảy thai, Sảy thai rải rác trong đàn.",
+    "Thai chết lưu, Đẻ non.",
+    "Sinh con yếu.",
+    "Nái chậm động dục lại sau sảy thai.",
+    "Có thể sốt nhẹ thoáng qua.",
+    "Heo đực giảm khả năng phối giống."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -39,33 +42,37 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Streptomycin"
+      "Oxytetracycline",
+      "Doxycycline"
     ],
     "alternative_drugs": [
-      "Penicillin",
-      "Tylosin"
+      "Streptomycin"
     ],
-    "note_drugs": "Streptomycin hiệu quả tốt với Lepto. Khi thiếu, có thể dùng Penicillin.",
+    "note_drugs": [
+      "Leptospira là bệnh vi khuẩn, CÓ thể điều trị nếu phát hiện sớm.",
+      "Cần điều trị đồng loạt toàn đàn sinh sản khi có ổ bệnh.",
+      "Không điều trị đơn lẻ từng con sẽ dễ tái phát.",
+      "Vi khuẩn thải ra nước tiểu — cần xử lý môi trường song song.",
+      "Bệnh có nguy cơ lây sang người, cần bảo hộ khi xử lý."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Ketoprofen"
-        ]
+        "main": "",
+        "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": ["Vitamin C"]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
@@ -73,39 +80,45 @@
       }
     },
     "supportive_care": [
-      "Tăng nước uống sạch",
-      "Kiểm soát chuột quanh trại",
-      "Sát trùng chuồng lặp lại"
+      "Cách ly heo sảy thai.",
+      "Thu gom và xử lý thai sảy đúng cách.",
+      "Khử trùng chuồng trại và lối đi.",
+      "Kiểm soát chuột và động vật gặm nhấm.",
+      "Cung cấp nước uống sạch."
     ],
-    "dose_policy": "Theo liều ghi trên sản phẩm hoặc tư vấn thú y."
+    "dose_policy": "Kháng sinh dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Có biểu hiện vàng nhẹ, ăn giảm.",
+      "description": "Sảy thai rải rác, nái vẫn khỏe.",
       "guideline": [
-        "Dùng Streptomycin",
-        "Bù nước",
-        "Theo dõi nước tiểu"
+        "Điều trị sớm bằng kháng sinh phù hợp",
+        "Cách ly và theo dõi đàn sinh sản",
+        "Khử trùng môi trường"
       ]
     },
     "case_type_2": {
-      "description": "Vàng rõ, sảy thai nhiều.",
+      "description": "Nhiều nái sảy thai trong thời gian ngắn.",
       "guideline": [
-        "Điều trị tích cực",
-        "Cách ly đàn nái",
-        "Tiêm phòng bổ sung đàn khỏe"
+        "Xem như ổ dịch Leptospira",
+        "Điều trị đồng loạt đàn sinh sản",
+        "Ngừng phối giống tạm thời",
+        "Tăng cường sát trùng và diệt chuột",
+        "Báo thú y khi cần"
       ]
     },
-    "note": "Lepto rất dễ lây qua nước, cần xử lý khu vực ẩm ngay."
+    "note": "Điều trị muộn làm bệnh tồn lưu kéo dài trong đàn."
   },
   "prevention": [
-    "Tiêm phòng Leptospira định kỳ",
-    "Giữ nguồn nước uống sạch",
-    "Bịt kín lỗ chuột"
+    "Tiêm phòng Leptospira định kỳ.",
+    "Quản lý và xử lý nguồn nước.",
+    "Diệt chuột thường xuyên.",
+    "Giữ chuồng trại khô, sạch.",
+    "Theo dõi sảy thai và ghi chép đàn sinh sản."
   ],
   "notes": [
-    "Lepto có thể lây sang người.",
-    "Mùa mưa nguy cơ bùng phát cao."
+    "Leptospira dễ bị bỏ sót do triệu chứng không rầm rộ.",
+    "Bệnh có thể tồn tại âm thầm trong đàn nhiều tháng."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

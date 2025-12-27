@@ -3,7 +3,7 @@
   "name": "Hội chứng rối loạn sinh sản và hô hấp (PRRS)",
   "species": "pig",
   "group": "respiratory",
-  "summary": "PRRS gây suy hô hấp ở heo con và gây rối loạn sinh sản ở nái. Bệnh lây rất nhanh và thường ghép với vi khuẩn khác làm nặng thêm.",
+  "summary": "PRRS (Tai xanh) là bệnh virus gây suy giảm miễn dịch nghiêm trọng ở heo, ảnh hưởng đồng thời đến hệ hô hấp và sinh sản. Bệnh gây ho, khó thở, sảy thai, đẻ non, chết heo con và làm bùng phát hàng loạt bệnh kế phát. Hiện không có thuốc điều trị đặc hiệu.",
   "causes": [
     "Virus PRRS",
     "Lây mạnh qua không khí và tiếp xúc",
@@ -40,13 +40,19 @@
   },
   "treatment": {
     "primary_drugs": [
-      "Kháng sinh kiểm soát nhiễm ghép (Ceftiofur, Florfenicol)"
+     
     ],
     "alternative_drugs": [
-      "Enrofloxacin",
-      "Amoxicillin"
+      "Ceftiofur",
+      "Florfenico"
     ],
-    "note_drugs": "PRRS không có thuốc đặc trị. Điều trị chủ yếu là kiểm soát nhiễm ghép bằng kháng sinh thấm phổi mạnh.",
+    "note_drugs": [
+      "PRRS là bệnh do virus, KHÔNG có thuốc điều trị đặc hiệu.",
+      "KHÔNG dùng kháng sinh để trị PRRS.",
+      "Kháng sinh chỉ dùng khi có bội nhiễm vi khuẩn.",
+      "Điều trị triệu chứng không loại trừ được virus.",
+      "Sai lầm lớn nhất là lạm dụng kháng sinh."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
@@ -63,7 +69,7 @@
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
         "alternative": [
-          "electrolyte_mix"
+          "Điện giải tổng hợp (Na/K/Cl)"
         ]
       },
       "vitamin": {
@@ -78,10 +84,11 @@
       }
     },
     "supportive_care": [
-      "Cách ly đàn bệnh",
-      "Tăng thông thoáng chuồng",
-      "Bổ sung điện giải cho heo sốt",
-      "Giảm stress tuyệt đối"
+      "Cách ly đàn nghi nhiễm.",
+      "Giảm stress tối đa.",
+      "Cải thiện thông gió.",
+      "Xử lý sớm bội nhiễm.",
+      "Theo dõi sát sinh sản và hô hấp."
     ],
     "dose_policy": "Theo nhãn hoặc tư vấn thú y."
   },
@@ -91,27 +98,30 @@
       "guideline": [
         "Kháng sinh kiểm soát nhiễm ghép",
         "Giảm viêm",
-        "Ổn định môi trường"
+        "Ổn định môi trường, Theo dõi đàn"
       ]
     },
     "case_type_2": {
       "description": "Heo tím tai, nằm bẹp.",
       "guideline": [
-        "Điều trị mạnh liên tục",
-        "Giảm stress tối đa",
-        "Tách ô yên tĩnh"
+        "Xác định ổ dịch PRRS",
+        "Cách ly và khoanh vùng",
+        "Rà soát toàn bộ chương trình vaccine",
+        "Áp dụng an toàn sinh học nghiêm ngặt"
       ]
     },
-    "note": "PRRS dễ gây chết ở heo con, cần kiểm soát đàn chặt chẽ."
+    "note": "PRRS làm suy giảm hệ miễn dịch, dễ gây chết ở heo con, cần kiểm soát đàn chặt chẽ."
   },
   "prevention": [
-    "Tiêm phòng PRRS",
-    "Cách ly heo mới nhập 21 ngày",
-    "Không chia sẻ dụng cụ giữa đàn"
+    "Tiêm vaccine PRRS đúng lịch.",
+    "Cách ly heo mới nhập.",
+    "Kiểm soát vận chuyển.",
+    "Giữ an toàn sinh học nghiêm ngặt.",
+    "Theo dõi sớm dấu hiệu bất thường."
   ],
   "notes": [
-    "PRRS dễ ghép với APP, Mycoplasma, PCV2.",
-    "Chuồng ẩm và bí khí làm bệnh nặng nhanh."
+    "PRRS thường là bệnh nền cho hầu hết các ổ dịch lớn.",
+    "Kiểm soát PRRS tốt giúp giảm mạnh các bệnh kế phát."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

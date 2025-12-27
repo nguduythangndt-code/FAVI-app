@@ -1,89 +1,149 @@
 {
-  "name": "Viêm hồi tràng Lawsonia (Ileitis)",
-  "summary": "Bệnh do Lawsonia gây dày ruột, tiêu chảy kéo dài và tụt tăng trọng.",
+  "id": "ileitis_lawsonia",
+  "name": "Viêm hồi tràng do Lawsonia (Ileitis) ở heo",
+  "species": "pig",
+  "group": "digestive",
+
+  "summary": "Viêm hồi tràng (Ileitis) do Lawsonia intracellularis là bệnh tiêu hoá thường gặp ở heo sau cai sữa và heo thịt. Bệnh gây tiêu chảy kéo dài, heo chậm lớn, ăn kém; một số ca cấp có thể tiêu chảy sẫm màu hoặc lẫn máu và chết nhanh. Lawsonia là vi khuẩn nội bào nên phải chọn kháng sinh đúng hướng (nhóm macrolide/pleuromutilin/tetracycline), điều trị đủ thời gian và siết vệ sinh chuồng để giảm tái phát.",
+
   "causes": [
-    "Lawsonia intracellularis lây qua phân"
+    "Vi khuẩn Lawsonia intracellularis xâm nhập tế bào niêm mạc ruột non (hồi tràng) và làm dày niêm mạc ruột.",
+    "Lây qua phân, môi trường chuồng trại nhiễm mầm bệnh, dụng cụ và người chăm sóc.",
+    "Mầm bệnh có thể tồn tại dai trong đàn, dễ tái phát khi stress."
   ],
+
   "risk_factors": [
-    "Chuồng dày, trộn đàn",
-    "Stress",
-    "Miễn dịch kém"
+    "Heo sau cai sữa, heo hậu bị, heo thịt.",
+    "Mật độ nuôi cao, ghép đàn nhiều.",
+    "Vệ sinh kém, nền ẩm, quản lý nhiều lứa tuổi.",
+    "Stress, thay đổi thức ăn đột ngột.",
+    "Đồng nhiễm (E. coli/Salmonella) làm bệnh nặng hơn."
   ],
   "clinical_signs_detailed": [
-    "Tiêu chảy xám nâu hoặc sẫm",
-    "Heo gầy, nhợt nhạt",
-    "Ăn kém, lớn chậm",
-    "Một số con tiêu chảy máu nhẹ"
+    "Tiêu chảy kéo dài, phân loãng hoặc sệt.",
+    "Heo ăn kém, chậm lớn rõ.",
+    "Lông xù, thể trạng xấu.",
+    "Một số ca phân sẫm màu hoặc lẫn máu.",
+    "Ít sốt hoặc không sốt."
   ],
+
   "clinical_signs_by_stage": {
     "mild": [
-      "Tiêu chảy rải rác",
-      "Lớn chậm"
+      "Tiêu chảy nhẹ.",
+      "Ăn giảm.",
+      "Chậm lớn."
     ],
     "moderate": [
-      "Tiêu chảy kéo dài",
-      "Gầy rõ"
+      "Tiêu chảy kéo dài.",
+      "Heo gầy rõ, lông xù."
     ],
     "severe": [
-      "Tiêu chảy sẫm/máu",
-      "Suy kiệt hoặc chết đột ngột"
+      "Tiêu chảy nặng, có thể lẫn máu.",
+      "Heo yếu nhanh.",
+      "Có thể chết đột ngột (thể cấp)."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
       "Tylosin",
       "Tiamulin"
     ],
+
     "alternative_drugs": [
-      "Doxycycline",
-      "Lincomycin"
+      "Doxycycline"
     ],
-    "note_drugs": "Bệnh đáp ứng nhóm macrolide/pleuromutilin nếu đánh sớm cả ô.",
+
+    "note_drugs": [
+      "Lawsonia là vi khuẩn nội bào: ưu tiên kháng sinh có khả năng ‘vào tế bào’ tốt. Tylosin (macrolide) và Tiamulin (pleuromutilin) là hướng phù hợp; Doxycycline là lựa chọn thay thế khi cần.",
+      "Điều trị không đủ thời gian rất dễ tái phát và làm đàn ‘chậm lớn kéo dài’. Tránh kiểu dùng ngắn ngày rồi dừng khi thấy phân vừa đỡ.",
+      "Không lạm dụng phối hợp nhiều kháng sinh cùng lúc. Chọn 1 phác đồ chính, theo dõi đáp ứng và chỉ đổi khi có lý do rõ ràng.",
+      "Nếu tiêu chảy kèm sốt cao rõ, phân rất hôi/thối, chết rải rác: cần nghĩ thêm Salmonella/đồng nhiễm — khi đó thú y nên đánh giá lại hướng kháng sinh và quản lý ổ bệnh.",
+      "Song song kháng sinh, phải hỗ trợ ruột: điện giải đều + men vi sinh/men tiêu hoá giúp ruột hồi phục và giảm rối loạn kéo dài.",
+      "Không tự ý dùng thuốc kháng viêm khi heo đang mất nước nặng. Chỉ cân nhắc khi có sốt/đau rõ và heo còn uống được.",
+      "Luôn dùng thuốc theo nhãn hoặc tư vấn thú y."
+    ],
+
     "symptomatic_treatment": {
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+      "antiinflammatory": {
+        "main": "",
+        "alternative": [
+          "Meloxicam",
+           "Paracetamol"
+        ]
+      },
+      "respiratory_support": {
+        "main": "",
         "alternative": []
       },
-      "digestive_support": {
-        "main": "Probiotic",
+      "electrolyte": {
+        "main": "Điện giải uống",
         "alternative": []
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin B complex",
+        "alternative": [
+          "Vitamin C",
+          "Vitamin BC"
+        ]
+      },
+      "digestive_support": {
+        "main": "Probiotic (men vi sinh)",
+        "alternative": [
+          "Men tiêu hoá",
+          "Enzyme tiêu hoá",
+          "Pectin - Kaolin"
+        ]
       }
     },
+
     "supportive_care": [
-      "Tách con yếu",
-      "Giảm stress, không trộn đàn",
-      "Nền khô sạch"
+      "Giữ chuồng khô, sạch, giảm nền ẩm và giảm mùi phân.",
+      "Giảm mật độ nuôi, hạn chế ghép đàn trong giai đoạn đang bùng.",
+      "Ổn định khẩu phần, tránh thay đổi thức ăn đột ngột.",
+      "Cách ly nhóm tiêu chảy kéo dài để giảm lây chéo.",
+      "Theo dõi tăng trọng sau điều trị để đánh giá hồi phục thật."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+
+    "dose_policy": [
+      "Không ghi liều trong ứng dụng.",
+      "Dùng thuốc theo nhãn hoặc chỉ định thú y."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Tiêu chảy kéo dài, tụt cân",
+      "description": "Heo tiêu chảy kéo dài, chậm lớn nhưng chưa suy kiệt.",
       "guideline": [
-        "Điều trị toàn ô với Tylosin/Tiamulin",
-        "ORS + probiotic"
+        "Kháng sinh đúng hướng Lawsonia (ưu tiên Tylosin hoặc Tiamulin).",
+        "Điện giải (Oresol) và hỗ trợ tiêu hoá (Probiotic/Enzyme).",
+        "Theo dõi đáp ứng trong vài ngày và duy trì đủ thời gian điều trị."
       ]
     },
     "case_type_2": {
-      "description": "Tiêu chảy sẫm/máu",
+      "description": "Heo tiêu chảy nặng, phân lẫn máu hoặc yếu nhanh.",
       "guideline": [
-        "Kháng sinh mạnh sớm",
-        "Theo dõi mất nước"
+        "Cần thú y can thiệp ngay.",
+        "Điều trị kháng sinh đặc hiệu kết hợp hỗ trợ mạnh (điện giải – năng lượng – ổn ruột).",
+        "Tiên lượng dè dặt, cần khoanh vùng và siết vệ sinh để chặn bùng."
       ]
     },
-    "note": "Nếu trễ, heo kéo dài kém lớn."
+    "note": "Ileitis thường gây thiệt hại kinh tế do heo chậm lớn kéo dài. Phát hiện sớm và điều trị đủ thời gian giúp hạn chế tái phát."
   },
-  "prevention_list": [
-    "All-in/all-out",
-    "Vaccine Lawsonia nếu trại lưu hành",
-    "Giảm stress"
+
+  "prevention": [
+    "Tiêm vắc xin Lawsonia theo chương trình thú y (nếu trại có triển khai).",
+    "Quản lý đàn cùng lứa tuổi (all-in all-out) để cắt vòng lây.",
+    "Vệ sinh – sát trùng chuồng trại định kỳ, giảm nền ẩm.",
+    "Giảm stress và thay đổi thức ăn từ từ.",
+    "Theo dõi tăng trọng định kỳ để phát hiện nhóm chậm lớn sớm."
   ],
+
+
   "notes": [
-    "Rất hay gặp ở heo hậu bị/nuôi thịt."
+    "Hay gặp nhất ở heo sau cai sữa và heo thịt.",
+    "Dễ bị nhầm với E. coli hoặc Salmonella nếu không theo dõi tiến triển."
   ],
-  "disclaimer": "Thông tin tham khảo."
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

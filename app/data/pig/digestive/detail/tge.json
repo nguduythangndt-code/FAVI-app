@@ -1,94 +1,154 @@
 {
-  "name": "Viêm dạ dày ruột truyền nhiễm (TGE)",
-  "summary": "Bệnh coronavirus gây nôn - tiêu chảy nước rất nặng, chết cao ở heo con.",
+  "id": "tge",
+  "name": "Viêm dạ dày ruột truyền nhiễm (TGE) ở heo",
+  "species": "pig",
+  "group": "digestive",
+
+  "summary": "TGE là bệnh tiêu chảy cấp do virus (Coronavirus) gây ra, lây lan rất nhanh trong đàn. Heo con thường tiêu chảy nước ồ ạt, nôn ói, mất nước và chết nhanh nếu không giữ ấm và bù nước kịp thời. Kháng sinh không diệt được virus TGE — điều trị chủ yếu là bù nước – điện giải và chăm sóc hỗ trợ.",
+
   "causes": [
-    "Virus TGE lây qua phân, dụng cụ, người, chim chuột"
+    "Virus TGEV gây tổn thương niêm mạc ruột non, làm giảm hấp thu và gây tiêu chảy nước.",
+    "Lây qua phân, dụng cụ, người chăm sóc, chuồng trại và khu vực đi lại nhiễm mầm bệnh.",
+    "Mầm bệnh lan mạnh khi trong đàn đã có con tiêu chảy."
   ],
+
   "risk_factors": [
-    "Trại chưa có miễn dịch",
-    "Mùa lạnh",
-    "Heo con <3 tuần tuổi"
+    "Heo con (bú mẹ, sau cai sữa).",
+    "Chuồng lạnh, ẩm; gió lùa.",
+    "Mật độ cao, vệ sinh kém.",
+    "Nhập đàn/ghép đàn gây stress.",
+    "Quản lý nhiều lứa tuổi chung khu."
   ],
+
   "clinical_signs_detailed": [
-    "Nôn đột ngột",
-    "Tiêu chảy nước xối",
-    "Mất nước nhanh, mắt trũng",
-    "Lạnh run, nằm tụm",
-    "Heo con chết hàng loạt"
+    "Tiêu chảy nước nhanh và nhiều, phân loãng như nước.",
+    "Nôn/ói có thể gặp.",
+    "Mất nước nhanh: da khô, mắt trũng, con nằm bệt.",
+    "Heo bỏ bú/bỏ ăn, yếu nhanh.",
+    "Heo con chết nhanh nếu vừa mất nước vừa bị lạnh."
   ],
+
   "clinical_signs_by_stage": {
     "mild": [
-      "Nôn nhẹ",
-      "Tiêu chảy loãng"
+      "Tiêu chảy loãng nhẹ.",
+      "Bú/ăn giảm.",
+      "Chưa mất nước rõ."
     ],
     "moderate": [
-      "Tiêu chảy nhiều",
-      "Mất nước"
+      "Tiêu chảy nước nhiều.",
+      "Mệt, bắt đầu mất nước.",
+      "Gầy tụt nhanh."
     ],
     "severe": [
-      "Mất nước kiệt",
-      "Chết nhanh"
+      "Tiêu chảy nước ồ ạt, mất nước nặng.",
+      "Lạnh, nằm bệt, yếu nhanh.",
+      "Heo con có thể chết nhanh."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
       "Oresol (điện giải uống)",
-      "Probiotic"
+      "Glucose",
+      "Probiotic (men vi sinh)",
+      "Pectin - Kaolin"
     ],
+
     "alternative_drugs": [
-      "Florfenicol",
+      "Than hoạt tính (giải độc tiêu hoá)",
+      "Enzyme tiêu hoá",
+      "Vitamin BC",
       "Vitamin C"
     ],
-    "note_drugs": "Không có thuốc diệt TGE. ORS là chủ lực; kháng sinh chỉ chống bội nhiễm.",
+
+    "note_drugs": [
+      "TGE là bệnh do virus: không có kháng sinh nào trị đúng TGE. Trọng tâm là cứu mất nước và chống chết lạnh, đặc biệt với heo con.",
+      "Ưu tiên số 1: Oresol + Glucose (bù nước – điện giải – năng lượng). Làm sớm thì sống, làm chậm thì tụt rất nhanh.",
+      "Pectin - Kaolin giúp bảo vệ niêm mạc ruột và làm phân ‘đỡ tóe’; Probiotic giúp ổn hệ vi sinh sau đợt tiêu chảy.",
+      "Than hoạt tính chỉ dùng như hỗ trợ khi ruột quá kích thích/phân quá hôi; tránh lạm dụng làm giảm ăn/bú thêm.",
+      "Không tự ý dùng thuốc giảm đau – hạ sốt (Meloxicam/Flunixin/Paracetamol) khi heo đang mất nước nặng. Chỉ cân nhắc khi có sốt/đau rõ và con vẫn uống được.",
+      "Kháng sinh chỉ cân nhắc khi nghi bội nhiễm vi khuẩn (sốt rõ kéo dài, phân hôi thối bất thường, viêm phổi kèm theo…). Dùng theo thú y để tránh dùng sai và làm loạn ruột."
+    ],
+
     "symptomatic_treatment": {
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+      "antiinflammatory": {
+        "main": "",
+        "alternative": [
+          "Paracetamol",
+          "Meloxicam"
+        ]
+      },
+      "respiratory_support": {
+        "main": "",
         "alternative": []
       },
-      "digestive_support": {
-        "main": "Probiotic",
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
         "alternative": [
-          "Enzyme tiêu hoá"
+          "Glucose"
         ]
       },
       "vitamin": {
-        "main": "Vitamin C",
+        "main": "Vitamin BC",
         "alternative": [
-          "Vitamin BC"
+          "Vitamin C"
+        ]
+      },
+      "digestive_support": {
+        "main": "Probiotic (men vi sinh)",
+        "alternative": [
+          "Pectin - Kaolin",
+          "Than hoạt tính (giải độc tiêu hoá)",
+          "Enzyme tiêu hoá"
         ]
       }
     },
+
     "supportive_care": [
-      "Giữ ấm tuyệt đối cho heo con",
-      "Tăng sữa mẹ/ghép mẹ"
+      "Giữ ấm chuồng, tránh gió lùa; heo con phải được ủ ấm.",
+      "Cách ly ô chuồng tiêu chảy; hạn chế lây chéo qua người và dụng cụ.",
+      "Dọn phân liên tục, vệ sinh máng ăn uống; sát trùng đúng quy trình.",
+      "Cho uống điện giải nhiều lần trong ngày; ưu tiên con yếu trước.",
+      "Ổn định khẩu phần, tránh đổi cám đột ngột trong lúc đang bùng."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+
+    "dose_policy": [
+      "Dùng thuốc theo nhãn hoặc chỉ định thú y."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo con tiêu chảy nước",
+      "description": "Heo tiêu chảy nước nhưng còn uống được, chưa mất nước nặng.",
       "guideline": [
-        "ORS liên tục",
-        "Giữ ấm",
-        "Cách ly"
+        "Điện giải (Oresol) + hỗ trợ năng lượng (Glucose).",
+        "Hỗ trợ ruột (Probiotic, Pectin - Kaolin).",
+        "Giữ ấm và theo dõi mất nước mỗi ngày."
       ]
     },
     "case_type_2": {
-      "description": "Mất nước nặng",
+      "description": "Heo con tiêu chảy nước ồ ạt, mất nước nặng, lạnh, nằm bệt.",
       "guideline": [
-        "Trợ sức mạnh",
-        "Báo thú y"
+        "Cần thú y can thiệp ngay.",
+        "Ưu tiên cứu mất nước và giữ ấm mạnh (điểm sống còn).",
+        "Phân loại con yếu để xử lý trước, hạn chế chết dồn."
       ]
     },
-    "note": "Heo con rất nhỏ thường khó cứu."
+    "note": "TGE bùng đàn thường rất nhanh. Giữ ấm + bù nước đúng là then chốt để giảm chết heo con và giảm thiệt hại."
   },
-  "prevention_list": [
-    "Biosecurity",
-    "All-in/all-out",
-    "Tạo miễn dịch nái để truyền sữa"
+
+  "prevention": [
+    "An toàn sinh học: cách ly heo mới, hạn chế người/xe ra vào, sát trùng định kỳ.",
+    "Quản lý theo lứa tuổi (all-in all-out) để cắt vòng lây.",
+    "Giữ chuồng khô – ấm, giảm gió lùa, đặc biệt khu heo con.",
+    "Vệ sinh phân nhanh, sát trùng sàn/máng/dụng cụ đúng quy trình.",
+    "Tiêm phòng TGE theo chương trình thú y (nếu trại có triển khai)."
   ],
+
   "notes": [
-    "TGE rất giống PED, cần xét nghiệm khi bùng phát."
+    "TGE và PED khá giống nhau về biểu hiện tiêu chảy nước và tốc độ lây. Điểm quyết định vẫn là bù nước – giữ ấm càng sớm càng tốt.",
+    "Nếu tiêu chảy kèm sốt cao rõ và dấu hiệu nhiễm trùng toàn thân, cần nghĩ thêm bội nhiễm vi khuẩn."
   ],
-  "disclaimer": "Thông tin tham khảo."
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

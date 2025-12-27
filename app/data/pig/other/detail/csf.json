@@ -1,22 +1,30 @@
 {
+ "id": "classical_swine_fever",
   "name": "Dịch tả heo cổ điển (CSF)",
-  "summary": "Bệnh virus gây sốt cao, xuất huyết, tiêu chảy và chết; không có thuốc đặc trị.",
+  "species": "pig",
+  "group": "other",
+  "summary": "Dịch tả heo cổ điển (CSF) là bệnh truyền nhiễm do virus gây ra, lây lan nhanh trong đàn heo. Tỷ lệ chết cao, đặc biệt ở heo con. Bệnh không có thuốc điều trị đặc hiệu, việc xử lý chủ yếu là kiểm soát dịch, hỗ trợ sức đề kháng và phòng nhiễm trùng kế phát.",
   "causes": [
-    "Virus CSFV lây qua heo bệnh, phân - nước tiểu, dụng cụ, xe vận chuyển",
-    "Lây mạnh khi đàn miễn dịch kém"
+    "Virus Classical Swine Fever (CSFV).",
+    "Lây qua tiếp xúc trực tiếp giữa heo bệnh và heo khỏe.",
+    "Lây qua thức ăn, nước uống nhiễm mầm bệnh.",
+    "Lây qua người, phương tiện, dụng cụ chăn nuôi.",
+    "Heo mang trùng không biểu hiện rõ."
   ],
   "risk_factors": [
-    "Chưa tiêm phòng CSF",
-    "Nhập đàn không cách ly",
-    "Chuồng trại bẩn, mật độ cao"
+    "Heo chưa được tiêm phòng CSF.",
+    "Chuồng trại vệ sinh kém, mật độ cao.",
+    "Mua heo không rõ nguồn gốc.",
+    "Thời tiết lạnh, ẩm kéo dài.",
+    "Đàn heo bị stress hoặc suy giảm miễn dịch."
   ],
   "clinical_signs_detailed": [
-    "Sốt cao, bỏ ăn",
-    "Da đỏ tím, xuất huyết điểm",
-    "Tiêu chảy hôi, có thể lẫn máu",
-    "Run, co giật, đi vòng",
-    "Heo nái sảy thai, thai khô",
-    "Chết rải rác hoặc bùng phát"
+    "Sốt cao kéo dài.",
+    "Bỏ ăn, lờ đờ, nằm nhiều.",
+    "Xuất huyết điểm dưới da.",
+    "Tiêu chảy, có thể lẫn máu.",
+    "Run rẩy, đi loạng choạng.",
+    "Heo con chết nhanh."
   ],
   "clinical_signs_by_stage": {
     "mild": [
@@ -34,66 +42,78 @@
       "Chết nhanh"
     ]
   },
-  "treatment": {
+ "treatment": {
     "primary_drugs": [],
-    "alternative_drugs": [
-      "Oxytetracycline",
-      "Florfenicol"
+    "alternative_drugs": [],
+    "note_drugs": [
+      "CSF là bệnh do virus, KHÔNG có thuốc điều trị đặc hiệu.",
+      "KHÔNG dùng kháng sinh để điều trị virus CSF.",
+      "Kháng sinh chỉ sử dụng khi có nhiễm trùng kế phát (viêm phổi, viêm ruột thứ phát).",
+      "Việc dùng thuốc chỉ mang tính hỗ trợ, không thể loại bỏ virus.",
+      "Khi nghi ngờ CSF cần cách ly và báo thú y để kiểm soát dịch."
     ],
-    "note_drugs": "Không có thuốc diệt CSFV. Điều trị chỉ trợ sức và chống bội nhiễm.",
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Meloxicam",
-        "alternative": [
-          "Flunixin"
-        ]
+        "main": "",
+        "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
         "main": "Vitamin C",
         "alternative": [
           "Vitamin BC"
         ]
+      },
+      "digestive_support": {
+        "main": [
+          "Probiotic (men vi sinh)"
+        ],
+        "alternative": []
       }
     },
     "supportive_care": [
-      "Cách ly đàn nghi bệnh",
-      "Giữ ấm, cung cấp nước sạch",
-      "Khử trùng chuồng trại liên tục",
-      "Báo thú y để xét nghiệm và xử lý"
+      "Cách ly heo nghi nhiễm.",
+      "Giữ chuồng khô, ấm, thông thoáng.",
+      "Bổ sung điện giải và vitamin để giảm suy kiệt.",
+      "Theo dõi sát dấu hiệu nhiễm trùng kế phát.",
+      "Sát trùng chuồng trại và lối đi thường xuyên."
     ],
-    "dose_policy": "Dùng theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "CSF không có thuốc đặc trị. Thuốc hỗ trợ chỉ nhằm giảm suy kiệt và biến chứng, không thay thế biện pháp kiểm soát dịch."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Heo sốt cao + xuất huyết",
+      "description": "Heo sốt cao, xuất huyết nhẹ, còn đứng được.",
       "guideline": [
-        "Cách ly",
-        "Trợ sức mạnh",
-        "Theo dõi sát và báo thú y"
+        "Cách ly ngay",
+        "Hỗ trợ điện giải và vitamin",
+        "Theo dõi sát diễn biến"
       ]
     },
     "case_type_2": {
-      "description": "Heo thần kinh, co giật",
+      "description": "Heo xuất huyết nặng, rối loạn thần kinh.",
       "guideline": [
-        "Hạn chế kích thích",
-        "Giữ ấm",
-        "Xử lý dịch theo thú y"
+        "Xác định ổ dịch",
+        "Báo thú y địa phương",
+        "Thực hiện biện pháp kiểm soát theo hướng dẫn"
       ]
     },
     "note": "Tiêm phòng CSF là biện pháp phòng hiệu quả nhất."
   },
-  "prevention_list": [
-    "Tiêm phòng CSF đúng lịch",
-    "Cách ly heo nhập đàn",
-    "All-in/all-out theo lứa",
-    "Vệ sinh sát trùng định kỳ"
+   "prevention": [
+    "Tiêm phòng vắc xin CSF đầy đủ.",
+    "Không mua heo không rõ nguồn gốc.",
+    "Sát trùng chuồng trại định kỳ.",
+    "Kiểm soát người và phương tiện ra vào trại.",
+    "Theo dõi đàn heo mỗi ngày để phát hiện sớm."
   ],
   "notes": [
-    "CSF dễ nhầm ASF, cần xét nghiệm phân biệt."
+    "CSF có thể nhầm với ASF ở giai đoạn đầu.",
+    "Xét nghiệm là cách duy nhất để phân biệt chính xác."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo. Xử lý dịch bắt buộc theo hướng dẫn thú y."
 }

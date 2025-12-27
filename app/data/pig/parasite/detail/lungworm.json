@@ -37,74 +37,89 @@
       "Dễ ghép viêm phổi và chết"
     ]
   },
-  "treatment": {
+ "treatment": {
     "primary_drugs": [
+      "Levamisole",
       "Ivermectin"
     ],
     "alternative_drugs": [
+      "Fenbendazole",
       "Albendazole"
     ],
-    "note_drugs": "Ivermectin hiệu quả nhất cho giun phổi. Albendazole có thể dùng thay thế.",
+    "note_drugs": [
+      "Giun phổi là ký sinh trùng, KHÔNG dùng kháng sinh để điều trị nguyên nhân.",
+      "Ho kéo dài không sốt cao nên nghĩ đến giun phổi trước.",
+      "Kháng sinh chỉ dùng khi có viêm phổi bội nhiễm rõ ràng.",
+      "Sau tẩy giun, triệu chứng ho có thể giảm chậm vài ngày.",
+      "Cần tẩy lặp lại theo chu kỳ để cắt vòng đời giun."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": [
-          "Ketoprofen"
-        ]
+        "main": "",
+        "alternative": []
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": [
-          "Ambroxol"
+          ""
         ]
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin B-complex",
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
-        "alternative": []
+        "alternative": ["Probiotic (men vi sinh)"]
       }
     },
-    "supportive_care": [
-      "Giữ chuồng ấm, tránh gió lùa",
-      "Dọn phân hằng ngày",
-      "Theo dõi heo ho kéo dài để tách chăm riêng"
+      "supportive_care": [
+      "Giữ chuồng khô, thông thoáng.",
+      "Hạn chế nuôi nền đất nếu có điều kiện.",
+      "Theo dõi hô hấp sau khi tẩy giun.",
+      "Bổ sung dinh dưỡng để phục hồi tăng trọng."
     ],
-    "dose_policy": "Dùng theo nhãn hoặc hướng dẫn thú y."
+    "dose_policy": "Thuốc tẩy giun dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
-    "case_type_1": {
-      "description": "Heo ho nhiều nhưng còn ăn.",
-      "guideline": [
-        "Dùng Ivermectin",
-        "Hỗ trợ hô hấp",
-        "Theo dõi 2-3 ngày"
-      ]
-    },
-    "case_type_2": {
-      "description": "Heo thở bụng, yếu, nằm nhiều.",
-      "guideline": [
-        "Giữ ấm tuyệt đối",
-        "Điện giải và vitamin",
-        "Tách heo ra chuồng khô, sạch"
-      ]
-    },
-    "note": "Heo thường ho kéo dài sau điều trị, cần kiên nhẫn theo dõi."
+  "case_type_1": {
+    "description": "Heo ho kéo dài, còn ăn uống, không sốt cao, chưa có dấu hiệu suy hô hấp.",
+    "guideline": [
+      "Ưu tiên tẩy giun phổi bằng thuốc phù hợp.",
+      "Sau tẩy giun tiếp tục theo dõi ho trong 3–5 ngày.",
+      "Nếu ho giảm dần, không cần dùng kháng sinh.",
+      "Chỉ bổ sung điện giải và vitamin để hỗ trợ hồi phục."
+    ]
   },
-  "prevention": [
-    "Tẩy giun định kỳ",
-    "Giữ nền chuồng khô",
-    "Không nuôi heo nền đất ẩm"
+  "case_type_2": {
+    "description": "Heo ho nặng, thở khó, mệt rõ, nghi ngờ có viêm phổi kế phát.",
+    "guideline": [
+      "Tẩy giun phổi kết hợp chăm sóc hỗ trợ ngay.",
+      "Theo dõi thân nhiệt, nhịp thở và phản xạ trong 24 giờ đầu.",
+      "Chỉ cân nhắc dùng kháng sinh khi có dấu hiệu bội nhiễm rõ (sốt, thở gấp, suy hô hấp).",
+      "Trường hợp thở khó tăng nhanh hoặc nằm nhiều, cần can thiệp thú y sớm."
+    ]
+  },
+  "note": "Không dùng kháng sinh ngay từ đầu nếu chưa có dấu hiệu bội nhiễm vi khuẩn."
+},
+   "prevention": [
+    "Tẩy giun định kỳ cho đàn.",
+    "Hạn chế nuôi nền đất.",
+    "Giữ chuồng trại khô ráo.",
+    "Quản lý tốt phân và nền chuồng.",
+    "Cách ly heo mới nhập."
   ],
   "notes": [
-    "Heo thường ho từng cơn vào sáng sớm.",
-    "Bệnh dễ ghép viêm phổi do vi khuẩn."
+    "Giun phổi dễ bị nhầm với bệnh hô hấp do vi khuẩn.",
+    "Ho kéo dài không đáp ứng kháng sinh cần nghĩ đến giun phổi."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

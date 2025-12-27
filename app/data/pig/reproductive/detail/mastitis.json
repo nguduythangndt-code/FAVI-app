@@ -3,112 +3,120 @@
   "name": "Viêm vú (mastitis)",
   "species": "pig",
   "group": "reproductive",
-  "summary": "Viêm vú làm vú nái sưng nóng đau, giảm sữa, heo con khó bú và suy nhanh.",
+  "summary": "Viêm vú ở heo nái là tình trạng viêm tuyến vú do vi khuẩn xâm nhập, thường xảy ra sau đẻ hoặc trong giai đoạn nuôi con. Bệnh làm giảm hoặc mất sữa, gây đau, sốt và ảnh hưởng trực tiếp đến đàn heo con. Nếu không xử lý sớm, viêm vú có thể dẫn đến viêm tử cung và suy kiệt nái.",
   "causes": [
-    "Nhiễm khuẩn E.coli, Staphylococcus, Streptococcus",
-    "Vú bị xây xát khi heo con bú mạnh",
-    "Nền chuồng ẩm bẩn"
+    "Vi khuẩn xâm nhập qua núm vú (E. coli, Staphylococcus, Streptococcus).",
+    "Chuồng đẻ bẩn, ẩm.",
+    "Heo con cắn xước núm vú.",
+    "Tắc tia sữa.",
+    "Sót sữa sau đẻ."
   ],
   "risk_factors": [
-    "Nái đẻ nhiều lứa",
-    "Nền chuồng sần sùi",
-    "Heo con quá đông bú giằng kéo",
-    "Chuồng đẻ không khô"
+    "Chuồng đẻ vệ sinh kém.",
+    "Heo con quá đông, bú không đều.",
+    "Nái béo, ít vận động.",
+    "Chăm sóc sau đẻ không đúng."
   ],
   "clinical_signs_detailed": [
-    "Vú sưng nóng đau rõ",
-    "Heo con bú kêu la vì ít sữa",
-    "Sốt nhẹ đến vừa",
-    "Vú cứng như cục",
-    "Sữa đổi màu hoặc ít hẳn"
+    "Vú sưng, nóng.",
+    "Vú cứng, đau khi sờ.",
+    "Vú đỏ hoặc tím.",
+    "Ít sữa hoặc mất sữa.",
+    "Heo con bú kém, kêu nhiều.",
+    "Nái sốt.",
+    "Nái nằm nhiều, bỏ ăn."
   ],
   "clinical_signs_by_stage": {
     "mild": [
       "Vú hơi sưng",
-      "Heo con bú khó"
+      "Giảm sữa nhẹ"
     ],
     "moderate": [
-      "Vú sưng nóng rõ",
-      "Nái sốt, bỏ ăn"
+      "Vú sưng rõ",
+      "Ít sữa",
+      "Nái sốt"
     ],
     "severe": [
-      "Vú rất cứng, đỏ",
-      "Sữa gần như mất",
-      "Heo con suy"
+      "Vú viêm nặng, đau nhiều",
+      "Mất sữa hoàn toàn",
+      "Heo con suy yếu"
     ]
   },
   "treatment": {
     "primary_drugs": [
       "Amoxicillin",
-      "Ceftiofur"
+      "Oxytetracycline"
     ],
     "alternative_drugs": [
-      "Oxytetracycline",
-      "Tylosin"
+      "Ceftiofur",
+      "Trimethoprim + Sulfonamide"
     ],
-    "note_drugs": "Ceftiofur và Amoxicillin hiệu quả tốt cho viêm vú.",
+    "note_drugs": [
+      "Viêm vú là bệnh vi khuẩn, CẦN dùng kháng sinh sớm.",
+      "Chậm điều trị dễ gây mất sữa kéo dài.",
+      "Không tự ý đổi kháng sinh khi chưa đủ thời gian điều trị.",
+      "Kết hợp kháng viêm để giảm đau và hạ sốt.",
+      "Theo dõi phản ứng thuốc trong 24–48 giờ đầu."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "Meloxicam",
         "alternative": [
-          "Ketoprofen"
+          "Flunixin"
         ]
       },
-      "respiratory_support": {
-        "main": "Bromhexine",
-        "alternative": []
-      },
       "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+        "main": "Điện giải tổng hợp (Na/K/Cl)",
         "alternative": [
-          "electrolyte_mix"
+          "Oresol"
         ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
-      },
-      "digestive_support": {
-        "main": "Enzyme tiêu hoá",
+        "main": "Vitamin C",
         "alternative": [
-          "Probiotic"
+          "Vitamin BC"
         ]
       }
     },
     "supportive_care": [
-      "Giữ vú sạch và khô",
-      "Cho heo con bú đều các hàng vú",
-      "Tăng điện giải cho nái mệt"
+      "Chườm ấm và xoa bóp nhẹ tuyến vú.",
+      "Vắt bỏ sữa viêm nếu có.",
+      "Giữ nền chuồng khô, sạch.",
+      "Giảm stress cho nái.",
+      "Hỗ trợ chăm sóc heo con (bú thay, ghép bầy nếu cần)."
     ],
-    "dose_policy": "Theo nhãn hoặc tư vấn thú y."
+    "dose_policy": "Kháng sinh và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Vú sưng nóng nhưng nái còn ăn.",
+      "description": "Viêm vú nhẹ, nái còn ăn và chưa mất sữa hoàn toàn.",
       "guideline": [
-        "Kháng sinh chính",
-        "Giảm đau chống viêm",
-        "Giữ vú sạch"
+        "Điều trị kháng sinh sớm",
+        "Kết hợp kháng viêm",
+        "Theo dõi lượng sữa trong 1–2 ngày"
       ]
     },
     "case_type_2": {
-      "description": "Vú cứng, nái bỏ ăn, heo con suy.",
+      "description": "Viêm vú nặng, nái sốt cao, mất sữa, heo con suy yếu.",
       "guideline": [
-        "Điều trị tích cực",
-        "Hỗ trợ dinh dưỡng và điện giải",
-        "Theo dõi sát"
+        "Điều trị kháng sinh mạnh hơn",
+        "Hỗ trợ hạ sốt, giảm đau",
+        "Chăm sóc đặc biệt cho heo con",
+        "Theo dõi nguy cơ viêm tử cung kế phát"
       ]
     },
-    "note": "Nếu vú hư nặng có thể mất hoàn toàn khả năng tiết sữa."
+    "note": "Điều trị muộn làm giảm khả năng phục hồi sữa."
   },
   "prevention": [
-    "Chuồng đẻ khô, sạch",
-    "Giảm xây xát núm vú",
-    "Heo con không được quá đông"
+    "Vệ sinh chuồng đẻ trước và sau đẻ.",
+    "Giữ núm vú sạch, khô.",
+    "Quản lý số lượng heo con bú.",
+    "Theo dõi vú nái hằng ngày sau đẻ.",
+    "Xử lý sớm tắc tia sữa."
   ],
   "notes": [
-    "Phát hiện sớm giúp giữ đàn heo con khỏe.",
-    "Nái viêm vú dễ tái phát nếu chuồng ẩm."
+    "Viêm vú thường xảy ra trong 3–7 ngày sau đẻ.",
+    "Phát hiện sớm giúp bảo toàn đàn heo con."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

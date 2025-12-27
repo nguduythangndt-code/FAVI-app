@@ -3,18 +3,19 @@
   "name": "Viêm khớp",
   "species": "pig",
   "group": "other",
-  "summary": "Viêm khớp làm heo đi khập khiễng, sưng đau khớp, nằm nhiều, ăn kém và lớn chậm. Thường gặp ở heo con, heo cai sữa và heo thịt.",
+  "summary": "Viêm khớp ở heo là tình trạng khớp bị viêm, sưng đau, làm heo đi khập khiễng, đứng dậy khó hoặc nằm nhiều. Bệnh có thể do nhiễm khuẩn, chấn thương, nền chuồng trơn ẩm hoặc biến chứng sau các bệnh nhiễm trùng khác.",
   "causes": [
-    "Nhiễm khuẩn vào khớp (Streptococcus, Staphylococcus, Mycoplasma, Erysipelothrix)",
-    "Vết thương ở chân, móng, da vùng khớp",
-    "Nhiễm trùng huyết từ ổ viêm khác trong cơ thể",
-    "Nền chuồng trơn trượt, heo ngã chấn thương khớp"
+    "Nhiễm vi khuẩn theo đường máu (Streptococcus, E. coli, Staphylococcus).",
+    "Nhiễm trùng rốn ở heo con lan lên khớp.",
+    "Chấn thương, trượt ngã do nền chuồng trơn.",
+    "Viêm khớp thứ phát sau bệnh hô hấp, tiêu hóa.",
+    "Nuôi mật độ cao, chuồng ẩm lạnh kéo dài."
   ],
   "risk_factors": [
-    "Chuồng ẩm, trơn, nhiều phân và nước tiểu",
-    "Heo nuôi dày, chen lấn nhiều",
-    "Cai sữa, chuyển chuồng gây stress",
-    "Dụng cụ, kim tiêm không sát trùng tốt"
+    "Heo con mới cai sữa, sức đề kháng yếu.",
+    "Chuồng trại ẩm, trơn, vệ sinh kém.",
+    "Heo từng bị nhiễm trùng rốn hoặc tiêu chảy nặng.",
+    "Không bổ sung khoáng – vitamin đầy đủ."
   ],
   "clinical_signs_detailed": [
     "Heo đi khập khiễng, chống chân, bước không vững",
@@ -49,8 +50,14 @@
       "Florfenicol",
       "Tylosin"
     ],
-    "note_drugs": "Ceftiofur và Amoxicillin thường được ưu tiên trong các ca viêm khớp nhiễm khuẩn. Cần điều trị đủ thời gian, không ngưng thuốc quá sớm.",
-    "symptomatic_treatment": {
+     "note_drugs": [
+      "Kháng sinh chỉ dùng khi có dấu hiệu nhiễm khuẩn (sốt, sưng nóng, viêm nhiều khớp).",
+      "Không dùng kháng sinh nếu viêm khớp đơn thuần do chấn thương.",
+      "Ưu tiên kháng sinh phổ rộng, thấm tốt vào mô khớp.",
+      "Dùng đủ thời gian theo khuyến cáo để tránh tái phát và kháng thuốc.",
+      "Không phối hợp nhiều kháng sinh cùng lúc nếu không có chỉ định thú y."
+    ],
+     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Flunixin",
         "alternative": [
@@ -58,21 +65,24 @@
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": ["Điện giải tổng hợp (Na/K/Cl)"]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": [
+          "Vitamin B1",
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },
@@ -93,15 +103,15 @@
         "Cải thiện nền chuồng để hạn chế trượt ngã"
       ]
     },
-    "case_type_2": {
-      "description": "Heo không đứng được, khớp sưng lớn, gầy nhiều.",
+     "case_type_2": {
+      "description": "Viêm nhiều khớp, heo nằm nhiều, sốt.",
       "guideline": [
-        "Điều trị tích cực nhưng tiên lượng dè dặt",
-        "Tách nuôi riêng ở ô khô và yên tĩnh",
-        "Cân nhắc loại thải nếu khớp biến dạng và ít khả năng hồi phục"
+        "Bắt buộc dùng kháng sinh phù hợp",
+        "Kết hợp kháng viêm và trợ sức",
+        "Cách ly và theo dõi sát"
       ]
     },
-    "note": "Viêm khớp mạn dễ để lại di chứng khập khiễng, ảnh hưởng tăng trọng lâu dài."
+    "note": "Trường hợp viêm khớp mạn tính thường hồi phục chậm, cần kiên trì chăm sóc."
   },
   "prevention": [
     "Giữ nền chuồng khô, không trơn, không đọng nước",

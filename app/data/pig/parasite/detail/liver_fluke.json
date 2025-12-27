@@ -3,11 +3,11 @@
   "name": "Sán lá",
   "species": "pig",
   "group": "parasite",
-  "summary": "Sán lá ký sinh ở gan và đường mật, làm gan hư hại, heo gầy, lông xấu, niêm mạc nhợt và chậm lớn.",
+   "summary": "Sán lá ở heo là bệnh ký sinh trùng gây tổn thương gan và đường mật. Bệnh thường diễn tiến âm thầm, làm heo chậm lớn, gầy yếu, thiếu máu và dễ mắc các bệnh kế phát. Nếu không điều trị và kiểm soát môi trường, bệnh dễ tái phát kéo dài.",
   "causes": [
-    "Nhiễm ấu trùng sán lá qua cỏ, nước ao tù",
-    "Vòng đời liên quan đến ốc nước ngọt",
-    "Heo uống nước hoặc ăn cỏ vùng trũng nhiễm ấu trùng"
+    "Heo ăn phải ấu trùng sán lá qua nước uống hoặc thức ăn nhiễm bẩn.",
+    "Nguồn nước ao hồ, ruộng trũng có vật chủ trung gian.",
+    "Không tẩy ký sinh trùng định kỳ."
   ],
   "risk_factors": [
     "Nuôi heo gần ao hồ, đầm lầy",
@@ -42,12 +42,19 @@
       "Triclabendazole"
     ],
     "alternative_drugs": [
+      "Albendazole",
       "Closantel"
     ],
-    "note_drugs": "Triclabendazole được ưu tiên cho sán lá gan. Closantel có thể dùng thay thế tùy điều kiện thuốc.",
+    "note_drugs": [
+      "Sán lá là ký sinh trùng nội, KHÔNG dùng kháng sinh.",
+      "Triclabendazole là thuốc ưu tiên do hiệu quả cao trên sán lá.",
+      "Sau khi tẩy sán, heo có thể mệt nhẹ do phản ứng thuốc.",
+      "Cần kết hợp cải thiện môi trường để tránh tái nhiễm.",
+      "Không tẩy sán khi heo quá suy kiệt hoặc sốt cao."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "",
         "alternative": []
       },
       "respiratory_support": {
@@ -56,31 +63,36 @@
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
-        "alternative": []
+        "main": "Vitamin B-complex",
+        "alternative": [
+          "Vitamin C"
+        ]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",
         "alternative": [
-          "Probiotic"
+          "Probiotic (men vi sinh)"
         ]
       }
     },
     "supportive_care": [
-      "Giữ khẩu phần dễ tiêu, không quá nhiều mỡ",
-      "Cho uống đủ nước sạch",
-      "Giảm stress, không dồn đuổi heo yếu"
+      "Cung cấp nước uống sạch.",
+      "Bổ sung dinh dưỡng sau khi tẩy sán.",
+      "Giữ chuồng trại khô, sạch.",
+      "Theo dõi thể trạng và tăng trọng sau điều trị."
     ],
-    "dose_policy": "Dùng theo nhãn thuốc hoặc tư vấn thú y."
+    "dose_policy": "Thuốc tẩy sán dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
       "description": "Heo gầy, mệt nhưng vẫn còn ăn.",
       "guideline": [
-        "Dùng Triclabendazole",
+        "Dùng Triclabendazole hoặc Albendazole để tẩy sán nhanh nhất",
         "Tăng vitamin và men tiêu hoá",
         "Theo dõi cân nặng mỗi tuần"
       ]
@@ -96,10 +108,11 @@
     "note": "Sán lá thường gây tổn thương gan kéo dài, hồi phục chậm."
   },
   "prevention": [
-    "Không dùng nước ao tù cho heo uống",
+    "Không cho heo tiếp xúc nước ao hồ ô nhiễm.",
     "Hạn chế cho heo ăn cỏ từ vùng trũng ẩm",
     "Tẩy sán định kỳ nếu nuôi gần vùng có nguy cơ",
-    "Quản lý nước thải và khu vực ẩm quanh chuồng"
+    "Quản lý nước thải và khu vực ẩm quanh chuồng",
+    "Cách ly heo mới nhập trước khi nhập đàn."
   ],
   "notes": [
     "Thường thấy gan heo tổn thương khi giết mổ.",

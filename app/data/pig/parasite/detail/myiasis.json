@@ -3,11 +3,11 @@
   "name": "Ấu trùng ruồi, côn trùng gây viêm da",
   "species": "pig",
   "group": "parasite",
-  "summary": "Ấu trùng ruồi ký sinh trong vết thương hoặc vùng da ẩm bẩn, làm da viêm, chảy dịch, lở loét và heo rất khó chịu.",
+  "summary": "Myiasis là tình trạng ấu trùng ruồi xâm nhập và phát triển trong vết thương da của heo. Ấu trùng ăn mô sống và mô hoại tử, gây đau, viêm nặng, mùi hôi và có thể dẫn đến bội nhiễm, suy kiệt nếu không xử lý kịp thời.",
   "causes": [
-    "Ruồi đẻ trứng lên vết thương hoặc vùng da bẩn",
-    "Trứng nở thành ấu trùng ăn mô chết và mô lành",
-    "Chuồng trại nhiều ruồi, vệ sinh kém"
+    "Ruồi đẻ trứng vào vết thương hở, da ẩm bẩn.",
+    "Vết cắn, trầy xước, vết mổ không được xử lý.",
+    "Chuồng trại nhiều ruồi, vệ sinh kém."
   ],
   "risk_factors": [
     "Có vết thương hở không xử lý",
@@ -43,26 +43,34 @@
       "Ivermectin"
     ],
     "alternative_drugs": [
-      "Permethrin",
-      "Thuốc sát trùng vết thương"
+      "Doramectin"
     ],
-    "note_drugs": "Ivermectin hỗ trợ diệt ký sinh trùng. Phun Permethrin quanh vùng da giúp xua ruồi. Cần sát trùng vết thương thường xuyên.",
+    "note_drugs": [
+      "Myiasis là ký sinh trùng ngoài da, KHÔNG dùng kháng sinh để diệt ấu trùng.",
+      "Ivermectin/Doramectin giúp tiêu diệt ấu trùng còn sót.",
+      "Kháng sinh chỉ dùng khi vết thương có dấu hiệu bội nhiễm (sưng nóng, mủ, sốt).",
+      "Bắt buộc xử lý tại chỗ song song với dùng thuốc."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
-        "alternative": []
+        "main": "Meloxicam",
+        "alternative": [
+          "Ketoprofen"
+        ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": []
       },
       "electrolyte": {
         "main": "Oresol (điện giải uống)",
-        "alternative": []
+        "alternative": [
+          "Điện giải tổng hợp (Na/K/Cl)"
+        ]
       },
       "vitamin": {
         "main": "Vitamin BC",
-        "alternative": []
+        "alternative": ["Multivitamin tổng hợp"]
       },
       "digestive_support": {
         "main": "Enzyme tiêu hoá",

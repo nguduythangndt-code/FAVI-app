@@ -4,7 +4,7 @@
   { "id": "electrolyte_mix",        "name": "Điện giải tổng hợp (Na/K/Cl)" },
   { "id": "vitamin_c_electrolyte",  "name": "Vitamin C điện giải" },
   { "id": "bcomplex_electrolyte",   "name": "B-complex + Điện giải" },
-  { "id": "calcium_borogluconate",   "name": "Calcium borogluconate" },
-  { "id": "calcium_gluconate",       "name": "Calcium gluconate" },
-  { "id": "mineral_solution",   "name": "Mineral solution" }
+  { "id": "calcium_borogluconate",  "name": "Calcium borogluconate" },
+  { "id": "calcium_gluconate",      "name": "Calcium gluconate" },
+  { "id": "mineral_solution",       "name": "Mineral solution" }
 ]

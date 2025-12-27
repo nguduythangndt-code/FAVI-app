@@ -1,85 +1,151 @@
 {
-  "name": "Hồng lỵ (Swine dysentery)",
-  "summary": "Bệnh do Brachyspira gây tiêu chảy nhầy máu, heo gầy nhanh.",
+  "id": "swine_dysentery",
+  "name": "Hồng lỵ (Swine dysentery) ở heo",
+  "species": "pig",
+  "group": "digestive",
+
+  "summary": "Hồng lỵ là bệnh tiêu hoá nặng ở heo do vi khuẩn Brachyspira gây viêm ruột già. Heo thường tiêu chảy nhầy, có thể lẫn máu, phân cực hôi, mất nước và gầy sút nhanh. Bệnh lây lan trong đàn nếu chuồng bẩn và quản lý kém, cần xử lý sớm đúng hướng kháng sinh + bù nước.",
+
   "causes": [
-    "Brachyspira hyodysenteriae lây qua phân - nền chuồng"
+    "Brachyspira hyodysenteriae (xoắn khuẩn kỵ khí) gây tổn thương ruột già.",
+    "Lây qua phân, nền chuồng, dụng cụ, heo mang trùng.",
+    "Môi trường chuồng ẩm bẩn làm mầm bệnh tồn tại và lây nhanh."
   ],
+
   "risk_factors": [
-    "Chuồng ẩm bẩn",
-    "Nuôi dày",
-    "Thay đổi thức ăn đột ngột"
+    "Heo sau cai sữa, heo thịt.",
+    "Mật độ cao, chuồng ẩm – bẩn, thông thoáng kém.",
+    "Stress (ghép đàn, vận chuyển), thay đổi thức ăn đột ngột.",
+    "Nuôi nhiều lứa tuổi chung khu.",
+    "Kiểm soát chuột/ruồi kém."
   ],
+
   "clinical_signs_detailed": [
-    "Tiêu chảy nhầy đặc, mùi hôi",
-    "Có máu tươi hoặc sẫm",
-    "Heo gầy nhanh, mất nước",
-    "Bẩn quanh hậu môn",
-    "Tỷ lệ chết tăng khi kéo dài"
+    "Tiêu chảy nhầy, mùi rất hôi.",
+    "Phân có thể lẫn máu (đỏ sẫm) hoặc nhầy đặc.",
+    "Heo bỏ ăn, nằm nhiều, mệt rõ.",
+    "Mất nước, gầy sút nhanh.",
+    "Một số ca tái đi tái lại nếu xử lý không đủ và môi trường chuồng vẫn bẩn."
   ],
+
   "clinical_signs_by_stage": {
     "mild": [
-      "Tiêu chảy loãng"
+      "Tiêu chảy sệt, có nhầy nhẹ.",
+      "Ăn giảm.",
+      "Chưa mất nước rõ."
     ],
     "moderate": [
-      "Nhầy máu rõ",
-      "Gầy"
+      "Tiêu chảy nhầy rõ, phân hôi mạnh.",
+      "Gầy nhanh, mất nước nhẹ – vừa."
     ],
     "severe": [
-      "Kiệt nước",
-      "Chết do suy sụp"
+      "Tiêu chảy nhầy – máu, hôi khẳm.",
+      "Mất nước nặng, yếu nhanh.",
+      "Có thể suy kiệt nếu xử lý chậm."
     ]
   },
+
   "treatment": {
     "primary_drugs": [
-      "Tiamulin",
-      "Lincomycin"
+      "Tiamulin"
     ],
+
     "alternative_drugs": [
-      "Valnemulin",
-      "Tylosin"
+      "Lincomycin",
+      "Tylosin",
+      "Doxycycline"
     ],
-    "note_drugs": "Tiamulin/Lincomycin là lựa chọn hiệu quả nếu dùng sớm.",
+
+    "note_drugs": [
+      "Hồng lỵ là bệnh ở ruột già do Brachyspira (kỵ khí). Trong các thuốc đang có của app, Tiamulin là lựa chọn ưu tiên đúng hướng nhất.",
+      "Nếu dùng sai nhóm (đi lệch sang thuốc thiên về E. coli như Colistin) thường không cải thiện rõ và dễ kéo dài, tái phát.",
+      "Không lạm dụng phối hợp nhiều kháng sinh cùng lúc. Chọn 1 hướng chính (ưu tiên Tiamulin), theo dõi đáp ứng rồi mới quyết định đổi.",
+      "Ngừng thuốc sớm rất hay tái phát: phân có thể ‘đỡ tạm’ rồi bùng lại vì ruột già chưa hồi phục.",
+      "Tránh dùng thuốc làm giảm nhu động ruột/cầm tiêu chảy bừa khi đang tiêu chảy nhầy–máu: dễ giữ độc tố và làm nặng thêm.",
+      "Khi heo mất nước: bù điện giải là bắt buộc. Chỉ chăm chăm kháng sinh mà bỏ bù nước thì vẫn tụt nhanh.",
+      "NSAID (Meloxicam/Flunixin) chỉ cân nhắc khi heo còn uống được và có sốt/đau rõ; heo mất nước nặng mà dùng bừa có thể làm nặng tình trạng suy kiệt.",
+      "Luôn dùng thuốc theo tư vấn thú y, đặc biệt khi có máu nhiều, tụt nhanh hoặc bùng theo đàn."
+    ],
+
     "symptomatic_treatment": {
-      "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+      "antiinflammatory": {
+        "main": "",
+        "alternative": [
+          "Meloxicam",
+          "Flunixin"
+        ]
+      },
+      "respiratory_support": {
+        "main": "",
         "alternative": []
       },
+      "electrolyte": {
+        "main": "Oresol (điện giải uống)",
+        "alternative": [
+          "Glucose"
+        ]
+      },
+      "vitamin": {
+        "main": "Vitamin BC",
+        "alternative": [
+          "Vitamin C"
+        ]
+      },
       "digestive_support": {
-        "main": "Probiotic",
-        "alternative": []
+        "main": "Probiotic (men vi sinh)",
+        "alternative": [
+          "Pectin - Kaolin",
+          "Than hoạt tính (giải độc tiêu hoá)",
+          "Enzyme tiêu hoá"
+        ]
       }
     },
+
     "supportive_care": [
-      "Tách con bệnh",
-      "Nền khô, thay chất độn",
-      "Giảm stress"
+      "Cách ly heo bệnh, giảm lây qua phân.",
+      "Giữ chuồng khô – sạch – ấm, giảm ẩm và mùi hôi nền chuồng.",
+      "Dọn phân thường xuyên, vệ sinh máng ăn uống.",
+      "Ổn định khẩu phần, tránh đổi cám đột ngột trong đợt bùng.",
+      "Theo dõi phân (nhầy/máu), thể trạng và mất nước hằng ngày."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+
+    "dose_policy": [
+      "Dùng thuốc theo nhãn hoặc chỉ định thú y."
+    ]
   },
+
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Tiêu chảy máu kéo dài",
+      "description": "Heo tiêu chảy nhầy rõ nhưng chưa suy kiệt nặng.",
       "guideline": [
-        "Tiamulin sớm",
-        "ORS mạnh"
+        "Ưu tiên kháng sinh đúng hướng Brachyspira (Tiamulin).",
+        "Bù điện giải đều (Oresol), hỗ trợ năng lượng (Glucose).",
+        "Hỗ trợ ruột (Probiotic, Pectin - Kaolin) và theo dõi đáp ứng vài ngày."
       ]
     },
     "case_type_2": {
-      "description": "Ổ dịch lây lan",
+      "description": "Heo tiêu chảy nhầy–máu, mất nước nặng, yếu nhanh hoặc bùng theo đàn.",
       "guideline": [
-        "Điều trị toàn ô",
-        "Tổng vệ sinh sát trùng"
+        "Cần thú y can thiệp ngay.",
+        "Ưu tiên cứu mất nước và ổn định đàn song song dùng kháng sinh đúng hướng.",
+        "Khoanh vùng ổ bệnh và tăng vệ sinh – sát trùng để chặn lây."
       ]
     },
-    "note": "Trễ sẽ thành hồng lỵ mạn, heo không lớn."
+    "note": "Hồng lỵ hay gây thiệt hại kéo dài do ruột già tổn thương và dễ tái phát nếu xử lý không đủ hoặc nền chuồng vẫn bẩn. Làm sạch môi trường + chọn đúng thuốc là điểm then chốt."
   },
-  "prevention_list": [
-    "All-in/all-out",
-    "Vệ sinh nền chuồng",
-    "Kiểm soát phân thải"
+
+  "prevention": [
+    "Quản lý theo lứa tuổi (all-in all-out) để cắt vòng lây.",
+    "Vệ sinh – sát trùng định kỳ, ưu tiên nền chuồng và khu vực ẩm bẩn.",
+    "Kiểm soát chuột/ruồi, hạn chế mang phân từ ô này sang ô khác.",
+    "Giảm stress và thay đổi thức ăn từ từ.",
+    "Cách ly heo mới nhập, theo dõi phân trước khi nhập đàn."
   ],
+
   "notes": [
-    "Dễ nhầm salmonella/cầu trùng, đối chiếu mùi và nhầy."
+    "Gợi ý hồng lỵ: phân nhầy, rất hôi, có thể lẫn máu — thường nặng ở ruột già.",
+    "Dễ nhầm với Salmonella/E. coli nếu chỉ nhìn tiêu chảy. Sốt cao và nhiễm trùng toàn thân gợi ý Salmonella nhiều hơn."
   ],
-  "disclaimer": "Thông tin tham khảo."
+
+  "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

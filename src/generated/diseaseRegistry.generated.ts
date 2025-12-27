@@ -170,7 +170,6 @@ export const diseaseRegistry: Record<string, DiseaseDetailLoader> = {
   "pig/digestive/bloat": () => require("../../app/data/pig/digestive/detail/bloat.json"),
   "pig/digestive/coccidia": () => require("../../app/data/pig/digestive/detail/coccidia.json"),
   "pig/digestive/constipation": () => require("../../app/data/pig/digestive/detail/constipation.json"),
-  "pig/digestive/coronavirus_tge_ped": () => require("../../app/data/pig/digestive/detail/coronavirus_tge_ped.json"),
   "pig/digestive/ecoli_diarrhea": () => require("../../app/data/pig/digestive/detail/ecoli_diarrhea.json"),
   "pig/digestive/edema-disease": () => require("../../app/data/pig/digestive/detail/edema-disease.json"),
   "pig/digestive/enzyme_deficiency": () => require("../../app/data/pig/digestive/detail/enzyme_deficiency.json"),

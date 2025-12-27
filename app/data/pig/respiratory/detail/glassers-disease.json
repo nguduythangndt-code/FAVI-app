@@ -1,42 +1,61 @@
 {
+  "id": "glassers_disease",
   "name": "Bệnh Glässer (Glaesserella parasuis)",
-  "summary": "Nhiễm khuẩn gây viêm đa màng (phổi - tim - bụng), viêm khớp, chết nhanh ở heo cai sữa.",
+  "species": "pig",
+  "group": "respiratory",
+  "summary": "Bệnh Glässer là bệnh nhiễm khuẩn toàn thân do Glaesserella parasuis gây ra, thường gặp ở heo con và heo sau cai sữa. Bệnh gây viêm đa màng (màng phổi, màng tim, màng bụng), viêm khớp và viêm màng não, diễn tiến nhanh và có thể gây chết nếu không điều trị sớm.",
   "causes": [
-    "Glaesserella parasuis xâm nhập đường hô hấp rồi vào máu"
+    "Glaesserella parasuis xâm nhập đường hô hấp rồi vào máu",
+    "Heo mang trùng trong đàn."
   ],
   "risk_factors": [
-    "Cai sữa stress",
-    "Chuồng kín ẩm",
-    "Trộn đàn, vận chuyển"
+    "Heo sau cai sữa.",
+    "Stress do cai sữa, chuyển chuồng.",
+    "Chuồng lạnh, ẩm, thông gió kém.",
+    "Miễn dịch yếu.",
+    "Không tiêm phòng Glässer."
   ],
   "clinical_signs_detailed": [
-    "Sốt cao, bỏ ăn",
-    "Thở khó, ho",
-    "Đi khập khiễng do viêm khớp",
-    "Bụng chướng nhẹ, đau",
-    "Nhiều con chết đột ngột"
+    "Heo sốt cao, thở khó, lờ đờ, nằm tụm.",
+    "Đi đứng cứng, khập khiễng.",
+    "Sưng khớp, au khi di chuyển.",
+    "Viêm màng phổi.",
+    "Viêm màng tim.",
+    "Viêm màng bụng.",
+    "Có thể co giật, run (viêm màng não)."
   ],
-  "clinical_signs_by_stage": {
+ "clinical_signs_by_stage": {
     "mild": [
-      "Sốt, ho nhẹ"
+      "Sốt",
+      "Lờ đờ"
     ],
     "moderate": [
-      "Thở khó, khớp đau"
+      "Khó thở",
+      "Đau khớp",
+      "Đi khập khiễng"
     ],
     "severe": [
-      "Nằm liệt, tím tái, chết nhanh"
+      "Viêm đa màng",
+      "Nằm liệt",
+      "Tử vong nhanh"
     ]
   },
-  "treatment": {
+   "treatment": {
     "primary_drugs": [
       "Ceftiofur",
-      "Ampicillin"
+      "Amoxicillin"
     ],
     "alternative_drugs": [
       "Florfenicol",
-      "Enrofloxacin"
+      "Trimethoprim + Sulfonamide"
     ],
-    "note_drugs": "Bệnh đáp ứng tốt kháng sinh nếu tiêm sớm; trễ dễ chết nhanh.",
+    "note_drugs": [
+      "Glässer là bệnh vi khuẩn TOÀN THÂN, cần điều trị kháng sinh sớm.",
+      "Điều trị càng sớm tỷ lệ sống càng cao.",
+      "Kháng viêm bắt buộc để giảm đau khớp và viêm màng.",
+      "Không chỉ điều trị hô hấp đơn thuần.",
+      "Thường cần điều trị cả đàn khi bùng phát."
+    ],
     "symptomatic_treatment": {
       "antiinflammatory": {
         "main": "Meloxicam",
@@ -55,37 +74,53 @@
         "alternative": [
           "Vitamin BC"
         ]
+      },
+      "digestive_support": {
+        "main": "Enzyme tiêu hoá",
+        "alternative": [
+          "Probiotic (men vi sinh)"
+        ]
       }
     },
     "supportive_care": [
-      "Giữ ấm, giảm stress",
-      "Cách ly và điều trị cả nhóm nguy cơ"
+      "Cách ly heo bệnh.",
+      "Giữ chuồng ấm, khô.",
+      "Giảm stress đàn.",
+      "Bổ sung nước và điện giải.",
+      "Theo dõi vận động và khớp."
     ],
-    "dose_policy": "Theo nhãn hoặc thú y."
+    "dose_policy": "Kháng sinh và thuốc hỗ trợ dùng theo liều ghi trên nhãn hoặc theo tư vấn thú y."
   },
   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Sốt cao + thở khó",
+      "description": "Heo sốt, đi đứng đau nhưng còn di chuyển được.",
       "guideline": [
-        "Ceftiofur/Ampicillin sớm",
-        "Kháng viêm hỗ trợ"
+        "Điều trị kháng sinh sớm",
+        "Kết hợp kháng viêm",
+        "Theo dõi vận động trong 24–48 giờ"
       ]
     },
     "case_type_2": {
-      "description": "Khớp sưng rõ",
+      "description": "Heo nằm liệt, đau nhiều, khó thở hoặc có dấu hiệu thần kinh.",
       "guideline": [
-        "Kháng sinh + nền mềm khô"
+        "Xử lý như ca Glässer nặng",
+        "Dùng kháng sinh mạnh sớm",
+        "Hỗ trợ tích cực",
+        "Xem xét loại thải nếu không đáp ứng"
       ]
     },
-    "note": "Con khỏe, ăn mạnh thường là con sốt trước khi bệnh bùng lên.."
+    "note": "Điều trị muộn thường không cứu được heo nặng."
   },
-  "prevention_list": [
-    "Giảm stress cai sữa",
-    "Thông thoáng chuồng",
-    "Vaccine nếu trại lưu hành"
+  "prevention": [
+    "Tiêm vaccine Glässer.",
+    "Giảm stress giai đoạn cai sữa.",
+    "Giữ chuồng khô, ấm.",
+    "Quản lý tốt đàn heo con.",
+    "Cách ly heo mới nhập."
   ],
   "notes": [
-    "Dễ nhầm APP/PRRS, cần đối chiếu triệu chứng."
+    "Glässer thường bùng phát ngay sau cai sữa.",
+    "Dễ nhầm với viêm phổi nếu không chú ý dấu hiệu khớp."
   ],
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }
