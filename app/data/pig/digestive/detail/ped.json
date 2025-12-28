@@ -62,9 +62,9 @@
     ],
 
     "note_drugs": [
-      "PED là bệnh do virus: không có ‘kháng sinh trị PED’. Mục tiêu điều trị là bù nước – điện giải – giữ ấm – cứu con khỏi mất nước.",
+      "PED là bệnh do virus: không có 'kháng sinh trị PED'. Mục tiêu điều trị là bù nước – điện giải – giữ ấm – cứu con khỏi mất nước.",
       "Ưu tiên số 1: Oresol + Glucose để chống mất nước và tụt đường huyết. Heo con tụt rất nhanh, xử lý chậm là chết vì mất nước/chết lạnh.",
-      "Probiotic và Pectin - Kaolin giúp ‘đỡ rối ruột’ và bảo vệ niêm mạc ruột, nhưng không thay thế việc bù nước.",
+      "Probiotic và Pectin - Kaolin giúp 'đỡ rối ruột' và bảo vệ niêm mạc ruột, nhưng không thay thế việc bù nước.",
       "Than hoạt tính chỉ dùng như hỗ trợ khi phân quá hôi/ruột quá kích thích; không dùng kiểu lạm dụng làm heo bỏ bú/bỏ ăn thêm.",
       "Không tự ý dùng thuốc giảm đau – hạ sốt (Meloxicam/Flunixin/Paracetamol) khi heo đang mất nước nặng: nguy cơ làm nặng thêm tình trạng suy kiệt. Chỉ cân nhắc khi có sốt/đau rõ và con vẫn uống được.",
       "Kháng sinh chỉ dùng khi nghi bội nhiễm: sốt rõ, phân hôi thối bất thường kéo dài, viêm phổi kèm theo, con tụt nhưng không giống kiểu mất nước đơn thuần. Dùng kháng sinh phải theo thú y để tránh dùng sai và làm loạn hệ ruột."
@@ -101,7 +101,17 @@
           "Than hoạt tính (giải độc tiêu hoá)",
           "Enzyme tiêu hoá"
         ]
-      }
+      },
+      "stimulant": {
+  "main": "Caffeine",
+  "alternative": ["Camphor", "Nikethamide"],
+  "note": [
+    "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+    "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+    "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+  ]
+}
+
     },
 
     "supportive_care": [

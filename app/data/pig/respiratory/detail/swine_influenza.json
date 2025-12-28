@@ -1,118 +1,148 @@
 {
-  "id": "swine_influenza",
+ "id": "swine_influenza",
   "name": "Cúm heo (Swine Influenza)",
   "species": "pig",
   "group": "respiratory",
-  "summary": "Cúm heo gây sốt cao, ho khan, chảy mũi và yếu nhanh. Bùng phát rất nhanh trong đàn.",
+
+  "summary": "Cúm heo là bệnh hô hấp cấp tính do virus (Influenza A) gây ra, lây lan rất nhanh trong đàn. Heo thường sốt cao đột ngột, ho mạnh, sổ mũi, thở nhanh, bỏ ăn; nhiều con bị đồng loạt trong thời gian ngắn. Kháng sinh không diệt được virus cúm — điều trị chủ yếu là hạ sốt, giảm đau, hỗ trợ hô hấp và chỉ dùng kháng sinh khi có bội nhiễm vi khuẩn.",
+
   "causes": [
-    "Virus cúm type A (H1N1, H3N2)",
-    "Lây qua không khí cực nhanh",
-    "Thời tiết lạnh, thay đổi nhiệt độ đột ngột"
+    "Virus cúm heo (Influenza A) gây viêm đường hô hấp trên và dưới.",
+    "Lây qua giọt bắn (ho, hắt hơi), không khí trong chuồng kín, tiếp xúc gần.",
+    "Lây gián tiếp qua người, dụng cụ, xe cộ, quần áo nếu không kiểm soát."
   ],
+
   "risk_factors": [
-    "Chuồng lạnh",
-    "Gió lùa",
-    "Đàn đông",
-    "Nuôi nhiều lứa tuổi cùng chuồng"
+    "Chuồng kín, thông gió kém, mật độ cao.",
+    "Thời tiết lạnh, chênh nhiệt ngày đêm lớn.",
+    "Stress (ghép đàn, vận chuyển, cai sữa).",
+    "Đàn nhiều lứa tuổi, ra vào chuồng nhiều.",
+    "Bội nhiễm vi khuẩn hô hấp (Pasteurella, Streptococcus...) làm nặng."
   ],
   "clinical_signs_detailed": [
-    "Sốt cao 40-41",
-    "Ho khan mạnh",
-    "Chảy mũi, mắt đỏ nhẹ",
-    "Ăn giảm nhanh, nằm nhiều",
-    "Thở mạnh hoặc thở bụng"
+    "Sốt cao đột ngột, heo nằm nhiều, bỏ ăn.",
+    "Ho khan hoặc ho thành tràng, hắt hơi, sổ mũi.",
+    "Thở nhanh, có thể thở bụng khi nặng.",
+    "Đau nhức, mệt, đàn bệnh hàng loạt trong thời gian ngắn."
   ],
   "clinical_signs_by_stage": {
     "mild": [
-      "Ho nhẹ",
-      "Ăn giảm ít"
+      "Ho nhẹ, hắt hơi.",
+      "Ăn giảm nhẹ.",
+      "Sốt nhẹ hoặc mới chớm."
     ],
     "moderate": [
-      "Sốt cao",
-      "Ho nhiều, thở nhanh"
+      "Sốt rõ, bỏ ăn.",
+      "Ho nhiều, sổ mũi.",
+      "Thở nhanh, mệt."
     ],
     "severe": [
-      "Nằm bẹp",
-      "Thở bụng mạnh",
-      "Mất nước do sốt"
+      "Sốt cao kéo dài, nằm bệt.",
+      "Thở khó, thở bụng.",
+      "Nguy cơ viêm phổi/bội nhiễm nặng."
     ]
   },
   "treatment": {
     "primary_drugs": [
-      "Kháng sinh kiểm soát nhiễm ghép (Tylosin, Florfenicol)"
     ],
     "alternative_drugs": [
-      "Amoxicillin",
-      "Doxycycline"
     ],
-    "note_drugs": "Cúm là virus, không có thuốc đặc trị. Dùng kháng sinh để hạn chế viêm phổi ghép.",
+    
+    "note_drugs": [
+      "Cúm heo là bệnh do virus: kháng sinh không trị được cúm. Kháng sinh chỉ dùng khi nghi bội nhiễm (sốt kéo dài, thở nặng dần, ho đờm/viêm phổi, chết rải rác).",
+      "Ưu tiên số 1 là hạ sốt – giảm đau để heo ăn uống lại: Paracetamol hoặc Meloxicam (chọn 1). Ca nặng có thể cân nhắc Flunixin theo thú y.",
+      "Tránh dùng nhiều thuốc hạ sốt/kháng viêm chồng chéo. Chọn 1 hướng chính, theo dõi đáp ứng.",
+      "Khi heo sốt cao thường uống ít: bù điện giải và nước sạch giúp giảm tụt lực và giảm biến chứng.",
+      "Nếu xuất hiện viêm phổi/bội nhiễm: cân nhắc kháng sinh theo nhóm hô hấp trong danh mục thuốc của trại (ví dụ Doxycycline/Amoxicillin/… tuỳ tình huống) nhưng nên để thú y quyết định để tránh dùng sai và kháng thuốc.",
+      "Không cố ép ăn khi đang sốt cao; tập trung nước – điện giải – giảm stress – thông gió tốt."
+    ],
+
     "symptomatic_treatment": {
       "antiinflammatory": {
-        "main": "Flunixin",
+        "main": "Paracetamol",
         "alternative": [
-          "Ketoprofen"
+          "Meloxicam",
+          "Flunixin"
         ]
       },
       "respiratory_support": {
-        "main": "Bromhexine",
+        "main": "",
         "alternative": [
-          "Ambroxol"
+          "Bromhexine",
+          "Acetylcysteine"
         ]
       },
       "electrolyte": {
-        "main": "Oresol (điện giải uống)",
+        "main": "Điện giải tổng hợp (Na/K/Cl)",
         "alternative": [
-          "electrolyte_mix"
+          "Oresol (điện giải uống)",
+          "Glucose"
         ]
       },
       "vitamin": {
-        "main": "Vitamin BC",
+        "main": "Vitamin C",
         "alternative": [
-          "Vitamin C"
+          "Vitamin BC"
         ]
       },
       "digestive_support": {
-        "main": "Enzyme tiêu hoá",
-        "alternative": [
-          "Probiotic"
-        ]
-      }
+        "main": "",
+        "alternative": []
+      },
+      "stimulant": {
+  "main": "Caffeine",
+  "alternative": ["Camphor", "Nikethamide"],
+  "note": [
+    "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+    "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+    "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+  ]
+}
+
     },
+    
+
     "supportive_care": [
-      "Giữ ấm chuồng",
-      "Không để gió lùa",
-      "Bù nước điện giải",
-      "Giảm mật độ đàn"
+      "Tăng thông gió, giảm bụi và khí độc trong chuồng; tránh gió lùa trực tiếp.",
+      "Giữ chuồng ấm, khô; giảm chênh nhiệt ngày đêm.",
+      "Cách ly nhóm bệnh, hạn chế ra vào chuồng để giảm lây.",
+      "Bổ sung nước sạch, điện giải; theo dõi uống nước vì sốt dễ mất nước âm thầm.",
+      "Theo dõi 48–72h: nếu sốt không giảm hoặc thở nặng dần thì coi như chuyển nặng/bội nhiễm."
     ],
-    "dose_policy": "Dùng thuốc đúng liều theo nhãn."
+    "dose_policy": "Dùng thuốc theo nhãn hoặc chỉ định thú y."
   },
-  "severe_case_treatment": {
+   "severe_case_treatment": {
     "case_type_1": {
-      "description": "Sốt cao, ho nhiều nhưng còn đứng.",
+      "description": "Heo sốt cao, ho rõ nhưng vẫn đứng được, chưa khó thở nặng.",
       "guideline": [
-        "Giảm viêm",
-        "Kháng sinh phòng nhiễm ghép",
-        "Ổn định nhiệt độ"
+        "Hạ sốt – giảm đau (Paracetamol hoặc Meloxicam).",
+        "Điện giải + nước sạch để tránh tụt lực.",
+        "Hỗ trợ hô hấp (Bromhexine/Acetylcysteine) nếu nhiều dịch nhầy."
       ]
     },
     "case_type_2": {
-      "description": "Heo nằm bẹp, thở bụng.",
+      "description": "Sốt kéo dài, thở khó, ho nặng dần hoặc có chết rải rác (nghi viêm phổi/bội nhiễm).",
       "guideline": [
-        "Điều trị tích cực",
-        "Bù điện giải liên tục",
-        "Tách ô khô, yên tĩnh"
+        "Cần thú y can thiệp ngay.",
+        "Đánh giá bội nhiễm để quyết định kháng sinh phù hợp theo thú y.",
+        "Tăng thông gió, giảm stress và khoanh vùng đàn bệnh."
       ]
     },
-    "note": "Cúm lan cực nhanh, thường bùng cả đàn."
+    "note": "Cúm heo thường bùng đồng loạt rất nhanh. Chăm sóc tốt giúp đàn hồi trong vài ngày, nhưng bội nhiễm mới là thứ làm chết — phải theo dõi sát dấu thở nặng dần."
   },
+
   "prevention": [
-    "Tiêm phòng cúm định kỳ",
-    "Giữ chuồng ấm và khô",
-    "Không trộn đàn"
+    "An toàn sinh học: kiểm soát người/xe ra vào, thay đồ – sát trùng khi vào chuồng.",
+    "Thông gió tốt, giảm mật độ, giảm bụi và khí độc.",
+    "Quản lý theo lứa tuổi (all-in all-out) để giảm lây chéo.",
+    "Giảm stress: cai sữa/ghép đàn hợp lý, tránh thay đổi đột ngột.",
+    "Tiêm phòng cúm heo theo chương trình thú y (nếu trại có triển khai)."
   ],
+
   "notes": [
-    "Heo khỏi cúm thường hồi nhanh nếu môi trường tốt.",
-    "Đợt cúm thường kéo dài 5-7 ngày trong đàn."
+    "Gợi ý cúm: sốt cao + ho mạnh + cả đàn bị nhanh trong thời gian ngắn.",
+    "Nếu chỉ có vài con ho kéo dài và sốt không nổi bật, cần nghĩ thêm viêm phổi do vi khuẩn/Mycoplasma."
   ],
+
   "disclaimer": "Ứng dụng chỉ mang tính tham khảo."
 }

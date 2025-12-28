@@ -42,8 +42,6 @@ const ANIMAL_ICONS: Record<string, string> = {
 const renderBullets = (items?: any) => {
   if (items == null) return null;
 
-  const arr: string[] = [];
-
   const toLabel = (key: string) => {
     const map: Record<string, string> = {
       description: "Mô tả tình trạng",
@@ -53,48 +51,70 @@ const renderBullets = (items?: any) => {
     return key.replace(/_/g, " ").replace(/-/g, " ");
   };
 
-  const pushValue = (value: any) => {
-    if (value == null) return;
-    if (Array.isArray(value)) {
-      value.forEach((v) => pushValue(v));
-    } else if (
-      typeof value === "string" ||
-      typeof value === "number" ||
-      typeof value === "boolean"
-    ) {
-      const text = String(value).trim();
-      if (text) arr.push(text);
+  // Chuẩn hoá value -> string[]
+  const toStringArray = (value: any): string[] => {
+    if (value == null) return [];
+    if (Array.isArray(value)) return value.flatMap((v) => toStringArray(v));
+    if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+      const t = String(value).trim();
+      return t ? [t] : [];
     }
+    // object lạ -> bỏ qua (hoặc stringify nếu muốn)
+    return [];
   };
 
-  if (
-    typeof items === "string" ||
-    typeof items === "number" ||
-    typeof items === "boolean"
-  ) {
-    pushValue(items);
-  } else if (Array.isArray(items)) {
-    pushValue(items);
-  } else if (typeof items === "object") {
-    Object.entries(items).forEach(([key, value]) => {
-      const label = toLabel(key);
-      arr.push(label + ":");
-      pushValue(value);
-    });
+  const renderBulletList = (lines: string[]) => {
+    if (!lines.length) return null;
+    return (
+      <View>
+        {lines.map((t, idx) => (
+          <Text key={`${idx}-${t}`} style={styles.bulletText}>
+            • {t}
+          </Text>
+        ))}
+      </View>
+    );
+  };
+
+  // Case 1: items là string/number/bool => render bullet 1 dòng
+  if (typeof items === "string" || typeof items === "number" || typeof items === "boolean") {
+    return renderBulletList([String(items).trim()].filter(Boolean));
   }
 
-  if (arr.length === 0) return null;
+  // Case 2: items là array => render bullet list
+  if (Array.isArray(items)) {
+    return renderBulletList(toStringArray(items));
+  }
 
-  return (
-    <View style={{ marginTop: 4 }}>
-      {arr.map((item, idx) => (
-        <Text key={idx} style={styles.bulletText}>
-          {"\u2022"} {item}
-        </Text>
-      ))}
-    </View>
-  );
+  // Case 3: items là object (đây là severe_case_treatment case_type_x)
+  if (typeof items === "object") {
+    const obj = items as Record<string, any>;
+
+    const preferredOrder = ["description", "guideline"];
+    const restKeys = Object.keys(obj).filter((k) => !preferredOrder.includes(k));
+
+    const keys = [...preferredOrder.filter((k) => k in obj), ...restKeys];
+
+    return (
+      <View>
+        {keys.map((key) => {
+          const lines = toStringArray(obj[key]);
+          if (!lines.length) return null;
+
+          return (
+            <View key={key}>
+              <Text style={styles.subLabel}>{toLabel(key)}</Text>
+              {renderBulletList(lines)}
+            </View>
+          );
+        })}
+      </View>
+    );
+  }
+
+  return null;
 };
+
 
 const SYMPTOMATIC_GROUP_LABELS: Record<string, string> = {
   antiinflammatory: "Kháng viêm - giảm đau",
@@ -751,6 +771,18 @@ const styles = StyleSheet.create({
     marginBottom: 4,
     marginTop: spacing.sm,
   },
+
+  subLabel: {
+  textTransform: "uppercase",
+  fontWeight: "500",
+  fontSize: 13,
+  color: "#111827",
+  letterSpacing: 0.6,
+  marginLeft: 14,
+  marginTop: 12,
+  marginBottom: 6,
+},
+
   dosePolicyText: {
     marginTop: spacing.sm,
     fontSize: 13,

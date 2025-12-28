@@ -4,7 +4,7 @@
     "name": "Nhiễm ký sinh trùng máu Babesia",
     "group": "blood_parasite",
     "severityLevel": 3,
-    "searchText": "Sốt cao, bỏ ăn đột ngột Niêm mạc nhợt hoặc vàng nhạt Tai và bụng tích máu, đỏ bầm Thở nhanh, mệt nhiều Nước tiểu sậm màu Gầy nhanh trong 1-2 ngày Một số con chết đột ngột Ăn kém nhẹ Niêm mạc hơi nhạt Mệt ít Sốt cao Niêm mạc vàng nhạt rõ Thở nhanh Gầy sút nhanh Đứng không vững Khó thở nặng Nước tiểu rất sậm Nguy cơ tử vong cao"
+    "searchText": "Sốt cao, bỏ ăn đột ngột Niêm mạc nhợt hoặc vàng nhạt Tai và bụng tích máu, đỏ bầm Thở nhanh, mệt nhiều Nước tiểu sẫm màu (đỏ nâu) do tan máu. Gầy nhanh trong 1-2 ngày Một số con chết đột ngột Ăn kém nhẹ Niêm mạc hơi nhạt Mệt ít Sốt cao Niêm mạc vàng nhạt rõ Thở nhanh Gầy sút nhanh Đứng không vững Khó thở nặng Nước tiểu rất sậm Nguy cơ tử vong cao"
   },
   {
     "id": "trypanosoma",
@@ -18,7 +18,7 @@
     "name": "Nhiễm Anaplasma",
     "group": "blood_parasite",
     "severityLevel": 2,
-    "searchText": "Ăn kém và lớn chậm kéo dài Niêm mạc nhợt, đôi khi vàng nhẹ Sốt nhẹ hoặc không sốt Heo mệt âm ỉ, ít vận động Gầy dần theo thời gian Một số con da nhăn, lông xỉu Ăn kém nhẹ Niêm mạc hơi nhạt Tăng trưởng chậm Niêm mạc vàng nhẹ Mệt rõ, ít vận động Sút cân Lông xỉu, da nhăn Thiếu máu nặng Đứng lâu mỏi, nằm nhiều Mệt nhiều Nguy cơ nhiễm khuẩn kế phát"
+    "searchText": "Heo ăn kém, chậm lớn rõ rệt. Niêm mạc nhợt nhạt hoặc vàng nhẹ. Gầy dần dù không có biểu hiện bệnh rầm rộ. Có thể sốt nhẹ hoặc không sốt. Ít đáp ứng với kháng sinh thông thường. Ăn giảm nhẹ. Lớn chậm hơn đàn. Niêm mạc nhợt rõ. Gầy thấy rõ. Thiếu máu nặng. Vàng da, vàng mắt. Heo yếu, nằm nhiều."
   },
   {
     "id": "eperythrozoon",

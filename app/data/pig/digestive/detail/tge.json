@@ -64,7 +64,7 @@
     "note_drugs": [
       "TGE là bệnh do virus: không có kháng sinh nào trị đúng TGE. Trọng tâm là cứu mất nước và chống chết lạnh, đặc biệt với heo con.",
       "Ưu tiên số 1: Oresol + Glucose (bù nước – điện giải – năng lượng). Làm sớm thì sống, làm chậm thì tụt rất nhanh.",
-      "Pectin - Kaolin giúp bảo vệ niêm mạc ruột và làm phân ‘đỡ tóe’; Probiotic giúp ổn hệ vi sinh sau đợt tiêu chảy.",
+      "Pectin - Kaolin giúp bảo vệ niêm mạc ruột và làm phân 'đỡ tóe'; Probiotic giúp ổn hệ vi sinh sau đợt tiêu chảy.",
       "Than hoạt tính chỉ dùng như hỗ trợ khi ruột quá kích thích/phân quá hôi; tránh lạm dụng làm giảm ăn/bú thêm.",
       "Không tự ý dùng thuốc giảm đau – hạ sốt (Meloxicam/Flunixin/Paracetamol) khi heo đang mất nước nặng. Chỉ cân nhắc khi có sốt/đau rõ và con vẫn uống được.",
       "Kháng sinh chỉ cân nhắc khi nghi bội nhiễm vi khuẩn (sốt rõ kéo dài, phân hôi thối bất thường, viêm phổi kèm theo…). Dùng theo thú y để tránh dùng sai và làm loạn ruột."
@@ -101,7 +101,17 @@
           "Than hoạt tính (giải độc tiêu hoá)",
           "Enzyme tiêu hoá"
         ]
-      }
+      },
+      "stimulant": {
+  "main": "Caffeine",
+  "alternative": ["Camphor", "Nikethamide"],
+  "note": [
+    "Thuốc hồi sức - cấp cứu chỉ dùng khi con vật suy kiệt hoặc có nguy cơ tử vong.",
+    "Không dùng đại trà và không thay thế điều trị nguyên nhân.",
+    "Chỉ sử dụng khi có kinh nghiệm hoặc theo hướng dẫn thú y."
+  ]
+}
+
     },
 
     "supportive_care": [

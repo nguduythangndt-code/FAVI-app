@@ -32,27 +32,27 @@
     "name": "Dịch tả heo cổ điển (CSF)",
     "group": "other",
     "severityLevel": 3,
-    "searchText": "Sốt cao, bỏ ăn Da đỏ tím, xuất huyết điểm Tiêu chảy hôi, có thể lẫn máu Run, co giật, đi vòng Heo nái sảy thai, thai khô Chết rải rác hoặc bùng phát Sốt, ăn giảm Lờ đờ Tiêu chảy Xuất huyết da Run Co giật, liệt Tiêu chảy máu Chết nhanh"
+    "searchText": "Sốt cao kéo dài. Bỏ ăn, lờ đờ, nằm nhiều. Xuất huyết điểm dưới da. Tiêu chảy, có thể lẫn máu. Run rẩy, đi loạng choạng. Heo con chết nhanh. Sốt, ăn giảm Lờ đờ Tiêu chảy Xuất huyết da Run Co giật, liệt Tiêu chảy máu Chết nhanh"
   },
   {
     "id": "fmd",
     "name": "Lở mồm long móng (FMD)",
     "group": "other",
     "severityLevel": 3,
-    "searchText": "Sốt, bỏ ăn Chảy nước dãi, lở loét miệng Mụn nước ở kẽ móng, đi cà nhắc Nằm nhiều, đau chân Heo con có thể chết nhanh do viêm cơ tim Sốt nhẹ Ăn giảm, chảy dãi Loét miệng rõ Đi khập khiễng Nhiễm trùng vết loét Heo con chết nhanh"
+    "searchText": "Sốt cao đột ngột. Xuất hiện mụn nước ở miệng, lưỡi, lợi. Chảy nước dãi nhiều, khó ăn. Mụn nước, vết loét ở móng và kẽ móng. Đi khập khiễng, nằm nhiều. Heo con có thể chết do suy kiệt. Sốt nhẹ Ăn giảm Mụn nước nhỏ Loét miệng rõ Đi lại khó Chảy dãi nhiều Loét nặng, bội nhiễm Bong móng Suy kiệt, chết"
   },
   {
     "id": "streptococcus-suis",
     "name": "Liên cầu khuẩn Streptococcus suis",
     "group": "other",
     "severityLevel": 3,
-    "searchText": "Sốt, bỏ ăn Run, đi vòng, nghiêng đầu Co giật, nằm chèo chân Khớp sưng đau, đi cà nhắc Có thể chết đột ngột Sốt, lờ đờ Ăn giảm Run, đi loạng choạng Khớp sưng Co giật, liệt Chết nhanh do nhiễm trùng huyết"
+    "searchText": "Sốt cao đột ngột. Bỏ ăn, lờ đờ. Run rẩy, đi loạng choạng. Nghiêng đầu, quay vòng, co giật. Viêm khớp, đi khập khiễng. Có thể chết nhanh không kịp biểu hiện rõ. Sốt, lờ đờ Ăn giảm Run, đi loạng choạng Khớp sưng Co giật, liệt Chết nhanh do nhiễm trùng huyết"
   },
   {
     "id": "erysipelas",
     "name": "Đóng dấu lợn (Erysipelas)",
     "group": "other",
     "severityLevel": 3,
-    "searchText": "Sốt cao, bỏ ăn Da đỏ tím từng mảng, hình thoi Heo đứng run, yếu Khớp đau, đi khập khiễng Có thể chết nhanh Sốt, ăn giảm Mảng đỏ da rõ Khớp đau Nằm liệt, khó thở Chết do nhiễm trùng huyết"
+    "searchText": "Sốt cao đột ngột. Xuất hiện mảng đỏ hình thoi (đóng dấu) trên da. Heo bỏ ăn, lờ đờ. Đi lại khó, viêm khớp. Trường hợp nặng: chết nhanh. Sốt nhẹ Mảng đỏ da ít Ăn giảm Sốt cao Đóng dấu rõ trên da Đi lại khó Nhiễm trùng huyết Viêm tim, viêm khớp nặng Chết nhanh"
   }
 ]

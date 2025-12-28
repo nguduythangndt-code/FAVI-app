@@ -11,14 +11,14 @@
     "name": "Giun lươn",
     "group": "parasite",
     "severityLevel": 2,
-    "searchText": "Tiêu chảy từng đợt, phân nhầy Heo ngứa nhẹ, hay cọ mình vào tường Chậm lớn, bụng tóp Lông dựng, ít chạy nhảy Heo con uống sữa ít và hay nằm Phân hơi nhầy Heo cọ nhẹ Tiêu chảy nhầy kéo dài Heo con lớn chậm rõ Tiêu chảy nhiều lần Heo rất gầy, da nhăn Mệt và ít bú (ở heo con)"
+    "searchText": "Tiêu chảy nặng, phân lỏng hoặc nước. Mất nước nhanh, heo con gầy rộc. Niêm mạc nhợt, thiếu máu. Chậm bú, yếu dần. Tỷ lệ chết cao nếu không can thiệp sớm. Tiêu chảy nhẹ Ăn bú kém Tiêu chảy nhiều Gầy nhanh Mất nước Suy kiệt Mất nước nặng Chết nhanh"
   },
   {
     "id": "trichuris",
     "name": "Giun tóc",
     "group": "parasite",
     "severityLevel": 1,
-    "searchText": "Tiêu chảy kéo dài, phân nhầy có máu Heo gầy nhanh, lông xỉu Chậm lớn, bụng tóp Heo nằm nhiều, ít chạy nhảy Mất nước nhẹ kéo dài Phân hơi nhầy Heo giảm ăn nhẹ Tiêu chảy nhầy máu Gầy rõ, lông xấu Tiêu chảy kéo dài nhiều ngày Phân có máu đỏ hoặc sẫm Heo rất gầy, mất nước"
+    "searchText": "Tiêu chảy kéo dài. Phân nhầy, đôi khi lẫn máu. Heo gầy, chậm lớn. Ăn kém. Dễ thiếu máu nếu nhiễm nặng. Tiêu chảy nhẹ Chậm lớn Tiêu chảy kéo dài Gầy rõ Ăn kém Tiêu chảy nặng, phân máu Thiếu máu Suy kiệt"
   },
   {
     "id": "lungworm",
@@ -46,7 +46,7 @@
     "name": "Sán dây",
     "group": "parasite",
     "severityLevel": 2,
-    "searchText": "Chậm lớn kéo dài Phân sống, có thể thấy đốt sán trắng Heo ăn nhiều nhưng không tăng cân Lông xỉu, da nhạt Thiếu máu nhẹ nếu nhiễm nặng Chậm lớn nhẹ Phân đôi lúc hơi sống Phân sống rõ, tăng trọng kém Có thể thấy đốt sán theo phân Heo rất chậm lớn Gầy, lông xấu Thiếu máu nhẹ kéo dài"
+    "searchText": "Heo gầy, chậm lớn dù ăn bình thường. Lông xù, thể trạng kém. Tiêu hóa thất thường. Có thể thấy đốt sán trong phân. Dễ mắc bệnh kế phát do suy nhược. Chậm lớn Ăn kém nhẹ Gầy rõ Tiêu hóa kém Suy kiệt Thiếu dinh dưỡng kéo dài Giảm sức đề kháng"
   },
   {
     "id": "liver_fluke",
